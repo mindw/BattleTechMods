@@ -1,0 +1,13 @@
+{
+	"Name": "Increase Max Camera Zoom Distance",
+	"Version": "0.2",
+	"Description": "A little mod to increase camera zoom levels.",
+	"Author": "Souma",
+	"Website": "https://www.nexusmods.com/battletech/mods/503",
+	"Manifest": [
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "Camera"
+		}
+	]
+}

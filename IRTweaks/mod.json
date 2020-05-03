@@ -1,0 +1,77 @@
+{
+    "Name": "IRTweaks",
+    "Enabled": true,
+    "Version": "0.6.5",
+    "Description": "Miscellaneous Tweaks and Fixes",
+    "Author": "IceRaptor",
+    "Website": "https://github.com/IceRaptor/IRTweaks",
+    "Contact": "",
+    "DLL": "IRTweaks.dll",
+    "DependsOn" : [ "IRBTModUtils" ],
+    "Settings": {
+        "Debug" : false,
+        "Trace" : false,
+        "Fixes" : {
+            "BulkPurchasing" : true,
+            "CombatLog" : false,
+            "DisableCampaign" : false,
+            "DisableCombatSaves" : false,
+            "ExtendedStats" : true,
+            "FlexibleSensorLock" : true,
+            "MultiTargetStat" : false,
+	        "AlternateMechNamingStyle" : false,
+            "PainTolerance" : false,
+            "PathfinderTeamFix" : true,
+            "PreventHeadShots" : false,
+            "RandomStartByDifficulty" : true,
+            "ReduceSaveCompression" : false,
+            "ShowAllArgoUpgrades" : false,
+            "SkirmishAlwaysUnlimited" : true,
+            "SkirmishReset" : true,
+            "SkipDeleteSavePopup" : true,
+            "SpawnProtection" : true,
+            "StreamlinedMainMenu" : true,
+            "WeaponTooltip" : false,
+        },
+        "Abilities" : {
+            "MultiTargetId" : "AbilityDefG5"
+        },
+        "Combat" : {
+            "PilotAttributesMax" : 14,
+            "CalledShot" : {
+                "Modifier" : 9,
+                "PilotTags" : { 
+                    "pilot_drunk": -2,
+                    "pilot_reckless" : -1,
+                    "pilot_assassin" : 2
+                }
+            },
+            "FlexibleSensorLock" : {
+                "FreeActionWithAbility" : true,
+                "AbilityId" : "AbilityDefT8A"
+            },
+            "PainTolerance" : {
+                "ResistPerGuts" : 10,
+                "PenaltyPerHeadDamage" : 5,
+                "PenaltyPerAmmoExplosionRatio" : 1,
+                "PenaltyPerHeatDamageInjuryRatio" : 1,
+                "KnockdownDamage" : 6,
+                "ShutdownDamage" : 12, 
+                "TorsoDestroyedDamage" : 10,
+                "HeadHitArmorOnlyMulti" : 0.5
+            },
+            "SpawnProtection" : {
+                "ApplyGuard" : true,
+                "EvasionPips" : 6,
+                "ApplyToEnemies" : true,
+                "ApplyToAllies" : true,
+                "ApplyToNeutrals" : true,
+                "ApplyToReinforcements" : true
+            }
+        },
+        "Store" : {
+            "QuantityOnShift" : 5,
+            "QuantityOnControl" : 20
+        }
+    }
+}

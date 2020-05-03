@@ -1,0 +1,27 @@
+{
+    "Name": "cFixes2",
+    "Enabled": true,
+
+    "Version": "1.9.1.1",
+
+    "DependsOn": [],
+    "ConflictsWith": [],
+
+    "Manifest": [
+
+    { "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
+    { "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
+    { "Path": "eventsMerge", "Type": "AdvancedJSONMerge" },
+    { "Type": "FlashpointDef", "Path": "flashpoints", "AddToDB": true },
+    { "Type": "HardpointDataDef", "Path": "hardpoints" },
+    { "Path": "hardpointsMerge", "Type": "AdvancedJSONMerge" },
+    { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+    { "Type": "MechDef", "Path": "mech", "AddToDB": true },
+    { "Path": "milestoneMerge", "Type": "AdvancedJSONMerge" },
+    { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
+    { "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+    { "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
+    { "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
+    { "Path": "weaponsMerge", "Type": "AdvancedJSONMerge" }
+    ]
+}

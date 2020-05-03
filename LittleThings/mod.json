@@ -1,0 +1,51 @@
+{
+    "Name": "LittleThings",
+    "Enabled": true,
+
+    "Version": "1.9.1-003R",
+    "Description": "Fix some little annoyances and change minor things.",
+    "Author": "Mad",
+
+    "DLL": "LittleThings.dll",
+
+    "Settings": {
+        "MoraleFixes": true,
+        "FixUIInventoryItems": true,
+        "FixUIHeraldryScreen": true,
+        "FixUIEquipmentTooltips": true,
+        "FixUIMainNavigation": true,
+        "DisableTutorials": true,
+        "DisableSimGameCharHighlights": true,
+        "InjuryFixes": false,
+        "FixInspire": true,
+        "FixIconOverlayAAR": false,
+        "FixCombatHUDPortraitRightClick": true,
+        "FixCoilPreviews": true,
+        "FixRepairNotification": true,
+        "FixTaurianReputationPostCampaign": true,
+        "FixStatTooltipFirepower": true,
+        "ExpandStatTooltipDurability": true,
+        "TrainingNotificationLimit": 4,
+        "FixInterleavedDropouts": true,
+
+        "ShowEnemyInjuries": true,
+        "SmallCombatFloaties": true,
+
+        "ShowAbilityTooltips": true,
+        "ContractsTakeTime": false,
+
+        "EnableStockMechReferenceViaMechDefDescriptionModel": true,
+
+        "EnableSpawnProtection": false,
+
+        "EnableLanceConfigurationByTags": true,
+
+        "AdjustMechPartCost": false,
+        "AdjustMechPartCostMultiplier": 0.8,
+
+        "ReserveEnable": false,
+        "ReserveBasePercentage": 25,
+
+        "DFAsRemoveEntrenched": true
+    }
+}

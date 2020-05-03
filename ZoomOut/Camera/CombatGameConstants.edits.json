@@ -1,0 +1,19 @@
+ /* 
+	Just changing a few camera settings
+  */
+{
+	"TargetID": "CombatGameConstants",
+    "Instructions": [
+		{
+			"JSONPath": "CameraConstants",
+			"Action": "ObjectMerge",
+			"Value": {
+		//		"MaxSpeed": 40.0,						// 30.0 Max Camera movement speed
+		//		"MovementCamTime" : 0 					// 1.25 how long it takes to zoom to moving enemy. 0  = snap to enemy?
+				"ZoomSpeed": 5000.0,				 	// 1500.0 How fast the camera zooms in and out, under player control
+				"MaxHeightAboveTerrain": 1020.0			// 520.0 
+ 
+			}
+		}
+	]
+}

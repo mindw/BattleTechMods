@@ -1,0 +1,25 @@
+{
+    "Name": "CABMechs",
+    "Enabled": true,
+
+    "DependsOn": [ "CommunityBundles" ],
+
+    "Version": "0.1",
+    
+    "OptionallyDependsOn": [],
+
+    "Description": "Making use of the Community Asset Bundle, this folder some all the 3025-ish era variants for Vanilla in one place - includes Wolfhound, Urbie R50, Assassin, Marauder II, Charger, Champion, Longbow, Nightstar.  It then adds 'Mechs from the TRO 3028 such as Linesman, Jayhawker, Nightstar and Loader King variants.",
+    "Author": "Grizzly_nyo, based on the work of Justin Kase and others",
+    
+    "Manifest": [
+        { "Type": "Sprite", "Path": "portraits" },
+        { "Type": "MovementCapabilitiesDef", "Path": "movement", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "HardpointDataDef", "Path": "hardpoints" },
+        { "Type": "ItemCollectionDef", "Path": "itemCollectionDefsAppend", "ShouldAppendText": true },
+        { "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
+        { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true },
+        { "Type": "VehicleDef", "Path": "vehicle" }, 
+        { "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": false, "AddToDB": true }
+    ]
+}

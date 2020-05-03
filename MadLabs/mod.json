@@ -1,0 +1,18 @@
+{
+  "Name": "MadLabs",
+  "Enabled": false,
+
+  "Version": "1.8.1-002b",
+  "Description": "Campaign MechLab features save/load of mech definitions as well as a reset to stock loadout.",
+  "Author": "Mad",
+	
+  "DLL": "MadLabs.dll",
+
+  "Settings": {
+    "SpawnInventory": false
+  },
+
+  "Manifest": [
+    { "Type": "MechDef", "Path": "MechDefs\\" },
+  ]
+}

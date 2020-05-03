@@ -1,0 +1,9 @@
+{
+   "Story" : {
+       "FriendlyMaxContractDifficulty" : 6,
+       "HonoredMaxContractDifficulty" : 6
+   }, 
+   "CareerMode" : {
+        "HonoredMaxContractDifficulty" : 14
+   }
+}

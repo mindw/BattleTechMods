@@ -1,0 +1,34 @@
+{
+    "Name": "KingCrabRoyal",
+    "Author": "Gabi Davar",
+    "Enabled": true,
+    
+    "Version": "0.8",
+    "BattleTechVersionMin": "1.9.1",
+
+    "DependsOn": [ 
+        "CommunityBundles", 
+        "StreakMissileLaunchers"
+    ],
+
+    "OptionallyDependsOn": [
+        "cFixes2",
+        "CABMechs"
+    ],
+    
+    "ConflictsWith": [],
+
+    "Manifest": [
+        { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+        { "Type": "MechDef", "Path": "mech", "AddToDB": true },
+        { "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false, "AddToDB": true  },
+        { "Type": "MovementCapabilitiesDef", "Path": "movement" },
+        { "Type": "HardpointDataDef", "Path": "hardpoints" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefsAppend", "ShouldAppendText": true },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs" },
+        {
+            "Type": "AdvancedJSONMerge",
+            "Path": "StarSystemDefs"
+        }        
+    ]
+}

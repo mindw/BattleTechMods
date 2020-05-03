@@ -1,0 +1,11 @@
+{
+	"Name": "BattletechPerformanceFix",
+	"Author": "m22spencer",
+	"Hidden": false,
+	"Website": "https://github.com/m22spencer/BattletechPerformanceFix",
+
+	"DependsOn": [],
+	"DLL": "BattletechPerformanceFix.dll",
+	"DLLEntryPoint": "BattletechPerformanceFix.Main.Start",
+    "Enabled": true
+}

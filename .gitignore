@@ -1,0 +1,7 @@
+.modtek/
+ModTek/
+CommunityAssets/
+cleaned_output_log.txt
+output_log.txt
+/ScorchedEarth/Saves/
+*.log

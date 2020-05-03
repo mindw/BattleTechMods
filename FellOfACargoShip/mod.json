@@ -1,0 +1,14 @@
+{
+    "Name": "FellOffACargoShip",
+    "Enabled": true,
+
+    "Version": "1.9.1-001R",
+    "Description": "Add Mechs, Components & Funds to your inventory.",
+    "Author": "Mad",
+
+    "DLL": "FellOffACargoShip.dll",
+
+    "Settings": {
+        "AddMechsSilently": false
+    }
+}

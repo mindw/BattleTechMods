@@ -8,7 +8,7 @@
 		"Rarity" : 4,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_PARTISAN",
+	"MovementCapDefID" : "movedef_3-5cv",
    	"PathingCapDefID" : "pathingdef_assault_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_partisan",
 	"PrefabIdentifier" : "chrprfvhcl_partisanbase",

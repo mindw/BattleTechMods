@@ -8,7 +8,7 @@
 		"Rarity" : 2,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_VEDETTE",
+	"MovementCapDefID" : "movedef_5-8cv",
    	"PathingCapDefID" : "pathingdef_medium_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_vedette",
 	"PrefabIdentifier" : "chrprfvhcl_vedettebase",

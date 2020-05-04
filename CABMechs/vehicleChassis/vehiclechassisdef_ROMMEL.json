@@ -8,7 +8,7 @@
 		"Rarity" : 1,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_ROMMEL",
+	"MovementCapDefID" : "movedef_4-6cv",
    	"PathingCapDefID" : "pathingdef_heavy_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_demolisher",
 	"PrefabIdentifier" : "chrPrfVhcl_demolisher",

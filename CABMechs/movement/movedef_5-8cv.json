@@ -1,12 +1,12 @@
 {
    "Description" : {
-      "Id" : "movedef_PARTISAN",
-      "Name" : "MovementCapabilitiesDef for Partisan",
+      "Id" : "movedef_5-8cv",
+      "Name" : "MovementCapabilitiesDef for 86kph, 5/8 Tanks",
       "Details" : "",
       "Icon" : ""
    },
-   "MaxWalkDistance" : 95.0,
-   "MaxSprintDistance" : 165.0,
+   "MaxWalkDistance" : 140.0,
+   "MaxSprintDistance" : 240.0,
    "WalkVelocity" : 20.0,
    "RunVelocity" : 28.0,
    "SprintVelocity" : 31.0,

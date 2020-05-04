@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_MERKAVA",
+	"MovementCapDefID" : "movedef_4-6cv",
    	"PathingCapDefID" : "pathingdef_heavy_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_merkava",
 	"PrefabIdentifier" : "chrprfvhcl_merkavabase",

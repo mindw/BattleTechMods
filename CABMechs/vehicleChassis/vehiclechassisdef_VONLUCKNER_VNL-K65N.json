@@ -8,7 +8,7 @@
 		"Rarity" : 1,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_VONLUCKNER",
+	"MovementCapDefID" : "movedef_3-5cv",
    	"PathingCapDefID" : "pathingdef_heavy_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_vonluckner",
 	"PrefabIdentifier" : "chrprfvhcl_vonluckner",

@@ -8,7 +8,7 @@
 		"Rarity" : 5,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_HETZER",
+	"MovementCapDefID" : "movedef_4-6cv",
 	"PathingCapDefID" : "pathingdef_medium_wheeled",
 	"HardpointDataDefID" : "hardpointdatadef_hetzer",
 	"PrefabIdentifier" : "chrprfvhcl_hetzerbase",

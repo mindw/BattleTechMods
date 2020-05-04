@@ -8,7 +8,7 @@
 		"Rarity" : 1,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_GOBLIN",
+	"MovementCapDefID" : "movedef_4-6cv",
    	"PathingCapDefID" : "pathingdef_medium_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_goblin",
 	"PrefabIdentifier" : "chrprfvhcl_goblinbase",

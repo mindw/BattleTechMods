@@ -8,7 +8,7 @@
 		"Rarity" : 1,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_TOKUGAWA",
+	"MovementCapDefID" : "movedef_4-6cv",
    	"PathingCapDefID" : "pathingdef_heavy_wheeled",
    	"HardpointDataDefID" : "hardpointdatadef_demolisher",
 	"PrefabIdentifier" : "chrPrfVhcl_demolisher",

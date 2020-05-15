@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate" : "2608-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
@@ -46,8 +47,8 @@
             "unit_ext_rare_HouseNakano",
             "unit_ext_rare_HouseKhulan",
             "unit_very_rare_HostileMercenaries",
-            "unit_very_rare_NoFaction"
-        ],
+            "unit_very_rare_NoFaction" 
+            ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_clint_CLNT-2-3T",

@@ -14,8 +14,8 @@
     "MovementCapDefID": "movedef_merlin_MLN-1A",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_merlin",
-    "PrefabIdentifier": "chrprfmech_nightgyrbase-001",
-    "PrefabBase": "nightgyr",
+    "PrefabIdentifier": "chrprfmech_merlinbase-001",
+    "PrefabBase": "merlin",
     "Tonnage": 60,
     "InitialTonnage": 23.5,
     "weightClass": "HEAVY",
@@ -204,7 +204,7 @@
     "VariantName": "MLN-1A",
     "ChassisTags": {
         "items": [
-			"mr-resize-0.97-0.87-0.87"
+			"mr-resize-0.95-0.95-0.95"
 		],
         "tagSetSourceFile": ""
     },

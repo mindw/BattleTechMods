@@ -125,8 +125,18 @@ them your mech bay.
 * CASE (+1.0 armor on L/R torso)
 * InitialTonnage 23.5 = 3[ENIS] + 15.5[E] + 3[C] + 3[G] -1[FF]
 
+# DV-6Md Dervish
+* SL Davion
+* InitialTonnage 21.5 = 5.5[IS] + 8.0[EXL] + 3[C] + 3[G] + 1[EHS]
+
+# BL-6b-KNT Black Knight
+* Revised from stock
+* SLDF Royal
+* Endo steel
+* Double heatsinks
+* InitialTonnage 31 = 4.0[ENIS] + 19.0[E] + 3[C] + 3[G] + 2[EDHS]
+
 # TODO
-* DV-6Md Dervish
 * STG-3Gb Stinger
 * MON-66b Mongoose
 * OTT-7Jb Ostscout

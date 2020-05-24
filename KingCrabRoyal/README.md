@@ -127,6 +127,7 @@ them your mech bay.
 
 # DV-6Md Dervish
 * SL Davion
+* CASE (+0.5 armor on L/R torso)
 * InitialTonnage 21.5 = 5.5[IS] + 8.0[EXL] + 3[C] + 3[G] + 1[EHS]
 
 # BL-6b-KNT Black Knight
@@ -134,16 +135,28 @@ them your mech bay.
 * SLDF Royal
 * Endo steel
 * Double heatsinks
+* Beagle probe
 * InitialTonnage 31 = 4.0[ENIS] + 19.0[E] + 3[C] + 3[G] + 2[EDHS]
 
+# STG-3Gb Stinger
+* SLDF Royal
+* Endo steel
+* Double heatsinks
+* InitialTonnage 8.5 = 1.0[ENIS] + 2.5[EXL] + 3[C] + 2[G]
+
+# HSR-200db Hussar
+* SLDF Royal
+* Double heatsinks
+* FF armor (-1 initial tonnage, +1 armor)
+* InitialTonnage 16.5 = 3.0[IS] + 7.5[EXL] + 3[C] + 3[G] - 1.0[FF]
+
 # TODO
-* STG-3Gb Stinger
 * MON-66b Mongoose
 * OTT-7Jb Ostscout
 * OST-2Cb Ostroc
 * OWR-2Mb Ostwar
-* HSR-200db Hussar
 * EMP-6A Emperor
+* STN-3Lb Sentinel
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532
 [BattleTech Save Editor]: https://www.nexusmods.com/battletech/mods/408

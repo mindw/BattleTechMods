@@ -1,20 +1,20 @@
 {
 	"Description" : {
-		"Id" : "vehiclechassisdef_PATTON",
-		"Name" : "Patton",
+		"Id" : "vehiclechassisdef_STURMFEUR_SRM",
+		"Name" : "Sturmfeur SRM",
 		"Details" : "",
 		"Icon" : "MANTICORE",
 		"Cost" : 973,
 		"Rarity" : 1,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_4-6cv",
-   	"PathingCapDefID" : "pathingdef_heavy_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_rommel",
-	"PrefabIdentifier" : "chrPrfVhcl_rommel",
-	"PrefabBase" : "rommel",
-	"Tonnage" : 65,
-	"weightClass" : "HEAVY",
+	"MovementCapDefID" : "movedef_3-5cv",
+   	"PathingCapDefID" : "pathingdef_assault_tracked",
+   	"HardpointDataDefID" : "hardpointdatadef_demolisher",
+	"PrefabIdentifier" : "chrPrfVhcl_demolisher",
+	"PrefabBase" : "demolisher",
+	"Tonnage" : 85,
+	"weightClass" : "ASSAULT",
 	"BattleValue" : 973,
 	"TopSpeed" : 85,
 	"TurnRadius" : 90,
@@ -68,43 +68,41 @@
 			"Location" : "Front",
 			"Hardpoints" : [
 				{
-					"WeaponMount" : "AntiPersonnel",
+					"WeaponMount" : "Missile",
 					"Omni" : false
 				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"MaxArmor" : 330,
+			"InternalStructure" : 45
 		},
 		{
 			"Location" : "Left",
-			"Hardpoints" : [],
+			"Hardpoints" : [
+			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"MaxArmor" : 330,
+			"InternalStructure" : 45
 		},
 		{
 			"Location" : "Right",
-			"Hardpoints" : [],
+			"Hardpoints" : [
+			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"MaxArmor" : 330,
+			"InternalStructure" : 45
 		},
 		{
 			"Location" : "Rear",
 			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 190,
-			"InternalStructure" : 35
+			"MaxArmor" : 240,
+			"InternalStructure" : 45
 		},
 		{
 			"Location" : "Turret",
@@ -114,14 +112,34 @@
 					"Omni" : false
 				},
 				{
-					"WeaponMount" : "Ballistic",
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "AntiPersonnel",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "AntiPersonnel",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "AntiPersonnel",
 					"Omni" : false
 				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"MaxArmor" : 330,
+			"InternalStructure" : 45
 		}
 	]
 }

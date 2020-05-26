@@ -1,15 +1,15 @@
 {
   "Version": 1,
   "Description": {
-    "Id": "vehicledef_ONTOS",
-    "Name": "Ontos",
+    "Id": "vehicledef_ONTOS_FUSION",
+    "Name": "Ontos Fusion",
     "Details": "",
     "Icon": "",
     "Cost": 973,
     "Rarity": 1,
     "Purchasable": false
   },
-  "ChassisID": "vehiclechassisdef_ONTOS",
+  "ChassisID": "vehiclechassisdef_ONTOS_FUSION",
   "VehicleTags": {
     "items": [
       "unit_vehicle",
@@ -18,24 +18,27 @@
       "unit_range_medium",
       "unit_armor_low",
       "unit_release",
-      "Liao",
-      "Marik",
-      "unit_uncommon",
-      "unit_rare_Davion",
-      "unit_common_Liao",
-      "unit_common_Marik",
-      "unit_rare_Steiner",
-      "unit_rare_Kurita",
-      "unit_very_rare_MagistracyOfCanopus",
-      "unit_very_rare_TaurianConcordat",
+      "NotDavion",
+      "NotSteiner",
+      "NotKurita",
+      "NotMagistracyOfCanopus",
+      "NotTaurianConcordat",
+      "unit_ext_rare",
+      "unit_none_Davion",
+      "unit_very_rare_Liao",
+      "unit_rare_Marik",
+      "unit_ext_rare_Steiner",
+      "unit_none_Kurita",
+      "unit_none_MagistracyOfCanopus",
+      "unit_none_TaurianConcordat",
       "unit_none_AuriganDirectorate",
       "unit_none_AuriganRestoration",
       "unit_none_ComStar",
       "unit_none_MercenaryReviewBoard",
-      "unit_common_DuchyOfAndurien",
+      "unit_rare_DuchyOfAndurien",
       "unit_none_AuriganMercenaries",
       "unit_none_AuriganPirates",
-      "unit_uncommon_Locals",
+      "unit_ext_rare_Locals",
       "unit_none_Betrayers",
       "unit_none_MajestyMetals",
       "unit_none_KellHounds",
@@ -48,7 +51,7 @@
       "unit_none_RazorbackMercs",
       "unit_none_RedHareRegiment",
       "unit_none_EmeraldDawn",
-      "unit_common_SianTriumphant",
+      "unit_very_rare_SianTriumphant",
       "unit_none_BlackCalderaDefense",
       "unit_none_BlackCalderaDefense_Hidden",
       "unit_none_SecuritySolutionsInc",
@@ -65,50 +68,50 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 140,
+      "CurrentArmor": 200,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 140,
+      "AssignedArmor": 200,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 120,
+      "CurrentArmor": 175,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 120,
+      "AssignedArmor": 175,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 120,
+      "CurrentArmor": 175,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 120,
+      "AssignedArmor": 175,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 120,
+      "CurrentArmor": 170,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 120,
+      "AssignedArmor": 170,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 140,
+      "CurrentArmor": 200,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 140,
+      "AssignedArmor": 200,
       "DamageLevel": "Functional"
     }
   ],
   "inventory": [
     {
-      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "MountedLocation": "Turret",
       "HardpointSlot": 1,
@@ -171,6 +174,27 @@
       "DamageLevel": "Functional"
     },
     {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 10,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "MountedLocation": "Turret",
+      "HardpointSlot": 11,
+      "DamageLevel": "Functional"
+    },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "Front",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
       "ComponentDefType": "AmmunitionBox",
       "MountedLocation": "Front",
@@ -178,5 +202,5 @@
       "DamageLevel": "Functional"
     }
   ],
-  "MinAppearanceDate": "2832-01-01T00:00:00Z"
+  "MinAppearanceDate": "2863-01-01T00:00:00Z"
 }

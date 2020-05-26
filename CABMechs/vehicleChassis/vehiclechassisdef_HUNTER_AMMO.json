@@ -1,7 +1,7 @@
 {
 	"Description" : {
-		"Id" : "vehiclechassisdef_HUNTER",
-		"Name" : "Hunter",
+		"Id" : "vehiclechassisdef_HUNTER_AMMO",
+		"Name" : "Hunter Ammo",
 		"Details" : "",
 		"Icon" : "MANTICORE",
 		"Cost" : 993,
@@ -97,12 +97,7 @@
 		},
 		{
 			"Location" : "Rear",
-			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
 			"MaxArmor" : 80,

@@ -1,20 +1,20 @@
 {
 	"Description" : {
-		"Id" : "vehiclechassisdef_PATTON",
-		"Name" : "Patton",
+		"Id" : "vehiclechassisdef_ONTOS_FUSION",
+		"Name" : "Ontos Fusion",
 		"Details" : "",
 		"Icon" : "MANTICORE",
 		"Cost" : 973,
 		"Rarity" : 1,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_4-6cv",
-   	"PathingCapDefID" : "pathingdef_heavy_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_rommel",
-	"PrefabIdentifier" : "chrPrfVhcl_rommel",
-	"PrefabBase" : "rommel",
-	"Tonnage" : 65,
-	"weightClass" : "HEAVY",
+	"MovementCapDefID" : "movedef_3-5cv",
+   	"PathingCapDefID" : "pathingdef_assault_tracked",
+   	"HardpointDataDefID" : "hardpointdatadef_partisan",
+	"PrefabIdentifier" : "chrprfvhcl_partisanbase",
+	"PrefabBase" : "partisan",
+	"Tonnage" : 95,
+	"weightClass" : "ASSAULT",
 	"BattleValue" : 973,
 	"TopSpeed" : 85,
 	"TurnRadius" : 90,
@@ -67,44 +67,38 @@
 		{
 			"Location" : "Front",
 			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"MaxArmor" : 200,
+			"InternalStructure" : 50
 		},
 		{
 			"Location" : "Left",
-			"Hardpoints" : [],
+			"Hardpoints" : [
+			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"MaxArmor" : 175,
+			"InternalStructure" : 50
 		},
 		{
 			"Location" : "Right",
-			"Hardpoints" : [],
+			"Hardpoints" : [
+			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"MaxArmor" : 175,
+			"InternalStructure" : 50
 		},
 		{
 			"Location" : "Rear",
 			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 190,
-			"InternalStructure" : 35
+			"MaxArmor" : 170,
+			"InternalStructure" : 50
 		},
 		{
 			"Location" : "Turret",
@@ -114,14 +108,54 @@
 					"Omni" : false
 				},
 				{
-					"WeaponMount" : "Ballistic",
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
 					"Omni" : false
 				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"MaxArmor" : 200,
+			"InternalStructure" : 50
 		}
 	]
 }

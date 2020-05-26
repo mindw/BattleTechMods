@@ -1,24 +1,24 @@
-{
+ {
 	"Description" : {
-		"Id" : "vehiclechassisdef_BEHEMOTH",
-		"Name" : "Behemoth",
+		"Id" : "vehiclechassisdef_DRILLSON_SRM",
+		"Name" : "Drillson SRM",
 		"Details" : "",
 		"Icon" : "MANTICORE",
-		"Cost" : 973,
-		"Rarity" : 1,
+		"Cost" : 993,
+		"Rarity" : 3,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_2-3cv",
-   	"PathingCapDefID" : "pathingdef_assault_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_behemoth",
-	"PrefabIdentifier" : "chrprfvhcl_behemothbase",
-	"PrefabBase" : "behemoth",
-	"Tonnage" : 100,
-	"weightClass" : "ASSAULT",
-	"BattleValue" : 973,
-	"TopSpeed" : 85,
+	"MovementCapDefID" : "movedef_9-14cv",
+   	"PathingCapDefID" : "pathingdef_medium_tracked",
+   	"HardpointDataDefID" : "hardpointdatadef_sldfdrone",
+	"PrefabIdentifier" : "chrPrfVhcl_sldfdrone",
+	"PrefabBase" : "sldfdrone",
+	"Tonnage" : 50,
+	"weightClass" : "MEDIUM",
+	"BattleValue" : 993,
+	"TopSpeed" : 500,
 	"TurnRadius" : 90,
-	"movementType" : "Tracked",
+	"movementType" : "Wheeled",
 	"SpotterDistanceMultiplier" : 1,
     "VisibilityMultiplier" : 1,
     "SensorRangeMultiplier" : 1,
@@ -27,40 +27,40 @@
 	"LOSSourcePositions" : [
 		{
 		    "x" : 0,
-		    "y" : 3.5,
+		    "y" : 3,
 		    "z" : -0.5
 	    },
 		{
-		    "x" : 0,
+		    "x" : 0.0,
 		    "y" : 1.5,
-		    "z" : 4.5
+		    "z" : 3.5
 	    }
 	],
 	"LOSTargetPositions" : [
 		{
 		    "x" : 0,
-		    "y" : 3.5,
+		    "y" : 3,
 		    "z" : -0.5
 	    },
 		{
-		    "x" : 0,
+		    "x" : 0.0,
 		    "y" : 1.5,
-		    "z" : 4.5
+		    "z" : 3.5
 	    },
 		{
 		    "x" : -2,
-		    "y" : 3,
+		    "y" : 2.5,
 		    "z" : 0
 	    },
 		{
 		    "x" : 2,
-		    "y" : 3,
+		    "y" : 2.5,
 		    "z" : 0
 	    },
 		{
-		    "x" : 0,
-		    "y" : 2,
-		    "z" : -4.5
+		    "x" : 0.0,
+		    "y" : 1.6,
+		    "z" : -4.0
 	    }
 	],
 	"Locations" : [
@@ -90,88 +90,57 @@
 				{
 					"WeaponMount" : "AntiPersonnel",
 					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Missile",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Missile",
-					"Omni" : false
 				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 50
+			"MaxArmor" : 120,
+			"InternalStructure" : 25
 		},
 		{
 			"Location" : "Left",
-			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Missile",
-					"Omni" : false
-				}
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 190,
-			"InternalStructure" : 50
+			"MaxArmor" : 95,
+			"InternalStructure" : 25
 		},
 		{
 			"Location" : "Right",
-			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Missile",
-					"Omni" : false
-				}
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 190,
-			"InternalStructure" : 50
+			"MaxArmor" : 95,
+			"InternalStructure" : 25
 		},
 		{
 			"Location" : "Rear",
-			"Hardpoints" : [
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 200,
-			"InternalStructure" : 50
+			"MaxArmor" : 90,
+			"InternalStructure" : 25
 		},
-		{
+	  {
 			"Location" : "Turret",
 			"Hardpoints" : [
 				{
-					"WeaponMount" : "Ballistic",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Ballistic",
-					"Omni" : false
-				},
-				{
 					"WeaponMount" : "Missile",
 					"Omni" : false
 				},
 				{
 					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
 					"Omni" : false
 				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 50
+			"MaxArmor" : 120,
+			"InternalStructure" : 25
 		}
 	]
 }

@@ -1,24 +1,24 @@
 {
 	"Description" : {
-		"Id" : "vehiclechassisdef_HUNTER",
-		"Name" : "Hunter",
+		"Id" : "vehiclechassisdef_JEdgar_MG",
+		"Name" : "J Edgar MG",
 		"Details" : "",
 		"Icon" : "MANTICORE",
 		"Cost" : 993,
-		"Rarity" : 2,
+		"Rarity" : 3,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_5-8cv",
-   	"PathingCapDefID" : "pathingdef_light_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_bulldog",
-	"PrefabIdentifier" : "chrPrfVhcl_bulldog",
-	"PrefabBase" : "bulldog",
-	"Tonnage" : 35,
+	"MovementCapDefID" : "movedef_11-17cv",
+   	"PathingCapDefID" : "pathingdef_medium_tracked",
+   	"HardpointDataDefID" : "hardpointdatadef_jedgar",
+	"PrefabIdentifier" : "chrprfvhcl_jedgarbase",
+	"PrefabBase" : "jedgar",
+	"Tonnage" : 25,
 	"weightClass" : "LIGHT",
 	"BattleValue" : 993,
-	"TopSpeed" : 85,
+	"TopSpeed" : 500,
 	"TurnRadius" : 90,
-	"movementType" : "Tracked",
+	"movementType" : "Wheeled",
 	"SpotterDistanceMultiplier" : 1,
     "VisibilityMultiplier" : 1,
     "SensorRangeMultiplier" : 1,
@@ -67,15 +67,11 @@
 		{
 			"Location" : "Front",
 			"Hardpoints" : [
-				{
-					"WeaponMount" : "Missile",
-					"Omni" : false
-				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 160,
-			"InternalStructure" : 20
+			"MaxArmor" : 220,
+			"InternalStructure" : 15
 		},
 		{
 			"Location" : "Left",
@@ -83,8 +79,8 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 120,
-			"InternalStructure" : 20
+			"MaxArmor" : 200,
+			"InternalStructure" : 15
 		},
 		{
 			"Location" : "Right",
@@ -92,12 +88,37 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 120,
-			"InternalStructure" : 20
+			"MaxArmor" : 200,
+			"InternalStructure" : 15
 		},
 		{
 			"Location" : "Rear",
 			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 200,
+			"InternalStructure" : 15
+		},
+	  {
+			"Location" : "Turret",
+			"Hardpoints" : [
+				{
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "AntiPersonnel",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "AntiPersonnel",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "AntiPersonnel",
+					"Omni" : false
+				},
 				{
 					"WeaponMount" : "AntiPersonnel",
 					"Omni" : false
@@ -105,8 +126,8 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 80,
-			"InternalStructure" : 20
+			"MaxArmor" : 220,
+			"InternalStructure" : 15
 		}
 	]
 }

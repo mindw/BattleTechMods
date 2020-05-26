@@ -1,19 +1,19 @@
 {
 	"Description" : {
-		"Id" : "vehiclechassisdef_PATTON",
-		"Name" : "Patton",
+		"Id" : "vehiclechassisdef_BRUTUS_LRM",
+		"Name" : "Brutus LRM",
 		"Details" : "",
 		"Icon" : "MANTICORE",
 		"Cost" : 973,
 		"Rarity" : 1,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_4-6cv",
+	"MovementCapDefID" : "movedef_3-5cv",
    	"PathingCapDefID" : "pathingdef_heavy_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_rommel",
-	"PrefabIdentifier" : "chrPrfVhcl_rommel",
-	"PrefabBase" : "rommel",
-	"Tonnage" : 65,
+	"HardpointDataDefID": "hardpointdatadef_bulldog",
+	"PrefabIdentifier": "chrPrfVhcl_bulldog",
+	"PrefabBase": "bulldog",
+	"Tonnage" : 75,
 	"weightClass" : "HEAVY",
 	"BattleValue" : 973,
 	"TopSpeed" : 85,
@@ -68,43 +68,47 @@
 			"Location" : "Front",
 			"Hardpoints" : [
 				{
-					"WeaponMount" : "AntiPersonnel",
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Missile",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Missile",
 					"Omni" : false
 				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"MaxArmor" : 220,
+			"InternalStructure" : 40
 		},
 		{
 			"Location" : "Left",
 			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"MaxArmor" : 185,
+			"InternalStructure" : 40
 		},
 		{
 			"Location" : "Right",
 			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"MaxArmor" : 185,
+			"InternalStructure" : 40
 		},
 		{
 			"Location" : "Rear",
 			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 190,
-			"InternalStructure" : 35
+			"MaxArmor" : 145,
+			"InternalStructure" : 40
 		},
 		{
 			"Location" : "Turret",
@@ -114,14 +118,14 @@
 					"Omni" : false
 				},
 				{
-					"WeaponMount" : "Ballistic",
+					"WeaponMount" : "Missile",
 					"Omni" : false
 				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"MaxArmor" : 185,
+			"InternalStructure" : 40
 		}
 	]
 }

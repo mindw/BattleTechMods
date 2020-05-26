@@ -1,7 +1,7 @@
 {
    "Description" : {
-      "Id" : "movedef_BEHEMOTH",
-      "Name" : "MovementCapabilitiesDef for Behemoth",
+      "Id" : "movedef_2-3cv",
+      "Name" : "MovementCapabilitiesDef for 35kph, 2/3 Vehicles",
       "Details" : "",
       "Icon" : ""
    },

@@ -1,24 +1,24 @@
 {
 	"Description" : {
-		"Id" : "vehiclechassisdef_PATTON",
-		"Name" : "Patton",
+		"Id" : "vehiclechassisdef_CONDOR",
+		"Name" : "Condor",
 		"Details" : "",
 		"Icon" : "MANTICORE",
-		"Cost" : 973,
-		"Rarity" : 1,
+		"Cost" : 993,
+		"Rarity" : 3,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_4-6cv",
-   	"PathingCapDefID" : "pathingdef_heavy_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_rommel",
-	"PrefabIdentifier" : "chrPrfVhcl_rommel",
-	"PrefabBase" : "rommel",
-	"Tonnage" : 65,
-	"weightClass" : "HEAVY",
-	"BattleValue" : 973,
-	"TopSpeed" : 85,
+	"MovementCapDefID" : "movedef_8-12cv",
+   	"PathingCapDefID" : "pathingdef_medium_tracked",
+   	"HardpointDataDefID" : "hardpointdatadef_condor",
+	"PrefabIdentifier" : "chrprfvhcl_condorbase",
+	"PrefabBase" : "condor",
+	"Tonnage" : 50,
+	"weightClass" : "MEDIUM",
+	"BattleValue" : 993,
+	"TopSpeed" : 500,
 	"TurnRadius" : 90,
-	"movementType" : "Tracked",
+	"movementType" : "Wheeled",
 	"SpotterDistanceMultiplier" : 1,
     "VisibilityMultiplier" : 1,
     "SensorRangeMultiplier" : 1,
@@ -27,40 +27,40 @@
 	"LOSSourcePositions" : [
 		{
 		    "x" : 0,
-		    "y" : 3.5,
+		    "y" : 3,
 		    "z" : -0.5
 	    },
 		{
-		    "x" : 0,
+		    "x" : 0.0,
 		    "y" : 1.5,
-		    "z" : 4.5
+		    "z" : 3.5
 	    }
 	],
 	"LOSTargetPositions" : [
 		{
 		    "x" : 0,
-		    "y" : 3.5,
+		    "y" : 3,
 		    "z" : -0.5
 	    },
 		{
-		    "x" : 0,
+		    "x" : 0.0,
 		    "y" : 1.5,
-		    "z" : 4.5
+		    "z" : 3.5
 	    },
 		{
 		    "x" : -2,
-		    "y" : 3,
+		    "y" : 2.5,
 		    "z" : 0
 	    },
 		{
 		    "x" : 2,
-		    "y" : 3,
+		    "y" : 2.5,
 		    "z" : 0
 	    },
 		{
-		    "x" : 0,
-		    "y" : 2,
-		    "z" : -4.5
+		    "x" : 0.0,
+		    "y" : 1.6,
+		    "z" : -4.0
 	    }
 	],
 	"Locations" : [
@@ -74,54 +74,53 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"MaxArmor" : 150,
+			"InternalStructure" : 25
 		},
 		{
 			"Location" : "Left",
 			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"MaxArmor" : 75,
+			"InternalStructure" : 25
 		},
 		{
 			"Location" : "Right",
 			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 230,
-			"InternalStructure" : 35
+			"MaxArmor" : 75,
+			"InternalStructure" : 25
 		},
 		{
 			"Location" : "Rear",
-			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
-			],
+			"Hardpoints" : [],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 190,
-			"InternalStructure" : 35
+			"MaxArmor" : 70,
+			"InternalStructure" : 25
 		},
-		{
+	  {
 			"Location" : "Turret",
 			"Hardpoints" : [
 				{
-					"WeaponMount" : "Missile",
+					"WeaponMount" : "Ballistic",
 					"Omni" : false
 				},
 				{
-					"WeaponMount" : "Ballistic",
+					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "Energy",
 					"Omni" : false
 				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 255,
-			"InternalStructure" : 35
+			"MaxArmor" : 110,
+			"InternalStructure" : 25
 		}
 	]
 }

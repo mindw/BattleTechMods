@@ -8,7 +8,7 @@
 		"Rarity" : 1,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_BEHEMOTH",
+	"MovementCapDefID" : "movedef_2-3cv",
    	"PathingCapDefID" : "pathingdef_assault_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_behemoth",
 	"PrefabIdentifier" : "chrprfvhcl_behemothbase",

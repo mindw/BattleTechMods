@@ -1,4 +1,5 @@
 {
+  "MinAppearanceDate": "2511-01-01T00:00:00Z",
   "MechTags": {
     "items": [
       "unit_mech",
@@ -269,6 +270,5 @@
       "prefabName": null,
       "hasPrefabName": false
     }
-  ],
-  "MinAppearanceDate": "2511-01-01T00:00:00Z"
+  ]
 }

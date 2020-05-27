@@ -2,7 +2,7 @@
     "Name": "CABMechs",
     "Enabled": true,
 
-    "DependsOn": [ "CommunityBundles" ],
+    "DependsOn": [ "CommunityBundles", "cFixes2" ],
 
     "Version": "0.1",
     

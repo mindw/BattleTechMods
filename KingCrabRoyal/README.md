@@ -150,10 +150,22 @@ them your mech bay.
 * FF armor (-1 initial tonnage, +1 armor)
 * InitialTonnage 16.5 = 3.0[IS] + 7.5[EXL] + 3[C] + 3[G] - 1.0[FF]
 
+# MON-66b Mongoose
+* SLDF Royal
+* Endo steel
+* Double heatsinks
+* Beagle probe
+* FF armor (-1 initial tonnage, +1 armor)
+* InitialTonnage 10 = 1.5[ENIS] + 4.5[EXL] + 3[C] + 2[G] - 1.0[FF]
+
+# OST-2Cb Ostroc
+* SLDF Royal
+* Double heatsinks
+* FF armor (-1 initial tonnage, +1 armor)
+* InitialTonnage 32 = 6[IS] + 19[E] + 3[C] + 3[G] + 2[EDHS] - 1.0[FF]
+
 # TODO
-* MON-66b Mongoose
 * OTT-7Jb Ostscout
-* OST-2Cb Ostroc
 * OWR-2Mb Ostwar
 * EMP-6A Emperor
 * STN-3Lb Sentinel

@@ -1,5 +1,7 @@
 {
-	"Locations" : [
+	"PathingCapDefID" : "pathingdef_light_wheeled",
+	"weightClass" : "LIGHT",
+ 	"Locations" : [
 		{
 			"Location" : "Front",
 			"Hardpoints" : [

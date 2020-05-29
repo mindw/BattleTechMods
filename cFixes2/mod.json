@@ -8,7 +8,7 @@
     "ConflictsWith": [],
 
     "Manifest": [
-
+    { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true }, 
     { "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
     { "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
     { "Path": "eventsMerge", "Type": "AdvancedJSONMerge" },

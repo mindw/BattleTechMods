@@ -1,0 +1,17 @@
+{
+    "Name": "JK_Pilots",
+
+	"Version": "1.8.0.0",
+	"PackagedOn": "2019-08-08T16:45:00Z",
+    
+    "Description": "Additional hirable pilots - our thanks to the Community!",
+    "Author": "Haree & Justin Kase",
+
+    "Website": "",
+    "Contact": "",
+
+    "Manifest": [
+        { "Type": "PilotDef", "Path": "pilot" },
+        { "Type": "Sprite", "Path": "portraits" }
+    ]
+}

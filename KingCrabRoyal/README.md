@@ -177,9 +177,14 @@ them your mech bay.
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 25.5 = 3.5[ENIS] + 12[EXL] + 3[C] + 4[G] + 3[EDHS]
 
+# STN-3Lb Sentinel
+* SLDF Royal
+* Endo steel
+* FF armor (-1 initial tonnage, +1 armor)
+* InitialTonnage 14 = 3[ENIS] + 6[EXL] + 3[C] + 3[G] - 1.0[FF]
+
 # TODO
 * EMP-6A Emperor
-* STN-3Lb Sentinel
 * THG-11Eb Thug
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532

@@ -70,7 +70,7 @@
         "Model": null,
         "UIName": "Mongoose MON-66b",
         "Id": "mechdef_mongoose_MON-66b",
-        "Name": "Royal Mongoose",
+        "Name": "Mongoose",
         "Details": "The Mongoose was designed as a deep recon 'Mech and a competitor to the Locust. The 66b is an upgraded version of the 66 that was used by the SLDF Royal units in 2740. It utilizes an XL Engine and double heat sinks with the weight saved used to upgrade the center-torso medium laser to an ER Large Laser.",
         "Icon": "uixTxrIcon_mongoose"
     },

@@ -181,7 +181,7 @@ them your mech bay.
 * SLDF Royal
 * Endo steel
 * FF armor (-1 initial tonnage, +1 armor)
-* InitialTonnage 14 = 3[ENIS] + 6[EXL] + 3[C] + 3[G] - 1.0[FF]
+* InitialTonnage 13 = 2.0[ENIS] + 6[EXL] + 3[C] + 3[G] - 1.0[FF]
 
 # TODO
 * EMP-6A Emperor

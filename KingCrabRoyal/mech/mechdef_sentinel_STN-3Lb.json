@@ -69,7 +69,7 @@
         "UIName": "Sentinel STN-3Lb",
         "Id": "mechdef_sentinel_STN-3Lb",
         "Name": "Sentinel",
-        "Details": "The Sentinel was one of many designs to suffer from the technological decline of the recent Succession Wars, with Defiance first losing the ability to manufacture its advanced weapon systems before discontinuing production entirely in 3014 due to lack of both parts and interest. Despite this, with a powerful targeting and communications package, the Sentinel is ideal for long-range patrols or mobile observation.",
+        "Details": "The Royal version of the Sentinel featured a significantly upgraded weapon load-out, mounting a Gauss Rifle in place of the autocannon and a Medium Laser in place of the Streak rack, retaining the small laser. To handle the weight of the Gauss Rifle, it was almost entirely rebuilt using a XL engine and Endo-Steel structure, with the one and a half tons of Ferro-Fibrous plate enhancing its protection.",
         "Icon": "uixTxrIcon_sentinel"
     },
     "simGameMechPartCost": 370000,

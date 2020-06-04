@@ -8,7 +8,7 @@
         "UIName": "Sentinel",
         "Id": "chassisdef_sentinel_STN-3Lb",
         "Name": "Sentinel",
-        "Details": "The Sentinel was one of many designs to suffer from the technological decline of the recent Succession Wars, with Defiance first losing the ability to manufacture its advanced weapon systems before discontinuing production entirely in 3014 due to lack of both parts and interest. Despite this, with a powerful targeting and communications package, the Sentinel is ideal for long-range patrols or mobile observation.",
+        "Details": "The Royal version of the Sentinel featured a significantly upgraded weapon load-out, mounting a Gauss Rifle in place of the autocannon and a Medium Laser in place of the Streak rack, retaining the small laser. To handle the weight of the Gauss Rifle, it was almost entirely rebuilt using a XL engine and Endo-Steel structure, with the one and a half tons of Ferro-Fibrous plate enhancing its protection.",
         "Icon": "uixTxrIcon_sentinel"
     },
     "MovementCapDefID": "movedef_sentinel_STN-3Lb",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_shadowcatbase-001",
     "PrefabBase": "shadowcat",
     "Tonnage": 40,
-    "InitialTonnage": 14,
+    "InitialTonnage": 13,
     "weightClass": "MEDIUM",
     "Heatsinks": 0,
     "MaxJumpjets": 6,
@@ -192,6 +192,6 @@
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Scout & Sniper",
-    "YangsThoughts": "The Sentinel makes for an interesting skirmisher or Medium class observation 'Mech.  It still generally underperforms in most areas except speed, but it can throw a punch or two with that Autocannon, and has survivability compared to other scout designs."
+    "StockRole": "Sniper",
+    "YangsThoughts": "A speedy 40 ton 'Mech with a guass rifle - what can go wrong? One heck of an upgrade over the original but also complex and expensive. Many an assault pilot never saw it before having their cockpit crushed by a supersonic ball of metal."
 }

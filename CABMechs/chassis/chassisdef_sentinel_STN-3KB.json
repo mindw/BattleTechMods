@@ -19,10 +19,7 @@
     "Tonnage": 40,
     "InitialTonnage": 21.5,
     "weightClass": "MEDIUM",
-    "BattleValue": 3610000,
     "Heatsinks": 0,
-    "TopSpeed": 210,
-    "TurnRadius": 90,
     "MaxJumpjets": 6,
     "Stability": 130,
     "StabilityDefenses": [
@@ -49,7 +46,12 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -58,7 +60,16 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 60,
@@ -67,13 +78,32 @@
         },
         {
             "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 100,
+            "MaxRearArmor": 50,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightTorso",
             "Hardpoints": [
                 {
                     "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -84,39 +114,8 @@
             "InternalStructure": 50
         },
         {
-            "Location": "CenterTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 120,
-            "MaxRearArmor": 60,
-            "InternalStructure": 60
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 100,
-            "MaxRearArmor": 50,
-            "InternalStructure": 50
-        },
-        {
             "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-			],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 60,
@@ -189,8 +188,8 @@
     "VariantName": "STN-3KB",
     "ChassisTags": {
         "items": [
-			"mr-resize-0.93-0.93-0.93"
-		],
+            "mr-resize-0.93-0.93-0.93"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Sniper",

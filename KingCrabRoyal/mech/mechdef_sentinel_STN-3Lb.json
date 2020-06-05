@@ -15,7 +15,6 @@
             "NotKurita",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
-            "unit_era_2750",
             "unit_LosTech",
             "unit_SLDFRoyal",
             "unit_none",
@@ -68,7 +67,7 @@
         "Model": null,
         "UIName": "Sentinel STN-3Lb",
         "Id": "mechdef_sentinel_STN-3Lb",
-        "Name": "Sentinel",
+        "Name": "Royal Sentinel",
         "Details": "The Royal version of the Sentinel featured a significantly upgraded weapon load-out, mounting a Gauss Rifle in place of the autocannon and a Medium Laser in place of the Streak rack, retaining the small laser. To handle the weight of the Gauss Rifle, it was almost entirely rebuilt using a XL engine and Endo-Steel structure, with the one and a half tons of Ferro-Fibrous plate enhancing its protection.",
         "Icon": "uixTxrIcon_sentinel"
     },

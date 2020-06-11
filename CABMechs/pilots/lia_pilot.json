@@ -1,0 +1,45 @@
+{
+    "Description": {
+        "Id": "lia_pilot",
+        "Name": "Geisha",
+        "FirstName": "Lia",
+        "LastName": "Jin",
+        "Callsign": "Geisha",
+        "Gender": "Female",
+        "factionID": "Davion",
+        "Age": "29",
+        "Details": "Early records indictate Lia was a Geisha during her time in Mechwarrior training, possibly to pay for it. She earned the nickname Geisha after being spotted by a fellow trainee and has never lived it down since.\n\n<u>MRBC NOTE:</u>\nUnknown as to wether she was a proper Geisha or something more seedy.",
+        "Icon": "lia"
+    },
+    "BaseGunnery": "1",
+    "BonusGunnery": 0,
+    "BasePiloting": "1",
+    "BonusPiloting": 0,
+    "BaseGuts": "1",
+    "BonusGuts": 0,
+    "BaseTactics": "1",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 3000,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 3,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "f_glum01_russian",
+    "abilityDefNames": [],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "BLACKLISTED",
+            "pilot_military",
+            "pilot_mechwarrior",
+            "pilot_athletic",
+            "pilot_lucky"		
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0,
+    "IsRonin": true,
+    "IsVanguard": false
+}

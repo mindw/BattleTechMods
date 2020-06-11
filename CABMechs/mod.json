@@ -84,14 +84,17 @@
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_righttorso_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_head_laser_eh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_head_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
+        { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
         { "Type": "Sprite", "Path": "portraits" },
+        { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true },
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
-        { "Type": "ItemCollectionDef", "Path": "itemCollectionDefsAppend", "ShouldAppendText": true },
         { "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
-        { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true },
         { "Type": "VehicleDef", "Path": "vehicle" }, 
+        { "Type": "TurretDef", "Path": "turret", "AddToDB": true },
+        { "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true },
+        { "Type": "ItemCollectionDef", "Path": "itemCollectionDefsAppend", "ShouldAppendText": true },
         { "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": false, "AddToDB": true }
     ]
 }

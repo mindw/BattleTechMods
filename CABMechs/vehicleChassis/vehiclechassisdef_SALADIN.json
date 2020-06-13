@@ -11,7 +11,7 @@
 	"MovementCapDefID" : "movedef_8-12cv",
    	"PathingCapDefID" : "pathingdef_light_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_saladin",
-	"PrefabIdentifier" : "chrPrfVhcl_saladin",
+	"PrefabIdentifier" : "chrprfvhcl_saladin",
 	"PrefabBase" : "saladin",
 	"Tonnage" : 35,
 	"weightClass" : "LIGHT",

@@ -11,7 +11,7 @@
 	"MovementCapDefID" : "movedef_8-12cv",
    	"PathingCapDefID" : "pathingdef_medium_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_maxim",
-	"PrefabIdentifier" : "chrPrfVhcl_maxim",
+	"PrefabIdentifier" : "chrprfvhcl_maxim",
 	"PrefabBase" : "maxim",
 	"Tonnage" : 50,
 	"weightClass" : "MEDIUM",

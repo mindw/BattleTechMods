@@ -11,7 +11,7 @@
 	"MovementCapDefID" : "movedef_8-12cv",
    	"PathingCapDefID" : "pathingdef_light_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_saracen",
-	"PrefabIdentifier" : "chrPrfVhcl_saracen",
+	"PrefabIdentifier" : "chrprfvhcl_saracen",
 	"PrefabBase" : "saracen",
 	"Tonnage" : 35,
 	"weightClass" : "LIGHT",

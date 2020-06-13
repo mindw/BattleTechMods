@@ -3,7 +3,7 @@
 		"Id" : "vehiclechassisdef_APC_Maxim_SRM4",
 		"Name" : "Maxim APC SRM4",
 		"Details" : "",
-		"Icon" : "MANTICORE",
+		"Icon" : "",
 		"Cost" : 993,
 		"Rarity" : 3,
 		"Purchasable" : false
@@ -11,7 +11,7 @@
 	"MovementCapDefID" : "movedef_8-12cv",
    	"PathingCapDefID" : "pathingdef_medium_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_maxim",
-	"PrefabIdentifier" : "chrPrfVhcl_maxim",
+	"PrefabIdentifier" : "chrprfvhcl_maxim",
 	"PrefabBase" : "maxim",
 	"Tonnage" : 50,
 	"weightClass" : "MEDIUM",

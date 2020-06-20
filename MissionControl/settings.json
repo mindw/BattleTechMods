@@ -1,11 +1,18 @@
 {
-  "DebugMode": true,
+  "DebugMode": false,
   "VersionCheck": true,
   "DebugSkirmishMode": false,
   "DisableIfFlashpointContract": true,
   "RandomSpawns": {
     "Enable": true,
-    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"]
+    "ExcludeContractTypes": [
+        "SoloDuel", 
+        "DuoDuel",
+        "AttackDefend",
+        "DefendBase",
+        "FireMission",
+        "ThreeWayBattle"
+    ],
   },
   "HotDrop": {
     "Enable": true,
@@ -18,7 +25,14 @@
   },
   "AdditionalLances": {
     "Enable": true,
-    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "ExcludeContractTypes": [
+        "SoloDuel", 
+        "DuoDuel",
+        "AttackDefend",
+        "DefendBase",
+        "FireMission",
+        "ThreeWayBattle"
+    ],
     "IsPrimaryObjectiveIn": ["SimpleBattle", "CaptureBase"],
     "ExcludeFromAutocomplete": ["DefendBase", "FireMission"],
     "HideObjective": true,
@@ -47,7 +61,7 @@
     "DisableEnemies": false
   },
   "ExtendedLances": {
-    "Enable": true,
+    "Enable": false,
     "Autofill": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "SkipWhenTaggedWithAny": ["lance_type_solo"],

@@ -23,8 +23,6 @@
     "InitialTonnage" : 16.5,
     "weightClass" : "MEDIUM",
     "Heatsinks" : 0,
-    "TopSpeed" : 120,
-    "TurnRadius" : 90,
     "MaxJumpjets" : 4,
     "Stability" : 130,
     "StabilityDefenses" : [

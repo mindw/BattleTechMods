@@ -4,13 +4,13 @@
             "unit_mech",
             "unit_assault",
             "unit_indirectFire",
-			"unit_release",
-			"unit_dlc",
+            "unit_release",
+            "unit_dlc",
             "unit_lance_support",
             "unit_role_sniper",
-			"unit_range_short",
-			"unit_hot",
-			"unit_armor_low"
+            "unit_range_short",
+            "unit_hot",
+            "unit_armor_low"
         ],
         "tagSetSourceFile": ""
     },
@@ -138,7 +138,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
             "SimGameUID": null,
@@ -149,7 +149,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
             "SimGameUID": null,
@@ -182,7 +182,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
             "SimGameUID": null,
@@ -193,7 +193,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
             "SimGameUID": null,

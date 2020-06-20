@@ -1,25 +1,25 @@
 {
     "MinAppearanceDate" : "3025-06-28T00:00:00Z",
-	"RequiredToSpawnCompanyTags": {
-	    "items": [
-		    "flashpoint_longRoad_complete"
-		]
-	},
+    "RequiredToSpawnCompanyTags": {
+        "items": [
+            "flashpoint_longRoad_complete"
+        ]
+    },
     "MechTags": {
         "items": [
             "unit_mech",
             "unit_medium",
             "unit_role_brawler",
-			"unit_lance_assassin",
+            "unit_lance_assassin",
             "unit_jumpOK",
-			"unit_release",
+            "unit_release",
             "unit_dlc",
-			"unit_hatchetman",
-			"unit_range_medium",
-			"unit_hot",
-			"unit_speed_low",
-			"Davion",
-			"Steiner"
+            "unit_hatchetman",
+            "unit_range_medium",
+            "unit_hot",
+            "unit_speed_low",
+            "Davion",
+            "Steiner"
         ],
         "tagSetSourceFile": ""
     },

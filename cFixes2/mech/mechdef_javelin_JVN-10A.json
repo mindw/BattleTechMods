@@ -12,7 +12,7 @@
             "unit_armor_low"
             "unit_jumpOK",
             "unit_dlc",
-			"Davion"
+            "Davion"
         ],
         "tagSetSourceFile": ""
     },
@@ -128,8 +128,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
-		{
+        },        
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "SimGameUID": null,

@@ -1,17 +1,17 @@
 {
     "Description": {
-        "Cost": 4300000,
-        "Rarity": 2,
+        "Cost": 8100000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Crab",
-        "Id": "chassisdef_crab_CRB-27",
+        "Id": "chassisdef_crab_CRB-27b",
         "Name": "Crab",
-        "Details": "Crab 20s fulfill an oft overlooked role, that of a skirmisher with firepower. Wielding strong energy weapons, the Crab delivers a punch at nearly all ranges, with no ammunition constraints. The blend of firepower, heat efficiency, and speed make the Crab the perfect 'Mech to raid enemy positions.",
+        "Details": "The Crab 27b is a very old model that dates back to the days of the Star League. Its energy weapons are all rare, upgraded versions of the tech found on the CRB-20, allowing it to hit harder while still requiring no ammunition. Improved heat sinking also keeps it comparatively cool.",
         "Icon": "uixTxrIcon_crab"
     },
-    "MovementCapDefID": "movedef_crab_CRB-27",
+    "MovementCapDefID": "movedef_crab_CRB-27b",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_crab",
     "PrefabIdentifier": "chrPrfMech_crabBase-001",
@@ -19,8 +19,8 @@
     "Tonnage": 50,
     "InitialTonnage": 23.5,
     "weightClass": "MEDIUM",
-    "BattleValue": 4124000,
-    "Heatsinks": 0,
+    "BattleValue": 8100000,
+    "Heatsinks": 30,
     "TopSpeed": 65,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
@@ -51,10 +51,6 @@
             "Location": "Head",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
@@ -71,6 +67,10 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
                 }
 			],
             "Tonnage": 0,
@@ -81,7 +81,16 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 120,
@@ -91,10 +100,6 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -112,7 +117,16 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 120,
@@ -122,6 +136,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -196,11 +214,11 @@
             "z": 2
         }
     ],
-    "VariantName": "CRB-20",
+    "VariantName": "CRB-27b",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Direct-Fire Support",
-    "YangsThoughts": "Crab 20s fulfill an oft overlooked role, that of a skirmisher with firepower. Wielding strong energy weapons, the Crab delivers a punch at nearly all ranges, with no ammunition constraints. The blend of firepower, heat efficiency, and speed make the Crab the perfect 'Mech to raid enemy positions."
+    "YangsThoughts": "The Crab 27b is a very old model that dates back to the days of the Star League. Its energy weapons are all rare, upgraded versions of the tech found on the CRB-20, allowing it to hit harder while still requiring no ammunition. Improved heat sinking also keeps it comparatively cool."
 }

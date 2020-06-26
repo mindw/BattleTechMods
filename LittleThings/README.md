@@ -4,7 +4,7 @@
 
 ## Highlights
 - Fix "Exit/Re-Enter Combat" bug for escort missions (Interleaved Dropouts)
-- Fix/Expand Stat Tooltip for Firepower
+- Fix/Expand Stat Tooltip for Firepower and Durability
     - Shows correct values for stability damage now
     - Respects special gear such as Optimized Capacitors and Ballistic Siege Compensators
     - Shows breakdown of damage depending on weapon type (Energy, Ballistic, Missile, Support)
@@ -39,7 +39,7 @@
 - Workaround an empty contract list after priority mission on Artru
 - Fix position of Heraldry Screen Title
 - Disable highlights of some interactables in Argo's rooms
-- Fix/Expand Stat Tooltip for Firepower
+- Fix/Expand Stat Tooltip for Firepower and Durability
     - Shows correct values for stability damage now
     - Respects special gear such as Optimized Capacitors and Ballistic Siege Compensators
     - Shows breakdown of damage depending on weapon type (Energy, Ballistic, Missile, Support)
@@ -66,6 +66,8 @@
     - At least one Urbie is preserved of course
     - On a side note: This is realized by opening up unit-selection by tags in contract.jsons (can be used for all contracts as a modders resource)
 - Shrink the combat floaties for Structure/Armor-Damage
+- Unlock Alliance FPs at configurable reputation level
+- Make Heavy Metal Campaign potentially repeatable
 
 ## Note
 - Most fixes and features can be turned on/off via settings

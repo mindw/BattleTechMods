@@ -1,0 +1,79 @@
+{
+    "Name": "ISM3025",
+    "DLL": "ISM3025.dll",
+    "Enabled": true,
+
+    "Settings": {
+        "MapWidth": 200,
+        "MapHeight": 300,
+
+        "MapMargin": 50,
+        "MapBottomMargin": 100,
+        
+        "MinFov": 20,
+        "MaxFov": 125,
+
+        "UseSmoothZoom": true,
+        "SmoothZoomTime": 0.15,
+
+        "StarHitboxSize": 2,
+        "BorderMargin": 5,
+		
+		"SetContractParticipants": true,
+        "MajorInfluence": 1.5,
+        "MinorInfluence": 1.0,
+
+        "FactionColors": {
+            "Kurita": [0.863, 0.078, 0.235, 1],
+            "Steiner": [0.255, 0.412, 0.882, 1],
+            "Davion": [1, 0.863, 0.42, 1],
+            "Rasalhague": [0, 1, 1, 1],
+            "Wolf": [0.871, 0.336, 0, 1],
+            "GhostBear": [0.441, 0.734, 0.816, 1],
+            "JadeFalcon": [0.449, 0.816, 0.441, 1],
+            "SmokeJaguar": [0.71, 0.71, 0.71, 1],
+            "NovaCat": [0.71, 0.71, 0.71, 1],
+            "SteelViper": [0.449, 0.816, 0.441, 1],
+            "Ives": [0.55, 0.777, 0.273, 1],
+            "Outworld": [0.625, 0.32, 0.176, 1],
+            "Andurien": [1, 0.573, 1, 1]
+        },
+
+        "LogoScalar": 0.75,
+        "LogoMaxSize": 25,
+        "FactionLogoPaths": {
+            "Kurita": "Logos/kuritaLogo.png",
+            "Steiner": "Logos/steinerLogo.png"
+        },
+		
+		"FedCommDate": "3040-01-19",
+
+        "NavRoomScreenTexturePath": "testInnerSphere.PNG",
+
+        "GenerateShopsTag": "mod_generate_shops",
+        "GenerateShopsIgnoreTags": [
+            "planet_pop_none"
+        ],
+        "TagToShopItemCollection": {
+            "planet_faction_steiner": "itemCollection_minor_Steiner",
+            "planet_faction_liao": "itemCollection_minor_Liao",
+            "planet_faction_kurita": "itemCollection_minor_Kurita",
+            "planet_faction_marik": "itemCollection_minor_Marik",
+            "planet_faction_davion": "itemCollection_minor_Davion",
+            "planet_faction_taurianconcordat": "itemCollection_minor_TaurianConcordat",
+            "planet_faction_magistracyofcanopus": "itemCollection_minor_MagistracyOfCanopus",
+            "planet_other_battlefield": "itemCollection_shop_battlefield",
+            "planet_other_starleague": "itemCollection_shop_starleague",
+            "planet_industry_chemicals": "itemCollection_shop_chemicals",
+            "planet_industry_electronics": "itemCollection_shop_electronics",
+            "planet_industry_manufacturing": "itemCollection_shop_manufacturing",
+            "planet_industry_mining": "itemCollection_shop_mining",
+            "planet_industry_research": "itemCollection_shop_research"
+        }
+    },
+	
+	"Manifest": [
+        { "Type": "StarSystemDef", "Path": "StarSystemDefs" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs" }
+    ]
+}

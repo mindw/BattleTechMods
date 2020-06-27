@@ -1,0 +1,16 @@
+{
+	"Story": {
+		"ContractSuccessReduction" : 0,
+	},
+	"CareerMode" : {
+		"StartingSystems" : [
+			"Merlin",
+			"Naryn",
+			"Murris",
+			"Paf",
+			"DainmarMajoris",
+			"Umgard",
+			"Ghorepani"
+		],
+	}
+}

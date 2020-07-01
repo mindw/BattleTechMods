@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_ShiroIII",
     "Name": "Shiro III",
-    "Details": "<i>Here might be dragons.</i>",
+    "Details": "As one of the first colonised worlds, Shiro is a heavily industrialised world with major factories of Irian BattleMechs Unlimited and Grumman Amalgamated producing massive quantities of material.",
     "Icon": ""
   },
   "Position": {
@@ -15,22 +15,24 @@
       "planet_name_shiroiii",
       "planet_size_medium",
       "planet_climate_terran",
-      "planet_pop_medium",
+      "planet_civ_innersphere",
+      "planet_pop_large",
+      "planet_other_megacity",
+      "planet_other_factionhq_marik",
+      "planet_industry_rich",
+      "planet_industry_mining",
+      "planet_industry_electronics",
+      "planet_industry_research",
+      "planet_industry_manufacturing",
       "planet_faction_marik",
       "planet_progress_3"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
+    "lowlandsCoastal",
     "lowlandsSpring",
-    "lowlandsFall",
     "highlandsSpring",
-    "highlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "polarFrozen",
-    "tundraFrozen",
-    "jungleTropical",
     "urbanHighTech"
   ],
   "MapRequiredTags": {
@@ -42,7 +44,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 8,
+  "JumpDistance": 15,
   "ownerID": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -122,17 +124,22 @@
     }
   ],
   "StarPosition": null,
-  "StarType": "K",
+  "StarType": "F",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,
   "UseMaxContractOverride": false,
   "MaxContractOverride": 0,
   "SystemShopItems": [
-    "itemCollection_minor_Marik"
+    "itemCollection_major_Marik"
   ],
-  "FactionShopOwnerID": "INVALID_UNSET",
-  "FactionShopItems": null,
+  "FactionShopOwnerID": "Marik",
+  "FactionShopItems": [
+    "itemCollection_faction_Marik",
+    "itemCollection_shop_manufacturingProgression",
+    "itemCollection_shop_electronics",
+    "itemCollection_shop_researchProgression"
+  ],
   "BlackMarketShopItems": null,
   "CoreSystemID": "starsystemdef_ShiroIII",
   "StartingSystemModes": [
@@ -150,14 +157,14 @@
     "CAREER"
   ],
   "ContractEmployerIDs": [
-	"Steiner",
+    "Steiner",
     "AuriganPirates",
     "Marik",
     "Liao",
     "MagistracyOfCanopus"
   ],
   "ContractTargetIDs": [
-	"Steiner",
+    "Steiner",
     "AuriganPirates",
     "Marik",
     "Liao",

@@ -1,6 +1,6 @@
 {
   "DebugMode": false,
-  "VersionCheck": true,
+  "VersionCheck": false,
   "DebugSkirmishMode": false,
   "DisableIfFlashpointContract": true,
   "RandomSpawns": {
@@ -15,7 +15,7 @@
     ],
   },
   "HotDrop": {
-    "Enable": true,
+    "Enable": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "GuardOnHotDrop": false,
     "EvasionPipsOnHotDrop": 6,
@@ -51,7 +51,7 @@
     },
     "MatchAllyLanceCountToEnemy": false,
     "DropWeightInfluence": {
-      "Enable": false,
+      "Enable": true,
       "EnemySpawnInfluencePerHalfSkullAbove": 0.1,
       "AllySpawnInfluencePerHalfSkullAbove": -0.1,
       "EnemySpawnInfluencePerHalfSkullBelow": 0.1,

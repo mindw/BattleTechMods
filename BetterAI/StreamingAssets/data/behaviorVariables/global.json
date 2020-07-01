@@ -16,7 +16,7 @@
       "k": "Float_ExistingTargetDamageForOverheatAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.0
+        "floatVal": 0.90
       }
     },
     {
@@ -26,7 +26,7 @@
       "k": "Float_ExistingTargetDamageForDFAAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.25
+        "floatVal": 0.2
       }
     },
     {
@@ -36,7 +36,7 @@
       "k": "Float_OwnMaxLegDamageForDFAAttack",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.6
       }
     },
     {
@@ -203,7 +203,7 @@
       "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.7
       }
     },
     {
@@ -368,7 +368,7 @@
       "k": "Float_DFADamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 1.4
+        "floatVal": 1.5
       }
     },
     {
@@ -404,7 +404,7 @@
       "k": "Float_PreferHigherHeatSinkLocationsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.2
+        "floatVal": 0.3
       }
     },
     {
@@ -458,7 +458,7 @@
       "k": "Float_PreferAttackingLowerArmorHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.9
       }
     },
     {
@@ -556,7 +556,7 @@
       "k": "Float_PreferInsideMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.5
+        "floatVal": -0.25
       }
     },
     {
@@ -737,7 +737,7 @@
       "k": "Float_ReserveBasePercentage",
       "v": {
         "type": "Float",
-        "floatVal": 55
+        "floatVal": 50
       }
     },
     {
@@ -863,7 +863,7 @@
       "k": "Float_CalledShotCenterTorsoBaseChance",
       "v": {
         "type": "Float",
-        "floatVal": 25.0
+        "floatVal": 30.0
       }
     },
     {
@@ -958,7 +958,7 @@
       "k": "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.6
+        "floatVal": 0.7
       }
     },
     {
@@ -1133,7 +1133,7 @@
       "k": "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -6.0
+        "floatVal": -5.0
       }
     },
     {
@@ -1166,7 +1166,7 @@
       "k": "Float_EvasiveToHitFloor",
       "v": {
         "type": "Float",
-        "floatVal": 10.0
+        "floatVal": 25.0
       }
     },
     {
@@ -1775,7 +1775,7 @@
       "k": "Float_PreferStationaryWhenHostilesInMeleeRangeFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": -0.75
+        "floatVal": -1.0
       }
     },
     {
@@ -1785,7 +1785,7 @@
       "k": "Float_PreferAttackFromBehindHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.5
+        "floatVal": 0.7
       }
     },
     {

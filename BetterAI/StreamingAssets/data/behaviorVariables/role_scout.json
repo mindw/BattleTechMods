@@ -62,7 +62,7 @@
       "k": "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 0.75
       }
     },
     {
@@ -71,7 +71,7 @@
       "k": "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 0.75
       }
     },
     {
@@ -90,7 +90,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 1
+        "floatVal": 1.2
       }
     },
     {
@@ -118,7 +118,7 @@
       "k": "Float_SprintPreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.7
+        "floatVal": 0.6
       }
     },
     {
@@ -179,7 +179,7 @@
       "k": "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 1.75
       }
     },
     {
@@ -189,7 +189,7 @@
       "k": "Float_MeleeBonusMultiplierWhenAttackingBracedTargets",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 1.5
       }
     },
     {
@@ -224,7 +224,7 @@
       "k": "Float_SprintPreferNotLethalPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.7
+        "floatVal": 1.1
       }
     },
     {
@@ -254,7 +254,7 @@
       "k": "Float_OverkillFactorForReserve",
       "v": {
         "type": "Float",
-        "floatVal": 60.0
+        "floatVal": 45
       }
     },
     {
@@ -272,7 +272,7 @@
       "k": "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 0.9
       }
     },
     {
@@ -280,7 +280,7 @@
       "k": "Float_SprintExclusionRadius",
       "v": {
         "type": "Float",
-        "floatVal": 196.0
+        "floatVal": 172.0
       }
     },
     {
@@ -297,7 +297,7 @@
       "k": "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.5
+        "floatVal": 1.25
       }
     },
     {
@@ -351,7 +351,7 @@
       "k": "Float_FenceRadius",
       "v": {
         "type": "Float",
-        "floatVal": 120.0
+        "floatVal": 144.0
       }
     },
     {
@@ -362,7 +362,7 @@
       "k": "Float_MinimumSensorLockQuality",
       "v": {
         "type": "Float",
-        "floatVal": 25
+        "floatVal": 20
       }
     },
     {
@@ -492,7 +492,7 @@
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.4
+        "floatVal": 0.3
       }
     },
     {

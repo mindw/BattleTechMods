@@ -24,7 +24,7 @@
       "k": "Float_PreferHigherPositionFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 1.0
+        "floatVal": 0.4
       }
     },
     {
@@ -53,7 +53,7 @@
       "k": "Float_MeleeDamageMultiplier",
       "v": {
         "type": "Float",
-        "floatVal": 0.25
+        "floatVal": 0.75
       }
     },
     {
@@ -72,7 +72,7 @@
       "k": "Float_PreferLessTargetableLocationFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.6
       }
     },
     {
@@ -183,6 +183,17 @@
       "v": {
         "type": "Float",
         "floatVal": 168
+      }
+    },
+    {
+	    /* Description: Number of points of damage that a sensor
+	      locking turn needs to do over a straight up shooting
+	      turn before deciding to sensor lock. Positive is a
+	      shooting bias, negative is a sensor lock bias.*/
+      "k": "Float_MinimumSensorLockQuality",
+      "v": {
+        "type": "Float",
+        "floatVal": 65
       }
     },
     {
@@ -332,7 +343,7 @@
       "k": "Float_SprintPreferHigherDistanceFromClosestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.6
       }
     },
     {
@@ -350,7 +361,7 @@
       "k": "Float_SprintPreferLOSToFewestHostileFactorWeight",
       "v": {
         "type": "Float",
-        "floatVal": 0.8
+        "floatVal": 0.6
       }
     },
     {

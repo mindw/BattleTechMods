@@ -73,7 +73,6 @@
     },
 	
 	"Manifest": [
-        { "Type": "StarSystemDef", "Path": "StarSystemDefs" },
         { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs" }
     ]
 }

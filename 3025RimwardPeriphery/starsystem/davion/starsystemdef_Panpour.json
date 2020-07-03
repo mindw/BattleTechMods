@@ -1,0 +1,171 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Panpour",
+    "Name": "Panpour",
+    "Details": "A major industrial world specializing in spaceship construction, Panpour is one of the Federated Suns key manufacturing worlds and supply center for the Davion armed forces.",
+    "Icon": ""
+  },
+  "Position": {
+    "x": 342.5,
+    "y": -292.44,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "planet_name_panpour",
+      "planet_size_small",
+      "planet_civ_innersphere",
+      "planet_pop_large",
+      "planet_climate_water",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_industry_agriculture",
+      "planet_industry_aquaculture",
+      "planet_industry_manufacturing",
+      "planet_industry_rich",
+      "planet_other_hub",
+      "planet_progress_3"
+      "planet_other_factionhq_davion",
+      "planet_faction_davion"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+    "lowlandsCoastal",
+    "highlandsSpring",
+    "jungleTropical"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": true,
+  "JumpDistance": 4,
+  "ownerID": "Davion",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "FactionID": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "FactionID": "Davion",
+      "Influence": 0
+    },
+    {
+      "FactionID": "Liao",
+      "Influence": 0
+    },
+    {
+      "FactionID": "Kurita",
+      "Influence": 0
+    },
+    {
+      "FactionID": "Marik",
+      "Influence": 0
+    },
+    {
+      "FactionID": "Steiner",
+      "Influence": 0
+    },
+    {
+      "FactionID": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "FactionID": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "FactionID": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "FactionID": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "FactionID": "ComStar",
+      "Influence": 0
+    },
+    {
+      "FactionID": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "FactionID": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "FactionID": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "StarPosition": null,
+  "StarType": "M",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [
+    "itemCollection_major_Davion",
+    "itemCollection_shop_manufacturingProgression"
+  ],
+  "FactionShopOwnerID": "Davion",
+  "FactionShopItems": [
+    "itemCollection_faction_Davion"
+  ],
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Panpour",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 4,
+  "DifficultyList": [
+    4,
+    7
+  ],
+  "DifficultyModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER"
+  ],
+  "ContractEmployerIDs": [
+    "Davion",
+    "Liao",
+    "Kurita",
+    "TaurianConcordat",
+    "AuriganPirates"
+  ],
+  "ContractTargetIDs": [
+    "Liao",
+    "Kurita",
+    "AuriganPirates",
+    "Davion",
+    "TaurianConcordat"
+  ]
+}

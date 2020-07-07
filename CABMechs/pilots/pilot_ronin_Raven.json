@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Id": "aerith_pilot",
+        "Id": "pilot_ronin_Raven",
         "Name": "Raven",
         "FirstName": "Aerith",
         "LastName": "Gainsborough",
@@ -8,8 +8,8 @@
         "Gender": "Female",
         "factionID": "Davion",
         "Age": "19",
-        "Details": "Hailing from Gillingham in the Federated Suns, Aerith is a capable MechWarrior. Her JR7-DS was blown out from underneath her in a border Skirmish.\n\nStruggling to find work in the Inner Sphere after being dispossessed, Aerith has ventured into the Periphery.",
-        "Icon": "aerith"
+        "Details": "Hailing from Gillingham in the Federated Suns, Aerith is a capable MechWarrior. Her JR7-DS was blown out from underneath her in a border Skirmish. Struggling to find work in the Inner Sphere after being dispossessed, Aerith has ventured into the Periphery.",
+        "Icon": "Raven"
     },
     "BaseGunnery": "1",
     "BonusGunnery": 0,
@@ -32,6 +32,7 @@
     "PilotTags": {
         "items": [
             "BLACKLISTED",
+            "name_Raven",
             "pilot_military",
             "pilot_mechwarrior",
             "pilot_athletic",

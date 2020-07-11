@@ -2,9 +2,9 @@
     "Name": "cFixes2",
     "Enabled": true,
 
-    "Version": "1.9.1.1",
-    "PackagedOn": "2020-06-25T01:00:00Z",
-
+    "Version": "1.9.1.2",
+    "PackagedOn": "2020-07-06T01:00:00Z",
+    "Description": "Community sourced bug fixes, for BATTLETECH 1.9.1",
     "Author": "Team Banzai",
     "Website": "https://github.com/BattletechModders/cFixes/",
 	
@@ -12,21 +12,22 @@
     "ConflictsWith": [],
 
     "Manifest": [
-    { "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
-    { "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
+
+	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "ContractOverride", "Path": "contracts" },
     { "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
     { "Path": "eventsMerge", "Type": "AdvancedJSONMerge" },
-	{ "Type": "HardpointDataDef", "Path": "hardpoints", "AddToDB": true },
+	{ "Type": "HardpointDataDef", "Path": "hardpoints" },
 	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" },
-	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
+	{ "Type": "MechDef", "Path": "mech" },
 	{ "Path": "mechMerge", "Type": "AdvancedJSONMerge" },
     { "Path": "milestoneMerge", "Type": "AdvancedJSONMerge" },
-    { "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
-	{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
-    { "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
-    { "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
+	{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
+	{ "Type": "UpgradeDef", "Path": "upgrades" },
+	{ "Type": "VehicleDef", "Path": "vehicle" },
+	{ "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
     { "Path": "hardpointsMerge", "Type": "AdvancedJSONMerge" },
-    { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true }, 
+    { "Type": "PathingCapabilitiesDef", "Path": "pathing"}, 
     { "Type": "ItemCollectionDef", "Path": "itemCollections"},
     { "Type": "SimpleText", "Path": "text"}
     ]

@@ -2,7 +2,7 @@
     "Name": "LittleThings",
     "Enabled": true,
 
-    "Version": "1.9.1-006R",
+    "Version": "1.9.1-007R",
     "Description": "Fix some little annoyances and change minor things.",
     "Author": "Mad",
 
@@ -16,7 +16,6 @@
         "FixUIMainNavigation": true,
         "DisableTutorials": true,
         "DisableSimGameCharHighlights": true,
-        "InjuryFixes": false,
         "FixInspire": true,
         "FixCombatHUDPortraitRightClick": true,
         "FixCoilPreviews": true,
@@ -27,6 +26,8 @@
         "TrainingNotificationLimit": 4,
         "FixInterleavedDropouts": true,
         "DisableInitiativeFloatieForDeadActors": true,
+        "DisableCareerModeScoring": true,
+        "DisableHeavyMetalLootPopup": false,
 
         "ShowEnemyInjuries": true,
         "SmallCombatFloaties": true,

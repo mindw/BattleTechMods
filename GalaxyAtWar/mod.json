@@ -2,18 +2,19 @@
     "Name": "Galaxy at War",
     "Enabled": true,
 
-    "Version": "4.5.0",
+    "Version": "4.5.2",
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
-    "OptionallyDependsOn": [ 
+    "OptionallyDependsOn": [
+        "BattletechPerformanceFix",
         "BT_Extended_Overrides" 
     ],
     "Settings": 
     {
         "StartingPirateActivity" : 40.0,
-        "BonusPirateResources" : 200.0,
-        "PirateSystemFlagValue" : 5.0,
+		"BonusPirateResources" : 500.0,
+		"PirateSystemFlagValue" : 10.0,
         "FractionPirateResources" : 1,
         
         "ResourceScale" : 0.5,
@@ -24,13 +25,14 @@
         "GlobalDefenseFactor" : 1.5,
         "DResourceAdjustmentPerCycle" : 1,
 
-        "InternalHotSpots" : 6,
-        "ExternalHotSpots" : 5,
+        "InternalHotSpots" : 4,
+        "ExternalHotSpots" : 8,
         
         "ChangeDifficulty" : false,
         "ExpandedMap" : true,
         "ResetMap" : false,
         "AggressiveToggle" : false,
+        "CleanUpCompanyTag" : false,
         
         "ComstarSupport" : true,
         "ComstarARBonus" : 500,
@@ -38,7 +40,7 @@
         "ComstarSupportTime" : 3,
         
         "DeploymentMinDays" : 1,
-        "DeploymentMaxDays" : 6,
+        "DeploymentMaxDays" : 3,
         "DeploymentContracts" : 3.0,
         "DeploymentEscalationFactor" : 1.1,
         "InfluenceDivisor" : 1.25,
@@ -50,6 +52,26 @@
         "DeploymentReward_05" : "itemCollection_loot_FP_generic_SLDF",
         "DeploymentReward_06" : "itemCollection_loot_FP_generic_SLDF_double",
         
+		//***Attacking Resources
+		"planet_industry_poor" : 5,
+		"planet_industry_mining" : 10,
+		"planet_industry_rich" : 15,
+		"planet_industry_manufacturing" : 20,
+		"planet_industry_research" : 25,
+		"planet_other_starleague" : 30,
+		
+		//***Defending Resources
+		"planet_industry_agriculture" : 10,
+		"planet_industry_aquaculture" : 10,
+		"planet_other_hub" : 15,
+		"planet_other_capital" : 20,
+		"planet_pop_none" : 0,
+		"planet_pop_small" : 4,
+		"planet_pop_medium" : 6,
+		"planet_pop_large" : 8,
+		"planet_other_megacity" : 10,
+		"planet_other_comstar" : 0,
+		
         "IncludedFactions": [
             "Davion",
             "Marik",
@@ -182,7 +204,7 @@
             "AttackDefend" : 1.6,
             "SoloDuel" : 0.4,
             "DuoDuel" : 0.4,
-            "Blackout" : 1.0
+            "Blackout" : 1.6
             },
         "LogoNames": {
             "Davion" : "davionLogo",
@@ -223,7 +245,7 @@
         "HyadesNeverControl": [],
             
         // ** ISM Compatibility specific section.   
-        "ISMCompatibility" : true,
+        "ISMCompatibility" : false,
         
         "StartingPirateActivity_ISM" : 35.0,
         "BonusPirateResources_ISM" : 150.0,
@@ -272,6 +294,6 @@
             },
         
         "LongWarTesting" : false,
-        "Debug" : false
+        "Debug" : true
     }
 }

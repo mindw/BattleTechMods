@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Weistheimer",
     "Name": "Weistheimer",
-    "Details": "<i>Here might be dragons.</i>",
+    "Details": "A satellite tidally locked to its gas giant, Weistheimer still contains a number of ore extraction facilities operating on its frozen wastes to mine rare earth elements from underneath the tundra landscapes. During the Star League era the world was also used as a high-security prison facility.",
     "Icon": ""
   },
   "Position": {
@@ -13,26 +13,24 @@
   "Tags": {
     "items": [
       "planet_name_weistheimer",
-      "planet_size_medium",
-      "planet_climate_rocky",
-      "planet_pop_none",
-      "planet_faction_nofaction",
+      "planet_size_small",
+      "planet_climate_ice",
+      "planet_civ_primitive",
+      "planet_pop_small",
+      "planet_other_prison",
+      "planet_faction_independent",
+      "planet_other_blackmarket",
+      "planet_industry_poor",
+      "planet_feature_gasgiant",
+      "planet_feature_rings",
+      "planet_industry_mining",
       "planet_other_empty",
       "planet_progress_3"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsSpring",
-    "lowlandsFall",
-    "highlandsSpring",
-    "highlandsFall",
-    "desertParched",
-    "badlandsParched",
-    "polarFrozen",
-    "tundraFrozen",
-    "jungleTropical",
-    "urbanHighTech"
+    "polarFrozen"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -43,8 +41,8 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 8,
-  "ownerID": "NoFaction",
+  "JumpDistance": 4,
+  "ownerID": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,

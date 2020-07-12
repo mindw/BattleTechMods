@@ -31,8 +31,7 @@
     "badlandsParched",
     "polarFrozen",
     "tundraFrozen",
-    "jungleTropical",
-    "urbanHighTech"
+    "jungleTropical"
   ],
   "MapRequiredTags": {
     "items": [],

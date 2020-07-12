@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_BorgansRift",
     "Name": "Borgan's Rift",
-    "Details": "A continuous target for pirate attacks, Borgan's Rift is also rumored to have some of the seediest Canopian brothels and arenas as a result of its economic decay but local inhabitants consider any insinuation of lower quality service as a personal insult. ",
+    "Details": "A continuous target for pirate attacks, Borgan's Rift is also rumored to have some of the seediest Canopian brothels and arenas as a result of its economic decay. The local inhabitants consider any insinuation of lower quality service as a personal insult, and might violently attack anyone who complaint, and specially off-worlders, with the corrupt local constabulary turning a blind eye to any dead bodies that might result.",
     "Icon": ""
   },
   "Position": {
@@ -14,27 +14,23 @@
     "items": [
       "planet_name_borgansrift",
       "planet_size_small",
-      "planet_climate_terran",
+      "planet_climate_arid",
       "planet_pop_medium",
       "planet_faction_magistracy",
       "planet_industry_poor",
+      "planet_civ_periphery",
       "planet_industry_recreation",
+      "planet_other_pirate",
+      "planet_other_hub",
       "planet_other_plague",
       "planet_progress_3"
     ],
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsSpring",
-    "lowlandsFall",
-    "highlandsSpring",
-    "highlandsFall",
     "desertParched",
     "badlandsParched",
-    "polarFrozen",
-    "tundraFrozen",
-    "jungleTropical",
-    "urbanHighTech"
+    "polarFrozen"
   ],
   "MapRequiredTags": {
     "items": [],

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_KossandrasMemory",
     "Name": "Kossandra's Memory",
-    "Details": "<i>Here might be dragons.</i>",
+    "Details": "Named after Kossandra Centrella, a former Free Worlds League officer who founded the Magistracy, the colony was eventually abandoned by the Canopians during the Third Succession War due to increased raids. Surprisingly, the inhabitants who chose to remain were able to keep the planetary government still functional.",
     "Icon": ""
   },
   "Position": {
@@ -15,9 +15,10 @@
       "planet_name_kossandrasmemory",
       "planet_size_medium",
       "planet_climate_rocky",
-      "planet_pop_none",
-      "planet_faction_nofaction",
-      "planet_other_empty",
+      "planet_civ_periphery",
+      "planet_industry_poor",
+      "planet_pop_small",
+      "planet_faction_independent",
       "planet_progress_3"
     ],
     "tagSetSourceFile": ""
@@ -31,8 +32,7 @@
     "badlandsParched",
     "polarFrozen",
     "tundraFrozen",
-    "jungleTropical",
-    "urbanHighTech"
+    "jungleTropical"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -43,8 +43,8 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 8,
-  "ownerID": "NoFaction",
+  "JumpDistance": 5,
+  "ownerID": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -123,7 +123,7 @@
     }
   ],
   "StarPosition": null,
-  "StarType": "K",
+  "StarType": "G",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

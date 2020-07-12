@@ -17,6 +17,8 @@
       "planet_climate_rocky",
       "planet_pop_large",
       "planet_faction_magistracy",
+      "planet_other_hub",
+      "planet_civ_periphery",
       "planet_industry_manufacturing",
       "planet_industry_agriculture",
       "planet_progress_3"
@@ -32,8 +34,7 @@
     "badlandsParched",
     "polarFrozen",
     "tundraFrozen",
-    "jungleTropical",
-    "urbanHighTech"
+    "jungleTropical"
   ],
   "MapRequiredTags": {
     "items": [],
@@ -44,7 +45,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 8,
+  "JumpDistance": 7,
   "ownerID": "MagistracyOfCanopus",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -124,7 +125,7 @@
     }
   ],
   "StarPosition": null,
-  "StarType": "K",
+  "StarType": "G",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

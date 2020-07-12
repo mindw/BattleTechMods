@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_TechnesRevenge",
     "Name": "Techne's Revenge",
-    "Details": "Specializing into more hardcore activities, such as sadomasochism and simulated blood sports, Techne's Revenge offers to the Periphery hedonist a wide range of distractions. ",
+    "Details": "Specializing into more hardcore activities, such as sadomasochism and simulated blood sports, Techne's Revenge offers to the Periphery hedonist a wide range of distractions and activities. All of the seven sins of ancient Terra can be found on this world, whose name refers to the 'revenge' of its founders against the false morals and hipocrisy of the Inner Sphere.",
     "Icon": ""
   },
   "Position": {
@@ -26,16 +26,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsSpring",
-    "lowlandsFall",
     "highlandsSpring",
     "highlandsFall",
-    "desertParched",
-    "badlandsParched",
     "polarFrozen",
-    "tundraFrozen",
-    "jungleTropical",
-    "urbanHighTech"
+    "tundraFrozen"
   ],
   "MapRequiredTags": {
     "items": [],

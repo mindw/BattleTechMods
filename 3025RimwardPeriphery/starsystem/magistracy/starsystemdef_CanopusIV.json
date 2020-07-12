@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_CanopusIV",
     "Name": "Canopus IV",
-		"Details": "The capital and richest world of the Magistracy, Canopus serves as the main industrial center, containing most of the Canopian BattleMech factories. The Royal Court is located at the political capital Crimson and the Majesty Metals and Manufacturing headquarters are located at the original planetary capital of Delphi. The system is defended by the regiments of the Magistracy's Royal Guards.",
+    "Details": "The capital and richest world of the Magistracy, Canopus serves as the main industrial center, containing most of the Canopian BattleMech factories. The Royal Court is located at the political capital Crimson and the Majesty Metals and Manufacturing headquarters are located at the original planetary capital of Delphi. The system is defended by the regiments of the Magistracy's Royal Guards.",
     "Icon": ""
   },
   "Position": {
@@ -13,18 +13,18 @@
   "Tags": {
     "items": [
       "planet_name_canopusiv",
-			"planet_size_medium",
+      "planet_size_medium",
       "planet_climate_terran",
       "planet_pop_large",
       "planet_civ_innersphere",
-			"planet_industry_mining",
+      "planet_industry_mining",
       "planet_industry_electronics",
       "planet_industry_recreation",
       "planet_industry_rich",
       "planet_other_comstar",
       "planet_other_megacity",
       "planet_other_capital",
-			"planet_other_storms",
+      "planet_other_storms",
       "planet_other_factionhq_magistracyofcanopus",
       "planet_faction_magistracy",
       "planet_progress_3"
@@ -138,14 +138,14 @@
   "MaxContractOverride": 0,
   "SystemShopItems": [
     "itemCollection_major_MagistracyOfCanopus",
-		"itemCollection_shop_miningProgression",
-		"itemCollection_shop_researchProgression",
+    "itemCollection_shop_miningProgression",
+    "itemCollection_shop_researchProgression",
     "itemCollection_shop_electronicsProgression"
   ],
-  "FactionShopOwnerID": "MagistracyOfCanopus",
+  "factionShopOwnerID": "MagistracyOfCanopus",
   "FactionShopItems": [
-        "itemCollection_faction_MagistracyOfCanopus"
-  ], 
+    "itemCollection_faction_MagistracyOfCanopus"
+  ],
   "BlackMarketShopItems": null,
   "CoreSystemID": "starsystemdef_CanopusIV",
   "StartingSystemModes": [
@@ -153,9 +153,9 @@
     "CAREER",
     "NONE"
   ],
-	"DefaultDifficulty": 7,
+  "DefaultDifficulty": 7,
   "DifficultyList": [
-		7,
+    7,
     9
   ],
   "DifficultyModes": [
@@ -163,13 +163,13 @@
     "CAREER"
   ],
   "ContractEmployerIDs": [
-		"Liao",
+    "Liao",
     "Marik",
     "MagistracyOfCanopus",
     "AuriganPirates"
   ],
   "ContractTargetIDs": [
-		"Liao",
+    "Liao",
     "Marik",
     "MagistracyOfCanopus",
     "AuriganPirates"

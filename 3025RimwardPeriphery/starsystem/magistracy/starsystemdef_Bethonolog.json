@@ -16,6 +16,7 @@
       "planet_size_medium",
       "planet_climate_terran",
       "planet_pop_small",
+      "planet_other_hub",
       "planet_faction_magistracy",
       "planet_progress_3"
     ],
@@ -42,7 +43,7 @@
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 8,
+  "JumpDistance": 4,
   "ownerID": "MagistracyOfCanopus",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -122,7 +123,7 @@
     }
   ],
   "StarPosition": null,
-  "StarType": "K",
+  "StarType": "M",
   "Depletable": false,
   "UseSystemRoninHiringChance": false,
   "RoninHiringChance": 0,

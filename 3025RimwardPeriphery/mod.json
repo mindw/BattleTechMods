@@ -25,17 +25,6 @@
 		{ "Type": "StarSystemDef", "Path": "starsystem/outerrim", "AddToDB": true },
 		{ "Type": "StarSystemDef", "Path": "starsystem/taurian", "AddToDB": true },
 		{ "Type": "StarSystemDef", "Path": "starsystem/taurian_abandoned", "AddToDB": true },
-		{ "Type": "StarSystemDef", "Path": "starsystem/undiscovered", "AddToDB": true },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_abandoned", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_aurigan", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_davion", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_davion_abandoned", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_liao", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_liao_abandoned", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_magistracy", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_marik", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_marik_abandoned", "ShouldMergeJSON": true, "AddToDB": false },
-		{ "Type": "StarSystemDef", "Path": "starsystem/base_taurian", "ShouldMergeJSON": true, "AddToDB": false }
+		{ "Type": "StarSystemDef", "Path": "starsystem/undiscovered", "AddToDB": true }
     ]
 }

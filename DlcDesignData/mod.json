@@ -1,0 +1,28 @@
+{
+    "Name": "DlcDesignData",
+    "Enabled": true,
+    
+    "Version": "1.0.0",
+    "Description": "DLC Design data unmodified, to allow merge",
+    "Author": "HBS & MindW",
+    
+    "Manifest": [
+        { "Type": "AbilityDef", "Path": "abilities" },
+        { "Type": "AmmunitionDef", "Path": "ammunition" },
+        { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox" },
+        { "Type": "ChassisDef", "Path": "chassis" },
+        { "Type": "ContractOverride", "Path": "contracts" },
+        { "Type": "SimGameEventDef", "Path": "events" },
+        { "Type": "FlashpointDef", "Path": "flashpoints" },
+        { "Type": "HardpointDataDef", "Path": "hardpoints" },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollections" },
+        { "Type": "JumpJetDef", "Path": "jumpjets" },
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+        { "Type": "MovementCapabilitiesDef", "Path": "movement"},
+        { "Type": "UpgradeDef", "Path": "upgrades"},
+        { "Type": "VehicleDef", "Path": "vehicle"},
+        { "Type": "VehicleChassisDef", "Path": "vehicleChassis"},
+        { "Type": "WeaponDef", "Path": "weapon" }
+    ]
+}

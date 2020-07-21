@@ -8,8 +8,8 @@
     "Author": "Team Banzai",
     "Website": "https://github.com/BattletechModders/cFixes/",
 	
-    "DependsOn": [],
-    "ConflictsWith": [],
+    "DependsOn": ["DlcDesignData"],
+    "ConflictsWith": ["cFixes"],
 
     "Manifest": [
 

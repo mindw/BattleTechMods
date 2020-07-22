@@ -9,29 +9,29 @@
     "DLL": "IRTweaks.dll",
     "DependsOn" : [ "IRBTModUtils" ],
     "Settings": {
-        "Debug" : false,
+        "Debug" : true,
         "Trace" : false,
         "Fixes" : {
             "BulkPurchasing" : true,
             "CombatLog" : false,
-            "DisableCampaign" : false,
-            "DisableCombatSaves" : false,
+            "DisableCampaign" : true,
+            "DisableCombatSaves" : true,
             "ExtendedStats" : true,
             "FlexibleSensorLock" : true,
             "MultiTargetStat" : false,
 	        "AlternateMechNamingStyle" : false,
             "PainTolerance" : false,
             "PathfinderTeamFix" : true,
-            "PreventHeadShots" : false,
+            "PreventHeadShots" : true,
             "RandomStartByDifficulty" : true,
-            "ReduceSaveCompression" : false,
-            "ShowAllArgoUpgrades" : false,
+            "ReduceSaveCompression" : true,
+            "ShowAllArgoUpgrades" : true,
             "SkirmishAlwaysUnlimited" : true,
             "SkirmishReset" : true,
             "SkipDeleteSavePopup" : true,
             "SpawnProtection" : true,
             "StreamlinedMainMenu" : true,
-            "WeaponTooltip" : false,
+            "WeaponTooltip" : false
         },
         "Abilities" : {
             "MultiTargetId" : "AbilityDefG5"
@@ -47,7 +47,7 @@
                 }
             },
             "FlexibleSensorLock" : {
-                "FreeActionWithAbility" : true,
+                "FreeActionWithAbility" : false,
                 "AbilityId" : "AbilityDefT8A"
             },
             "PainTolerance" : {

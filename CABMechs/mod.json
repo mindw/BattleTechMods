@@ -2,13 +2,16 @@
     "Name": "CABMechs",
     "Enabled": true,
 
-    "DependsOn": [ "CommunityBundles", "cFixes2" ],
+    "DependsOn": [
+        "CommunityBundles", 
+        "StreakMissileLaunchers"
+    ],
 
     "Version": "0.1",
     
-    "OptionallyDependsOn": [],
+    "OptionallyDependsOn": ["cFixes", "cFixes2"],
 
-    "Description": "Making use of the Community Asset Bundle, this folder some all the 3025-ish era variants for Vanilla in one place - includes Wolfhound, Urbie R50, Assassin, Marauder II, Charger, Champion, Longbow, Nightstar.  It then adds 'Mechs from the TRO 3028 such as Linesman, Jayhawker, Nightstar and Loader King variants.",
+    "Description": "Variants from many places.",
     "Author": "Grizzly_nyo, based on the work of Justin Kase and others",
     
     "Manifest": [

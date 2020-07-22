@@ -60,7 +60,7 @@
   "Description": {
     "Cost": 4100000,
     "Rarity": 5,
-    "Purchasable": false,
+    "Purchasable": true,
     "Manufacturer": null,
     "Model": null,
     "UIName": "Wolfhound WLF-1",

@@ -5,13 +5,13 @@
 
     "Settings": {
         "MapWidth": 200,
-        "MapHeight": 300,
+        "MapHeight": 350,
 
         "MapMargin": 50,
         "MapBottomMargin": 100,
         
         "MinFov": 20,
-        "MaxFov": 125,
+        "MaxFov": 128,
 
         "UseSmoothZoom": true,
         "SmoothZoomTime": 0.15,
@@ -19,10 +19,6 @@
         "StarHitboxSize": 2,
         "BorderMargin": 5,
 		
-		"SetContractParticipants": true,
-        "MajorInfluence": 1.5,
-        "MinorInfluence": 1.0,
-
         "FactionColors": {
             "Kurita": [0.863, 0.078, 0.235, 1],
             "Steiner": [0.255, 0.412, 0.882, 1],
@@ -46,8 +42,6 @@
             "Steiner": "Logos/steinerLogo.png"
         },
 		
-		"FedCommDate": "3040-01-19",
-
         "NavRoomScreenTexturePath": "testInnerSphere.PNG",
 
         "GenerateShopsTag": "mod_generate_shops",

@@ -1,21 +1,21 @@
 {
   "Description": {
-    "Cost": 8300000,
+    "Cost": 8100000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Hatamoto-Chi",
-    "Id": "chassisdef_hatamotochi_HTM-26T",
-    "Name": "Hatamoto-Chi",
-    "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger. The HTM-26T was first seen in 3039 and very little was known about it.  Armed with a pair of PPCs and a pair of SRM-6s, the Hatamoti-Chi can deliver a solid amount of damage at both short and long range, and can be devastating at mid-range.",
-    "Icon": "uixTxrIcon_hatamotochi"
+    "UIName": "Charger",
+    "Id": "chassisdef_charger_CGR-1A5",
+    "Name": "Charger",
+    "Details": "The 1A5 variant of the Charger was one of the first variants of the Charger made to take it from the role of scout to assault 'Mech. A Capellan modification to the CGR-1Ls they received as part of the Kapteyn Accords, the engine was downgraded to a 320 version, which reduced the maximum speed of the 'Mech to 64.8 km/h, and four of the small lasers were removed. In their place was a Tomodzuru Autocannon/20 as its primary weapon, two Bical SRM-6 launchers and an Argra 3L Medium Laser, while the 'Mech's armor was increased by five tons. This made the CGR-1A5 extremely dangerous at close ranges and gave it a speed comparable to most 'Mechs in the heavy weight class, while carrying armor on par with other eighty-ton 'Mechs.",
+    "Icon": "uixTxrIcon_charger"
   },
-  "MovementCapDefID": "movedef_hatamotochi_HTM-26T",
+  "MovementCapDefID": "movedef_charger_CGR-1A5",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_hatamotochi",
-  "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001",
-  "PrefabBase": "hatamotochi",
+  "HardpointDataDefID": "hardpointdatadef_charger",
+  "PrefabIdentifier": "chrprfmech_chargerhotd-001",
+  "PrefabBase": "charger",
   "Tonnage": 80,
   "InitialTonnage": 39.5,
   "weightClass": "ASSAULT",
@@ -35,7 +35,7 @@
   "SensorRangeMultiplier": 1,
   "Signature": 0,
   "Radius": 8,
-  "PunchesWithLeftArm": true,
+  "PunchesWithLeftArm": false,
   "MeleeDamage": 110,
   "MeleeInstability": 80,
   "MeleeToHitModifier": 0,
@@ -46,7 +46,16 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -55,16 +64,7 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 8,
       "MaxArmor": 130,
@@ -79,7 +79,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -91,7 +91,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 250,
@@ -102,11 +107,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -118,16 +119,7 @@
     },
     {
       "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 8,
       "MaxArmor": 130,
@@ -197,11 +189,11 @@
       "z": 1
     }
   ],
-  "VariantName": "HTM-26T",
+  "VariantName": "CGR-1A5",
   "ChassisTags": {
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Heavy Sniper & Defender",
-  "YangsThoughts": "Hard to believe this started off as a Charger variant.  The HTM-26T is the Drac's take on a modern Thug - though I am not sure how I feel about the Samurai helmet on top though."
+  "StockRole": "Assault & Brawler",
+  "YangsThoughts": "The 1A5 variant of the Charger was one of the first variants of the Charger made to take it from the role of scout to assault 'Mech. A Capellan modification to the CGR-1Ls they received as part of the Kapteyn Accords, the engine was downgraded to a 320 version, which reduced the maximum speed of the 'Mech to 64.8 km/h, and four of the small lasers were removed. In their place was a Tomodzuru Autocannon/20 as its primary weapon, two Bical SRM-6 launchers and an Argra 3L Medium Laser, while the 'Mech's armor was increased by five tons. This made the CGR-1A5 extremely dangerous at close ranges and gave it a speed comparable to most 'Mechs in the heavy weight class, while carrying armor on par with other eighty-ton 'Mechs."
 }

@@ -1,26 +1,26 @@
 {
   "Description": {
-    "Cost": 8300000,
-    "Rarity": 4,
+    "Cost": 7500000,
+    "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Hatamoto-Chi",
-    "Id": "chassisdef_hatamotochi_HTM-26T",
-    "Name": "Hatamoto-Chi",
-    "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger. The HTM-26T was first seen in 3039 and very little was known about it.  Armed with a pair of PPCs and a pair of SRM-6s, the Hatamoti-Chi can deliver a solid amount of damage at both short and long range, and can be devastating at mid-range.",
-    "Icon": "uixTxrIcon_hatamotochi"
+    "UIName": "Charger",
+    "Id": "chassisdef_charger_CGR-SB",
+    "Name": "Charger",
+    "Details": "This radical modification looks to turn the Charger into a traditional assault 'Mech by reducing the 'Mechs speed to 54 km/h, which allows the use of a smaller engine (incidentally, the commonplace Pitban 240 reactor). The 'Mech is armored with fifteen and a half tons of armor and is armed with four Large Lasers, one in each arm and side torso, and a Medium Laser in its head; twenty-eight heat sinks kept the 'Mech cool.",
+    "Icon": "uixTxrIcon_charger"
   },
-  "MovementCapDefID": "movedef_hatamotochi_HTM-26T",
+  "MovementCapDefID": "movedef_charger_CGR-SB",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_hatamotochi",
-  "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001",
-  "PrefabBase": "hatamotochi",
+  "HardpointDataDefID": "hardpointdatadef_charger",
+  "PrefabIdentifier": "chrprfmech_chargerhotd-001",
+  "PrefabBase": "charger",
   "Tonnage": 80,
-  "InitialTonnage": 39.5,
+  "InitialTonnage": 25.5,
   "weightClass": "ASSAULT",
-  "Heatsinks": 6,
-  "MaxJumpjets": 4,
+  "Heatsinks": 0,
+  "MaxJumpjets": 3,
   "Stability": 200,
   "StabilityDefenses": [
     0,
@@ -35,7 +35,7 @@
   "SensorRangeMultiplier": 1,
   "Signature": 0,
   "Radius": 8,
-  "PunchesWithLeftArm": true,
+  "PunchesWithLeftArm": false,
   "MeleeDamage": 110,
   "MeleeInstability": 80,
   "MeleeToHitModifier": 0,
@@ -46,7 +46,16 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -61,7 +70,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -75,11 +84,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -102,11 +107,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -124,7 +125,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -197,11 +198,11 @@
       "z": 1
     }
   ],
-  "VariantName": "HTM-26T",
+  "VariantName": "CGR-SB",
   "ChassisTags": {
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Heavy Sniper & Defender",
-  "YangsThoughts": "Hard to believe this started off as a Charger variant.  The HTM-26T is the Drac's take on a modern Thug - though I am not sure how I feel about the Samurai helmet on top though."
+  "StockRole": "Assault & Brawler",
+  "YangsThoughts": "Called Challenger by its designers, the -SB modification is not remarkable because it is not particularly difficult to apply.  Using a common and well-know reactor in the refit and essentially only upgrading the existing lasers to heavier versions, in turn requiring the Targeting-Tracking System to be tampered with."
 }

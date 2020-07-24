@@ -1,14 +1,14 @@
 {
   "Description": {
-    "Cost": 8300000,
+    "Cost": 8400000,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Hatamoto-Chi",
-    "Id": "chassisdef_hatamotochi_HTM-26T",
-    "Name": "Hatamoto-Chi",
-    "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger. The HTM-26T was first seen in 3039 and very little was known about it.  Armed with a pair of PPCs and a pair of SRM-6s, the Hatamoti-Chi can deliver a solid amount of damage at both short and long range, and can be devastating at mid-range.",
+    "UIName": "Hatamoto-Hi",
+    "Id": "chassisdef_hatamotohi_HTM-27U",
+    "Name": "Hatamoto-Hi",
+    "Details": "Also known as the Hatamoto-Hi, it is nearly identical to the HTM-27T, but trades off the reliance on ammunition by trading out the SRM-6s for four Medium Pulse Lasers along with an extra Heat Sink.",
     "Icon": "uixTxrIcon_hatamotochi"
   },
   "MovementCapDefID": "movedef_hatamotochi_HTM-26T",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001",
   "PrefabBase": "hatamotochi",
   "Tonnage": 80,
-  "InitialTonnage": 39.5,
+  "InitialTonnage": 35.5,
   "weightClass": "ASSAULT",
   "Heatsinks": 6,
   "MaxJumpjets": 4,
@@ -61,7 +61,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -75,7 +75,11 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
@@ -102,7 +106,11 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
@@ -124,7 +132,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -197,11 +205,97 @@
       "z": 1
     }
   ],
-  "VariantName": "HTM-26T",
+  "VariantName": "HTM-27U",
   "ChassisTags": {
     "items": [],
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Sniper & Defender",
-  "YangsThoughts": "Hard to believe this started off as a Charger variant.  The HTM-26T is the Drac's take on a modern Thug - though I am not sure how I feel about the Samurai helmet on top though."
+  "YangsThoughts": "I like the trade-out of the SRMs for MPLs, it really gives the 27U extra durability in the field.  But, I think I'd still lose one of those Pulse Lasers and add some more heat dissipation.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_EndoSteel_1_Slot",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_EndoSteel_2_Slot",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    }
+  ]
 }

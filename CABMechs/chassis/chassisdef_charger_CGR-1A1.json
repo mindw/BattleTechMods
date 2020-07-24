@@ -1,26 +1,26 @@
 {
   "Description": {
-    "Cost": 8300000,
-    "Rarity": 4,
+    "Cost": 8800000,
+    "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Hatamoto-Chi",
-    "Id": "chassisdef_hatamotochi_HTM-26T",
-    "Name": "Hatamoto-Chi",
-    "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger. The HTM-26T was first seen in 3039 and very little was known about it.  Armed with a pair of PPCs and a pair of SRM-6s, the Hatamoti-Chi can deliver a solid amount of damage at both short and long range, and can be devastating at mid-range.",
-    "Icon": "uixTxrIcon_hatamotochi"
+    "UIName": "Charger",
+    "Id": "chassisdef_charger_CGR-1A1",
+    "Name": "Charger",
+    "Details": "The Charger is seen as an example of abject failure in BattleMech design. Wells Technologies originally wanted to produce an ultra-heavy scout 'Mech for the Star League Defense Force that was not only fast but could survive contact with the enemy. This was done by building the Charger on an 80-ton frame, making it the heaviest scout 'Mech in existence, and powering it with a massive LTV 400 fusion engine that took up almost sixty percent of the Charger's mass. With a top speed which allowed it to outrun most other 'Mechs the Charger was then given ten tons of Durallex Heavy armor, enough to survive repeated hits from a Class 20 Autocannon. However these features left very little room for offensive capability, an intentional deficiency on the part of the design team as they saw any task other than gathering data a distraction.",
+    "Icon": "uixTxrIcon_charger"
   },
-  "MovementCapDefID": "movedef_hatamotochi_HTM-26T",
+  "MovementCapDefID": "movedef_charger_CGR-1A1",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_hatamotochi",
-  "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001",
-  "PrefabBase": "hatamotochi",
+  "HardpointDataDefID": "hardpointdatadef_charger",
+  "PrefabIdentifier": "chrprfmech_chargerhotd-001",
+  "PrefabBase": "charger",
   "Tonnage": 80,
-  "InitialTonnage": 39.5,
+  "InitialTonnage": 67.5,
   "weightClass": "ASSAULT",
-  "Heatsinks": 6,
-  "MaxJumpjets": 4,
+  "Heatsinks": 0,
+  "MaxJumpjets": 5,
   "Stability": 200,
   "StabilityDefenses": [
     0,
@@ -35,7 +35,7 @@
   "SensorRangeMultiplier": 1,
   "Signature": 0,
   "Radius": 8,
-  "PunchesWithLeftArm": true,
+  "PunchesWithLeftArm": false,
   "MeleeDamage": 110,
   "MeleeInstability": 80,
   "MeleeToHitModifier": 0,
@@ -46,7 +46,16 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -57,11 +66,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -75,7 +80,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
@@ -102,7 +107,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
@@ -120,11 +125,7 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -197,11 +198,11 @@
       "z": 1
     }
   ],
-  "VariantName": "HTM-26T",
+  "VariantName": "CGR-1A1",
   "ChassisTags": {
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Heavy Sniper & Defender",
-  "YangsThoughts": "Hard to believe this started off as a Charger variant.  The HTM-26T is the Drac's take on a modern Thug - though I am not sure how I feel about the Samurai helmet on top though."
+  "StockRole": "Heavy Scout & Harasser",
+  "YangsThoughts": "Because the designers of the Charger wanted to discourage any activities that would put the 'Mech in danger, the engineers at Wells Technologies equipped the Charger with five Magna Mk I Small Lasers, mounted in its arms, torso and head. As these leave the 'Mech dangerously undergunned, arguably its most potent weapons are its fists; if the Charger is able to close the distance and get within hand-to-hand combat, it is more than capable of pounding to pieces other 'Mechs, especially lightweight ones."
 }

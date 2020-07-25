@@ -70,7 +70,7 @@
     "Id": "mechdef_hatamotochi_HTM-27T",
     "Name": "Hatamoto-Chi",
     "Details": "A melding of the popular Star League era Thug and the poorly regarded Charger. The HTM-26T is the original version produced during 3039. Though lacking the LosTech of the HTM-27, the single production run of the original field-test Hatamoto-Chi completed on the verge of the War of 3039 came as a total shock to the attacking Lyran and Davion Forces.",
-    "Icon": "uixTxrIcon_hatamoto"
+    "Icon": "uixTxrIcon_hatamotochi"
   },
   "simGameMechPartCost": 1000000,
   "Version": 1,

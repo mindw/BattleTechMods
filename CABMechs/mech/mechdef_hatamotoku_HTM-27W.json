@@ -68,7 +68,7 @@
     "Id": "mechdef_hatamotoku_HTM-27W",
     "Name": "Hatamoto-Ku",
     "Details": "The HTM-27W, known as the Hatamoto-Ku, trades out the original SRMs for an AC/5.  This gives the Ku the ability to pour on a lot of focussed fire at range.",
-    "Icon": "uixTxrIcon_hatamoto"
+    "Icon": "uixTxrIcon_hatamotochi"
   },
   "simGameMechPartCost": 980000,
   "Version": 1,

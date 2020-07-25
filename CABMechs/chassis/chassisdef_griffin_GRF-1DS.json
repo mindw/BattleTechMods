@@ -214,5 +214,31 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker & Skirmisher",
-    "YangsThoughts": "Griffin 1DS uses it's Jump Jets to stay at range and pelt their opponents from relative safety. The 1DS can spend all it's time bounding around the battlefield taking potshots thanks to its excessive number of double heat sinks."
+    "YangsThoughts": "Griffin 1DS uses it's Jump Jets to stay at range and pelt their opponents from relative safety. The 1DS can spend all it's time bounding around the battlefield taking potshots thanks to its excessive number of double heat sinks.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
 }

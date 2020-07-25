@@ -105,7 +105,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 140,
@@ -200,12 +200,36 @@
     "VariantName": "LNC25-01",
     "ChassisTags": {
         "items": [
-			"mr-resize-0.90-1.00-1.00",
-		],
+            "mr-resize-0.90-1.00-1.00"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Direct-Fire Support",
     "YangsThoughts": "The original design, the Lancelot 01 is a whole other beast to the Lancelot we have seen used previously. The Double heat sinks and the XL rated engine means this Star League era design is as fast, and as heat efficient as it was intended to be.",
-    "FixedEquipment" : [
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
     ]
 }

@@ -9,12 +9,17 @@
 
 # JR7-K Jenner
 * engine 245
-* single heatsinks (10) - 1 external (H)
+* FIXME: single heatsinks (10) - 1 external (H)
 * FF armor (-0.5 initial tonnage, +0.5 armor)
 * CASE (+0.5 armor on L/R torso)
+
+# CP-11-A Cyclops
+* engine 360
+* single heatsinks (12) - 2 internal
 
 TODO:
 * XL Engine
 * FF/ES chassis
 * external/internal heatsinks
 * MASC
+* Command Console - requires rarity revision

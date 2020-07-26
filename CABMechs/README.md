@@ -17,6 +17,14 @@
 * engine 360
 * single heatsinks (12) - 2 internal
 
+# DV-7D Dervish
+* engine 275
+* Double heatsinks (10)
+* Endo Steel
+* FF armor (-1 initial tonnage, +1 armor) (144 * 5)
+* CASE (+1.0 armor on L/R/C torso)
+* InitialTonnage 23.5 = 3[ESIS] + 15.5[E] + 3[C] + 3[G] -1[FF]
+
 TODO:
 * XL Engine
 * FF/ES chassis

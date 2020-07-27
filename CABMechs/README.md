@@ -24,10 +24,15 @@
 * FF armor (-1 initial tonnage, +1 armor) (144 * 5)
 * CASE (+1.0 armor on L/R/C torso)
 * InitialTonnage 23.5 = 3[ESIS] + 15.5[E] + 3[C] + 3[G] -1[FF]
+* FIXME: AB LeftTorso is broken
+
+# MAD-5D Marauder
+* XL engine 300
+* Double heatsinks (16) - 2 internal
+* CASE (+0.5 armor on L/R torso)
+* InitialTonnage 25 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 2[EDHS]
 
 TODO:
-* XL Engine
-* FF/ES chassis
 * external/internal heatsinks
 * MASC
 * Command Console - requires rarity revision

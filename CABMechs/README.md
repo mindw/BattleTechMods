@@ -32,6 +32,11 @@
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 25 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 2[EDHS]
 
+# WVR-6D/6M Wolverine
+* engine 275
+* single heatsinks (11/14) - 1 internal
+
+
 TODO:
 * external/internal heatsinks
 * MASC

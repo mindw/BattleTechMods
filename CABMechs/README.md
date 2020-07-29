@@ -36,8 +36,27 @@
 * engine 275
 * single heatsinks (11/14) - 1 internal
 
+# ARC-4M
+* engine 280 (1 internal HS)
+* Endo Steel
+* ArtemisIV (replace with Missile TTS+)
+* CASE (+1.0 armor on L/R/C torso)
+* 3.5[ESIS] + 16[E] + 6[C/G] = 25.6
+
+# ARC-4S
+* XL engine 280 (1 internal HS)
+* CASE (+1.0 armor on L/R/C torso)
+* 7[IS] + 8[XLE] + 6[C/G] = 21
+
+# DVS-2 Devastator
+* XL engine 300 (2 internal DHS)
+* 10[IS] + 9.5[XLE] + 6[C/G] + 2 [EDHS] = 27.5
 
 TODO:
-* external/internal heatsinks
+* external heatsinks
 * MASC
 * Command Console - requires rarity revision
+* artemis IV handling. 
+    * simplest - create a new set of LRMs/SRMs with builtin bonus
+    * maybe using with direct fire only.
+* dynamic availability (proabably will need a binary mod)

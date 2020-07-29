@@ -50,7 +50,11 @@
 
 # DVS-2 Devastator
 * XL engine 300 (2 internal DHS)
-* 10[IS] + 9.5[XLE] + 6[C/G] + 2 [EDHS] = 27.5
+* 10[IS] + 9.5[XLE] + 6[C/G] + 2[EDHS] = 27.5
+
+# MAL-1R Mauler
+* XL engine 270
+* 9[IS] + 7.5[XLE] + 6[C/G] - 1.5[FF] = 21.0
 
 TODO:
 * external heatsinks

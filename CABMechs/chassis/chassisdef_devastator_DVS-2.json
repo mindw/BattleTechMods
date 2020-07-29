@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_devastator_DVS-1D",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_warhammeriic",
-    "PrefabIdentifier": "chrprfmech_warhammeriicbase-001",
-    "PrefabBase": "warhammeriic",
+    "HardpointDataDefID": "hardpointdatadef_masondev",
+    "PrefabIdentifier": "chrprfmech_masondevbase-001",
+    "PrefabBase": "masondev",
     "Tonnage": 100,
     "InitialTonnage": 27.5,
     "weightClass": "ASSAULT",
@@ -61,6 +61,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
@@ -125,6 +129,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
@@ -201,37 +209,35 @@
     ],
     "VariantName": "DVS-2",
     "ChassisTags": {
-        "items": [
-			"mr-resize-1.10-1.10-1.10",
-		],
+        "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
     "YangsThoughts": "Designed by General Kerensky, he didn't skimp on any aspect.  The long range fire power is mind blowing, and the double heat sinks mean your mind never stops blowing!  Until someone clips the XL engine perhaps.",
-    "FixedEquipment" : [
+    "FixedEquipment": [
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_XL_Engine",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_XL_Engine",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
     ]
 }

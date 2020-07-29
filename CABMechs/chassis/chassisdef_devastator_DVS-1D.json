@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_devastator_DVS-1D",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_warhammeriic",
-    "PrefabIdentifier": "chrprfmech_warhammeriicbase-001",
-    "PrefabBase": "warhammeriic",
+    "HardpointDataDefID": "hardpointdatadef_masondev",
+    "PrefabIdentifier": "chrprfmech_masondevbase-001",
+    "PrefabBase": "masondev",
     "Tonnage": 100,
     "InitialTonnage": 35,
     "weightClass": "ASSAULT",
@@ -61,6 +61,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
@@ -125,6 +129,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
@@ -201,9 +209,7 @@
     ],
     "VariantName": "DVS-1D",
     "ChassisTags": {
-        "items": [
-			"mr-resize-1.10-1.10-1.10"
-		],
+        "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",

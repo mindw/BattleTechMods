@@ -41,7 +41,7 @@
 * Endo Steel
 * ArtemisIV (replace with Missile TTS+)
 * CASE (+1.0 armor on L/R/C torso)
-* 3.5[ESIS] + 16[E] + 6[C/G] = 25.6
+* 3.5[ESIS] + 16[E] + 6[C/G] = 25.5
 
 # ARC-4S
 * XL engine 280 (1 internal HS)
@@ -55,6 +55,19 @@
 # MAL-1R Mauler
 * XL engine 270
 * 9[IS] + 7.5[XLE] + 6[C/G] - 1.5[FF] = 21.0
+
+# RVN-3L Raven
+* XL egnine 210 (2 external heatsinks TBD)
+* FF armor (.5 initial tonnage, +.5 armor) (80 * 5)
+* CASE (+0.5 armor on L/R torso)
+* 3.5[IS] + 4.5[XLE] + 6[C/G] - .5[FF] = 13.5
+
+# TBT-7M Trebuchet
+* XL egnine 260
+* Double heatsinks (10)
+* Endo Steel
+* CASE (+1.0 armor on L/R/C torso)
+* 2.5[ESIS] + 6.5[XLE] + 6[C/G] = 15
 
 TODO:
 * external heatsinks

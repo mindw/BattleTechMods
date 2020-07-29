@@ -1,12 +1,12 @@
 {
 	"Description": {
 		"Id": "starsystemdef_ME21",
-		"Name": "ME21",
-		"Details": "<i>Here might be dragons.</i>",
+		"Name": "SLSC 20619",
+		"Details": "SLSC 20619 is a star system used as a Deep Periphery navigational waypoint. The systems listed in the Star League Star Catalog (SLSC) are also used for recharging Jumpships while in route and they usually contain planets and satellites, along with other intrastellar features.",
 		"Icon": ""
 	},
 	"Position": {
-		"x": -245.31,
+		"x": -240.31,
 		"y": -530.12,
 		"z": 0
 	},
@@ -18,13 +18,13 @@
 			"planet_size_small",
 			"planet_pop_none",
 			"planet_other_empty",
-			"planet_climate_lunar",
+			"planet_climate_ice",
 			"planet_progress_2"
 		],
 		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
-		"lunarVacuum"
+		"polarFrozen"
 	],
 	"MapRequiredTags": {
 		"items": [],
@@ -35,7 +35,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 8,
+	"JumpDistance": 5,
 	"OwnerID": "NoFaction",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
@@ -133,21 +133,13 @@
 	],
 	"DefaultDifficulty": 0,
 	"DifficultyList": [
-		1,
-		1
+		0,
+		0
 	],
 	"DifficultyModes": [
 		"KAMEA_CAMPAIGN",
 		"CAREER"
 	],
-	"ContractEmployerIDs": [
-		"Marik",
-		"MagistracyOfCanopus",
-		"AuriganPirates"
-	],
-	"ContractTargetIDs": [
-		"AuriganPirates",
-		"Marik",
-		"MagistracyOfCanopus"
-	]
+	"ContractEmployerIDs": [],
+	"ContractTargetIDs": []
 }

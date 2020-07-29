@@ -1,8 +1,8 @@
 {
 	"Description": {
 		"Id": "starsystemdef_IE10",
-		"Name": "IE10",
-		"Details": "<i>Here might be dragons.</i>",
+		"Name": "SLC 14056",
+		"Details": "SLSC 14056 is a star system used as a Deep Periphery navigational waypoint. The systems listed in the Star League Star Catalog (SLSC) are also used for recharging Jumpships while in route and they usually contain planets and satellites, along with other intrastellar features.",
 		"Icon": ""
 	},
 	"Position": {
@@ -15,8 +15,9 @@
 			"planet_region_undiscovered",
 			"planet_name_ie10",
 			"planet_faction_nofaction",
-			"planet_size_small",
-			"planet_climate_lunar",
+			"planet_size_medium",
+			"planet_climate_arctic",
+			"planet_feature_moon03",
 			"planet_pop_none",
 			"planet_other_empty",
 			"planet_progress_2"
@@ -24,7 +25,10 @@
 		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
-		"lunarVacuum"
+		"highlandsSpring",
+		"highlandsFall",
+		"polarFrozen",
+		"tundraFrozen"
 	],
 	"MapRequiredTags": {
 		"items": [],
@@ -35,7 +39,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 8,
+	"JumpDistance": 4,
 	"ownerID": "NoFaction",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
@@ -115,7 +119,7 @@
 		}
 	],
 	"StarPosition": null,
-	"StarType": "K",
+	"StarType": "F",
 	"Depletable": false,
 	"UseSystemRoninHiringChance": false,
 	"RoninHiringChance": 0,
@@ -133,21 +137,13 @@
 	],
 	"DefaultDifficulty": 0,
 	"DifficultyList": [
-		1,
-		1
+		0,
+		0
 	],
 	"DifficultyModes": [
 		"KAMEA_CAMPAIGN",
 		"CAREER"
 	],
-	"ContractEmployerIDs": [
-		"Marik",
-		"MagistracyOfCanopus",
-		"AuriganPirates"
-	],
-	"ContractTargetIDs": [
-		"AuriganPirates",
-		"Marik",
-		"MagistracyOfCanopus"
-	]
+	"ContractEmployerIDs": [],
+	"ContractTargetIDs": []
 }

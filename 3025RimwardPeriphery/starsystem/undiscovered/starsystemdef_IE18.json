@@ -1,8 +1,8 @@
 {
 	"Description": {
 		"Id": "starsystemdef_IE18",
-		"Name": "IE18",
-		"Details": "<i>Here might be dragons.</i>",
+		"Name": "SLSC 79488",
+		"Details": "SLSC 79488 is a star system used as a Deep Periphery navigational waypoint. The systems listed in the Star League Star Catalog (SLSC) are also used for recharging Jumpships while in route and they usually contain planets and satellites, along with other intrastellar features.",
 		"Icon": ""
 	},
 	"Position": {
@@ -14,8 +14,9 @@
 		"items": [
 			"planet_region_undiscovered",
 			"planet_name_ie18",
-			"planet_size_small",
-			"planet_climate_lunar",
+			"planet_size_medium",
+			"planet_climate_desert",
+			"planet_feature_moon02",
 			"planet_pop_none",
 			"planet_faction_nofaction",
 			"planet_other_empty",
@@ -24,7 +25,8 @@
 		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
-		"lunarVacuum"
+		"desertParched",
+		"martianVacuum"
 	],
 	"MapRequiredTags": {
 		"items": [],
@@ -115,7 +117,7 @@
 		}
 	],
 	"StarPosition": null,
-	"StarType": "K",
+	"StarType": "G",
 	"Depletable": false,
 	"UseSystemRoninHiringChance": false,
 	"RoninHiringChance": 0,

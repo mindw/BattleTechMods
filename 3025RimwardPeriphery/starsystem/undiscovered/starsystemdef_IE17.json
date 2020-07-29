@@ -1,8 +1,8 @@
 {
 	"Description": {
 		"Id": "starsystemdef_IE17",
-		"Name": "IE17",
-		"Details": "<i>Here might be dragons.</i>",
+		"Name": "SLSC 68441",
+		"Details": "SLSC 68441 is a star system used as a Deep Periphery navigational waypoint. The systems listed in the Star League Star Catalog (SLSC) are also used for recharging Jumpships while in route and they usually contain planets and satellites, along with other intrastellar features.",
 		"Icon": ""
 	},
 	"Position": {
@@ -35,7 +35,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 8,
+	"JumpDistance": 7,
 	"ownerID": "NoFaction",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
@@ -131,23 +131,15 @@
 		"CAREER",
 		"NONE"
 	],
-	"DefaultDifficulty": 0,
-	"DifficultyList": [
-		1,
-		1
-	],
-	"DifficultyModes": [
-		"KAMEA_CAMPAIGN",
-		"CAREER"
-	],
-	"ContractEmployerIDs": [
-		"Marik",
-		"MagistracyOfCanopus",
-		"AuriganPirates"
-	],
-	"ContractTargetIDs": [
-		"AuriganPirates",
-		"Marik",
-		"MagistracyOfCanopus"
-	]
+  "DefaultDifficulty": 0,
+  "DifficultyList": [
+    0,
+    0
+  ],
+  "DifficultyModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER"
+  ],
+  "ContractEmployerIDs": [],
+  "ContractTargetIDs": []
 }

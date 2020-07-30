@@ -82,6 +82,10 @@
 * Double heatsinks (12)
 * 2.5[IS] + 7.5[XLE] + 6[C/G] = 16.0
 
+# HBK-5M Hunchback
+* engine 200 (2 external HS) TBD
+* Double heatsinks (13)
+
 TODO:
 * external heatsinks
 * MASC

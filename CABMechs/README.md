@@ -76,6 +76,12 @@
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 17 = 3.0[IS] + 8[EXL] + 3[C] + 3[G]
 
+# PXH-3D Phoenix Hawk
+* XL engine 270
+* Endo Steel
+* Double heatsinks (12)
+* 2.5[IS] + 7.5[XLE] + 6[C/G] = 16.0
+
 TODO:
 * external heatsinks
 * MASC

@@ -69,6 +69,13 @@
 * CASE (+1.0 armor on L/R/C torso)
 * 2.5[ESIS] + 6.5[XLE] + 6[C/G] = 15
 
+# SHD-5M Shadow Hawk
+* XL engine 275
+* Endo Steel
+* Double heatsinks (10)
+* CASE (+0.5 armor on L/R torso)
+* InitialTonnage 17 = 3.0[IS] + 8[EXL] + 3[C] + 3[G]
+
 TODO:
 * external heatsinks
 * MASC

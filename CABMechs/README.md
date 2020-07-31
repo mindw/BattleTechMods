@@ -63,7 +63,7 @@
 * 3.5[IS] + 4.5[XLE] + 6[C/G] - .5[FF] = 13.5
 
 # TBT-7M Trebuchet
-* XL egnine 260
+* XL egnine 250
 * Double heatsinks (10)
 * Endo Steel
 * CASE (+1.0 armor on L/R/C torso)
@@ -82,6 +82,13 @@
 * Double heatsinks (12)
 * 2.5[ESIS] + 7.5[XLE] + 6[C/G] = 16.0
 
+# PXH-3M Phoenix Hawk
+* XL engine 270
+* Endo Steel
+* Double heatsinks (10)
+* CASE (+0.5 armor on L/R torso)
+* 2.5[ESIS] + 7.5[XLE] + 6[C/G] = 16.0
+
 # HBK-5M Hunchback
 * engine 200 (2 external HS) TBD
 * Double heatsinks (13)
@@ -89,9 +96,16 @@
 # ZEU-6S Zues
 * engine 320 (2 internal DHS)
 * Double heatsinks (17)
-* FF armor (-1.5 initial tonnage, +1.5 armor) (200 * 5)
+* FF armor (-1.5 initial tonnage, +1.5 armor) (197->200)
 * CASE (+0.5 armor on L/R torso)
-* 8[IS] + 22.5[E] + 7[C/G] + 2[DHS] - 1.5[FF] = 16.0
+* 8[IS] + 22.5[E] + 7[C/G] + 2[DHS] - 1.5[FF] = 38.0
+
+# AXN-1N Axman
+* XL egnine 260
+* Double heatsinks (10)
+* FF armor (-1.5 initial tonnage, +1.5 armor) (179->184)
+* CASE (+0.5 armor on L/R torso)
+* 6.5[IS] + 7[E] + 6[C/G] - 1.5[FF] = 18.0
 
 TODO:
 * external heatsinks

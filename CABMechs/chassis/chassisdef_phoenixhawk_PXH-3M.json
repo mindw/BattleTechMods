@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Phoenix Hawk",
-        "Id": "chassisdef_phoenixhawk_PXH-3D",
+        "Id": "chassisdef_phoenixhawk_PXH-3M",
         "Name": "Phoenix Hawk",
-        "Details": "The 3D variant of this 'Mech was introduced in 3048, based on the 1D used by Davion forces. It was built out of New Avalon by Archenar BattleMechs as one of a slew of redesigns using recovered lostech. The 'Mech utilized Endo Steel construction techniques and a Extra-Light engine to free up weight and space for a number of improvements, particularly its weaponry.",
+        "Details": "The 3M variant of the 'Mech was also introduced in 3048, built by Earthwerks Incorporated from their Keystone factory and using upgrades based on rediscovered Star League technology. First, the internal structure of the 'Mech has been redesigned to utilize an Endo Steel chassis. The engine was then replaced with an XL and the heat sinks were upgraded to double heat sinks. This allowed the weapons payload to be changed extensively, with all of the original weapons being stripped from the chassis.",
         "Icon": "uixTxrIcon_phoenixhawk"
     },
     "MovementCapDefID": "movedef_phoenixhawk_PXH-1",
@@ -57,15 +57,11 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -187,13 +183,13 @@
             "z": 1
         }
     ],
-    "VariantName": "PXH-3D",
+    "VariantName": "PXH-3M",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The 3D variant of the Phoenix Hawk is an upgrade used by the forces of House Davion of the 1D variant. The 'Mech utilized Endo Steel construction techniques and a Extra-Light engine to free up weight and space for a number of improvements, particularly its weaponry.",
+    "YangsThoughts": "The Marik 3M variant of the Phoenix Hawk focuses on maintaining its biggest weakness - heat. Even with freezers thoose twin extended large lasers will overheat while standing still in arctic weather. The XL engine coupled with weak armor and MG ammo will make any pilot sweat before the first shot. Far inferior to the 3D variant.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
@@ -221,7 +217,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefID": "Gear_EndoSteel_4_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -232,8 +228,20 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -245,7 +253,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -257,7 +265,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -269,7 +277,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

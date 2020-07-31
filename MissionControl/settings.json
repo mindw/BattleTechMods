@@ -17,7 +17,7 @@
   "HotDrop": {
     "Enable": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
-    "GuardOnHotDrop": false,
+    "GuardOnHotDrop": true,
     "EvasionPipsOnHotDrop": 6,
     "IncludeEnemies": true,
     "IncludeAllyTurrets": false,
@@ -33,11 +33,11 @@
         "FireMission",
         "ThreeWayBattle"
     ],
-    "IsPrimaryObjectiveIn": ["SimpleBattle", "CaptureBase"],
+    "IsPrimaryObjectiveIn": ["AmbushConvoy", "EscortSingle", "SimpleBattle", "CaptureBase"],
     "ExcludeFromAutocomplete": ["DefendBase", "FireMission"],
     "HideObjective": true,
     "ShowObjectiveOnLanceDetected": true,
-    "AlwaysDisplayHiddenObjectiveIfPrimary": false,
+    "AlwaysDisplayHiddenObjectiveIfPrimary": true,
     "UseElites": true,
     "UseDialogue": true,
     "SkullValueMatters": true,
@@ -52,7 +52,7 @@
     "MatchAllyLanceCountToEnemy": false,
     "DropWeightInfluence": {
       "Enable": true,
-      "EnemySpawnInfluencePerHalfSkullAbove": 0.1,
+      "EnemySpawnInfluencePerHalfSkullAbove": 0.05,
       "AllySpawnInfluencePerHalfSkullAbove": -0.1,
       "EnemySpawnInfluencePerHalfSkullBelow": 0.1,
       "AllySpawnInfluencePerHalfSkullBelow": -0.1
@@ -74,7 +74,7 @@
   },
   "ExtendedBoundaries": {
     "Enable": true,
-    "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
+    "ExcludeContractTypes": [ "AmbushConvoy", "EscortSingle", "SoloDuel", "DuoDuel"],
     "IncreaseBoundarySizeByPercentage": 0.3,
     "Overrides": [
       {
@@ -107,24 +107,24 @@
     "Enable": false,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "MinDistanceForZone": 50,
-    "MaxDistanceForZone": 288,
+    "MaxDistanceForZone": 240,
     "DisorderlyWithdrawalCompatibility": false
   },
   "AI": {
     "FollowPlayer": {
       "Pathfinding": "Alternative",
-      "Target": "HeaviestMech",
-      "StopWhen": "OnEnemyDetected",
-      "MaxDistanceFromTargetBeforeSprinting": 120,
-      "TargetZoneRadius": 120,
+      "Target": "FirstLanceMember",
+      "StopWhen": "OnEnemyVisible",
+      "MaxDistanceFromTargetBeforeSprinting": 150,
+      "TargetZoneRadius": 150,
       "TimeToWaitForPathfinding": 60,
       "TicksToWaitForPathfinding": 20
     }
   },
   "Spawners": {
     "SpawnLanceAtEdgeBoundary": {
-      "MinBuffer": 100,
-      "MaxBuffer": 200
+      "MinBuffer": 150,
+      "MaxBuffer": 240
     }
   }
 }

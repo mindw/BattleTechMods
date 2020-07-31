@@ -89,6 +89,15 @@
 * CASE (+0.5 armor on L/R torso)
 * 2.5[ESIS] + 7.5[XLE] + 6[C/G] = 16.0
 
+# PXH-3S Phoenix Hawk
+* XL engine 270
+* Double heatsinks (10)
+* MASC
+* FF armor (-1.0 initial tonnage, +1.0 armor) (143->144)
+* 1t (out of 2) AMS ammo replaced with armor
+* CASE (+0.5 armor on L/R torso)
+* 4.5[IS] + 7.5[XLE] + 6[C/G] -1[FF] = 17.0
+
 # HBK-5M Hunchback
 * engine 200 (2 external HS) TBD
 * Double heatsinks (13)

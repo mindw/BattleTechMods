@@ -116,10 +116,15 @@
 * CASE (+0.5 armor on L/R torso)
 * 6.5[IS] + 7[E] + 6[C/G] - 1.5[FF] = 18.0
 
-TODO:
-* external heatsinks
+# FLE-17 Flea
+* engine 120 (6 external HS) TBD
+* Endo Steel
 * MASC
-* Command Console - requires rarity revision
+
+TODO:
+* rarity revision
+* external heatsinks
+* Command Console
 * artemis IV handling. 
     * simplest - create a new set of LRMs/SRMs with builtin bonus
     * maybe using with direct fire only.

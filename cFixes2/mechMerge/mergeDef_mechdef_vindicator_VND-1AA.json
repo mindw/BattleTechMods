@@ -1,0 +1,11 @@
+{
+    "TargetIDs": [
+        "mechdef_vindicator_VND-1AA"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.MechTags.items[?(@ == 'unit_speed_low')]",
+            "Action": "Remove"
+        }
+    ]
+}

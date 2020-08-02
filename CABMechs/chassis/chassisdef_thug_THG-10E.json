@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_thug_THG-10E",
     "PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_thug",
-	"PrefabIdentifier": "chrprfmech_thugbase-001",
-	"PrefabBase": "thug",
+    "HardpointDataDefID": "hardpointdatadef_thug",
+    "PrefabIdentifier": "chrPrfMech_thugBase-001",
+    "PrefabBase": "thug",
     "Tonnage": 80,
     "InitialTonnage": 37.5,
     "weightClass": "ASSAULT",
@@ -63,8 +63,12 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 130,
@@ -79,7 +83,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -106,7 +110,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -125,6 +129,10 @@
                 },
                 {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -199,10 +207,9 @@
     ],
     "VariantName": "THG-10E",
     "ChassisTags": {
-        "items": [
-		],
+        "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Sniper & Defender",
-	"YangsThoughts": "The 10E is a downgraded version of the 11E produced by Earthwerks Incorporated following the destruction of Maltex's facilities in 2835. The primary changes come from the loss of the double heat sinks, CASE, and the Endo Steel structure. To compensate for the weight needed for a standard structure, the SRMs have been downgraded from six tube launchers to Holly SRM-4s. In addition, the Thug lost one ton of ammunition. While this version can still compete with the Warhammer and boast superior armor protection, the replacement of its double heat sinks with single heat sinks takes away its greatest advantage."
+    "YangsThoughts": "The 10E is a downgraded version of the 11E produced by Earthwerks Incorporated following the destruction of Maltex's facilities in 2835. The primary changes come from the loss of the double heat sinks, CASE, and the Endo Steel structure. To compensate for the weight needed for a standard structure, the SRMs have been downgraded from six tube launchers to Holly SRM-4s. In addition, the Thug lost one ton of ammunition. While this version can still compete with the Warhammer and boast superior armor protection, the replacement of its double heat sinks with single heat sinks takes away its greatest advantage."
 }

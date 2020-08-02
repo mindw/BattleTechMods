@@ -1,11 +1,10 @@
 {
-	"MinAppearanceDate" : "3036-01-19T00:00:00Z", 
+    "MinAppearanceDate": "3036-01-19T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_assault", 
+            "unit_assault",
             "unit_range_long",
-            "unit_speed_low",
             "unit_armor_high",
             "unit_hot",
             "unit_lance_assassin",
@@ -52,8 +51,8 @@
             "unit_none_HouseNakano",
             "unit_none_HouseKhulan",
             "unit_none_HostileMercenaries",
-            "unit_none_NoFaction" 
-            ],
+            "unit_none_NoFaction"
+        ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_devastator_DVS-1D",

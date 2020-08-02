@@ -1,0 +1,17 @@
+{
+    "TargetIDs": [
+        "mechdef_atlas_AS7-D",
+        "mechdef_awesome_AWS-8Q",
+        "mechdef_awesome_AWS-8T",
+        "mechdef_highlander_HGN-733",
+        "mechdef_highlander_HGN-733P",
+        "mechdef_kingcrab_KGC-0000",
+        "mechdef_stalker_STK-3F"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.MechTags.items[?(@ == 'unit_speed_low')]",
+            "Action": "Remove"
+        }
+    ]
+}

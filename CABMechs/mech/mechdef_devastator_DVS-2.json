@@ -1,11 +1,10 @@
 {
-	"MinAppearanceDate" : "3048-01-01T00:00:00Z", 
+    "MinAppearanceDate": "3048-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
             "unit_assault",
             "unit_range_long",
-            "unit_speed_low",
             "unit_armor_high",
             "unit_lance_assassin",
             "unit_role_sniper",
@@ -54,7 +53,7 @@
             "unit_none_HouseKhulan",
             "unit_none_HostileMercenaries",
             "unit_none_NoFaction"
-            ],
+        ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_devastator_DVS-2",

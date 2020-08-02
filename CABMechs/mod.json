@@ -17,7 +17,7 @@
     "Manifest": [
         { "Type": "AssetBundle", "Path": "assetbundles" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/components/lancelot/chrPrfComp_lancelot_simgame.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
-        { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/chrprfmech_lancelotbase-001.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },	
+        { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/chrprfmech_lancelotbase-001.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },    
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/components/lancelot/chrPrfComp_lancelot_centertorso_jumpjet.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_lefttorso_mg_bh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_lefttorso_srm6_mh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
@@ -30,7 +30,7 @@
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_centertorso_laser_eh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_centertorso_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_centertorso_mg_bh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
-        { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_centertorso_srm6_mh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },	
+        { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_centertorso_srm6_mh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },  
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_leftarm_laser_eh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_leftarm_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/lancelot/chrPrfWeap_lancelot_leftarm_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_lancelotbase-001" },
@@ -99,6 +99,8 @@
         { "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true },
         { "Type": "ItemCollectionDef", "Path": "itemCollectionDefsAppend", "ShouldAppendText": true },
         { "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Path": "mechMerge", "Type": "AdvancedJSONMerge" },
+        { "Path": "weaponMerge", "Type": "AdvancedJSONMerge" },
         { "Type": "PilotDef", "Path": "pilots" },
         { "Type": "Sprite", "Path": "icons" }
     ]

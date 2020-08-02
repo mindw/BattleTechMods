@@ -1,0 +1,22 @@
+{
+    "TargetIDs": [
+        "mechdef_banshee_BNC-3E",
+        "mechdef_banshee_BNC-3M",
+        "mechdef_battlemaster_BLR-1G",
+        "mechdef_battlemaster_BLR-1GB",
+        "mechdef_battlemaster_BLR-1S",
+        "mechdef_cyclops_CP-10-HQ",
+        "mechdef_cyclops_CP-10-Q",
+        "mechdef_cyclops_CP-10-Z",
+        "mechdef_zeus_ZEU-5T",
+        "mechdef_zeus_ZEU-6S",
+        "mechdef_zeus_ZEU-6T"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.MechTags.items[?(@ == 'unit_assault')]",
+            "Action": "ArrayAddAfter",
+            "Value": "unit_speed_high"
+        }
+    ]
+}

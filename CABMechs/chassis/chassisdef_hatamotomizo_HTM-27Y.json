@@ -14,7 +14,7 @@
     "MovementCapDefID": "movedef_hatamotochi_HTM-26T",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_hatamotochi",
-    "PrefabIdentifier": "chrprfmech_hatamotochibase-001",
+    "PrefabIdentifier": "chrPrfMech_hatamotochiBase-001",
     "PrefabBase": "hatamotochi",
     "Tonnage": 80,
     "InitialTonnage": 35.5,

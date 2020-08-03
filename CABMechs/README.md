@@ -121,6 +121,20 @@
 * Endo Steel
 * MASC
 
+# LCT-3D Locust
+* engine 160 (4 external HS) TBD
+* Endo Steel
+* FF armor (.5 initial tonnage, +.5 armor) (44 -> 48)
+* CASE (+0.5 armor on C/L/R torso)
+* 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
+
+# LCT-3S Locust
+* engine 160 (4 external HS) TBD
+* Endo Steel
+* FF armor (.5 initial tonnage, +.5 armor) (44 -> 48)
+* CASE (+0.5 armor on C/L/R torso)
+* 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
+
 TODO:
 * rarity revision
 * external heatsinks

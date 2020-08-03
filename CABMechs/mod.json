@@ -100,8 +100,9 @@
         { "Type": "ItemCollectionDef", "Path": "itemCollectionDefsAppend", "ShouldAppendText": true },
         { "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": false, "AddToDB": true },
         { "Path": "mechMerge", "Type": "AdvancedJSONMerge" },
-        { "Path": "weaponMerge", "Type": "AdvancedJSONMerge" },
         { "Type": "PilotDef", "Path": "pilots" },
-        { "Type": "Sprite", "Path": "icons" }
-    ]
+        { "Type": "Sprite", "Path": "icons" },
+        { "Path": "weaponMerge", "Type": "AdvancedJSONMerge" },
+        { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
+   ]
 }

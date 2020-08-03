@@ -135,6 +135,13 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
 
+# VLK-QD Valkyrie
+* engine 150 (4 external HS) TBD
+* Endo Steel
+* FF armor (-.5 initial tonnage, +.5 armor) (105 -> 104)
+* CASE (+0.5 armor on C/L/R torso)
+* 1.5[ESIS] + 5.5[E] + 5[C/G] - 0.5[FF] = 11.5
+
 TODO:
 * rarity revision
 * external heatsinks

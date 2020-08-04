@@ -1,5 +1,5 @@
 {
-	"MinAppearanceDate" : "3049-01-01T00:00:00Z", 
+    "MinAppearanceDate": "3049-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
@@ -7,6 +7,7 @@
             "unit_jumpOK",
             "unit_indirectFire",
             "unit_range_long",
+            "unit_speed_low",
             "unit_armor_high",
             "unit_lance_support",
             "unit_role_sniper",

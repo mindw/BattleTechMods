@@ -142,6 +142,12 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 1.5[ESIS] + 5.5[E] + 5[C/G] - 0.5[FF] = 11.5
 
+# HER-3S/S1/S2 Hermes
+* engine 270
+* Endo Steel
+* FF armor (-.5 initial tonnage, +.5 armor) (44 -> 48)
+* 1.5[ESIS] + 13.5[E] + 6[C/G] - 0.5[FF] = 21.5
+
 TODO:
 * rarity revision
 * external heatsinks

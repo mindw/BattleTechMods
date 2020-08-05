@@ -1,4 +1,4 @@
-# GRF-1DS Griffin
+# GRF-1DS/3M Griffin (55t)
 * XL engine 275
 * Double heatsinks (14) - 1 internal
 * CASE (+0.5 armor on L/R torso)

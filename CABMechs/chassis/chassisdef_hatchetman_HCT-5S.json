@@ -1,27 +1,30 @@
 {
     "Description": {
-        "Cost": 13400000,
-        "Rarity": 4,
+        "Cost": 7500000,
+        "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Axman",
-        "Id": "chassisdef_axman_AXM-1N",
-        "Name": "Axman",
-        "Details": "Developed by Team Banzai as the big brother of the highly successful Hatchetman, the Axman was designed exclusively to be a 'Mech killer. The two primary weapons on board the Axman are its massive Hatchet, which alone weighs five tons and can cleave through enemy 'Mech armor like a knife through butter, and an Autocannon/20, which can strip over a ton of armor off of an enemy 'Mech with ease.",
-        "Icon": "uixTxrIcon_axman"
+        "UIName": "Hatchetman",
+        "Id": "chassisdef_hatchetman_HCT-5S",
+        "Name": "Hatchetman",
+        "Details": "The 5S is an upgrade of the 3F model introduced in 3049. The 5S replaces the fusion engine with an extralight model, while the weapons have also been stripped from the chassis and upgraded. The normal autocannon was replaced with an LB-X Autocannon/10 while the medium lasers were replaced with three Medium Pulse Lasers, one in each arm and the third in the left torso. Finally, the Hatchetman has been re-armored with eight and a half tons of Ferro-Fibrous armor.",
+        "Icon": "uixTxrIcon_hatchetman"
     },
-    "MovementCapDefID": "movedef_axman_AXM-1N",
-    "PathingCapDefID": "pathingdef_heavy",
+    "MovementCapDefID": "movedef_hatchetman_HCT-3F",
+    "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_hatchetman",
     "PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
     "PrefabBase": "hatchetman",
-    "Tonnage": 65,
-    "InitialTonnage": 18.0,
-    "weightClass": "HEAVY",
-    "Heatsinks": 30,
+    "VariantName": "HCT-5S",
+    "StockRole": "Brawler & Skirmisher",
+    "YangsThoughts": "Hatchetman 5Ss doesn't have any more speed to get in and use that Hatchet. What it does have is more armor and more imposing fire power to back it up.",
+    "Tonnage": 45,
+    "InitialTonnage": 12.0,
+    "weightClass": "MEDIUM",
+    "Heatsinks": 0,
     "MaxJumpjets": 4,
-    "Stability": 160,
+    "Stability": 130,
     "StabilityDefenses": [
         0,
         0,
@@ -34,16 +37,20 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 8,
+    "Radius": 5,
     "PunchesWithLeftArm": false,
     "AlwaysPunchIfPossible": true,
-    "MeleeDamage": 90,
-    "MeleeInstability": 65,
+    "MeleeDamage": 70,
+    "MeleeInstability": 45,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 55,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 55,
+    "DFAInstability": 55,
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
     "Locations": [
         {
             "Location": "Head",
@@ -64,6 +71,24 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 },
                 {
                     "WeaponMount": "AntiPersonnel",
@@ -71,28 +96,19 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 100,
-            "MaxRearArmor": -1,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 210,
-            "MaxRearArmor": 105,
-            "InternalStructure": 105
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
         },
         {
             "Location": "RightTorso",
@@ -102,15 +118,15 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
         },
         {
             "Location": "RightArm",
@@ -118,39 +134,31 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 100,
+            "MaxArmor": 70,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 35
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 110,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 55
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 110,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 55
         }
     ],
     "LOSSourcePositions": [
@@ -197,15 +205,6 @@
             "z": 2.5
         }
     ],
-    "VariantName": "AXM-1N",
-    "ChassisTags": {
-        "items": [
-            "mr-resize-1.20-1.05-1.20"
-        ],
-        "tagSetSourceFile": ""
-    },
-    "StockRole": "Brawler & Skirmisher",
-    "YangsThoughts": "Axman 1Ns are the king of the close quarters fight. Packing high impact short range weaponry, and a unique melee Hatchet, any target is in danger when close to the Axman. The Axmans average speed requires it to rely on jump jets and ambushing to stay in the fight.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
@@ -232,20 +231,8 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_Actuator_Axman_Hatchet",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -257,7 +244,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -270,6 +257,18 @@
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -294,6 +293,18 @@
         {
             "MountedLocation": "RightLeg",
             "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_Actuator_Prototype_Hatchet",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

@@ -157,6 +157,12 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 2.5[ESIS] + 9.5[E] + 6[C/G] = 18
 
+# HCT-3S Hatchetman
+* 45t
+* XL engine 180
+* FF armor (-1.0 initial tonnage, +1.0 armor) (152->152)
+* 4.5[IS] + 3.5[XLE] + 5[C/G] -1[FF] = 12.0
+
 TODO:
 * rarity revision
 * external heatsinks

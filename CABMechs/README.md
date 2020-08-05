@@ -122,6 +122,7 @@
 * MASC
 
 # LCT-3D/3S Locust
+* 20t
 * engine 160 (4 external HS) TBD
 * Endo Steel
 * FF armor (.5 initial tonnage, +.5 armor) (44 -> 48)
@@ -129,6 +130,7 @@
 * 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
 
 # VLK-QD Valkyrie
+* 30t
 * engine 150 (4 external HS) TBD
 * Endo Steel
 * FF armor (-.5 initial tonnage, +.5 armor) (105 -> 104)
@@ -136,15 +138,24 @@
 * 1.5[ESIS] + 5.5[E] + 5[C/G] - 0.5[FF] = 11.5
 
 # HER-3S/S1/S2 Hermes
+* 30t
 * engine 270
 * Endo Steel
 * FF armor (-.5 initial tonnage, +.5 armor) (44 -> 48)
 * 1.5[ESIS] + 13.5[E] + 6[C/G] - 0.5[FF] = 21.5
 
 # FS9-S/S1 Firestarter
+* 35t
 * engine 210 (2 external HS) TBD
 * Endo Steel
 * 2[ESIS] + 9[E] + 6[C/G] = 17
+
+# CN9-D Centurion
+* 50t
+* XL engine 300
+* Endo Steel
+* CASE (+0.5 armor on C/L/R torso)
+* 2.5[ESIS] + 9.5[E] + 6[C/G] = 18
 
 TODO:
 * rarity revision

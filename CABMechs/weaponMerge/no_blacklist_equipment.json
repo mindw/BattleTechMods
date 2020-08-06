@@ -26,8 +26,6 @@
         "Weapon_Gauss_Gauss_0-STOCK",
         "Weapon_Gauss_Gauss_1-M7",
         "Weapon_Gauss_Gauss_2-M9",
-        "Weapon_Laser_LargeLaserPulse_0-STOCK",
-        "Weapon_Laser_LargeLaserPulse_0-STOCK",
         "Weapon_Autocannon_LB10X_0-STOCK",
         "Weapon_Autocannon_LB10X_1-Western",
         "Weapon_Autocannon_LB10X_2-Western",
@@ -73,6 +71,11 @@
         {
             "JSONPath": "$.ComponentTags.items[?(@ == 'BLACKLISTED')]",
             "Action": "Remove"
+        },
+        {
+            "JSONPath": "$.Description.Purchasable",
+            "Action": "Replace",
+            "Value": true
         }
     ]
 }

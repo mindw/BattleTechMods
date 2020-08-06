@@ -163,6 +163,11 @@
 * FF armor (-1.0 initial tonnage, +1.0 armor) (152->152)
 * 4.5[IS] + 3.5[XLE] + 5[C/G] -1[FF] = 12.0
 
+# CDA-3M Cicada (40t)
+* XL engine 320
+* CASE (+0.5 armor on C/L/R torso)
+* 4[IS] + 11.5[XLE] + 7[C/G] = 22.5
+
 TODO:
 * rarity revision
 * external heatsinks

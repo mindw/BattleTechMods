@@ -1,11 +1,13 @@
 {
+    "MinAppearanceDate": "2524-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
             "unit_light",
             "unit_jumpOK",
-            "unit_range_long",
+            "unit_range_medium",
             "unit_armor_high",
+            "unit_speed_low",
             "unit_lance_support",
             "unit_role_brawler",
             "unit_release"

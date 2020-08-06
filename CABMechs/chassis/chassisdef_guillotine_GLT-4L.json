@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_guillotine_GLT-4L",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_guillotine",
-    "PrefabIdentifier": "chrprfmech_maulerbase-001",
-    "PrefabBase": "mauler",
+    "HardpointDataDefID": "hardpointdatadef_glt",
+    "PrefabIdentifier": "chrprfmech_gltbase-001",
+    "PrefabBase": "glt",
     "Tonnage": 70,
     "InitialTonnage": 29,
     "weightClass": "HEAVY",
@@ -208,7 +208,6 @@
     "VariantName": "GLT-4L",
     "ChassisTags": {
         "items": [
-			"mr-resize-0.77-1.02-0.77"
 		],
         "tagSetSourceFile": ""
     },

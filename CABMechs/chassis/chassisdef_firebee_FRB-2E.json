@@ -18,6 +18,7 @@
     "PrefabBase": "firebee",
     "Tonnage": 35,
     "InitialTonnage": 15.5,
+    "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 5,
     "Stability": 100,

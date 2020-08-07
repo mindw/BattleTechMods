@@ -171,12 +171,24 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 4[IS] + 11.5[XLE] + 7[C/G] = 22.5
 
-# _GLT-5M Guillotine (70t)
+# GLT-5M Guillotine (70t)
 * engine 280 (1 internal)
 * Endo Steel
 * single heatsinks (11/25) - 1 internal
 * CASE (+0.5 armor on C/L/R torso)
-* 3.5[ESIS] + 16[E] + 6[C/G] + 1 [HS] = 26.5
+* 3.5[ESIS] + 16[E] + 6[C/G] + 1[HS] = 26.5
+
+# QKD-5K Quickdraw (60t)
+* engine 300 (2 internal)
+* double heatsinks (12/17) - 2 internal
+* FF armor (-1.0 initial tonnage, +1.0 armor) (143->144)
+* 6.0[IS] + 19[E] + 6[C/G] + 2[DHS] - 1.0[FF] = 32
+
+# RFL-5M Rifleman (60t)
+* XL engine 240 (1 external) TBD
+* double heatsinks (9/12) TBD
+* CASE (+0.5 armor on C/L/R torso)
+* 6.0[IS] + 6.0[E] + 6[C/G] = 18
 
 TODO:
 * rarity revision

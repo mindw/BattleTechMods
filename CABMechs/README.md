@@ -144,6 +144,12 @@
 * FF armor (-.5 initial tonnage, +.5 armor) (44 -> 48)
 * 1.5[ESIS] + 13.5[E] + 6[C/G] - 0.5[FF] = 21.5
 
+# HER-1S Hermes (30t)
+* engine 270
+* Endo Steel
+* FF armor (-.5 initial tonnage, +.5 armor) (89 -> 88)
+* 1.5[ESIS] + 13.5[E] + 6[C/G] - 0.5[FF] = 21.5
+
 # FS9-S/S1 Firestarter (35t)
 * engine 210 (2 external HS) TBD
 * Endo Steel

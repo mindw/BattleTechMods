@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrprfmech_gltbase-001",
     "PrefabBase": "glt",
     "Tonnage": 70,
-    "InitialTonnage": 29,
+    "InitialTonnage": 30,
     "weightClass": "HEAVY",
-    "Heatsinks": 0,
+    "Heatsinks": 3,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -61,7 +61,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -75,7 +75,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -95,7 +95,12 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
@@ -105,6 +110,10 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -207,8 +216,7 @@
     ],
     "VariantName": "GLT-4P",
     "ChassisTags": {
-        "items": [
-		],
+        "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Skirmisher & Cavalry",

@@ -192,10 +192,16 @@
 
 # BLR-3M BattleMaster (85t)
 * engine 340 (3 internal)
-* double heatsinks (13/18) TBD
+* double heatsinks (13/18)
 * CASE (+0.5 armor on C/L/R torso)
 * 8.5[IS] + 27.0[E] + 7[C/G] + 3[DHS] = 45.5
 
+# CGR-3K Charger (80t)
+* XL engine 400 (6 internal)
+* double heatsinks (12/12)
+* FF armor (-1.5 initial tonnage, +1.5 armor) (179->184)
+* CASE (+0.5 armor on C/L/R torso)
+* 8.0[IS] + 26.5[E] + 7[C/G] + 2[DHS] - 1.5[FF]= 42.0
 
 TODO:
 * rarity revision

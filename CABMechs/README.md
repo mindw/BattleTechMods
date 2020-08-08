@@ -190,6 +190,13 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 6.0[IS] + 6.0[E] + 6[C/G] = 18
 
+# BLR-3M BattleMaster (85t)
+* engine 340 (3 internal)
+* double heatsinks (13/18) TBD
+* CASE (+0.5 armor on C/L/R torso)
+* 8.5[IS] + 27.0[E] + 7[C/G] + 3[DHS] = 45.5
+
+
 TODO:
 * rarity revision
 * external heatsinks

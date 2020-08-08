@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_marauderiibase-001",
   "PrefabBase": "marauderii",
   "Tonnage": 100,
-  "InitialTonnage": 35,
+  "InitialTonnage": 37,
   "weightClass": "ASSAULT",
-  "Heatsinks": 0,
+  "Heatsinks": 6,
   "MaxJumpjets": 3,
   "Stability": 200,
   "StabilityDefenses": [
@@ -203,18 +203,18 @@
   },
   "StockRole": "Sniper & Ranged Assault",
   "YangsThoughts": "Who looks at a Marauder and says to themselves 'that could be bigger and slap on some JumpJets while you're at it'.  Those Dragoons are insane.  But, I gotta say, this is an improvement on the standard Marauder in just about every way - aside from still having heat issues.",
-    "FixedEquipment" : [
-        {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_General_Lance_Command_Module",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        }
-    ] 
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Lance_Command_Module",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    }
+  ]
 }

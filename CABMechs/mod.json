@@ -12,7 +12,13 @@
     "OptionallyDependsOn": ["cFixes", "cFixes2"],
 
     "Description": "Variants from many places.",
-    "Author": "Grizzly_nyo, based on the work of Justin Kase and others",
+    "Author": "Mind_wanderer, based on the work of Justin Kase and others",
+
+	"DLL": "JK_Components.dll",
+    "Settings": 
+	{
+        "Debug": true
+    },
     
     "Manifest": [
         { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },

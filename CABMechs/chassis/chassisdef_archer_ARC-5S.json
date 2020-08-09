@@ -157,45 +157,45 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 18,
-            "z": 0
+            "y": 15,
+            "z": -1
         },
         {
             "x": 4,
-            "y": 17,
-            "z": 0
+            "y": 14,
+            "z": -0.5
         },
         {
             "x": -4,
-            "y": 17,
-            "z": 0
+            "y": 14,
+            "z": -0.5
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 18,
-            "z": 0
+            "y": 15,
+            "z": -1
         },
         {
             "x": 4,
-            "y": 17,
-            "z": 0
+            "y": 14,
+            "z": -0.5
         },
         {
             "x": -4,
-            "y": 17,
-            "z": 0
+            "y": 14,
+            "z": -0.5
         },
         {
-            "x": 3,
+            "x": 2.5,
             "y": 5,
-            "z": 0
+            "z": 1
         },
         {
-            "x": -3,
+            "x": -2.5,
             "y": 5,
-            "z": 0
+            "z": 1
         }
     ],
     "VariantName": "ARC-5S",
@@ -203,7 +203,7 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Artillery and Brawler",
+    "StockRole": "Missile Boat",
     "YangsThoughts": "The 5S is unusually deadly up close for an Archer. The downgrade of the LRM-20 launchers to LRM-15s has meant a reduction in danger at range though. The 'Mech is not meant to fire all weapons together though as it will overheat even with the double heat sink upgrade.",
     "FixedEquipment": [
         {

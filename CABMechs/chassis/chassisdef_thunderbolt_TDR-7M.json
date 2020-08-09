@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 5700000,
+        "Cost": 6200000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Thunderbolt",
-        "Id": "chassisdef_thunderbolt_TDR-5D",
+        "Id": "chassisdef_thunderbolt_TDR-7M",
         "Name": "Thunderbolt",
-        "Details": "A Davion variant on the Thunderbolt, the TDR-5D is ready for close in combat, armed with an AC20, with two tons of ammunition to keep it firing throughout most confrontations.  While its LRM10 allows it to provide a support role when needed, or to provide assistance to lance mates via indirect fire.",
+        "Details": "Upgraded with Star League technology in 3049 by Earthwerks Incorporated, the 7M has been re-armored using Ferro-Fibrous armor, reducing the weight of the armor to eleven and a half tons while maintaining the same level of protection. The saved weight has allowed the 'Mech's weapons to be upgraded as well.",
         "Icon": "uixTxrIcon_thunderbolt"
     },
     "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
     "PrefabBase": "thunderbolt",
     "Tonnage": 65,
-    "InitialTonnage": 26,
+    "InitialTonnage": 24.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -57,6 +57,14 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
@@ -71,7 +79,15 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -98,19 +114,7 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -124,7 +128,11 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -197,11 +205,64 @@
             "z": 0
         }
     ],
-    "VariantName": "TDR-5D",
+    "VariantName": "TDR-7M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Skirmisher & Brawler",
-    "YangsThoughts": "Those Fedrats really love their ACs.  Not sure what they were thinking with the Thunderbolt 5D, it seems like it is limiting its options by not focusing on being a brawler or long range support.  Maybe downgrade the AC to a 10, or swap out the LRMs for SRMs."
+    "YangsThoughts": "The Thunderbolt 7M is well-armed and heavily armored for its size. It's often deployed as a frontline 'Mech where the fighting is heavy, and it needs to give as good as it gets.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_6_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
 }

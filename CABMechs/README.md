@@ -114,7 +114,7 @@
 * Double heatsinks (10)
 * FF armor (-1.5 initial tonnage, +1.5 armor) (179->184)
 * CASE (+0.5 armor on L/R torso)
-* 6.5[IS] + 7[E] + 6[C/G] - 1.5[FF] = 18.0
+* 6.5[IS] + 7[XLE] + 6[C/G] - 1.5[FF] = 18.0
 
 # FLE-17 Flea (20t)
 * engine 120 (6 external HS) TBD
@@ -212,6 +212,13 @@
 * double heatsinks (12/20)
 * CT SSRM2 moved to LT to clear space for 1 HS
 * 8[IS] + 11.5[XLE] + 7[C/G] + 2[DHS] = 27.5
+
+# TDR-7M Thunderbolt (65t)
+* engine 260
+* Double heatsinks (10/15)
+* FF armor (-1.5 initial tonnage, +1.5 armor) (206->208)
+* CASE (+1.0 armor on C/L/R torso)
+* 6.5[IS] + 13.5[E] + 6[C/G] - 1.5[FF] = 24.5
 
 TODO:
 * rarity revision

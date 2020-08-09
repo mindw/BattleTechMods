@@ -203,6 +203,13 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 8.0[IS] + 26.5[E] + 7[C/G] + 2[DHS] - 1.5[FF]= 42.0
 
+# AS7-K Atlas (100t)
+* XL engine 300 (2 internal)
+* Endo Steel
+* single heatsinks (12/20) - 2 internal
+* CASE (+1.0 armor on C/L/R torso)
+* 10[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 27.5
+
 TODO:
 * rarity revision
 * external heatsinks

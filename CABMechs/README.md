@@ -210,13 +210,15 @@
 * CASE (+1.0 armor on C/L/R torso)
 * 10[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 27.5
 
+# AWS-9M Awesome (80t)
+* XL engine 320 (2 internal)
+* double heatsinks (12/20)
+* CT SSRM2 moved to LT to clear space for 1 HS
+* 8[IS] + 11.5[XLE] + 7[C/G] + 2[DHS] = 27.5
+
 TODO:
 * rarity revision
 * external heatsinks
-* Command Console
-* artemis IV handling. 
-    * simplest - create a new set of LRMs/SRMs with builtin bonus
-    * maybe using with direct fire only.
 * dynamic availability (proabably will need a binary mod)
 * fix cavalry Assault lances full of Victors: 
     * change lance to use speed_high tag

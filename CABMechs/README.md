@@ -116,29 +116,26 @@
 * CASE (+0.5 armor on L/R torso)
 * 6.5[IS] + 7[E] + 6[C/G] - 1.5[FF] = 18.0
 
-# FLE-17 Flea
+# FLE-17 Flea (20t)
 * engine 120 (6 external HS) TBD
 * Endo Steel
 * MASC
 
-# LCT-3D/3S Locust
-* 20t
+# LCT-3D/3S Locust (20t)
 * engine 160 (4 external HS) TBD
 * Endo Steel
 * FF armor (.5 initial tonnage, +.5 armor) (44 -> 48)
 * CASE (+0.5 armor on C/L/R torso)
 * 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
 
-# VLK-QD Valkyrie
-* 30t
+# VLK-QD Valkyrie (30t)
 * engine 150 (4 external HS) TBD
 * Endo Steel
 * FF armor (-.5 initial tonnage, +.5 armor) (105 -> 104)
 * CASE (+0.5 armor on C/L/R torso)
 * 1.5[ESIS] + 5.5[E] + 5[C/G] - 0.5[FF] = 11.5
 
-# HER-3S/S1/S2 Hermes
-* 30t
+# HER-3S/S1/S2 Hermes (30t)
 * engine 270
 * Endo Steel
 * FF armor (-.5 initial tonnage, +.5 armor) (44 -> 48)

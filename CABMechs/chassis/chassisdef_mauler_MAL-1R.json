@@ -244,7 +244,7 @@
         },
         {
             "MountedLocation" : "RightArm",
-            "ComponentDefID" : "Gear_FerroFibrous_3_Slot",
+            "ComponentDefID" : "Gear_FerroFibrous_4_Slot",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
@@ -268,7 +268,7 @@
         },
         {
             "MountedLocation" : "RightLeg",
-            "ComponentDefID" : "Gear_FerroFibrous_4_Slot",
+            "ComponentDefID" : "Gear_FerroFibrous_3_Slot",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,

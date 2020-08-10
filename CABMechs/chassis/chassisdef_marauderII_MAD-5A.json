@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 7100000,
+        "Cost": 10400000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Marauder",
-        "Id": "chassisdef_marauder_MAD-3M",
-        "Name": "Marauder",
-        "Details": "The 3M was introduced in 2873 specially for the Free Worlds League. Because of the abundance of large lasers built by that realm, the 3M model carried two large lasers in place of the PPCs. While running cooler than the weapons they replaced, the large lasers also caused slightly less damage. Additionally, the 3M added four heat sinks to the design, making the 'Mech much more manageable for pilots who have trouble with overheating their 'Mechs.",
-        "Icon": "uixTxrIcon_marauder"
+        "UIName": "Marauder II",
+        "Id": "chassisdef_marauderII_MAD-5A",
+        "Name": "Marauder II",
+        "Details": "With the Marauder already a powerful and popular 'Mech, the Dragoons goals with the Marauder II were to enhance its abilities by strengthening its chassis to carry a much heavier armor and weapons load. Retaining only the two Magna Mk II Medium Lasers, the 5A variant of the Marauder II carries as its primary weapons a pair of Magna Firestar ER PPCs in its arms which give it a powerful long range punch compared to the 4A.",
+        "Icon": "uixTxrIcon_marauderii"
     },
-    "MovementCapDefID": "movedef_marauder_MAD-3R",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_marauder",
-    "PrefabIdentifier": "chrPrfMech_marauderBase-001",
-    "PrefabBase": "marauder",
-    "Tonnage": 75,
-    "InitialTonnage": 32.5,
-    "weightClass": "HEAVY",
-    "Heatsinks": 0,
-    "MaxJumpjets": 4,
-    "Stability": 160,
+    "MovementCapDefID": "movedef_marauderII_MAD-4A",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_marauderii",
+    "PrefabIdentifier": "chrprfmech_marauderiibase-001",
+    "PrefabBase": "marauderii",
+    "Tonnage": 100,
+    "InitialTonnage": 27.5,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 6,
+    "MaxJumpjets": 3,
+    "Stability": 200,
     "StabilityDefenses": [
         0,
         0,
@@ -36,13 +36,13 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 95,
-    "MeleeInstability": 75,
+    "MeleeDamage": 125,
+    "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
-    "DFADamage": 95,
+    "DFADamage": 125,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 95,
-    "DFAInstability": 95,
+    "DFASelfDamage": 100,
+    "DFAInstability": 125,
     "Locations": [
         {
             "Location": "Head",
@@ -71,27 +71,27 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 120,
+            "MaxArmor": 170,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 85
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 160,
-            "MaxRearArmor": 80,
-            "InternalStructure": 80
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 230,
-            "MaxRearArmor": 115,
-            "InternalStructure": 115
+            "MaxArmor": 310,
+            "MaxRearArmor": 155,
+            "InternalStructure": 155
         },
         {
             "Location": "RightTorso",
@@ -111,9 +111,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 160,
-            "MaxRearArmor": 80,
-            "InternalStructure": 80
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
             "Location": "RightArm",
@@ -133,83 +133,107 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 120,
+            "MaxArmor": 170,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 85
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 160,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 80
+            "InternalStructure": 105
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 160,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 80
+            "InternalStructure": 105
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 13.5,
+            "y": 18,
             "z": 1
         },
         {
-            "x": 3,
-            "y": 13,
-            "z": -1
+            "x": 4,
+            "y": 16,
+            "z": 0
         },
         {
-            "x": -3,
-            "y": 13,
-            "z": -1
+            "x": -4,
+            "y": 16,
+            "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 13.5,
+            "y": 18,
             "z": 1
         },
         {
+            "x": 4,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 16,
+            "z": 0
+        },
+        {
             "x": 3,
-            "y": 13,
-            "z": -1
+            "y": 6,
+            "z": 0
         },
         {
             "x": -3,
-            "y": 13,
-            "z": -1
-        },
-        {
-            "x": 2.5,
-            "y": 7,
-            "z": -2.5
-        },
-        {
-            "x": -2.5,
-            "y": 7,
-            "z": -2.5
+            "y": 6,
+            "z": 0
         }
     ],
-    "VariantName": "MAD-3M",
+    "VariantName": "MAD-5A",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler",
-    "YangsThoughts": "I'm not sure if the trade off in overall firepower and range on the MAD-3R is worth it or not, but at least the lower heat profile will allow you to fire everything more frequently, helping to balance things out.",
+    "StockRole": "Sniper",
+    "YangsThoughts": "Who looks at a Marauder and says to themselves 'that could be bigger and slap on some JumpJets while you're at it'.  Those Dragoons are insane.  But, I gotta say, this is an improvement on the standard Marauder in just about every way - aside from still having heat issues.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_General_Lance_Command_Module",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",

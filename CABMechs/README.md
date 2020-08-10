@@ -4,10 +4,10 @@
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 3[C] + 3[G] + 1.0[EDHS]
 
-# DRG-5N Dragon 
+# DRG-5N Dragon (60t)
 * CASE (+1.0 armor on L/R/C torso)
 
-# JR7-K Jenner
+# JR7-K Jenner (35t)
 * engine 245
 * FIXME: single heatsinks (10) - 1 external (H)
 * FF armor (-0.5 initial tonnage, +0.5 armor)
@@ -17,7 +17,7 @@
 * engine 360
 * single heatsinks (12) - 2 internal
 
-# DV-7D Dervish
+# DV-7D Dervish (55t)
 * engine 275
 * Double heatsinks (10)
 * Endo Steel
@@ -26,7 +26,7 @@
 * InitialTonnage 23.5 = 3[ESIS] + 15.5[E] + 3[C] + 3[G] -1[FF]
 * FIXME: AB LeftTorso is broken
 
-# MAD-5D Marauder
+# MAD-5D Marauder (75t)
 * XL engine 300
 * Double heatsinks (16) - 2 internal
 * CASE (+0.5 armor on L/R torso)
@@ -36,14 +36,14 @@
 * engine 275
 * single heatsinks (11/14) - 1 internal
 
-# ARC-4M
+# ARC-4M Archer
 * engine 280 (1 internal HS)
 * Endo Steel
 * ArtemisIV (replace with Missile TTS+)
 * CASE (+1.0 armor on L/R/C torso)
 * 3.5[ESIS] + 16[E] + 6[C/G] = 25.5
 
-# ARC-4S
+# ARC-4S Archer
 * XL engine 280 (1 internal HS)
 * CASE (+1.0 armor on L/R/C torso)
 * 7[IS] + 8[XLE] + 6[C/G] = 21
@@ -219,6 +219,12 @@
 * FF armor (-1.5 initial tonnage, +1.5 armor) (206->208)
 * CASE (+1.0 armor on C/L/R torso)
 * 6.5[IS] + 13.5[E] + 6[C/G] - 1.5[FF] = 24.5
+
+# MAD-5A Marauder II (100t)
+* XL engine 300 (2 internal)
+* single heatsinks (12/29) - 2 internal
+* CASE (+0.5 armor on C/L/R torso)
+* 10[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 27.5
 
 TODO:
 * rarity revision

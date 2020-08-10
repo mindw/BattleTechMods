@@ -1,0 +1,237 @@
+{
+    "Description": {
+        "Cost": 17700000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Orion",
+        "Id": "chassisdef_orion_ON1-M",
+        "Name": "Orion",
+        "Details": "The M variant is an upgrade using Star League technology first fielded in 3049. Replacing the standard engine with a Hermes 300 XL Engine and shaving off a half-ton of armor allows the 'Mech to retain the same speed while mounting a number of upgrades. The use of eleven double heat sinks also solves any problems associated with overheating. This variant was first used in combat during Operation Guerrero when the FWL attempted to liberate worlds previously ceded to the Federated Commonwealth.",
+        "Icon": "uixTxrIcon_orion"
+    },
+    "MovementCapDefID": "movedef_orion_ON1-K",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_orion",
+    "PrefabIdentifier": "chrPrfMech_orionBase-001",
+    "PrefabBase": "orion",
+    "Tonnage": 75,
+    "InitialTonnage": 24,
+    "weightClass": "HEAVY",
+    "Heatsinks": 36,
+    "MaxJumpjets": 4,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 95,
+    "MeleeInstability": 75,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 95,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 15,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "ON1-M",
+    "ChassisTags": {
+        "items": [
+			"mech_case_left",
+			"mech_case_right"
+		],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Brawler & Close Assault",
+    "YangsThoughts": "The Orion M retains it's role as a multirole brawler, the fire power has been upgraded and the heat sinking, it's at a slight cost to the survivabilty though.",
+    "FixedEquipment" : [
+        {
+            "MountedLocation" : "LeftTorso",
+            "ComponentDefID" : "Gear_XL_Engine",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },
+        {
+            "MountedLocation" : "RightTorso",
+            "ComponentDefID" : "Gear_XL_Engine",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "IsFixed" : true,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+	]
+}

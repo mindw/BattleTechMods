@@ -226,6 +226,12 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 10[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 27.5
 
+# ON1-M Orion  (75t)
+* XL engine 300 (2 internal)
+* Double heatsinks (11/11)
+* CASE (+1.0 armor on C/L/R torso)
+* InitialTonnage 24 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 1[EDHS]
+
 TODO:
 * rarity revision
 * external heatsinks

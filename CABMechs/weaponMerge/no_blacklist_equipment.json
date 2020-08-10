@@ -65,7 +65,10 @@
         "Weapon_PPC_PPCSnub_2-Magna",
         "Weapon_TAG_Standard_0-STOCK",
         "Weapon_TAG_Standard_1-Mendham",
-        "Weapon_TAG_Standard_2-Ceres_Arms"
+        "Weapon_TAG_Standard_2-Ceres_Arms",
+        "Weapon_COIL_COIL-L_0-STOCK",
+        "Weapon_COIL_COIL-M_0-STOCK",
+        "Weapon_COIL_COIL-S_0-STOCK"
     ],
     "Instructions": [
         {
@@ -76,6 +79,11 @@
             "JSONPath": "$.Description.Purchasable",
             "Action": "Replace",
             "Value": true
+        },
+        {
+            "JSONPath": "$.Description.Rarity",
+            "Action": "Replace",
+            "Value": 5
         }
     ]
 }

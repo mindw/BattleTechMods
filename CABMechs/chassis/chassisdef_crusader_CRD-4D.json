@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 6300000,
+        "Cost": 5900000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Crusader",
-        "Id": "chassisdef_crusader_CRD-3K",
+        "Id": "chassisdef_crusader_CRD-4D",
         "Name": "Crusader",
-        "Details": "Another variant of the Crusader concentrating on lessening its heat burden, the 3K was introduced by House Kurita in 2765. It downsized the LRM launchers to LRM-10 models and removed the machine guns to make room for an additional six heat sinks.",
+        "Details": "The 4D variant of the Crusader was a common field modification kit, utilizing Star League technology recovered from the Helm Memory Core, used by both Davion and Liao forces starting in 3049. This variant has had the medium lasers and the SRM-6 launchers removed and in their place has two Streak SRM-2 launchers and two Medium Pulse Lasers mounted, along with three additional heat sinks.",
         "Icon": "uixTxrIcon_crusader"
     },
     "MovementCapDefID": "movedef_crusader_CRD-3R",
@@ -205,7 +205,7 @@
             "z": 0
         }
     ],
-    "VariantName": "CRD-3K",
+    "VariantName": "CRD-4D",
     "ChassisTags": {
         "items": [
             "mr-resize-0.95-0.95-0.95"
@@ -213,5 +213,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "The Crusader is about as iconic as a Warhammer in the Heavy class of 'Mechs.  House Kurita made the 3K Variant more heat manageable by stripping out the machine guns and lowering the tubes for the LRM launchers.  That means for us we have more room in the arms to work with."
+    "YangsThoughts": "The Crusader 4D isn't a radical upgrade, more a change of weapons as new tech weapons become more popular. It does allow the addition of 3 more heat sinks at least."
 }

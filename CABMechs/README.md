@@ -198,14 +198,14 @@
 * double heatsinks (12/12)
 * FF armor (-1.5 initial tonnage, +1.5 armor) (179->184)
 * CASE (+0.5 armor on C/L/R torso)
-* 8.0[IS] + 26.5[E] + 7[C/G] + 2[DHS] - 1.5[FF]= 42.0
+* 8.0[IS] + 26.5[XLE] + 7[C/G] + 2[DHS] - 1.5[FF]= 42.0
 
 # AS7-K Atlas (100t)
 * XL engine 300 (2 internal)
 * Endo Steel
 * single heatsinks (12/20) - 2 internal
 * CASE (+1.0 armor on C/L/R torso)
-* 10[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 27.5
+* 10[IS] + 9.5[XLE] + 6[C/G] + 2[DHS] = 27.5
 
 # AWS-9M Awesome (80t)
 * XL engine 320 (2 internal)
@@ -231,6 +231,12 @@
 * Double heatsinks (11/11)
 * CASE (+1.0 armor on C/L/R torso)
 * InitialTonnage 24 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 1[EDHS]
+
+# BRZ-A3/B3 Berzerk (100t)
+* XL engine 400 (6 internal)
+* Endo Steel
+* double heatsinks (16/16)
+* 5[ESIS] + 26.5[XLE] + 7[C/G] + 6[DHS] = 44.5
 
 TODO:
 * rarity revision

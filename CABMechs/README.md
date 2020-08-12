@@ -238,6 +238,14 @@
 * double heatsinks (16/16)
 * 5[ESIS] + 26.5[XLE] + 7[C/G] + 6[DHS] = 44.5
 
+# JM6-DD JagerMech (65t)
+* XL egnine 260
+* sinle heatsinks (10)
+* FF armor (-1.0 initial tonnage, +1.0 armor) (116->120)
+* CASE (+1.0 armor on C/L/R torso)
+* 6.5[IS] + 7[XLE] + 6[C/G] - 1.0[FF] = 18.5
+
+
 TODO:
 * rarity revision
 * external heatsinks

@@ -245,6 +245,12 @@
 * CASE (+1.0 armor on C/L/R torso)
 * 6.5[IS] + 7[XLE] + 6[C/G] - 1.0[FF] = 18.5
 
+# VTR-9K/D Victor (80t)
+* engine 320 (2 internal) 4/6
+* single heatsinks (12/15) - 2 internal
+* Endo Steel
+* CASE (+1.0 armor on C/L/R torso)
+* 4[IS] + 22.5[XLE] + 7[C/G] + 2[DHS] = 35.5
 
 TODO:
 * rarity revision

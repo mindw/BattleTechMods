@@ -259,6 +259,17 @@
 * CASE (+1.0 armor on C/L/R torso)
 * 6.5[IS] + 13.5[E] + 6[C/G] = 26
 
+# HSR-200-D Hussar (30t)
+* engine 270 9/14
+* double heatsinks (10/10)
+* FF armor (-0.5 initial tonnage, +0.5 armor) (26->32)
+* 3.0[IS] + 14.5[E] + 6[C/G] -0.5[FF] = 23
+
+# HSR-350-D Hussar (30t)
+* XL engine 240 (1 external) 8/12
+* single heatsinks (9/10) FIXME
+* FF armor (-0.5 initial tonnage, +0.5 armor) (53->56)
+* 3.0[IS] + 6.0[E] + 6[C/G] -0.5[FF] = 14.5
 
 TODO:
 * rarity revision

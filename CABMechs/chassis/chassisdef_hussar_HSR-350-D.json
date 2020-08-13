@@ -1,0 +1,200 @@
+{
+    "Description": {
+        "Cost": 3020000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Hussar",
+        "Id": "chassisdef_hussar_HSR-350-D",
+        "Name": "Hussar",
+        "Details": "This Combine variant of the 300-D was introduced in 3038. It lowers the Hussar's top speed to 126 km/h by replacing the engine with a Pitban 240. The weight saved from the smaller power plant was used to add a Medium Laser to each arm and an extra ton of armor.",
+        "Icon": "uixTxrIcon_hussar"
+    },
+    "MovementCapDefID": "movedef_hussar_HSR-350-D",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_hussar",
+    "PrefabIdentifier": "chrprfmech_hussarbase-001",
+    "PrefabBase": "hussar",
+    "Tonnage": 30,
+    "InitialTonnage": 20.5,
+    "weightClass": "LIGHT",
+    "Heatsinks": 0,
+    "MaxJumpjets": 8,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 30,
+    "MeleeInstability": 40,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 40,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 40,
+    "DFAInstability": 40,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 100,
+            "MaxRearArmor": 50,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 6,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 6,
+            "z": 0
+        }
+    ],
+    "VariantName": "HSR-350-D",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Striker",
+    "YangsThoughts": "The Hussar 350-D tries to make up for where the previous Hassar variants lacked by lowering the engine to put more weapons and armor on. It's engine is still large for it's size, you there isn't much room for armor.  The Hussar's role is still best as using it's reach and speed to never get shot back."
+}

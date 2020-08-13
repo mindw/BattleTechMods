@@ -8,14 +8,14 @@
 * CASE (+1.0 armor on L/R/C torso)
 
 # JR7-K Jenner (35t)
-* engine 245
-* FIXME: single heatsinks (10) - 1 external (H)
+* engine 245 (1 external)
+* single heatsinks (9/10) -  FIXME 1 external (H)
 * FF armor (-0.5 initial tonnage, +0.5 armor)
 * CASE (+0.5 armor on L/R torso)
 
 # CP-11-A Cyclops
-* engine 360
-* single heatsinks (12) - 2 internal
+* engine 360 (4 internal)
+* single heatsinks (12/12)
 
 # DV-7D Dervish (55t)
 * engine 275
@@ -32,23 +32,23 @@
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 25 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 2[EDHS]
 
-# WVR-6D/6M Wolverine
+# WVR-6D/6M Wolverine (55t)
 * engine 275
 * single heatsinks (11/14) - 1 internal
 
-# ARC-4M Archer
+# ARC-4M Archer (70t)
 * engine 280 (1 internal HS)
 * Endo Steel
 * ArtemisIV (replace with Missile TTS+)
 * CASE (+1.0 armor on L/R/C torso)
 * 3.5[ESIS] + 16[E] + 6[C/G] = 25.5
 
-# ARC-4S Archer
+# ARC-4S Archer (70t)
 * XL engine 280 (1 internal HS)
 * CASE (+1.0 armor on L/R/C torso)
 * 7[IS] + 8[XLE] + 6[C/G] = 21
 
-# DVS-2 Devastator
+# DVS-2 Devastator (100t)
 * XL engine 300 (2 internal DHS)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[EDHS] = 27.5
 
@@ -56,33 +56,33 @@
 * XL engine 270
 * 9[IS] + 7.5[XLE] + 6[C/G] - 1.5[FF] = 21.0
 
-# RVN-3L Raven
-* XL egnine 210 (2 external heatsinks TBD)
+# RVN-3L Raven (35t)
+* XL engine 210 (2 external heatsinks TBD)
 * FF armor (.5 initial tonnage, +.5 armor) (80 * 5)
 * CASE (+0.5 armor on L/R torso)
 * 3.5[IS] + 4.5[XLE] + 6[C/G] - .5[FF] = 13.5
 
-# TBT-7M Trebuchet
-* XL egnine 250
+# TBT-7M Trebuchet (50t)
+* XL engine 250 5/8
 * Double heatsinks (10)
 * Endo Steel
 * CASE (+1.0 armor on L/R/C torso)
 * 2.5[ESIS] + 6.5[XLE] + 6[C/G] = 15
 
-# SHD-5M Shadow Hawk
-* XL engine 275
+# SHD-5M Shadow Hawk (55t)
+* XL engine 275 5/8
 * Endo Steel
 * Double heatsinks (10)
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 17 = 3.0[IS] + 8[EXL] + 3[C] + 3[G]
 
-# PXH-3D Phoenix Hawk
+# PXH-3D Phoenix Hawk (45t)
 * XL engine 270
 * Endo Steel
 * Double heatsinks (12)
 * 2.5[ESIS] + 7.5[XLE] + 6[C/G] = 16.0
 
-# PXH-3M Phoenix Hawk
+# PXH-3M Phoenix Hawk (45t)
 * XL engine 270
 * Endo Steel
 * Double heatsinks (10)
@@ -98,19 +98,19 @@
 * CASE (+0.5 armor on L/R torso)
 * 4.5[IS] + 7.5[XLE] + 6[C/G] -1[FF] = 17.0
 
-# HBK-5M Hunchback
-* engine 200 (2 external HS) TBD
-* Double heatsinks (13)
+# HBK-5M Hunchback (50)
+* engine 200 (2 external) 4/6
+* Double heatsinks (10/13) +2 external FIXME
 
-# ZEU-6S Zues
-* engine 320 (2 internal DHS)
-* Double heatsinks (17)
+# ZEU-6S Zues (80t)
+* engine 320 (2 internal) 4/6
+* Double heatsinks (12/17)
 * FF armor (-1.5 initial tonnage, +1.5 armor) (197->200)
 * CASE (+0.5 armor on L/R torso)
 * 8[IS] + 22.5[E] + 7[C/G] + 2[DHS] - 1.5[FF] = 38.0
 
-# AXN-1N Axman
-* XL egnine 260
+# AXN-1N Axman (65t)
+* XL engine 260 4/6
 * Double heatsinks (10)
 * FF armor (-1.5 initial tonnage, +1.5 armor) (179->184)
 * CASE (+0.5 armor on L/R torso)
@@ -159,87 +159,88 @@
 * 2.5[ESIS] + 9.5[E] + 6[C/G] = 18
 
 # HCT-3S Hatchetman (45t)
-* XL engine 180
+* XL engine 180 (4/6)
 * FF armor (-1.0 initial tonnage, +1.0 armor) (152->152)
 * 4.5[IS] + 3.5[XLE] + 5[C/G] -1[FF] = 12.0
 
 # CDA-3M Cicada (40t)
-* XL engine 320
+* XL engine 320 (2 internal) 8/12
 * CASE (+0.5 armor on C/L/R torso)
 * 4[IS] + 11.5[XLE] + 7[C/G] = 22.5
 
 # GLT-5M Guillotine (70t)
-* engine 280 (1 internal)
+* engine 280 (1 internal) 4/6
+* single heatsinks (11/25)
 * Endo Steel
-* single heatsinks (11/25) - 1 internal
 * CASE (+0.5 armor on C/L/R torso)
 * 3.5[ESIS] + 16[E] + 6[C/G] + 1[HS] = 26.5
 
 # QKD-5K Quickdraw (60t)
-* engine 300 (2 internal)
-* double heatsinks (12/17) - 2 internal
+* engine 300 (2 internal) 5/8
+* double heatsinks (12/17)
 * FF armor (-1.0 initial tonnage, +1.0 armor) (143->144)
 * 6.0[IS] + 19[E] + 6[C/G] + 2[DHS] - 1.0[FF] = 32
 
 # RFL-5M Rifleman (60t)
-* XL engine 240 (1 external) TBD
-* double heatsinks (9/12) TBD
+* XL engine 240 (1 external) 4/6
+* double heatsinks (9(10)/12) FIXME
 * CASE (+0.5 armor on C/L/R torso)
 * 6.0[IS] + 6.0[E] + 6[C/G] = 18
 
 # BLR-3M BattleMaster (85t)
-* engine 340 (3 internal)
+* engine 340 (3 internal) 4/6
 * double heatsinks (13/18)
 * CASE (+0.5 armor on C/L/R torso)
 * 8.5[IS] + 27.0[E] + 7[C/G] + 3[DHS] = 45.5
 
 # CGR-3K Charger (80t)
-* XL engine 400 (6 internal)
+* XL engine 400 (6 internal) 5/8
 * double heatsinks (12/12)
 * FF armor (-1.5 initial tonnage, +1.5 armor) (179->184)
 * CASE (+0.5 armor on C/L/R torso)
 * 8.0[IS] + 26.5[XLE] + 7[C/G] + 2[DHS] - 1.5[FF]= 42.0
 
 # AS7-K Atlas (100t)
-* XL engine 300 (2 internal)
+* XL engine 300 (2 internal) 3/5
 * Endo Steel
 * single heatsinks (12/20) - 2 internal
 * CASE (+1.0 armor on C/L/R torso)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[DHS] = 27.5
 
 # AWS-9M Awesome (80t)
-* XL engine 320 (2 internal)
+* XL engine 320 (2 internal) 4/6
 * double heatsinks (12/20)
 * CT SSRM2 moved to LT to clear space for 1 HS
 * 8[IS] + 11.5[XLE] + 7[C/G] + 2[DHS] = 27.5
 
 # TDR-7M Thunderbolt (65t)
-* engine 260
+* engine 260 4/6
 * Double heatsinks (10/15)
 * FF armor (-1.5 initial tonnage, +1.5 armor) (206->208)
 * CASE (+1.0 armor on C/L/R torso)
 * 6.5[IS] + 13.5[E] + 6[C/G] - 1.5[FF] = 24.5
 
 # MAD-5A Marauder II (100t)
-* XL engine 300 (2 internal)
+* XL engine 300 (2 internal) 3/5
 * single heatsinks (12/29) - 2 internal
 * CASE (+0.5 armor on C/L/R torso)
 * 10[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 27.5
 
 # ON1-M Orion  (75t)
-* XL engine 300 (2 internal)
+* XL engine 300 (2 internal) 4/6
 * Double heatsinks (11/11)
 * CASE (+1.0 armor on C/L/R torso)
 * InitialTonnage 24 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 1[EDHS]
 
 # BRZ-A3/B3 Berzerk (100t)
-* XL engine 400 (6 internal)
+* XL engine 400 (6 internal) 4/6(12)
 * Endo Steel
+* MASC
 * double heatsinks (16/16)
 * 5[ESIS] + 26.5[XLE] + 7[C/G] + 6[DHS] = 44.5
 
 # JM6-DD JagerMech (65t)
-* XL egnine 260
+* XL engine 260 4/6
 * sinle heatsinks (10)
 * FF armor (-1.0 initial tonnage, +1.0 armor) (116->120)
 * CASE (+1.0 armor on C/L/R torso)
@@ -251,6 +252,13 @@
 * Endo Steel
 * CASE (+1.0 armor on C/L/R torso)
 * 4[IS] + 22.5[XLE] + 7[C/G] + 2[DHS] = 35.5
+
+# CRD-3S Crusader (65t)
+* engine 260 4/6
+* double heatsinks (10/10)
+* CASE (+1.0 armor on C/L/R torso)
+* 6.5[IS] + 13.5[E] + 6[C/G] = 26
+
 
 TODO:
 * rarity revision

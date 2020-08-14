@@ -253,11 +253,17 @@
 * CASE (+1.0 armor on C/L/R torso)
 * 4[IS] + 22.5[XLE] + 7[C/G] + 2[DHS] = 35.5
 
-# CRD-3S Crusader (65t)
+# CRD-5S Crusader (65t)
 * engine 260 4/6
 * double heatsinks (10/10)
 * CASE (+1.0 armor on C/L/R torso)
 * 6.5[IS] + 13.5[E] + 6[C/G] = 26
+
+# CRD-5M Crusader (65t)
+* XL engine 260 4/6
+* double heatsinks (10/13)
+* CASE (+1.0 armor on C/L/R torso)
+* 6.5[IS] + 7.0[E] + 6[C/G] = 19.5
 
 # HSR-200-D Hussar (30t)
 * engine 270 9/14

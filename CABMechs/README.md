@@ -271,6 +271,12 @@
 * FF armor (-0.5 initial tonnage, +0.5 armor) (53->56)
 * 3.0[IS] + 6.0[E] + 6[C/G] -0.5[FF] = 14.5
 
+# CES-3R Caesar (70t)
+* XL engine 280 (1 internal HS) 4/6
+* double heatsinks (11/16)
+* CASE (+0.5 armor on C/L/R torso)
+* 7[IS] + 8[XLE] + 6[C/G] + 1[DHS]= 22
+
 TODO:
 * rarity revision
 * external heatsinks

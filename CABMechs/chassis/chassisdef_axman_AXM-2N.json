@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Axman",
-        "Id": "chassisdef_axman_AXM-1N",
+        "Id": "chassisdef_axman_AXM-2N",
         "Name": "Axman",
-        "Details": "Developed by Team Banzai as the big brother of the highly successful Hatchetman, the Axman was designed exclusively to be a 'Mech killer. The two primary weapons on board the Axman are its massive Hatchet, which alone weighs five tons and can cleave through enemy 'Mech armor like a knife through butter, and an Autocannon/20, which can strip over a ton of armor off of an enemy 'Mech with ease.",
+        "Details": "The 2N variant of the Axman has been called a mistake by some and a stroke of genius by others. The 2N carries two LRM-15 launchers in place of the massive Autocannon/20. While this changes the 'Mech's role from a city fighter to a long-range bombardment 'Mech, it also allows the Axman to be a support 'Mech that can defend itself with its massive Hatchet at ranges where the LRMs are ineffective if an enemy closes.",
         "Icon": "uixTxrIcon_axman"
     },
     "MovementCapDefID": "movedef_axman_AXM-1N",
@@ -78,7 +78,20 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 150,
@@ -98,11 +111,11 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -197,7 +210,7 @@
             "z": 2.5
         }
     ],
-    "VariantName": "AXM-1N",
+    "VariantName": "AXM-2N",
     "ChassisTags": {
         "items": [
             "mr-resize-1.20-1.05-1.20",
@@ -206,7 +219,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Skirmisher",
-    "YangsThoughts": "Axman 1Ns are the king of the close quarters fight. Packing high impact short range weaponry, and a unique melee Hatchet, any target is in danger when close to the Axman. The Axmans average speed requires it to rely on jump jets and ambushing to stay in the fight.",
+    "YangsThoughts": "Axman 2Ns are a strange beast. It keeps the unique melee Hatchet, any target is in danger when close to the Axman. When the 2N was designed they decided the Hatchet would be a backup, and specialisation must be weakness, so they turned the Axman in to a support mech that punishes anything that gets under the LRM minimum range.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
@@ -246,7 +259,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -258,7 +271,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -271,6 +284,18 @@
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

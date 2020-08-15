@@ -109,7 +109,7 @@
 * CASE (+0.5 armor on L/R torso)
 * 8[IS] + 22.5[E] + 7[C/G] + 2[DHS] - 1.5[FF] = 38.0
 
-# AXN-1N Axman (65t)
+# AXN-1N/2N Axman (65t)
 * XL engine 260 4/6
 * Double heatsinks (10)
 * FF armor (-1.5 initial tonnage, +1.5 armor) (179->184)

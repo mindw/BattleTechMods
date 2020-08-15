@@ -2,9 +2,11 @@
   "DebugMode": false,
   "VersionCheck": false,
   "DebugSkirmishMode": false,
-  "DisableIfFlashpointContract": true,
+  "EnableFlashpointOverrides": false,
+  "EnableAdditionalPlayerMechsForFlashpoints": false,
   "RandomSpawns": {
     "Enable": true,
+    "EnableForFlashpoints": false,
     "ExcludeContractTypes": [
         "SoloDuel", 
         "DuoDuel",
@@ -14,8 +16,9 @@
         "ThreeWayBattle"
     ],
   },
-  "HotDrop": {
+  "HotDropProtection": {
     "Enable": false,
+    "EnableForFlashpoints": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "GuardOnHotDrop": true,
     "EvasionPipsOnHotDrop": 6,
@@ -25,6 +28,7 @@
   },
   "AdditionalLances": {
     "Enable": true,
+    "EnableForFlashpoints": false,
     "ExcludeContractTypes": [
         "SoloDuel", 
         "DuoDuel",
@@ -43,7 +47,6 @@
     "SkullValueMatters": true,
     "BasedOnVisibleSkullValue": true,
     "UseGeneralProfileForSkirmish": true,
-    "DisableIfFlashpointContract": true,
     "DisableWhenMaxTonnage": {
       "Enable": true,
       "Limited": false,
@@ -62,6 +65,7 @@
   },
   "ExtendedLances": {
     "Enable": false,
+    "EnableForFlashpoints": false,
     "Autofill": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "SkipWhenTaggedWithAny": ["lance_type_solo"],
@@ -74,6 +78,7 @@
   },
   "ExtendedBoundaries": {
     "Enable": true,
+    "EnableForFlashpoints": false,
     "ExcludeContractTypes": [ "AmbushConvoy", "EscortSingle", "SoloDuel", "DuoDuel"],
     "IncreaseBoundarySizeByPercentage": 0.3,
     "Overrides": [
@@ -105,6 +110,7 @@
   },
   "DynamicWithdraw": {
     "Enable": false,
+    "EnableForFlashpoints": true,
     "ExcludeContractTypes": ["SoloDuel", "DuoDuel"],
     "MinDistanceForZone": 50,
     "MaxDistanceForZone": 240,
@@ -113,7 +119,7 @@
   "AI": {
     "FollowPlayer": {
       "Pathfinding": "Alternative",
-      "Target": "FirstLanceMember",
+      "Target": "LanceOrder",
       "StopWhen": "OnEnemyVisible",
       "MaxDistanceFromTargetBeforeSprinting": 150,
       "TargetZoneRadius": 150,

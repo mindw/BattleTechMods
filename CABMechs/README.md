@@ -89,7 +89,7 @@
 * CASE (+0.5 armor on L/R torso)
 * 2.5[ESIS] + 7.5[XLE] + 6[C/G] = 16.0
 
-# PXH-3S Phoenix Hawk
+# PXH-3S Phoenix Hawk (45t)
 * XL engine 270
 * Double heatsinks (10)
 * MASC
@@ -122,33 +122,46 @@
 * MASC
 
 # LCT-3D/3S Locust (20t)
-* engine 160 (4 external HS) TBD
+* engine 160 (4 external HS) 8/12
+* 10 heat sinks (6/10) TBD
 * Endo Steel
 * FF armor (.5 initial tonnage, +.5 armor) (44 -> 48)
 * CASE (+0.5 armor on C/L/R torso)
 * 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
 
+# COM-5S Commando (25t)
+* engine 150 (4 external) 6/9
+* 10 heat sinks (6/10) TBD
+* Endo Steel
+* CASE (+0.5 armor on C/L/R torso)
+* FF armor (.5 initial tonnage, +.5 armor) (53 -> 56)
+* 1.5[ESIS] + 5.5[E] + 5[C/G] - 0.5[FF] = 11.5
+
+# HER-1S Hermes (30t)
+* engine 270 9/14(18)
+* 10 heat sinks
+* Endo Steel
+* FF armor (-.5 initial tonnage, +.5 armor) (89 -> 88)
+* 1.5[ESIS] + 13.5[E] + 6[C/G] - 0.5[FF] = 21.5
+
+# HER-3S/S1/S2 Hermes (30t)
+* engine 270 9/14(18)
+* 10 heat sinks
+* Endo Steel
+* FF armor (-.5 initial tonnage, +.5 armor) (44 -> 48)
+* 1.5[ESIS] + 13.5[E] + 6[C/G] - 0.5[FF] = 21.5
+
 # VLK-QD Valkyrie (30t)
-* engine 150 (4 external HS) TBD
+* engine 150 (4 external) 5/8
+* 10 heat sinks (6/10) TBD
 * Endo Steel
 * FF armor (-.5 initial tonnage, +.5 armor) (105 -> 104)
 * CASE (+0.5 armor on C/L/R torso)
 * 1.5[ESIS] + 5.5[E] + 5[C/G] - 0.5[FF] = 11.5
 
-# HER-3S/S1/S2 Hermes (30t)
-* engine 270
-* Endo Steel
-* FF armor (-.5 initial tonnage, +.5 armor) (44 -> 48)
-* 1.5[ESIS] + 13.5[E] + 6[C/G] - 0.5[FF] = 21.5
-
-# HER-1S Hermes (30t)
-* engine 270
-* Endo Steel
-* FF armor (-.5 initial tonnage, +.5 armor) (89 -> 88)
-* 1.5[ESIS] + 13.5[E] + 6[C/G] - 0.5[FF] = 21.5
-
 # FS9-S/S1 Firestarter (35t)
-* engine 210 (2 external HS) TBD
+* engine 210 (2 external) 6/9
+* 10 heat sinks (8/10)
 * Endo Steel
 * 2[ESIS] + 9[E] + 6[C/G] = 17
 
@@ -158,15 +171,15 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 2.5[ESIS] + 9.5[E] + 6[C/G] = 18
 
-# HCT-3S Hatchetman (45t)
-* XL engine 180 (4/6)
-* FF armor (-1.0 initial tonnage, +1.0 armor) (152->152)
-* 4.5[IS] + 3.5[XLE] + 5[C/G] -1[FF] = 12.0
-
 # CDA-3M Cicada (40t)
 * XL engine 320 (2 internal) 8/12
 * CASE (+0.5 armor on C/L/R torso)
 * 4[IS] + 11.5[XLE] + 7[C/G] = 22.5
+
+# HCT-3S Hatchetman (45t)
+* XL engine 180 (4/6)
+* FF armor (-1.0 initial tonnage, +1.0 armor) (152->152)
+* 4.5[IS] + 3.5[XLE] + 5[C/G] -1[FF] = 12.0
 
 # GLT-5M Guillotine (70t)
 * engine 280 (1 internal) 4/6

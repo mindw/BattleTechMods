@@ -116,6 +116,13 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 2.5[ESIS] + 9.5[E] + 6[C/G] = 18
 
+# ENF-5D Enforcer
+* XL engine 250 5/8
+* Single heatsinks (10/12)
+* FF armor (-1.5 initial tonnage, +1.5 armor) (161 -> 168)
+* CASE (+0.5 armor on C/L/R torso)
+* 5.0[IS] + 6.5[XLE] + 6[C/G] - 1.5[FF] = 16
+
 # TBT-7M Trebuchet (50t)
 * XL engine 250 5/8
 * Double heatsinks (10/10)

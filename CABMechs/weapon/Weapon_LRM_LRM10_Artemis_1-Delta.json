@@ -26,21 +26,21 @@
     "ShotsWhenFired": 10,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 1,
-    "Instability": 4,
+    "Instability": 3,
     "WeaponEffectID": "WeaponEffect-Weapon_LRM10",
     "Description": {
-        "Cost": 400000,
-        "Rarity": 4,
+        "Cost": 260000,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "Delta",
         "Model": "Long-Range Missile Launcher",
-        "UIName": "LRM10 (A-IV) + +",
-        "Id": "Weapon_LRM_LRM10_Artemis_2-Delta",
-        "Name": "LRM10 (A-IV FCS) + +",
+        "UIName": "LRM10 (A-IV) +",
+        "Id": "Weapon_LRM_LRM10_Artemis_1-Delta",
+        "Name": "LRM10 (A-IV FCS) +",
         "Details": "The LRM10 rack of Long-Range Missiles occupies a supporting fire role when mounted on most units, with fairly low damage balanced by low heat and ammunition consumption. Like all LRMs, LRM10s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
         "Icon": "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA": "+ 2 Stb.Dmg.",
+    "BonusValueA": "+ 1 Stb.Dmg.",
     "BonusValueB": "-2 Acc.",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
@@ -55,7 +55,7 @@
     "ComponentTags": {
         "items": [
             "component_type_variant",
-            "component_type_variant2",
+            "component_type_variant1",
             "range_extreme"
         ],
         "tagSetSourceFile": ""

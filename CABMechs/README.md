@@ -5,11 +5,12 @@
 * MASC
 * 1[ESIS] + 4[E] + 5[C/G] = 10.0
 
-# LCT-3D/3S Locust (20t)
-* engine 160 (4 external HS) 8/12
+# LCT-3D/3S/3M Locust (20t)
+* engine 160 (4 external) 8/12
 * 10 heat sinks (6/10) TBD
 * Endo Steel
 * FF armor (.5 initial tonnage, +.5 armor) (44 -> 48)
+* FF armor (.5 initial tonnage, +.5 armor) (53 -> 56) (3M)
 * CASE (+0.5 armor on C/L/R torso)
 * 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
 

@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_stalker_STK-3F",
-  "PathingCapDefID": "pathingdef_assault",
+  "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_stalker",
   "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
   "PrefabBase": "stalker",

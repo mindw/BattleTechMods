@@ -3,6 +3,7 @@
 * 10 heat sinks (6/10) TBD
 * Endo Steel
 * MASC
+* 1[ESIS] + 4[E] + 5[C/G] = 10.0
 
 # LCT-3D/3S Locust (20t)
 * engine 160 (4 external HS) 8/12
@@ -11,6 +12,12 @@
 * FF armor (.5 initial tonnage, +.5 armor) (44 -> 48)
 * CASE (+0.5 armor on C/L/R torso)
 * 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
+
+# STG-5M Stinger (20t)
+* engine 120 (6 external) 6/9
+* 10 heat sinks (6/10) TBD
+* Endo Steel
+* 1[ESIS] + 4[E] + 5[C/G] = 10.0
 
 # COM-5S Commando (25t)
 * engine 150 (4 external) 6/9

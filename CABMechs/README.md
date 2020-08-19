@@ -175,6 +175,12 @@
 # DRG-5N Dragon (60t)
 * CASE (+1.0 armor on L/R/C torso)
 
+# DRG-5K Grand Dragon (60t)
+* XL engine 360 (4 internal) 6/9
+* double heatsinks (13/13)
+* CASE (+0.5 armor on L/R torso)
+* 6.0[IS] + 16.5[XLE] + 7[C/G] + 3[DHS] = 32.5
+
 # QKD-5K Quickdraw (60t)
 * engine 300 (2 internal) 5/8
 * double heatsinks (12/17)

@@ -27,8 +27,6 @@
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
-        { "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
-        { "Type": "VehicleDef", "Path": "vehicle" }, 
         { "Type": "TurretDef", "Path": "turret", "AddToDB": true },
         { "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true },
         { "Type": "ItemCollectionDef", "Path": "itemCollectionDefsAppend", "ShouldAppendText": true },
@@ -36,6 +34,8 @@
         { "Path": "mechMerge", "Type": "AdvancedJSONMerge" },
         { "Type": "PilotDef", "Path": "pilots" },
         { "Type": "Sprite", "Path": "icons" },
+        { "Type": "VehicleDef", "Path": "vehicle" }, 
+        { "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
         { "Path": "weaponMerge", "Type": "AdvancedJSONMerge" },
         { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
    ]

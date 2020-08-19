@@ -1,7 +1,7 @@
 {
    "Description": {
       "Id": "pathingdef_assault_wheeled",
-      "Name": "Assault Mech PathingCapabilities Definition",
+      "Name": "Assault Wheeled Vehicle PathingCapabilities Definition",
       "Details": "",
       "Icon": ""
    },

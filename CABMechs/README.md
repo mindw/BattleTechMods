@@ -106,6 +106,12 @@
 * Double heatsinks (10/12)
 * 2.5[ESIS] + 7.5[XLE] + 6[C/G] = 16.0
 
+# PXH-3K Phoenix Hawk (45t)
+* XL engine 270 6/9(12)
+* Double heatsinks (10/12)
+* FF armor (-1.0 initial tonnage, +1.0 armor) (143->144)
+* 4.5[IS] + 7.5[XLE] + 6[C/G] - 1[FF] = 17.0
+
 # PXH-3M Phoenix Hawk (45t)
 * XL engine 270 6/9
 * Endo Steel

@@ -16,7 +16,7 @@
             "CombatLog" : false,
             "DisableCampaign" : true,
             "DisableCombatSaves" : true,
-            "ExtendedStats" : true,
+            "ExtendedStats" : false,
             "FlexibleSensorLock" : true,
             "MultiTargetStat" : false,
 	        "AlternateMechNamingStyle" : false,

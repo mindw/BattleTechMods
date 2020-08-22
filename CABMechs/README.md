@@ -100,6 +100,12 @@
 * Double heatsinks (9/10) TBD
 * 4[IS] + 11.5[E] + 6[C/G] = 21.5
 
+# VL-5M Vulcan (40t)
+* engine 240 (1 external) 4/6
+* Double heatsinks (9/11) TBD
+* Endo Steel
+* 2[IS] + 11.5[E] + 6[C/G] = 19.5
+
 # HCT-3S Hatchetman (45t)
 * XL engine 180 (4/6)
 * FF armor (-1.0 initial tonnage, +1.0 armor) (152->152)

@@ -427,10 +427,12 @@
                     "HardpointCandidates": [
                         "srm2",
                         "srm4",
+                        "lrm5",
                         "srm6",
                         "missile2",
                         "missile4",
-                        "missile6"
+                        "missile6",
+                        "lrm10"
                     ]
                 },
                 {

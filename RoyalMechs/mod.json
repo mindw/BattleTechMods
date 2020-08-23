@@ -7,7 +7,10 @@
     "BattleTechVersionMin": "1.9.1",
 
     "DependsOn": [ 
-        "CommunityBundles", 
+        "CAB-Clan Mech", 
+        "CAB-IS Mech", 
+        "CAB-Misc", 
+        "CAB-Tanks", 
         "StreakMissileLaunchers"
     ],
 

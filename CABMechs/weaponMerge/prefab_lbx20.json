@@ -1,0 +1,14 @@
+{
+    "TargetIDs": [
+        "Weapon_Autocannon_LB20X_0-STOCK",
+        "Weapon_Autocannon_LB20X_1-Shengli_Arms",
+        "Weapon_Autocannon_LB20X_2-Shengli_Arms"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.PrefabIdentifier",
+            "Action": "Replace",
+            "Value": "lbx20"
+        }
+    ]
+}

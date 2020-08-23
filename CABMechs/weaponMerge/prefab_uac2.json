@@ -1,0 +1,14 @@
+{
+    "TargetIDs": [
+        "Weapon_Autocannon_UAC2_0-STOCK",
+        "Weapon_Autocannon_UAC2_1-Imperator",
+        "Weapon_Autocannon_UAC2_2-Imperator"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.PrefabIdentifier",
+            "Action": "Replace",
+            "Value": "uac2"
+        }
+    ]
+}

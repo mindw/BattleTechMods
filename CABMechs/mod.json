@@ -19,11 +19,11 @@
 
 	"DLL": "JK_Components.dll",
     "Settings": {
-        "Debug": true,
+        "Debug": false,
         "HardpointFix": {
             "Enabled": true,
             "EnabledDescription": "Optimizes the way installed weapons are shown on a mech model.",
-            "TraceLogDebugMappings": true,
+            "TraceLogDebugMappings": false,
             "TraceLogDebugMappingsDescription": "Trace all GetComponentBlankNames and GetComponentPrefabName calls. Otherwise only some of them are logged.",
             "FallbackPrefabsForComponentDefIds": [
                 "Weapon_Mortar_MechMortar"

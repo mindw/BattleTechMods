@@ -96,7 +96,7 @@
 * 4[IS] + 11.5[XLE] + 7[C/G] = 22.5
 
 # CLNT-2-3U Clint (40t)
-* engine 240 (1 external) 4/6
+* engine 240 (1 external) 6/9
 * Double heatsinks (9/10) TBD
 * 4[IS] + 11.5[E] + 6[C/G] = 21.5
 
@@ -105,6 +105,13 @@
 * Double heatsinks (9/11) TBD
 * Endo Steel
 * 2[IS] + 11.5[E] + 6[C/G] = 19.5
+
+# VL-5S Vulcan (40t)
+* engine 240 (1 external) 6/9
+* single heatsinks (9/10) TBD
+* FF armor (-1.0 initial tonnage, +1.0 armor) (89->96)
+* CASE (+0.5 armor on C/L/R torso)
+* 4[ESIS] + 6.0[E] + 6[C/G] - 1.0[FF] = 15.0
 
 # HCT-3S Hatchetman (45t)
 * XL engine 180 (4/6)

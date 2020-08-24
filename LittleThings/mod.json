@@ -8,6 +8,8 @@
 
     "DLL": "LittleThings.dll",
 
+    "OptionallyDependsOn": ["cFixes", "cFixes2"],
+    
     "Settings": {
         "MoraleFixes": true,
 
@@ -36,7 +38,7 @@
         "EnableAbilityTooltips": true,
         "EnableStockMechReferenceViaModel": false,
         "EnableSpawnProtection": false,
-        "EnableLanceConfigurationByTags": false,
+        "EnableLanceConfigurationByTags": true,
         "EnableContractsTakeTime": false,
         "EnableDFAsRemoveEntrenched": true,
         "EnableRepeatableHeavyMetalCampaign": false,

@@ -6,6 +6,8 @@
     "Description": "DLC Design data unmodified, to allow merge",
     "Author": "HBS & MindW",
     
+    "DependsOn": ["ModTek"],
+    
     "Manifest": [
         { "Type": "AbilityDef", "Path": "abilities" },
         { "Type": "AmmunitionDef", "Path": "ammunition" },

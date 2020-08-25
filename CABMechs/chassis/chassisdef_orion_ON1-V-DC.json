@@ -210,7 +210,7 @@
             "IsFixed": true,
             "DamageLevel": "Functional",
             "prefabName": "",
-            "hasPrefabName": true
+            "hasPrefabName": false
         }
     ]
 }

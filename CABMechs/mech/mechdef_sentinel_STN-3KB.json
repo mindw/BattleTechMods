@@ -6,8 +6,10 @@
             "unit_medium", 
             "unit_range_long",
             "unit_lance_vanguard",
+            "unit_speed_high",
             "unit_role_sniper",
             "unit_release",
+            "unit_ready",
             "NotDavion",
             "NotLiao",
             "NotMarik",
@@ -146,6 +148,50 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
             "SimGameUID": null,
@@ -157,7 +203,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -173,50 +219,6 @@
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,

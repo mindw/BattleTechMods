@@ -55,7 +55,16 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 60,
@@ -64,16 +73,7 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 100,
@@ -91,7 +91,16 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 100,
@@ -100,16 +109,7 @@
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-			],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 60,
@@ -182,8 +182,8 @@
     "VariantName": "STN-3K",
     "ChassisTags": {
         "items": [
-			"mr-resize-0.93-0.93-0.93"
-		],
+            "mr-resize-0.93-0.93-0.93"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Sniper",

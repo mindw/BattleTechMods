@@ -46,12 +46,7 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -66,7 +61,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -87,12 +82,7 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 120,
@@ -104,6 +94,10 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -193,5 +187,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Sniper",
-    "YangsThoughts": "The Sentinel makes for an interesting skirmisher or Medium class observation 'Mech.  It still generally underperforms in most areas except speed, but it can throw a punch or two with that Autocannon, and has survivability compared to other scout designs."
+    "YangsThoughts": "The Sentinel makes for an interesting skirmisher or Medium class observation 'Mech. It still generally underperforms in most areas except speed, but it can throw a punch or two with that Autocannon, and has survivability compared to other scout designs."
 }

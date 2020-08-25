@@ -1,9 +1,9 @@
 {
-    "MinAppearanceDate" : "2830-01-01T00:00:00Z", 
+    "MinAppearanceDate": "2830-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_medium", 
+            "unit_medium",
             "unit_range_long",
             "unit_range_short",
             "unit_armor_high",
@@ -53,7 +53,7 @@
             "unit_none_HouseKhulan",
             "unit_none_HostileMercenaries",
             "unit_none_NoFaction"
-            ],
+        ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_sentinel_STN-3KA",
@@ -148,7 +148,51 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -159,7 +203,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -170,55 +214,11 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,

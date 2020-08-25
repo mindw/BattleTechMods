@@ -1,0 +1,114 @@
+{
+    "ID": "hardpointdatadef_shadowcat",
+    "HardpointData": [
+        {
+            "location": "head",
+            "weapons": [
+                [
+                    "chrPrfWeap_shadowcat_head_flamer_eh1",
+                    "chrPrfWeap_shadowcat_head_laser_eh1",
+                    "chrPrfWeap_shadowcat_head_mg_bh1",
+                    "chrPrfWeap_shadowcat_head_srm6_eh1"	
+				]
+			],
+            "blanks": [],
+            "mountingPoints": []
+        },
+        {
+            "location": "centertorso",
+            "weapons": [
+                [
+                    "chrPrfWeap_shadowcat_centertorso_flamer_eh1",
+                    "chrPrfWeap_shadowcat_centertorso_laser_eh1",
+                    "chrPrfWeap_shadowcat_centertorso_ppc_eh1",
+                    "chrPrfWeap_shadowcat_centertorso_gauss_bh1",
+                    "chrPrfWeap_shadowcat_centertorso_ac20_bh1",
+                    "chrPrfWeap_shadowcat_centertorso_mg_bh1",
+                    "chrPrfWeap_shadowcat_centertorso_srm6_mh1",
+                    "chrPrfWeap_shadowcat_centertorso_lrm10_mh1"
+                ]			
+			],
+            "blanks": [],
+            "mountingPoints": []
+        },		
+        {
+            "location": "leftarm",
+            "weapons": [
+                [
+                    "chrPrfWeap_shadowcat_leftarm_flamer_eh1",
+                    "chrPrfWeap_shadowcat_leftarm_laser_eh1",
+                    "chrPrfWeap_shadowcat_leftarm_ppc_eh1",
+                    "chrPrfWeap_shadowcat_leftarm_gauss_bh1",
+                    "chrPrfWeap_shadowcat_leftarm_ac20_bh1",
+                    "chrPrfWeap_shadowcat_leftarm_mg_bh1",
+                    "chrPrfWeap_shadowcat_leftarm_lrm10_mh1"
+                ]
+            ],
+            "blanks": [],
+            "mountingPoints": []
+        },
+        {
+            "location": "lefttorso",
+            "weapons": [
+                [
+                    "chrPrfWeap_shadowcat_lefttorso_srm6_mh1",
+                    "chrPrfWeap_shadowcat_lefttorso_lrm10_mh1",
+                    "chrPrfWeap_shadowcat_lefttorso_lrm20_mh1",
+                    "chrPrfWeap_shadowcat_lefttorso_ac10_bh1",
+                    "chrPrfWeap_shadowcat_lefttorso_ac5_bh1",
+                    "chrPrfWeap_shadowcat_lefttorso_mg_bh1",
+                    "chrPrfWeap_shadowcat_lefttorso_flamer_eh1",
+                    "chrPrfWeap_shadowcat_lefttorso_laser_eh1",
+                    "chrPrfWeap_shadowcat_lefttorso_ppc_eh1",
+                    "chrPrfWeap_shadowcat_lefttorso_gauss_bh1"					
+                ],
+                [
+                    "chrPrfWeap_shadowcat_lefttorso_mg_bh2"
+                ],
+                [
+                    "chrPrfWeap_shadowcat_lefttorso_ac2_bh3",
+                    "chrPrfWeap_shadowcat_lefttorso_mg_bh3"
+                ]
+            ],
+            "blanks": [],
+            "mountingPoints": []
+        },
+        {
+            "location": "rightarm",
+            "weapons": [
+                [
+                    "chrPrfWeap_shadowcat_rightarm_flamer_eh1",
+                    "chrPrfWeap_shadowcat_rightarm_laser_eh1",
+                    "chrPrfWeap_shadowcat_rightarm_ppc_eh1",
+                    "chrPrfWeap_shadowcat_rightarm_srm6_mh1",
+                    "chrPrfWeap_shadowcat_rightarm_lrm10_mh1",
+                    "chrPrfWeap_shadowcat_rightarm_gauss_bh1",
+                    "chrPrfWeap_shadowcat_rightarm_lrm20_mh1"
+                ],
+				[
+					"chrPrfWeap_shadowcat_rightarm_ppc_eh2"
+				]
+            ],
+            "blanks": [],
+            "mountingPoints": []
+        },
+        {
+            "location": "righttorso",
+            "weapons": [
+                [
+                    "chrPrfWeap_shadowcat_righttorso_flamer_eh1",
+                    "chrPrfWeap_shadowcat_righttorso_laser_eh1",
+                    "chrPrfWeap_shadowcat_righttorso_ppc_eh1",
+                    "chrPrfWeap_shadowcat_righttorso_srm6_mh1",
+                    "chrPrfWeap_shadowcat_righttorso_lrm10_mh1",
+                    "chrPrfWeap_shadowcat_righttorso_lrm20_mh1",
+                    "chrPrfWeap_shadowcat_righttorso_gauss_bh1",
+                    "chrPrfWeap_shadowcat_righttorso_mg_bh1",
+                    "chrPrfWeap_shadowcat_righttorso_ac20_bh1"					
+                ]
+            ],
+            "blanks": [],
+            "mountingPoints": []
+        }
+    ]
+}

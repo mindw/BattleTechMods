@@ -171,7 +171,7 @@
 * 2.5[ESIS] + 6.5[XLE] + 6[C/G] = 15
 
 # DV-7D Dervish (55t)
-* engine 275
+* engine 275 (1 internal) 5/8
 * Double heatsinks (10)
 * Endo Steel
 * FF armor (-1 initial tonnage, +1 armor) (144 * 5)
@@ -180,21 +180,40 @@
 * FIXME: AB LeftTorso is broken
 
 # GRF-1DS/3M Griffin (55t)
-* XL engine 275
-* Double heatsinks (14) - 1 internal
+* XL engine 275 (1 internal) 5/8
+* Double heatsinks (11/14)
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 3[C] + 3[G] + 1.0[EDHS]
 
 # SHD-5M Shadow Hawk (55t)
-* XL engine 275 5/8
+* XL engine 275 (1 internal) 5/8
 * Endo Steel
 * Double heatsinks (10)
 * CASE (+0.5 armor on L/R torso)
-* InitialTonnage 17 = 3.0[IS] + 8[EXL] + 3[C] + 3[G]
+* InitialTonnage 17 = 3.0[ESIS] + 8[EXL] + 3[C] + 3[G]
 
 # WVR-6D/6M Wolverine (55t)
 * engine 275
 * single heatsinks (11/14) - 1 internal
+
+# WVR-7D Wolverine (55t)
+* XL engine 275 (1 internal) 5/8
+* single heatsinks (11/13)
+* FF armor (-1.5 initial tonnage, +1.5 armor) (179 -> 184)
+* MASC
+* CASE (+1.0 armor on L/R/C torso)
+* InitialTonnage 19 = 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[EDHS] - 1.5[FF]
+
+# WVR-7K Wolverine (55t)
+* XL engine 275 (1 internal) 5/8
+* Double heatsinks (11/13)
+* InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[EDHS]
+
+# WVR-7M Wolverine (55t)
+* XL engine 275 (1 internal) 5/8
+* Double heatsinks (11/12)
+* MASC
+* InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[EDHS]
 
 # DRG-5N Dragon (60t)
 * CASE (+1.0 armor on L/R/C torso)

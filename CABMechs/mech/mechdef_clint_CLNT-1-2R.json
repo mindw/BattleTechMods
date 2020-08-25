@@ -10,11 +10,22 @@
             "unit_lance_assassin",
             "unit_role_scout",
             "unit_release",
+            "unit_ready",
+            "Davion",
+            "Liao",
             "NotMarik",
             "NotSteiner",
             "NotKurita",
             "NotMagistracyOfCanopus",
-            "NotTaurianConcordat"
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

@@ -224,6 +224,11 @@
 * CASE (+0.5 armor on L/R torso)
 * 6.0[IS] + 16.5[XLE] + 7[C/G] + 3[DHS] = 32.5
 
+# LNC25-01 Lancelot (60t)
+* XL engine 360 (4 internal) 6/9
+* double heatsinks (13/13)
+* 6.0[IS] + 16.5[XLE] + 7[C/G] + 3[DHS] = 32.5
+
 # QKD-5K Quickdraw (60t)
 * engine 300 (2 internal) 5/8
 * double heatsinks (12/17)
@@ -350,7 +355,7 @@
 # AS7-K Atlas (100t)
 * XL engine 300 (2 internal) 3/5
 * Endo Steel
-* single heatsinks (12/20) - 2 internal
+* single heatsinks (12/20)
 * CASE (+1.0 armor on C/L/R torso)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[DHS] = 27.5
 
@@ -370,6 +375,11 @@
 * single heatsinks (12/29) - 2 internal
 * CASE (+0.5 armor on C/L/R torso)
 * 10[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 27.5
+
+# MAD-5B Marauder II (100t)
+* engine 300 (2 internal) 3/5
+* double heatsinks (12/16)
+* 10[IS] + 19.0[E] + 6[C/G] + 2[DHS] = 37.0
 
 TODO:
 * rarity revision

@@ -1,26 +1,26 @@
 {
     "Description": {
-        "Cost": 5600000,
+        "Cost": 15300000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Lancelot",
-        "Id": "chassisdef_lancelot_LNC25-02",
+        "Id": "chassisdef_lancelot_LNC25-01sl",
         "Name": "Lancelot",
-        "Details": "The Lancelot did not survive the loss of Star League technology well. With a new maximum speed of only 64.8 km/h the thin-skinned Lancelot makes for an easy target for other 'Mechs of its weight class, and the less efficient heat dissipation system makes it unable to unleash its full firepower safely and consistently.",
+        "Details": "A late refinement to an already formidable design the SLDF Lancelot replaces the Large lasers and PPC with a trio of Extende range large lasers. Ferro-Fibrous armor provides enough tonnage to mount additional heat sinks.",
         "Icon": "uixTxrIcon_lancelot"
     },
-    "MovementCapDefID": "movedef_lancelot_LNC25-02",
+    "MovementCapDefID": "movedef_lancelot_LNC25-01",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_lancelot",
     "PrefabIdentifier": "chrprfmech_lancelotbase-001",
     "PrefabBase": "lancelot",
     "Tonnage": 60,
-    "InitialTonnage": 23.5,
+    "InitialTonnage": 32.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 0,
-    "MaxJumpjets": 4,
+    "Heatsinks": 54,
+    "MaxJumpjets": 6,
     "Stability": 160,
     "StabilityDefenses": [
         0,
@@ -105,7 +105,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 140,
@@ -197,13 +197,13 @@
             "z": 0
         }
     ],
-    "VariantName": "LNC25-02",
+    "VariantName": "LNC25-01sl",
     "ChassisTags": {
         "items": [
 			"mr-resize-1.05-1.05-1.05"
-		],
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Direct-Fire Support",
-    "YangsThoughts": "The Lancelot is an awesome star league platform that has suffered from the loss of the double heat sinks and smaller engine. As the 'Mech comes stock it is thinly armored and can't make use of all it's weapons consistently because of low heat dissipation. On the bright side, it has no ammo dependency, but still has massive potential fire power."
+    "YangsThoughts": "A rare Star League Defense Forces variant of the Lancelot, the LNC25-01sl replaces the PPC and Large Lasers of the -01 with a trio of ER Large Lasers. It also adds ferro-fibrous armor for extra protection and uses the tonnage saved over the -01 for extra heat sinks. This model was extremely rare and only to be found in the Star League's Royal regiments, which either left with Kerensky or stayed behind to form ComStar's protective forces in the wake of the Amaris Civil War."
 }

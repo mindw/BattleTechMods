@@ -11,10 +11,20 @@
             "unit_release",
             "unit_ready",
             "NotDavion",
+            "Liao",
             "Marik",
+            "NotSteiner",
             "NotKurita",
-            "NotMagistracyOfCanopus",
-            "NotTaurianConcordat"
+            "MagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "MercenaryReviewBoard",
+            "NotAuriganPirates",
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

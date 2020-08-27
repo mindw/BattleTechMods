@@ -7,13 +7,13 @@
     "DataLoaderGetEntryCheck": true,
     "ShopTabLagFix": true,
     "ContractLagFix": true,
-    "EnableLoggingDuringLoads": true,
+    "EnableLoggingDuringLoads": false,
     "ExtraLogging": true,
     "ShaderDependencyOverride": true,
     "DisableDeployAudio": false,
-    "RemovedFlashpointFix": true,
+    "RemovedFlashpointFix": false,
     "DisableSimAnimations": false,
-    "RemovedContractsFix": true
+    "RemovedContractsFix": false
   },
   "WantContractsLagFixVerify": false
 }

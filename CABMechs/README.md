@@ -36,6 +36,13 @@
 * FF armor (.5 initial tonnage, +.5 armor) (53 -> 56)
 * 1.5[ESIS] + 5.5[E] + 5[C/G] - 0.5[FF] = 11.5
 
+# MON-66 Mongoose (25t)
+* engine 200 (2 external) 8/12
+* 10 heat sinks (8/10) TBD
+* Endo Steel
+* FF armor (.5 initial tonnage, +.5 armor) (89 -> 88)
+* 1.5[ESIS] + 8.5[E] + 5[C/G] - 0.5[FF] = 14.5
+
 # HER-1S Hermes (30t)
 * engine 270 9/14
 * 10 heat sinks

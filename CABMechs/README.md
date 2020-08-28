@@ -300,16 +300,16 @@
 * 3.5[ESIS] + 16[E] + 6[C/G] + 1[HS] = 26.5
 
 # MAD-5D Marauder (75t)
-* XL engine 300
-* Double heatsinks (16) - 2 internal
+* XL engine 300 (2 internal) 4.6
+* Double heatsinks (12/16)
 * CASE (+0.5 armor on L/R torso)
-* InitialTonnage 25 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 2[EDHS]
+* InitialTonnage 25 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 2[DHS]
 
 # ON1-M Orion  (75t)
 * XL engine 300 (2 internal) 4/6
 * Double heatsinks (11/11)
 * CASE (+1.0 armor on C/L/R torso)
-* InitialTonnage 24 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 1[EDHS]
+* 7.5[IS] + 9.5[E] + 6[C/G] + 1[DHS] = 24
 
 # AWS-9M Awesome (80t)
 * XL engine 320 (2 internal) 4/6
@@ -324,12 +324,19 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 8.0[IS] + 26.5[XLE] + 7[C/G] + 2[DHS] - 1.5[FF]= 42.0
 
+# THG-11E Thug (80t)
+* engine 320 (2 internal) 4/6
+* Double heatsinks (12/18)
+* Endo Steel
+* CASE (+1.0 armor on C/L/R torso)
+* 4[ENIS] + 22.5[E] + 7[C/G] + 2[DHS] = 35.5
+
 # VTR-9K/D Victor (80t)
 * engine 320 (2 internal) 4/6
 * single heatsinks (12/15) - 2 internal
 * Endo Steel
 * CASE (+1.0 armor on C/L/R torso)
-* 4[IS] + 22.5[XLE] + 7[C/G] + 2[DHS] = 35.5
+* 4[ENIS] + 22.5[E] + 7[C/G] + 2[HS] = 35.5
 
 # ZEU-6S Zues (80t)
 * engine 320 (2 internal) 4/6

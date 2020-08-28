@@ -292,7 +292,7 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 7[IS] + 8[XLE] + 6[C/G] + 1[DHS]= 22
 
-# GLT-5M Guillotine (70t)
+# GLT-3N/5M Guillotine (70t)
 * engine 280 (1 internal) 4/6
 * single heatsinks (11/25)
 * Endo Steel

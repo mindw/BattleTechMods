@@ -12,7 +12,7 @@
             "unit_role_brawler",
             "unit_release",
             "unit_ready".
-            "NotDavion",
+            "Davion",
             "Liao",
             "Marik",
             "NotSteiner",
@@ -33,7 +33,7 @@
     "ChassisID": "chassisdef_guillotine_GLT-5M",
     "HeraldryID": null,
     "Description": {
-        "Cost": 8760000,
+        "Cost": 12800000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -44,7 +44,7 @@
         "Details": "The 5M model is a redesign performed during the technological renaissance that started in the late 3040s. Introduced in 3049 the 5M is a 'Mech that is nearly identical to the original 3N. With the sole exception of the primary weapon being upgraded to an ER Large Laser model for extended reach, the 5M has an almost identical weaponry configuration, speed profile, and armor coverage as the 3N.",
         "Icon": "uixTxrIcon_guillotine"
     },
-    "simGameMechPartCost": 880000,
+    "simGameMechPartCost": 1280000,
     "Version": 1,
     "Locations": [
         {

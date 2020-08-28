@@ -8,8 +8,8 @@
             "unit_range_medium",
             "unit_speed_high",
             "unit_armor_high",
-"unit_lance_assassin",
-"unit_role_scout",
+            "unit_lance_assassin",
+            "unit_role_scout",
             "unit_release",
             "unit_ready",
             "Davion",
@@ -27,7 +27,7 @@
             "MercenaryReviewBoard",
             "NotAuriganPirates",
             "AuriganMercenaries"
-            ],
+        ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_phoenixhawk_PXH-3M",

@@ -12,8 +12,10 @@
             "unit_role_sniper",
             "unit_release",
             "unit_ready",
+            "NotDavion",
             "NotLiao",
             "NotMarik",
+            "NotSteiner",
             "Kurita",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
@@ -22,9 +24,9 @@
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
             "NotComStar",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

@@ -18,15 +18,15 @@
             "Steiner",
             "NotKurita",
             "NotMagistracyOfCanopus",
-            "NotTaurianConcordat",
+            "TaurianConcordat",
             "NotNoFaction",
             "NotLocals",
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
             "NotComStar",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

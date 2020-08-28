@@ -12,11 +12,11 @@
             "unit_jumpOK",
             "unit_release",
             "unit_ready",
-            "NotDavion",
+            "Davion",
             "Liao",
             "Marik",
-            "NotSteiner",
-            "NotKurita",
+            "Steiner",
+            "Kurita",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotNoFaction",
@@ -24,9 +24,9 @@
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
             "NotComStar",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

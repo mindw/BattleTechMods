@@ -25,10 +25,10 @@
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
             "NotComStar",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
-            ],
+            "AuriganMercenaries"
+        ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_valkyrie_VLK-QD",

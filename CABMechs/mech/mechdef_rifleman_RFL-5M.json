@@ -9,7 +9,22 @@
             "unit_lance_tank",
             "unit_role_brawler",
             "unit_release",
-            "unit_ready"
+            "unit_ready",
+            "Davion",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "Kurita",
+            "MagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "ComStar",
+            "MercenaryReviewBoard",
+            "NotAuriganPirates",
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

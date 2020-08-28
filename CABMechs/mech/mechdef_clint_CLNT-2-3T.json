@@ -4,6 +4,7 @@
         "items": [
             "unit_mech",
             "unit_medium",
+            "unit_common",
             "unit_jumpOK",
             "unit_range_medium",
             "unit_speed_high",

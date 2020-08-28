@@ -11,7 +11,22 @@
             "unit_role_brawler",
             "unit_range_medium",
             "unit_speed_high",
-            "unit_armor_high"
+            "unit_armor_high",
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "MercenaryReviewBoard",
+            "NotAuriganPirates",
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

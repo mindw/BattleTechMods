@@ -14,15 +14,15 @@
             "unit_range_long",
             "unit_hot",
             "unit_armor_low",
-            "NotMagistracyOfCanopus",
-            "NotTaurianConcordat",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
             "NotNoFaction",
             "NotLocals",
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

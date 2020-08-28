@@ -10,7 +10,7 @@
             "unit_lance_support",
             "unit_role_sniper",
             "unit_release",
-            "unit_ready"
+            "unit_ready",
             "Davion",
             "NotLiao",
             "NotMarik",
@@ -23,10 +23,10 @@
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
             "NotComStar",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
-            ],
+            "AuriganMercenaries"
+        ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_dervish_DV-7D",

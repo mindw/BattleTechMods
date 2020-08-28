@@ -13,7 +13,7 @@
             "unit_lance_assassin",
             "unit_role_scout",
             "unit_hot",
-            "NotDavion",
+            "Davion",
             "Liao",
             "NotMarik",
             "NotSteiner",
@@ -24,10 +24,10 @@
             "NotLocals",
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
+            "ComStar",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

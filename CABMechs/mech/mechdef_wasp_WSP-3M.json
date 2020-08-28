@@ -14,17 +14,17 @@
             "Liao",
             "Marik",
             "NotSteiner",
-            "NotKurita",
-            "NotMagistracyOfCanopus",
+            "Kurita",
+            "MagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotNoFaction",
             "NotLocals",
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
             "NotComStar",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

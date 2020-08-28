@@ -9,22 +9,7 @@
             "unit_role_scout",
             "unit_release",
             "unit_ready",
-            "unit_common".
-            "Davion",
-            "Liao",
-            "Marik",
-            "Steiner",
-            "Kurita",
-            "MagistracyOfCanopus",
-            "TaurianConcordat",
-            "NoFaction",
-            "Locals",
-            "AuriganDirectorate",
-            "AuriganRestoration",
-            "ComStar",
-            "MercenaryReviewBoard",
-            "AuriganPirates",
-            "AuriganMercenaries"
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },

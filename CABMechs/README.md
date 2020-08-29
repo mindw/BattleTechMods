@@ -299,6 +299,11 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 7[IS] + 8[XLE] + 6[C/G] + 1[DHS]= 22
 
+# FLS-8K Flashman (75t)
+* XL engine 375 (5 internal HS) 5/8
+* double heatsinks (15/15)
+* 7.5[IS] + 19.5[XLE] + 7[C/G] + 5[DHS] = 39
+
 # GLT-3N/5M Guillotine (70t)
 * engine 280 (1 internal) 4/6
 * single heatsinks (11/25)

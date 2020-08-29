@@ -12,7 +12,7 @@
     "OptionallyDependsOn": [ "Monthly Tech Adjustment" , "PanicSystem" , "Pilot Fatigue" ],
     
     "Settings": {
-        "Debug": true,
+        "Debug": false,
         
         "ArgoUpgradesAddQuirks" : true,
         "ArgoUpgradeAddQuirksChance": 100,

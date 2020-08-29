@@ -9,7 +9,7 @@
     "OptionallyDependsOn": [
         "BattletechPerformanceFix",
         "BT_Extended_Overrides" 
-    ],
+    ], 
     "Settings": 
     {
         "StartingPirateActivity" : 40.0,
@@ -294,6 +294,6 @@
             },
         
         "LongWarTesting" : false,
-        "Debug" : true
+        "Debug" : false
     }
 }

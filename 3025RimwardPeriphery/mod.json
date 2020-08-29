@@ -7,7 +7,24 @@
 	"Website": "https://www.nexusmods.com/battletech/mods/580",
 	"Contact": "Hobbes",
 	
-	"Manifest": [			
+    "Manifest": [			
+		{
+            "Type": "Sprite",
+            "Path": "Logos"
+        },
+        {
+            "Type": "FactionDef",
+            "Path": "Factions",
+			"ShouldMergeJSON":false
+        },
+        {
+            "Type": "HeraldryDef",
+            "Path": "Heraldry"
+        },
+        {
+            "Type": "CastDef",
+            "Path": "Cast"
+        },
 		{ "Type": "StarSystemDef", "Path": "starsystem/capellanmarches", "AddToDB": true },
 		{ "Type": "StarSystemDef", "Path": "starsystem/davion", "AddToDB": true },
 		{ "Type": "StarSystemDef", "Path": "starsystem/davion_abandoned", "AddToDB": true },

@@ -12,13 +12,16 @@
   "ChassisID": "vehiclechassisdef_CARRIER_HEAVYLRM",
   "VehicleTags": {
     "items": [
+      "mr-resize-1.73",
       "unit_vehicle",
       "unit_vehicle_carrier",
       "unit_assault",
       "unit_tracks",
+      "unit_indirectFire",
       "unit_range_long",
       "unit_speed_low",
       "unit_armor_low",
+      "unit_lance_support",
       "unit_release",
       "MagistracyOfCanopus",
       "TaurianConcordat",

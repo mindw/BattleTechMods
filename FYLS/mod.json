@@ -1,21 +1,26 @@
 {
-  "Name": "FYLS",
-  "Enabled": true,
-
-  "Version": "1.4.1",
-
-  "Author": "janxious",
-  "Website": "https://github.com/janxious/BT-FYLS",
-
-  "DLL": "FYLS.dll",
-  "DLLEntryPoint": "FYLS.Core.Init",
-  "DependsOn": [],
-  "ConflictsWith": [],
-
-  "Settings": {
-    "PrefixesToIgnore": [
-      "FYLS [LOG] SystemInfo."
-    ],
-    "preserveFullLog": true
-  }
+    "Name": "FYLS",
+    "Enabled": true,
+    "Version": "1.4.1",
+    "Author": "janxious",
+    "Website": "https://github.com/janxious/BT-FYLS",
+    "DLL": "FYLS.dll",
+    "DLLEntryPoint": "FYLS.Core.Init",
+    "DependsOn": [],
+    "ConflictsWith": [],
+    "Settings": {
+        "PrefixesToIgnore": [
+            "FYLS [DEBUG] OnApplicationFocus",
+            "FYLS [DEBUG] Waking up Audio Engine",
+            "FYLS [DEBUG] Suspending Audio Engine.",
+            "FYLS [DEBUG] Seed",
+            "FYLS [DEBUG] [BattleTechParadoxAPI]",
+            "FYLS [DEBUG] Connection pool",
+            "FYLS [LOG] Set Logger",
+            "FYLS [LOG] SystemInfo",
+            "FYLS [LOG] Trying to load AssetBundle",
+            "FYLS [WARNING] Request next called but reporting is disabled"
+        ],
+        "preserveFullLog": true
+    }
 }

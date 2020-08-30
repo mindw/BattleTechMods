@@ -282,14 +282,15 @@
 * 6.5[IS] + 13.5[E] + 6[C/G] - 1.5[FF] = 24.5
 
 # ARC-4M Archer (70t)
-* engine 280 (1 internal HS)
+* engine 280 (1 internal)
+* Double heatsinks (10/10)
 * Endo Steel
-* ArtemisIV (replace with Missile TTS+)
 * CASE (+1.0 armor on L/R/C torso)
 * 3.5[ESIS] + 16[E] + 6[C/G] = 25.5
 
-# ARC-4S Archer (70t)
-* XL engine 280 (1 internal HS)
+# ARC-5S Archer (70t)
+* XL engine 280 (1 internal) 4/6
+* Double heatsinks (10/10)
 * CASE (+1.0 armor on L/R/C torso)
 * 7[IS] + 8[XLE] + 6[C/G] = 21
 
@@ -299,10 +300,10 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 7[IS] + 8[XLE] + 6[C/G] + 1[DHS]= 22
 
-# FLS-8K Flashman (75t)
-* XL engine 375 (5 internal HS) 5/8
-* double heatsinks (15/15)
-* 7.5[IS] + 19.5[XLE] + 7[C/G] + 5[DHS] = 39
+# GHR-5J Grasshopper (70t)
+* engine 280 (1 internal HS)
+* single heatsinks (11/22)
+* 7[IS] + 16[E] + 6[C/G] + 1[HS] = 30.0
 
 # GLT-3N/5M Guillotine (70t)
 * engine 280 (1 internal) 4/6
@@ -310,6 +311,11 @@
 * Endo Steel
 * CASE (+0.5 armor on C/L/R torso)
 * 3.5[ESIS] + 16[E] + 6[C/G] + 1[HS] = 26.5
+
+# FLS-8K Flashman (75t)
+* XL engine 375 (5 internal HS) 5/8
+* double heatsinks (15/15)
+* 7.5[IS] + 19.5[XLE] + 7[C/G] + 5[DHS] = 39
 
 # MAD-5D Marauder (75t)
 * XL engine 300 (2 internal) 4.6

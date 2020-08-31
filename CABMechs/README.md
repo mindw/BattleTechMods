@@ -242,6 +242,16 @@
 * FF armor (-1.0 initial tonnage, +1.0 armor) (143->144)
 * 6.0[IS] + 19[E] + 6[C/G] + 2[DHS] - 1.0[FF] = 32
 
+# OSR-2D Ostroc (60t)
+* engine 300 (2 internal) 5/8
+* double heatsinks (12/15)
+* 6.0[IS] + 19[E] + 6[C/G] + 2[DHS] = 33
+
+# OTL-5M Ostsol (60t)
+* XL engine 300 (2 internal) 5/8
+* double heatsinks (12/16)
+* 6.0[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 23.5
+
 # RFL-5M Rifleman (60t)
 * XL engine 240 (1 external) 4/6
 * double heatsinks (9(10)/12) FIXME

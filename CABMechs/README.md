@@ -379,6 +379,11 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 8.5[IS] + 27.0[E] + 7[C/G] + 3[DHS] = 45.5
 
+# CRK-5003-1 Crockett (85t)
+* engine 255 3/5
+* double heatsinks (10/15)
+* 8.5[IS] + 13.0[E] + 6[C/G]= 27.5
+
 # CP-11-A Cyclops (90t)
 * engine 360 (4 internal)
 * single heatsinks (12/12)

@@ -40,7 +40,7 @@
         "Details" : "SRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "+ 2 Dmg., -2 Acc ",
+    "BonusValueA" : "+ 2 Dmg., - 2 Acc.",
     "BonusValueB" : "+ 1 Stb.Dmg.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

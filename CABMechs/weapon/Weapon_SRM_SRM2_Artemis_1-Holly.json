@@ -26,22 +26,22 @@
     "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
-    "Instability" : 4,
+    "Instability" : 3,
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM2",
     "Description" : {
         "Cost" : 130000,
-        "Rarity" : 3,
+        "Rarity" : 2,
         "Purchasable" : true,
-        "Manufacturer" : "Valiant",
+        "Manufacturer" : "Holly",
         "Model" : "Short-Range Missile Launcher",
-        "UIName" : "SRM2 (A-IV) + +",
-        "Id" : "Weapon_SRM_SRM2_Artemis_2-Valiant",
-        "Name" : "SRM2 (A-IV FCS) + +",
+        "UIName" : "SRM2 (A-IV) +",
+        "Id" : "Weapon_SRM_SRM2_Artemis_1-Holly",
+        "Name" : "SRM2 (A-IV FCS) +",
         "Details" : "A tiny rack of Short-Range Missiles, SRM2s deal little damage but also cost almost nothing in the way of weight, space, heat, or ammunition consumption. As for all SRMs, SRM2 shots deal above-average stability impact per hit compared to other weapons.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "+ 2 Dmg., - 2 Acc.",
-    "BonusValueB" : "+ 1 Stb.Dmg.",
+    "BonusValueA" : "+ 2 Dmg.",
+    "BonusValueB" : "- 2 Acc.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "srm2",
@@ -57,7 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_variant",
-            "component_type_variant2",
+            "component_type_variant1",
             "range_standard"
         ],
         "tagSetSourceFile" : ""

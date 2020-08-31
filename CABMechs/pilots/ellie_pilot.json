@@ -8,7 +8,7 @@
         "Gender": "Female",
         "factionID": "Davion",
         "Age": "29",
-        "Details": "Nicknamed Titch for being short, her slender physique and shortness of height made being strapped into a Battlemech a cinch for her.\n\n<u>MRBC NOTE:</u>\n\n<i>Battlemech Training Unknown</I>",
+        "Details": "Nicknamed Titch for being short, her slender physique and shortness of height made being strapped into a Battlemech a cinch for her.",
         "Icon": "ellie"
     },
     "BaseGunnery": "1",
@@ -35,7 +35,7 @@
             "pilot_military",
             "pilot_mechwarrior",
             "pilot_athletic",
-            "pilot_lucky"		
+            "pilot_lucky"
         ],
         "tagSetSourceFile": ""
     },

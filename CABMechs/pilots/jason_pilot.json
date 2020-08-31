@@ -8,7 +8,7 @@
         "Gender": "Male",
         "factionID": "Davion",
         "Age": "24",
-        "Details": "Jason Youngblood\n\nCLASSIFIED",
+        "Details": "The son of Jeremiah Youngblood",
         "Icon": "jason"
     },
     "BaseGunnery": "1",
@@ -33,9 +33,11 @@
         "items": [
             "BLACKLISTED",
             "pilot_military",
+            "name_Youngblood",
             "pilot_mechwarrior",
+            "pilot_steiner",
             "pilot_athletic",
-            "pilot_lucky"		
+            "pilot_lucky"
         ],
         "tagSetSourceFile": ""
     },

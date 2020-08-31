@@ -8,7 +8,7 @@
         "Gender": "Male",
         "factionID": "Davion",
         "Age": "134",
-        "Details": "Bishop\n\nCLASSIFIED",
+        "Details": "Lance never speaks of his past and family. Calm and collected some joke he made of plastic.",
         "Icon": "bishop"
     },
     "BaseGunnery": "1",
@@ -35,7 +35,7 @@
             "pilot_military",
             "pilot_mechwarrior",
             "pilot_athletic",
-            "pilot_lucky"	
+            "pilot_lucky"
         ],
         "tagSetSourceFile": ""
     },

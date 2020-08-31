@@ -8,7 +8,7 @@
         "Gender": "Female",
         "factionID": "Davion",
         "Age": "28",
-        "Details": "Formally of the Deneb Light Cavalry, she was court martialled and discharged for ignoring company commanders orders and charging at a line of capellan mechs.\n\n<u>MRBC NOTE:</u>\n<i>Specific Details of the incident are Classified</I>.",
+        "Details": "Formally of the Deneb Light Cavalry, she was court martialled and discharged for ignoring company commanders orders and charging at a line of capellan mechs. MRBC NOTE: Specific Details of the incident are Classified.",
         "Icon": "ilyssa"
     },
     "BaseGunnery": "1",
@@ -35,7 +35,7 @@
             "pilot_military",
             "pilot_mechwarrior",
             "pilot_athletic",
-            "pilot_lucky"		
+            "pilot_lucky"
         ],
         "tagSetSourceFile": ""
     },

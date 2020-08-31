@@ -8,7 +8,7 @@
         "Gender": "Female",
         "factionID": "Davion",
         "Age": "29",
-        "Details": "Early records indictate Lia was a Geisha during her time in Mechwarrior training, possibly to pay for it. She earned the nickname Geisha after being spotted by a fellow trainee and has never lived it down since.\n\n<u>MRBC NOTE:</u>\nUnknown as to wether she was a proper Geisha or something more seedy.",
+        "Details": "Early records indictate Lia was a Geisha during her time in Mechwarrior training, possibly to pay for it. She earned the nickname Geisha after being spotted by a fellow trainee and has never lived it down since. MRBC NOTE: Unknown as to wether she was a proper geisha or something more seedy.",
         "Icon": "lia"
     },
     "BaseGunnery": "1",
@@ -35,7 +35,7 @@
             "pilot_military",
             "pilot_mechwarrior",
             "pilot_athletic",
-            "pilot_lucky"		
+            "pilot_lucky"
         ],
         "tagSetSourceFile": ""
     },

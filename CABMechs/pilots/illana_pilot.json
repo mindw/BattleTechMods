@@ -8,7 +8,7 @@
         "Gender": "Female",
         "factionID": "Marik",
         "Age": "36",
-        "Details": "She earned the name Mustang from a habit of getting drunk on garrison duty and stealing the nearest vehicle and crashing them at high speed.\n\nShe was sent to the monastery on Zaniah and reappeared 6 years later a very skilled Mechwarrior.",
+        "Details": "She earned the name Mustang from a habit of getting drunk on garrison duty and stealing the nearest vehicle and crashing them at high speed. She was sent to the monastery on Zaniah and reappeared 6 years later a very skilled Mechwarrior.",
         "Icon": "illana"
     },
     "BaseGunnery": "1",
@@ -35,7 +35,7 @@
             "pilot_military",
             "pilot_mechwarrior",
             "pilot_athletic",
-            "pilot_lucky"		
+            "pilot_lucky"
         ],
         "tagSetSourceFile": ""
     },

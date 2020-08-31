@@ -8,7 +8,7 @@
         "Gender": "Male",
         "factionID": "Davion",
         "Age": "28",
-        "Details": "Harry the Hatchet, always carrying a hatchet with him at all times.\n\n<u>MRBC NOTE:</u>\nFavourite mech is the Hatchetman.",
+        "Details": "Harry the Hatchet, always carrying a hatchet with him at all times. Favourite mech is the Hatchetman.",
         "Icon": "harry"
     },
     "BaseGunnery": "1",
@@ -35,7 +35,7 @@
             "pilot_military",
             "pilot_mechwarrior",
             "pilot_athletic",
-            "pilot_lucky"		
+            "pilot_lucky"
         ],
         "tagSetSourceFile": ""
     },

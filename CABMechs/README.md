@@ -271,6 +271,11 @@
 * double heatsinks (12/16)
 * 6.0[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 23.5
 
+# RFL-5D Rifleman (60t)
+* XL engine 240 (1 external) 4/6
+* double heatsinks (9(10)/17) FIXME
+* 6.0[IS] + 6.0[E] + 6[C/G] = 18
+
 # RFL-5M Rifleman (60t)
 * XL engine 240 (1 external) 4/6
 * double heatsinks (9(10)/12) FIXME

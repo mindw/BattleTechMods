@@ -8,7 +8,7 @@
     "ShopTabLagFix": true,
     "ContractLagFix": true,
     "EnableLoggingDuringLoads": false,
-    "ExtraLogging": true,
+    "ExtraLogging": false,
     "ShaderDependencyOverride": true,
     "DisableDeployAudio": false,
     "RemovedFlashpointFix": false,

@@ -14,6 +14,13 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
 
+# MCY-97/99 Mercury
+* engine 160 (4 external) 8/12
+* 10 heat sinks (6/10) TBD
+* MASC
+* FF armor (.5 initial tonnage, +.5 armor) (53 -> 56) (3M)
+* 2[IS] + 6[E] + 5[C/G] - 0.5[FF] = 12.5
+
 # STG-5M Stinger (20t)
 * engine 120 (6 external) 6/9
 * 10 heat sinks (4/10) TBD

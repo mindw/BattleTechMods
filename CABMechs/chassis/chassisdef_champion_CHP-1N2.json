@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 5700000,
+        "Cost": 6280000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Champion",
-        "Id": "chassisdef_champion_CHP-2N",
+        "Id": "chassisdef_champion_CHP-1N2",
         "Name": "Champion",
-        "Details": "The Champion debuted in 2602 as a generalist combat 'Mech with a focus on heavy reconnaissance and fast strike capabilities. While definitely faster and more maneuverable than other heavy 'Mechs, it was criticized by many for being too large, underarmed and underarmored. The armament on the Champion is considered by many to be feeble for its size, especially after losing its advanced technology from the Star League. Carrying an AC/10, a SRM 6, and a pair each of Medium and Small Lasers, the Champion is woefully underarmed for its size.",
+        "Details": "This unofficial but common field refit was first seen in 2667. Given the poor heat management of the Champion, many pilots made the difficult modification of swapping out the traditional heat sinks for double-strength ones. Bergen never authorized this variant as an official factory refit, likely on account it would mean admitting something was wrong with the original design.",
         "Icon": "uixTxrIcon_champion"
     },
     "MovementCapDefID": "movedef_champion_CHP-2N",
@@ -19,7 +19,7 @@
     "Tonnage": 60,
     "InitialTonnage": 31,
     "weightClass": "HEAVY",
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "MaxJumpjets": 5,
     "Stability": 160,
     "StabilityDefenses": [
@@ -202,11 +202,12 @@
             "z": 0
         }
     ],
-    "VariantName": "CHP-2N",
+    "VariantName": "CHP-1N2",
     "ChassisTags": {
-        "items": [],
+        "items": [
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The Champion debuted in 2602 as a generalist combat 'Mech with a focus on heavy reconnaissance and fast strike capabilities. While definitely faster and more maneuverable than other heavy 'Mechs, it was criticized by many for being too large, underarmed and underarmored. The armament on the Champion is considered by many to be feeble for its size, especially after losing its advanced technology from the Star League. Carrying an AC/10, a SRM 6, and a pair each of Medium and Small Lasers, the Champion is woefully underarmed for its size."
+    "YangsThoughts": "The Champion 1N2 was more like the 2N than the 1N variant. The only significant difference is the double heat sink engine."
 }

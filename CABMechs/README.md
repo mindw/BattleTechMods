@@ -229,6 +229,18 @@
 * MASC
 * InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[EDHS]
 
+# CHP-1N Champion (60t)
+* engine 300 (2 internal) 5/8
+* single heatsinks (10/10)
+* FF armor (-1.0 initial tonnage, +1.0 armor) (143->144)
+* 6.0[IS] + 19[E] + 6[C/G] - 1.0[FF] = 30
+
+# CHP-3N Champion (60t)
+* XL engine 300 (2 internal) 5/8
+* Double heatsinks (10/10)
+* FF armor (-1.0 initial tonnage, +1.0 armor) (134->136)
+* 6.0[IS] + 9.5[XLE] + 6[C/G] - 1.0[FF] = 20.5
+
 # DRG-5N Dragon (60t)
 * CASE (+1.0 armor on L/R/C torso)
 

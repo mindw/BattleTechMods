@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
     "PrefabBase": "thunderbolt",
     "Tonnage": 65,
-    "InitialTonnage": 24.5,
+    "InitialTonnage": 26.0,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
     "MaxJumpjets": 4,
@@ -208,6 +208,7 @@
     "VariantName": "TDR-7M",
     "ChassisTags": {
         "items": [
+            "chassis_ferro",
             "mech_case_left",
             "mech_case_right"
         ],

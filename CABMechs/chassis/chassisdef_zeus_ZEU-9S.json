@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_zeusBase-001",
     "PrefabBase": "zeus",
     "Tonnage": 80,
-    "InitialTonnage": 38,
+    "InitialTonnage": 39.5,
     "weightClass": "ASSAULT",
     "Heatsinks": 42,
     "TopSpeed": 120,
@@ -200,6 +200,7 @@
     "VariantName": "ZEU-9S",
     "ChassisTags": {
         "items": [
+            "chassis_ferro",
             "mech_case_right"
         ],
         "tagSetSourceFile": ""

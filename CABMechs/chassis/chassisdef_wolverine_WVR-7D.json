@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_wolverineBase-001",
     "PrefabBase": "wolverine",
     "Tonnage": 55,
-    "InitialTonnage": 19.0,
+    "InitialTonnage": 20.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 3,
     "MaxJumpjets": 5,
@@ -195,6 +195,7 @@
     "VariantName": "WVR-7D",
     "ChassisTags": {
         "items": [
+            "chassis_ferro",
             "mech_case_left",
             "mech_case_right"
         ],

@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 3300000,
-        "Rarity": 2,
+        "Cost": 11500000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Vulcan",
-        "Id": "chassisdef_vulcan_VL-5S",
-        "Name": "Vulcan",
-        "Details": "The 5S Vulcan is a 3050 upgrade of the 2T version used by House Steiner which replaces the standard fusion engine with an extralight engine and also upgrades the armor to Ferro-Fibrous with CASE to protect itself from ammunition explosions. The inclusion of MASC enables the 5S to move up to 129 km/h in short bursts. Additionally, the Autocannon/2 has been replaced with an Ultra Autocannon/5.",
-        "Icon": "uixTxrIcon_vulcan"
+        "UIName": "King Crab",
+        "Id": "chassisdef_kingcrab_KGC-000",
+        "Name": "King Crab",
+        "Details": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.",
+        "Icon": "uixTxrIcon_kingcrab"
     },
-    "MovementCapDefID": "movedef_vulcan_VL-2T",
-    "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_vulcan",
-    "PrefabIdentifier": "chrPrfMech_vulcanBase-001",
-    "PrefabBase": "vulcan",
-    "Tonnage": 40,
-    "InitialTonnage": 16.0,
-    "weightClass": "MEDIUM",
-    "Heatsinks": 0,
-    "MaxJumpjets": 6,
-    "Stability": 130,
+    "MovementCapDefID": "movedef_kingcrab_KGC-0000",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_kingcrab",
+    "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
+    "PrefabBase": "kingcrab",
+    "Tonnage": 100,
+    "InitialTonnage": 37,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 6,
+    "MaxJumpjets": 3,
+    "Stability": 200,
     "StabilityDefenses": [
         0,
         0,
@@ -34,15 +34,15 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 5,
+    "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 50,
-    "MeleeInstability": 40,
+    "MeleeDamage": 125,
+    "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
-    "DFADamage": 50,
+    "DFADamage": 125,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 50,
-    "DFAInstability": 50,
+    "DFASelfDamage": 125,
+    "DFAInstability": 125,
     "Locations": [
         {
             "Location": "Head",
@@ -57,21 +57,11 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 60,
-            "MaxRearArmor": -1,
-            "InternalStructure": 30
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [
+                },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
@@ -80,22 +70,74 @@
                 }
             ],
             "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 100,
-            "MaxRearArmor": 50,
-            "InternalStructure": 50
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 120,
-            "MaxRearArmor": 60,
-            "InternalStructure": 60
+            "MaxArmor": 310,
+            "MaxRearArmor": 155,
+            "InternalStructure": 155
         },
         {
             "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightArm",
             "Hardpoints": [
                 {
                     "WeaponMount": "Ballistic",
@@ -104,17 +146,7 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 100,
-            "MaxRearArmor": 50,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -122,87 +154,88 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 60,
+            "MaxArmor": 170,
             "MaxRearArmor": -1,
-            "InternalStructure": 30
+            "InternalStructure": 85
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 100,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 105
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 100,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 105
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 13.5,
+            "y": 14.5,
             "z": 0
         },
         {
-            "x": 3.5,
-            "y": 13.5,
-            "z": 0
+            "x": 4,
+            "y": 15,
+            "z": -1
         },
         {
-            "x": -3.5,
-            "y": 13.5,
-            "z": 0
+            "x": -4,
+            "y": 15,
+            "z": -1
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 13.5,
+            "y": 14.5,
             "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
         },
         {
             "x": 3.5,
-            "y": 13.5,
-            "z": 0
+            "y": 5.5,
+            "z": -1
         },
         {
             "x": -3.5,
-            "y": 13.5,
-            "z": 0
-        },
-        {
-            "x": 2,
             "y": 5.5,
-            "z": 1
-        },
-        {
-            "x": -2,
-            "y": 5.5,
-            "z": 1
+            "z": -1
         }
     ],
-    "VariantName": "VL-5S",
+    "VariantName": "KGC-000",
     "ChassisTags": {
         "items": [
             "chassis_ferro",
+            "mech_case_left",
             "mech_case_right"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Striker",
-    "YangsThoughts": "The 'Scarecrow' has seen an upgrade to Ferro-Fibrous armor. The 5S model switches the AC2 to an Ultra AC5 which is a big step up in it's capability to take down other mechs. The MASC system also allows the Vulcan some real speed when it needs it.",
+    "StockRole": "Juggernaut & Close Assault",
+    "YangsThoughts": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -214,30 +247,6 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_XL_Engine",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
             "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
@@ -262,31 +271,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_MASC_2",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Close_Quarters_Combat_Suite",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

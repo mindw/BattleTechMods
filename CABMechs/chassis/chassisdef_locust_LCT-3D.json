@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_locustBase-001",
     "PrefabBase": "locust",
     "Tonnage": 20,
-    "InitialTonnage": 11.5,
+    "InitialTonnage": 12.0,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 8,
@@ -199,6 +199,8 @@
     "VariantName": "LCT-3D",
     "ChassisTags": {
         "items": [
+			"chassis_ferro",
+			"mech_case_centre"
 		],
         "tagSetSourceFile": ""
     },

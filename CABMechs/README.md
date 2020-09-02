@@ -9,17 +9,16 @@
 * engine 160 (4 external) 8/12
 * 10 heat sinks (6/10) TBD
 * Endo Steel
-* FF armor (.5 initial tonnage, +.5 armor) (44 -> 48)
-* FF armor (.5 initial tonnage, +.5 armor) (53 -> 56) (3M)
+* FF armor
 * CASE (+0.5 armor on C/L/R torso)
-* 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
+* 1[ESIS] + 6[E] + 5[C/G] = 12.0
 
 # MCY-97/99 Mercury (20t)
 * engine 160 (4 external) 8/12
 * 10 heat sinks (6/10) TBD
 * MASC
-* FF armor (.5 initial tonnage, +.5 armor) (53 -> 56) (3M)
-* 2[IS] + 6[E] + 5[C/G] - 0.5[FF] = 12.5
+* FF armor
+* 2[IS] + 6[E] + 5[C/G] = 13.0
 
 # STG-5M Stinger (20t)
 * engine 120 (6 external) 6/9
@@ -27,13 +26,13 @@
 * Endo Steel
 * 1[ESIS] + 4[E] + 5[C/G] = 10.0
 
-# WSP-3M Wasp (20t)
+# WSP-1S/3M Wasp (20t)
 * engine 120 (6 external) 6/9
 * 10 heat sinks (4/10) TBD
 * Endo Steel
-* FF armor (.5 initial tonnage, +.5 armor) (44 -> 48)
-* CASE (+0.5 armor on C/L/R torso)
-* 1[ESIS] + 4[E] + 5[C/G] - 0.5[FF] = 9.5
+* FF armor
+* 3M: CASE (+0.5 armor on C/L/R torso)
+* 1[ESIS] + 4[E] + 5[C/G] = 10.0
 
 # COM-5S Commando (25t)
 * engine 150 (4 external) 6/9
@@ -47,8 +46,8 @@
 * engine 200 (2 external) 8/12
 * 10 heat sinks (8/10) TBD
 * Endo Steel
-* FF armor (.5 initial tonnage, +.5 armor) (89 -> 88)
-* 1.5[ESIS] + 8.5[E] + 5[C/G] - 0.5[FF] = 14.5
+* FF armor
+* 1.5[ESIS] + 8.5[E] + 5[C/G] = 15.0
 
 # HER-1S Hermes (30t)
 * engine 270 9/14
@@ -81,9 +80,9 @@
 * engine 150 (4 external) 5/8
 * 10 heat sinks (6/10) TBD
 * Endo Steel
-* FF armor (-.5 initial tonnage, +.5 armor) (105 -> 104)
+* FF armor
 * CASE (+0.5 armor on C/L/R torso)
-* 1.5[ESIS] + 5.5[E] + 5[C/G] - 0.5[FF] = 11.5
+* 1.5[ESIS] + 5.5[E] + 5[C/G] = 12.0
 
 # FS9-S/S1 Firestarter (35t)
 * engine 210 (2 external) 6/9
@@ -100,16 +99,15 @@
 # RVN-3L Raven (35t)
 * XL engine 210 (2 external) 6/9
 * single heatsinks (8/11) FIXME
-* FF armor (.5 initial tonnage, +.5 armor) (80 * 5)
+* FF armor
 * CASE (+0.5 armor on L/R torso)
-* 3.5[IS] + 4.5[XLE] + 6[C/G] - .5[FF] = 13.5
+* 3.5[IS] + 4.5[XLE] + 6[C/G] - .5[FF] = 14.0
 
 # SDR-9K/9KA Venom (35t)
 * XL engine 280 (1 internal)
 * single heatsinks (11/12)
-* FF armor (.5 initial tonnage, +.5 armor) (62 -> 64) 9K
-* FF armor (1.0 initial tonnage, +1.0 armor) (98 -> 104) 9KA
-* 3.5[IS] + 8[XLE] + 6[C/G] + 1[HS] - .5[FF]/1[FF] = 18.0/17.5
+* FF armor
+* 3.5[IS] + 8[XLE] + 6[C/G] + 1[HS] = 18.5
 
 # CDA-3M Cicada (40t)
 * XL engine 320 (2 internal) 8/12
@@ -132,7 +130,7 @@
 * single heatsinks (9/10) TBD
 * FF armor (-1.0 initial tonnage, +1.0 armor) (89->96)
 * CASE (+0.5 armor on C/L/R torso)
-* 4[ESIS] + 6.0[E] + 6[C/G] - 1.0[FF] = 15.0
+* 4[ESIS] + 6.0[E] + 6[C/G] = 16.0
 
 # HCT-3S Hatchetman (45t)
 * XL engine 180 (4/6)
@@ -148,8 +146,8 @@
 # PXH-3K Phoenix Hawk (45t)
 * XL engine 270 6/9(12)
 * Double heatsinks (10/12)
-* FF armor (-1.0 initial tonnage, +1.0 armor) (143->144)
-* 4.5[IS] + 7.5[XLE] + 6[C/G] - 1[FF] = 17.0
+* FF armor
+* 4.5[IS] + 7.5[XLE] + 6[C/G] = 18.0
 
 # PXH-3M Phoenix Hawk (45t)
 * XL engine 270 6/9
@@ -162,10 +160,10 @@
 * XL engine 270 6/9(12)
 * Double heatsinks (10/10)
 * MASC
-* FF armor (-1.0 initial tonnage, +1.0 armor) (143->144)
+* FF armor
 * 1t (out of 2) AMS ammo replaced with armor
 * CASE (+0.5 armor on L/R torso)
-* 4.5[IS] + 7.5[XLE] + 6[C/G] -1[FF] = 17.0
+* 4.5[IS] + 7.5[XLE] + 6[C/G] = 18.0
 
 # HBK-5M Hunchback (50)
 * engine 200 (2 external) 4/6
@@ -220,21 +218,21 @@
 # WVR-7D Wolverine (55t)
 * XL engine 275 (1 internal) 5/8
 * single heatsinks (11/13)
-* FF armor (-1.5 initial tonnage, +1.5 armor) (179 -> 184)
+* FF
 * MASC
 * CASE (+1.0 armor on L/R/C torso)
-* InitialTonnage 19 = 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[EDHS] - 1.5[FF]
+* 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[DHS] = 20.5
 
 # WVR-7K Wolverine (55t)
 * XL engine 275 (1 internal) 5/8
 * Double heatsinks (11/13)
-* InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[EDHS]
+* InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[DHS]
 
 # WVR-7M Wolverine (55t)
 * XL engine 275 (1 internal) 5/8
 * Double heatsinks (11/12)
 * MASC
-* InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[EDHS]
+* InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[DHS]
 
 # CHP-1N Champion (60t)
 * engine 300 (2 internal) 5/8
@@ -265,8 +263,8 @@
 # QKD-5K Quickdraw (60t)
 * engine 300 (2 internal) 5/8
 * double heatsinks (12/17)
-* FF armor (-1.0 initial tonnage, +1.0 armor) (143->144)
-* 6.0[IS] + 19[E] + 6[C/G] + 2[DHS] - 1.0[FF] = 32
+* FF armor
+* 6.0[IS] + 19[E] + 6[C/G] + 2[DHS] = 33
 
 # OSR-2D Ostroc (60t)
 * engine 300 (2 internal) 5/8
@@ -318,9 +316,9 @@
 # TDR-7M Thunderbolt (65t)
 * engine 260 4/6
 * Double heatsinks (10/15)
-* FF armor (-1.5 initial tonnage, +1.5 armor) (206->208)
+* FF armor
 * CASE (+1.0 armor on C/L/R torso)
-* 6.5[IS] + 13.5[E] + 6[C/G] - 1.5[FF] = 24.5
+* 6.5[IS] + 13.5[E] + 6[C/G] = 26.0
 
 # ARC-4M Archer (70t)
 * engine 280 (1 internal)
@@ -397,12 +395,12 @@
 * CASE (+1.0 armor on C/L/R torso)
 * 4[ENIS] + 22.5[E] + 7[C/G] + 2[HS] = 35.5
 
-# ZEU-6S Zues (80t)
+# ZEU-9S Zues (80t)
 * engine 320 (2 internal) 4/6
 * Double heatsinks (12/17)
-* FF armor (-1.5 initial tonnage, +1.5 armor) (197->200)
+* FF armor
 * CASE (+0.5 armor on L/R torso)
-* 8[IS] + 22.5[E] + 7[C/G] + 2[DHS] - 1.5[FF] = 38.0
+* 8[IS] + 22.5[E] + 7[C/G] + 2[DHS] = 39.5
 
 # BLR-3M BattleMaster (85t)
 * engine 340 (3 internal) 4/6
@@ -420,8 +418,11 @@
 * single heatsinks (12/12)
 
 # MAL-1R Mauler (90t)
-* XL engine 270
-* 9[IS] + 7.5[XLE] + 6[C/G] - 1.5[FF] = 21.0
+* XL engine 270 3/5
+* double heatsinks (10/11)
+* FF armor
+* CASE (+1.0 armor on C/L/R torso)
+* 9[IS] + 7.5[XLE] + 6[C/G] = 22.5
 
 # AS7-K Atlas (100t)
 * XL engine 300 (2 internal) 3/5
@@ -441,11 +442,17 @@
 * XL engine 300 (2 internal DHS)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[EDHS] = 27.5
 
+# KGC-000 King Crab (100t)
+* engine 300 (2 internal) 3/5
+* double heatsinks (12/15)
+* CASE (+1.0 armor on C/L/R torso)
+* 10[IS] + 19.0[E] + 6[C/G] + 2[HS]= 27.5
+
 # MAD-5A Marauder II (100t)
 * XL engine 300 (2 internal) 3/5
 * single heatsinks (12/29) - 2 internal
 * CASE (+0.5 armor on C/L/R torso)
-* 10[IS] + 9.5[E] + 6[C/G] + 2[DHS] = 27.5
+* 10[IS] + 9.5[XLR] + 6[C/G] + 2[DHS] = 27.5
 
 # MAD-5B Marauder II (100t)
 * engine 300 (2 internal) 3/5

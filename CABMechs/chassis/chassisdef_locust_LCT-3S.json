@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 1700000,
+        "Cost": 1740000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
@@ -8,7 +8,7 @@
         "UIName": "Locust",
         "Id": "chassisdef_locust_LCT-3S",
         "Name": "Locust",
-        "Details": "The 3S Locust, constructed on Furillo by Defiance Industries in 3049, carried the 1S upgrade further. This time, as with the 3M, the structure used Endo Steel and the armor was upgraded with Ferro-Fibrous. The SRM-2s were upgraded to Coventry T4H Streak SRM-2s while the medium laser was kept.",
+        "Details": "The 3S Locust, constructed on Furillo by Defiance Industries in 3049, carried the 1S upgrade further. This time, as with the 3M, the structure used Endo Steel and the armor was upgraded with Ferro-Fibrous. The SRM-2s were upgraded to Streak SRM-2s while the medium laser was kept.",
         "Icon": "uixTxrIcon_locust"
     },
     "MovementCapDefID": "movedef_locust_LCT-1V",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_locustBase-001",
     "PrefabBase": "locust",
     "Tonnage": 20,
-    "InitialTonnage": 11.5,
+    "InitialTonnage": 12.0,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 8,
@@ -199,6 +199,8 @@
     "VariantName": "LCT-3S",
     "ChassisTags": {
         "items": [
+			"chassis_ferro",
+			"mech_case_left"
 		],
         "tagSetSourceFile": ""
     },

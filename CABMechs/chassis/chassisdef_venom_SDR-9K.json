@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_spiderBase-001",
     "PrefabBase": "spider",
     "Tonnage": 35,
-    "InitialTonnage": 18.0,
+    "InitialTonnage": 18.5,
     "weightClass": "LIGHT",
     "Heatsinks": 3,
     "MaxJumpjets": 8,
@@ -182,7 +182,8 @@
     "VariantName": "SDR-9K",
     "ChassisTags": {
         "items": [
-            "mr-resize-1.05-1.00-1.00"
+            "mr-resize-1.05-1.00-1.00",
+            "chassis_ferro"
         ],
         "tagSetSourceFile": ""
     },

@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_mongoosebase-001",
     "PrefabBase": "mongoose",
     "Tonnage": 25,
-    "InitialTonnage": 14.5,
+    "InitialTonnage": 15.0,
     "weightClass": "LIGHT",
     "BattleValue": 2061000,
     "Heatsinks": 0,
@@ -200,7 +200,6 @@
     "ChassisTags": {
         "items": [
             "mr-resize-1.05-1.05-1.05",
-            "chassis_endo",
             "chassis_ferro"
         ],
         "tagSetSourceFile": ""

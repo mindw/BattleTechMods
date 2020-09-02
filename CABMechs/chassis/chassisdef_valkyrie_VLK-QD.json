@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_valkyriehotd-001",
     "PrefabBase": "valkyrie",
     "Tonnage": 30,
-    "InitialTonnage": 11.5,
+    "InitialTonnage": 12.0,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 5,
@@ -186,7 +186,8 @@
     "VariantName": "VLK-QD",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.95-0.95-0.95"
+            "mr-resize-0.95-0.95-0.95",
+            "chassis_ferro"
         ],
         "tagSetSourceFile": ""
     },

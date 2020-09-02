@@ -185,7 +185,9 @@
     ],
     "VariantName": "PXH-3M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"mech_case_left"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

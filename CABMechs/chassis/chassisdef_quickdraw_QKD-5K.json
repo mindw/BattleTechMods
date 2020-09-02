@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_quickdrawBase-001",
     "PrefabBase": "quickdraw",
     "Tonnage": 60,
-    "InitialTonnage": 32,
+    "InitialTonnage": 33,
     "weightClass": "HEAVY",
     "Heatsinks": 42,
     "MaxJumpjets": 5,
@@ -200,7 +200,9 @@
     ],
     "VariantName": "QKD-5K",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker Cavalry",

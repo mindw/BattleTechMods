@@ -200,6 +200,7 @@
     "VariantName": "SHD-5M",
     "ChassisTags": {
         "items": [
+			"mech_case_left"
         ],
         "tagSetSourceFile": ""
     },

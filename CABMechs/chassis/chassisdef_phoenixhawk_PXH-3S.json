@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001",
     "PrefabBase": "phoenixhawk",
     "Tonnage": 45,
-    "InitialTonnage": 17.0,
+    "InitialTonnage": 18.0,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 6,
@@ -190,6 +190,7 @@
     "VariantName": "PXH-3S",
     "ChassisTags": {
         "items": [
+            "chassis_ferro"
         ],
         "tagSetSourceFile": ""
     },

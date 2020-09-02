@@ -203,7 +203,9 @@
     ],
     "VariantName": "MAD-5D",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

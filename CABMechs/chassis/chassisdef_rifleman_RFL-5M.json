@@ -192,6 +192,7 @@
     "VariantName": "RFL-5M",
     "ChassisTags": {
         "items": [
+			"mech_case_right"
         ],
         "tagSetSourceFile": ""
     },

@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001",
     "PrefabBase": "phoenixhawk",
     "Tonnage": 45,
-    "InitialTonnage": 17,
+    "InitialTonnage": 18,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 6,
@@ -198,7 +198,9 @@
     ],
     "VariantName": "PXH-3K",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"chassis_ferro"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

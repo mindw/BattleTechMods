@@ -14,7 +14,7 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 1[ESIS] + 6[E] + 5[C/G] - 0.5[FF] = 11.5
 
-# MCY-97/99 Mercury
+# MCY-97/99 Mercury (20t)
 * engine 160 (4 external) 8/12
 * 10 heat sinks (6/10) TBD
 * MASC
@@ -27,7 +27,7 @@
 * Endo Steel
 * 1[ESIS] + 4[E] + 5[C/G] = 10.0
 
-# WSP-3M Wasp (20)
+# WSP-3M Wasp (20t)
 * engine 120 (6 external) 6/9
 * 10 heat sinks (4/10) TBD
 * Endo Steel
@@ -92,7 +92,7 @@
 * 2[ESIS] + 9[E] + 6[C/G] = 17
 
 # JR7-K Jenner (35t)
-* engine 245 (1 external)
+* engine 245 (1 external) 7/11
 * single heatsinks (9/10) -  FIXME 1 external (H)
 * FF armor (-0.5 initial tonnage, +0.5 armor)
 * CASE (+0.5 armor on L/R torso)
@@ -103,6 +103,13 @@
 * FF armor (.5 initial tonnage, +.5 armor) (80 * 5)
 * CASE (+0.5 armor on L/R torso)
 * 3.5[IS] + 4.5[XLE] + 6[C/G] - .5[FF] = 13.5
+
+# SDR-9K/9KA Venom (35t)
+* XL engine 280 (1 internal)
+* single heatsinks (11/12)
+* FF armor (.5 initial tonnage, +.5 armor) (62 -> 64) 9K
+* FF armor (1.0 initial tonnage, +1.0 armor) (98 -> 104) 9KA
+* 3.5[IS] + 8[XLE] + 6[C/G] + 1[HS] - .5[FF]/1[FF] = 18.0/17.5
 
 # CDA-3M Cicada (40t)
 * XL engine 320 (2 internal) 8/12

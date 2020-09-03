@@ -204,6 +204,12 @@
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 3[C] + 3[G] + 1.0[EDHS]
 
+# KTO-20 Kintaro (55t)
+* engine 275 (1 internal) 5/8
+* Double heatsinks (10/10)
+* FF armor
+* 5.5[IS] + 15.5[EXL] + 6[C/G] = 27.0
+
 # SHD-5M Shadow Hawk (55t)
 * XL engine 275 (1 internal) 5/8
 * Endo Steel

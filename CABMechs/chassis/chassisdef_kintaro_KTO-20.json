@@ -8,7 +8,7 @@
         "UIName": "Kintaro",
         "Id": "chassisdef_kintaro_KTO-20",
         "Name": "Kintaro",
-		"Details": "The KTO-20, used to good effect in the War of 3039, was the slightly downgraded version of the KTO-19 given to the Draconis Combine by ComStar as part of Operation Rosebud. The KTO-20 was nearly identical to its Star League era cousin, the only real difference being the loss of the Narc Missile beacon in exchange for a Large Laser. It was equipped with double heat sinks.",
+        "Details": "The KTO-20, used to good effect in the War of 3039, was the slightly downgraded version of the KTO-19 given to the Draconis Combine by ComStar as part of Operation Rosebud. The KTO-20 was nearly identical to its Star League era cousin, the only real difference being the loss of the Narc Missile beacon in exchange for a Large Laser. It was equipped with double heat sinks.",
         "Icon": "uixTxrIcon_kintaro"
     },
     "MovementCapDefID": "movedef_kintaro_KTO-18",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_kintaroBase-001",
     "PrefabBase": "kintaro",
     "Tonnage": 55,
-    "InitialTonnage": 26,
+    "InitialTonnage": 27,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 5,
@@ -126,6 +126,10 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -199,9 +203,61 @@
     ],
     "VariantName": "KTO-20",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Close Assault",
-	"YangsThoughts": "The KTO-20, used to good effect in the War of 3039, was the slightly downgraded version of the KTO-19 given to the Draconis Combine by ComStar as part of Operation Rosebud. The KTO-20 was nearly identical to its Star League era cousin, the only real difference being the loss of the Narc Missile beacon in exchange for a Large Laser. It was equipped with double heat sinks."
+    "YangsThoughts": "The KTO-20, used to good effect in the War of 3039, was the slightly downgraded version of the KTO-19 given to the Draconis Combine by ComStar as part of Operation Rosebud. The KTO-20 was nearly identical to its Star League era cousin, the only real difference being the loss of the Narc Missile beacon in exchange for a Large Laser. It was equipped with double heat sinks.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_FerroFibrous_6_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_FerroFibrous_5_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
 }

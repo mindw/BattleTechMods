@@ -105,7 +105,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 140,
@@ -200,8 +200,8 @@
     "VariantName": "LNC25-02",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.05-1.05-1.05"
-		],
+            "mr-resize-1.05-1.05-1.05"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Direct-Fire Support",

@@ -172,7 +172,8 @@
 * Double heatsinks (8/13) FIXME
 
 # CN9-D Centurion (50t)
-* XL engine 300
+* XL engine 300 (2 internal) 6/9
+* Single heatsinks (10/10)
 * Endo Steel
 * CASE (+0.5 armor on C/L/R torso)
 * 2.5[ESIS] + 9.5[E] + 6[C/G] = 18
@@ -220,7 +221,7 @@
 * InitialTonnage 17 = 3.0[ESIS] + 8[EXL] + 3[C] + 3[G]
 
 # WVR-6D/6M Wolverine (55t)
-* engine 275
+* engine 275 (1 internal) 5/8
 * single heatsinks (11/14) - 1 internal
 
 # WVR-7D Wolverine (55t)
@@ -329,7 +330,7 @@
 * 6.5[IS] + 13.5[E] + 6[C/G] = 26.0
 
 # ARC-4M Archer (70t)
-* engine 280 (1 internal)
+* engine 280 (1 internal) 4/6
 * Double heatsinks (10/10)
 * Endo Steel
 * CASE (+1.0 armor on L/R/C torso)
@@ -342,13 +343,13 @@
 * 7[IS] + 8[XLE] + 6[C/G] = 21
 
 # CES-3R Caesar (70t)
-* XL engine 280 (1 internal HS) 4/6
+* XL engine 280 (1 internal) 4/6
 * double heatsinks (11/16)
 * CASE (+0.5 armor on C/L/R torso)
 * 7[IS] + 8[XLE] + 6[C/G] + 1[DHS]= 22
 
 # GHR-5J Grasshopper (70t)
-* engine 280 (1 internal HS)
+* engine 280 (1 internal HS) 4/6
 * single heatsinks (11/22)
 * 7[IS] + 16[E] + 6[C/G] + 1[HS] = 30.0
 
@@ -365,7 +366,7 @@
 * 7.5[IS] + 19.5[XLE] + 7[C/G] + 5[DHS] = 39
 
 # MAD-5D Marauder (75t)
-* XL engine 300 (2 internal) 4.6
+* XL engine 300 (2 internal) 4/6
 * Double heatsinks (12/16)
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 25 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 2[DHS]
@@ -450,9 +451,9 @@
 * XL engine 300 (2 internal DHS)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[EDHS] = 27.5
 
-# KGC-000 King Crab (100t)
+# KGC-000/001 King Crab (100t)
 * engine 300 (2 internal) 3/5
-* double heatsinks (12/15)
+* double heatsinks (12/15) / (12/13)
 * CASE (+1.0 armor on C/L/R torso)
 * 10[IS] + 19.0[E] + 6[C/G] + 2[HS]= 27.5
 

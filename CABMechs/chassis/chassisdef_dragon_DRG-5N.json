@@ -199,7 +199,10 @@
     ],
     "VariantName": "DRG-5N",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"mech_case_left",
+			"mech_case_right"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Brawler",

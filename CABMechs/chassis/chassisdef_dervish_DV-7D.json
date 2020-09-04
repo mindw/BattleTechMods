@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_dervishbase-001",
     "PrefabBase": "dervish",
     "Tonnage": 55,
-    "InitialTonnage": 23.5,
+    "InitialTonnage": 24.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 5,
@@ -192,6 +192,9 @@
     "VariantName": "DV-7D",
     "ChassisTags": {
         "items": [
+			"chassis_ferro",
+			"mech_case_left",
+			"mech_case_right"
         ],
         "tagSetSourceFile": ""
     },

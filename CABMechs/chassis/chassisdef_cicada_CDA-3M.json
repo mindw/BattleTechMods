@@ -199,6 +199,7 @@
     "VariantName": "CDA-3M",
     "ChassisTags": {
         "items": [
+            "mech_case_right"
         ],
         "tagSetSourceFile": ""
     },

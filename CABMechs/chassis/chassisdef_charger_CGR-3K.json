@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_chargerhotd-001",
   "PrefabBase": "charger",
   "Tonnage": 80,
-  "InitialTonnage": 42.0,
+  "InitialTonnage": 43.5,
   "weightClass": "ASSAULT",
   "Heatsinks": 42,
   "MaxJumpjets": 5,
@@ -201,7 +201,8 @@
   "VariantName": "CGR-3K",
   "ChassisTags": {
     "items": [
-      "mech_case_left"
+			"mech_case_left",
+			"chassis_ferro"
     ],
     "tagSetSourceFile": ""
   },

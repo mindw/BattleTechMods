@@ -201,6 +201,7 @@
     "VariantName": "CHP-3N",
     "ChassisTags": {
         "items": [
+            "chassis_ferro"
         ],
         "tagSetSourceFile": ""
     },

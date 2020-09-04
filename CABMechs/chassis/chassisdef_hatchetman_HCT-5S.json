@@ -20,7 +20,7 @@
     "StockRole": "Brawler & Skirmisher",
     "YangsThoughts": "Hatchetman 5Ss doesn't have any more speed to get in and use that Hatchet. What it does have is more armor and more imposing fire power to back it up.",
     "Tonnage": 45,
-    "InitialTonnage": 12.0,
+    "InitialTonnage": 13.0,
     "weightClass": "MEDIUM",
     "Heatsinks": 0,
     "MaxJumpjets": 4,
@@ -48,7 +48,10 @@
     "DFASelfDamage": 55,
     "DFAInstability": 55,
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "Locations": [
@@ -268,7 +271,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

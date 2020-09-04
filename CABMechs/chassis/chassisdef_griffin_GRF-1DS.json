@@ -210,7 +210,9 @@
     ],
     "VariantName": "GRF-1DS",
     "ChassisTags": {
-        "items": [],
+        "items": [
+			"mech_case_left"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker & Skirmisher",

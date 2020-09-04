@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_commandoBase-001",
     "PrefabBase": "commando",
     "Tonnage": 25,
-    "InitialTonnage": 11.5,
+    "InitialTonnage": 12.0,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 6,
@@ -187,6 +187,7 @@
     "VariantName": "COM-5S",
     "ChassisTags": {
         "items": [
+            "chassis_ferro",
             "mech_case_right"
         ],
         "tagSetSourceFile": ""

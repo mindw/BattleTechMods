@@ -195,6 +195,7 @@
     "VariantName": "CN9-D",
     "ChassisTags": {
         "items": [
+            "mech_case_right"
         ],
         "tagSetSourceFile": ""
     },

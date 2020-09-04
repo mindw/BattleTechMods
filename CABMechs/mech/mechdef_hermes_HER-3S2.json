@@ -133,7 +133,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_Sensor_ECM",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",

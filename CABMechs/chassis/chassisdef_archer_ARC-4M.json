@@ -196,7 +196,10 @@
     ],
     "VariantName": "ARC-4M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Artillery and Fire Support",

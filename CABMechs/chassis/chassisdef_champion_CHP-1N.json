@@ -207,7 +207,9 @@
     ],
     "VariantName": "CHP-1N",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

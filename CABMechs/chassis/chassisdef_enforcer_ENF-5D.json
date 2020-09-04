@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_enforcerBase-001",
     "PrefabBase": "enforcer",
     "Tonnage": 50,
-    "InitialTonnage": 16,
+    "InitialTonnage": 17.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 0,
     "MaxJumpjets": 5,
@@ -195,8 +195,9 @@
     "VariantName": "ENF-5D",
     "ChassisTags": {
         "items": [
-            "mech_case_right"
-        ],
+			"chassis_ferro",
+			"mech_case_right"
+		],
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support & Skirmisher",

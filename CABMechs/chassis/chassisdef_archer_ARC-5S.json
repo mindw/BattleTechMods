@@ -200,7 +200,10 @@
     ],
     "VariantName": "ARC-5S",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",

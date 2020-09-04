@@ -34,7 +34,7 @@
     "ChassisID": "chassisdef_archer_ARC-5S",
     "HeraldryID": null,
     "Description": {
-        "Cost": 18390000,
+        "Cost": 19800000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -45,7 +45,7 @@
         "Details": "The 5S upgraded the engine to a 280 XL Engine, cutting the engine's weight in half while retaining the same speed profile. The 5S also reduced the LRM-20 launchers to LRM-15s. This saved weight was used to add two Streak SRM-2 launchers, one in each arm and fed by two tons of reloads in the side torsos. They also upgraded the four medium lasers to Medium Pulse Lasers. Finally, the 'Mech carried a Narc Missile Beacon launcher in its left torso along with one ton of ammo.",
         "Icon": "uixTxrIcon_archer"
     },
-    "simGameMechPartCost": 1840000,
+    "simGameMechPartCost": 1980000,
     "Version": 1,
     "Locations": [
         {

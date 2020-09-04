@@ -342,6 +342,13 @@
 * CASE (+1.0 armor on L/R/C torso)
 * 7[IS] + 8[XLE] + 6[C/G] = 21
 
+# ARC-5R Archer (70t)
+* engine 280 (1 internal) 4/6
+* Double heatsinks (11/12)
+* Endo Steel
+* CASE (+1.0 armor on L/R/C torso)
+* 3.5[ESIS] + 16[E] + 6[C/G] + 1[DHS] = 26.5
+
 # CES-3R Caesar (70t)
 * XL engine 280 (1 internal) 4/6
 * double heatsinks (11/16)

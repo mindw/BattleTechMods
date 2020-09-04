@@ -532,6 +532,20 @@
                         "lbx",
                         "laser"
                     ]
+                },
+                {
+                    "PrefabIdentifier": "narc",
+                    "HardpointCandidates": [
+                        "narc",
+                        "srm2",
+                        "missile2",
+                        "srm4",
+                        "lrm5",
+                        "srm6",
+                        "missile4",
+                        "missile5",
+                        "missile6"
+                    ]
                 }
             ]
         }

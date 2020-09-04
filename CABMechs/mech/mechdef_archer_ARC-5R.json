@@ -1,21 +1,21 @@
 {
-    "MinAppearanceDate": "3049-01-01T00:00:00Z",
+    "MinAppearanceDate": "3050-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
             "unit_heavy",
             "unit_indirectFire",
             "unit_range_long",
-            "unit_armor_high",
+            "unit_hot",
             "unit_lance_support",
             "unit_role_sniper",
             "unit_release",
             "unit_ready",
             "NotDavion",
-            "Liao",
-            "Marik",
-            "NotSteiner",
-            "NotKurita",
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "Kurita",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotNoFaction",
@@ -23,27 +23,27 @@
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
             "NotComStar",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_archer_ARC-4M",
+    "ChassisID": "chassisdef_archer_ARC-5R",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9780000,
+        "Cost": 11200000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Archer ARC-4M",
-        "Id": "mechdef_archer_ARC-4M",
+        "UIName": "Archer ARC-5R",
+        "Id": "mechdef_archer_ARC-5R",
         "Name": "Archer",
-        "Details": "An upgrade using rediscovered Star League technology, the 4M was built built on Calloway VI by Earthwerks in 3049 for the Free Worlds League. It used an Earthwerk Archer II Endo Steel chassis to free up weight for a number of improvements. It carried an additional half-ton of armor and utilized ten double heat sinks for added heat dissipation capabilities. The 'Mech also upgraded its twin LRM-20 launchers by adding Artemis IV fire control systems to the launchers and incorporated CASE to protect the four tons of missile ammo.",
+        "Details": "Built by the GKT Enterprise factory on Satalice for the Free Rasalhague Republic, the 5R was introduced in 3050 and bore similarities to the 2K model of the Archer. It carried a pair of FarFire LRM-15 launchers but mounted two Victory Nickel Alloy ER Large Lasers, one in either arm, in place of the medium lasers. It also linked Artemis IV fire control systems to the launchers and utilized twelve double heat sinks to improve waste heat dissipation. Despite being built around an Endo-Steel chassis, these improvements necessitated a decrease in armor protection by two tons.",
         "Icon": "uixTxrIcon_archer"
     },
-    "simGameMechPartCost": 978000,
+    "simGameMechPartCost": 1120000,
     "Version": 1,
     "Locations": [
         {
@@ -58,71 +58,71 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 110,
+            "CurrentArmor": 100,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 55,
-            "AssignedArmor": 110,
+            "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 150,
+            "CurrentArmor": 130,
             "CurrentRearArmor": 30,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 150,
+            "AssignedArmor": 130,
             "AssignedRearArmor": 30
         },
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 185,
-            "CurrentRearArmor": 50,
+            "CurrentArmor": 175,
+            "CurrentRearArmor": 40,
             "CurrentInternalStructure": 110,
-            "AssignedArmor": 185,
-            "AssignedRearArmor": 50
+            "AssignedArmor": 175,
+            "AssignedRearArmor": 40
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 150,
+            "CurrentArmor": 130,
             "CurrentRearArmor": 30,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 150,
+            "AssignedArmor": 130,
             "AssignedRearArmor": 30
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 110,
+            "CurrentArmor": 100,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 55,
-            "AssignedArmor": 110,
+            "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 150,
+            "CurrentArmor": 110,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 150,
+            "AssignedArmor": 110,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 150,
+            "CurrentArmor": 110,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 150,
+            "AssignedArmor": 110,
             "AssignedRearArmor": -1
         }
     ],
     "inventory": [
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -133,7 +133,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM20_Artemis_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM15_Artemis_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -159,28 +159,6 @@
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -188,7 +166,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_LRM_LRM20_Artemis_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM15_Artemis_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -221,7 +199,18 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

@@ -355,6 +355,18 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 7[IS] + 8[XLE] + 6[C/G] + 1[DHS]= 22
 
+# CTF-3D Cataphract (70t)
+* XL engine 280 (1 internal) 4/6
+* single heatsinks (11/16)
+* CASE (+1.0 armor on L/R/C torso)
+* 7[IS] + 8[XLE] + 6[C/G] + 1[HS]= 22
+
+# CTF-3L Cataphract (70t)
+* XL engine 280 (1 internal) 4/6
+* double heatsinks (11/16)
+* MASC
+* 7[IS] + 8[XLE] + 6[C/G] + 1[DHS]= 22
+
 # GHR-5J Grasshopper (70t)
 * engine 280 (1 internal HS) 4/6
 * single heatsinks (11/22)

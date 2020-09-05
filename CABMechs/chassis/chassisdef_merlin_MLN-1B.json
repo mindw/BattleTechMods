@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Merlin",
-        "Id": "chassisdef_merlin_MLN-1A",
+        "Id": "chassisdef_merlin_MLN-1B",
         "Name": "Merlin",
-        "Details": "The Merlin first debuted in 3010 and was hailed as a technological marvel of engineering.  Mounting a PPC as its primary armament gives the Merlin the option to stay at a distance from its adversaries.  This is further supplemented with an LRM5 launcher.  If anything manages to get close enough in, the Merlin also mounts a pair of Medium Lasers and a Flamer.  It even has a Machine Gun to help dissuade infantry from getting too close.  The MLN-1A caries ten tons of armor, giving it reasonable protection, and eighteen heatsinks to help with the heat load.",
+        "Details": "The 1B variant introduced in 3053 removes the Machine Gun and its ammunition and replaces them with an additional heat sink to help handle the Merlin's heat load.",
         "Icon": "uixTxrIcon_merlin"
     },
     "MovementCapDefID": "movedef_merlin_MLN-1A",
@@ -75,7 +75,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -201,13 +201,13 @@
             "z": 0
         }
     ],
-    "VariantName": "MLN-1A",
+    "VariantName": "MLN-1B",
     "ChassisTags": {
         "items": [
             "mr-resize-0.95-0.95-0.95"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher & Cavalry",
-    "YangsThoughts": "What you're looking at here Commander, is a piece of modern history. The Merlin is the first new 'Mech to be developed in over a century, and can you believe it was made in the Periphery?  For the most part, they really thought it through, easy to find repair parts, a reasonably solid design, but seriously, who puts all their ammo in the center torso... that thing is going to go up like a Capellan New Year's fireworks show anytime someone gets past that armor."
+    "StockRole": "Brawler",
+    "YangsThoughts": "I hope the designers of this variant didn't get paid much...who am I kidding? They probably sat on a nice salary for years for this one. They removed a machine gun and added a heat sink. Nice."
 }

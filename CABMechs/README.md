@@ -486,6 +486,11 @@
 * CASE (+1.0 armor on C/L/R torso)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] = 27.5
 
+# AS7-S Atlas (100t)
+* engine 300 (2 internal) 3/5
+* double heatsinks (12/15)
+* 10[IS] + 19[E] + 6[C/G] + 2[DHS] = 37
+
 # BRZ-A3/B3 Berzerk (100t)
 * XL engine 400 (6 internal) 4/6(12)
 * double heatsinks (16/16)

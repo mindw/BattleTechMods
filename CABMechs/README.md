@@ -379,6 +379,11 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 3.5[ESIS] + 16[E] + 6[C/G] + 1[HS] = 26.5
 
+# WHM-7M/7S Warhammer (70t)
+* engine 280 (1 internal) 4/6
+* double heatsinks (11/18)
+* 7[IS] + 16[E] + 6[C/G] + 1[DHS] = 30.0
+
 # FLS-8K Flashman (75t)
 * XL engine 375 (5 internal HS) 5/8
 * double heatsinks (15/15)
@@ -436,6 +441,12 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 8.5[IS] + 27.0[E] + 7[C/G] + 3[DHS] = 45.5
 
+# BLR-3S BattleMaster (85t)
+* XL engine 340 (3 internal) 4/6
+* single heatsinks (13/22)
+* CASE (+0.5 armor on C/L/R torso)
+* 8.5[IS] + 13.5[E] + 7[C/G] + 3[HS] = 32.0
+
 # CRK-5003-1 Crockett (85t)
 * engine 255 3/5
 * double heatsinks (10/15)
@@ -454,16 +465,16 @@
 
 # AS7-K Atlas (100t)
 * XL engine 300 (2 internal) 3/5
-* Endo Steel
 * single heatsinks (12/20)
+* Endo Steel
 * CASE (+1.0 armor on C/L/R torso)
-* 10[IS] + 9.5[XLE] + 6[C/G] + 2[DHS] = 27.5
+* 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] = 27.5
 
 # BRZ-A3/B3 Berzerk (100t)
 * XL engine 400 (6 internal) 4/6(12)
+* double heatsinks (16/16)
 * Endo Steel
 * MASC
-* double heatsinks (16/16)
 * 5[ESIS] + 26.5[XLE] + 7[C/G] + 6[DHS] = 44.5
 
 # DVS-2 Devastator (100t)

@@ -1,0 +1,216 @@
+{
+    "Description": {
+        "Cost": 8400000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Stalker",
+        "Id": "chassisdef_stalker_STK-5M",
+        "Name": "Stalker",
+        "Details": "An upgrade originating from the Free Worlds League, the 5M variant of the Stalker was introduced in 3050 using moderate amounts of Star League technology. Most of the weaponry was retained but both large lasers were removed for a single ER Large Laser placed in the 'Mech's centerline and a Narc Missile Beacon in the left torso, allowing the Stalker to tag enemy units with homing beacon and direct friendly missile fire onto them. The double heat sinks of the 5M afford it far greater heat efficiency than the twenty single heat sinks of previous models, although it still could not handle firing all of its weaponry simultaneously, and an additional ton of armor was added for survivability.",
+        "Icon": "uixTxrIcon_stalker"
+    },
+    "MovementCapDefID": "movedef_stalker_STK-3F",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_stalker",
+    "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
+    "PrefabBase": "stalker",
+    "Tonnage": 85,
+    "InitialTonnage": 27.5,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 30,
+    "MaxJumpjets": 3,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 80,
+    "MeleeInstability": 85,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 105,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 105,
+    "DFAInstability": 105,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 270,
+            "MaxRearArmor": 135,
+            "InternalStructure": 135
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 180,
+            "MaxRearArmor": -1,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 180,
+            "MaxRearArmor": -1,
+            "InternalStructure": 90
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "STK-5M",
+    "ChassisTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Juggernaut & Ranged Assault",
+    "YangsThoughts": "The Stalker 5M still has a ridiculous amount of weaponry\u2014even for an assault 'Mech. The heat management is somewhat better because of the double heat sinks. This variant also carriest a Narc Missile Beacon and an ER Large Laser."
+}

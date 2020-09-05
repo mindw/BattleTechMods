@@ -452,6 +452,11 @@
 * CASE (+0.5 armor on C/L/R torso)
 * 8.5[IS] + 13.5[E] + 7[C/G] + 3[HS] = 32.0
 
+# STK-5M Stalker (85t)
+* engine 255 3/5
+* double heatsinks (10/17)
+* 8.5[IS] + 13.0[E] + 6[C/G]= 27.5
+
 # CRK-5003-1 Crockett (85t)
 * engine 255 3/5
 * double heatsinks (10/15)

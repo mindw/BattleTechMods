@@ -395,11 +395,16 @@
 * CASE (+0.5 armor on L/R torso)
 * InitialTonnage 25 = 7.5[IS] + 9.5[E] + 3[C] + 3[G] + 2[DHS]
 
-# ON1-M Orion  (75t)
+# ON1-M Orion (75t)
 * XL engine 300 (2 internal) 4/6
 * Double heatsinks (11/11)
 * CASE (+1.0 armor on C/L/R torso)
 * 7.5[IS] + 9.5[E] + 6[C/G] + 1[DHS] = 24
+
+# PTR-4D Penetrator (75t)
+* engine 300 (2 internal) 4/6
+* Double heatsinks (12/12)
+* 7.5[IS] + 19[E] + 6[C/G] + 2[DHS] = 34.5
 
 # AWS-9M Awesome (80t)
 * XL engine 320 (2 internal) 4/6

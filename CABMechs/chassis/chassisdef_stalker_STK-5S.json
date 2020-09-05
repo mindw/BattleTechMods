@@ -1,0 +1,248 @@
+{
+    "Description": {
+        "Cost": 8400000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Stalker",
+        "Id": "chassisdef_stalker_STK-5S",
+        "Name": "Stalker",
+        "Details": "Outfitted with the relatively recently rediscovered Star League technology of circa 3050, the FedCom 5S can be characterized primarily by its tendency to overheat. The designers behind this variant took the simple expedient of upgrading its engine and firepower without taking heat build-up into consideration. The 'Mech has had its engine replaced with an XL Engine and the large lasers have been removed and replaced with two Large Pulse Lasers.",
+        "Icon": "uixTxrIcon_stalker"
+    },
+    "MovementCapDefID": "movedef_stalker_STK-3F",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_stalker",
+    "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
+    "PrefabBase": "stalker",
+    "Tonnage": 85,
+    "InitialTonnage": 21,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 0,
+    "MaxJumpjets": 3,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 80,
+    "MeleeInstability": 85,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 105,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 105,
+    "DFAInstability": 105,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 270,
+            "MaxRearArmor": 135,
+            "InternalStructure": 135
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 180,
+            "MaxRearArmor": -1,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 180,
+            "MaxRearArmor": -1,
+            "InternalStructure": 90
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -3.5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "STK-5S",
+    "ChassisTags": {
+        "items": [
+            "mech_case_left",
+            "mech_case_right"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Juggernaut",
+    "YangsThoughts": "The Stalker has always had too much firepower for the heat build up, but the Stalker 5S is on another level of heat inefficient. It has more weight free because of the XL engine so maybe something can be done with it, let me know if you have any ideas.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
+}

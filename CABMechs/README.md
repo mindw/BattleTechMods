@@ -450,12 +450,18 @@
 * XL engine 340 (3 internal) 4/6
 * single heatsinks (13/22)
 * CASE (+0.5 armor on C/L/R torso)
-* 8.5[IS] + 13.5[E] + 7[C/G] + 3[HS] = 32.0
+* 8.5[IS] + 13.5[XLE] + 7[C/G] + 3[HS] = 32.0
 
 # STK-5M Stalker (85t)
 * engine 255 3/5
 * double heatsinks (10/17)
 * 8.5[IS] + 13.0[E] + 6[C/G]= 27.5
+
+# STK-5M Stalker (85t)
+* XL engine 255 3/5
+* single heatsinks (10/20)
+* CASE (+1.0 armor on C/L/R torso)
+* 8.5[IS] + 6.5[E] + 6[C/G]= 21.0
 
 # CRK-5003-1 Crockett (85t)
 * engine 255 3/5

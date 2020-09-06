@@ -493,13 +493,14 @@
                     "PrefabIdentifier": "srm6",
                     "HardpointCandidates": [
                         "srm6",
-                        "missile6",
                         "lrm5",
-                        "missile5",
                         "srm4",
-                        "missile4",
                         "srm2",
-                        "missile2"
+                        "missile6",
+                        "missile5",
+                        "missile4",
+                        "missile2",
+                        "ams"
                     ]
                 },
                 {

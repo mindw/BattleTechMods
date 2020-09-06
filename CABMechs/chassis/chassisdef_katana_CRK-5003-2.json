@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 8520000,
+        "Cost": 7900000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Crockett",
-        "Id": "chassisdef_crockett_CRK-5003-1",
-        "Name": "Crockett",
-        "Details": "The Crockett was originally designed and built for the Star League as a training BattleMech with combat capability. So effective was the Crockett that, following the dissolution of the Star League and start of the Succession Wars, many of the Great Houses removed the 'Mech from their training programs and used them to fight on the front lines. In the thirty-first century, thanks to ComStar's secret stockpile of Star League-era 'Mechs, original models of the Crockett were used to outfit the Com Guards while downgraded versions were gifted to the Draconis Combine as part of Operation Rosebud.",
+        "UIName": "Katana",
+        "Id": "chassisdef_katana_CRK-5003-2",
+        "Name": "Katana",
+        "Details": "The Katana began its existence when the Draconis Combine was given several downgraded Crockett BattleMechs by ComStar as part of Operation Rosebud. Independence Weaponry went about reverse-engineering the weapons so they could produce copies at a nearby facility for sale to other Combine manufacturers and closely examined the Crocketts for several months. After making minor modifications these 'Mechs were renamed Katanas and used to replace Chargers in several DCMS units.",
         "Icon": "uixTxrIcon_crockett"
     },
     "MovementCapDefID": "movedef_crockett_CRK-5003-0",
@@ -19,7 +19,7 @@
     "Tonnage": 85,
     "InitialTonnage": 27.5,
     "weightClass": "ASSAULT",
-    "Heatsinks": 30,
+    "Heatsinks": 0,
     "MaxJumpjets": 3,
     "Stability": 200,
     "StabilityDefenses": [
@@ -106,7 +106,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -197,13 +197,13 @@
             "z": 1
         }
     ],
-    "VariantName": "CRK-5003-1",
+    "VariantName": "CRK-5003-2",
     "ChassisTags": {
         "items": [
             "mr-resize-1.10-1.10-1.10"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Sniper",
-    "YangsThoughts": "The Crockett 5003-1 mounts a wide array of weaponry, even for an assault 'Mech. Primarily effective at close range, it also has jump capability to get there."
+    "StockRole": "Juggernaut",
+    "YangsThoughts": "It looks like the oddball Crockett because it more or less is.  But the Katana has significantly less armor, in return it has a recovered star league based LB10X and better heat efficiency. Primarily effective at close range, it also has jump capability to get there."
 }

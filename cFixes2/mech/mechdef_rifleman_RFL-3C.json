@@ -167,8 +167,21 @@
 			"unit_lance_support",
             "unit_range_long",
             "unit_armor_low",
-            "unit_hot",
-            "Davion"
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     }

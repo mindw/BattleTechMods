@@ -146,7 +146,21 @@
             "unit_range_short",
             "unit_speed_high",
             "unit_armor_low",
-            "Marik"
+            "NotDavion",
+            "NotLiao",
+            "Marik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     }

@@ -20,7 +20,20 @@
             "unit_speed_low",
             "unit_armor_high",
             "Davion",
-            "Steiner"
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

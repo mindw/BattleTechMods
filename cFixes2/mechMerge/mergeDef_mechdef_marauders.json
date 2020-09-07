@@ -1,8 +1,8 @@
 {
     "TargetIDs": [
-				  "mechdef_marauder_MAD-3D",
-				  "mechdef_marauder_MAD-3R"
-	],
+        "mechdef_marauder_MAD-3D",
+        "mechdef_marauder_MAD-3R"
+    ],
     "Instructions": [
         {
             "JSONPath": "$.inventory[0].ComponentDefID",

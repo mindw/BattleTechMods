@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate" : "3025-06-28T00:00:00Z",
+    "MinAppearanceDate": "3025-06-28T00:00:00Z",
     "RequiredToSpawnCompanyTags": {
         "items": [
             "flashpoint_longRoad_complete"
@@ -19,7 +19,20 @@
             "unit_hot",
             "unit_speed_low",
             "Davion",
-            "Steiner"
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "Kurita",
+            "NotMagistracyOfCanopus",
+            "TaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "MercenaryReviewBoard",
+            "NotAuriganPirates",
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

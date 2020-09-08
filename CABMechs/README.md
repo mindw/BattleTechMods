@@ -97,6 +97,12 @@
 * CASE (+0.5 armor on L/R torso)
 * 3.5[IS] + 12.0[XLE] + 6[C/G] = 21.5
 
+# PNT-10K/10KA Panther (35t)
+* engine 140 (5 external) 4/6
+* single heatsinks (5/13) FIXME
+* Endo Steel
+* 2.0[ESIS] + 5.0[E] + 5[C/G] = 12.0
+
 # RVN-3L Raven (35t)
 * XL engine 210 (2 external) 6/9
 * single heatsinks (8/11) FIXME

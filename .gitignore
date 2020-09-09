@@ -8,3 +8,5 @@ output_log.txt
 /GalaxyAtWar/Galaxy-at-War.txt
 *.pdb
 CAB-*/
+/BTMechDumper/*.txt
+/BTMechDumper/*.csv

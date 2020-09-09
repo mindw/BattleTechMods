@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_championbase-001",
     "PrefabBase": "champion",
     "Tonnage": 60,
-    "InitialTonnage": 30,
+    "InitialTonnage": 31,
     "weightClass": "HEAVY",
     "BattleValue": 5383000,
     "Heatsinks": 0,

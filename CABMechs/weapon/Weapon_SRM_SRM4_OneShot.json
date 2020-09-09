@@ -1,0 +1,62 @@
+{
+    "Category": "Missile",
+    "Type": "SRM",
+    "WeaponSubType": "SRM4",
+    "MinRange": 0,
+    "MaxRange": 270,
+    "RangeSplit": [
+        180,
+        180,
+        270
+    ],
+    "ammoCategoryID": "SRM",
+    "StartingAmmoCapacity": 4,
+    "HeatGenerated": 8,
+    "Damage": 8,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 4,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 3,
+    "WeaponEffectID": "WeaponEffect-Weapon_SRM2",
+    "Description": {
+        "Cost": 60000,
+        "Rarity": 9,
+        "Purchasable": false,
+        "Manufacturer": "Pattern Alpha",
+        "Model": "Single Short-Range Missile Launcher",
+        "UIName": "SRM4 - 1 Shot",
+        "Id": "Weapon_SRM_SRM4_OneShot",
+        "Name": "SRM4 - 1 Shot",
+        "Details": "A single shot version of the SRM4 launcher, which can be hooked up to additional ammo feeds if needed.",
+        "Icon": "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "srm4",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 2.5,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_standard"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

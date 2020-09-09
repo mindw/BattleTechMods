@@ -275,6 +275,13 @@
 * double heatsinks (13/13)
 * 6.0[IS] + 16.5[XLE] + 7[C/G] + 3[DHS] = 32.5
 
+# QKD-5M Quickdraw (60t)
+* engine 300 (2 internal) 5/8
+* double heatsinks (12/13)
+* FF armor
+* CASE
+* 6.0[IS] + 19[E] + 6[C/G] + 2[DHS] + 0.5[CASE] = 33.5
+
 # QKD-5K Quickdraw (60t)
 * engine 300 (2 internal) 5/8
 * double heatsinks (12/17)

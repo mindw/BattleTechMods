@@ -37,7 +37,7 @@
     "Radius": 8,
     "PunchesWithLeftArm": false,
     "AlwaysPunchIfPossible": true,
-    "MeleeDamage": 120,
+    "MeleeDamage": 130,
     "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
     "DFADamage": 125,

@@ -2,13 +2,13 @@
     "MinAppearanceDate": "2750-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "BLACKLISTED", 
+            "BLACKLISTED",
             "unit_mech",
             "unit_heavy",
             "unit_range_long",
             "unit_speed_high",
             "unit_hot",
-            "unit_lance_support", 
+            "unit_lance_support",
             "unit_role_sniper",
             "unit_release",
             "unit_ready"

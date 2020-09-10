@@ -1,0 +1,14 @@
+{
+    "TargetIDs": [
+        "mechdef_thunderbolt_TDR-5S",
+        "mechdef_thunderbolt_TDR-5SE",
+        "mechdef_thunderbolt_TDR-5SS"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.MeleeDamage",
+            "Action": "Replace",
+            "Value": 90
+        }
+    ]
+}

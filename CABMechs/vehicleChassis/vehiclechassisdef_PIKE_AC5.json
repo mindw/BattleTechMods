@@ -1,7 +1,7 @@
 {
     "Description": {
-        "Id": "vehiclechassisdef_PIKE",
-        "Name": "Pike Support Vehicle",
+        "Id": "vehiclechassisdef_PIKE_AC5",
+        "Name": "Pike Support Vehicle AC5",
         "Details": "",
         "Icon": "MANTICORE",
         "Cost": 993,
@@ -108,10 +108,6 @@
         {
             "Location": "Turret",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false

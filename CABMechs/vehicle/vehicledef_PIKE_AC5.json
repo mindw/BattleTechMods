@@ -1,27 +1,24 @@
 {
     "Version": 1,
     "Description": {
-        "Id": "vehicledef_CARRIER_HEAVYLRM",
-        "Name": "Heavy LRM Carrier",
+        "Id": "vehicledef_PIKE_AC5",
+        "Name": "Pike Support Vehicle AC5",
         "Details": "",
         "Icon": "",
         "Cost": 993,
         "Rarity": 4,
         "Purchasable": false
     },
-    "ChassisID": "vehiclechassisdef_CARRIER_HEAVYLRM",
+    "ChassisID": "vehiclechassisdef_PIKE_AC5",
     "VehicleTags": {
         "items": [
-            "mr-resize-1.73",
+            "mr-resize-1.19",
             "unit_vehicle",
-            "unit_vehicle_carrier",
-            "unit_assault",
+            "unit_heavy",
             "unit_tracks",
-            "unit_indirectFire",
             "unit_range_long",
             "unit_speed_low",
             "unit_armor_low",
-            "unit_lance_support",
             "unit_release",
             "NotDavion",
             "NotLiao",
@@ -29,140 +26,140 @@
             "NotSteiner",
             "NotKurita",
             "MagistracyOfCanopus",
-            "TaurianConcordat",
-            "NoFaction",
-            "Locals",
-            "AuriganDirectorate",
-            "AuriganRestoration",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
             "NotComStar",
-            "MercenaryReviewBoard",
-            "AuriganPirates",
-            "AuriganMercenaries"
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },
     "Locations": [
         {
             "Location": "Front",
-            "CurrentArmor": 70,
-            "CurrentInternalStructure": 40,
-            "AssignedArmor": 70,
+            "CurrentArmor": 165,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 165,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Left",
-            "CurrentArmor": 60,
-            "CurrentInternalStructure": 40,
-            "AssignedArmor": 60,
+            "CurrentArmor": 125,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 125,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Right",
-            "CurrentArmor": 60,
-            "CurrentInternalStructure": 40,
-            "AssignedArmor": 60,
+            "CurrentArmor": 125,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 125,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Rear",
-            "CurrentArmor": 60,
-            "CurrentInternalStructure": 40,
-            "AssignedArmor": 60,
+            "CurrentArmor": 125,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 125,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Turret",
-            "CurrentArmor": 70,
-            "CurrentInternalStructure": 40,
-            "AssignedArmor": 70,
+            "CurrentArmor": 180,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 180,
             "DamageLevel": "Functional"
         }
     ],
     "inventory": [
         {
-            "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+            "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Turret",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+            "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Turret",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
             "ComponentDefType": "Weapon",
-            "MountedLocation": "Turret",
-            "HardpointSlot": 2,
+            "MountedLocation": "Front",
+            "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
             "ComponentDefType": "Weapon",
-            "MountedLocation": "Turret",
-            "HardpointSlot": 3,
+            "MountedLocation": "Front",
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
     ],
-    "MinAppearanceDate": "3058-01-01T00:00:00Z"
+    "MinAppearanceDate": "3004-01-01T00:00:00Z"
 }

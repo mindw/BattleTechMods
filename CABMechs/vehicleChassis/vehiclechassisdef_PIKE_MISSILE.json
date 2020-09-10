@@ -1,7 +1,7 @@
 {
     "Description": {
-        "Id": "vehiclechassisdef_PIKE",
-        "Name": "Pike Support Vehicle",
+        "Id": "vehiclechassisdef_PIKE_MISSILE",
+        "Name": "Pike Support Vehicle Missile",
         "Details": "",
         "Icon": "MANTICORE",
         "Cost": 993,
@@ -109,15 +109,11 @@
             "Location": "Turret",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],

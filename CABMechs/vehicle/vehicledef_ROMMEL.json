@@ -17,6 +17,8 @@
             "unit_heavy",
             "unit_tracks",
             "unit_range_medium",
+            "unit_indirectFire", 
+            "unit_lance_tank",
             "unit_release",
             "Davion",
             "NotLiao",

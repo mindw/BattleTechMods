@@ -17,6 +17,8 @@
             "unit_tracks",
             "unit_range_long",
             "unit_armor_low",
+            "unit_lance_support",
+            "unit_indirectFire", 
             "unit_release",
             "Davion",
             "Liao",

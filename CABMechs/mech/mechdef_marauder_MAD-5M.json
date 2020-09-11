@@ -1,21 +1,19 @@
 {
-    "MinAppearanceDate": "3047-01-01T00:00:00Z",
+    "MinAppearanceDate": "3051-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
-            "KSBeta",
-            "unit_heavy",
+            "unit_heavy", 
             "unit_range_long",
-            "unit_hot",
             "unit_lance_tank",
             "unit_lance_assassin",
             "unit_role_flanker",
-            "unit_jumpOK",
+			"unit_jumpOK",
             "unit_release",
             "unit_ready",
             "Davion",
-            "NotLiao",
-            "NotMarik",
+            "Liao",
+            "Marik",
             "Steiner",
             "Kurita",
             "NotMagistracyOfCanopus",
@@ -24,28 +22,28 @@
             "NotLocals",
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotComStar",
+            "ComStar",
             "MercenaryReviewBoard",
             "NotAuriganPirates",
             "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_marauder_MAD-5D",
+    "ChassisID": "chassisdef_marauder_MAD-5M",
     "HeraldryID": null,
     "Description": {
-        "Cost": 20180000,
+        "Cost": 20030000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Marauder MAD-5D",
-        "Id": "mechdef_marauder_MAD-5D",
+        "UIName": "Marauder MAD-5M",
+        "Id": "mechdef_marauder_MAD-5M",
         "Name": "Marauder",
-        "Details": "The 5D Marauder was the first updated variant to be designed in the wake of the Helm Memory Core recovery, coming off the factory lines in 3051. A direct upgrade of the 3D model, the 5D's engine was replaced with a General Motors 300 XL Engine, retaining the same speed profile at a much-reduced weight, to allow the entire weapons payload to be stripped out and upgraded.",
+        "Details": "The 5M variant of the Marauder was introduced in 3051 by Ronin Inc. and Free Worlds Defense Industries for the Free Worlds League. Compared to the original it replaced the standard fusion engine with an XL Engine and completely re-armed the 'Mech with recovered Star League-era weapons.",
         "Icon": "uixTxrIcon_marauder"
     },
-    "simGameMechPartCost": 2020000,
+    "simGameMechPartCost": 2000000,
     "Version": 1,
     "Locations": [
         {
@@ -60,19 +58,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 115,
+            "CurrentArmor": 110,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 115,
+            "AssignedArmor": 110,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 120,
+            "CurrentArmor": 85,
             "CurrentRearArmor": 40,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 120,
+            "AssignedArmor": 85,
             "AssignedRearArmor": 40
         },
         {
@@ -87,37 +85,37 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 120,
+            "CurrentArmor": 85,
             "CurrentRearArmor": 40,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 120,
+            "AssignedArmor": 85,
             "AssignedRearArmor": 40
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 115,
+            "CurrentArmor": 110,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 115,
+            "AssignedArmor": 110,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 150,
+            "CurrentArmor": 90,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 150,
+            "AssignedArmor": 90,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 150,
+            "CurrentArmor": 90,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 150,
+            "AssignedArmor": 90,
             "AssignedRearArmor": -1
         }
     ],
@@ -135,7 +133,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -168,10 +166,10 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -179,7 +177,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -201,7 +199,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -212,18 +210,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

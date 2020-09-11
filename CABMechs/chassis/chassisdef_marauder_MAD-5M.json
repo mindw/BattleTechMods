@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 16900000,
+        "Cost": 16700000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Marauder",
-        "Id": "chassisdef_marauder_MAD-5D",
+        "Id": "chassisdef_marauder_MAD-5M",
         "Name": "Marauder",
-        "Details": "The 5D Marauder was the first updated variant to be designed in the wake of the Helm Memory Core recovery, coming off the factory lines in 3051. A direct upgrade of the 3D model, the 5D's engine was replaced with a General Motors 300 XL Engine, retaining the same speed profile at a much-reduced weight, to allow the entire weapons payload to be stripped out and upgraded.",
+        "Details": "The 5M variant of the Marauder was introduced in 3051 by Ronin Inc. and Free Worlds Defense Industries for the Free Worlds League. Compared to the original it replaced the standard fusion engine with an XL Engine and completely re-armed the 'Mech with recovered Star League-era weapons.",
         "Icon": "uixTxrIcon_marauder"
     },
     "MovementCapDefID": "movedef_marauder_MAD-3R",
@@ -63,10 +63,6 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -77,12 +73,7 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 160,
@@ -102,11 +93,11 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -125,10 +116,6 @@
                 },
                 {
                     "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -201,7 +188,7 @@
             "z": -2.5
         }
     ],
-    "VariantName": "MAD-5D",
+    "VariantName": "MAD-5M",
     "ChassisTags": {
         "items": [
             "mech_case_left"
@@ -209,7 +196,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The Marauder 5D packs a potent array of fire power and does it with style.  It is a true classic, and I'm happy to see one in our 'Mech Bays.  It can run a bit hot, so make sure its pilot is mindful of that.",
+    "YangsThoughts": "The Free Worlds League Marauder 5M changes the role of the Marauder substantially. The Star League era weaponry fitted is much more suited to close range and the addition of Jump Jets isn't the first time it's been done on a MAD, but with the kind of work this mech will be doing, it really works.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",

@@ -76,6 +76,13 @@
 * FF armor
 * 3.0[IS] + 6.0[E] + 6[C/G] = 15.0
 
+# SDR-7M Spirder (30t)
+* engine 240 (1 external) 8/12
+* single heatsinks (9/10) FIXME
+* Endo Steel
+* FF armor
+* 1.5[ESIS] + 11.5[E] + 6[C/G] = 19.0
+
 # VLK-QD Valkyrie (30t)
 * engine 150 (4 external) 5/8
 * 10 heat sinks (6/10) TBD

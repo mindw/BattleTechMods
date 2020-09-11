@@ -1,0 +1,38 @@
+{
+    "TargetID": "CombatGameConstants",
+    "Instructions": [
+        {
+            "JSONPath": "ResolutionConstants",
+            "Action": "ObjectMerge",
+            "Value": {
+                "VehicleEvasiveResultMultiplier": 1,
+                "VehiclesGetGuarded": true
+            }
+        },
+        {
+            "JSONPath": "ToHit",
+            "Action": "ObjectMerge",
+            "Value": {
+                "ToHitVehicleMedium": 1,
+                "ToHitVehicleLight": 3,
+                "ToHitTurretAssault": -4,
+                "ToHitTurretHeavy": -3,
+                "ToHitTurretMedium": -2,
+                "ToHitTurretLight": -1,
+                "ToHitMinimumRange": 8,
+                "ToHitShortRange": 0,
+                "ToHitMediumRange": 2,
+                "ToHitLongRange": 4,
+                "ToHitMaximumRange": 6
+            }
+        },
+        {
+            "JSONPath": "CameraConstants",
+            "Action": "ObjectMerge",
+            "Value": {
+                "ZoomSpeed": 1800.0,
+                "MaxHeightAboveTerrain": 700.0
+            }
+        }
+    ]
+}

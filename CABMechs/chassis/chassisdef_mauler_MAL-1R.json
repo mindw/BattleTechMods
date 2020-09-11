@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_maulerbase-001",
     "PrefabBase": "mauler",
     "Tonnage": 90,
-    "InitialTonnage": 22.5,
+    "InitialTonnage": 23.5,
     "weightClass": "ASSAULT",
     "Heatsinks": 30,
     "MaxJumpjets": 3,
@@ -206,7 +206,7 @@
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Long Range Juggernaut",
+    "StockRole": "Sniper",
     "YangsThoughts": "The Mauler MAL-1R can be quite a formidable adversary to face, especially if it gets you on clear open terrain where it can maximize the use of its quad AC2s and 2 ER Large Lasers.  If you can return fire however it does suffer from slight vulnerability as destroying the XL Engine itself, that is partly in the side torsos, is enough to take out the 'Mech.",
     "FixedEquipment": [
         {

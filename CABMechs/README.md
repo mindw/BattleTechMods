@@ -503,8 +503,8 @@
 * XL engine 270 3/5
 * double heatsinks (10/11)
 * FF armor
-* CASE (+1.0 armor on C/L/R torso)
-* 9[IS] + 7.5[XLE] + 6[C/G] = 22.5
+* CASE
+* 9[IS] + 7.5[XLE] + 6[C/G] + 1[CASE] = 23.5
 
 # AS7-K Atlas (100t)
 * XL engine 300 (2 internal) 3/5

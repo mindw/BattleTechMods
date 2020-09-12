@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Lindenmarle",
     "Name": "Lindenmarle",
-    "Details": "<i>Here might be dragons.</i>",
+    "Details": "Another former Canopian paradise colony, Lindenmarle declined during the Succession Wars as several raids removed or destroyed nearly all of its infrastructure and its residents reverted to a technological level similar to the 21st century on Terra. The Magistracy still retains a presence in the world, mostly operating schools and medical centers.",
     "Icon": ""
   },
   "Position": {
@@ -16,7 +16,10 @@
       "planet_size_medium",
       "planet_climate_terran",
       "planet_pop_small",
+      "planet_civ_periphery",
+      "planet_industry_agriculture",
       "planet_faction_magistracy",
+      "planet_feature_comet",
       "planet_progress_3"
     ],
     "tagSetSourceFile": ""

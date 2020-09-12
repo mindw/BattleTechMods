@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate": "2735-01-01T00:00:00Z",
+    "MinAppearanceDate": "2866-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
@@ -7,43 +7,29 @@
             "unit_indirectFire",
             "unit_range_long",
             "unit_armor_high",
-            "unit_speed_high",
+            "unit_hot",
             "unit_lance_support",
             "unit_role_sniper",
             "unit_release",
-            "NotDavion",
-            "NotLiao",
-            "NotMarik",
-            "NotSteiner",
-            "NotKurita",
-            "NotMagistracyOfCanopus",
-            "NotTaurianConcordat",
-            "NotNoFaction",
-            "NotLocals",
-            "NotAuriganDirectorate",
-            "NotAuriganRestoration",
-            "ComStar",
-            "NotMercenaryReviewBoard",
-            "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_bombardier_BMB-12D",
+    "ChassisID": "chassisdef_bombardier_BMB-10D",
     "HeraldryID": null,
     "Description": {
-        "Cost": 18300000,
+        "Cost": 7200000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Bombardier BMB-12D",
-        "Id": "mechdef_bombardier_BMB-12D",
+        "UIName": "Bombardier BMB-10D",
+        "Id": "mechdef_bombardier_BMB-10D",
         "Name": "Bombardier",
         "Details": "Continuing the trend toward specialized BattleMechs, the Bombardier was proposed to the Star League in 2735 by Wakazashi Enterprises as an artillery 'Mech. The Bombardier proved itself extremely effective at fulfilling the long-range fire support role, but while it has an excellent reach only two tons of ammunition means ammo runs dry after only twelve salvos.",
         "Icon": "uixTxrIcon_bombardier"
     },
-    "simGameMechPartCost": 1830000,
+    "simGameMechPartCost": 720000,
     "Version": 1,
     "Locations": [
         {
@@ -133,9 +119,20 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_AMS_Cal-Boeing",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
             "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",

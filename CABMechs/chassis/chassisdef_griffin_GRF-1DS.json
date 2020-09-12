@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_griffinBase-001",
     "PrefabBase": "griffin",
     "Tonnage": 55,
-    "InitialTonnage": 20.5,
+    "InitialTonnage": 21,
     "weightClass": "MEDIUM",
     "Heatsinks": 36,
     "MaxJumpjets": 5,
@@ -215,7 +215,7 @@
 		],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Striker & Skirmisher",
+    "StockRole": "Missile Boat",
     "YangsThoughts": "Griffin 1DS uses it's Jump Jets to stay at range and pelt their opponents from relative safety. The 1DS can spend all it's time bounding around the battlefield taking potshots thanks to its excessive number of double heat sinks.",
     "FixedEquipment": [
         {

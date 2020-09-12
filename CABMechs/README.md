@@ -217,8 +217,8 @@
 # GRF-1DS/3M Griffin (55t)
 * XL engine 275 (1 internal) 5/8
 * Double heatsinks (11/14)
-* CASE (+0.5 armor on L/R torso)
-* InitialTonnage 20.5 = 5.5[IS] + 8[EXL] + 3[C] + 3[G] + 1.0[EDHS]
+* CASE
+* 5.5[IS] + 8[EXL] + 3[C] + 3[G] + 1.0[EDHS] + 0.5[CASE] = 21
 
 # KTO-20 Kintaro (55t)
 * engine 275 (1 internal) 5/8
@@ -274,8 +274,8 @@
 # DRG-5K Grand Dragon (60t)
 * XL engine 360 (4 internal) 6/9    
 * double heatsinks (13/13)
-* CASE (+0.5 armor on L/R torso)
-* 6.0[IS] + 16.5[XLE] + 7[C/G] + 3[DHS] = 32.5
+* CASE
+* 6.0[IS] + 16.5[XLE] + 7[C/G] + 3[DHS] + 0.5[CASE] = 33
 
 # LNC25-01 Lancelot (60t)
 * XL engine 360 (4 internal) 6/9

@@ -88,8 +88,8 @@
 * 10 heat sinks (6/10) TBD
 * Endo Steel
 * FF armor
-* CASE (+0.5 armor on C/L/R torso)
-* 1.5[ESIS] + 5.5[E] + 5[C/G] = 12.0
+* CASE
+* 1.5[ESIS] + 5.5[E] + 5[C/G] + 0.5[CASE] = 12.5
 
 # FS9-S/S1 Firestarter (35t)
 * engine 210 (2 external) 6/9
@@ -354,12 +354,12 @@
 * CASE (+1.0 armor on C/L/R torso)
 * 6.5[IS] + 7[XLE] + 6[C/G] = 19.5
 
-# TDR-7M Thunderbolt (65t)
+# TDR-7M/9S Thunderbolt (65t)
 * engine 260 4/6
 * Double heatsinks (10/15)
-* FF armor
-* CASE (+1.0 armor on C/L/R torso)
-* 6.5[IS] + 13.5[E] + 6[C/G] = 26.0
+* 7M: FF armor
+* CASE
+* 6.5[IS] + 13.5[E] + 6[C/G] +1[CASE] = 27.0
 
 # ARC-4M Archer (70t)
 * engine 280 (1 internal) 4/6
@@ -455,8 +455,8 @@
 * engine 320 (2 internal) 4/6
 * Double heatsinks (12/18)
 * Endo Steel
-* CASE (+1.0 armor on C/L/R torso)
-* 4[ENIS] + 22.5[E] + 7[C/G] + 2[DHS] = 35.5
+* CASE
+* 4[ENIS] + 22.5[E] + 7[C/G] + 2[DHS] +1[CASE] = 36.5
 
 # VTR-9K/D Victor (80t)
 * engine 320 (2 internal) 4/6

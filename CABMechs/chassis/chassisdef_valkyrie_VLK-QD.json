@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_valkyriehotd-001",
     "PrefabBase": "valkyrie",
     "Tonnage": 30,
-    "InitialTonnage": 12.0,
+    "InitialTonnage": 12.5,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 5,
@@ -187,7 +187,8 @@
     "ChassisTags": {
         "items": [
             "mr-resize-0.95-0.95-0.95",
-            "chassis_ferro"
+			"chassis_ferro",
+			"mech_case_right"
         ],
         "tagSetSourceFile": ""
     },

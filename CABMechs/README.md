@@ -133,11 +133,17 @@
 * Double heatsinks (9/10) TBD
 * 4[IS] + 11.5[E] + 6[C/G] = 21.5
 
+# HER-5S Hermes II (40t)
+* engine 240 (1 external) 6/9
+* Double heatsinks (9/10) TBD
+* Endo Steel
+* 2[ESIS] + 11.5[E] + 6[C/G] = 19.5
+
 # VL-5M Vulcan (40t)
 * engine 240 (1 external) 4/6
 * Double heatsinks (9/11) TBD
 * Endo Steel
-* 2[IS] + 11.5[E] + 6[C/G] = 19.5
+* 2[ESIS] + 11.5[E] + 6[C/G] = 19.5
 
 # VL-5S Vulcan (40t)
 * engine 240 (1 external) 6/9

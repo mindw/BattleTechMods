@@ -353,14 +353,14 @@
 * engine 280 (1 internal) 4/6
 * Double heatsinks (10/10)
 * Endo Steel
-* CASE (+1.0 armor on L/R/C torso)
-* 3.5[ESIS] + 16[E] + 6[C/G] = 25.5
+* CASE
+* 3.5[ESIS] + 16[E] + 6[C/G] + 1[CASE] = 26.5
 
 # ARC-5S Archer (70t)
 * XL engine 280 (1 internal) 4/6
 * Double heatsinks (10/10)
-* CASE (+1.0 armor on L/R/C torso)
-* 7[IS] + 8[XLE] + 6[C/G] = 21
+* CASE
+* 7[IS] + 8[XLE] + 6[C/G] + 1[CASE] = 22
 
 # ARC-5R Archer (70t)
 * engine 280 (1 internal) 4/6
@@ -510,8 +510,8 @@
 * XL engine 300 (2 internal) 3/5
 * single heatsinks (12/20)
 * Endo Steel
-* CASE (+1.0 armor on C/L/R torso)
-* 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] = 27.5
+* CASE
+* 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] + 1[CASE] = 28.5
 
 # AS7-S Atlas (100t)
 * engine 300 (2 internal) 3/5

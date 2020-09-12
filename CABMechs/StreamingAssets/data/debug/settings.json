@@ -2,7 +2,7 @@
   "enforceMinAppearnceDateForUnits" : true,
   "enforceRequiredCompanyTagsForUnits" : true,
   "addDynamicFactionTagForUnits" : false,
-  "addDynamicNotFactionTagForUnits" : false,
+  "addDynamicNotFactionTagForUnits" : true,
   "addDynamicFactionTagForPilots" : false,
   "addDynamicNotFactionTagForPilots" : false,
 }

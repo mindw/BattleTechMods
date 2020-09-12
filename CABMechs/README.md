@@ -323,6 +323,12 @@
 * CASE (+0.5 armor on L/R torso)
 * 6.5[IS] + 7[XLE] + 6[C/G] = 19.5
 
+# BMB-12D Bombardier (65t)
+* XL engine 325 (3 internal) 5/8
+* FF armor
+* CASE
+* 6.5[IS] + 12[XLE] + 7[C/G] + 0.5[CASE] = 26
+
 # CRD-5S Crusader (65t)
 * engine 260 4/6
 * double heatsinks (10/10)

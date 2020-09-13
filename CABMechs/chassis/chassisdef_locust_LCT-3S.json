@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_locustBase-001",
     "PrefabBase": "locust",
     "Tonnage": 20,
-    "InitialTonnage": 12.0,
+    "InitialTonnage": 12.5,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 8,

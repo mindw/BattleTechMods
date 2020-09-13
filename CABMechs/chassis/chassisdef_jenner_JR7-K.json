@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_jennerBase-001",
     "PrefabBase": "jenner",
     "Tonnage": 35,
-    "InitialTonnage": 21.5,
+    "InitialTonnage": 22,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 7,

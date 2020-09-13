@@ -10,8 +10,8 @@
 * 10 heat sinks (6/10) TBD
 * Endo Steel
 * FF armor
-* CASE (+0.5 armor on C/L/R torso)
-* 1[ESIS] + 6[E] + 5[C/G] = 12.0
+* CASE
+* 1[ESIS] + 6[E] + 5[C/G] + 0.5[CASE] = 12.5
 
 # MCY-97/99 Mercury (20t)
 * engine 160 (4 external) 8/12
@@ -31,16 +31,16 @@
 * 10 heat sinks (4/10) TBD
 * Endo Steel
 * FF armor
-* 3M: CASE (+0.5 armor on C/L/R torso)
-* 1[ESIS] + 4[E] + 5[C/G] = 10.0
+* 3M: CASE
+* 1[ESIS] + 4[E] + 5[C/G] = 10.0 (3M: + 0.5[CASE] = 10.5)
 
 # COM-5S Commando (25t)
 * engine 150 (4 external) 6/9
 * 10 heat sinks (6/10) TBD
 * Endo Steel
-* CASE (+0.5 armor on C/L/R torso)
+* CASE
 * FF armor
-* 1.5[ESIS] + 5.5[E] + 5[C/G] = 12.0
+* 1.5[ESIS] + 5.5[E] + 5[C/G] + 0.5[CASE] = 12.5
 
 # MON-66 Mongoose (25t)
 * engine 200 (2 external) 8/12
@@ -76,7 +76,7 @@
 * FF armor
 * 3.0[IS] + 6.0[E] + 6[C/G] = 15.0
 
-# SDR-7M Spirder (30t)
+# SDR-7M Spider (30t)
 * engine 240 (1 external) 8/12
 * single heatsinks (9/10) FIXME
 * Endo Steel
@@ -101,8 +101,8 @@
 * engine 245 (1 external) 7/11
 * single heatsinks (9/10) -  FIXME 1 external (H)
 * FF armor
-* CASE (+0.5 armor on L/R torso)
-* 3.5[IS] + 12.0[XLE] + 6[C/G] = 21.5
+* CASE
+* 3.5[IS] + 12.0[XLE] + 6[C/G] + 0.5[CASE] = 22.0
 
 # PNT-10K/10KA Panther (35t)
 * engine 140 (5 external) 4/6
@@ -114,8 +114,8 @@
 * XL engine 210 (2 external) 6/9
 * single heatsinks (8/11) FIXME
 * FF armor
-* CASE (+0.5 armor on L/R torso)
-* 3.5[IS] + 4.5[XLE] + 6[C/G] = 14.0
+* CASE
+* 3.5[IS] + 4.5[XLE] + 6[C/G] + 0.5[CASE] = 14.5
 
 # SDR-9K/9KA Venom (35t)
 * XL engine 280 (1 internal)
@@ -125,8 +125,8 @@
 
 # CDA-3M Cicada (40t)
 * XL engine 320 (2 internal) 8/12
-* CASE (+0.5 armor on C/L/R torso)
-* 4[IS] + 11.5[XLE] + 7[C/G] = 22.5
+* CASE
+* 4[IS] + 11.5[XLE] + 7[C/G] + 0.5[CASE] = 23
 
 # CLNT-2-3U Clint (40t)
 * engine 240 (1 external) 6/9

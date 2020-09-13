@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_waspHotD-001",
     "PrefabBase": "wasp",
     "Tonnage": 20,
-    "InitialTonnage": 10.0,
+    "InitialTonnage": 10.5,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 6,

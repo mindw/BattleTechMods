@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_cicadaBase-001",
     "PrefabBase": "cicada",
     "Tonnage": 40,
-    "InitialTonnage": 22.5,
+    "InitialTonnage": 23,
     "weightClass": "MEDIUM",
     "Heatsinks": 20,
     "MaxJumpjets": 8,

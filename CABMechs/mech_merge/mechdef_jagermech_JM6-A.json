@@ -1,0 +1,32 @@
+{
+    "MinAppearanceDate": "2778-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_heavy",
+            "unit_release",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_range_long",
+            "unit_indirectFire",
+            "unit_hot",
+            "unit_armor_low",
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

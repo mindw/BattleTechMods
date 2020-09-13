@@ -1,0 +1,29 @@
+{
+    "MinAppearanceDate" : "2036-01-01T00:00:00Z", 
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_release",
+            "unit_armor_high",
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "MercenaryReviewBoard",
+            "NotAuriganPirates",
+            "AuriganMercenaries"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

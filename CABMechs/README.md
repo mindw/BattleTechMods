@@ -186,6 +186,12 @@
 * CASE (+0.5 armor on L/R torso)
 * 4.5[IS] + 7.5[XLE] + 6[C/G] = 18.0
 
+# VND-3L Vindicator (45t)
+* engine 180 (3 external) 4/6
+* Double heatsinks (7/15) TBD
+* CASE
+* 4.5[IS] + 7.0[E] + 5[C/G] + 0.5[CASE] = 17
+
 # HBK-5M Hunchback (50)
 * engine 200 (2 external) 4/6
 * Double heatsinks (8/13) FIXME

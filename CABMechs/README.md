@@ -422,6 +422,12 @@
 * double heatsinks (11/18)
 * 7[IS] + 16[E] + 6[C/G] + 1[DHS] = 30.0
 
+# BL-6-KNT Black Knight (75t)
+* engine 300 (2 internal) 4/6
+* single heatsinks (12/20)
+* Endo Steel
+* 4.0[IS] + 19[E] + 6[C/G] + 2[HS] = 31
+
 # FLS-8K Flashman (75t)
 * XL engine 375 (5 internal HS) 5/8
 * double heatsinks (15/15)

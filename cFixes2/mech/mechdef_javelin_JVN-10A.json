@@ -8,11 +8,10 @@
             "unit_lance_support",
             "unit_role_sniper",
             "unit_range_long",
-            "unit_speed_high",
             "unit_armor_low"
             "unit_jumpOK",
             "unit_dlc",
-            "Davion"
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },

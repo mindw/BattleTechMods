@@ -1,8 +1,11 @@
-{	
-  "enforceMinAppearnceDateForUnits" : true,
-  "enforceRequiredCompanyTagsForUnits" : true,
-  "addDynamicFactionTagForUnits" : false,
-  "addDynamicNotFactionTagForUnits" : true,
-  "addDynamicFactionTagForPilots" : false,
-  "addDynamicNotFactionTagForPilots" : false,
+{
+    "disableSplashScreens": true,
+    "disableIntroMovie": true,
+    "testToolsEnabled": true,
+    "enforceMinAppearnceDateForUnits": true,
+    "enforceRequiredCompanyTagsForUnits": true,
+    "addDynamicFactionTagForUnits": false,
+    "addDynamicNotFactionTagForUnits": true,
+    "addDynamicFactionTagForPilots": false,
+    "addDynamicNotFactionTagForPilots": false
 }

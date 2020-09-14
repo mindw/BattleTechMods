@@ -232,7 +232,7 @@ them your mech bay.
 * Double heatsinks
 * InitialTonnage 41.5 = 4.5[ENIS] + 27[E] + 3[C] + 4[G] + 3[EDHS]
 
-# CRB-27b Crab 
+# CRB-27b Crab (50t)
 * Revised from stock - weapon load out, mirror cFixes tonnage
 * SLDF Royal
 * Double heatsinks
@@ -245,6 +245,20 @@ them your mech bay.
 * double heatsinks (14/16)
 * FF armor (-1.0 initial tonnage, +1.0 armor) (152->152)
 * 6.0[IS] + 16.5[XLE] + 7[C/G] + 4[DHS] -1[FF] = 32.5
+
+# CRB-27sl Crab (50t)
+* SLDF
+* XL engine 250 5/8
+* double heatsinks (10/14)
+* FF armor (-1 initial tonnage, +1 armor)
+* 5.0[IS] + 6.5[XLE] + 6[C/G] -1[FF] = 16.5
+
+# MSH-9HKR Mackie "Kill-Roy's Little Buddy" (100t)
+* SLDF
+* engine 300 (2 internal) 3/5
+* double heatsinks (12/13)
+* CASE (L/R Torso)
+* 10[IS] + 19.0[E] + 6[C/G] + 2[DHS] +1[CASE] = 38
 
 # TODO
 * EXT-4Db Exterminator

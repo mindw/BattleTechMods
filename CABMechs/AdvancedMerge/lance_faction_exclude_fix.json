@@ -1,0 +1,42 @@
+{
+    "TargetIDs": [
+        "lancedef_mech_dynamic_common",
+        "lancedef_mech_dynamic_davion",
+        "lancedef_mech_dynamic_kurita",
+        "lancedef_mech_dynamic_liao",
+        "lancedef_mech_dynamic_magistracy",
+        "lancedef_mech_dynamic_marik",
+        "lancedef_mech_dynamic_steiner",
+        "lancedef_mech_dynamic_taurian"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "LanceUnits[0].excludedUnitTagSet.items",
+            "Action": "ArrayConcat",
+            "Value": [
+                "unit_urbie"
+            ]
+        },
+        {
+            "JSONPath": "LanceUnits[1].excludedUnitTagSet.items",
+            "Action": "ArrayConcat",
+            "Value": [
+                "unit_urbie"
+            ]
+        },
+        {
+            "JSONPath": "LanceUnits[2].excludedUnitTagSet.items",
+            "Action": "ArrayConcat",
+            "Value": [
+                "unit_urbie"
+            ]
+        },
+        {
+            "JSONPath": "LanceUnits[3].excludedUnitTagSet.items",
+            "Action": "ArrayConcat",
+            "Value": [
+                "unit_urbie"
+            ]
+        }
+    ]
+}

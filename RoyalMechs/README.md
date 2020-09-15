@@ -25,6 +25,14 @@ them your mech bay.
 * CASE (-1 initial tonnage, +1 armor)
 * ArtemisIV (replace with Missile TTS)
 
+# KGC-010 King Crab
+* SLDF Royal
+* engine 300 (2 internal) 3/5
+* double heatsinks (10/10)
+* Endo steel
+* CASE (-1 initial tonnage, +1 armor)
+* 5[ESIS] + 19.0[E] + 6[C/G] = 30
+
 # TBT-3C Trebuchet
 * SLDF Royal
 * XL Engine (6,9)
@@ -302,7 +310,6 @@ them your mech bay.
 # TODO
 * EXT-4Db Exterminator
 * AS7-D-H Atlas II
-* KGC-010 King Crab
 * WVE-5Nb Wyvern
 * THE-Nb Thorn
 * FLC-4Nb Falcon

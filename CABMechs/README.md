@@ -468,7 +468,7 @@
 * Double heatsinks (12/18)
 * Endo Steel
 * CASE
-* 4[ENIS] + 22.5[E] + 7[C/G] + 2[DHS] +1[CASE] = 36.5
+* 4[ENIS] + 22.5[E] + 7[C/G] + 2[DHS] + 1[CASE] = 36.5
 
 # VTR-9K/D Victor (80t)
 * engine 320 (2 internal) 4/6
@@ -481,8 +481,15 @@
 * engine 320 (2 internal) 4/6
 * Double heatsinks (12/17)
 * FF armor
-* CASE (+0.5 armor on L/R torso)
-* 8[IS] + 22.5[E] + 7[C/G] + 2[DHS] = 39.5
+* CASE
+* 8[IS] + 22.5[E] + 7[C/G] + 2[DHS] + 0.5[CASE] = 40
+
+# ZEU-9S2 Zues (80t)
+* XL engine 320 (2 internal) 4/6
+* Double heatsinks (12/12)
+* FF armor
+* CASE
+* 8[IS] + 11.5[E] + 7[C/G] + 2[DHS] + 0.5[CASE] = 29
 
 # BLR-3M BattleMaster (85t)
 * engine 340 (3 internal) 4/6

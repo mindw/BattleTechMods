@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrprfmech_masondevbase-001",
     "PrefabBase": "masondev",
     "Tonnage": 100,
-    "InitialTonnage": 35,
+    "InitialTonnage": 37,
     "weightClass": "ASSAULT",
-    "Heatsinks": 0,
+    "Heatsinks": 6,
     "MaxJumpjets": 3,
     "Stability": 200,
     "StabilityDefenses": [

@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrPrfMech_bansheeBase-001",
   "PrefabBase": "banshee",
   "Tonnage": 95,
-  "InitialTonnage": 57.5,
+  "InitialTonnage": 59.5,
   "weightClass": "ASSAULT",
-  "Heatsinks": 0,
+  "Heatsinks": 6,
   "MaxJumpjets": 4,
   "Stability": 200,
   "StabilityDefenses": [

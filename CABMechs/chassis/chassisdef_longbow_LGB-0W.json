@@ -17,9 +17,9 @@
   "PrefabIdentifier": "chrprfmech_longbowbase-001",
   "PrefabBase": "longbow",
   "Tonnage": 85,
-  "InitialTonnage": 42.5,
+  "InitialTonnage": 45.5,
   "weightClass": "ASSAULT",
-  "Heatsinks": 0,
+  "Heatsinks": 9,
   "MaxJumpjets": 4,
   "Stability": 200,
   "StabilityDefenses": [

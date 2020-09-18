@@ -431,8 +431,14 @@
 * Endo Steel
 * 4.0[IS] + 19[E] + 6[C/G] + 2[HS] = 31
 
+# FLC-8R Falconer (75t)
+* XL engine 375 (5 internal) 5/8
+* Double heatsinks (10/10)
+* Endo Steel
+* 4.0[IS] + 19.5[XLE] + 7[C/G] = 30.5
+
 # FLS-8K Flashman (75t)
-* XL engine 375 (5 internal HS) 5/8
+* XL engine 375 (5 internal) 5/8
 * double heatsinks (15/15)
 * 7.5[IS] + 19.5[XLE] + 7[C/G] + 5[DHS] = 39
 

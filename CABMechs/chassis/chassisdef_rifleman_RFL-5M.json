@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_riflemanBase-001",
     "PrefabBase": "rifleman",
     "Tonnage": 60,
-    "InitialTonnage": 18.0,
+    "InitialTonnage": 18.5,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
     "MaxJumpjets": 4,

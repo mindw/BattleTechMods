@@ -149,14 +149,14 @@
 * engine 240 (1 external) 6/9
 * single heatsinks (9/10) TBD
 * FF armor
-* CASE (+0.5 armor on C/L/R torso)
-* 4[ESIS] + 6.0[E] + 6[C/G] = 16.0
+* CASE
+* 4[ESIS] + 6.0[E] + 6[C/G] + 0.5[CASE] = 16.5
 
 # HCT-3S Hatchetman (45t)
 * XL engine 180 (4/6)
 * FF armor
-* CASE (+0.5 armor on C/L/R torso)
-* 4.5[IS] + 3.5[XLE] + 5[C/G] = 13.0
+* CASE
+* 4.5[IS] + 3.5[XLE] + 5[C/G] + 0.5[CASE] = 13.5
 
 # PXH-3D Phoenix Hawk (45t)
 * XL engine 270 6/9
@@ -174,8 +174,8 @@
 * XL engine 270 6/9
 * Endo Steel
 * Double heatsinks (10/10)
-* CASE (+0.5 armor on L/R torso)
-* 2.5[ESIS] + 7.5[XLE] + 6[C/G] = 16.0
+* CASE
+* 2.5[ESIS] + 7.5[XLE] + 6[C/G] + 0.5[CASE] = 16.5
 
 # PXH-3S Phoenix Hawk (45t)
 * XL engine 270 6/9(12)
@@ -183,8 +183,8 @@
 * MASC
 * FF armor
 * 1t (out of 2) AMS ammo replaced with armor
-* CASE (+0.5 armor on L/R torso)
-* 4.5[IS] + 7.5[XLE] + 6[C/G] = 18.0
+* CASE
+* 4.5[IS] + 7.5[XLE] + 6[C/G] + 0.5[CASE] = 18.5
 
 # VND-3L Vindicator (45t)
 * engine 180 (3 external) 4/6
@@ -200,30 +200,30 @@
 * XL engine 300 (2 internal) 6/9
 * Single heatsinks (10/10)
 * Endo Steel
-* CASE (+0.5 armor on C/L/R torso)
-* 2.5[ESIS] + 9.5[E] + 6[C/G] = 18
+* CASE
+* 2.5[ESIS] + 9.5[E] + 6[C/G] + 0.5[CASE] = 18.5
 
 # ENF-5D Enforcer
 * XL engine 250 5/8
 * Single heatsinks (10/12)
 * FF armor
-* CASE (+0.5 armor on C/L/R torso)
-* 5.0[IS] + 6.5[XLE] + 6[C/G] = 17.5
+* CASE
+* 5.0[IS] + 6.5[XLE] + 6[C/G] + 0.5[CASE] = 18.0
 
 # TBT-7M Trebuchet (50t)
 * XL engine 250 5/8
 * Double heatsinks (10/10)
 * Endo Steel
-* CASE (+1.0 armor on L/R/C torso)
-* 2.5[ESIS] + 6.5[XLE] + 6[C/G] = 15
+* CASE
+* 2.5[ESIS] + 6.5[XLE] + 6[C/G] + 1[CASE] = 16
 
 # DV-7D Dervish (55t)
 * engine 275 (1 internal) 5/8
 * Double heatsinks (10)
 * Endo Steel
 * FF armor
-* CASE (+1.0 armor on L/R/C torso)
-* 3[ESIS] + 15.5[E] + 6[C/G] = 24.5
+* CASE
+* 3[ESIS] + 15.5[E] + 6[C/G] + 1[CASE] = 25.5
 * FIXME: AB LeftTorso is broken
 
 # GRF-1DS/3M Griffin (55t)
@@ -240,10 +240,10 @@
 
 # SHD-5M Shadow Hawk (55t)
 * XL engine 275 (1 internal) 5/8
+* Double heatsinks (10/10)
 * Endo Steel
-* Double heatsinks (10)
-* CASE (+0.5 armor on L/R torso)
-* InitialTonnage 17 = 3.0[ESIS] + 8[EXL] + 3[C] + 3[G]
+* CASE
+* 3.0[ESIS] + 8[EXL] + 3[C] + 3[G] + 0.5[CASE] = 17.5
 
 # WVR-6D/6M Wolverine (55t)
 * engine 275 (1 internal) 5/8
@@ -254,8 +254,8 @@
 * single heatsinks (11/13)
 * FF armor
 * MASC
-* CASE (+1.0 armor on L/R/C torso)
-* 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[DHS] = 20.5
+* CASE
+* 5.5[IS] + 8[EXL] + 6[C/G] + 1.0[DHS] + 1[CASE] = 21.5
 
 # WVR-7K Wolverine (55t)
 * XL engine 275 (1 internal) 5/8
@@ -281,7 +281,10 @@
 * 6.0[IS] + 9.5[XLE] + 6[C/G] = 21.5
 
 # DRG-5N Dragon (60t)
-* CASE (+1.0 armor on L/R/C torso)
+* engine 300 (2 internal) 5/8
+* single heatsinks (10/10)
+* CASE
+* 6.0[IS] + 19[E] + 6[C/G] + 1[CASE] = 32
 
 # DRG-5K Grand Dragon (60t)
 * XL engine 360 (4 internal) 6/9    
@@ -325,8 +328,8 @@
 # RFL-5M Rifleman (60t)
 * XL engine 240 (1 external) 4/6
 * double heatsinks (9(10)/12) FIXME
-* CASE (+0.5 armor on C/L/R torso)
-* 6.0[IS] + 6.0[E] + 6[C/G] = 18
+* CASE
+* 6.0[IS] + 6.0[E] + 6[C/G] + 0.5[CASE] = 18.5
 
 # AXN-1N/2N Axman (65t)
 * XL engine 260 4/6

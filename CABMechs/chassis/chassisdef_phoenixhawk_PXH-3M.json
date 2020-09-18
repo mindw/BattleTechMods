@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001",
     "PrefabBase": "phoenixhawk",
     "Tonnage": 45,
-    "InitialTonnage": 16.0,
+    "InitialTonnage": 16.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 6,

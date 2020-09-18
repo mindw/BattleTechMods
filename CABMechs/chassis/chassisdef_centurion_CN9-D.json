@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_centurionBase-001",
     "PrefabBase": "centurion",
     "Tonnage": 50,
-    "InitialTonnage": 18.0,
+    "InitialTonnage": 18.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 0,
     "MaxJumpjets": 6,

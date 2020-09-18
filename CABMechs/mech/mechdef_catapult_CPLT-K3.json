@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate" : "3047-01-01T00:00:00Z", 
+    "MinAppearanceDate": "3047-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
@@ -9,7 +9,6 @@
             "unit_lance_support",
             "unit_role_sniper",
             "unit_range_long",
-            "unit_armor_high",
             "NotDavion",
             "NotLiao",
             "NotMarik",
@@ -25,7 +24,7 @@
             "NotMercenaryReviewBoard",
             "NotAuriganPirates",
             "NotAuriganMercenaries"
-            ],
+        ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_catapult_CPLT-K3",

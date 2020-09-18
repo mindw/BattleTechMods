@@ -1,7 +1,7 @@
 itemCollection_RMGZ_Custom_Mechs,,,
 mechdef_annihilator_ANH-1X,Mech,1,1
 mechdef_archer_ARC-2Rb,Mech,1,1
-mechdef_battlemaster_BLR-1Gd,1,1
+mechdef_battlemaster_BLR-1Gd,Mech,1,1
 mechdef_catapult_CPLT-C1b,Mech,1,1
 mechdef_champion_CHP-1Nb,Mech,1,1
 mechdef_crab_CRB-27sl,Mech,1,1

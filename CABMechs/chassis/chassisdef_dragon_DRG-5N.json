@@ -17,11 +17,10 @@
     "PrefabIdentifier": "chrPrfMech_dragonBase-001",
     "PrefabBase": "dragon",
     "Tonnage": 60,
-    "InitialTonnage": 31,
+    "InitialTonnage": 32,
     "weightClass": "HEAVY",
     "Heatsinks": 0,
     "MaxJumpjets": 5,
-    "TopSpeed": 150,
     "Stability": 160,
     "StabilityDefenses": [
         0,
@@ -57,6 +56,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false

@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_enforcerBase-001",
     "PrefabBase": "enforcer",
     "Tonnage": 50,
-    "InitialTonnage": 17.5,
+    "InitialTonnage": 18.0,
     "weightClass": "MEDIUM",
     "Heatsinks": 0,
     "MaxJumpjets": 5,

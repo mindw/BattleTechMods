@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_gltbase-001",
     "PrefabBase": "glt",
     "Tonnage": 70,
-    "InitialTonnage": 26.5,
+    "InitialTonnage": 27,
     "weightClass": "HEAVY",
     "Heatsinks": 3,
     "MaxJumpjets": 4,

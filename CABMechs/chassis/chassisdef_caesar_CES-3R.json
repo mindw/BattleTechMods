@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_cataphractBase-001",
     "PrefabBase": "cataphract",
     "Tonnage": 70,
-    "InitialTonnage": 22.0,
+    "InitialTonnage": 22.5,
     "weightClass": "HEAVY",
     "Heatsinks": 36,
     "MaxJumpjets": 4,

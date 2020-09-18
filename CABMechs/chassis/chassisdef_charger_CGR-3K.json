@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_chargerhotd-001",
   "PrefabBase": "charger",
   "Tonnage": 80,
-  "InitialTonnage": 43.5,
+  "InitialTonnage": 44,
   "weightClass": "ASSAULT",
   "Heatsinks": 42,
   "MaxJumpjets": 5,

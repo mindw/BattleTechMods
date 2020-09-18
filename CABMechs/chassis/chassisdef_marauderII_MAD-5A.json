@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_marauderiibase-001",
     "PrefabBase": "marauderii",
     "Tonnage": 100,
-    "InitialTonnage": 27.5,
+    "InitialTonnage": 28,
     "weightClass": "ASSAULT",
     "Heatsinks": 6,
     "MaxJumpjets": 3,
@@ -202,7 +202,9 @@
     ],
     "VariantName": "MAD-5A",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",

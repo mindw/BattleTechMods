@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
   "PrefabBase": "battlemaster",
   "Tonnage": 85,
-  "InitialTonnage": 45.5,
+  "InitialTonnage": 46.0,
   "weightClass": "ASSAULT",
   "Heatsinks": 48,
   "MaxJumpjets": 4,

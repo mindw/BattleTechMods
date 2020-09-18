@@ -393,14 +393,14 @@
 # CES-3R Caesar (70t)
 * XL engine 280 (1 internal) 4/6
 * double heatsinks (11/16)
-* CASE (+0.5 armor on C/L/R torso)
-* 7[IS] + 8[XLE] + 6[C/G] + 1[DHS]= 22
+* CASE
+* 7[IS] + 8[XLE] + 6[C/G] + 1[DHS] + 0.5[CASE] = 22.5
 
 # CTF-3D Cataphract (70t)
 * XL engine 280 (1 internal) 4/6
 * single heatsinks (11/16)
-* CASE (+1.0 armor on L/R/C torso)
-* 7[IS] + 8[XLE] + 6[C/G] + 1[HS]= 22
+* CASE
+* 7[IS] + 8[XLE] + 6[C/G] + 1[HS] + 1[CASE] = 23
 
 # CTF-3L Cataphract (70t)
 * XL engine 280 (1 internal) 4/6
@@ -417,8 +417,8 @@
 * engine 280 (1 internal) 4/6
 * single heatsinks (11/25)
 * Endo Steel
-* CASE (+0.5 armor on C/L/R torso)
-* 3.5[ESIS] + 16[E] + 6[C/G] + 1[HS] = 26.5
+* CASE
+* 3.5[ESIS] + 16[E] + 6[C/G] + 1[HS] + 0.5[CASE] = 27.0
 
 # WHM-7M/7S Warhammer (70t)
 * engine 280 (1 internal) 4/6
@@ -445,8 +445,8 @@
 # ON1-M Orion (75t)
 * XL engine 300 (2 internal) 4/6
 * Double heatsinks (11/11)
-* CASE (+1.0 armor on C/L/R torso)
-* 7.5[IS] + 9.5[XLE] + 6[C/G] + 1[DHS] = 24
+* CASE
+* 7.5[IS] + 9.5[XLE] + 6[C/G] + 1[DHS] + 1[CASE] = 25
 
 # PTR-4D Penetrator (75t)
 * engine 300 (2 internal) 4/6
@@ -463,8 +463,8 @@
 * XL engine 400 (6 internal) 5/8
 * double heatsinks (12/12)
 * FF armor
-* CASE (+0.5 armor on C/L/R torso)
-* 8.0[IS] + 26.5[XLE] + 7[C/G] + 2[DHS] = 43.5
+* CASE
+* 8.0[IS] + 26.5[XLE] + 7[C/G] + 2[DHS] + 0.5[CASE] = 44
 
 # THG-11E Thug (80t)
 * engine 320 (2 internal) 4/6
@@ -477,8 +477,8 @@
 * engine 320 (2 internal) 4/6
 * single heatsinks (12/15) - 2 internal
 * Endo Steel
-* CASE (+1.0 armor on C/L/R torso)
-* 4[ENIS] + 22.5[E] + 7[C/G] + 2[HS] = 35.5
+* CASE
+* 4[ENIS] + 22.5[E] + 7[C/G] + 2[HS] + 1[CASE] = 36.5
 
 # ZEU-9S Zues (80t)
 * engine 320 (2 internal) 4/6
@@ -497,14 +497,14 @@
 # BLR-3M BattleMaster (85t)
 * engine 340 (3 internal) 4/6
 * double heatsinks (13/18)
-* CASE (+0.5 armor on C/L/R torso)
-* 8.5[IS] + 27.0[E] + 7[C/G] + 3[DHS] = 45.5
+* CASE
+* 8.5[IS] + 27.0[E] + 7[C/G] + 3[DHS] + 0.5[CASE] = 46
 
 # BLR-3S BattleMaster (85t)
 * XL engine 340 (3 internal) 4/6
 * single heatsinks (13/22)
-* CASE (+0.5 armor on C/L/R torso)
-* 8.5[IS] + 13.5[XLE] + 7[C/G] + 3[HS] = 32.0
+* CASE
+* 8.5[IS] + 13.5[XLE] + 7[C/G] + 3[HS] + 1[CASE] = 33
 
 # STK-5M Stalker (85t)
 * engine 255 3/5
@@ -568,19 +568,26 @@
 
 # DVS-2 Devastator (100t)
 * XL engine 300 (2 internal DHS)
-* 10[IS] + 9.5[XLE] + 6[C/G] + 2[EDHS] = 27.5
+* double heatsinks (12/14)
+* 10[IS] + 9.5[XLE] + 6[C/G] + 2[DHS] = 27.5
 
-# KGC-000/001 King Crab (100t)
+# KGC-000 King Crab (100t)
 * engine 300 (2 internal) 3/5
-* double heatsinks (12/15) / (12/13)
-* CASE (+1.0 armor on C/L/R torso)
-* 10[IS] + 19.0[E] + 6[C/G] + 2[HS]= 27.5
+* single heatsinks (12/15)
+* CASE
+* 10[IS] + 19.0[E] + 6[C/G] + 2[HS] + 1[CASE] = 38
+
+# KGC-001 King Crab (100t)
+* XL engine 300 (2 internal) 3/5
+* single heatsinks (12/13)
+* CASE
+* 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] + 1[CASE] = 28.5
 
 # MAD-5A Marauder II (100t)
 * XL engine 300 (2 internal) 3/5
 * single heatsinks (12/29) - 2 internal
-* CASE (+0.5 armor on C/L/R torso)
-* 10[IS] + 9.5[XLR] + 6[C/G] + 2[DHS] = 27.5
+* CASE
+* 10[IS] + 9.5[XLE] + 6[C/G] + 2[DHS] = 28
 
 # MAD-5B Marauder II (100t)
 * engine 300 (2 internal) 3/5

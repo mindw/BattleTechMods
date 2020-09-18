@@ -210,8 +210,8 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler & Close Assault",
-    "YangsThoughts": "One of the mainstays of the heavy 'Mechs.  Solid, dependable, and heavy hitting. This one has some upgrades in the missile fire control, double heat sinks and ferro-fibrous armor.",
+    "StockRole": "Brawler",
+    "YangsThoughts": "A conservative, focused upgrade. The 6Rb is a can sustain alpha strike after alpha stike with the pilot never breaking a sweat. The extra armor is the icing on the cake. The upgrade is even simple enough to be done in any mech repair shop!",
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso",

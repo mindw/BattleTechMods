@@ -1,15 +1,28 @@
 {
-    "MinAppearanceDate": "2592-01-01T00:00:00Z",
+    "Description": {
+        "Cost": 16820000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Highlander HGN-732b",
+        "Id": "mechdef_highlander_HGN-732b",
+        "Name": "Highlander",
+        "Details": "The 732b model is a upgrade of the classic 732 built exclusively for SLDF Royal units. This variant drops two heat sinks and a ton of SRM ammo. Artemis IV FCS is added to the LRM and SRM launcher, while the heat sinks are upgraded to doubles. Additional short-range firepower comes in the form of a medium laser added to the right torso.",
+        "Icon": "uixTxrIcon_highlander"
+    },
+    "ChassisID": "chassisdef_highlander_HGN-732b",
+    "prefabOverride": "chrPrfMech_highlander_SLDFBase-001",
     "MechTags": {
         "items": [
+            "BLACKLISTED",
             "unit_mech",
             "unit_assault",
-            "unit_indirectFire",
             "unit_jumpOK",
+            "unit_indirectFire", 
+            "unit_armor_high",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_range_long",
-            "unit_armor_high",
             "unit_release",
             "unit_ready",
             "NotDavion",
@@ -23,29 +36,170 @@
             "NotLocals",
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "ComStar",
+            "NotComStar",
             "NotMercenaryReviewBoard",
             "NotAuriganPirates",
             "NotAuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_highlander_HGN-732",
-    "HeraldryID": null,
-    "Description": {
-        "Cost": 11610000,
-        "Rarity": 4,
-        "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
-        "UIName": "Highlander HGN-732",
-        "Id": "mechdef_highlander_HGN-732_comstar",
-        "Name": "Highlander",
-        "Details": "The Highlander is one of the most well-known Star League Defense Force assault 'Mechs, serving with distinction for almost two centuries since first entering service in 2592. The original 732 model features a variety of weaponry along with fifteen and a half tons of Ferro-Fibrous armor. The Highlander 732 carries a weapons mix that is more at home when fighting a ranged battle, but when the ranges close the 732 has the right equipment for the job.",
-        "Icon": "uixTxrIcon_highlander"
-    },
-    "simGameMechPartCost": 1160000,
-    "Version": 1,
+    "simGameMechPartCost": 1680000,
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_SRM_SRM6_Artemis_0-STOCK",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+            "SimGameUID": "",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_LRM_LRM20_Artemis_0-STOCK",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+            "SimGameUID": "",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+            "SimGameUID": "",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "SimGameUID": "",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+            "SimGameUID": "",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ],
     "Locations": [
         {
             "DamageLevel": "Functional",
@@ -120,182 +274,5 @@
             "AssignedRearArmor": -1
         }
     ],
-    "inventory": [
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        }
-    ]
+    "Version": 1
 }

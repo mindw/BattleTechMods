@@ -1,0 +1,21 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_medium",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_release",
+            "unit_fallback",
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_low",
+            "unit_common",
+            "NotDavion",
+            "NotKurita",
+            "Marik",
+            "NotTaurianConcordat"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

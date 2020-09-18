@@ -528,10 +528,17 @@
 
 # HGN-732 Highlander (90t)
 * engine 270 3/5
-* double heatsinks (10/12)
+* sinle heatsinks (10/12)
 * FF armor
-* CASE (+1.0 armor on C/L/R torso)
-* 9[IS] + 14.5[E] + 6[C/G] = 30
+* CASE
+* 9[IS] + 14.5[E] + 6[C/G] + 1[CASE] = 30.5
+
+# HGN-732b Highlander (90t)
+* engine 270 3/5
+* double heatsinks (10/10)
+* FF armor
+* CASE
+* 9[IS] + 14.5[E] + 6[C/G] + 1[CASE] = 30.5
 
 # MAL-1R Mauler (90t)
 * XL engine 270 3/5

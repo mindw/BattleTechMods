@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 1400000,
-        "Rarity": 0,
+        "Cost": 1600000,
+        "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Hornet",
-        "Id": "chassisdef_hornet_HNT-151",
+        "Id": "chassisdef_hornet_HNT-171",
         "Name": "Hornet",
-        "Details": "The Hornet HNT-151 is designed around the concept of being able to swiftly move through an urban environment with relatively heavy armor. Overall, because of its eclectic mix of weapons and relatively slow speed, the Hornet is only somewhat effective when inside of a city. When caught outside an urban environment the 'Mech is hard pressed to defend itself.",
+        "Details": "The upgraded HNT-171 started production in 3051. The Hornet is designed around the concept of being able to swiftly move through an urban environment with relatively heavy armor. Overall, because of its eclectic mix of weapons and relatively slow speed, the Hornet is only somewhat effective when inside of a city. When caught outside an urban environment the 'Mech is hard pressed to defend itself.",
         "Icon": "uixTxrIcon_hornet"
     },
     "MovementCapDefID": "movedef_hornet_HNT-151",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_hornetbase-001",
     "PrefabBase": "hornet",
     "Tonnage": 20,
-    "InitialTonnage": 9,
+    "InitialTonnage": 8.5,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 5,
@@ -56,6 +56,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -184,13 +188,89 @@
             "z": 0.5
         }
     ],
-    "VariantName": "HNT-151",
+    "VariantName": "HNT-171",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.85-0.85-0.85"
+            "mr-resize-0.85-0.85-0.85",
+            "chassis_ferro",
+            "mech_case_left"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Light Fire Support",
-    "YangsThoughts": "The Hornet is designed around the concept of being able to swiftly move through an urban environment with relatively heavy armor. Overall, because of its eclectic mix of weapons and relatively slow speed, the Hornet is only somewhat effective when inside of a city. When caught outside an urban environment the 'Mech is hard pressed to defend itself."
+    "StockRole": "Striker",
+    "YangsThoughts": "The Hornet is designed around the concept of being able to swiftly move through an urban environment with relatively heavy armor. Overall, because of its eclectic mix of weapons and relatively slow speed, the Hornet is only somewhat effective when inside of a city. When caught outside an urban environment the 'Mech is hard pressed to defend itself.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
 }

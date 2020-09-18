@@ -31,7 +31,7 @@
         "DisableTutorials": true,
         "DisableSimGameCharHighlights": true,
         "DisableCareerModeScoring": true,
-        "DisableHeavyMetalLootPopup": false,
+        "DisableHeavyMetalLootPopup": true,
 
         "EnableEnemyInjuryFloaties": true,
         "EnableSmallCombatFloaties": true,

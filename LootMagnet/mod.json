@@ -1,7 +1,7 @@
 {
     "Name": "LootMagnet",
     "Enabled": true,
-    "Version": "5.4.0",
+    "Version": "6.1.0",
     "Description": "Groups salvage of a similar type into a single pick. Provides lore-based employer shenanigans.",
     "Author": "IceRaptor",
     "Website": "https://github.com/IceRaptor/LootMagnet",
@@ -25,6 +25,7 @@
             { "Reputation" : "ALLIED", "RollupMultiComponent" : 21, "RollupMultiMech" : 180, "HoldbackTrigger" : 1, "HoldbackValueCapMulti" : 2 },
         ],
         "Holdback" : {
+            "Enabled" : false,
             "MechParts" : [ 2, 6 ],
             "ReputationRange" : [ 2, 6 ],
             "DisputePicks" : [ 1, 6 ],

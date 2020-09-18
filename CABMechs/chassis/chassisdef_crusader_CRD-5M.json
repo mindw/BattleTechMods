@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
     "PrefabBase": "crusader",
     "Tonnage": 65,
-    "InitialTonnage": 19.5,
+    "InitialTonnage": 20.5,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
     "MaxJumpjets": 4,

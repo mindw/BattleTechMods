@@ -335,8 +335,8 @@
 * XL engine 260 4/6
 * Double heatsinks (10/10)
 * FF armor
-* CASE (+0.5 armor on L/R torso)
-* 6.5[IS] + 7[XLE] + 6[C/G] = 19.5
+* CASE
+* 6.5[IS] + 7[XLE] + 6[C/G] + 0.5[CASE] = 20.5
 
 # BMB-12D Bombardier (65t)
 * XL engine 325 (3 internal) 5/8
@@ -347,21 +347,21 @@
 # CRD-5S Crusader (65t)
 * engine 260 4/6
 * double heatsinks (10/10)
-* CASE (+1.0 armor on C/L/R torso)
-* 6.5[IS] + 13.5[E] + 6[C/G] = 26
+* CASE
+* 6.5[IS] + 13.5[E] + 6[C/G] + 1[CASE] = 27
 
 # CRD-5M Crusader (65t)
 * XL engine 260 4/6
 * double heatsinks (10/13)
-* CASE (+1.0 armor on C/L/R torso)
-* 6.5[IS] + 7.0[E] + 6[C/G] = 19.5
+* CASE
+* 6.5[IS] + 7.0[E] + 6[C/G] + 1[CASE] = 20.5
 
 # JM6-DD JagerMech (65t)
 * XL engine 260 4/6
 * sinle heatsinks (10)
 * FF armor
-* CASE (+1.0 armor on C/L/R torso)
-* 6.5[IS] + 7[XLE] + 6[C/G] = 19.5
+* CASE
+* 6.5[IS] + 7[XLE] + 6[C/G] + 1[CASE] = 20.5
 
 # TDR-7M/9S Thunderbolt (65t)
 * engine 260 4/6
@@ -387,8 +387,8 @@
 * engine 280 (1 internal) 4/6
 * Double heatsinks (11/12)
 * Endo Steel
-* CASE (+1.0 armor on L/R/C torso)
-* 3.5[ESIS] + 16[E] + 6[C/G] + 1[DHS] = 26.5
+* CASE
+* 3.5[ESIS] + 16[E] + 6[C/G] + 1[DHS] + 1[CASE] = 27.5
 
 # CES-3R Caesar (70t)
 * XL engine 280 (1 internal) 4/6
@@ -509,13 +509,13 @@
 # STK-5M Stalker (85t)
 * engine 255 3/5
 * double heatsinks (10/17)
-* 8.5[IS] + 13.0[E] + 6[C/G]= 27.5
+* 8.5[IS] + 13.0[E] + 6[C/G] = 27.5
 
-# STK-5M Stalker (85t)
+# STK-5S Stalker (85t)
 * XL engine 255 3/5
 * single heatsinks (10/20)
-* CASE (+1.0 armor on C/L/R torso)
-* 8.5[IS] + 6.5[E] + 6[C/G]= 21.0
+* CASE
+* 8.5[IS] + 6.5[E] + 6[C/G] + 1[CASE] = 22.0
 
 # CRK-5003-1 Crockett (85t)
 * engine 255 3/5

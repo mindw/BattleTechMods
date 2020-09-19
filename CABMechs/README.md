@@ -217,6 +217,13 @@
 * CASE
 * 2.5[ESIS] + 6.5[XLE] + 6[C/G] + 1[CASE] = 16
 
+# BSW-X1/X2/S2 Bushwacker
+* XL engine 275 (1 internal) 5/8
+* Double heatsinks (11/11) X2: (10/10)
+* FF
+* CASE
+* 5.5[IS] + 8[EXL] + 6[C/G] (+ 1.0[EDHS]) + 1[CASE] = 21.5 (X2: 20.5)
+
 # DV-7D Dervish (55t)
 * engine 275 (1 internal) 5/8
 * Double heatsinks (10)

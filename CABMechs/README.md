@@ -567,6 +567,12 @@
 * CASE
 * 9[IS] + 7.5[XLE] + 6[C/G] + 1[CASE] = 23.5
 
+# BNC-5S Banshee (95t)
+* shuffle weapons to fit asset
+* XL engine 380 (5 internal)
+* double heatsinks (14/14)
+* 9.5[IS] + 20.5[XLE] + 7[C/G] + 4[DHS] = 41
+
 # AS7-K Atlas (100t)
 * XL engine 300 (2 internal) 3/5
 * single heatsinks (12/20)

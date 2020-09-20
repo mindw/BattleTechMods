@@ -384,10 +384,10 @@
 * CASE
 * 3.5[ESIS] + 16[E] + 6[C/G] + 1[CASE] = 26.5
 
-# ARC-5S Archer (70t)
+# ARC-5S/5W Archer (70t)
 * XL engine 280 (1 internal) 4/6
 * Double heatsinks (10/10)
-* CASE
+* CASE (RT/LT)
 * 7[IS] + 8[XLE] + 6[C/G] + 1[CASE] = 22
 
 # ARC-5R Archer (70t)

@@ -5,6 +5,7 @@
             "location" : "centertorso",
             "weapons" : [
                 [
+                    "chrPrfWeap_javelin_centertorso_ams_ah1"
                 ]
             ],
             "blanks" : [
@@ -78,6 +79,9 @@
                 ],
                 [
                     "chrPrfWeap_javelin_lefttorso_flamer_eh2"
+                ],
+                [
+                    "chrPrfWeap_javelin_lefttorso_ams_ah1"
                 ]
             ],
             "blanks" : [
@@ -159,6 +163,9 @@
                 ],
                 [
                     "chrPrfWeap_javelin_righttorso_flamer_eh2"
+                ],
+                [
+                    "chrPrfWeap_javelin_righttorso_ams_ah1"
                 ]
             ],
             "blanks" : [

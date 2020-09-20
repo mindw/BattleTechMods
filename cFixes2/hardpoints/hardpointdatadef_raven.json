@@ -59,6 +59,9 @@
 					"chrPrfWeap_raven_lefttorso_laser_eh2",
                     "chrPrfWeap_raven_lefttorso_ppc_eh2",
                     "chrPrfWeap_raven_lefttorso_flamer_eh2"
+                ],
+                [
+                    "chrPrfWeap_raven_lefttorso_ams_ah1"
                 ]
             ],
             "blanks" : [

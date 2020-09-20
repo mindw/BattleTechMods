@@ -96,15 +96,15 @@
             "location": "righttorso",
             "weapons": [
                 [
-                    "chrPrfWeap_shadowcat_righttorso_flamer_eh1",
-                    "chrPrfWeap_shadowcat_righttorso_laser_eh1",
-                    "chrPrfWeap_shadowcat_righttorso_ppc_eh1",
                     "chrPrfWeap_shadowcat_righttorso_srm6_mh1",
                     "chrPrfWeap_shadowcat_righttorso_lrm10_mh1",
                     "chrPrfWeap_shadowcat_righttorso_lrm20_mh1",
-                    "chrPrfWeap_shadowcat_righttorso_gauss_bh1",
-                    "chrPrfWeap_shadowcat_righttorso_mg_bh1",
-                    "chrPrfWeap_shadowcat_righttorso_ac20_bh1"					
+                    "chrPrfWeap_shadowcat_righttorso_gauss_bh1"					
+                ],
+                [
+                    "chrPrfWeap_shadowcat_righttorso_flamer_eh1",
+                    "chrPrfWeap_shadowcat_righttorso_ppc_eh1",
+                    "chrPrfWeap_shadowcat_righttorso_laser_eh1"
                 ]
             ],
             "blanks": [],

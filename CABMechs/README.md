@@ -456,6 +456,11 @@
 * double heatsinks (15/15)
 * 7.5[IS] + 19.5[XLE] + 7[C/G] + 5[DHS] = 39
 
+# MTR-5K Maelstrom (75t)
+* XL engine 375 (5 internal) 5/8
+* Double heatsinks (15/19)
+* 7.5[IS] + 19.5[XLE] + 7[C/G] + 5[DHS] = 30.5
+
 # MAD-5D/5M/5S Marauder (75t)
 * XL engine 300 (2 internal) 4/6
 * Double heatsinks (12/16)
@@ -472,6 +477,13 @@
 * engine 300 (2 internal) 4/6
 * Double heatsinks (12/12)
 * 7.5[IS] + 19[E] + 6[C/G] + 2[DHS] = 34.5
+
+# MDG-1A/1B Rakshasa (75t)
+* XL engine 375 (5 internal) 5/8
+* Double heatsinks (15/15)
+* Endo Steel
+* FF armor
+* 4.0[IS] + 19.5[XLE] + 7[C/G] + 5[DHS] = 35.5
 
 # AWS-9M Awesome (80t)
 * XL engine 320 (2 internal) 4/6

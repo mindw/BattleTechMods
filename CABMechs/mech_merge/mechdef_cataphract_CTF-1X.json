@@ -1,19 +1,19 @@
 {
-    "MinAppearanceDate": "2835-01-01T00:00:00Z",
+    "MinAppearanceDate": "3025-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_mech",
             "unit_heavy",
             "unit_range_medium",
-            "unit_role_brawler",
             "unit_lance_tank",
-            "unit_armor_high",
+            "unit_role_brawler",
+            "unit_hot",
             "unit_release",
             "unit_ready",
             "Davion",
-            "NotLiao",
+            "Liao",
             "NotMarik",
-            "NotSteiner",
+            "Steiner",
             "NotKurita",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
@@ -22,9 +22,9 @@
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
             "NotComStar",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     }

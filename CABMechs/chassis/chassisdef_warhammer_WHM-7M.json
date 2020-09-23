@@ -206,8 +206,8 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler & Close Assault",
-    "YangsThoughts": "The Warhammer is one of the mainstays of the heavy 'Mechs.  Solid, dependable, and heavy hitting.  The 7M is a double heat sink variant, which is needed to compensate for the upgrade to 2 ER PPCs.",
+    "StockRole": "Brawler",
+    "YangsThoughts": "The Warhammer is one of the mainstays of the heavy 'Mechs. Solid, dependable, and heavy hitting.  The 7M is a double heat sink variant, which is needed to compensate for the upgrade to 2 ER PPCs.",
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso",

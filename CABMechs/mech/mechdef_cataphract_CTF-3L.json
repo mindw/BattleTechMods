@@ -4,10 +4,9 @@
         "items": [
             "unit_mech",
             "unit_heavy",
-            "unit_lance_tank",
             "unit_lance_support",
             "unit_role_sniper",
-			"unit_range_long",
+            "unit_range_long",
             "unit_release",
             "unit_ready",
             "NotDavion",
@@ -24,7 +23,7 @@
             "NotComStar",
             "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"            
+            "NotAuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

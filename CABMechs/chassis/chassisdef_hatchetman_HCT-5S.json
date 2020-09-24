@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
     "PrefabBase": "hatchetman",
     "VariantName": "HCT-5S",
-    "StockRole": "Brawler & Skirmisher",
+    "StockRole": "Brawler",
     "YangsThoughts": "Hatchetman 5Ss doesn't have any more speed to get in and use that Hatchet. What it does have is more armor and more imposing fire power to back it up.",
     "Tonnage": 45,
     "InitialTonnage": 13.5,

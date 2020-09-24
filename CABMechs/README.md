@@ -110,7 +110,7 @@
 * Endo Steel
 * 2.0[ESIS] + 5.0[E] + 5[C/G] = 12.0
 
-# RVN-3L Raven (35t)
+# RVN-3L/3M Raven (35t)
 * XL engine 210 (2 external) 6/9
 * single heatsinks (8/11) FIXME
 * FF armor

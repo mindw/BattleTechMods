@@ -1,0 +1,21 @@
+{
+    "TargetIDs": [
+        "chassisdef_victor_VTR-9S",
+        "chassisdef_victor_VTR-9B",
+        "chassisdef_grasshopper_GHR-5H",
+        "chassisdef_thunderbolt_TDR-5SE",
+        "chassisdef_quickdraw_QKD-4G",
+        "chassisdef_quickdraw_QKD-5A",
+        "chassisdef_granddragon_DRG-1G",
+        "chassisdef_dragon_DRG-1N",
+        "chassisdef_wolverine_WVR-6R",
+        "chassisdef_vindicator_VND-1AA"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.StockRole",
+            "Action": "Replace",
+            "Value": "Skirmisher"
+        }
+    ]
+}

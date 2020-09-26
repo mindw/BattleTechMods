@@ -11,7 +11,7 @@
         "Details": "The 3MC was developed by the Magistracy of Canopus around the time of the War of 3039. It removes five heat sinks and the AC/5 to make room for an Autocannon/10 with two tons of ammunition. Armor protection, speed, and other weaponry remains the same as the -3E model Banshee.",
         "Icon": "uixTxrIcon_banshee"
     },
-  "MovementCapDefID": "movedef_banshee_BNC-3E",
+    "MovementCapDefID": "movedef_banshee_BNC-3E",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_banshee",
     "PrefabIdentifier": "chrPrfMech_bansheeBase-001",
@@ -197,6 +197,6 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Heavy Brawler & Sniper",
+    "StockRole": "Brawler",
     "YangsThoughts": "The Banshee 3MC is small change to the 3E made by the Magistracy of Canopus. The profile is more or less the same, with better speed than most other assault 'Mechs. While it has heavy armor and powerful Melee attack capability, it's firepower is severely lacking and it can still be flanked by lighter units."
 }

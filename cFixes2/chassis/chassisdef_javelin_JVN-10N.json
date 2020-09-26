@@ -79,9 +79,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                } 
-
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 70,
@@ -111,8 +110,8 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                } 
-			],
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 70,
@@ -196,6 +195,6 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Light Striker & Scout",
+    "StockRole": "Striker",
     "YangsThoughts": "The Javelin is a close-range support 'Mech with 12 SRM tubes. The Federated Suns sometimes field whole lances of Javelins, but more often you'll see them used as ambushers or to deal finishing strikes to enemies with exposed systems."
 }

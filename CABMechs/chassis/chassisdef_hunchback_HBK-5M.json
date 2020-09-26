@@ -192,10 +192,10 @@
     "VariantName": "HBK-5M",
     "ChassisTags": {
         "items": [
-			"mech_case_left"
-		],
+            "mech_case_left"
+        ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Juggernaut & Close Assault",
+    "StockRole": "Juggernaut",
     "YangsThoughts": "The Hunchback 5M is a basic upgrade of the tried and tested 4G model. Now using double heat sinks and CASE to protect the ammo, it's not revolutionary, but it's pilots are going to enjoy the extra room to fire more under heat, until that 1 tonne of ammo runs out of course."
 }

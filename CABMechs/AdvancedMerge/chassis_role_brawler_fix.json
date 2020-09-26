@@ -1,0 +1,22 @@
+{
+    "TargetIDs": [
+        "chassisdef_banshee_BNC-3M",
+        "chassisdef_battlemaster_BLR-1S",
+        "chassisdef_battlemaster_BLR-1G",
+        "chassisdef_orion_ON1-V",
+        "chassisdef_orion_ON1-K",
+        "chassisdef_marauder_MAD-3D",
+        "chassisdef_cataphract_CTF-1X",
+        "chassisdef_thunderbolt_TDR-5S",
+        "chassisdef_thunderbolt_TDR-5SS",
+        "chassisdef_vindicator_VND-1R",
+        "chassisdef_blackjack_BJ-1DB"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.StockRole",
+            "Action": "Replace",
+            "Value": "Brawler"
+        }
+    ]
+}

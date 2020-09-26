@@ -1,0 +1,24 @@
+{
+    "TargetIDs": [
+        "chassisdef_flea_FLE-15",
+        "chassisdef_flea_FLE-4",
+        "chassisdef_locust_LCT-1E",
+        "chassisdef_locust_LCT-1S",
+        "chassisdef_locust_LCT-1V",
+        "chassisdef_locust_LCT-3M",
+        "chassisdef_locust_LCT-3V",
+        "chassisdef_spider_SDR-5K",
+        "chassisdef_spider_SDR-5V",
+        "chassisdef_firestarter_FS9-H",
+        "chassisdef_cicada_CDA-2A",
+        "chassisdef_cicada_CDA-3C",
+        "chassisdef_vulcan_VL-2T"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.StockRole",
+            "Action": "Replace",
+            "Value": "Scout"
+        }
+    ]
+}

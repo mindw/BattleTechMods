@@ -79,11 +79,6 @@
             "JSONPath": "$.Description.Purchasable",
             "Action": "Replace",
             "Value": true
-        },
-        {
-            "JSONPath": "$.Description.Rarity",
-            "Action": "Replace",
-            "Value": 5
         }
     ]
 }

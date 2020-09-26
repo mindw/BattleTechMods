@@ -1,0 +1,34 @@
+{
+    "TargetIDs": [
+        "Ammo_AmmunitionBox_Generic_GAUSS",
+        "Gear_HeatSink_Generic_Double",
+        "Weapon_PPC_PPCER_0-STOCK",
+        "Weapon_Laser_SmallLaserER_0-STOCK",
+        "Weapon_Laser_SmallLaserPulse_0-STOCK",
+        "Weapon_Laser_MediumLaserER_0-STOCK",
+        "Weapon_Laser_MediumLaserPulse_0-STOCK",
+        "Weapon_Laser_LargeLaserER_0-STOCK",
+        "Weapon_Laser_LargeLaserPulse_0-STOCK",
+        "Weapon_Gauss_Gauss_0-STOCK",
+        "Weapon_Autocannon_LB10X_0-STOCK",
+        "Weapon_Autocannon_LB20X_0-STOCK",
+        "Weapon_Autocannon_LB2X_0-STOCK",
+        "Weapon_Autocannon_LB5X_0-STOCK",
+        "Weapon_Autocannon_UAC10_0-STOCK",
+        "Weapon_Autocannon_UAC20_0-STOCK",
+        "Weapon_Autocannon_UAC2_0-STOCK",
+        "Weapon_Autocannon_UAC5_0-STOCK",
+        "Weapon_Inferno_Inferno2_0-STOCK",
+        "Weapon_Narc_Standard_0-STOCK",
+        "Weapon_PPC_PPCSnub_0-STOCK",
+        "Weapon_TAG_Standard_0-STOCK",
+        "Weapon_COIL_COIL-L_0-STOCK"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.Description.Rarity",
+            "Action": "Replace",
+            "Value": 1
+        }
+    ]
+}

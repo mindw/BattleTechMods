@@ -16,6 +16,7 @@
             "FYLS [DEBUG] Seed",
             "FYLS [DEBUG] [BattleTechParadoxAPI]",
             "FYLS [DEBUG] Connection pool",
+            "FYLS [LOG] Applying mood",
             "FYLS [LOG] Set Logger",
             "FYLS [LOG] SystemInfo",
             "FYLS [LOG] Trying to load AssetBundle",

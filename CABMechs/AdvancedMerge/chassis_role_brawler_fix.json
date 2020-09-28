@@ -9,8 +9,13 @@
         "chassisdef_cataphract_CTF-1X",
         "chassisdef_thunderbolt_TDR-5S",
         "chassisdef_thunderbolt_TDR-5SS",
+        "chassisdef_kintaro_KTO-18",
+        "chassisdef_centurion_CN9-A",
+        "chassisdef_centurion_CN9-AL",
         "chassisdef_vindicator_VND-1R",
-        "chassisdef_blackjack_BJ-1DB"
+        "chassisdef_hatchetman_HCT-3F",
+        "chassisdef_blackjack_BJ-1DB",
+        "chassisdef_panther_PNT-9R"
     ],
     "Instructions": [
         {

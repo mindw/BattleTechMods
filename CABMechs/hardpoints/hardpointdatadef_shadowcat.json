@@ -8,9 +8,9 @@
                     "chrPrfWeap_shadowcat_head_flamer_eh1",
                     "chrPrfWeap_shadowcat_head_laser_eh1",
                     "chrPrfWeap_shadowcat_head_mg_bh1",
-                    "chrPrfWeap_shadowcat_head_srm6_eh1"	
-				]
-			],
+                    "chrPrfWeap_shadowcat_head_srm6_eh1"
+                ]
+            ],
             "blanks": [],
             "mountingPoints": []
         },
@@ -26,11 +26,11 @@
                     "chrPrfWeap_shadowcat_centertorso_mg_bh1",
                     "chrPrfWeap_shadowcat_centertorso_srm6_mh1",
                     "chrPrfWeap_shadowcat_centertorso_lrm10_mh1"
-                ]			
-			],
+                ]
+            ],
             "blanks": [],
             "mountingPoints": []
-        },		
+        },
         {
             "location": "leftarm",
             "weapons": [
@@ -60,7 +60,7 @@
                     "chrPrfWeap_shadowcat_lefttorso_flamer_eh1",
                     "chrPrfWeap_shadowcat_lefttorso_laser_eh1",
                     "chrPrfWeap_shadowcat_lefttorso_ppc_eh1",
-                    "chrPrfWeap_shadowcat_lefttorso_gauss_bh1"					
+                    "chrPrfWeap_shadowcat_lefttorso_gauss_bh1"
                 ],
                 [
                     "chrPrfWeap_shadowcat_lefttorso_mg_bh2"
@@ -85,9 +85,9 @@
                     "chrPrfWeap_shadowcat_rightarm_gauss_bh1",
                     "chrPrfWeap_shadowcat_rightarm_lrm20_mh1"
                 ],
-				[
-					"chrPrfWeap_shadowcat_rightarm_ppc_eh2"
-				]
+                [
+                    "chrPrfWeap_shadowcat_rightarm_ppc_eh2"
+                ]
             ],
             "blanks": [],
             "mountingPoints": []
@@ -99,7 +99,7 @@
                     "chrPrfWeap_shadowcat_righttorso_srm6_mh1",
                     "chrPrfWeap_shadowcat_righttorso_lrm10_mh1",
                     "chrPrfWeap_shadowcat_righttorso_lrm20_mh1",
-                    "chrPrfWeap_shadowcat_righttorso_gauss_bh1"					
+                    "chrPrfWeap_shadowcat_righttorso_gauss_bh1"
                 ],
                 [
                     "chrPrfWeap_shadowcat_righttorso_flamer_eh1",

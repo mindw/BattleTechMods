@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_hermes_HER-1A",
     "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_grasshopper",
-    "PrefabIdentifier": "chrPrfMech_grasshopperBase-001",
-    "PrefabBase": "grasshopper",
+    "HardpointDataDefID": "hardpointdatadef_hermes",
+    "PrefabIdentifier": "chrprfmech_hermesbase-001",
+    "PrefabBase": "hermes",
     "Tonnage": 30,
     "InitialTonnage": 22,
     "weightClass": "LIGHT",
@@ -182,7 +182,7 @@
     "VariantName": "HER-3S1",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.60-0.60-0.60",
+            "mr-resize-0.7",
             "chassis_ferro"
         ],
         "tagSetSourceFile": ""

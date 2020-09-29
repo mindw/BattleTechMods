@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_whitworth_WTH-1",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_trebuchet",
-    "PrefabIdentifier": "chrPrfMech_trebuchetBase-001",
-    "PrefabBase": "trebuchet",
+    "HardpointDataDefID": "hardpointdatadef_whitworth",
+    "PrefabIdentifier": "chrprfmech_whitworthbase-001",
+    "PrefabBase": "whitworth",
     "Tonnage": 40,
     "InitialTonnage": 15,
     "weightClass": "MEDIUM",
@@ -34,7 +34,7 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 5,
+    "Radius": 4,
     "PunchesWithLeftArm": true,
     "MeleeDamage": 40,
     "MeleeInstability": 40,
@@ -161,51 +161,51 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 12,
-            "z": 0
+            "y": 9.5,
+            "z": 0.5
         },
         {
-            "x": 3,
-            "y": 12,
-            "z": 0
+            "x": -2.5,
+            "y": 8.5,
+            "z": -0.5
         },
         {
-            "x": -3,
-            "y": 12,
-            "z": 0
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 12,
-            "z": 0
-        },
-        {
-            "x": 3,
-            "y": 12,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 12,
-            "z": 0
-        },
-        {
-            "x": 2.5,
-            "y": 6,
-            "z": 0
+            "y": 9.5,
+            "z": 0.5
         },
         {
             "x": -2.5,
-            "y": 6,
-            "z": 0
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 8.5,
+            "z": -0.5
+        },
+        {
+            "x": -1.5,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 1.5,
+            "y": 3,
+            "z": 0.5
         }
     ],
     "VariantName": "WTH-2",
     "ChassisTags": {
         "items": [
-            "mr-resize-1.00-0.90-1.02"
+            "mr-resize-0.8"
         ],
         "tagSetSourceFile": ""
     },

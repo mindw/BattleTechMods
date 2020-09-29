@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_wyvern_WVE-6N",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_panther",
-    "PrefabIdentifier": "chrPrfMech_pantherBase-001",
-    "PrefabBase": "panther",
+    "HardpointDataDefID": "hardpointdatadef_wyvern",
+    "PrefabIdentifier": "chrprfmech_wyvernbase-001",
+    "PrefabBase": "wyvern",
     "Tonnage": 45,
     "InitialTonnage": 16.5,
     "weightClass": "MEDIUM",
@@ -187,7 +187,7 @@
     "VariantName": "WVE-6N",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.9-1.2-1"
+            "mr-resize-0.8"
         ],
         "tagSetSourceFile": ""
     },

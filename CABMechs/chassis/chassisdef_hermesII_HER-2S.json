@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_hermesII_HER-2S",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_grasshopper",
-    "PrefabIdentifier": "chrPrfMech_grasshopperBase-001",
-    "PrefabBase": "grasshopper",
+    "HardpointDataDefID": "hardpointdatadef_hermes",
+    "PrefabIdentifier": "chrprfmech_hermesbase-001",
+    "PrefabBase": "hermes",
     "Tonnage": 40,
     "InitialTonnage": 21.5,
     "weightClass": "MEDIUM",
@@ -187,8 +187,8 @@
     "VariantName": "HER-2S",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.75-0.75-0.75"
-        ],
+             "mr-resize-0.8"
+       ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",

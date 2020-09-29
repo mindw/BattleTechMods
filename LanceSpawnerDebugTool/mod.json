@@ -1,0 +1,10 @@
+{
+    "Name": "LanceSpawnerDebugTool",
+    "Enabled": true,
+
+    "Version": "1.0.0",
+    "Description": "Just a very, very simple mod to help diagnose lance spawner woes",
+    "Author": "Mpstark",
+
+    "DLL": "LanceSpawnerDebugTool.dll",
+}

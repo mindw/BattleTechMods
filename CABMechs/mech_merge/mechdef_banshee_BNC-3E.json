@@ -1,0 +1,21 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_range_long",
+            "unit_armor_high",
+            "unit_speed_high",
+            "unit_release",
+            "unit_ready",
+            "NotLiao",
+            "Steiner",
+            "NotMagistracyOfCanopus",
+            "NotComStar",
+            "unit_common"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

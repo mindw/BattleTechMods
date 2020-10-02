@@ -28,6 +28,7 @@
     "statusEffects": null,
     "ComponentTags": {
         "items": [
+            "NO-CRIT", 
             "BUILT-IN",
             "BLACKLISTED"
         ],

@@ -1,0 +1,20 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_medium",
+            "unit_range_short",
+            "unit_armor_high",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_hot",
+            "unit_speed_low",
+            "unit_release",
+            "unit_ready",
+            "Kurita",
+            "Liao",
+            "Marik"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

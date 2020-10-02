@@ -1,0 +1,25 @@
+{
+    "MinAppearanceDate" : "2815-01-01T00:00:00Z", 
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_range_short",
+            "unit_armor_high",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_indirectFire",
+            "unit_release",
+            "unit_ready",            
+            "Davion",
+            "Kurita",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
+            "NotComStar"            
+        ],
+        "tagSetSourceFile": ""
+    }
+}

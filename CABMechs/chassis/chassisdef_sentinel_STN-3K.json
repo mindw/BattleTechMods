@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_sentinel_STN-3K",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_shadowcat",
-    "PrefabIdentifier": "chrPrfMech_shadowcatbase-001",
-    "PrefabBase": "shadowcat",
+    "HardpointDataDefID": "hardpointdatadef_sentinel",
+    "PrefabIdentifier": "chrprfmech_sentinelbase-001",
+    "PrefabBase": "sentinel",
     "Tonnage": 40,
     "InitialTonnage": 21.5,
     "weightClass": "MEDIUM",
@@ -182,10 +182,10 @@
     "VariantName": "STN-3K",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.93-0.93-0.93"
+            "mr-resize-0.8"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",
-    "YangsThoughts": "The Sentinel makes for an interesting skirmisher or Medium class observation 'Mech.  It still generally underperforms in most areas except speed, but it can throw a punch or two with that Autocannon, and has survivability compared to other scout designs."
+    "YangsThoughts": "The Sentinel makes for an interesting skirmisher or Medium class observation 'Mech. It still generally underperforms in most areas except speed, but it can throw a punch or two with that Autocannon, and has survivability compared to other scout designs."
 }

@@ -5,6 +5,7 @@
             "BLACKLISTED",
             "unit_mech",
             "unit_assault",
+            "unit_range_long",
             "unit_lance_support",
             "unit_role_sniper",
             "unit_armor_high",

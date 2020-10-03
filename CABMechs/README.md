@@ -128,6 +128,12 @@
 * CASE
 * 4[IS] + 11.5[XLE] + 7[C/G] + 0.5[CASE] = 23
 
+# CDA-3F/G Cicada (40t)
+* XL engine 320 (2 internal) 8/12
+* Endo Steel
+* FF armor
+* 2[ESIS] + 11.5[XLE] + 7[C/G] = 20.5
+
 # CLNT-2-3U Clint (40t)
 * engine 240 (1 external) 6/9
 * Double heatsinks (9/10) TBD

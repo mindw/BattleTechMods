@@ -1,5 +1,6 @@
 {
-    "Description" : {
-        "Cost" : 2100000
+    "StockRole": "Ambusher",
+    "Description": {
+        "Cost": 2100000
     }
 }

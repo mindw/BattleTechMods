@@ -1,0 +1,259 @@
+{
+    "Description": {
+        "Cost": 2700000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Thorn",
+        "Id": "chassisdef_thorn_THE-N1",
+        "Name": "Thorn",
+        "Details": "Developed in 3051 by ComStar to try and close the gap between the Clans and Com Guards, the CASE was dropped and the standard engine was swapped for an XL Engine to allow the standard weaponry to be stripped for an all energy weapon array: a right arm mounted ER PPC and a head-mounted Small Laser. This new weapons array, enhanced by double heat sinks, added a level of lethality never seen before on the Thorn.",
+        "Icon": "uixTxrIcon_thorn"
+    },
+    "MovementCapDefID": "movedef_thorn_THE-N",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_thorn",
+    "PrefabIdentifier": "chrprfmech_thornbase-001",
+    "PrefabBase": "thorn",
+    "Tonnage": 20,
+    "InitialTonnage": 8,
+    "weightClass": "LIGHT",
+    "Heatsinks": 30,
+    "MaxJumpjets": 6,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 25,
+    "MeleeInstability": 20,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 25,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 25,
+    "DFAInstability": 25,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 30,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 50,
+            "MaxRearArmor": 25,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 50,
+            "MaxRearArmor": 25,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 30,
+            "MaxRearArmor": -1,
+            "InternalStructure": 15
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1
+        },
+        {
+            "x": 1.5,
+            "y": 3,
+            "z": 0
+        },
+        {
+            "x": -1.5,
+            "y": 3,
+            "z": 0
+        }
+    ],
+    "VariantName": "THE-N1",
+    "ChassisTags": {
+        "items": [
+            "mr-resize-0.8"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper",
+    "YangsThoughts": "The N1 is a sum of trade offs. The LRM ammo was dropped, but an XL engine was installed - so it's less survivable. The ER PPC has a longer range and better damage - but depends on line of sight and lacks the LRMs munition versatility. A fast Panther with less ammo.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoSteel_6_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoSteel_6_Slot",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ]
+}

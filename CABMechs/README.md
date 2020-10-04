@@ -22,13 +22,19 @@
 
 # STG-5M Stinger (20t)
 * engine 120 (6 external) 6/9
-* 10 heat sinks (4/10) TBD
+* heat sinks (4/10) TBD
 * Endo Steel
 * 1[ESIS] + 4[E] + 5[C/G] = 10.0
 
+# THE-N1 Thorn (20t)
+* XL engine 120 (6 external) 6/9
+* double heat sinks (4/10) TBD
+* Endo Steel
+* 1[ESIS] + 2[E] + 5[C/G] = 8.0
+
 # WSP-1S/3M Wasp (20t)
 * engine 120 (6 external) 6/9
-* 10 heat sinks (4/10) TBD
+* heat sinks (4/10) TBD
 * Endo Steel
 * FF armor
 * 3M: CASE
@@ -36,7 +42,7 @@
 
 # COM-5S Commando (25t)
 * engine 150 (4 external) 6/9
-* 10 heat sinks (6/10) TBD
+* heat sinks (6/10) TBD
 * Endo Steel
 * CASE
 * FF armor
@@ -44,7 +50,7 @@
 
 # MON-66 Mongoose (25t)
 * engine 200 (2 external) 8/12
-* 10 heat sinks (8/10) TBD
+* heat sinks (8/10) TBD
 * Endo Steel
 * FF armor
 * 1.5[ESIS] + 8.5[E] + 5[C/G] = 15.0
@@ -615,10 +621,16 @@
 * double heatsinks (12/14)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[DHS] = 27.5
 
+# IMP-3E Imp (100t)
+* XL engine 300 (2 internal) 3/5
+* single heatsinks (12/30)
+* CASE (LT)
+* 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] + 0.5[CASE] = 28
+
 # KGC-000 King Crab (100t)
 * engine 300 (2 internal) 3/5
 * single heatsinks (12/15)
-* CASE
+* CASE (LT/RT)
 * 10[IS] + 19.0[E] + 6[C/G] + 2[HS] + 1[CASE] = 38
 
 # KGC-001 King Crab (100t)

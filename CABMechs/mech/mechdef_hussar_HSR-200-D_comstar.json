@@ -1,8 +1,7 @@
 {
-    "MinAppearanceDate": "3038-01-01T00:00:00Z",
+    "MinAppearanceDate": "2620-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "GZ_fake_min_appearance", 
             "unit_mech",
             "unit_light",
             "unit_range_short",
@@ -16,18 +15,18 @@
             "NotDavion",
             "NotLiao",
             "NotMarik",
-            "Steiner",
-            "Kurita",
+            "NotSteiner",
+            "NotKurita",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotNoFaction",
             "NotLocals",
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotComStar",
-            "MercenaryReviewBoard",
+            "ComStar",
+            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "AuriganMercenaries"            
+            "NotAuriganMercenaries"            
         ],
         "tagSetSourceFile": ""
     },
@@ -40,7 +39,7 @@
         "Manufacturer": null,
         "Model": null,
         "UIName": "Hussar HSR-200-D",
-        "Id": "mechdef_hussar_HSR-200-D",
+        "Id": "mechdef_hussar_HSR-200-D_comstar",
         "Name": "Hussar",
         "Details": "The Hussar is among the least-protected 'Mechs ever built. The Hussar has a single weapon on its chassis in a unique turreted mount on the center torso, an Extended Range Large Laser. While the use of a single weapon limits the defensive capabilities of the Hussar, the superior reach of the ER laser allows the 'Mech to engage enemies at a standoff range and its speed means the Hussar can dictate the range of the engagement.",
         "Icon": "uixTxrIcon_hussar"

@@ -3,7 +3,6 @@
         "items": [
             "unit_mech",
             "unit_assault",
-            "unit_range_long",
             "unit_range_medium",
             "unit_speed_high",
             "unit_hot",

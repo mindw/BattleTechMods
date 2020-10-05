@@ -1,0 +1,31 @@
+{
+    "MechTags": {
+        "items": [
+            "BLACKLISTED",
+            "unit_mech",
+            "unit_assault",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_range_short",
+            "unit_indirectFire",
+            "unit_armor_high",
+            "unit_release",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

@@ -289,7 +289,6 @@
             "unit_mech",
             "unit_assault",
             "unit_release",
-            "unit_ready",
             "unit_role_brawler",
 			"unit_lance_support",
             "unit_range_medium",

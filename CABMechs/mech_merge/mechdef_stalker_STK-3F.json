@@ -1,0 +1,18 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_range_short",
+            "unit_indirectFire",
+            "unit_hot",
+            "unit_common",
+            "unit_release",
+            "Marik",
+            "Steiner"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

@@ -10,7 +10,6 @@
             "unit_jumpOK",
             "unit_armor_high",
             "unit_release",
-            "unit_ready",            
             "Davion",
             "NotLiao",
             "NotMarik",
@@ -25,7 +24,7 @@
             "NotComStar",
             "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "AuriganMercenaries"            
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

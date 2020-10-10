@@ -12,13 +12,14 @@
     "ChassisID": "vehiclechassisdef_SCIMITAR_MISSILE",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.40",
             "unit_vehicle",
             "unit_light",
             "unit_wheels",
             "unit_range_long",
             "unit_speed_high",
             "unit_armor_high",
-            "unit_indirectFire", 
+            "unit_indirectFire",
             "unit_release",
             "Davion",
             "Liao",

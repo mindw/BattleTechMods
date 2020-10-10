@@ -12,14 +12,14 @@
     "ChassisID": "vehiclechassisdef_PO",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.50",
             "unit_vehicle",
             "unit_heavy",
             "unit_tracks",
-            "unit_range_long",
-            "unit_armor_low",
+            "unit_range_medium",
             "unit_lance_tank",
+            "unit_armor_low",
             "unit_release",
-            "unit_ready",
             "NotDavion",
             "Liao",
             "Marik",

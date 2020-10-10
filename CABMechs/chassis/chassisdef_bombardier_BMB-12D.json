@@ -20,7 +20,7 @@
     "InitialTonnage": 26,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
-    "MaxJumpjets": 4,
+    "MaxJumpjets": 5,
     "Stability": 160,
     "StabilityDefenses": [
         0,

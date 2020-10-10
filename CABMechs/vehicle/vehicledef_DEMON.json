@@ -5,7 +5,6 @@
             "unit_heavy",
             "unit_wheeled",
             "unit_release",
-            "unit_ready",
             "NotDavion",
             "NotLiao",
             "NotMarik",
@@ -31,7 +30,7 @@
         "Details": "",
         "Icon": "Demon",
         "Cost": 2646150,
-        "Rarity": 0,
+        "Rarity": 3,
         "Purchasable": false
     },
     "Version": 1,

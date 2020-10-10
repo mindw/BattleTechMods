@@ -1,14 +1,14 @@
 {
     "MechTags": {
         "items": [
-            "unit_release",
             "unit_mech",
             "unit_medium",
             "unit_lance_assassin",
-            "unit_role_brawler",
+            "unit_role_flanker",
             "unit_range_medium",
             "unit_hot",
             "unit_armor_high",
+            "unit_release",
             "Davion",
             "NotLiao",
             "NotMarik",

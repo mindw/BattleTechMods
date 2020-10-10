@@ -1,12 +1,12 @@
 {
     "Description": {
-        "Id": "movedef_11-17cv",
-        "Name": "MovementCapabilitiesDef for for 175kph, 11/17 vehicles",
+        "Id": "movedef_6-9cv",
+        "Name": "MovementCapabilitiesDef for 95kph, 6/9 Tanks",
         "Details": "",
         "Icon": ""
     },
-    "MaxWalkDistance": 285.0,
-    "MaxSprintDistance": 470.0,
+    "MaxWalkDistance": 165.0,
+    "MaxSprintDistance": 275.0,
     "WalkVelocity": 20.0,
     "RunVelocity": 28.0,
     "SprintVelocity": 31.0,

@@ -2,7 +2,7 @@
     "Version": 1,
     "Description": {
         "Id": "vehicledef_K-27",
-        "Name": "J-27 Transport",
+        "Name": "K-27 Transport Killjoy",
         "Details": "",
         "Icon": "",
         "Cost": 993,
@@ -12,6 +12,7 @@
     "ChassisID": "vehiclechassisdef_K-27",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.5",
             "unit_vehicle",
             "unit_vehicle_ammoTransport",
             "unit_light",

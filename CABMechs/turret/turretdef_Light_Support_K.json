@@ -1,46 +1,60 @@
 {
-   "Version" : 1,
-   "Description" : {
-      "Id" : "turretdef_Light_Support_K",
-      "Name" : "Light Support Turret",
-      "Details" : "",
-      "Icon" : "",
-      "Cost" : 993,
-      "Rarity" : 0,
-      "Purchasable" : false
-   },
-   "ChassisID" : "turretchassisdef_Light_Support_K",
-   "TurretTags": {
-      "items": [
-         "unit_turret",
-         "unit_light",
-         "unit_range_long",
-         "unit_common_Kurita"
-      ],
-      "tagSetSourceFile": ""
-   },
-   "CurrentArmor" : 160,
-   "CurrentInternalStructure" : 125,
-   "AssignedArmor" : 160,
-   "DamageLevel" : "Functional",
-   "inventory" : [
-    {
-      "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-	  "DamageLevel" : "Functional"
+    "Version": 1,
+    "Description": {
+        "Id": "turretdef_Light_Support_K",
+        "Name": "Light Support Turret",
+        "Details": "",
+        "Icon": "",
+        "Cost": 993,
+        "Rarity": 0,
+        "Purchasable": false
     },
-    {
-      "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
-	  "DamageLevel" : "Functional"
+    "ChassisID": "turretchassisdef_Light_Support_K",
+    "TurretTags": {
+        "items": [
+            "unit_turret",
+            "unit_light",
+            "unit_range_long",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "Kurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "ComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
+        ],
+        "tagSetSourceFile": ""
     },
-    {
-      "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 2,
-	  "DamageLevel" : "Functional"
-    }
-   ]
+    "CurrentArmor": 160,
+    "CurrentInternalStructure": 125,
+    "AssignedArmor": 160,
+    "DamageLevel": "Functional",
+    "inventory": [
+        {
+            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

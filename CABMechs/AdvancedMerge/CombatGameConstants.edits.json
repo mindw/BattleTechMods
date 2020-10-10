@@ -33,6 +33,14 @@
                 "ZoomSpeed": 1800.0,
                 "MaxHeightAboveTerrain": 700.0
             }
+        },
+        {
+            "JSONPath": "CombatValueMultipliers",
+            "Action": "ObjectMerge",
+            "Value": {
+                "ArmorMultiplierVehicle": 1.0,
+                "StructureMultiplierVehicle": 1.0
+            }
         }
     ]
 }

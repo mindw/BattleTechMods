@@ -16,9 +16,12 @@
             "unit_vehicle",
             "unit_medium",
             "unit_wheels",
-            "unit_range_long",
+            "unit_lance_tank",
+            "unit_lance_ambusher",
+            "unit_range_short",
             "unit_speed_low",
             "unit_release",
+            "unit_common",            
             "NotComStar"
         ],
         "tagSetSourceFile": ""

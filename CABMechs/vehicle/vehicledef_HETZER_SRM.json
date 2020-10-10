@@ -6,7 +6,7 @@
         "Details": "",
         "Icon": "",
         "Cost": 564,
-        "Rarity": 5,
+        "Rarity": 1,
         "Purchasable": false
     },
     "ChassisID": "vehiclechassisdef_HETZER_SRM",
@@ -16,10 +16,13 @@
             "unit_vehicle",
             "unit_medium",
             "unit_wheels",
-            "unit_range_medium",
+            "unit_lance_tank",
+            "unit_lance_ambusher",
+            "unit_range_short",
             "unit_speed_low",
             "unit_armor_low",
             "unit_release",
+            "unit_common",
             "NotComStar"
         ],
         "tagSetSourceFile": ""

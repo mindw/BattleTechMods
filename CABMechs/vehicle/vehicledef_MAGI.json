@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate" : "2727-01-01T00:00:00Z", 
+    "MinAppearanceDate": "2727-01-01T00:00:00Z",
     "VehicleTags": {
         "items": [
             "unit_vehicle",
@@ -33,7 +33,7 @@
         "Details": "",
         "Icon": "Winston",
         "Cost": 4213167,
-        "Rarity": 0,
+        "Rarity": 1,
         "Purchasable": false
     },
     "Version": 1,

@@ -1,48 +1,48 @@
 {
-   "VehicleTags": {
-      "items": [
-         "unit_vehicle",
-         "unit_light",
-         "unit_wheels",
-		 "unit_release"
-      ],
-      "tagSetSourceFile": ""
-   }, 
-   "Locations" : [
-		{
-			"Location" : "Front",
-			"CurrentArmor" : 120,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 120,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Left",
-			"CurrentArmor" : 100,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 100,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Right",
-			"CurrentArmor" : 100,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 100,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Rear",
-			"CurrentArmor" : 90,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 90,
-			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Turret",
-			"CurrentArmor" : 110,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 110,
-			"DamageLevel" : "Functional"
-		}
-   ]
+    "VehicleTags": {
+        "items": [
+            "unit_vehicle",
+            "unit_light",
+            "unit_wheels",
+            "unit_release"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Locations": [
+        {
+            "Location": "Front",
+            "CurrentArmor": 120,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 120,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Left",
+            "CurrentArmor": 100,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 100,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Right",
+            "CurrentArmor": 100,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 100,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Rear",
+            "CurrentArmor": 90,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 90,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Turret",
+            "CurrentArmor": 110,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 110,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

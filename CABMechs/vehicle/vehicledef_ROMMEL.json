@@ -2,7 +2,7 @@
     "Version": 1,
     "Description": {
         "Id": "vehicledef_ROMMEL",
-        "Name": "Patton",
+        "Name": "Rommel Tank",
         "Details": "",
         "Icon": "",
         "Cost": 973,
@@ -17,7 +17,7 @@
             "unit_heavy",
             "unit_tracks",
             "unit_range_medium",
-            "unit_indirectFire", 
+            "unit_indirectFire",
             "unit_lance_tank",
             "unit_release",
             "Davion",

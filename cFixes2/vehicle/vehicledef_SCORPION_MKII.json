@@ -2,7 +2,7 @@
     "Version": 1,
     "Description": {
         "Id": "vehicledef_SCORPION_MKII",
-        "Name": "Scorpion Mk II",
+        "Name": "Scorpion Light Tank Mk II",
         "Details": "",
         "Icon": "",
         "Cost": 993,
@@ -12,12 +12,15 @@
     "ChassisID": "vehiclechassisdef_SCORPION_MKII",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.50",
             "unit_vehicle",
             "unit_light",
+            "unit_tracks",
+            "unit_range_medium",
+            "unit_lance_brawler",
+            "unit_lance_tank",
             "unit_speed_low",
-            "unit_release",
-            "unit_ready",
-            "unit_tracks"
+            "unit_release"
         ],
         "tagSetSourceFile": ""
     },

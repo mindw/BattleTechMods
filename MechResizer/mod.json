@@ -12,7 +12,7 @@
 	"ConflictsWith": [],
 
   "Settings": {
-    "debug": true,
+    "debug": false,
 
     "defaultMechSizeMultiplier": 1,
     "mechSizeMultipliers": {},

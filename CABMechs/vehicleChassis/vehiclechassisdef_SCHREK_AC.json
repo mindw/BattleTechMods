@@ -1,19 +1,19 @@
 {
     "Description": {
-        "Id": "vehiclechassisdef_ONTOS_LRM",
-        "Name": "Ontos Heavy Tank LRM",
+        "Id": "vehiclechassisdef_SCHREK_AC",
+        "Name": "Schrek AC Carrier",
         "Details": "",
         "Icon": "MANTICORE",
-        "Cost": 973,
-        "Rarity": 1,
+        "Cost": 993,
+        "Rarity": 4,
         "Purchasable": false
     },
     "MovementCapDefID": "movedef_3-5cv",
     "PathingCapDefID": "pathingdef_assault_tracked",
-    "HardpointDataDefID": "hardpointdatadef_srmcarrier",
-    "PrefabIdentifier": "chrprfvhcl_srmcarrierbase",
-    "PrefabBase": "srmcarrier",
-    "Tonnage": 95,
+    "HardpointDataDefID": "hardpointdatadef_schreck",
+    "PrefabIdentifier": "chrPrfVhcl_schreck",
+    "PrefabBase": "schreck",
+    "Tonnage": 80,
     "weightClass": "ASSAULT",
     "movementType": "Tracked",
     "SpotterDistanceMultiplier": 1,
@@ -24,66 +24,85 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 3.5,
+            "y": 3,
             "z": -0.5
         },
         {
             "x": 0,
             "y": 1.5,
-            "z": 4.5
+            "z": 4
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 3.5,
+            "y": 3,
             "z": -0.5
         },
         {
             "x": 0,
             "y": 1.5,
-            "z": 4.5
+            "z": 4
         },
         {
             "x": -2,
-            "y": 3,
+            "y": 2.5,
             "z": 0
         },
         {
             "x": 2,
-            "y": 3,
+            "y": 2.5,
             "z": 0
         },
         {
             "x": 0,
-            "y": 2,
+            "y": 1.5,
             "z": -4.5
         }
     ],
     "Locations": [
         {
             "Location": "Front",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 150,
-            "InternalStructure": 50
+            "MaxArmor": 180,
+            "InternalStructure": 40
         },
         {
             "Location": "Left",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 130,
-            "InternalStructure": 50
+            "MaxArmor": 120,
+            "InternalStructure": 40
         },
         {
             "Location": "Right",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 130,
-            "InternalStructure": 50
+            "MaxArmor": 120,
+            "InternalStructure": 40
         },
         {
             "Location": "Rear",
@@ -91,32 +110,40 @@
             "Tonnage": 0,
             "InventorySlots": 0,
             "MaxArmor": 120,
-            "InternalStructure": 50
+            "InternalStructure": 40
         },
         {
             "Location": "Turret",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 150,
-            "InternalStructure": 50
+            "MaxArmor": 180,
+            "InternalStructure": 40
         }
     ]
 }

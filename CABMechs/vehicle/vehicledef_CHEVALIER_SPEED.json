@@ -1,0 +1,95 @@
+{
+    "MinAppearanceDate" : "3051-01-01T00:00:00Z", 
+    "VehicleTags": {
+        "items": [
+            "mr-resize-1.50",
+            "unit_vehicle",
+            "unit_light",
+            "unit_wheels",
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_lance_striker",
+            "unit_lance_assassin",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "ComStar",
+            "NotMercenaryReviewBoard",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "vehiclechassisdef_CHEVALIER_SPEED",
+    "Description": {
+        "Id": "vehicledef_CHEVALIER_SPEED",
+        "Name": "Chevalier Light Tank Speed",
+        "Details": "",
+        "Icon": "",
+        "Cost": 1881175,
+        "Rarity": 0,
+        "Purchasable": false
+    },
+    "Version": 1,
+    "Locations": [
+        {
+            "Location": "Front",
+            "CurrentArmor": 90,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 90,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Left",
+            "CurrentArmor": 70,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 70,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Right",
+            "CurrentArmor": 70,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 70,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Rear",
+            "CurrentArmor": 50,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 50,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Turret",
+            "CurrentArmor": 80,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 80,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "Front",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Front",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

@@ -1,24 +1,21 @@
 {
     "Description": {
-        "Id": "vehiclechassisdef_HUNTER",
-        "Name": "Hunter Light Support Tank",
+        "Id": "vehiclechassisdef_CONDOR_FLAMER",
+        "Name": "Condor Heavy Hover Tank Flamer",
         "Details": "",
         "Icon": "MANTICORE",
         "Cost": 993,
-        "Rarity": 2,
+        "Rarity": 3,
         "Purchasable": false
     },
-    "MovementCapDefID": "movedef_5-8cv",
-    "PathingCapDefID": "pathingdef_light_tracked",
-    "HardpointDataDefID": "hardpointdatadef_srmcarrier",
-    "PrefabIdentifier": "chrprfvhcl_srmcarrierbase",
-    "PrefabBase": "srmcarrier", 
-    "Tonnage": 35,
-    "weightClass": "LIGHT",
-    "BattleValue": 993,
-    "TopSpeed": 85,
-    "TurnRadius": 90,
-    "movementType": "Tracked",
+    "MovementCapDefID": "movedef_8-12cv",
+    "PathingCapDefID": "pathingdef_medium_tracked",
+    "HardpointDataDefID": "hardpointdatadef_condor",
+    "PrefabIdentifier": "chrprfvhcl_condorbase",
+    "PrefabBase": "condor",
+    "Tonnage": 50,
+    "weightClass": "MEDIUM",
+    "movementType": "Wheeled",
     "SpotterDistanceMultiplier": 1,
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
@@ -31,7 +28,7 @@
             "z": -0.5
         },
         {
-            "x": 0,
+            "x": 0.0,
             "y": 1.5,
             "z": 3.5
         }
@@ -43,7 +40,7 @@
             "z": -0.5
         },
         {
-            "x": 0,
+            "x": 0.0,
             "y": 1.5,
             "z": 3.5
         },
@@ -58,9 +55,9 @@
             "z": 0
         },
         {
-            "x": 0,
+            "x": 0.0,
             "y": 1.6,
-            "z": -4
+            "z": -4.0
         }
     ],
     "Locations": [
@@ -68,34 +65,9 @@
             "Location": "Front",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 0,
-            "MaxArmor": 160,
-            "InternalStructure": 20
-        },
-        {
-            "Location": "Left",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 0,
-            "MaxArmor": 120,
-            "InternalStructure": 20
-        },
-        {
-            "Location": "Right",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 0,
-            "MaxArmor": 120,
-            "InternalStructure": 20
-        },
-        {
-            "Location": "Rear",
-            "Hardpoints": [
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -103,8 +75,61 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 80,
-            "InternalStructure": 20
+            "MaxArmor": 150,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "Left",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 75,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "Right",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 75,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "Rear",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 70,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "Turret",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 110,
+            "InternalStructure": 25
         }
     ]
 }

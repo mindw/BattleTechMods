@@ -1,27 +1,25 @@
 {
     "Version": 1,
     "Description": {
-        "Id": "vehicledef_APC_HeavyWheeled_MG",
-        "Name": "Heavy Wheeled APC MG",
+        "Id": "vehicledef_BULLDOG_AC2",
+        "Name": "Bulldog Medium Tank AC2",
         "Details": "",
         "Icon": "",
-        "Cost": 564,
-        "Rarity": 3,
+        "Cost": 993,
+        "Rarity": 2,
         "Purchasable": false
     },
-    "ChassisID": "vehiclechassisdef_APC_HeavyWheeled_MG",
+    "ChassisID": "vehiclechassisdef_BULLDOG_AC2",
     "VehicleTags": {
         "items": [
-            "mr-resize-1.2",
+            "mr-resize-1.50",
             "unit_vehicle",
-            "unit_vehicle_apc",
-            "unit_light",
-            "unit_wheels",
-            "unit_noncombatant",
-            "unit_lance_vanguard",
-            "unit_range_short",
+            "unit_heavy",
+            "unit_tracks",
+            "unit_range_medium",
+            "unit_lance_brawler",
+            "unit_lance_tank",
             "unit_armor_low",
-            "unit_release",
             "unit_common"
         ],
         "tagSetSourceFile": ""
@@ -29,35 +27,70 @@
     "Locations": [
         {
             "Location": "Front",
-            "CurrentArmor": 100,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 100,
+            "CurrentArmor": 120,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 120,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Left",
-            "CurrentArmor": 65,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 65,
+            "CurrentArmor": 100,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 100,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Right",
-            "CurrentArmor": 65,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 65,
+            "CurrentArmor": 100,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 100,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Rear",
-            "CurrentArmor": 50,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 50,
+            "CurrentArmor": 100,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 100,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Turret",
+            "CurrentArmor": 100,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 100,
             "DamageLevel": "Functional"
         }
     ],
     "inventory": [
         {
+            "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_Autocannon_AC2_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 2,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 3,
+            "DamageLevel": "Functional"
+        },
+        {
             "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Front",
@@ -68,34 +101,6 @@
             "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Front",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Left",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Left",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Right",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Right",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
@@ -107,12 +112,19 @@
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefType": "AmmunitionBox",
+            "MountedLocation": "Front",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
     ],
-    "MinAppearanceDate": "2350-01-01T00:00:00Z"
+    "MinAppearanceDate": "2812-01-01T00:00:00Z"
 }

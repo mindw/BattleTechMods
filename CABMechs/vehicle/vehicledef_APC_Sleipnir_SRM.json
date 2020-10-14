@@ -1,58 +1,68 @@
 {
     "Version": 1,
     "Description": {
-        "Id": "vehicledef_APC_HeavyWheeled_MG",
-        "Name": "Heavy Wheeled APC MG",
+        "Id": "vehicledef_APC_Sleipnir_SRM",
+        "Name": "Sleipnir APC SRM",
         "Details": "",
         "Icon": "",
         "Cost": 564,
-        "Rarity": 3,
+        "Rarity": 0,
         "Purchasable": false
     },
-    "ChassisID": "vehiclechassisdef_APC_HeavyWheeled_MG",
+    "ChassisID": "vehiclechassisdef_APC_Sleipnir_SRM",
     "VehicleTags": {
         "items": [
-            "mr-resize-1.2",
+            "mr-resize-1.5", 
             "unit_vehicle",
             "unit_vehicle_apc",
-            "unit_light",
+            "unit_medium",
             "unit_wheels",
             "unit_noncombatant",
-            "unit_lance_vanguard",
             "unit_range_short",
-            "unit_armor_low",
-            "unit_release",
-            "unit_common"
+            "Davion",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "Kurita",
+            "MagistracyOfCanopus",
+            "TaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
     "Locations": [
         {
             "Location": "Front",
-            "CurrentArmor": 100,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 100,
+            "CurrentArmor": 120,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 120,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Left",
-            "CurrentArmor": 65,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 65,
+            "CurrentArmor": 110,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 110,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Right",
-            "CurrentArmor": 65,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 65,
+            "CurrentArmor": 110,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 110,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Rear",
-            "CurrentArmor": 50,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 50,
+            "CurrentArmor": 110,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 110,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Turret",
+            "CurrentArmor": 110,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 110,
             "DamageLevel": "Functional"
         }
     ],
@@ -60,42 +70,35 @@
         {
             "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
             "ComponentDefType": "Weapon",
-            "MountedLocation": "Front",
+            "MountedLocation": "Turret",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
             "ComponentDefType": "Weapon",
-            "MountedLocation": "Front",
+            "MountedLocation": "Turret",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
             "ComponentDefType": "Weapon",
-            "MountedLocation": "Left",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Left",
+            "MountedLocation": "Turret",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
             "ComponentDefType": "Weapon",
-            "MountedLocation": "Right",
-            "HardpointSlot": 0,
+            "MountedLocation": "Turret",
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
             "ComponentDefType": "Weapon",
-            "MountedLocation": "Right",
+            "MountedLocation": "Turret",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
@@ -107,12 +110,19 @@
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefType": "AmmunitionBox",
+            "MountedLocation": "Front",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
     ],
-    "MinAppearanceDate": "2350-01-01T00:00:00Z"
+    "MinAppearanceDate": "3004-01-01T00:00:00Z"
 }

@@ -1,7 +1,7 @@
 {
     "Description": {
-        "Id": "vehiclechassisdef_ONTOS_LRM",
-        "Name": "Ontos Heavy Tank LRM",
+        "Id": "vehiclechassisdef_PUMA_PAT-005",
+        "Name": "Puma Assault Tank PAT-005",
         "Details": "",
         "Icon": "MANTICORE",
         "Cost": 973,
@@ -10,9 +10,9 @@
     },
     "MovementCapDefID": "movedef_3-5cv",
     "PathingCapDefID": "pathingdef_assault_tracked",
-    "HardpointDataDefID": "hardpointdatadef_srmcarrier",
-    "PrefabIdentifier": "chrprfvhcl_srmcarrierbase",
-    "PrefabBase": "srmcarrier",
+    "HardpointDataDefID": "hardpointdatadef_puma",
+    "PrefabIdentifier": "chrprfvhcl_puma",
+    "PrefabBase": "puma",
     "Tonnage": 95,
     "weightClass": "ASSAULT",
     "movementType": "Tracked",
@@ -24,88 +24,52 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 3.5,
+            "y": 3,
             "z": -0.5
         },
         {
-            "x": 0,
+            "x": 0.0,
             "y": 1.5,
-            "z": 4.5
+            "z": 3.5
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 3.5,
+            "y": 3,
             "z": -0.5
         },
         {
-            "x": 0,
+            "x": 0.0,
             "y": 1.5,
-            "z": 4.5
+            "z": 3.5
         },
         {
             "x": -2,
-            "y": 3,
+            "y": 2.5,
             "z": 0
         },
         {
             "x": 2,
-            "y": 3,
+            "y": 2.5,
             "z": 0
         },
         {
-            "x": 0,
-            "y": 2,
-            "z": -4.5
+            "x": 0.0,
+            "y": 1.6,
+            "z": -4.0
         }
     ],
     "Locations": [
         {
             "Location": "Front",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 0,
-            "MaxArmor": 150,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "Left",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 0,
-            "MaxArmor": 130,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "Right",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 0,
-            "MaxArmor": 130,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "Rear",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 0,
-            "MaxArmor": 120,
-            "InternalStructure": 50
-        },
-        {
-            "Location": "Turret",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -115,7 +79,63 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 150,
+            "MaxArmor": 240,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "Left",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 160,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "Right",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 160,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "Rear",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 120,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "Turret",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 240,
             "InternalStructure": 50
         }
     ]

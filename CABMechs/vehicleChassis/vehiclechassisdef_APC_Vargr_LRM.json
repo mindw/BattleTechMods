@@ -1,20 +1,20 @@
 {
     "Description": {
-        "Id": "vehiclechassisdef_APC_HeavyWheeled_MG",
-        "Name": "Heavy Wheeled APC MG",
+        "Id": "vehiclechassisdef_APC_Vargr_LRM",
+        "Name": "Vargr APC LRM",
         "Details": "",
         "Icon": "STRIKER",
         "Cost": 564,
-        "Rarity": 3,
+        "Rarity": 0,
         "Purchasable": false
     },
-    "MovementCapDefID": "movedef_6-9cv",
-    "PathingCapDefID": "pathingdef_light_wheeled",
-    "HardpointDataDefID": "hardpointdatadef_btr",
-    "PrefabIdentifier": "chrprfvhcl_btr",
-    "PrefabBase": "btr",
-    "Tonnage": 20,
-    "weightClass": "LIGHT",
+    "MovementCapDefID": "movedef_4-6cv",
+    "PathingCapDefID": "pathingdef_medium_wheeled",
+    "HardpointDataDefID": "hardpointdatadef_apc",
+    "PrefabIdentifier": "chrPrfVhcl_apc",
+    "PrefabBase": "apc",
+    "Tonnage": 65,
+    "weightClass": "HEAVY",
     "movementType": "Wheeled",
     "SpotterDistanceMultiplier": 1,
     "VisibilityMultiplier": 0.85,
@@ -63,62 +63,56 @@
     "Locations": [
         {
             "Location": "Front",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 100,
-            "InternalStructure": 10
+            "MaxArmor": 280,
+            "InternalStructure": 35
         },
         {
             "Location": "Left",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 65,
-            "InternalStructure": 10
+            "MaxArmor": 280,
+            "InternalStructure": 35
         },
         {
             "Location": "Right",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 65,
-            "InternalStructure": 10
+            "MaxArmor": 280,
+            "InternalStructure": 35
         },
         {
             "Location": "Rear",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 50,
-            "InternalStructure": 10
+            "MaxArmor": 280,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "Turret",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 280,
+            "InternalStructure": 35
         }
     ]
 }

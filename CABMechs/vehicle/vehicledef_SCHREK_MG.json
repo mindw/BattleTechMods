@@ -1,15 +1,15 @@
 {
     "Version": 1,
     "Description": {
-        "Id": "vehicledef_SCHREK_SPPC",
-        "Name": "Schrek SPPC Carrier",
+        "Id": "vehicledef_SCHREK_MG",
+        "Name": "Schrek PPC Carrier MG",
         "Details": "",
         "Icon": "",
         "Cost": 993,
-        "Rarity": 0,
+        "Rarity": 2,
         "Purchasable": false
     },
-    "ChassisID": "vehiclechassisdef_SCHREK_SPPC",
+    "ChassisID": "vehiclechassisdef_SCHREK_MG",
     "VehicleTags": {
         "items": [
             "mr-resize-1.50",
@@ -19,68 +19,92 @@
             "unit_range_long",
             "unit_lance_sniper",
             "unit_lance_support",
-			"unit_common"            
+            "unit_armor_low",
+            "unit_release",
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },
     "Locations": [
         {
             "Location": "Front",
-            "CurrentArmor": 125,
+            "CurrentArmor": 100,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 125,
+            "AssignedArmor": 100,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Left",
-            "CurrentArmor": 110,
+            "CurrentArmor": 80,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 110,
+            "AssignedArmor": 80,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Right",
-            "CurrentArmor": 110,
+            "CurrentArmor": 80,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 110,
+            "AssignedArmor": 80,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Rear",
-            "CurrentArmor": 105,
+            "CurrentArmor": 80,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 105,
+            "AssignedArmor": 80,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Turret",
-            "CurrentArmor": 150,
+            "CurrentArmor": 100,
             "CurrentInternalStructure": 40,
-            "AssignedArmor": 150,
+            "AssignedArmor": 100,
             "DamageLevel": "Functional"
         }
     ],
     "inventory": [
         {
-            "ComponentDefID": "Weapon_PPC_PPCSnub_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Turret",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_PPC_PPCSnub_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Turret",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_PPC_PPCSnub_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Turret",
             "HardpointSlot": 2,
             "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 3,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 4,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+            "ComponentDefType": "AmmunitionBox",
+            "MountedLocation": "Front",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
         }
-    ]
+    ],
+    "MinAppearanceDate": "2833-01-01T00:00:00Z"
 }

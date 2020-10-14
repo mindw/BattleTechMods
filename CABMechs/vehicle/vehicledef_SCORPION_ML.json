@@ -1,61 +1,82 @@
 {
     "Version": 1,
     "Description": {
-        "Id": "vehicledef_APC_HeavyWheeled_LRM",
-        "Name": "Heavy Wheeled APC LRM",
+        "Id": "vehicledef_SCORPION_ML",
+        "Name": "Scorpion Light Tank ML",
         "Details": "",
         "Icon": "",
-        "Cost": 564,
+        "Cost": 306,
         "Rarity": 4,
         "Purchasable": false
     },
-    "ChassisID": "vehiclechassisdef_APC_HeavyWheeled_LRM",
+    "ChassisID": "vehiclechassisdef_SCORPION_ML",
     "VehicleTags": {
         "items": [
-            "mr-resize-1.2",
             "unit_vehicle",
-            "unit_vehicle_apc",
             "unit_light",
-            "unit_wheels",
-            "unit_noncombatant",
-            "unit_lance_vanguard",
+            "unit_tracks",
+            "unit_range_short",
+            "unit_lance_juggernaut",
+            "unit_lance_assassin",
+            "unit_speed_low",
             "unit_armor_low",
             "unit_release",
-            "unit_common"
+			"unit_common"
         ],
         "tagSetSourceFile": ""
     },
     "Locations": [
         {
             "Location": "Front",
-            "CurrentArmor": 100,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 100,
+            "CurrentArmor": 80,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 80,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Left",
-            "CurrentArmor": 65,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 65,
+            "CurrentArmor": 55,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 55,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Right",
-            "CurrentArmor": 65,
-            "CurrentInternalStructure": 10,
-            "AssignedArmor": 65,
+            "CurrentArmor": 55,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 55,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Rear",
             "CurrentArmor": 50,
-            "CurrentInternalStructure": 10,
+            "CurrentInternalStructure": 15,
             "AssignedArmor": 50,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Turret",
+            "CurrentArmor": 80,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 80,
             "DamageLevel": "Functional"
         }
     ],
     "inventory": [
+        {
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
         {
             "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
             "ComponentDefType": "Weapon",
@@ -64,33 +85,12 @@
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Front",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "MountedLocation": "Front",
-            "HardpointSlot": 2,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
-            "ComponentDefType": "AmmunitionBox",
-            "MountedLocation": "Front",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
             "ComponentDefType": "AmmunitionBox",
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
     ],
-    "MinAppearanceDate": "2400-01-01T00:00:00Z"
+    "MinAppearanceDate": "2875-01-01T00:00:00Z"
 }

@@ -1,23 +1,20 @@
 {
     "Description": {
-        "Id": "vehiclechassisdef_HUNTER",
-        "Name": "Hunter Light Support Tank",
+        "Id": "vehiclechassisdef_SCHREK_MG",
+        "Name": "Schrek PPC Carrier MG",
         "Details": "",
         "Icon": "MANTICORE",
         "Cost": 993,
         "Rarity": 2,
         "Purchasable": false
     },
-    "MovementCapDefID": "movedef_5-8cv",
-    "PathingCapDefID": "pathingdef_light_tracked",
-    "HardpointDataDefID": "hardpointdatadef_srmcarrier",
-    "PrefabIdentifier": "chrprfvhcl_srmcarrierbase",
-    "PrefabBase": "srmcarrier", 
-    "Tonnage": 35,
-    "weightClass": "LIGHT",
-    "BattleValue": 993,
-    "TopSpeed": 85,
-    "TurnRadius": 90,
+    "MovementCapDefID": "movedef_3-5cv",
+    "PathingCapDefID": "pathingdef_assault_tracked",
+    "HardpointDataDefID": "hardpointdatadef_schreck",
+    "PrefabIdentifier": "chrPrfVhcl_schreck",
+    "PrefabBase": "schreck",
+    "Tonnage": 80,
+    "weightClass": "ASSAULT",
     "movementType": "Tracked",
     "SpotterDistanceMultiplier": 1,
     "VisibilityMultiplier": 1,
@@ -33,7 +30,7 @@
         {
             "x": 0,
             "y": 1.5,
-            "z": 3.5
+            "z": 4
         }
     ],
     "LOSTargetPositions": [
@@ -45,7 +42,7 @@
         {
             "x": 0,
             "y": 1.5,
-            "z": 3.5
+            "z": 4
         },
         {
             "x": -2,
@@ -59,43 +56,62 @@
         },
         {
             "x": 0,
-            "y": 1.6,
-            "z": -4
+            "y": 1.5,
+            "z": -4.5
         }
     ],
     "Locations": [
         {
             "Location": "Front",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 160,
-            "InternalStructure": 20
+            "MaxArmor": 120,
+            "InternalStructure": 40
         },
         {
             "Location": "Left",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 120,
-            "InternalStructure": 20
+            "MaxArmor": 100,
+            "InternalStructure": 40
         },
         {
             "Location": "Right",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 120,
-            "InternalStructure": 20
+            "MaxArmor": 100,
+            "InternalStructure": 40
         },
         {
             "Location": "Rear",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 0,
+            "MaxArmor": 100,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "Turret",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -103,8 +119,8 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 0,
-            "MaxArmor": 80,
-            "InternalStructure": 20
+            "MaxArmor": 140,
+            "InternalStructure": 40
         }
     ]
 }

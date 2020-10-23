@@ -36,7 +36,7 @@
     "Signature": 0,
     "Radius": 4,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 50,
+    "MeleeDamage": 45,
     "MeleeInstability": 35,
     "MeleeToHitModifier": 0,
     "DFADamage": 35,
@@ -47,7 +47,7 @@
         {
             "Location": "Head",
             "Hardpoints": [],
-            "Tonnage": 1,
+            "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
@@ -211,5 +211,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "Introduced in 3052 the WLF-2 Variant upgrades the 10 heat sinks to doubles and the Large laser is upgraded also to an ER version."
+    "YangsThoughts": "The original was hot and dungerous. This is just plain dungerous - the freezers let it just alpha strike all day (and night) long. The extra reach of the Large Laser is just the icing on the cake."
 }

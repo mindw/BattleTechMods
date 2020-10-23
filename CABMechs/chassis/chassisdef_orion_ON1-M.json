@@ -201,37 +201,37 @@
     "VariantName": "ON1-M",
     "ChassisTags": {
         "items": [
-			"mech_case_left",
-			"mech_case_right"
-		],
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
     "YangsThoughts": "The Orion M retains it's role as a multirole brawler, the fire power has been upgraded and the heat sinking, it's at a slight cost to the survivabilty though.",
-    "FixedEquipment" : [
+    "FixedEquipment": [
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_XL_Engine",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_XL_Engine",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         }
-	]
+    ]
 }

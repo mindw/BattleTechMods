@@ -32,7 +32,7 @@
     "ChassisID": "chassisdef_assassin_ASN-23",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4430000,
+        "Cost": 4620000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": null,
@@ -43,7 +43,7 @@
         "Details": "The -23 variant of the Assassin is an upgrade of the original model using Lostech; originally seen as a standardized field modification. The SRM-2 has been removed to upgrade the Medium Laser to a Medium Pulse Laser and an Artemis IV fire control system has been added for the LRM-5 launcher.",
         "Icon": "uixTxrIcon_assassin"
     },
-    "simGameMechPartCost": 440000,
+    "simGameMechPartCost": 460000,
     "Version": 1,
     "Locations": [
         {

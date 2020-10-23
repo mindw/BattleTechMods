@@ -36,7 +36,7 @@
     "Signature": 0,
     "Radius": 4,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 50,
+    "MeleeDamage": 45,
     "MeleeInstability": 35,
     "MeleeToHitModifier": 0,
     "DFADamage": 35,
@@ -47,7 +47,7 @@
         {
             "Location": "Head",
             "Hardpoints": [],
-            "Tonnage": 1,
+            "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
             "MaxRearArmor": -1,

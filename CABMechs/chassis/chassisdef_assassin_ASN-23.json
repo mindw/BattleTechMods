@@ -1,7 +1,7 @@
 {
     "Description": {
-        "Cost": 3800000,
-        "Rarity": 1,
+        "Cost": 3960000,
+        "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
@@ -194,7 +194,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "The ASN-23 combines good speed and high maneuverabilty with decent long-range capabilities thanks to a LRM-5 launcher that's been paired with an Artemis IV FCS, which allows the ASN-23 to serve in a fast fire support role. It's relatively thin armor and the single M Pulse Laser in the right arm makes it really unsuitable to engage at close range with an opponent in the same weight-class.", 
+    "YangsThoughts": "The ASN-23 combines good speed and high maneuverabilty with decent long-range capabilities thanks to a LRM-5 launcher that's been paired with an Artemis IV FCS, which allows the ASN-23 to serve in a fast fire support role. It's relatively thin armor and the single M Pulse Laser in the right arm makes it really unsuitable to engage at close range with an opponent in the same weight-class.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",

@@ -187,7 +187,6 @@
     "VariantName": "WVE-5N",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.8",
             "mech_case_left",
             "mech_case_right"
         ],

@@ -1,0 +1,180 @@
+{
+    "MinAppearanceDate" : "3055-01-01T00:00:00Z", 
+	"MechTags": {
+		"items": [
+            "GZ_fake_min_appearance", 
+			"unit_mech",
+			"unit_light",
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_lance_striker",
+            "unit_lance_assassin",
+            "unit_role_scout",
+            "unit_armor_high",
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "NotKurita",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotComStar",
+            "NotAuriganPirates",
+            "NotFlakJackals",
+            "NotLocalsBrockwayRefugees",
+            "NotSelfEmployed",
+            "NotSteelBeast",
+            "NotRedHareRegiment",
+            "NotEmeraldDawn",
+            "NotSianTriumphant",
+            "NotHouseKhulan",
+            "NotDuchyOfAndurien",
+            "NotBlackCalderaDefense",
+            "NotBlackCalderaDefense_Hidden",
+            "NotBetrayers",
+            "NotHouseNakano",
+            "KellHounds",
+            "AuriganMercenaries",
+            "GrayDeathLegion",
+            "MajestyMetals",
+            "MasonsMarauders",
+            "MercenaryReviewBoard",
+            "PaladinProtectionLLC",
+            "RazorbackMercs",
+            "SecuritySolutionsInc",
+            "HostileMercenaries"
+		],
+		"tagSetSourceFile": ""
+	},
+	"ChassisID": "chassisdef_nighthawk_NTK-2Q",
+	"HeraldryID": null,
+	"Description": {
+        "Cost": 6420000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": null,
+		"Model": null,
+		"UIName": "Night Hawk NTK-2Q",
+		"Id": "mechdef_nighthawk_NTK-2Q",
+		"Name": "Night Hawk",
+		"Details": "Designed as a rapid response BattleMech against Periphery raiders, the heavily armed Night Hawk was Mountain Wolf BattleMechs' first and most successful design and served with distinction in the SLDF. It is armed with an ER Large Laser, a standard Large Laser, and a Medium Pulse Laser.",
+		"Icon": "uixTxrIcon_nighthawk"
+	},
+    "simGameMechPartCost": 640000,
+	"Version": 1,
+	"Locations": [
+		{
+			"DamageLevel": "Functional",
+			"Location": "Head",
+			"CurrentArmor": 45,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 16,
+			"AssignedArmor": 45,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftArm",
+			"CurrentArmor": 50,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 50,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftTorso",
+			"CurrentArmor": 65,
+			"CurrentRearArmor": 15,
+			"CurrentInternalStructure": 40,
+			"AssignedArmor": 65,
+			"AssignedRearArmor": 15
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "CenterTorso",
+			"CurrentArmor": 85,
+			"CurrentRearArmor": 20,
+			"CurrentInternalStructure": 55,
+			"AssignedArmor": 85,
+			"AssignedRearArmor": 20
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightTorso",
+			"CurrentArmor": 65,
+			"CurrentRearArmor": 15,
+			"CurrentInternalStructure": 40,
+			"AssignedArmor": 65,
+			"AssignedRearArmor": 15
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightArm",
+			"CurrentArmor": 50,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 30,
+			"AssignedArmor": 50,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftLeg",
+			"CurrentArmor": 75,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 40,
+			"AssignedArmor": 75,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightLeg",
+			"CurrentArmor": 75,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 40,
+			"AssignedArmor": 75,
+			"AssignedRearArmor": -1
+		}
+	],
+	"inventory": [
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		}
+	]
+}

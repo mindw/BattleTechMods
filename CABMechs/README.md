@@ -1,3 +1,9 @@
+# ALM-7D/8D/9D Fireball (20t)
+* XL engine 220 (2 external) 11/17
+* 10 heat sinks (8/10) TBD
+* Endo Steel
+* 1[ESIS] + 5[XLE] + 6[C/G] = 12.0
+
 # FLE-17 Flea (20t)
 * engine 120 (6 external) 6/9(12)
 * 10 heat sinks (4/10) TBD
@@ -110,6 +116,11 @@
 * CASE
 * 3.5[IS] + 12.0[XLE] + 6[C/G] + 0.5[CASE] = 22.0
 
+# NTK-2Q/2S Night Hawk (35t)
+* XL engine 210 (2 external) 6/9
+* single heatsinks (8/12) FIXME
+* 3.5[IS] + 4.5[XLE] + 6[C/G] = 14.0
+
 # PNT-10K/10KA Panther (35t)
 * engine 140 (5 external) 4/6
 * single heatsinks (5/13) FIXME
@@ -124,7 +135,7 @@
 * 3.5[IS] + 4.5[XLE] + 6[C/G] + 0.5[CASE] = 14.5
 
 # SDR-9K/9KA Venom (35t)
-* XL engine 280 (1 internal)
+* XL engine 280 (1 internal) 8/12
 * single heatsinks (11/12)
 * FF armor
 * 3.5[IS] + 8[XLE] + 6[C/G] + 1[HS] = 18.5
@@ -152,7 +163,7 @@
 * 2[ESIS] + 11.5[E] + 6[C/G] = 19.5
 
 # VL-5M Vulcan (40t)
-* engine 240 (1 external) 4/6
+* engine 240 (1 external) 6/9
 * Double heatsinks (9/11) TBD
 * Endo Steel
 * 2[ESIS] + 11.5[E] + 6[C/G] = 19.5
@@ -165,7 +176,7 @@
 * 4[ESIS] + 6.0[E] + 6[C/G] + 0.5[CASE] = 16.5
 
 # HCT-3S Hatchetman (45t)
-* XL engine 180 (4/6)
+* XL engine 180 (3 external) 4/6
 * FF armor
 * CASE
 * 4.5[IS] + 3.5[XLE] + 5[C/G] + 0.5[CASE] = 13.5

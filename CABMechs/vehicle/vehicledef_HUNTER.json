@@ -16,11 +16,11 @@
             "unit_vehicle",
             "unit_light",
             "unit_tracks",
-            "unit_range_long",
-            "unit_armor_high",
-            "unit_speed_low",
-            "unit_release",
             "unit_indirectFire",
+            "unit_range_long",
+            "unit_lance_missile_boat",
+            "unit_lance_support",
+            "unit_speed_low",
             "unit_common"
         ],
         "tagSetSourceFile": ""

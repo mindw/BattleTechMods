@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate" : "2744-01-01T00:00:00Z", 
     "Version": 1,
     "Description": {
         "Id": "vehicledef_DEMON_ROYAL",
@@ -15,8 +16,10 @@
             "unit_vehicle",
             "unit_heavy",
             "unit_wheeled",
-            "unit_release",
-            "unit_ready",
+            "unit_range_medium",
+            "unit_lance_skirmisher",
+            "unit_lance_assassin",
+            "unit_speed_low",
             "NotDavion",
             "NotLiao",
             "NotMarik",

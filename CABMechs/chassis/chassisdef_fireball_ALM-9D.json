@@ -19,7 +19,6 @@
     "Tonnage": 20,
     "InitialTonnage": 12,
     "weightClass": "LIGHT",
-    "BattleValue": 1800000,
     "Heatsinks": 0,
     "MaxJumpjets": 11,
     "Stability": 100,

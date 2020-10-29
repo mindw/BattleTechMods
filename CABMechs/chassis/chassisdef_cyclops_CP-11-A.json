@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_cyclopsBase-001",
     "PrefabBase": "cyclops",
     "VariantName": "CP-11-A",
-    "StockRole": "Sniper & Command 'Mech",
+    "StockRole": "Sniper",
     "YangsThoughts": "Cyclops 11-As uses what was once lost, the Gauss rifle, to replace the AC/20 and allow this Cyclops variant to support in long range firepower while using it's unique communications equipment to control the battlefield from afar.",
     "Tonnage": 90,
     "InitialTonnage": 51,

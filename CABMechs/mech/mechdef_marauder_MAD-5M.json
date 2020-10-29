@@ -3,12 +3,11 @@
     "MechTags": {
         "items": [
             "unit_mech",
-            "unit_heavy", 
+            "unit_heavy",
             "unit_range_medium",
             "unit_lance_assassin",
             "unit_role_flanker",
-			"unit_jumpOK",
-            "unit_release",
+            "unit_jumpOK",
             "Davion",
             "Liao",
             "Marik",

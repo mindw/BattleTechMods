@@ -553,12 +553,13 @@
     },
     
     "Manifest": [
+        { "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
         { "Type": "Sprite", "Path": "portraits" },
         { "Type": "PathingCapabilitiesDef", "Path": "pathing", "AddToDB": true },
         { "Type": "MovementCapabilitiesDef", "Path": "movement", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
-        { "Type": "ChassisDef", "Path": "chassis_merge", "ShouldMergeJSON": false, "AddToDB": false },
+        { "Type": "ChassisDef", "Path": "chassis_merge", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
         { "Type": "TurretDef", "Path": "turret", "AddToDB": true },
         { "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true },

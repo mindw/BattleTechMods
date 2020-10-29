@@ -4,12 +4,12 @@
             "unit_mech",
             "unit_heavy",
             "unit_range_medium",
+            "unit_lance_brawler",
             "unit_lance_tank",
             "unit_role_brawler",
             "unit_armor_high",
             "unit_jumpOK",
             "unit_hot",
-            "unit_release",
             "Davion",
             "Liao",
             "NotMarik",
@@ -22,9 +22,9 @@
             "NotAuriganDirectorate",
             "NotAuriganRestoration",
             "NotComStar",
-            "NotMercenaryReviewBoard",
+            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

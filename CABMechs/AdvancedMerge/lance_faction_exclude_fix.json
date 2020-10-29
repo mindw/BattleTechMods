@@ -11,32 +11,29 @@
     ],
     "Instructions": [
         {
+            "JSONPath": "LanceTags.items",
+            "Action": "ArrayAdd",
+            "Value": "BLACKLISTED"
+        },
+        {
             "JSONPath": "LanceUnits[0].excludedUnitTagSet.items",
-            "Action": "ArrayConcat",
-            "Value": [
-                "unit_urbie"
-            ]
+            "Action": "ArrayAdd",
+            "Value": "unit_urbie"
         },
         {
             "JSONPath": "LanceUnits[1].excludedUnitTagSet.items",
-            "Action": "ArrayConcat",
-            "Value": [
-                "unit_urbie"
-            ]
+            "Action": "ArrayAdd",
+            "Value": "unit_urbie"
         },
         {
             "JSONPath": "LanceUnits[2].excludedUnitTagSet.items",
-            "Action": "ArrayConcat",
-            "Value": [
-                "unit_urbie"
-            ]
+            "Action": "ArrayAdd",
+            "Value": "unit_urbie"
         },
         {
             "JSONPath": "LanceUnits[3].excludedUnitTagSet.items",
-            "Action": "ArrayConcat",
-            "Value": [
-                "unit_urbie"
-            ]
+            "Action": "ArrayAdd",
+            "Value": "unit_urbie"
         }
     ]
 }

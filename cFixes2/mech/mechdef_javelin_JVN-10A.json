@@ -1,13 +1,14 @@
 {
     "MechTags": {
         "items": [
-            "unit_indirectFire",
             "unit_mech",
-            "unit_release",
             "unit_light",
+            "unit_indirectFire",
+            "unit_range_long",
+            "unit_lance_missile_boat",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_range_long",
+            "unit_speed_high",
             "unit_armor_low"
             "unit_jumpOK",
             "unit_dlc",

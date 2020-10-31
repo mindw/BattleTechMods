@@ -3,13 +3,14 @@
         "items": [
             "unit_mech",
             "unit_light",
+            "unit_range_medium",
+            "unit_lance_striker",
             "unit_lance_assassin",
             "unit_role_scout",
+            "unit_speed_high",
             "unit_jumpOK",
-            "unit_range_medium",
             "unit_hot",
             "unit_armor_high",
-            "unit_release",
             "unit_dlc",
             "unit_common"
         ],

@@ -4,10 +4,11 @@
         "items": [
             "unit_mech",
             "unit_light",
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_lance_striker",
             "unit_lance_assassin",
             "unit_role_scout",
-            "unit_range_medium",
-            "unit_release",
             "NotDavion",
             "Liao",
             "Marik",

@@ -134,6 +134,11 @@
 * CASE
 * 3.5[IS] + 4.5[XLE] + 6[C/G] + 0.5[CASE] = 14.5
 
+# TLN-9W/9V talon (35t)
+* XL engine 280 (1 internal) 8/12
+* single heatsinks (11/11)
+* 3.5[IS] + 8[XLE] + 6[C/G] + 1[HS] = 18.5
+
 # SDR-9K/9KA Venom (35t)
 * XL engine 280 (1 internal) 8/12
 * single heatsinks (11/12)

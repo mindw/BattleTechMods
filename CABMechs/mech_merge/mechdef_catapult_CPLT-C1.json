@@ -2,15 +2,16 @@
     "MinAppearanceDate" : "2561-01-01T00:00:00Z", 
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_heavy",
-            "unit_lance_support",
-            "unit_role_sniper",
             "unit_range_long",
             "unit_indirectFire",
+            "unit_lance_missile_boat",
+            "unit_lance_support",
+            "unit_role_sniper",
             "unit_jumpOK",
             "unit_hot",
-            "unit_release",
             "unit_common",
             "Liao"
         ],

@@ -2,6 +2,7 @@
     "MinAppearanceDate": "2830-01-01T00:00:00Z",
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_medium",
             "unit_range_short",

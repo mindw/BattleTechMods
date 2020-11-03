@@ -1,20 +1,20 @@
 {
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_light",
             "unit_lance_vanguard",
             "unit_role_scout",
             "unit_range_short",
-			"unit_jumpOK",
-			"unit_hot",
-			"unit_speed_high",
-			"unit_armor_low",
+            "unit_jumpOK",
+            "unit_hot",
+            "unit_speed_high",
+            "unit_armor_low",
             "unit_common",
-            "unit_release",
-			"Kurita",
-			"Marik",
-			"NotTaurianConcordat"
+            "Kurita",
+            "Marik",
+            "NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     }

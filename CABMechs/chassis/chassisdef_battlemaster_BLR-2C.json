@@ -206,18 +206,16 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler & Command 'Mech",
+    "StockRole": "Brawler",
     "YangsThoughts": "A Star League variant thought to be lost in recent times, we may be the only Mercenary unit with the 2C in their mech bay.",
     "FixedEquipment": [
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Gear_Cockpit_CommandConsole",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "DamageLevel": "Functional",
-            "prefabName": ""
+            "DamageLevel": "Functional"
         }
     ]
 }

@@ -203,6 +203,7 @@
     ],
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_medium",
             "unit_lance_vanguard",

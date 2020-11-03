@@ -12,6 +12,7 @@
     "ChassisID": "vehiclechassisdef_PUMA_PAT-005",
     "VehicleTags": {
         "items": [
+            "unit_release",
             "unit_vehicle",
             "unit_assault",
             "unit_tracks",

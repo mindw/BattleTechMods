@@ -2,6 +2,7 @@
     "MinAppearanceDate": "3055-01-01T00:00:00Z",
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_light",
             "unit_lance_support",
@@ -12,7 +13,6 @@
             "unit_speed_low",
             "unit_jumpOK",
             "unit_armor_high",
-            "unit_release",
             "NotDavion",
             "NotLiao",
             "NotMarik",

@@ -12,6 +12,7 @@
     "ChassisID": "vehiclechassisdef_ZEPHYR_comstar",
     "VehicleTags": {
         "items": [
+            "unit_release",
             "unit_vehicle",
             "unit_medium",
             "unit_wheels",

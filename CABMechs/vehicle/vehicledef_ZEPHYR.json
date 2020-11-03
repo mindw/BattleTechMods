@@ -13,6 +13,7 @@
     "VehicleTags": {
         "items": [
             "GZ_fake_min_appearance", 
+            "unit_release",
             "unit_vehicle",
             "unit_medium",
             "unit_wheels",

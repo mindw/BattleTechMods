@@ -211,7 +211,6 @@
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Gear_Cockpit_CommandConsole",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -222,50 +221,34 @@
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_FerroFibrous_5_Slot",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_FerroFibrous_1_Slot",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_FerroFibrous_2_Slot",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Gear_FerroFibrous_5_Slot",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         }
     ]
 }

@@ -1,15 +1,15 @@
 {
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_heavy",
-            "unit_lance_tank",
+            "unit_range_long",
+            "unit_lance_sniper",
+            "unit_lance_support",
             "unit_role_ewe",
-            "unit_lance_vanguard",
             "unit_electronicWarfare",
-            "unit_release",
             "unit_dlc",
-            "unit_range_medium",
             "unit_hot",
             "NotDavion",
             "Liao",
@@ -28,5 +28,9 @@
             "NotAuriganMercenaries"
         ],
         "tagSetSourceFile": ""
-    }
+    },
+  "RequiredToSpawnCompanyTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  }
 }

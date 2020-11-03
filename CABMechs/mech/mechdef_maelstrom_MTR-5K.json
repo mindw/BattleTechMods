@@ -3,6 +3,7 @@
     "MechTags": {
         "items": [
             "unit_heavy",
+            "unit_release",
             "unit_mech",
             "unit_lance_assassin",
             "unit_role_flanker",

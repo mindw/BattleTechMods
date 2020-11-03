@@ -12,6 +12,7 @@
     "ChassisID": "vehiclechassisdef_APC_Maxim",
     "VehicleTags": {
         "items": [
+            "unit_release",
             "unit_vehicle",
             "unit_vehicle_apc",
             "unit_medium",

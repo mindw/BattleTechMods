@@ -3,13 +3,15 @@
     "Chassis": null,
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_light",
+            "unit_indirectFire",
             "unit_range_long",
+            "unit_lance_missile_boat",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_indirectFire",
-            "unit_release",
+            "unit_speed_high",
             "unit_dlc",
             "NotDavion",
             "Liao",
@@ -125,110 +127,74 @@
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
-            "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
-            "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
-            "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
-            "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_Narc",
-            "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_Narc",
-            "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Narc_Standard_0-STOCK",
-            "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         }
     ]
 }

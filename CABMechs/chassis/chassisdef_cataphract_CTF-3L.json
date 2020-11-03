@@ -209,38 +209,26 @@
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_XL_Engine",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_MASC_4",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         }
     ]
 }

@@ -2,6 +2,7 @@
     "MinAppearanceDate" : "3056-01-01T00:00:00Z", 
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_medium",
             "unit_lance_assassin",

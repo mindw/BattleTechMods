@@ -12,6 +12,7 @@
     "ChassisID": "vehiclechassisdef_HUNTER_LRM15",
     "VehicleTags": {
         "items": [
+            "unit_release",
             "unit_vehicle",
             "unit_light",
             "unit_tracks",

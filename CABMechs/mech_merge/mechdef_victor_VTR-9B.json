@@ -6,13 +6,13 @@
             "unit_lance_assassin",
             "unit_role_flanker",
             "unit_range_medium",
-			"unit_speed_high",
-			"unit_jumpOK",
+            "unit_speed_high",
+            "unit_jumpOK",
             "unit_release",
-			"Davion",
-			"NotKurita",
-			"NotMarik",
-			"NotMagistracyOfCanopus"
+            "Davion",
+            "NotKurita",
+            "NotMarik",
+            "NotMagistracyOfCanopus"
         ],
         "tagSetSourceFile": ""
     }

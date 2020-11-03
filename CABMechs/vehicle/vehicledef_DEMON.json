@@ -2,6 +2,7 @@
     "MinAppearanceDate" : "2716-01-01T00:00:00Z", 
     "VehicleTags": {
         "items": [
+            "unit_release",
             "unit_vehicle",
             "unit_heavy",
             "unit_wheeled",

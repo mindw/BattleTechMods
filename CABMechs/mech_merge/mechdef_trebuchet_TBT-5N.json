@@ -1,0 +1,18 @@
+{
+    "MinAppearanceDate": "2799-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_medium",
+            "unit_indirectFire",
+            "unit_range_long",
+            "unit_lance_missile_boat",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_hot",
+            "unit_common"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

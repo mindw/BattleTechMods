@@ -12,6 +12,7 @@
     "ChassisID": "vehiclechassisdef_APC_Maxim_SRM2",
     "VehicleTags": {
         "items": [
+            "unit_release",
             "unit_vehicle",
             "unit_vehicle_apc",
             "unit_medium",

@@ -3,6 +3,7 @@
 	"MechTags": {
 		"items": [
             "GZ_fake_min_appearance", 
+            "unit_release",
 			"unit_mech",
 			"unit_light",
             "unit_range_medium",

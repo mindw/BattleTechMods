@@ -1,0 +1,288 @@
+{
+    "Description": {
+        "Cost": 22840000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Exterminator",
+        "Id": "chassisdef_exterminator_EXT-4Db",
+        "Name": "Exterminator",
+        "Details": "The Royal Star League Exterminator first introduced in 2718 replaces the LRM-10 and Anti-Missile System with an ER Large Laser.",
+        "Icon": "uixTxrIcon_exterminator"
+    },
+    "MovementCapDefID": "movedef_exterminator_EXT-4D",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_assassin",
+    "PrefabIdentifier": "chrPrfMech_assassinBase-001",
+    "PrefabBase": "assassin",
+    "Tonnage": 65,
+    "InitialTonnage": 34.5,
+    "weightClass": "HEAVY",
+    "Heatsinks": 36,
+    "MaxJumpjets": 6,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 90,
+    "MeleeInstability": 65,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 80,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 150,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 150,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 12.5,
+            "z": -0.5
+        },
+        {
+            "x": -3,
+            "y": 12.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 13.5,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 12.5,
+            "z": -0.5
+        },
+        {
+            "x": -3,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1
+        }
+    ],
+    "VariantName": "EXT-4Db",
+    "ChassisTags": {
+        "items": [
+            "mr-resize-1.25-1.20-0.95"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "The Exterminator 4Db is using an Endo Steel frame to fit more amament. It keeps the extralight engine with double heat sinks, loses it's ammo dependancy but runs hot even so.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

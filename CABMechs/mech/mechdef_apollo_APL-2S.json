@@ -1,0 +1,204 @@
+{
+    "MinAppearanceDate": "3056-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_medium",
+            "unit_indirectFire",
+            "unit_range_long",
+            "unit_lance_missile_boat",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_armor_high",
+            "unit_speed_low",
+            "NotDavion",
+            "NotLiao",
+            "Marik",
+            "NotSteiner",
+            "Kurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotNoFaction",
+            "NotLocals",
+            "NotAuriganDirectorate",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotFlakJackals",
+            "NotLocalsBrockwayRefugees",
+            "NotSteelBeast",
+            "NotEmeraldDawn",
+            "NotSianTriumphant",
+            "NotHouseKhulan",
+            "DuchyOfAndurien",
+            "BlackCalderaDefense",
+            "BlackCalderaDefense_Hidden",
+            "Betrayers",
+            "HouseNakano",
+            "NotKellHounds",
+            "NotBlackWidowCompany",
+            "NotAuriganMercenaries",
+            "NotBaumannGroup",
+            "NotBountyHunterAssociates",
+            "NotGrayDeathLegion",
+            "NotHostileMercenaries",
+            "NotMajestyMetals",
+            "NotMasonsMarauders",
+            "NotMercenaryReviewBoard",
+            "NotPaladinProtectionLLC",
+            "NotRazorbackMercs",
+            "NotRedHareRegiment",
+            "NotSecuritySolutionsInc"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_apollo_APL-2S",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6580000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Apollo APL-2S",
+        "Id": "mechdef_apollo_APL-2S",
+        "Name": "Apollo",
+        "Details": "The 2S was built to address the concerns about short range defense that MechWarriors who pilot the Apollo had. This modification removes the two Small Pulse Lasers from the 'Mech and replaces them with two Medium Lasers giving the Apollo a more powerful close range punch.",
+        "Icon": "uixTxrIcon_apollo"
+    },
+    "simGameMechPartCost": 660000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 90,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_LRM_LRM15_Artemis_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_LRM_LRM15_Artemis_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

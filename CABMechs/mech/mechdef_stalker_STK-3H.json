@@ -9,7 +9,7 @@
             "unit_lance_support",
             "unit_role_sniper",
             "unit_hot",
-            "unit_release",
+            "unit_speed_low", 
             "unit_common"
         ],
         "tagSetSourceFile": ""

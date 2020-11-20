@@ -13,11 +13,11 @@
         "Details": "This is something brand-new to me, Commander. I don't know where this 'Mech came from, but it's a serious force to be reckoned with because of its heavy weaponry and nearly impenetrable armor. Quite a find!",
         "Icon": "uixTxrIcon_bullshark"
     },
-    "RequiredToSpawnCompanyTags" : {
-        "items" : [
+    "RequiredToSpawnCompanyTags": {
+        "items": [
             "flashpoint_HM5_hourglass_complete"
         ],
-        "tagSetSourceFile" : ""
+        "tagSetSourceFile": ""
     },
     "simGameMechPartCost": 3020000,
     "Version": 1,
@@ -290,9 +290,10 @@
             "unit_assault",
             "unit_release",
             "unit_role_brawler",
-			"unit_lance_support",
+            "unit_lance_support",
             "unit_range_medium",
             "unit_armor_high",
+            "unit_speed_low",
             "unit_indirectFire"
         ],
         "tagSetSourceFile": ""

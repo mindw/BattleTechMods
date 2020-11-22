@@ -34,7 +34,6 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_noncombatant",
                     "unit_urbie",
                     "unit_armor_low"
                 ],
@@ -62,7 +61,6 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_noncombatant",
                     "unit_urbie",
                     "unit_armor_low"
                 ],
@@ -91,7 +89,6 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_noncombatant",
                     "unit_urbie"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
@@ -119,7 +116,6 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_noncombatant",
                     "unit_urbie"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"

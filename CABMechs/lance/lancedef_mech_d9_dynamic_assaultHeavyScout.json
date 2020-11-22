@@ -72,10 +72,7 @@
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {
-                "items": [
-                    "unit_noncombatant",
-                    "unit_urbie"
-                ],
+                "items": [],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {
@@ -103,9 +100,7 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_speed_low",
-                    "unit_noncombatant",
-                    "unit_urbie"
+                    "unit_speed_low"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -134,9 +129,7 @@
             "excludedUnitTagSet": {
                 "items": [
                     "unit_lance_tank",
-                    "unit_lance_vanguard",
-                    "unit_noncombatant",
-                    "unit_urbie"
+                    "unit_lance_vanguard"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },

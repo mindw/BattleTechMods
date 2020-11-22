@@ -1,64 +1,62 @@
 {
     "Version": 1,
     "Description": {
-        "Id": "vehicledef_APC_Vargr_LRM",
-        "Name": "Vargr APC LRM",
+        "Id": "vehicledef_APC_Sleipnir",
+        "Name": "Sleipnir",
         "Details": "",
         "Icon": "",
         "Cost": 564,
         "Rarity": 0,
         "Purchasable": false
     },
-    "ChassisID": "vehiclechassisdef_APC_Vargr_LRM",
+    "ChassisID": "vehiclechassisdef_APC_Sleipnir",
     "VehicleTags": {
         "items": [
-            "mr-resize-1.71", 
+            "mr-resize-1.5", 
             "unit_release",
             "unit_vehicle",
             "unit_vehicle_apc",
-            "unit_heavy",
+            "unit_medium",
             "unit_wheels",
             "unit_noncombatant",
-            "unit_indirectFire",
-            "unit_range_long",
-            "unit_armor_high"
+            "unit_release"
         ],
         "tagSetSourceFile": ""
     },
     "Locations": [
         {
             "Location": "Front",
-            "CurrentArmor": 250,
-            "CurrentInternalStructure": 35,
-            "AssignedArmor": 250,
+            "CurrentArmor": 120,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 120,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Left",
-            "CurrentArmor": 230,
-            "CurrentInternalStructure": 35,
-            "AssignedArmor": 230,
+            "CurrentArmor": 110,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 110,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Right",
-            "CurrentArmor": 230,
-            "CurrentInternalStructure": 35,
-            "AssignedArmor": 230,
+            "CurrentArmor": 110,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 110,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Rear",
-            "CurrentArmor": 220,
-            "CurrentInternalStructure": 35,
-            "AssignedArmor": 220,
+            "CurrentArmor": 110,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 110,
             "DamageLevel": "Functional"
         },
         {
             "Location": "Turret",
-            "CurrentArmor": 230,
-            "CurrentInternalStructure": 35,
-            "AssignedArmor": 230,
+            "CurrentArmor": 110,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 110,
             "DamageLevel": "Functional"
         }
     ],
@@ -78,7 +76,14 @@
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Turret",
             "HardpointSlot": 1,
@@ -90,14 +95,7 @@
             "MountedLocation": "Front",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "ComponentDefType": "AmmunitionBox",
-            "MountedLocation": "Front",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
         }
     ],
-    "MinAppearanceDate": "2945-01-01T00:00:00Z"
+    "MinAppearanceDate": "3002-01-01T00:00:00Z"
 }

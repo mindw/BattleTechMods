@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrPrfMech_blackknightBase-001",
     "PrefabBase": "blackknight",
     "Tonnage": 75,
-    "InitialTonnage": 32.5,
+    "InitialTonnage": 34.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 0,
+    "Heatsinks": 6,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [

@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrPrfMech_zeusBase-001",
     "PrefabBase": "zeus",
     "Tonnage": 80,
-    "InitialTonnage": 37.5,
+    "InitialTonnage": 39.5,
     "weightClass": "ASSAULT",
-    "Heatsinks": 0,
+    "Heatsinks": 6,
     "MaxJumpjets": 4,
     "Stability": 200,
     "StabilityDefenses": [

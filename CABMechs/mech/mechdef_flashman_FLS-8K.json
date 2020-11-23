@@ -125,79 +125,51 @@
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
@@ -205,32 +177,21 @@
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         }
     ]
 }

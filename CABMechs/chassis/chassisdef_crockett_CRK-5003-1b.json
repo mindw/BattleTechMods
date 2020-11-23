@@ -13,13 +13,13 @@
     },
     "MovementCapDefID": "movedef_crockett_CRK-5003-0",
     "PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_crk",
-	"PrefabIdentifier": "chrprfmech_crkbase-001",
-	"PrefabBase": "crk",
+    "HardpointDataDefID": "hardpointdatadef_crk",
+    "PrefabIdentifier": "chrprfmech_crkbase-001",
+    "PrefabBase": "crk",
     "Tonnage": 85,
     "InitialTonnage": 23.5,
     "weightClass": "ASSAULT",
-    "Heatsinks": 10,
+    "Heatsinks": 30,
     "MaxJumpjets": 3,
     "Stability": 200,
     "StabilityDefenses": [
@@ -205,60 +205,60 @@
     "VariantName": "CRK-5003-1b",
     "ChassisTags": {
         "items": [
-			"mr-resize-1.10"
-		],
+            "mr-resize-1.10"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
     "YangsThoughts": "The Crockett 5003-1b makes some heavy changes to the Crockett we are all familiar with. The Endo Steel chassis has allowed for a complete change up of the weaponry, an entirely energy weapon array backing up the Gauss rifle in the left torso.",
-    "FixedEquipment" : [
+    "FixedEquipment": [
         {
-            "MountedLocation" : "LeftArm",
-            "ComponentDefID" : "Gear_EndoSteel_1_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "Gear_EndoSteel_1_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_EndoSteel_4_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoSteel_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "RightArm",
-            "ComponentDefID" : "Gear_EndoSteel_1_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "LeftLeg",
-            "ComponentDefID" : "Gear_EndoSteel_3_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "RightLeg",
-            "ComponentDefID" : "Gear_EndoSteel_3_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         }
     ]
 }

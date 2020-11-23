@@ -157,7 +157,6 @@
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Beagle_Probe_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
@@ -189,7 +188,6 @@
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_Sensor_ECM",
-            "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"

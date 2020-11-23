@@ -124,13 +124,9 @@
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         }
     ]
 }

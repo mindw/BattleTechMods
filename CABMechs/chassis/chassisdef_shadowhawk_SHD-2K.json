@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001",
     "PrefabBase": "shadowhawk",
     "Tonnage": 55,
-    "InitialTonnage": 27,
+    "InitialTonnage": 28,
     "weightClass": "MEDIUM",
-    "Heatsinks": 0,
+    "Heatsinks": 3,
     "MaxJumpjets": 5,
     "Stability": 130,
     "StabilityDefenses": [

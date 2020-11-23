@@ -37,6 +37,7 @@
             },
             "excludedUnitTagSet": {
                 "items": [
+                    "unit_urbie",
                     "unit_speed_high"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
@@ -64,7 +65,7 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_noncombatant",
+                    "unit_urbie",
                     "unit_speed_high"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
@@ -91,6 +92,7 @@
             },
             "excludedUnitTagSet": {
                 "items": [
+                    "unit_urbie",
                     "unit_armor_low"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
@@ -117,6 +119,7 @@
             },
             "excludedUnitTagSet": {
                 "items": [
+                    "unit_urbie",
                     "unit_armor_low"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"

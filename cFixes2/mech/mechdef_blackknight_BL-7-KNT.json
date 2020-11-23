@@ -141,7 +141,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftArm",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -152,7 +152,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftArm",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -185,7 +185,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -196,7 +196,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -245,28 +245,6 @@
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,

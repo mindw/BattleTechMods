@@ -1,0 +1,13 @@
+{
+    "TargetIDs": [
+        "chassisdef_urbanmech_UM-R60",
+        "chassisdef_urbanmech_UM-R90"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.StockRole",
+            "Action": "Replace",
+            "Value": "Ambusher"
+        }
+    ]
+}

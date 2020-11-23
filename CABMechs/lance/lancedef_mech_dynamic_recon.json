@@ -34,7 +34,6 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_urbie",
                     "unit_speed_low"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
@@ -61,7 +60,6 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_urbie",
                     "unit_speed_low"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"

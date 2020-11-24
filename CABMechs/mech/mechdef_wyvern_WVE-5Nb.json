@@ -5,12 +5,12 @@
             "unit_release",
             "unit_mech",
             "unit_medium",
+            "unit_indirectFire",
+            "unit_range_long",
+            "unit_lance_missile_boat",
+            "unit_lance_support",
+            "unit_role_sniper",
             "unit_jumpOK",
-            "unit_range_medium",
-            "unit_lance_brawler",
-            "unit_lance_tank",
-            "unit_role_brawler",
-            "unit_indirectFire", 
             "unit_speed_low",
             "unit_armor_high",
             "unit_hot",
@@ -19,7 +19,7 @@
             "NotMarik",
             "NotSteiner",
             "NotKurita",
-            "ComStar",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotNoFaction",
@@ -55,21 +55,21 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_wyvern_WVE-5N",
+    "ChassisID": "chassisdef_wyvern_WVE-5Nb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4500000,
-        "Rarity": 1,
+        "Cost": 7820000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Wyvern WVE-5N",
-        "Id": "mechdef_wyvern_WVE-5N",
+        "UIName": "Wyvern WVE-5Nb",
+        "Id": "mechdef_wyvern_WVE-5Nb",
         "Name": "Wyvern",
-        "Details": "The Wyvern was designed as an urban warfare BattleMech for the Star League Defense Force. While considered slow when compared to other medium 'Mechs, and indeed vulnerable if forced to engage in open country, the Wyvern quickly proved itself to be one of the best urban combatants ever built. Thanks to its combination of weaponry, decent armor and jump jets the Wyvern can take on and destroy 'Mechs well outside its weight class.",
+        "Details": "This upgrade, introduced concurrently with the original and utilized by the SLDF Royal brigades, uses an XL Engine for power. That change enabled an upgrade of the large laser to a pulse laser version and one of the small lasers to a Medium Laser, while an additional heat sink helps keep down the extra heat created by these weapons.",
         "Icon": "uixTxrIcon_wyvern"
     },
-    "simGameMechPartCost": 450000,
+    "simGameMechPartCost": 780000,
     "Version": 1,
     "Locations": [
         {
@@ -168,6 +168,13 @@
             "DamageLevel": "Functional"
         },
         {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
             "ComponentDefType": "Weapon",
@@ -204,14 +211,14 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"

@@ -1,25 +1,24 @@
 {
-    "MinAppearanceDate": "2660-01-01T00:00:00Z",
+    "MinAppearanceDate": "3053-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
             "unit_mech",
-            "unit_medium",
-            "unit_jumpOK",
+            "unit_light",
+            "unit_speed_high",
             "unit_range_medium",
-            "unit_lance_brawler",
-            "unit_lance_tank",
-            "unit_role_brawler",
-            "unit_indirectFire", 
-            "unit_speed_low",
-            "unit_armor_high",
+            "unit_lance_striker",
+            "unit_lance_assassin",
+            "unit_role_scout",
+            "unit_jumpOK",
+            "unit_dlc",
             "unit_hot",
-            "NotDavion",
+            "Davion",
             "NotLiao",
             "NotMarik",
-            "NotSteiner",
+            "Steiner",
             "NotKurita",
-            "ComStar",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotNoFaction",
@@ -38,38 +37,38 @@
             "NotBlackCalderaDefense_Hidden",
             "NotBetrayers",
             "NotHouseNakano",
-            "NotKellHounds",
-            "NotBlackWidowCompany",
-            "NotAuriganMercenaries",
-            "NotBaumannGroup",
-            "NotBountyHunterAssociates",
-            "NotGrayDeathLegion",
-            "NotHostileMercenaries",
-            "NotMajestyMetals",
-            "NotMasonsMarauders",
-            "NotMercenaryReviewBoard",
-            "NotPaladinProtectionLLC",
-            "NotRazorbackMercs",
-            "NotRedHareRegiment",
-            "NotSecuritySolutionsInc"
+            "KellHounds",
+            "BlackWidowCompany",
+            "AuriganMercenaries",
+            "BaumannGroup",
+            "BountyHunterAssociates",
+            "GrayDeathLegion",
+            "HostileMercenaries",
+            "MajestyMetals",
+            "MasonsMarauders",
+            "MercenaryReviewBoard",
+            "PaladinProtectionLLC",
+            "RazorbackMercs",
+            "RedHareRegiment",
+            "SecuritySolutionsInc"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_wyvern_WVE-5N",
+    "ChassisID": "chassisdef_javelin_JVN-11A",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4500000,
+        "Cost": 3590000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Wyvern WVE-5N",
-        "Id": "mechdef_wyvern_WVE-5N",
-        "Name": "Wyvern",
-        "Details": "The Wyvern was designed as an urban warfare BattleMech for the Star League Defense Force. While considered slow when compared to other medium 'Mechs, and indeed vulnerable if forced to engage in open country, the Wyvern quickly proved itself to be one of the best urban combatants ever built. Thanks to its combination of weaponry, decent armor and jump jets the Wyvern can take on and destroy 'Mechs well outside its weight class.",
-        "Icon": "uixTxrIcon_wyvern"
+        "UIName": "Javelin JVN-11A",
+        "Id": "mechdef_javelin_JVN-11A",
+        "Name": "Javelin",
+        "Details": "The second version of the Javelin to carry the moniker of Fire Javelin, this upgrade of the 10F was introduced following the Clan Invasion in 3053 and mounts seven medium lasers, using double heat sinks to counter the massive amount of heat that can build up from using so many energy weapons. The conventional armor was also swapped out for Ferro-Fibrous and an additional ton added to increase the overall protection for the Javelin. This design was a field refit often seen after other units had cast off their old parts.",
+        "Icon": "uixTxrIcon_javelin"
     },
-    "simGameMechPartCost": 450000,
+    "simGameMechPartCost": 359000,
     "Version": 1,
     "Locations": [
         {
@@ -84,147 +83,147 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 70,
+            "CurrentArmor": 45,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 35,
-            "AssignedArmor": 70,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 45,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 80,
-            "CurrentRearArmor": 30,
-            "CurrentInternalStructure": 55,
-            "AssignedArmor": 80,
-            "AssignedRearArmor": 30
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 15
         },
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 100,
-            "CurrentRearArmor": 35,
-            "CurrentInternalStructure": 70,
-            "AssignedArmor": 100,
-            "AssignedRearArmor": 35
+            "CurrentArmor": 55,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 55,
+            "AssignedRearArmor": 15
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 80,
-            "CurrentRearArmor": 30,
-            "CurrentInternalStructure": 55,
-            "AssignedArmor": 80,
-            "AssignedRearArmor": 30
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 15
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 70,
+            "CurrentArmor": 45,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 35,
-            "AssignedArmor": 70,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 45,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 110,
+            "CurrentArmor": 60,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 55,
-            "AssignedArmor": 110,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 60,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 110,
+            "CurrentArmor": 60,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 55,
-            "AssignedArmor": 110,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 60,
             "AssignedRearArmor": -1
         }
     ],
     "inventory": [
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-            "ComponentDefType": "AmmunitionBox",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "HardpointSlot": 2,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,

@@ -66,15 +66,23 @@
 * 10 heat sinks
 * Endo Steel
 * FF armor
-* 1.5[ESIS] + 13.5[E] + 6[C/G] = 22.0
+* 1.5[ESIS] + 14.5[E] + 6[C/G] = 22.0
 
-# HER-3S/S1/S2 Hermes (30t)
-* engine 270 9/14(18)
-* 10 heat sinks
+# HER-1Sb Hermes (30t)
+* XL engine 270 9/14(18)
+* double heatsinks (10/10)
 * Endo Steel
 * FF armor
 * MASC
-* 1.5[ESIS] + 13.5[E] + 6[C/G] = 22.0
+* 1.5[ESIS] + 13.5[E] + 6[C/G] = 15.0
+
+# HER-3S/S1/S2 Hermes (30t)
+* engine 270 9/14(18)
+* single heatsinks (10/10)
+* Endo Steel
+* FF armor
+* MASC
+* 1.5[ESIS] + 7.5[E] + 6[C/G] = 22.0
 
 # HSR-200-D Hussar (30t)
 * engine 270 9/14

@@ -1,0 +1,284 @@
+{
+    "Description": {
+        "Cost": 6210000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Hermes",
+        "Id": "chassisdef_hermes_HER-1Sb",
+        "Name": "Hermes",
+        "Details": "The Royal Hermes introduced in 2740 has an upgraded weapon suite with four medium lasers and one small laser in addition to the flamer. It also mounts a Beagle Active Probe and MASC motive system. Room for these improvements were made possible by switching to a XL Engine. As usual with Royal 'Mechs, it also uses double heat sinks.",
+        "Icon": "uixTxrIcon_hermes"
+    },
+    "MovementCapDefID": "movedef_hermes_HER-1A",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_hermes",
+    "PrefabIdentifier": "chrprfmech_hermesbase-001",
+    "PrefabBase": "hermes",
+    "Tonnage": 30,
+    "InitialTonnage": 15,
+    "weightClass": "LIGHT",
+    "Heatsinks": 30,
+    "MaxJumpjets": 9,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 30,
+    "MeleeInstability": 30,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 40,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 40,
+    "DFAInstability": 40,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 100,
+            "MaxRearArmor": 50,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "HER-1Sb",
+    "ChassisTags": {
+        "items": [
+            "mr-resize-0.77",
+            "chassis_ferro"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Striker",
+    "YangsThoughts": "Can you believe this Hermes 1Sb is faster than a standard Hermes? It has a MASC system, makes me glad I'm always up here fixing them and not piloting her! The Extra Light engine has also made room for an Active Probe system.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Beagle_Probe_0-STOCK",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }, 
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_MASC_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

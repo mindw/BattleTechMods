@@ -13,6 +13,7 @@
     "ChassisID": "vehiclechassisdef_DEMON_ROYAL",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.5",
             "unit_vehicle",
             "unit_release",
             "unit_heavy",

@@ -35,10 +35,7 @@
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {
-                "items": [
-                    "unit_noncombatant",
-                    "unit_urbie"
-                ],
+                "items": [],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {
@@ -67,10 +64,7 @@
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {
-                "items": [
-                    "unit_noncombatant",
-                    "unit_urbie"
-                ],
+                "items": [],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {
@@ -98,10 +92,7 @@
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {
-                "items": [
-                    "unit_noncombatant",
-                    "unit_urbie"
-                ],
+                "items": [],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {

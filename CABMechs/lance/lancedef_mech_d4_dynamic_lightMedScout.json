@@ -36,8 +36,6 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_noncombatant",
-                    "unit_urbie"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -67,9 +65,7 @@
             "excludedUnitTagSet": {
                 "items": [
                     "unit_assault",
-                    "unit_heavy",
-                    "unit_noncombatant",
-                    "unit_urbie"
+                    "unit_heavy"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -103,9 +99,7 @@
                     "unit_heavy",
                     "unit_lance_vanguard",
                     "unit_lance_support",
-                    "unit_speed_low",
-                    "unit_noncombatant",
-                    "unit_urbie"
+                    "unit_speed_low"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -134,9 +128,7 @@
             "excludedUnitTagSet": {
                 "items": [
                     "unit_lance_vanguard",
-                    "unit_speed_low",
-                    "unit_noncombatant",
-                    "unit_urbie"
+                    "unit_speed_low"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },

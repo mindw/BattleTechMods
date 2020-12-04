@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate": "2780-01-01T00:00:00Z",
+    "MinAppearanceDate": "2765-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -53,7 +53,104 @@
         ],
         "tagSetSourceFile": ""
     },
+    "ChassisID": "chassisdef_atlas_AS7-D-H",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 23740000,
+        "Rarity": 5,
+        "Purchasable": false,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Atlas II AS7-D-H",
+        "Id": "mechdef_atlas_AS7-D-H",
+        "Name": "Atlas II",
+        "Details": "First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. In 2785, when General Aleksandr Kerensky put out his call for loyal forces to join him in his Exodus, every Atlas II pilot responded and left with him. The Atlas II is armed with an array of weaponry, including an LB-X Autocannon/10, a pair of ER Large Lasers, and a 20-tube Long Range Missile Launcher for long range attacks. For close range combat, the 'Mech is equipped with a pair of Medium Pulse Lasers and a Holly Six Pack. In addition, the 'Mech has been given CASE for both sides of the torso in order to keep an ammunition cook-off from consuming the 'Mech.",
+        "Icon": "uixTxrIcon_atlas"
+    },
+    "simGameMechPartCost": 2374000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 170,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 170,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 235,
+            "CurrentRearArmor": 70,
+            "CurrentInternalStructure": 155,
+            "AssignedArmor": 235,
+            "AssignedRearArmor": 70
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 170,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 170,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 205,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 205,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 205,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 205,
+            "AssignedRearArmor": -1
+        }
+    ],
     "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }, 
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
@@ -112,25 +209,32 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+            "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }, 
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",

@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 2,
+            "InventorySlots": 1,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16

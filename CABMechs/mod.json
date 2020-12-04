@@ -29,6 +29,22 @@
             "FallbackPrefabsForComponentDefIdsDescription": "A list of components that always should be assigned a weapon prefab to.",
             "WeaponPrefabMappings": [
                 {
+                    "PrefabIdentifier": "Laser",
+                    "HardpointCandidates": [
+                      "laser",
+                      "flamer",
+                      "mg",
+                      "machinegun",
+                      "ac2",
+                      "ppc",
+                      "ac",
+                      "lbx",
+                      "narc",
+                      "srm2",
+                      "ams"
+                    ]
+                }, 
+                {
                     "PrefabIdentifier": "AC2",
                     "HardpointCandidates": [
                         "ac2",

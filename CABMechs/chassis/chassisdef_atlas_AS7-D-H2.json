@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 10800000,
+        "Cost": 18500000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Atlas",
-        "Id": "chassisdef_atlas_AS7-A",
-        "Name": "Atlas",
-        "Details": "The Atlas A is an unusual design.  It trades out the more concentrated damage of the AC20 for a scattershot approach of using five SRM6s.  The 'Mech still retains an Autocannon, but it has been reduced to an AC5.  Rounding off its compliment, the AS7-A mounts a Medium Laser in each arm, and downgrades the missile launcher to a LRM10.",
+        "UIName": "Atlas II",
+        "Id": "chassisdef_atlas_AS7-D-H2",
+        "Name": "Atlas II",
+        "Details": "Produced in very limited numbers before the fall of the First Star League, the AS7-D-H2 replaces both large lasers with a Kinslaughter ER PPC and a Gauss rifle replaces the LB 10-X autocannon. One heat sink is removed.",
         "Icon": "uixTxrIcon_atlas"
     },
     "MovementCapDefID": "movedef_atlas_AS7-D",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrPrfMech_atlasBase-001",
     "PrefabBase": "atlas",
     "Tonnage": 100,
-    "InitialTonnage": 37,
+    "InitialTonnage": 38,
     "weightClass": "ASSAULT",
-    "Heatsinks": 6,
+    "Heatsinks": 42,
     "MaxJumpjets": 3,
     "Stability": 200,
     "StabilityDefenses": [
@@ -61,6 +61,10 @@
                     "Omni": false
                 },
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
@@ -81,18 +85,6 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -103,7 +95,24 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -118,11 +127,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -135,6 +140,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -213,11 +222,49 @@
             "z": 1
         }
     ],
-    "VariantName": "AS7-A",
+    "VariantName": "AS7-D-H2",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro",
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "While the Atlas AS7-A lacks the solid punch of the AC20, getting peppered by thirty SRMs in one volley is terrifying.  Strange that they swapped the torsos for the load-outs from the AS7-D though, seems like more trouble than its worth."
+    "YangsThoughts": "Produced in very limited numbers before the fall of the First Star League, the AS7-D-H2 replaces both large lasers with a Kinslaughter ER PPC and a Gauss rifle replaces the LB 10-X autocannon. One heat sink is removed.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

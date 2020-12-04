@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 10800000,
+        "Cost": 18500000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Atlas",
-        "Id": "chassisdef_atlas_AS7-A",
-        "Name": "Atlas",
-        "Details": "The Atlas A is an unusual design.  It trades out the more concentrated damage of the AC20 for a scattershot approach of using five SRM6s.  The 'Mech still retains an Autocannon, but it has been reduced to an AC5.  Rounding off its compliment, the AS7-A mounts a Medium Laser in each arm, and downgrades the missile launcher to a LRM10.",
+        "UIName": "Atlas II",
+        "Id": "chassisdef_atlas_AS7-D-H",
+        "Name": "Atlas II",
+        "Details": "First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. In 2785, when General Aleksandr Kerensky put out his call for loyal forces to join him in his Exodus, every Atlas II pilot responded and left with him. The Atlas II is armed with an array of weaponry, including an LB-X Autocannon/10, a pair of ER Large Lasers, and a 20-tube Long Range Missile Launcher for long range attacks. For close range combat, the 'Mech is equipped with a pair of Medium Pulse Lasers and a Holly Six Pack. In addition, the 'Mech has been given CASE for both sides of the torso in order to keep an ammunition cook-off from consuming the 'Mech.",
         "Icon": "uixTxrIcon_atlas"
     },
     "MovementCapDefID": "movedef_atlas_AS7-D",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrPrfMech_atlasBase-001",
     "PrefabBase": "atlas",
     "Tonnage": 100,
-    "InitialTonnage": 37,
+    "InitialTonnage": 38,
     "weightClass": "ASSAULT",
-    "Heatsinks": 6,
+    "Heatsinks": 42,
     "MaxJumpjets": 3,
     "Stability": 200,
     "StabilityDefenses": [
@@ -61,6 +61,10 @@
                     "Omni": false
                 },
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
@@ -81,18 +85,6 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -103,7 +95,24 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 310,
@@ -118,11 +127,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -135,6 +140,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -213,11 +222,49 @@
             "z": 1
         }
     ],
-    "VariantName": "AS7-A",
+    "VariantName": "AS7-D-H",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro",
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "While the Atlas AS7-A lacks the solid punch of the AC20, getting peppered by thirty SRMs in one volley is terrifying.  Strange that they swapped the torsos for the load-outs from the AS7-D though, seems like more trouble than its worth."
+    "YangsThoughts": "First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. The Atlas II is armed with an array of weaponry, including an LB-X Autocannon/10, a pair of ER Large Lasers, and a 20-tube Long Range Missile Launcher for long range attacks. For close range combat, the 'Mech is equipped with a pair of Medium Pulse Lasers and a Holly Six Pack.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

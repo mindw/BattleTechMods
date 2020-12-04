@@ -678,6 +678,3 @@ TODO:
 * rarity revision
 * external heatsinks
 * dynamic availability (proabably will need a binary mod)
-* fix cavalry Assault lances full of Victors: 
-    * change lance to use speed_high tag
-    * add speed_high tag to all 4/6 assault mechs (not only Victors)

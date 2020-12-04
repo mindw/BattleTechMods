@@ -17,7 +17,7 @@
     "Author": "Mind_wanderer, based on the work of Justin Kase and others",
     "DLL": "JK_Components.dll",
     "Settings": {
-        "Debug": true,
+        "Debug": false,
         "HardpointFix": {
             "Enabled": true,
             "EnabledDescription": "Optimizes the way installed weapons are shown on a mech model.",

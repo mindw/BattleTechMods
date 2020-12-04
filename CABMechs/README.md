@@ -463,12 +463,12 @@
 * CASE
 * 3.5[ESIS] + 16[E] + 6[C/G] + 1[HS] + 0.5[CASE] = 27
 
-# WHM-7A Warhammer (70t)
+# WHM-7A/7K Warhammer (70t)
 * engine 280 (1 internal) 4/6
 * double heatsinks (11/16)
 * Endo Steel
-* CASE RT
-* 3.5[IS] + 16[E] + 6[C/G] + 1[DHS] + 0.5[CASE] = 27
+* CASE RT (7A)
+* 3.5[ESIS] + 16[E] + 6[C/G] + 1[DHS] + 0.5[CASE](7A) = 26.5(7K), 27(7A)
 
 # WHM-7M/7S Warhammer (70t)
 * engine 280 (1 internal) 4/6

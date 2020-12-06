@@ -12,7 +12,7 @@
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
     "shortDescription": "Commander, {TEAM_EMP.FactionDef.Name} is tracking an extremely heavy Mercenary 'Mech. The 'Mech is in enemy territory, however what concerns us is the area they are patrolling may uncover something we would rather they didn't. There is little reason for the 'Mech to be where it is, it's almost certainly bait for a trap; we want you to find out what kind of trap it is. Engage the 'Mech, intercept any other Mercenary forces sent to defend it, and destroy all of them.",
-    "longDescription": "I'm not comfortable with how little information we have about the enemy forces, Commander.",
+    "longDescription": "I'm uncomfortable with how little information we have about the enemy forces, Commander.",
     "salvagePotential": 12,
     "requirementList": [
         {
@@ -58,14 +58,7 @@
                 ],
                 "tagSetSourceFile": ""
             },
-            "RequirementComparisons": [
-                {
-                    "obj": "Reputation.Owner",
-                    "op": "LessThanOrEqual",
-                    "val": -80,
-                    "valueConstant": "[rep_loathed_max]"
-                }
-            ]
+            "RequirementComparisons": []
         }
     ],
     "OnContractSuccessResults": [
@@ -115,7 +108,6 @@
         }
     ],
     "OnContractFailureResults": [],
-    "contractType": "SimpleBattle",
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
@@ -184,6 +176,7 @@
                 "EncounterObjectGuid": "181d617b-02bc-4fd3-be25-d6d5cffb78de"
             },
             "enableChunkFromContract": true,
+            "controlledByContractChunkGroupList": [],
             "requirementList": []
         }
     ],
@@ -405,6 +398,7 @@
             ]
         }
     ],
+    "extractionOverrideList": [],
     "overwriteMissionCompleteWhenAutoComplete": true,
     "overrideAutoCompleteDialogueId": null,
     "disableNegotations": false,
@@ -418,7 +412,7 @@
     "expirationTimeOverride": -1,
     "negotiatedSalary": 1,
     "negotiatedSalvage": 0,
-    "excludedFromProceduralGeneration": true,
+    "excludedFromProceduralGeneration": false,
     "player1Team": {
         "encounterLayerData": {
             "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
@@ -612,7 +606,7 @@
         },
         "teamGuid": "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName": "Target",
-        "faction": "HostileMercenaries",
+        "faction": "AuriganMercenaries",
         "teamLeaderCastDefId": "castDef_TeamLeader_Current",
         "lanceOverrideList": [
             {
@@ -972,5 +966,7 @@
         "faction": "INVALID_UNSET",
         "teamLeaderCastDefId": "castDef_TeamLeader_Current",
         "lanceOverrideList": []
-    }
+    },
+    "contractType": "SimpleBattle",
+    "contractTypeID": "SimpleBattle"
 }

@@ -12,7 +12,7 @@
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
     "shortDescription": "{TEAM_TAR.FactionDef.Name} forces in the region have several highly fortified locations. Our target isn't these bases however, there is a patrol 'Mech lance we wish eliminated so we can perform another operation. The issue is the target lance retreats at the first sight of danger to the closest fortification and the anti air in the area means we have no close range drops. We require a fast but deadly strike force of 'Mechs, and we believe you are the people for the job. We'd like you to intercept the {TEAM_TAR.FactionDef.Demonym} lance and destroy it.",
-    "longDescription": "Commander, one light lance against heavy opposition? I don't like the sound of it but the intel says it will only be 1 lance opposition.",
+    "longDescription": "Commander, one medium lance against heavy opposition? I don't like the sound of it but the intel says it will only be 1 lance opposition.",
     "salvagePotential": 15,
     "requirementList": [
         {
@@ -56,10 +56,10 @@
         -1
     ],
     "mechMaxTonnages": [
-        35,
-        35,
-        35,
-        35
+        55,
+        55,
+        55,
+        55
     ],
     "mapMood": null,
     "startingFogOfWarVisibility": "Surveyed",
@@ -474,7 +474,8 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_mech"
+                        "lance_type_mech",
+                        "lance_type_recon"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },

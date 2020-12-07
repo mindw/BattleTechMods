@@ -1,0 +1,27 @@
+{
+    "Name": "Give_me_Death",
+    "Enabled": true,
+    "Version": "1.8.0.0",
+    "Author": "HBS - with minor adjustments for Grayson Carlyle & lance characters and added unseen 'Mechs by Justin Kase.  Thank you to Solahma Joe/Bloody Doves/Colobos for their Marauder and Rifleman mods.",
+    "DependsOn": [],
+    "OptionallyDependsOn": [
+        "cFixes",
+        "cFixes2",
+        "CAB-Clan Mech",
+        "CAB-IS Mech",
+        "CAB-Misc",
+        "CAB-Tanks",
+        "CABMechs"
+    ],
+    "ConflictsWith": [],
+    "Manifest": [
+        {
+            "Type": "ContractOverride",
+            "Path": "contracts"
+        },
+        {
+            "Type": "PilotDef",
+            "Path": "pilot"
+        }
+    ]
+}

@@ -1741,7 +1741,7 @@
                     "EncounterObjectGuid" : "f11631eb-034f-4d16-8f4f-2599481976ff"
                 },
                 "name" : "Lance_Neutral_BaseTurrets",
-                "lanceDefId" : "Manual",
+                "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_turret"
@@ -1998,9 +1998,11 @@
                     "EncounterObjectGuid" : "1245481e-b960-40e5-9c49-015a9de6404d"
                 },
                 "name" : "Lance_Enemy_BaseTurrets",
-                "lanceDefId" : "Manual",
+                "lanceDefId": "Tagged",
                 "lanceTagSet" : {
-                    "items" : [],
+                    "items": [
+                        "lance_type_turret"
+                    ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {

@@ -18,5 +18,8 @@
     },
 
     "Manifest": [
+        { "Type": "SimGameEventDef", "Path": "Events" },
+        { "Type": "ForcedTimelineEvent", "Path": "ForcedEvents" },
+        { "Type": "ItemCollectionRequirement", "Path": "ItemCollectionRequirements" }
     ]
 }

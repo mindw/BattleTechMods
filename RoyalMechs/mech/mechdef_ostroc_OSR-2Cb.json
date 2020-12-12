@@ -10,21 +10,22 @@
             "unit_role_flanker",
             "unit_speed_high",
             "unit_release",
+            "unit_sldf_royal",
             "NotDavion",
             "NotLiao",
             "NotMarik",
             "NotSteiner",
             "NotKurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
-            "NotNoFaction",
             "NotLocals",
-            "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotBlackWidowCompany"
         ],
         "tagSetSourceFile": ""
     },
@@ -122,101 +123,65 @@
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
-            "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         }
     ]
 }

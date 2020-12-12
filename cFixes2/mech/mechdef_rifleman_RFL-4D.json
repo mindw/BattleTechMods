@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate": "3021-01-01T00:00:00Z",
     "ChassisID": "chassisdef_rifleman_RFL-4D",
     "HeraldryID": null,
     "Description": {
@@ -201,21 +202,21 @@
             "unit_armor_low",
             "unit_speed_low",
             "unit_hot",
-            "Davion",
-            "NotLiao",
+            "NotDavion",
+            "Liao",
             "NotMarik",
             "NotSteiner",
             "NotKurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
-            "NotNoFaction",
             "NotLocals",
-            "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "NotKellHounds",
+            "NotBlackWidowCompany"
         ],
         "tagSetSourceFile": ""
     }

@@ -1,7 +1,7 @@
 {
     "MechTags": {
         "items": [
-			"BLACKLISTED",
+            "BLACKLISTED",
             "unit_mech",
             "unit_medium",
             "unit_lance_assassin",
@@ -10,22 +10,21 @@
             "unit_armor_high",
             "unit_speed_high",
             "unit_release",
-            "unit_ready",
             "NotDavion",
             "NotLiao",
             "NotMarik",
             "NotSteiner",
-            "Kurita",
+            "NotKurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
-            "NotNoFaction",
             "NotLocals",
-            "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotBlackWidowCompany"
         ],
         "tagSetSourceFile": ""
     },
@@ -131,7 +130,7 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
+        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": "",

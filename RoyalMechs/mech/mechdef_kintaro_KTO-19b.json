@@ -10,21 +10,22 @@
             "unit_lance_assassin",
             "unit_role_flanker",
             "unit_release",
+            "unit_sldf_royal",
             "NotDavion",
             "NotLiao",
             "NotMarik",
             "NotSteiner",
             "NotKurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
-            "NotNoFaction",
             "NotLocals",
-            "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotBlackWidowCompany"
         ],
         "tagSetSourceFile": ""
     },
@@ -122,134 +123,86 @@
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Weapon_Narc_Standard_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-            "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-            "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_Narc",
-            "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_Narc",
-            "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         }
     ]
 }

@@ -307,15 +307,21 @@ them your mech bay.
 * ArtemisIV (replace with Missile TTS+)
 * 8.5[IS] + 13.0[E] + 6[C/G]= 27.5
 
+# THE-Nb Thorn (20t)
+* XL engine 120 (6 external) 6/9
+* double heat sinks (4/10) TBD
+* Endo Steel
+* MASC
+* 1[ESIS] + 2[XLE] + 5[C/G] = 8.0
+
 # TODO
-* EXT-4Db Exterminator
-* AS7-D-H Atlas II
-* WVE-5Nb Wyvern
-* THE-Nb Thorn
+* -EXT-4Db Exterminator
+* -AS7-D-H Atlas II
+* -WVE-5Nb Wyvern
 * FLC-4Nb Falcon
-* FFL-4A Firefly
-* HER-1Sb Hermes
-* CRK-5003-1b Crockett
+* FFL-3A Firefly
+* -HER-1Sb Hermes
+* -CRK-5003-1b Crockett
 * IMP-1A IMP
 * IMP-1B IMP
 * IMP-1C IMP

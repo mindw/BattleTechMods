@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Thorn",
-        "Id": "chassisdef_thorn_THE-N1",
+        "Id": "chassisdef_thorn_THE-Nb",
         "Name": "Thorn",
-        "Details": "Developed in 3051 by ComStar to try and close the gap between the Clans and Com Guards, the CASE was dropped and the standard engine was swapped for an XL Engine to allow the standard weaponry to be stripped for an all energy weapon array: a right arm mounted ER PPC and a head-mounted Small Laser. This new weapons array, enhanced by double heat sinks, added a level of lethality never seen before on the Thorn.",
+        "Details": "The advanced model employed by the SLDF Royal Divisions in 2743 changed the role of the 'Mech from a missile to a striker, replacing the LRM launcher with an ER Large Laser and downgrading one medium laser to a Small one. Dropping the no longer required CASE, the 'Mech also used a MASC system for temporary speed bursts and Double Heat Sinks to vent its increased waste heat output.",
         "Icon": "uixTxrIcon_thorn"
     },
     "MovementCapDefID": "movedef_thorn_THE-N",
@@ -185,51 +185,19 @@
             "z": 0
         }
     ],
-    "VariantName": "THE-N1",
+    "VariantName": "THE-Nb",
     "ChassisTags": {
         "items": [
             "mr-resize-0.8"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Sniper",
-    "YangsThoughts": "The N1 is a sum of trade offs. The LRM ammo was dropped, but an XL engine was installed - so it's less survivable. The ER PPC has a longer range and better damage - but depends on line of sight and lacks the LRMs munition versatility. A fast Panther with less ammo.",
+    "StockRole": "Striker",
+    "YangsThoughts": "As its spiritual modern N1 clone, the Nb is a sum of trade offs. The LRM ammo was dropped, but an XL engine was installed - but the MASC componsates with short burst of speed. The ER large laser has better punch and range, but the LRM had indirect fire and special munitions. In my eyes, it is better than the N1; shame it exists on paper only.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_XL_Engine",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_XL_Engine",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_6_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_6_Slot",
+            "ComponentDefID": "Gear_MASC_1",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

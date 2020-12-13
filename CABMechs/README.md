@@ -32,11 +32,12 @@
 * Endo Steel
 * 1[ESIS] + 4[E] + 5[C/G] = 10.0
 
-# THE-N1 Thorn (20t)
+# THE-N1/Nb Thorn (20t)
 * XL engine 120 (6 external) 6/9
 * double heat sinks (4/10) TBD
 * Endo Steel
-* 1[ESIS] + 2[E] + 5[C/G] = 8.0
+* MASC (Nb)
+* 1[ESIS] + 2[XLE] + 5[C/G] = 8.0
 
 # WSP-1S/3M Wasp (20t)
 * engine 120 (6 external) 6/9

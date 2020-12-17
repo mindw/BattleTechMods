@@ -679,3 +679,8 @@ TODO:
 * rarity revision
 * external heatsinks
 * dynamic availability (proabably will need a binary mod)
+
+Weapon rework:
+* Streaks
+* Flamers (no ammo)
+* add Vehicle Flamers

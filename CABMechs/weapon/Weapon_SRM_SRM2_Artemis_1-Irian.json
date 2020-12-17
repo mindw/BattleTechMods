@@ -40,8 +40,8 @@
         "Details" : "A tiny rack of Short-Range Missiles, SRM2s deal little damage but also cost almost nothing in the way of weight, space, heat, or ammunition consumption. As for all SRMs, SRM2 shots deal above-average stability impact per hit compared to other weapons.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "+ 25% Crit.",
-    "BonusValueB" : "- 2 Acc.",
+    "BonusValueA" : "+25% Crit",
+    "BonusValueB" : "-2 Acc",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "srm2",

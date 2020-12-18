@@ -17,7 +17,7 @@
     "Author": "Mind_wanderer, based on the work of Justin Kase and others",
     "DLL": "JK_Components.dll",
     "Settings": {
-        "Debug": false,
+        "Debug": true,
         "HardpointFix": {
             "Enabled": true,
             "EnabledDescription": "Optimizes the way installed weapons are shown on a mech model.",
@@ -555,6 +555,7 @@
     },
     
     "Manifest": [
+        { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
         { "Type": "Sprite", "Path": "portraits" },
@@ -565,6 +566,7 @@
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
         { "Type": "TurretDef", "Path": "turret", "AddToDB": true },
         { "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true },
+        { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs", "ShouldAppendText": false },
         { "Type": "ItemCollectionDef", "Path": "itemCollectionDefsAppend", "ShouldAppendText": true },
         { "Type": "LanceDef", "Path": "lance",  "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": false, "AddToDB": true },

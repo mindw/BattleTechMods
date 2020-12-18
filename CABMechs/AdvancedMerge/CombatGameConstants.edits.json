@@ -10,10 +10,35 @@
             }
         },
         {
+            "JSONPath": "Heat",
+            "Action": "ObjectMerge",
+            "Value": {
+                "JumpHeatUnitSize": 8,
+                "JumpHeatPerUnit": 1,
+                "JumpHeatMin": 9,
+                "WalkHeat": 3,
+                "SprintHeat": 6
+            }
+        },
+        {
+            "JSONPath": "Visibility",
+            "Action": "ObjectMerge",
+            "Value": {
+                "BaseSpotterDistance": 250.0,
+                "SpotterTacticsMultiplier": 15
+            }
+        },
+        {
             "JSONPath": "ToHit",
             "Action": "ObjectMerge",
             "Value": {
-                "ToHitVehicleMedium": 1,
+                "ToHitAssault": 0,
+                "ToHitHeavy": 1,
+                "ToHitMedium": 2,
+                "ToHitLight": 3,
+                "ToHitVehicleAssault": 0,
+                "ToHitVehicleHeavy": 1,
+                "ToHitVehicleMedium": 2,
                 "ToHitVehicleLight": 3,
                 "ToHitTurretAssault": -4,
                 "ToHitTurretHeavy": -3,
@@ -23,7 +48,14 @@
                 "ToHitShortRange": 0,
                 "ToHitMediumRange": 2,
                 "ToHitLongRange": 4,
-                "ToHitMaximumRange": 6
+                "ToHitMaximumRange": 6,
+                "ToHitSelfSprinted": 2,
+                "ToHitSelfWalkLight": 1,
+                "ToHitSelfWalkMedium": 1,
+                "ToHitSelfWalkHeavy": 1,
+                "ToHitSelfWalkAssault": 1,
+                "ToHitSelfWalkVehicle": 1,
+                "ToHitSelfStoodUp": 4
             }
         },
         {

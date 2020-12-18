@@ -35,7 +35,7 @@
         "Manufacturer" : "Holly",
         "Model" : "Short-Range Missile Launcher",
         "UIName" : "SRM6 (A-IV) +",
-        "Id" : "Weapon_SRM_SRM6_1-Holly",
+        "Id" : "Weapon_SRM_SRM6_Artemis_1-Holly",
         "Name" : "SRM6 (A-IV FCS)+",
         "Details" : "SRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons.",
         "Icon" : "uixSvgIcon_weapon_Missile"

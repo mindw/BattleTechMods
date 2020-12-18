@@ -9,9 +9,9 @@
         420,
         630
     ],
-    "AmmoCategory" : "LRM",
+    "ammoCategoryID" : "LRM",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 12,
+    "HeatGenerated" : 15,
     "Damage" : 5,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -26,7 +26,7 @@
     "ShotsWhenFired" : 15,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
-    "Instability" : 2,
+    "Instability" : 3,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM15",
     "Description" : {
         "Cost" : 250000,
@@ -40,7 +40,7 @@
         "Details" : "LRM15 Long-Range Missile racks deal substantial damage and stability impact over distance, often found in pairs on indirect-fire support units. Like all LRMs, LRM15s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "-3 Heat",
+    "BonusValueA" : "+1 Stb.Dmg",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
@@ -56,7 +56,6 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
             "component_type_variant",
             "component_type_variant1",
             "range_extreme"

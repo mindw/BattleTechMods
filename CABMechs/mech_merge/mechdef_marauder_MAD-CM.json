@@ -1,0 +1,88 @@
+{
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Autocannon_UAC5_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Bulk-Bank",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

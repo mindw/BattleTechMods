@@ -256,14 +256,6 @@
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Sensor_ECM",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
         }
     ]
 }

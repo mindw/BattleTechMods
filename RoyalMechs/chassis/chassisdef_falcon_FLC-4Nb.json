@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 2400000,
+        "Cost": 2900000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Falcon",
-        "Id": "chassisdef_falcon_FLC-4N",
+        "Id": "chassisdef_falcon_FLC-4Nb",
         "Name": "Falcon",
-        "Details": "While originally sporting a weapons array similar to the Locust, Stinger and Wasp it was charged to defeat, the Falcon's six tons of StarGuard Type II armor provides it with vastly superior protection.",
+        "Details": "Built for the Royal SLDF Divisions during the Amaris Civil War, the so-called Royal Falcon carried an experimental Parti-Kill Snub-Nose PPC backed up by two medium lasers. It was also equipped with double heat-sinks, and was built on a Duralyte 300 Endo-Steel chassis.",
         "Icon": "uixTxrIcon_falcon"
     },
     "MovementCapDefID": "movedef_falcon_FLC-4N",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrprfmech_firebeebase-001",
     "PrefabBase": "firebee",
     "Tonnage": 30,
-    "InitialTonnage": 15.0,
+    "InitialTonnage": 13.5,
     "weightClass": "LIGHT",
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "MaxJumpjets": 6,
     "Stability": 100,
     "StabilityDefenses": [
@@ -57,7 +57,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -112,7 +112,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -185,13 +185,14 @@
             "z": 0.5
         }
     ],
-    "VariantName": "FLC-4N",
+    "VariantName": "FLC-4Nb",
     "ChassisTags": {
         "items": [
             "mr-resize-0.92-0.95-0.92"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Scout",
-    "YangsThoughts": "I call this one the facehugger. The Falcon is exceptional at ripping apart lighter mechs than itself, getting close enough to use those weapons on anything bigger is a quick trip to the salvage heap though."
+    "StockRole": "Striker",
+    "YangsThoughts": "The ultimate Falcon, that Snubber will give a hell of a surprise to 'Mechs twice it size, not to mention being even better at ripping apart scout mechs. It is vulnerable to any kind of infatry though. Shame this one is no loger with us.",
+    "FixedEquipment": []
 }

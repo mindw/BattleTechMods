@@ -318,7 +318,6 @@ them your mech bay.
 * -EXT-4Db Exterminator
 * -AS7-D-H Atlas II
 * -WVE-5Nb Wyvern
-* FLC-4Nb Falcon
 * FFL-3A Firefly
 * -HER-1Sb Hermes
 * -CRK-5003-1b Crockett

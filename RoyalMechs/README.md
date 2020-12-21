@@ -314,6 +314,13 @@ them your mech bay.
 * MASC
 * 1[ESIS] + 2[XLE] + 5[C/G] = 8.0
 
+# IMP-1A/B/C (100t)
+* Early Clan
+* engine 300 (2 internal) 3/5
+* double heatsinks (12/18)-1A (12/19)-1B (12/17)-1C
+* CASE (L Torso) (1A & 1B)
+* 10[IS] + 19.0[E] + 6[C/G] + 2[DHS] + 0.5[CASE] = 37.5, 37(1C(
+
 # TODO
 * -EXT-4Db Exterminator
 * -AS7-D-H Atlas II
@@ -321,9 +328,6 @@ them your mech bay.
 * FFL-3A Firefly
 * -HER-1Sb Hermes
 * -CRK-5003-1b Crockett
-* IMP-1A IMP
-* IMP-1B IMP
-* IMP-1C IMP
 * EXC-B2b Excalibur
 
 [FellOfACargoShip]: https://www.nexusmods.com/battletech/mods/532

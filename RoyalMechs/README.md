@@ -10,6 +10,15 @@ Available in the black market and advanced Star League systems.
 Also, [FellOfACargoShip] or [BattleTech Save Editor] mods can be used to add 
 them your mech bay.
 
+## How mechs were converted?
+* XL engine - reduce initial tonnate, no slots penalty.
+* Endo Steel - reduce initial tonnage. no slots penalty.
+* FF armor - reduce initial tonnage to compensate for extra armor tons to 
+  maintain armor level. no slots penalty.
+* CASE - increase armor tonnage in torso. no slots taken.
+* Artemis IV replace with missile targeting upgrades.
+* Streak SRM 2 enabled via StreakMissileLaunchers.
+
 # KTO-19b Kintaro
 * SLDF Royal
 * XL Engine
@@ -319,7 +328,8 @@ them your mech bay.
 * engine 300 (2 internal) 3/5
 * double heatsinks (12/18)-1A (12/19)-1B (12/17)-1C
 * CASE (L Torso) (1A & 1B)
-* 10[IS] + 19.0[E] + 6[C/G] + 2[DHS] + 0.5[CASE] = 37.5, 37(1C(
+* ArtemisIV (replace with Missile TTS+)
+* 10[IS] + 19.0[E] + 6[C/G] + 2[DHS] + 0.5[CASE] = 37.5, 37(1C)
 
 # TODO
 * -EXT-4Db Exterminator

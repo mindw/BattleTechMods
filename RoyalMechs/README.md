@@ -102,12 +102,7 @@ them your mech bay.
 * ArtemisIV (replace with Missile TTS+)
 * InitialTonnage 23 = 3.5[ENIS] + 13.5[E] + 3[C] + 3[G]
 
-# LCT-1Vb Locust
-* SLDF Royal
-* Endo steel
-* XL Engine
-* Double heatsinks
-* FF armor (-1 initial tonnage, +1 armor)
+
 * InitialTonnage 8 = 1[ENIS] + 3[EXL] + 3[C] + 2[G] -1[FF]
 
 # ZEU-5S Zeus

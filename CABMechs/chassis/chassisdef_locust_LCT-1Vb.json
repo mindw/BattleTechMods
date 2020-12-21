@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_locustBase-001",
     "PrefabBase": "locust",
     "Tonnage": 20,
-    "InitialTonnage": 8.0,
+    "InitialTonnage": 9.0,
     "weightClass": "LIGHT",
     "Heatsinks": 30,
     "MaxJumpjets": 8,
@@ -60,7 +60,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -118,7 +118,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
-				{
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -198,9 +198,77 @@
     ],
     "VariantName": "LCT-1Vb",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "The Locust upgraded for the Star League Royal Divisions is crammed literally full with energy weapons, and double heat sinks into a high-tech chassis with no space leftover."
+    "YangsThoughts": "The Locust upgraded for the Star League Royal Divisions is crammed literally full with energy weapons, and double heat sinks into a high-tech chassis with no space leftover.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

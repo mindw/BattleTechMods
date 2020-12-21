@@ -19,6 +19,13 @@
 * CASE
 * 1[ESIS] + 6[E] + 5[C/G] + 0.5[CASE] = 12.5
 
+# LCT-1Vb Locust
+* XL engine 160 (4 external) 8/12
+* double heat sinks (6/10) TBD
+* Endo steel
+* FF armor
+* 1[ENIS] + 3[E] + 5[C/G] = 9.0
+
 # MCY-97/99 Mercury (20t)
 * engine 160 (4 external) 8/12
 * 10 heat sinks (6/10) TBD

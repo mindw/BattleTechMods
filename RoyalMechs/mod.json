@@ -23,12 +23,8 @@
     "ConflictsWith": [],
 
     "Manifest": [
-        { "Type": "Sprite", "Path": "portraits" },
-        { "Type": "HardpointDataDef", "Path": "hardpoints", "ShouldMergeJSON": false },
-        { "Type": "MovementCapabilitiesDef", "Path": "movement" },
         { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "MechDef", "Path": "mech", "ShouldMergeJSON": false, "AddToDB": true },
-        { "Type": "UpgradeDef", "Path": "upgrades", "ShouldMergeJSON": false, "AddToDB": true  },
         { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefsAppend", "ShouldAppendText": true },
         { "Type": "ItemCollectionDef", "Path": "ItemCollectionDefs" },
         { "Type": "AdvancedJSONMerge", "Path": "StarSystemDefs" }

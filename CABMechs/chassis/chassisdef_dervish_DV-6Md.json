@@ -10,14 +10,14 @@
         "Name": "Dervish",
         "Details": "The Dervish DV-6M was among the first 'Mechs mass-produced by the Great Houses and has served as a workhorse for their armies since its introduction. While regarded by some as a poor man's Archer, the Dervish's speed and weaponry nevertheless allow it to provide quick fire support and free larger 'Mechs for other duties. This Star League era Davion variant uses an XL Engine, twelve single heat sinks, and upgrades the LRM-10s to LRM-15s. Three tons of ammunition are in a CASE protected torso bin.",
         "Icon": "uixTxrIcon_dervish"
-		},
+    },
     "MovementCapDefID": "movedef_dervish_DV-6Md",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_dervish",
     "PrefabIdentifier": "chrprfmech_dervishbase-001",
     "PrefabBase": "dervish",
     "Tonnage": 55,
-    "InitialTonnage": 20.5,
+    "InitialTonnage": 21.0,
     "weightClass": "MEDIUM",
     "Heatsinks": 3,
     "MaxJumpjets": 5,
@@ -191,9 +191,29 @@
     ],
     "VariantName": "DV-6Md",
     "ChassisTags": {
-    "items": [],
+        "items": [
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "This Star League era Dervish variant uses an XL Engine, twelve single heat sinks, and upgrades the LRM-10s to LRM-15s. Three tons of ammunition are in a CASE protected torso bin."
+    "YangsThoughts": "This Star League era Dervish variant uses an XL Engine, twelve single heat sinks, and upgrades the LRM-10s to LRM-15s. Three tons of ammunition are in a CASE protected torso bin.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

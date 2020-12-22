@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_hussarbase-001",
     "PrefabBase": "hussar",
     "Tonnage": 30,
-    "InitialTonnage": 16,
+    "InitialTonnage": 16.5,
     "weightClass": "LIGHT",
     "Heatsinks": 30,
     "MaxJumpjets": 9,
@@ -182,9 +182,62 @@
     ],
     "VariantName": "HSR-200-Db",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mr-resize-0.80",
+            "chassis_ferro"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",
-    "YangsThoughts": "An upgrade of the 200 introduced in 2735 and used exclusively by SLDF Royal units, the 200Db is powered by an XL Engine. This enables an upgrade of the 'Mech's electronics with a Beagle Active Probe and a Guardian ECM Suite in the side torsos. In addition, the armor coverage is increased to five and a half tons."
+    "YangsThoughts": "An upgrade of the 200 introduced in 2735 and used exclusively by SLDF Royal units, the 200Db is powered by an XL Engine. This enables an upgrade of the 'Mech's electronics with a Beagle Active Probe and a Guardian ECM Suite in the side torsos. In addition, the armor coverage is increased to five and a half tons.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

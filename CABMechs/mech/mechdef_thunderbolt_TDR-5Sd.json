@@ -1,7 +1,6 @@
 {
     "MechTags": {
         "items": [
-            "BLACKLISTED",
             "unit_mech",
             "unit_heavy",
             "unit_lance_tank",
@@ -31,7 +30,7 @@
     "ChassisID": "chassisdef_thunderbolt_TDR-5Sd",
     "HeraldryID": null,
     "Description": {
-        "Cost": 10930000,
+        "Cost": 13130000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -42,7 +41,7 @@
         "Details": "This Star League-era Federated Suns refit of the Thunderbolt removes the LRM-15, machine guns and their ammunition and replaces them with an Ultra AC/5 with two tons of ammunition. For close in work, an extra medium laser is added and the large laser is traded for a Large Pulse Laser. It upgrades the heat sinks to twelve double-strength models.",
         "Icon": "uixTxrIcon_thunderbolt"
     },
-    "simGameMechPartCost": 1090000,
+    "simGameMechPartCost": 1313000,
     "Version": 1,
     "Locations": [
         {

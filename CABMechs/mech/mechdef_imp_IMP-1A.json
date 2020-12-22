@@ -1,8 +1,7 @@
 {
-    "MinAppearanceDate": "2821-01-01T00:00:00Z",
+    "MinAppearanceDate": "2793-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "BLACKLISTED",
             "unit_release",
             "unit_mech",
             "unit_assault",
@@ -31,21 +30,21 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_imp_IMP-1B",
+    "ChassisID": "chassisdef_imp_IMP-1A",
     "HeraldryID": null,
     "Description": {
-        "Cost": 12910000,
+        "Cost": 20820000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Imp IMP-1B",
-        "Id": "mechdef_imp_IMP-1B",
+        "UIName": "Imp IMP-1A",
+        "Id": "mechdef_imp_IMP-1A",
         "Name": "Imp",
-        "Details": "A Wolf Clan variant from 2821 re-shufles the short range weapon suite to incroporate a Guardian ECM suite. The medium pulse lasers were downgraded to plain medium lasers and the small laser upgraded to medium pulse laser. An additional heat sink is added as well.",
+        "Details": "Concieved as a totem for the exiled SLDF and designed for the battledield commander, the 1A is the original troubled model produced starting 2793. Twin ER PPCs and Artemis augmented LRM 20 are the long range weaponary. An array of 5 medium pulse and one small laser are the backup. All of the weapons are backed by the barely adequte eighteen double heatsinks.",
         "Icon": "uixTxrIcon_imp"
     },
-    "simGameMechPartCost": 1290000,
+    "simGameMechPartCost": 2082000,
     "Version": 1,
     "Locations": [
         {
@@ -124,33 +123,33 @@
     "inventory": [
         {
             "MountedLocation": "Head",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "ComponentDefType": "HeatSink",
@@ -166,7 +165,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
@@ -186,30 +185,23 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1800",
-            "ComponentDefType": "Upgrade",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
@@ -229,19 +221,12 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Sensor_ECM",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "ComponentDefType": "HeatSink",
@@ -250,23 +235,9 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM20_Artemis_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
     ]

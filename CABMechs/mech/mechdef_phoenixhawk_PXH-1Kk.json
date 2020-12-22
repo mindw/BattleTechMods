@@ -1,7 +1,6 @@
 {
     "MechTags": {
         "items": [
-            "BLACKLISTED",
             "unit_mech",
             "unit_medium",
             "unit_lance_assassin",
@@ -31,7 +30,7 @@
     "ChassisID": "chassisdef_phoenixhawk_PXH-1Kk",
     "HeraldryID": null,
     "Description": {
-        "Cost": 5735000,
+        "Cost": 7540000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -42,7 +41,7 @@
         "Details": "Developed by House Kurita some time during the Star League Era, this Phoenix Hawk replaces the Large Laser for an ER Large Laser and the two Medium Lasers for Medium Pulse Lasers. To handle the heat load, the 'Mech carries eleven double heat sinks.",
         "Icon": "uixTxrIcon_phoenixhawk"
     },
-    "simGameMechPartCost": 570000,
+    "simGameMechPartCost": 754000,
     "Version": 1,
     "Locations": [
         {

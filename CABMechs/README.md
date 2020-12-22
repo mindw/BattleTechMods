@@ -24,7 +24,7 @@
 * double heat sinks (6/10) TBD
 * Endo steel
 * FF armor
-* 1[ENIS] + 3[E] + 5[C/G] = 9.0
+* 1[ESIS] + 3[E] + 5[C/G] = 9.0
 
 # MCY-97/99 Mercury (20t)
 * engine 160 (4 external) 8/12
@@ -32,6 +32,12 @@
 * MASC
 * FF armor
 * 2[IS] + 6[E] + 5[C/G] = 13.0
+
+# STG-3Gb Stinger (20m)
+* XL engine 140 (5 external) 7/14
+* double heat sinks (5/10) TBD
+* Endo steel
+* 1.0[ESIS] + 2.5[XLE] + 5[C/G] = 8.5
 
 # STG-5M Stinger (20t)
 * engine 120 (6 external) 6/9
@@ -98,6 +104,12 @@
 * FF armor
 * 3.0[IS] + 14.5[E] + 6[C/G] = 23.5
 
+# HSR-200-Db Hussar
+* XL Engine 270 9/14
+* Double heatsinks (10/10)
+* FF armor
+* 3.0[IS] + 7.5[XLE] + 6[C/G] = 16.5
+
 # HSR-350-D Hussar (30t)
 * XL engine 240 (1 external) 8/12
 * single heatsinks (9/10) FIXME
@@ -131,6 +143,12 @@
 * FF armor
 * CASE
 * 3.5[IS] + 12.0[XLE] + 6[C/G] + 0.5[CASE] = 22.0
+
+# OTT-7Jb Ostscout (35t)
+* engine 280 (1 internal) 8/12
+* single heatsinks (10/11)
+* Endo Steel
+* 2.0[ESIS] + 16.0[E] + 6[C/G] = 24.0
 
 # NTK-2Q/2S Night Hawk (35t)
 * XL engine 210 (2 external) 6/9
@@ -202,6 +220,11 @@
 * CASE
 * 4.5[IS] + 3.5[XLE] + 5[C/G] + 0.5[CASE] = 13.5
 
+# PXH-1Kk Phoenix Hawk (45t)
+* engine 270 6/9
+* Double heatsinks (10/11)
+* 4.5[IS] + 14.5[E] + 6[C/G] = 25.0
+
 # PXH-3D Phoenix Hawk (45t)
 * XL engine 270 6/9
 * Endo Steel
@@ -236,6 +259,12 @@
 * CASE
 * 4.5[IS] + 7.0[E] + 5[C/G] + 0.5[CASE] = 17
 
+# CRB-27/27b Crab (50t)
+* engine 250 5/8
+* Double heatsinks (10/16)
+* FF armor
+* 5[IS] + 12.5[E] + 6[C/G] = 23.5
+
 # HBK-5M Hunchback (50)
 * engine 200 (2 external) 4/6
 * Double heatsinks (8/13) FIXME
@@ -245,9 +274,9 @@
 * Single heatsinks (10/10)
 * Endo Steel
 * CASE
-* 2.5[ESIS] + 9.5[E] + 6[C/G] + 0.5[CASE] = 18.5
+* 2.5[ESIS] + 9.5[XLE] + 6[C/G] + 0.5[CASE] = 18.5
 
-# ENF-5D Enforcer
+# ENF-5D Enforcer (50t)
 * XL engine 250 5/8
 * Single heatsinks (10/12)
 * FF armor
@@ -268,12 +297,19 @@
 * CASE
 * 5.5[IS] + 8[EXL] + 6[C/G] (+ 1.0[EDHS]) + 1[CASE] = 21.5 (X2: 20.5)
 
+# DV-6Md Dervish (55t)
+* XL engine 275 (1 internal) 5/8
+* Single heatsinks (11/11)
+* CASE (RT)
+* 5.5[IS] + 8.0[XLE] + 6[C/G] + 1[HS] + 0.5[CASE] = 21.0
+* FIXME: AB LeftTorso is broken
+
 # DV-7D Dervish (55t)
 * engine 275 (1 internal) 5/8
 * Double heatsinks (10)
 * Endo Steel
 * FF armor
-* CASE
+* CASE (LT/RT)
 * 3[ESIS] + 15.5[E] + 6[C/G] + 1[CASE] = 25.5
 * FIXME: AB LeftTorso is broken
 
@@ -281,7 +317,7 @@
 * XL engine 275 (1 internal) 5/8
 * Double heatsinks (11/14)
 * CASE
-* 5.5[IS] + 8[EXL] + 3[C] + 3[G] + 1.0[EDHS] + 0.5[CASE] = 21
+* 5.5[IS] + 8[EXL] + 3[C] + 3[G] + 1.0[DHS] + 0.5[CASE] = 21
 
 # KTO-20 Kintaro (55t)
 * engine 275 (1 internal) 5/8
@@ -414,6 +450,12 @@
 * CASE
 * 6.5[IS] + 7[XLE] + 6[C/G] + 1[CASE] = 20.5
 
+# TDR-5Sd Thunderbolt (65t)
+* AFFS Elite
+* engine 260 4/6
+* Double heatsinks (10/12)
+* 6.5[IS] + 13.5[E] + 6[C/G] = 26.0
+
 # TDR-7M/9S Thunderbolt (65t)
 * engine 260 4/6
 * Double heatsinks (10/15)
@@ -542,19 +584,24 @@
 * CASE
 * 8.0[IS] + 26.5[XLE] + 7[C/G] + 2[DHS] + 0.5[CASE] = 44
 
-# THG-11E Thug (80t)
+# THG-11E/11Eb Thug (80t)
 * engine 320 (2 internal) 4/6
 * Double heatsinks (12/18)
 * Endo Steel
-* CASE
-* 4[ENIS] + 22.5[E] + 7[C/G] + 2[DHS] + 1[CASE] = 36.5
+* CASE LT/RT
+* 4[ESIS] + 22.5[E] + 7[C/G] + 2[DHS] + 1[CASE] = 36.5
 
 # VTR-9K/D Victor (80t)
 * engine 320 (2 internal) 4/6
 * single heatsinks (12/15) - 2 internal
 * Endo Steel
 * CASE
-* 4[ENIS] + 22.5[E] + 7[C/G] + 2[HS] + 1[CASE] = 36.5
+* 4[ESIS] + 22.5[E] + 7[C/G] + 2[HS] + 1[CASE] = 36.5
+
+# ZEU-5S Zeus
+* engine 320 (2 internal) 4/6
+* Double heatsinks (12/14)
+* 39.5 = 8[IS] + 22.5[E] + 7[C/G] + 2[EDHS] = 39.5
 
 # ZEU-9S Zues (80t)
 * engine 320 (2 internal) 4/6
@@ -570,6 +617,11 @@
 * CASE
 * 8[IS] + 11.5[E] + 7[C/G] + 2[DHS] + 0.5[CASE] = 29
 
+# BLR-1Gd BattleMaster (85t)
+* engine 340 (3 internal) 4/6
+* Double heatsinks (13/16)
+* 8.5[IS] + 27.0[E] + 7[C/G] + 3[DHS] = 45.5
+
 # BLR-3M BattleMaster (85t)
 * engine 340 (3 internal) 4/6
 * double heatsinks (13/18)
@@ -581,6 +633,11 @@
 * single heatsinks (13/22)
 * CASE
 * 8.5[IS] + 13.5[XLE] + 7[C/G] + 3[HS] + 1[CASE] = 33
+
+# STK-3Fk Stalker (85t)
+* engine 255 3/5
+* double heatsinks (10/18)
+* 8.5[IS] + 13.0[E] + 6[C/G]= 27.5
 
 # STK-5M Stalker (85t)
 * engine 255 3/5
@@ -601,6 +658,12 @@
 # CP-11-A Cyclops (90t)
 * engine 360 (4 internal)
 * single heatsinks (12/12)
+
+# EMP-6A Emperor (90t)
+* XL engine 270 3/5
+* double heatsinks (10/12)
+* CASE (LT/RT)
+* 9[IS] + 7.5[XLE] + 6[C/G] + 1[CASE] = 23.5
 
 # HGN-732 Highlander (90t)
 * engine 270 3/5
@@ -628,6 +691,11 @@
 * XL engine 380 (5 internal)
 * double heatsinks (14/14)
 * 9.5[IS] + 20.5[XLE] + 7[C/G] + 4[DHS] = 41
+
+# NSR-9J Nightstar (95t)
+* XL engine 285 (1 internal) 3/5
+* double heatsinks (11/14)
+* 9.5[IS] + 8.5[XLE] + 6[C/G] + 1[DHS] = 25
 
 # AS7-K Atlas (100t)
 * XL engine 300 (2 internal) 3/5
@@ -659,6 +727,13 @@
 * CASE (LT)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] + 0.5[CASE] = 28
 
+# IMP-1A/B/C (100t)
+* engine 300 (2 internal) 3/5
+* double heatsinks (12/18)-1A (12/19)-1B (12/17)-1C
+* CASE (L Torso) (1A & 1B)
+* ArtemisIV (replace with Missile TTS+)
+* 10[IS] + 19.0[E] + 6[C/G] + 2[DHS] + 0.5[CASE] = 37.5, 37(1C)
+
 # KGC-000 King Crab (100t)
 * engine 300 (2 internal) 3/5
 * single heatsinks (12/15)
@@ -670,6 +745,12 @@
 * single heatsinks (12/13)
 * CASE
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] + 1[CASE] = 28.5
+
+# MSH-9HKR Mackie "Kill-Roy's Little Buddy" (100t)
+* engine 300 (2 internal) 3/5
+* double heatsinks (12/13)
+* CASE (L/R Torso)
+* 10[IS] + 19.0[E] + 6[C/G] + 2[DHS] +1[CASE] = 38
 
 # MAD-5A Marauder II (100t)
 * XL engine 300 (2 internal) 3/5

@@ -2,7 +2,7 @@
     "MinAppearanceDate": "2600-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "BLACKLISTED",
+            "unit_release",
             "unit_mech",
             "unit_light",
             "unit_jumpOK",
@@ -12,7 +12,6 @@
             "unit_speed_high",
             "unit_armor_low",
             "unit_electronicWarfare",
-            "unit_release",
             "unit_sldf_royal",
             "NotDavion",
             "NotLiao",

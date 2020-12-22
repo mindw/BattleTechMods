@@ -2,7 +2,6 @@
     "MinAppearanceDate": "2612-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "BLACKLISTED",
             "unit_mech",
             "unit_assault",
             "unit_range_short",
@@ -68,10 +67,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 190,
+            "CurrentArmor": 150,
             "CurrentRearArmor": 40,
             "CurrentInternalStructure": 95,
-            "AssignedArmor": 190,
+            "AssignedArmor": 150,
             "AssignedRearArmor": 40
         },
         {
@@ -86,10 +85,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 190,
+            "CurrentArmor": 150,
             "CurrentRearArmor": 40,
             "CurrentInternalStructure": 95,
-            "AssignedArmor": 190,
+            "AssignedArmor": 150,
             "AssignedRearArmor": 40
         },
         {

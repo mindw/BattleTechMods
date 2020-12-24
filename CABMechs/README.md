@@ -846,7 +846,6 @@
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] + 1[CASE] = 28.5
 
 # KGC-010 King Crab
-* SLDF Royal
 * engine 300 (2 internal) 3/5
 * double heatsinks (10/10)
 * endo steel
@@ -869,6 +868,11 @@
 * engine 300 (2 internal) 3/5
 * double heatsinks (12/16)
 * 10[IS] + 19.0[E] + 6[C/G] + 2[DHS] = 37.0
+
+# TDK-7X Thunder Hawk (100t)
+* XL engine 300 (2 internal) 3/5
+* single heatsinks (10(12)/10)
+* 10[IS] + 9.5[XLE] + 6[C/G] = 25.5
 
 TODO:
 * rarity revision

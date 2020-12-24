@@ -1,23 +1,22 @@
 {
-    "MinAppearanceDate": "2743-01-01T00:00:00Z",
+    "MinAppearanceDate": "2729-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
             "unit_mech",
-            "unit_assault",
-            "unit_range_short",
-            "unit_armor_high",
+            "unit_heavy",
+            "unit_range_medium",
+            "unit_lance_skirmisher",
             "unit_lance_assassin",
-            "unit_role_brawler",
-            "unit_indirectFire",
-            "unit_speed_low",
+            "unit_role_flanker",
+            "unit_speed_high",
             "unit_sldf_royal",
             "NotDavion",
             "NotLiao",
             "NotMarik",
             "NotSteiner",
             "NotKurita",
-            "ComStar",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
@@ -30,21 +29,21 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_kingcrab_KGC-000",
+    "ChassisID": "chassisdef_ostroc_OSR-2Cb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 13390000,
+        "Cost": 11460000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "King Crab KGC-000",
-        "Id": "mechdef_kingcrab_KGC-000",
-        "Name": "King Crab",
-        "Details": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0000 is capable of massive burst damage. A pair of heavy, close-range Autocannons form its primary weaponry, backed up by ranged weaponry to fire as it closes distance.",
-        "Icon": "uixTxrIcon_kingcrab"
+        "UIName": "Ostroc OSR-2Cb",
+        "Id": "mechdef_ostroc_OSR-2Cb",
+        "Name": "Royal Ostroc",
+        "Details": "This upgrade of the Ostroc 2C was used by the SLDF Royals starting in 2729. The large lasers are upgraded to ER Large Lasers, and the SRM-4 is replaced with a pair of Streak SRM-2s. Fourteen double heat sinks keep this 'Mech cool, while Ferro-Fibrous armor gives it additional protection.",
+        "Icon": "uixTxrIcon_ostroc"
     },
-    "simGameMechPartCost": 1340000,
+    "simGameMechPartCost": 1150000,
     "Version": 1,
     "Locations": [
         {
@@ -59,134 +58,127 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 170,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 85,
-            "AssignedArmor": 170,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 150,
-            "CurrentRearArmor": 60,
-            "CurrentInternalStructure": 105,
-            "AssignedArmor": 150,
-            "AssignedRearArmor": 60
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 20
         },
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 200,
-            "CurrentRearArmor": 75,
-            "CurrentInternalStructure": 155,
-            "AssignedArmor": 200,
-            "AssignedRearArmor": 75
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 30
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 150,
-            "CurrentRearArmor": 60,
-            "CurrentInternalStructure": 105,
-            "AssignedArmor": 150,
-            "AssignedRearArmor": 60
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 20
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 170,
+            "CurrentArmor": 50,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 85,
-            "AssignedArmor": 170,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 50,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 175,
+            "CurrentArmor": 115,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 105,
-            "AssignedArmor": 175,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 115,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 175,
+            "CurrentArmor": 115,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 105,
-            "AssignedArmor": 175,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 115,
             "AssignedRearArmor": -1
         }
     ],
     "inventory": [
         {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "ComponentDefType": "AmmunitionBox",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"

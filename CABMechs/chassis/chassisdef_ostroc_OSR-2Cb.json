@@ -1,26 +1,26 @@
 {
     "Description": {
-        "Cost": 12300000,
-        "Rarity": 1,
+        "Cost": 10240000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Warhammer",
-        "Id": "chassisdef_warhammer_WHM-7A",
-        "Name": "Warhammer",
-        "Details": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
-        "Icon": "uixTxrIcon_warhammer"
+        "UIName": "Ostroc",
+        "Id": "chassisdef_ostroc_OSR-2Cb",
+        "Name": "Ostroc",
+        "Details": "This upgrade of the Ostroc 2C was used by the SLDF Royals starting in 2729. The large lasers are upgraded to ER Large Lasers, and the SRM-4 is replaced with a pair of Streak SRM-2s. Fourteen double heat sinks keep this 'Mech cool, while Ferro-Fibrous armor gives it additional protection.",
+        "Icon": "uixTxrIcon_ostroc"
     },
-    "MovementCapDefID": "movedef_warhammer_WHM-7A",
+    "MovementCapDefID": "movedef_ostroc_OSR-2Cb",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_warhammer",
-    "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
-    "PrefabBase": "warhammer",
-    "Tonnage": 70,
-    "InitialTonnage": 27,
+    "HardpointDataDefID": "hardpointdatadef_ostroc",
+    "PrefabIdentifier": "chrprfmech_ostrochotd-001",
+    "PrefabBase": "ostroc",
+    "Tonnage": 60,
+    "InitialTonnage": 33.0,
     "weightClass": "HEAVY",
-    "Heatsinks": 36,
-    "MaxJumpjets": 4,
+    "Heatsinks": 42,
+    "MaxJumpjets": 5,
     "Stability": 160,
     "StabilityDefenses": [
         0,
@@ -35,14 +35,14 @@
     "SensorRangeMultiplier": 1,
     "Signature": 0,
     "Radius": 8,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 70,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 75,
+    "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 75,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 75,
+    "DFAInstability": 75,
     "Locations": [
         {
             "Location": "Head",
@@ -55,21 +55,12 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 50
         },
         {
             "Location": "LeftTorso",
@@ -83,28 +74,29 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 110
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
         },
         {
             "Location": "RightTorso",
@@ -114,10 +106,6 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -132,120 +120,95 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 50
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 70
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 70
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 13,
             "z": 1
         },
         {
-            "x": 4,
-            "y": 14,
+            "x": 3,
+            "y": 13,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 14,
+            "x": -3,
+            "y": 13,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 13,
             "z": 1
         },
         {
-            "x": 4,
-            "y": 14,
+            "x": 3,
+            "y": 13,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 14,
+            "x": -3,
+            "y": 13,
             "z": 0
         },
         {
-            "x": 2.5,
+            "x": 2,
             "y": 5,
-            "z": 1
+            "z": 0
         },
         {
-            "x": -2.5,
+            "x": -2,
             "y": 5,
-            "z": 1
+            "z": 0
         }
     ],
-    "VariantName": "WHM-7A",
+    "VariantName": "OSR-2Cb",
     "ChassisTags": {
         "items": [
-            "mech_case_right"
+            "chassis_ferro"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler",
-    "YangsThoughts": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "The Ostroc is a pretty good heavy scout, but isn't really meant to tangle with your opponent's heavies. But it isn't a bad harasser or anchor for a medium class scout lance.",
     "FixedEquipment": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Optimized_Capacitors",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -253,7 +216,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -261,7 +224,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_4_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -269,7 +232,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_4_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

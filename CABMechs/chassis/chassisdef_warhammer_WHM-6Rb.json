@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 6400000,
-        "Rarity": 3,
+        "Cost": 11100000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Warhammer",
-        "Id": "chassisdef_warhammer_WHM-7K",
+        "Id": "chassisdef_warhammer_WHM-6Rb",
         "Name": "Warhammer",
-        "Details": "This House Kurita variant, introduced in 3054, was built on an Endo Steel skeleton. It carried ER PPCs, two medium lasers, and two small pulse lasers. The SRM-6 was replaced by a pair of Streak SRM-2 launchers, while a TAG system allowed the 7K to spot for friendly units.",
+        "Details": "This upgrade of the 6R was used by the SLDF Royal units. Introduced in 2599, the use of seventeen double heat sinks allowed an Artemis IV Fire Control System to be added to the SRM-6. The standard armoring was also replaced with Ferro-Fibrous armor to increase protection.",
         "Icon": "uixTxrIcon_warhammer"
     },
     "MovementCapDefID": "movedef_warhammer_WHM-6R",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
     "PrefabBase": "warhammer",
     "Tonnage": 70,
-    "InitialTonnage": 26.5,
+    "InitialTonnage": 30,
     "weightClass": "HEAVY",
     "Heatsinks": 36,
     "MaxJumpjets": 4,
@@ -36,7 +36,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
+    "MeleeDamage": 100,
     "MeleeInstability": 70,
     "MeleeToHitModifier": 0,
     "DFADamage": 90,
@@ -71,7 +71,15 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
@@ -87,12 +95,7 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
@@ -103,15 +106,15 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
@@ -202,25 +205,19 @@
             "z": 1
         }
     ],
-    "VariantName": "WHM-7K",
+    "VariantName": "WHM-6Rb",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
-    "YangsThoughts": "The Endo Steel Warhammer 7K has been a really successful upgrade.  Increased armor, heat dissipation, and the mech keeps comparable fire power all round.",
+    "YangsThoughts": "A conservative, focused upgrade. The 6Rb is a can sustain alpha strike after alpha stike with the pilot never breaking a sweat. The extra armor is the icing on the cake. The upgrade is even simple enough to be done in any mech repair shop!",
     "FixedEquipment": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Optimized_Capacitors",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "Head",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_1_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -228,31 +225,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -260,7 +233,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -268,7 +241,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -276,7 +249,15 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_General_Optimized_Capacitors",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

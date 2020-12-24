@@ -153,7 +153,14 @@
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
             "DamageLevel": "Functional"
         },
         {
@@ -173,13 +180,6 @@
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"

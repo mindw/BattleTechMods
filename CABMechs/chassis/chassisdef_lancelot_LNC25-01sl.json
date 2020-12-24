@@ -1,26 +1,26 @@
 {
     "Description": {
-        "Cost": 6400000,
-        "Rarity": 3,
+        "Cost": 15300000,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Warhammer",
-        "Id": "chassisdef_warhammer_WHM-7K",
-        "Name": "Warhammer",
-        "Details": "This House Kurita variant, introduced in 3054, was built on an Endo Steel skeleton. It carried ER PPCs, two medium lasers, and two small pulse lasers. The SRM-6 was replaced by a pair of Streak SRM-2 launchers, while a TAG system allowed the 7K to spot for friendly units.",
-        "Icon": "uixTxrIcon_warhammer"
+        "UIName": "Lancelot",
+        "Id": "chassisdef_lancelot_LNC25-01sl",
+        "Name": "Lancelot",
+        "Details": "A late refinement to an already formidable design the SLDF Lancelot replaces the Large lasers and PPC with a trio of Extende range large lasers. Ferro-Fibrous armor provides enough tonnage to mount additional heat sinks.",
+        "Icon": "uixTxrIcon_lancelot"
     },
-    "MovementCapDefID": "movedef_warhammer_WHM-6R",
+    "MovementCapDefID": "movedef_lancelot_LNC25-01",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_warhammer",
-    "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
-    "PrefabBase": "warhammer",
-    "Tonnage": 70,
-    "InitialTonnage": 26.5,
+    "HardpointDataDefID": "hardpointdatadef_lancelot",
+    "PrefabIdentifier": "chrprfmech_lancelotbase-001",
+    "PrefabBase": "lancelot",
+    "Tonnage": 60,
+    "InitialTonnage": 33.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 36,
-    "MaxJumpjets": 4,
+    "Heatsinks": 54,
+    "MaxJumpjets": 6,
     "Stability": 160,
     "StabilityDefenses": [
         0,
@@ -36,13 +36,13 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 70,
+    "MeleeDamage": 55,
+    "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 75,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 75,
+    "DFAInstability": 75,
     "Locations": [
         {
             "Location": "Head",
@@ -59,17 +59,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 110,
-            "MaxRearArmor": -1,
-            "InternalStructure": 55
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -80,10 +70,19 @@
                 }
             ],
             "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
         },
         {
             "Location": "CenterTorso",
@@ -95,19 +94,29 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 110
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
-                },
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -120,131 +129,88 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 50
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 70
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 70
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 13,
             "z": 1
         },
         {
-            "x": 4,
-            "y": 14,
+            "x": 3,
+            "y": 13,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 14,
+            "x": -3,
+            "y": 13,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 13,
             "z": 1
         },
         {
-            "x": 4,
-            "y": 14,
+            "x": 3,
+            "y": 13,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 14,
+            "x": -3,
+            "y": 13,
             "z": 0
         },
         {
-            "x": 2.5,
+            "x": 2,
             "y": 5,
-            "z": 1
+            "z": 0
         },
         {
-            "x": -2.5,
+            "x": -2,
             "y": 5,
-            "z": 1
+            "z": 0
         }
     ],
-    "VariantName": "WHM-7K",
+    "VariantName": "LNC25-01sl",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro",
+            "mr-resize-1.05"
+        ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler",
-    "YangsThoughts": "The Endo Steel Warhammer 7K has been a really successful upgrade.  Increased armor, heat dissipation, and the mech keeps comparable fire power all round.",
+    "StockRole": "Sniper",
+    "YangsThoughts": "A rare Star League Defense Forces variant of the Lancelot, the LNC25-01sl replaces the PPC and Large Lasers of the -01 with a trio of ER Large Lasers. It also adds ferro-fibrous armor for extra protection and uses the tonnage saved over the -01 for extra heat sinks. This model was extremely rare and only to be found in the Star League's Royal regiments, which either left with Kerensky or stayed behind to form ComStar's protective forces in the wake of the Amaris Civil War.",
     "FixedEquipment": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Optimized_Capacitors",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_XL_Engine",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -252,7 +218,15 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -260,7 +234,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -268,7 +242,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -276,7 +250,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

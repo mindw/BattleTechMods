@@ -9,10 +9,10 @@
             "unit_lance_brawler",
             "unit_lance_tank",
             "unit_role_brawler",
-            "unit_hot", 
+            "unit_hot",
             "unit_armor_high",
             "unit_sldf_royal",
-            "unit_command",            
+            "unit_command",
             "NotDavion",
             "NotLiao",
             "NotMarik",
@@ -133,14 +133,14 @@
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
+            "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
@@ -151,7 +151,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -161,14 +161,14 @@
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
+            "HardpointSlot": 2,
             "DamageLevel": "Functional"
         },
         {

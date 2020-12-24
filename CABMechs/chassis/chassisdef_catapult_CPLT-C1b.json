@@ -1,25 +1,28 @@
 {
     "Description": {
-        "Cost": 6400000,
-        "Rarity": 3,
+        "Cost": 11100000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Warhammer",
-        "Id": "chassisdef_warhammer_WHM-7K",
-        "Name": "Warhammer",
-        "Details": "This House Kurita variant, introduced in 3054, was built on an Endo Steel skeleton. It carried ER PPCs, two medium lasers, and two small pulse lasers. The SRM-6 was replaced by a pair of Streak SRM-2 launchers, while a TAG system allowed the 7K to spot for friendly units.",
-        "Icon": "uixTxrIcon_warhammer"
+        "UIName": "Catapult",
+        "Id": "chassisdef_catapult_CPLT-C1b",
+        "Name": "Catapult",
+        "Details": "An SLDF Royal unit upgrade kit of the standard C1 Catapults to the C1b variant. The weapon array stays the same, but the ammunition has been doubled. For improved protection and Ferro-Fibrous armor is used. Finally, twelve double strength heat sinks replace the old singles.",
+        "Icon": "uixTxrIcon_catapult"
     },
-    "MovementCapDefID": "movedef_warhammer_WHM-6R",
+    "MovementCapDefID": "movedef_catapult_CPLT-C1",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_warhammer",
-    "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
-    "PrefabBase": "warhammer",
-    "Tonnage": 70,
-    "InitialTonnage": 26.5,
+    "HardpointDataDefID": "hardpointdatadef_catapult",
+    "PrefabIdentifier": "chrPrfMech_catapultBase-001",
+    "PrefabBase": "catapult",
+    "Tonnage": 65,
+    "InitialTonnage": 27,
     "weightClass": "HEAVY",
-    "Heatsinks": 36,
+    "BattleValue": 7144000,
+    "Heatsinks": 30,
+    "TopSpeed": 64,
+    "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -36,13 +39,13 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 70,
+    "MeleeDamage": 60,
+    "MeleeInstability": 65,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 80,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
     "Locations": [
         {
             "Location": "Head",
@@ -57,15 +60,15 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 50
         },
         {
             "Location": "LeftTorso",
@@ -91,25 +94,21 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 110
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -129,15 +128,15 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 50
         },
         {
             "Location": "LeftLeg",
@@ -161,90 +160,62 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 12,
             "z": 1
         },
         {
             "x": 4,
-            "y": 14,
+            "y": 12,
             "z": 0
         },
         {
             "x": -4,
-            "y": 14,
+            "y": 12,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 12,
             "z": 1
         },
         {
             "x": 4,
-            "y": 14,
+            "y": 12,
             "z": 0
         },
         {
             "x": -4,
-            "y": 14,
+            "y": 12,
             "z": 0
         },
         {
-            "x": 2.5,
+            "x": 3,
             "y": 5,
-            "z": 1
+            "z": 0
         },
         {
-            "x": -2.5,
+            "x": -3,
             "y": 5,
-            "z": 1
+            "z": 0
         }
     ],
-    "VariantName": "WHM-7K",
+    "VariantName": "CPLT-C1b",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro",
+            "mech_case_left",
+            "mech_case_right"
+        ], 
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler",
-    "YangsThoughts": "The Endo Steel Warhammer 7K has been a really successful upgrade.  Increased armor, heat dissipation, and the mech keeps comparable fire power all round.",
+    "StockRole": "Missile Boat",
+    "YangsThoughts": "An SLDF Royal unit upgrade kit of the standard C1 Catapults to the C1b variant. The weapon array stays the same, but the ammunition has been doubled. For improved protection and Ferro-Fibrous armor is used. Finally, twelve double strength heat sinks replace the old singles.",
     "FixedEquipment": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Optimized_Capacitors",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -252,7 +223,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_1_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -260,7 +231,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -268,7 +239,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -276,11 +247,11 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         }
-    ]
+    ] 
 }

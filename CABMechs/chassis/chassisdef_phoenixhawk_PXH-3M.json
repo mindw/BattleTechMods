@@ -36,7 +36,7 @@
     "Signature": 0,
     "Radius": 5,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 55,
+    "MeleeDamage": 60,
     "MeleeInstability": 45,
     "MeleeToHitModifier": 0,
     "DFADamage": 55,
@@ -186,8 +186,8 @@
     "VariantName": "PXH-3M",
     "ChassisTags": {
         "items": [
-			"mech_case_left"
-		],
+            "mech_case_left"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

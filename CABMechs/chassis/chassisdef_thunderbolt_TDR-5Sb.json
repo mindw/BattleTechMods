@@ -1,25 +1,25 @@
 {
     "Description": {
-        "Cost": 6400000,
+        "Cost": 11010000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Warhammer",
-        "Id": "chassisdef_warhammer_WHM-7K",
-        "Name": "Warhammer",
-        "Details": "This House Kurita variant, introduced in 3054, was built on an Endo Steel skeleton. It carried ER PPCs, two medium lasers, and two small pulse lasers. The SRM-6 was replaced by a pair of Streak SRM-2 launchers, while a TAG system allowed the 7K to spot for friendly units.",
-        "Icon": "uixTxrIcon_warhammer"
+        "UIName": "Thunderbolt",
+        "Id": "chassisdef_thunderbolt_TDR-5Sb",
+        "Name": "Thunderbolt",
+        "Details": "This SLDF Royal variant of the Thunderbolt was introduced in 2753 and uses Star League technology. The large laser is replaced by an ER PPC, and a pair of Small Pulse Lasers replaces the machine guns. Double heat sinks keep the MechWarrior comfortable.",
+        "Icon": "uixTxrIcon_thunderbolt"
     },
-    "MovementCapDefID": "movedef_warhammer_WHM-6R",
+    "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_warhammer",
-    "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
-    "PrefabBase": "warhammer",
-    "Tonnage": 70,
-    "InitialTonnage": 26.5,
+    "HardpointDataDefID": "hardpointdatadef_thunderbolt",
+    "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
+    "PrefabBase": "thunderbolt",
+    "Tonnage": 65,
+    "InitialTonnage": 23.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 36,
+    "Heatsinks": 30,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -36,13 +36,13 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 70,
+    "MeleeDamage": 90,
+    "MeleeInstability": 65,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 80,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
     "Locations": [
         {
             "Location": "Head",
@@ -57,19 +57,39 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 50
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -87,17 +107,12 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 110
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
             "Location": "RightTorso",
@@ -108,14 +123,6 @@
                 },
                 {
                     "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -131,13 +138,17 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 100,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 50
         },
         {
             "Location": "LeftLeg",
@@ -161,98 +172,60 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 14,
             "z": 1
         },
         {
             "x": 4,
-            "y": 14,
+            "y": 13,
             "z": 0
         },
         {
             "x": -4,
-            "y": 14,
+            "y": 13,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
+            "y": 14,
             "z": 1
         },
         {
             "x": 4,
-            "y": 14,
+            "y": 13,
             "z": 0
         },
         {
             "x": -4,
-            "y": 14,
+            "y": 13,
             "z": 0
         },
         {
-            "x": 2.5,
+            "x": 3,
             "y": 5,
-            "z": 1
+            "z": 0
         },
         {
-            "x": -2.5,
+            "x": -3,
             "y": 5,
-            "z": 1
+            "z": 0
         }
     ],
-    "VariantName": "WHM-7K",
+    "VariantName": "TDR-5Sb",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
-    "YangsThoughts": "The Endo Steel Warhammer 7K has been a really successful upgrade.  Increased armor, heat dissipation, and the mech keeps comparable fire power all round.",
+    "YangsThoughts": "SLDF Royal indeed, visually almost identical to the stock 5S, It runs cooler and has a longer reach. Capable of alpha striking repeatedly it can engage both short and long range opponents effectivity.",
     "FixedEquipment": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Optimized_Capacitors",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -268,7 +241,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_EndoSteel_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -276,7 +249,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_EndoSteel_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

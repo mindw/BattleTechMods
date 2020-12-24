@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 12300000,
-        "Rarity": 1,
+        "Cost": 17100000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Warhammer",
-        "Id": "chassisdef_warhammer_WHM-7A",
-        "Name": "Warhammer",
-        "Details": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
-        "Icon": "uixTxrIcon_warhammer"
+        "UIName": "King Crab",
+        "Id": "chassisdef_kingcrab_KGC-010",
+        "Name": "King Crab",
+        "Details": "This version of the King Crab was created by the Star League to be a command 'Mech and introduced alongside the original 000 model in 2743. Conceived in secret between Cosara and the Terran Hegemony, it was an attempt to produce a deadly command 'Mech by mounting a pair of newly-developed Hellstar Magna PPCs in either side torso. These PPCs were different from other models in that they did not require an outer barrel but instead were mounted flush with the torso, each opening surrounded by a specially-designed Holly SRM-6 launcher, while the cooling sleeves extended out the back of the 'Mech. In place of the normal autocannons the 010 model carried LB-10X cannons. The combination of the non-standard housing and odd-colored discharge of the PPCs caused many pilots to believe they were facing a brand-new weapon systems, while the spine-like protrusions of the cooling sleeves produced massive heat-diffusion waves. All told the 010 model was more than capable of taking down an Atlas, but the entire line left with Kerensky during the Exodus and even knowledge of the design's existence became lost during the Succession Wars.",
+        "Icon": "uixTxrIcon_kingcrab"
     },
-    "MovementCapDefID": "movedef_warhammer_WHM-7A",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_warhammer",
-    "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
-    "PrefabBase": "warhammer",
-    "Tonnage": 70,
-    "InitialTonnage": 27,
-    "weightClass": "HEAVY",
-    "Heatsinks": 36,
-    "MaxJumpjets": 4,
-    "Stability": 160,
+    "MovementCapDefID": "movedef_kingcrab_KGC-0000",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_kingcrab",
+    "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
+    "PrefabBase": "kingcrab",
+    "Tonnage": 100,
+    "InitialTonnage": 31,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 30,
+    "MaxJumpjets": 3,
+    "Stability": 200,
     "StabilityDefenses": [
         0,
         0,
@@ -36,13 +36,13 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 70,
+    "MeleeDamage": 125,
+    "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 125,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 125,
+    "DFAInstability": 125,
     "Locations": [
         {
             "Location": "Head",
@@ -57,33 +57,11 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 110,
-            "MaxRearArmor": -1,
-            "InternalStructure": 55
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
@@ -92,29 +70,55 @@
                 }
             ],
             "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 110
+            "MaxArmor": 310,
+            "MaxRearArmor": 155,
+            "InternalStructure": 155
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -123,6 +127,24 @@
                 },
                 {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
@@ -131,110 +153,85 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 170,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 85
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 105
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 210,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 105
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 1
+            "y": 14.5,
+            "z": 0
         },
         {
             "x": 4,
-            "y": 14,
-            "z": 0
+            "y": 15,
+            "z": -1
         },
         {
             "x": -4,
-            "y": 14,
-            "z": 0
+            "y": 15,
+            "z": -1
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 1
+            "y": 14.5,
+            "z": 0
         },
         {
             "x": 4,
-            "y": 14,
-            "z": 0
+            "y": 15,
+            "z": -1
         },
         {
             "x": -4,
-            "y": 14,
-            "z": 0
+            "y": 15,
+            "z": -1
         },
         {
-            "x": 2.5,
-            "y": 5,
-            "z": 1
+            "x": 3.5,
+            "y": 5.5,
+            "z": -1
         },
         {
-            "x": -2.5,
-            "y": 5,
-            "z": 1
+            "x": -3.5,
+            "y": 5.5,
+            "z": -1
         }
     ],
-    "VariantName": "WHM-7A",
+    "VariantName": "KGC-010",
     "ChassisTags": {
         "items": [
+            "mech_case_left",
             "mech_case_right"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler",
-    "YangsThoughts": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
+    "StockRole": "Sniper",
+    "YangsThoughts": "Boss, once you get over the SLDF awe, this is one unbalanced mech. The first long range salvo will immidiately reveal its speciality, it lacks the speed to get away quickly and it will overhear before you blink. The amount of ammo added is obsene - two extra engine heat sinks would have made the differece.",
     "FixedEquipment": [
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Optimized_Capacitors",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoSteel_2_Slot",
@@ -244,16 +241,16 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

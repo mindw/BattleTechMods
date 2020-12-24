@@ -208,7 +208,7 @@
     "VariantName": "CRD-5S",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.95-0.95-0.95",
+            "mr-resize-0.95",
             "mech_case_right",
             "mech_case_centre"
         ],

@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 12300000,
+        "Cost": 2900000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Warhammer",
-        "Id": "chassisdef_warhammer_WHM-7A",
-        "Name": "Warhammer",
-        "Details": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
-        "Icon": "uixTxrIcon_warhammer"
+        "UIName": "Falcon",
+        "Id": "chassisdef_falcon_FLC-4Nb",
+        "Name": "Falcon",
+        "Details": "Built for the Royal SLDF Divisions during the Amaris Civil War, the so-called Royal Falcon carried an experimental Parti-Kill Snub-Nose PPC backed up by two medium lasers. It was also equipped with double heat-sinks, and was built on a Duralyte 300 Endo-Steel chassis.",
+        "Icon": "uixTxrIcon_falcon"
     },
-    "MovementCapDefID": "movedef_warhammer_WHM-7A",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_warhammer",
-    "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
-    "PrefabBase": "warhammer",
-    "Tonnage": 70,
-    "InitialTonnage": 27,
-    "weightClass": "HEAVY",
-    "Heatsinks": 36,
-    "MaxJumpjets": 4,
-    "Stability": 160,
+    "MovementCapDefID": "movedef_falcon_FLC-4N",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_firebee",
+    "PrefabIdentifier": "chrprfmech_firebeebase-001",
+    "PrefabBase": "firebee",
+    "Tonnage": 30,
+    "InitialTonnage": 13.5,
+    "weightClass": "LIGHT",
+    "Heatsinks": 30,
+    "MaxJumpjets": 6,
+    "Stability": 100,
     "StabilityDefenses": [
         0,
         0,
@@ -34,15 +34,15 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 8,
+    "Radius": 4,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 70,
+    "MeleeDamage": 40,
+    "MeleeInstability": 30,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 40,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 40,
+    "DFAInstability": 40,
     "Locations": [
         {
             "Location": "Head",
@@ -59,33 +59,17 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 25
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -93,38 +77,22 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 110
+            "MaxArmor": 100,
+            "MaxRearArmor": 50,
+            "InternalStructure": 50
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -132,9 +100,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
         },
         {
             "Location": "RightArm",
@@ -150,102 +118,86 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 50,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 25
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 70,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 35
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 70,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 35
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 14,
+            "y": 11,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 14,
-            "z": 0
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 14,
+            "y": 11,
             "z": 0
-        },
-        {
-            "x": -4,
-            "y": 14,
-            "z": 0
-        },
-        {
-            "x": 2.5,
-            "y": 5,
-            "z": 1
         },
         {
             "x": -2.5,
-            "y": 5,
-            "z": 1
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0.5
         }
     ],
-    "VariantName": "WHM-7A",
+    "VariantName": "FLC-4Nb",
     "ChassisTags": {
         "items": [
-            "mech_case_right"
+            "mr-resize-0.92-0.95-0.92"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler",
-    "YangsThoughts": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
+    "StockRole": "Striker",
+    "YangsThoughts": "The ultimate Falcon, that Snub-nose PPC will give a hell of a surprise to 'Mechs twice it size, not to mention being even better at ripping apart scout mechs. It is vulnerable to any kind of infatry though. Shame this one is no loger with us.",
     "FixedEquipment": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Optimized_Capacitors",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

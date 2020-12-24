@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 6400000,
-        "Rarity": 3,
+        "Cost": 12200000,
+        "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Warhammer",
-        "Id": "chassisdef_warhammer_WHM-7K",
-        "Name": "Warhammer",
-        "Details": "This House Kurita variant, introduced in 3054, was built on an Endo Steel skeleton. It carried ER PPCs, two medium lasers, and two small pulse lasers. The SRM-6 was replaced by a pair of Streak SRM-2 launchers, while a TAG system allowed the 7K to spot for friendly units.",
-        "Icon": "uixTxrIcon_warhammer"
+        "UIName": "Phoenix Hawk",
+        "Id": "chassisdef_phoenixhawk_PXH-1b",
+        "Name": "Phoenix Hawk",
+        "Details": "The Phoenix Hawk 1b is a highly advanced 'Mech that was provided only to the SLDF's Royal Divisions. It's an extremely rare find, and a powerful striker that can execute devastating flanking maneuvers.",
+        "Icon": "uixTxrIcon_phoenixhawk"
     },
-    "MovementCapDefID": "movedef_warhammer_WHM-6R",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_warhammer",
-    "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
-    "PrefabBase": "warhammer",
-    "Tonnage": 70,
-    "InitialTonnage": 26.5,
-    "weightClass": "HEAVY",
-    "Heatsinks": 36,
-    "MaxJumpjets": 4,
-    "Stability": 160,
+    "MovementCapDefID": "movedef_phoenixhawk_PXH-1b",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_phoenixhawk",
+    "PrefabIdentifier": "chrPrfMech_phoenixhawkBase-001",
+    "PrefabBase": "phoenixhawk",
+    "Tonnage": 45,
+    "InitialTonnage": 16.5,
+    "weightClass": "MEDIUM",
+    "Heatsinks": 30,
+    "MaxJumpjets": 6,
+    "Stability": 130,
     "StabilityDefenses": [
         0,
         0,
@@ -34,15 +34,15 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 8,
+    "Radius": 5,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 70,
+    "MeleeDamage": 60,
+    "MeleeInstability": 45,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 55,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 55,
+    "DFAInstability": 55,
     "Locations": [
         {
             "Location": "Head",
@@ -59,17 +59,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 110,
-            "MaxRearArmor": -1,
-            "InternalStructure": 55
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -80,38 +70,25 @@
                 }
             ],
             "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 110
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
@@ -120,10 +97,24 @@
                 }
             ],
             "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
         },
         {
             "Location": "RightArm",
@@ -131,65 +122,73 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 70,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 35
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 110,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 55
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 110,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 55
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 14,
+            "y": 13,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 14,
-            "z": 0
+            "x": 3.5,
+            "y": 13,
+            "z": -0.5
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": -0.5
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 14,
+            "y": 13,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 14,
-            "z": 0
+            "x": 3.5,
+            "y": 13,
+            "z": -0.5
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": -0.5
         },
         {
             "x": 2.5,
@@ -202,49 +201,19 @@
             "z": 1
         }
     ],
-    "VariantName": "WHM-7K",
+    "VariantName": "PXH-1b",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left"
+        ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler",
-    "YangsThoughts": "The Endo Steel Warhammer 7K has been a really successful upgrade.  Increased armor, heat dissipation, and the mech keeps comparable fire power all round.",
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "The Phoenix Hawk 1B is a highly advanced 'Mech that was provided only to the SLDF's Royal Divisions. It's an extremely rare find, and a powerful striker that can execute devastating flanking maneuvers.",
     "FixedEquipment": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Optimized_Capacitors",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_XL_Engine",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -252,7 +221,15 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -268,7 +245,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_EndoSteel_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -276,8 +253,24 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_EndoSteel_4_Slot",
             "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
+            "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"

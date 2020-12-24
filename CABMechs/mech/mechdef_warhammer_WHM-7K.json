@@ -121,13 +121,6 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_TAG_Standard_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "ComponentDefType": "HeatSink",
@@ -167,6 +160,13 @@
             "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_TAG_Standard_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {

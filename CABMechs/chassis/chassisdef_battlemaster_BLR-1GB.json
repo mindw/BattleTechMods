@@ -1,27 +1,27 @@
 {
     "Description": {
-        "Cost": 12300000,
-        "Rarity": 1,
+        "Cost": 15900000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Warhammer",
-        "Id": "chassisdef_warhammer_WHM-7A",
-        "Name": "Warhammer",
-        "Details": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
-        "Icon": "uixTxrIcon_warhammer"
+        "UIName": "BattleMaster",
+        "Id": "chassisdef_battlemaster_BLR-1GB",
+        "Name": "BattleMaster",
+        "Details": "The BLR-1Gb is an enhanced BattleMaster variant that was developed for the SLDF's Royal Divisions. This model boasts superb weaponry, armor, and heat management systems. Extremely rare and expensive, but worth the price.",
+        "Icon": "uixTxrIcon_battlemaster"
     },
-    "MovementCapDefID": "movedef_warhammer_WHM-7A",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_warhammer",
-    "PrefabIdentifier": "chrPrfMech_warhammerBase-001",
-    "PrefabBase": "warhammer",
-    "Tonnage": 70,
-    "InitialTonnage": 27,
-    "weightClass": "HEAVY",
-    "Heatsinks": 36,
+    "MovementCapDefID": "movedef_battlemaster_BLR-1GB",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_battlemaster",
+    "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
+    "PrefabBase": "battlemaster",
+    "Tonnage": 85,
+    "InitialTonnage": 41.5,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 48,
     "MaxJumpjets": 4,
-    "Stability": 160,
+    "Stability": 200,
     "StabilityDefenses": [
         0,
         0,
@@ -35,14 +35,14 @@
     "SensorRangeMultiplier": 1,
     "Signature": 0,
     "Radius": 8,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 70,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 115,
+    "MeleeInstability": 85,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 105,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 105,
+    "DFAInstability": 105,
     "Locations": [
         {
             "Location": "Head",
@@ -59,17 +59,13 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 70
         },
         {
             "Location": "LeftTorso",
@@ -83,7 +79,11 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -93,31 +93,23 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 110
+            "MaxArmor": 270,
+            "MaxRearArmor": 135,
+            "InternalStructure": 135
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -126,15 +118,15 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 150,
-            "MaxRearArmor": 75,
-            "InternalStructure": 75
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
         },
         {
             "Location": "RightArm",
@@ -150,109 +142,91 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 110,
+            "MaxArmor": 140,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 70
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 90
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 150,
+            "MaxArmor": 180,
             "MaxRearArmor": -1,
-            "InternalStructure": 75
+            "InternalStructure": 90
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 14,
+            "y": 16,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 14,
-            "z": 0
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 15,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 14,
+            "y": 16,
             "z": 0
         },
         {
-            "x": -4,
-            "y": 14,
-            "z": 0
+            "x": 5,
+            "y": 16,
+            "z": -1
         },
         {
-            "x": 2.5,
-            "y": 5,
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
             "z": 1
         },
         {
-            "x": -2.5,
-            "y": 5,
+            "x": -3.5,
+            "y": 5.5,
             "z": 1
         }
     ],
-    "VariantName": "WHM-7A",
+    "VariantName": "BLR-1Gb",
     "ChassisTags": {
-        "items": [
-            "mech_case_right"
-        ],
+        "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
-    "YangsThoughts": "An extremely rare Warhammer variant associated with the SLDF's famed Royal Divisions. Kitted out with top-tier weaponry and advanced heat management, the WHM-7A was piloted by the best-trained MechWarriors the SLDF had to offer.",
+    "YangsThoughts": "The BLR-1Gb is an enhanced BattleMaster variant that was developed for the SLDF's Royal Divisions. This model boasts superb weaponry, armor, and heat management systems. Extremely rare and expensive, but worth the price.",
     "FixedEquipment": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_General_Optimized_Capacitors",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightArm",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_EndoSteel_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -275,5 +249,5 @@
             "IsFixed": true,
             "DamageLevel": "Functional"
         }
-    ]
+    ]    
 }

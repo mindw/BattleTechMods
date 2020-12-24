@@ -1,14 +1,15 @@
 {
+    "MinAppearanceDate": "2751-06-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "BLACKLISTED",
+            "unit_release",
             "unit_mech",
             "unit_heavy",
             "unit_speed_high",
             "unit_range_long",
+            "unit_lance_sniper",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_release",
             "unit_sldf_royal",
             "NotDavion",
             "NotLiao",
@@ -75,10 +76,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 125,
+            "CurrentArmor": 120,
             "CurrentRearArmor": 40,
             "CurrentInternalStructure": 100,
-            "AssignedArmor": 125,
+            "AssignedArmor": 120,
             "AssignedRearArmor": 40
         },
         {
@@ -147,6 +148,5 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
-    ],
-    "MinAppearanceDate": "2751-06-01T00:00:00Z"
+    ]
 }

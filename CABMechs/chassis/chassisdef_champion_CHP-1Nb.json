@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_championbase-001",
     "PrefabBase": "champion",
     "Tonnage": 60,
-    "InitialTonnage": 27,
+    "InitialTonnage": 28,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
     "MaxJumpjets": 5,
@@ -197,9 +197,61 @@
     ],
     "VariantName": "CHP-1Nb",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",
-    "YangsThoughts": "A variant reserved for SLDF Royal units, this Champion was introduced in 2751 and replaces all the standard weaponry with a Gauss Rifle and ER PPC. It also uses double heat sinks. This gave the -1Nb an extremely long range weapon profile and a serious punch while also solving its heat issues."
+    "YangsThoughts": "A variant reserved for SLDF Royal units, this Champion was introduced in 2751 and replaces all the standard weaponry with a Gauss Rifle and ER PPC. It also uses double heat sinks. This gave the -1Nb an extremely long range weapon profile and a serious punch while also solving its heat issues.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_8_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_8_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

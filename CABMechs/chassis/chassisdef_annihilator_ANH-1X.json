@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_annihilatorBase-001",
     "PrefabBase": "annihilator",
     "Tonnage": 100,
-    "InitialTonnage": 23.5,
+    "InitialTonnage": 24.5,
     "weightClass": "ASSAULT",
     "Heatsinks": 30,
     "MaxJumpjets": 2,
@@ -221,7 +221,10 @@
     ],
     "VariantName": "ANH-1X",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
@@ -230,14 +233,10 @@
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_General_GM_Ballistic_Siege_Compensators",
-            "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         }
     ]
 }

@@ -1,0 +1,200 @@
+{
+    "Description": {
+        "Cost": 2600000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Dart",
+        "Id": "chassisdef_dart_DRT-3S",
+        "Name": "Dart",
+        "Details": "Designed and built in response to a Federated Commonwealth request for more light 'Mechs free from ammunition dependency, the 25-ton Dart was little more than an effort by Coventry Metal Works to remain in the limelight as one of the Commonwealth’s primary military suppliers. Using a bare minimum of new technology to keep costs down, in handily won a place in the AFFC.",
+        "Icon": "uixTxrIcon_dart"
+    },
+    "MovementCapDefID": "movedef_dart_DRT-3S",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_spider",
+    "PrefabIdentifier": "chrPrfMech_spiderBase-001",
+    "PrefabBase": "spider",
+    "Tonnage": 25,
+    "InitialTonnage": 18.5,
+    "weightClass": "LIGHT",
+    "Heatsinks": 0,
+    "MaxJumpjets": 9,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 30,
+    "MeleeInstability": 25,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 30,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 30,
+    "DFAInstability": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 40,
+            "MaxRearArmor": -1,
+            "InternalStructure": 20
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "DRT-3S",
+    "ChassisTags": {
+        "items": [
+            "mr-resize-0.8"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Scout",
+    "YangsThoughts": "It's a well balanced fast scout, nothing more. Those weapons won't scare anyone unless they are slow and stupid - but they will hit. Yes, it is fast and yes it has paper thin armor, no surprises either.",
+    "FixedEquipment": []
+}

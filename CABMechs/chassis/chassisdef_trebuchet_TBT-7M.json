@@ -192,9 +192,9 @@
     "VariantName": "TBT-7M",
     "ChassisTags": {
         "items": [
-			"mech_case_left",
-			"mech_case_right"
-		],
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",

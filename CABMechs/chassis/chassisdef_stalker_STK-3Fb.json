@@ -17,12 +17,9 @@
     "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
     "PrefabBase": "stalker",
     "Tonnage": 85,
-    "InitialTonnage": 27.5,
+    "InitialTonnage": 28.0,
     "weightClass": "ASSAULT",
-    "BattleValue": 8821000,
     "Heatsinks": 30,
-    "TopSpeed": 105,
-    "TurnRadius": 90,
     "MaxJumpjets": 3,
     "Stability": 200,
     "StabilityDefenses": [
@@ -210,7 +207,9 @@
     ],
     "VariantName": "STK-3Fb",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",

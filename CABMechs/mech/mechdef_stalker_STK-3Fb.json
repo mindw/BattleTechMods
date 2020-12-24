@@ -2,16 +2,16 @@
     "MinAppearanceDate": "2705-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "BLACKLISTED",
+            "unit_release",
             "unit_mech",
             "unit_assault",
+            "unit_lance_juggernaut",
             "unit_lance_assassin",
             "unit_role_brawler",
             "unit_range_short",
             "unit_armor_high",
             "unit_indirectFire",
             "unit_speed_low",
-            "unit_release",
             "unit_sldf_royal",
             "NotDavion",
             "NotLiao",
@@ -69,11 +69,11 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 160,
-            "CurrentRearArmor": 40,
+            "CurrentArmor": 145,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 90,
-            "AssignedArmor": 160,
-            "AssignedRearArmor": 40
+            "AssignedArmor": 145,
+            "AssignedRearArmor": 35
         },
         {
             "DamageLevel": "Functional",
@@ -87,11 +87,11 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 160,
-            "CurrentRearArmor": 40,
+            "CurrentArmor": 145,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 90,
-            "AssignedArmor": 160,
-            "AssignedRearArmor": 40
+            "AssignedArmor": 145,
+            "AssignedRearArmor": 35
         },
         {
             "DamageLevel": "Functional",
@@ -138,13 +138,27 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM15_Artemis_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -172,52 +186,38 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_Sensor_ECM",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F2400",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
@@ -236,16 +236,9 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_LRM15_Artemis_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {

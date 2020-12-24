@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_shadowcatbase-001",
     "PrefabBase": "shadowcat",
     "Tonnage": 40,
-    "InitialTonnage": 13,
+    "InitialTonnage": 14,
     "weightClass": "MEDIUM",
     "Heatsinks": 0,
     "MaxJumpjets": 6,
@@ -188,10 +188,77 @@
     "VariantName": "STN-3Lb",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.93-0.93-0.93"
+            "mr-resize-0.93",
+            "chassis_ferro"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",
-    "YangsThoughts": "A speedy 40 ton 'Mech with a guass rifle - what can go wrong? One heck of an upgrade over the original but also complex and expensive. Many an assault pilot never saw it before having their cockpit crushed by a supersonic ball of metal."
+    "YangsThoughts": "A speedy 40 ton 'Mech with a guass rifle - what can go wrong? One heck of an upgrade over the original but also complex and expensive. Many an assault pilot never saw it before having their cockpit crushed by a supersonic ball of metal.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_8_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

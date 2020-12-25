@@ -302,6 +302,14 @@
 * CASE
 * 5.0[IS] + 6.5[XLE] + 6[C/G] + 0.5[CASE] = 18.0
 
+# STY-3C Starslayer (50t)
+* engine 250 5/8
+* double heatsinks (10/11)
+* endo steel
+* FF armor
+* CASE (LT)
+* 2.5[ESIS] + 12.5[E] + 6[C/G] + 0.5[CASE] = 21.5
+
 # TBT-3C Trebuchet (50t)
 * XL engine 300 (2 internal) 6/9
 * double heatsinks (10[12]/10)
@@ -685,7 +693,7 @@
 * CASE
 * 8.0[IS] + 26.5[XLE] + 7[C/G] + 2[DHS] + 0.5[CASE] = 44
 
-# RFL-3N-2 Rifleman II
+# RFL-3N-2 Rifleman II (80t)
 * XL engine 320 (2 internal) 4/6
 * double heatsinks (12/14)
 * endo steel
@@ -705,7 +713,7 @@
 * CASE
 * 4[ESIS] + 22.5[E] + 7[C/G] + 2[HS] + 1[CASE] = 36.5
 
-# ZEU-5S Zeus
+# ZEU-5S Zeus (80t)
 * engine 320 (2 internal) 4/6
 * double heatsinks (12/14)
 * 39.5 = 8[IS] + 22.5[E] + 7[C/G] + 2[EDHS] = 39.5
@@ -855,7 +863,7 @@
 * CASE (LT/RT)
 * 10[IS] + 19.0[E] + 6[C/G] + 2[HS] + 1[CASE] = 38
 
-# KGC-000b King Crab
+# KGC-000b King Crab (100t)
 * engine 300 (2 internal) 3/5
 * Double heatsinks (12/12)
 * FF armor
@@ -868,7 +876,7 @@
 * CASE (LT/RT)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[HS] + 1[CASE] = 28.5
 
-# KGC-010 King Crab
+# KGC-010 King Crab (100t)
 * engine 300 (2 internal) 3/5
 * double heatsinks (10/10)
 * endo steel

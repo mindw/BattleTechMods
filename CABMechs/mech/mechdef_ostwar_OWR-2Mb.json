@@ -1,17 +1,16 @@
 {
-    "MinAppearanceDate": "2751-01-01T00:00:00Z",
+    "MinAppearanceDate": "2500-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "BLACKLISTED",
             "unit_release",
             "unit_mech",
             "unit_heavy",
-            "unit_range_medium",
+            "unit_speed_high",
             "unit_armor_high",
-            "unit_hot",
+            "unit_range_medium",
+            "unit_lance_brawler",
             "unit_lance_tank",
             "unit_role_brawler",
-            "unit_speed_low",
             "unit_sldf_royal",
             "NotDavion",
             "NotLiao",
@@ -31,21 +30,21 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_blackknight_BL-6b-KNT",
+    "ChassisID": "chassisdef_ostwar_OWR-2Mb",
     "HeraldryID": null,
     "Description": {
-        "Cost": 14910000,
+        "Cost": 19770000,
         "Rarity": 5,
-        "Purchasable": false,
+        "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Black Knight BL-6B-KNT",
-        "Id": "mechdef_blackknight_BL-6b-KNT",
-        "Name": "Royal Black Knight",
-        "Details": "The Black Knight 6B was the harder-hitting, cooler-running Star League ancestor to the standard BL-6-KNT we have today. It did everything the 6 does, but better—mostly thanks to its Double Heat Sinks, which are basically nonexistent these days.",
-        "Icon": "uixTxrIcon_blackknight"
+        "UIName": "Ostwar OWR-2Mb",
+        "Id": "mechdef_ostwar_OWR-2Mb",
+        "Name": "Royal Ostwar",
+        "Details": "The original 'WalkerPod' the Ostwar is an ancient design from the earliest days of BattleMechs and was hugely popular with the Free Worlds League and Capellan Confederation in its time.  These days they are all but extinct due to attrition and the ability to use parts from the Ostwar on the more popular (and available) Ostroc and Ostsol models, occasional still seen on backwater worlds or in pirate forces.  The Ostwar was distinguishable from its successors by its two paddle like hands which housed SRM-4 launchers.  Two Medium Lasers and an LRM-20 rounded out its compliment.  While reasonably well armed, it is very slow for its size and loadout.",
+        "Icon": "uixTxrIcon_ostwar"
     },
-    "simGameMechPartCost": 1490000,
+    "simGameMechPartCost": 1980000,
     "Version": 1,
     "Locations": [
         {
@@ -60,83 +59,69 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 120,
+            "CurrentArmor": 100,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 60,
-            "AssignedArmor": 120,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 120,
+            "CurrentArmor": 110,
             "CurrentRearArmor": 40,
-            "CurrentInternalStructure": 80,
-            "AssignedArmor": 120,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 110,
             "AssignedRearArmor": 40
         },
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 145,
-            "CurrentRearArmor": 50,
-            "CurrentInternalStructure": 115,
-            "AssignedArmor": 145,
-            "AssignedRearArmor": 50
+            "CurrentArmor": 160,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": 45
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 120,
+            "CurrentArmor": 110,
             "CurrentRearArmor": 40,
-            "CurrentInternalStructure": 80,
-            "AssignedArmor": 120,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 110,
             "AssignedRearArmor": 40
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 120,
+            "CurrentArmor": 100,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 60,
-            "AssignedArmor": 120,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 120,
+            "CurrentArmor": 105,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 80,
-            "AssignedArmor": 120,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 105,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 120,
+            "CurrentArmor": 105,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 80,
-            "AssignedArmor": 120,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 105,
             "AssignedRearArmor": -1
         }
     ],
     "inventory": [
         {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "ComponentDefType": "HeatSink",
@@ -144,45 +129,38 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Beagle_Probe_0-STOCK",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
@@ -193,17 +171,10 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
@@ -212,6 +183,20 @@
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
-        }
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }        
     ]
 }

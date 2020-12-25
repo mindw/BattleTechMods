@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_kintaroBase-001",
     "PrefabBase": "kintaro",
     "Tonnage": 55,
-    "InitialTonnage": 18.5,
+    "InitialTonnage": 20.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 5,
@@ -203,9 +203,63 @@
     ],
     "VariantName": "KTO-19b",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_ferro",
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The KTO-19b was an upgrade utilized by the Royal Brigades of the SLDF. The upgrade of the KTO-19's LRM-5 launcher to a larger LRM-15 gives more flexibility in combat in comparison to the popular KTO-18. It also runs  a lot cooler thanks to double strength heatsinks."
+    "YangsThoughts": "The KTO-19b was an upgrade utilized by the Royal Brigades of the SLDF. The upgrade of the KTO-19's LRM-5 launcher to a larger LRM-15 gives more flexibility in combat in comparison to the popular KTO-18. It also runs  a lot cooler thanks to double strength heatsinks.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

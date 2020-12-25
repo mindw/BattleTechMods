@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_ospreybase-001",
     "PrefabBase": "osprey",
     "Tonnage": 55,
-    "InitialTonnage": 14,
+    "InitialTonnage": 15,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 4,
@@ -215,9 +215,62 @@
     ],
     "VariantName": "OSP-15",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left",
+            "mech_case_right"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",
-    "YangsThoughts": "The original SLDF model created in 2738, the OSP-15 mounted the same M-7 Gauss Rifle as the modern models, but had an LRM 10 Launcher, three Medium Lasers and no special equipment. "
+    "YangsThoughts": "The original SLDF model created in 2738, the OSP-15 mounted the same M-7 Gauss Rifle as the modern models, but had an LRM 10 Launcher, three Medium Lasers and no special equipment.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoSteel_5_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoSteel_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

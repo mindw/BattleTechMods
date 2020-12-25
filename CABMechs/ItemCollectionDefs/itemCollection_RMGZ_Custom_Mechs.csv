@@ -1,13 +1,16 @@
+itemCollection_RMGZ_Custom_Mechs,,,
 mechdef_annihilator_ANH-1X,Mech,1,1
 mechdef_archer_ARC-2Rb,Mech,1,1
 mechdef_battlemaster_BLR-1Gd,Mech,1,1
 mechdef_catapult_CPLT-C1b,Mech,1,1
 mechdef_champion_CHP-1Nb,Mech,1,1
 mechdef_crab_CRB-27sl,Mech,1,1
+mechdef_crockett_CRK-5003-1b,Mech,1,1
 mechdef_crusader_CRD-2R,Mech,1,1
 mechdef_dervish_DV-6Md,Mech,1,1
 mechdef_emperor_EMP-6A,Mech,1,1
 mechdef_falcon_FLC-4Nb,Mech,1,1
+mechdef_hermes_HER-1Sb,Mech,1,1
 mechdef_hussar_HSR-200-Db,Mech,1,1
 mechdef_imp_IMP-1A,Mech,1,1
 mechdef_imp_IMP-1B,Mech,1,1
@@ -36,8 +39,10 @@ mechdef_thorn_THE-Nb,Mech,1,1
 mechdef_thug_THG-11Eb,Mech,1,1
 mechdef_thunderbolt_TDR-5Sb,Mech,1,1
 mechdef_thunderbolt_TDR-5Sd,Mech,1,1
+mechdef_thunderhawk_TDK-7X,Mech,1,1
 mechdef_trebuchet_TBT-3C,Mech,1,1
 mechdef_warhammer_WHM-6Rb,Mech,1,1
 mechdef_warhammer_WHM-6Rk,Mech,1,1
 mechdef_wolverine_II_WVR-7H,Mech,1,1
+mechdef_wyvern_WVE-5Nb,Mech,1,1
 mechdef_zeus_ZEU-5S,Mech,1,1

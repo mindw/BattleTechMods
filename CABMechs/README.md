@@ -668,7 +668,7 @@
 * CASE
 * 7.5[IS] + 9.5[XLE] + 6[C/G] + 1[DHS] + 1[CASE] = 25
 
-# PTR-4D Penetrator (75t)
+# PTR-4D/4F Penetrator (75t)
 * engine 300 (2 internal) 4/6
 * double heatsinks (12/12)
 * 7.5[IS] + 19[E] + 6[C/G] + 2[DHS] = 34.5

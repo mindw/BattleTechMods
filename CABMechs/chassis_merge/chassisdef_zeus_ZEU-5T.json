@@ -1,0 +1,45 @@
+{
+    "InitialTonnage": 39.5,
+    "Heatsinks": 42,
+    "ChassisTags": {
+        "items": [
+            "chassis_ferro"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+ }

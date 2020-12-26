@@ -1,19 +1,128 @@
 {
+    "MinAppearanceDate": "2998-01-01T00:00:00Z",
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_assault",
+            "unit_lance_skirmisher",
             "unit_lance_assassin",
             "unit_role_flanker",
             "unit_range_medium",
             "unit_speed_high",
             "unit_jumpOK",
-            "unit_release",
             "Davion",
             "NotKurita",
             "NotMarik",
             "NotMagistracyOfCanopus"
         ],
         "tagSetSourceFile": ""
-    }
+    },
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

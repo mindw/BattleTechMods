@@ -573,11 +573,11 @@
 * CASE
 * 3.5[ESIS] + 16[E] + 6[C/G] + 1[CASE] = 26.5
 
-# ARC-5S/5W Archer (70t)
+# ARC-5CS Archer (70t)
 * XL engine 280 (1 internal) 4/6
-* double heatsinks (10/10)
-* CASE (RT/LT)
-* 7[IS] + 8[XLE] + 6[C/G] + 1[CASE] = 22
+* double heatsinks (11/11)
+* endo steel
+* 3.5[ESIS] + 8[XLE] + 6[C/G] + 1[DHS] = 18.5
 
 # ARC-5R Archer (70t)
 * engine 280 (1 internal) 4/6
@@ -585,6 +585,12 @@
 * endo steel
 * CASE
 * 3.5[ESIS] + 16[E] + 6[C/G] + 1[DHS] + 1[CASE] = 27.5
+
+# ARC-5S/5W Archer (70t)
+* XL engine 280 (1 internal) 4/6
+* double heatsinks (10/10)
+* CASE (RT/LT)
+* 7[IS] + 8[XLE] + 6[C/G] + 1[CASE] = 22
 
 # CES-3R Caesar (70t)
 * XL engine 280 (1 internal) 4/6

@@ -19,7 +19,6 @@
     "Tonnage": 35,
     "InitialTonnage": 21.5,
     "weightClass": "LIGHT",
-    "BattleValue": 3762000,
     "Heatsinks": 0,
     "MaxJumpjets": 7,
     "Stability": 100,
@@ -75,7 +74,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 10,
             "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 30
@@ -128,7 +127,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 10,
             "MaxArmor": 60,
             "MaxRearArmor": -1,
             "InternalStructure": 30

@@ -62,7 +62,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -112,12 +112,12 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 10,
             "MaxArmor": 30,
             "MaxRearArmor": -1,
             "InternalStructure": 15

@@ -1,0 +1,34 @@
+{
+    "TargetIDs": [
+        "chassisdef_annihilator_ANH-1A",
+        "chassisdef_annihilator_ANH-JH",
+        "chassisdef_banshee_BNC-3S",
+        "chassisdef_cicada_CDA-3C",
+        "chassisdef_dragon_DRG-1N",
+        "chassisdef_enforcer_ENF-4R",
+        "chassisdef_firestarter_FS9-H",
+        "chassisdef_granddragon_DRG-1G",
+        "chassisdef_marauder_MAD-2R",
+        "chassisdef_marauder_MAD-2D",
+        "chassisdef_marauder_MAD-3R",
+        "chassisdef_marauder_MAD-BH",
+        "chassisdef_marauder_MAD-CM",
+        "chassisdef_orion_ON1-K",
+        "chassisdef_orion_ON1-V",
+        "chassisdef_vulcan_VL-2T",
+        "chassisdef_vulcan_VL-5T",
+        "chassisdef_warhammer_WHM-6D",
+        "chassisdef_warhammer_WHM-6R",
+        "chassisdef_warhammer_WHM-BW",
+        "chassisdef_zeus_ZEU-5T",
+        "chassisdef_zeus_ZEU-5S",
+        "chassisdef_zeus_ZEU-6T"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.Locations[?(@.Location=='LeftArm')].InventorySlots",
+            "Action": "Replace",
+            "Value": 9
+        }
+    ]
+}

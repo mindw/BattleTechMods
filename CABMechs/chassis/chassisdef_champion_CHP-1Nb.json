@@ -57,7 +57,7 @@
             "Location": "LeftArm",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 10,
             "MaxArmor": 100,
             "MaxRearArmor": -1,
             "InternalStructure": 50
@@ -127,7 +127,7 @@
             "Location": "RightArm",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 10,
             "MaxArmor": 100,
             "MaxRearArmor": -1,
             "InternalStructure": 50

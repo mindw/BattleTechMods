@@ -126,7 +126,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftArm",
+            "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -142,7 +142,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightArm",
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

@@ -1,0 +1,47 @@
+{
+    "TargetIDs": [
+        "chassisdef_annihilator_ANH-1A",
+        "chassisdef_annihilator_ANH-JH",
+        "chassisdef_assassin_ASN-101",
+        "chassisdef_assassin_ASN-21",
+        "chassisdef_awesome_AWS-8Q",
+        "chassisdef_awesome_AWS-8T",
+        "chassisdef_cataphract_CTF-0X",
+        "chassisdef_cataphract_CTF-1X",
+        "chassisdef_cicada_CDA-3C",
+        "chassisdef_centurion_CN9-A",
+        "chassisdef_centurion_CN9-AL",
+        "chassisdef_dragon_DRG-1N",
+        "chassisdef_enforcer_ENF-4R",
+        "chassisdef_firestarter_FS9-H",
+        "chassisdef_granddragon_DRG-1G",
+        "chassisdef_highlander_HGN-733",
+        "chassisdef_highlander_HGN-733P",
+        "chassisdef_marauder_MAD-2R",
+        "chassisdef_marauder_MAD-2D",
+        "chassisdef_marauder_MAD-3R",
+        "chassisdef_marauder_MAD-BH",
+        "chassisdef_marauder_MAD-CM",
+        "chassisdef_orion_ON1-K",
+        "chassisdef_orion_ON1-V",
+        "chassisdef_trebuchet_TBT-5N",
+        "chassisdef_trebuchet_TBT-7K",
+        "chassisdef_vindicator_VND-1AA",
+        "chassisdef_vindicator_VND-1R",
+        "chassisdef_vulcan_VL-2T",
+        "chassisdef_vulcan_VL-5T",        
+        "chassisdef_warhammer_WHM-6D",
+        "chassisdef_warhammer_WHM-6R",
+        "chassisdef_warhammer_WHM-BW",
+        "chassisdef_zeus_ZEU-5T",
+        "chassisdef_zeus_ZEU-5S",
+        "chassisdef_zeus_ZEU-6T"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.Locations[?(@.Location=='RightArm')].InventorySlots",
+            "Action": "Replace",
+            "Value": 9
+        }
+    ]
+}

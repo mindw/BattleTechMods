@@ -18,6 +18,12 @@
     "DLL": "JK_Components.dll",
     "Settings": {
         "Debug": true,
+        "MechLabSlots": {
+            "Enabled": true,
+            "MechLabGeneralSlots": 0,
+            "HideHelpButton": true,
+            "HideECMButton": true
+        },
         "HardpointFix": {
             "Enabled": true,
             "EnabledDescription": "Optimizes the way installed weapons are shown on a mech model.",

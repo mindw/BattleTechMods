@@ -1,0 +1,38 @@
+{
+    "TargetIDs": [
+        "chassisdef_catapult_CPLT-C1",
+        "chassisdef_catapult_CPLT-C4",
+        "chassisdef_catapult_CPLT-K2",
+        "chassisdef_cicada_CDA-2A",
+        "chassisdef_blackjack_BJ-1",
+        "chassisdef_blackjack_BJ-1DB",
+        "chassisdef_flea_FLE-15",
+        "chassisdef_flea_FLE-4",
+        "chassisdef_jagermech_JM6-A",
+        "chassisdef_jagermech_JM6-S",
+        "chassisdef_jenner_JR7-D",
+        "chassisdef_locust_LCT-1E",
+        "chassisdef_locust_LCT-1M",
+        "chassisdef_locust_LCT-1S",
+        "chassisdef_locust_LCT-1V",
+        "chassisdef_raven_RVN-1X",
+        "chassisdef_raven_RVN-3X",
+        "chassisdef_rifleman_RFL-3C",
+        "chassisdef_rifleman_RFL-3N",
+        "chassisdef_rifleman_RFL-4D",
+        "chassisdef_rifleman_RFL-RIP",
+        "chassisdef_stalker_STK-3F",
+        "chassisdef_urbanmech_UM-R60",
+        "chassisdef_urbanmech_UM-R60L",
+        "chassisdef_urbanmech_UM-R90",
+        "chassisdef_victor_VTR-9B",
+        "chassisdef_victor_VTR-9S"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.Locations[?(@.Location=='RightArm')].InventorySlots",
+            "Action": "Replace",
+            "Value": 10
+        }
+    ]
+}

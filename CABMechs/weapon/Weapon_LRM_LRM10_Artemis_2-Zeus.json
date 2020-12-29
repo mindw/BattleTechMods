@@ -41,7 +41,7 @@
         "Icon": "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA": "-2 Acc, +25% Crit",
-    "BonusValueB": "+ 1 Stb.Dmg",
+    "BonusValueB": "+1 Stb.Dmg",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "lrm10",

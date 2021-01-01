@@ -5,6 +5,7 @@
             "JSONPath": "ResolutionConstants",
             "Action": "ObjectMerge",
             "Value": {
+                "AICritChanceBaseMultiplier": 1.0,
                 "VehicleEvasiveResultMultiplier": 1,
                 "VehiclesGetGuarded": true
             }

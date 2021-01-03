@@ -5,13 +5,13 @@
             "unit_release",
             "unit_mech",
             "unit_medium",
+            "unit_range_long",
+            "unit_lance_sniper",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_range_long",
             "unit_indirectFire",
             "unit_jumpOK",
             "unit_hot",
-            "unit_release",
             "Davion",
             "Liao",
             "Marik",
@@ -24,7 +24,7 @@
             "ComStar",
             "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "AuriganMercenaries"            
+            "AuriganMercenaries"
         ],
         "tagSetSourceFile": ""
     },

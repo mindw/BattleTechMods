@@ -1,6 +1,7 @@
 {
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_medium",
             "unit_lance_vanguard",
@@ -8,7 +9,6 @@
             "unit_range_short",
             "unit_speed_high",
             "unit_armor_low",
-            "unit_release",
             "NotKurita",
             "Liao",
             "NotSteiner"

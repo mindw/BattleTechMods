@@ -9,9 +9,9 @@
             "unit_range_long",
             "unit_armor_low",
             "unit_speed_high",
+            "unit_lance_missile_boat",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_release",
             "unit_common"
         ],
         "tagSetSourceFile": ""

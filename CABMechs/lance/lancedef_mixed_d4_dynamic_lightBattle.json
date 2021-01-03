@@ -62,7 +62,11 @@
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {
-                "items": [],
+                "items": [
+                    "unit_lance_striker",
+                    "unit_lance_missile_boat",
+                    "unit_lance_vanguard"
+                ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {
@@ -120,6 +124,8 @@
             },
             "excludedUnitTagSet": {
                 "items": [
+                    "unit_lance_missile_boat",
+                    "unit_lance_vanguard",
                     "unit_urbie"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"

@@ -4,10 +4,9 @@
         "items": [
             "unit_release",
             "unit_mech",
-            "unit_release",
             "unit_light",
             "unit_lance_vanguard",
-            "unit_role_scout",
+            "unit_role_activeprobe",
             "unit_range_short",
             "unit_speed_high",
             "NotDavion",

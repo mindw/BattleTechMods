@@ -143,6 +143,7 @@
     ],
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_medium",
             "unit_range_medium",
@@ -151,12 +152,11 @@
             "unit_role_flanker",
             "unit_armor_high",
             "unit_speed_high",
-            "unit_release",
             "NotDavion",
             "NotLiao",
-            "Marik",
+            "NotMarik",
             "NotSteiner",
-            "NotKurita",
+            "Kurita",
             "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",

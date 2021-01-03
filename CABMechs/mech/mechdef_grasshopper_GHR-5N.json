@@ -6,6 +6,7 @@
             "unit_mech",
             "unit_heavy",
             "unit_range_medium",
+            "unit_lance_skirmisher",
             "unit_lance_assassin",
             "unit_role_flanker",
             "unit_jumpOK",

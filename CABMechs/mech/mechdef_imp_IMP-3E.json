@@ -7,6 +7,7 @@
             "unit_assault",
             "unit_range_short",
             "unit_armor_high",
+            "unit_lance_juggernaut",
             "unit_lance_assassin",
             "unit_role_brawler",
             "unit_indirectFire",
@@ -16,14 +17,16 @@
             "NotMarik",
             "NotSteiner",
             "NotKurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
-            "NotComStar",
-            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "AuriganMercenaries"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "BlackWidowCompany"
         ],
         "tagSetSourceFile": ""
     },

@@ -1,13 +1,14 @@
 {
-    "MinAppearanceDate" : "2774-01-01T00:00:00Z", 
+    "MinAppearanceDate": "2774-01-01T00:00:00Z",
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_heavy",
-            "unit_release",
+            "unit_range_long",
+            "unit_lance_sniper",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_range_long",
             "unit_armor_low",
             "unit_speed_low",
             "Davion",

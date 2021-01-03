@@ -1,13 +1,14 @@
 {
+    "MinAppearanceDate": "2567-01-01T00:00:00Z",
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_light",
             "unit_lance_vanguard",
             "unit_role_scout",
             "unit_range_short",
             "unit_speed_high",
-            "unit_release",
             "NotDavion",
             "NotLiao",
             "NotMarik",

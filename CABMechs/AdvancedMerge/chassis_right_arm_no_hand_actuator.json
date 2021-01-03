@@ -17,8 +17,7 @@
         "chassisdef_granddragon_DRG-1G",
         "chassisdef_highlander_HGN-733",
         "chassisdef_highlander_HGN-733P",
-        "chassisdef_marauder_MAD-2R",
-        "chassisdef_marauder_MAD-2D",
+        "chassisdef_marauder_MAD-3D",
         "chassisdef_marauder_MAD-3R",
         "chassisdef_marauder_MAD-BH",
         "chassisdef_marauder_MAD-CM",
@@ -34,7 +33,7 @@
         "chassisdef_warhammer_WHM-6R",
         "chassisdef_warhammer_WHM-BW",
         "chassisdef_zeus_ZEU-5T",
-        "chassisdef_zeus_ZEU-5S",
+        "chassisdef_zeus_ZEU-6S",
         "chassisdef_zeus_ZEU-6T"
     ],
     "Instructions": [

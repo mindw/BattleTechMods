@@ -1,9 +1,6 @@
 {
     "TargetIDs": [
-        "chassisdef_banshee_BNC-3S",
         "chassisdef_highlander_HGN-733",
-        "chassisdef_cyclops_CP-10-HQ",
-        "chassisdef_cyclops_CP-10-Z",
         "chassisdef_stalker_STK-3F",
         "chassisdef_hunchback_HBK-4P",
         "chassisdef_hunchback_HBK-4G"

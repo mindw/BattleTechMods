@@ -1,6 +1,7 @@
 {
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_assault",
             "unit_range_short",
@@ -9,7 +10,6 @@
             "unit_role_brawler",
             "unit_indirectFire",
             "unit_speed_low",
-            "unit_release",
             "NotDavion",
             "NotLiao",
             "NotMarik",

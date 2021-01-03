@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_catapultBase-001",
     "PrefabBase": "catapult",
     "Tonnage": 65,
-    "InitialTonnage": 27,
+    "InitialTonnage": 26,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
     "MaxJumpjets": 4,
@@ -88,7 +88,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 150,
             "MaxRearArmor": 75,
             "InternalStructure": 75
@@ -123,7 +123,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 150,
             "MaxRearArmor": 75,
             "InternalStructure": 75
@@ -146,7 +146,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 2,
             "MaxArmor": 150,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -155,7 +155,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 2,
             "MaxArmor": 150,
             "MaxRearArmor": -1,
             "InternalStructure": 75

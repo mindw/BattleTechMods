@@ -1,20 +1,20 @@
 {
+    "MinAppearanceDate": "2650-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
             "unit_mech",
             "unit_light",
+            "unit_range_short",
             "unit_lance_vanguard",
             "unit_role_scout",
-            "unit_range_short",
             "unit_jumpOK",
             "unit_hot",
             "unit_speed_high",
             "unit_armor_low",
             "unit_common",
             "Kurita",
-            "Marik",
-            "NotTaurianConcordat"
+            "Marik"
         ],
         "tagSetSourceFile": ""
     }

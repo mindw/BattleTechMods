@@ -2,14 +2,15 @@
     "MinAppearanceDate": "2777-01-01T00:00:00Z",
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_medium",
+            "unit_lance_skirmisher",
             "unit_lance_assassin",
             "unit_role_flanker",
             "unit_range_medium",
             "unit_speed_low",
             "unit_jumpOK",
-            "unit_release",
             "Davion",
             "NotLiao",
             "NotMarik",

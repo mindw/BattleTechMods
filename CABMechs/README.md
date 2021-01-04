@@ -446,10 +446,12 @@
 * CASE
 * 6.0[IS] + 16.5[XLE] + 7[C/G] + 3[DHS] + 0.5[CASE] = 33
 
-# LNC25-01 Lancelot (60t)
+# LNC25-01/05 Lancelot (60t)
 * XL engine 360 (4 internal) 6/9
-* double heatsinks (13/13)
-* 6.0[IS] + 16.5[XLE] + 7[C/G] + 3[DHS] = 32.5
+* double heatsinks (13(14)/13) LNC25-01
+* double heatsinks (11(14)/11) LNC25-05
+* 6.0[IS] + 16.5[XLE] + 7[C/G] + 3[DHS] = 32.5 LNC25-01
+* 6.0[IS] + 16.5[XLE] + 7[C/G] + 1[DHS] = 30.5 LNC25-05
 
 # LNC25-01sl Lancelot (60t)
 * XL engine 360 (4 internal) 6/9

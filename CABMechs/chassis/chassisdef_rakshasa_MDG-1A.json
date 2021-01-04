@@ -221,7 +221,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
+            "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -237,7 +237,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefID": "Gear_EndoFerroCombo_1_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -245,7 +245,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+            "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -253,7 +253,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
+            "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

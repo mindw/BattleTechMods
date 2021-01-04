@@ -850,6 +850,12 @@
 * double heatsinks (12/14)
 * 10[IS] + 9.5[XLE] + 6[C/G] + 2[DHS] = 27.5
 
+# T-IT-N10M Grand Titan (100t)
+* XL engine 400 (6 internal) 4/6
+* double heatsinks (12(16)/12)
+* endo steel
+* 5[ESIS] + 26.5[XLE] + 7[C/G] + 2[DHS] = 40.5
+
 # IMP-1A/B/C (100t)
 * engine 300 (2 internal) 3/5
 * double heatsinks (12/18)-1A (12/19)-1B (12/17)-1C

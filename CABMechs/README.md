@@ -515,6 +515,11 @@
 * CASE (LT/RT)
 * 6.5[IS] + 13.5[E] + 6[C/G] +1[CASE] = 27
 
+# CPLT-C4C Catapult (65t)
+* XL engine 260 4/6
+* double heatsinks (10/10)
+* 6.5[IS] + 7[XLE] + 6[C/G] = 19.5
+
 # CDR-2R Crusader (65t)
 * engine 260 4/6
 * double heatsinks (10/10)

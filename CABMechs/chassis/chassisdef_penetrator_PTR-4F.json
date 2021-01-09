@@ -34,7 +34,7 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 8,
+    "Radius": 4,
     "PunchesWithLeftArm": false,
     "MeleeDamage": 85,
     "MeleeInstability": 75,
@@ -208,5 +208,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "The inspiration for the Penetrator comes from the Clan Black Hawk, can't say it looks much like one. The 4F swaps out the 4Ds direct fire long range weapons for 2 Artemis IV upgraded LRM 10s."
+    "YangsThoughts": "A base Penetrator with two LRM launchers instead of some lasers. That doesn't change the fact the 'Mech itself isn't very interesting, but at least it can act as a longe range support to better ones."
 }

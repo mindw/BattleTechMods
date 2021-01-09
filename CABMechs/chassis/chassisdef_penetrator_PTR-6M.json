@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Penetrator",
-        "Id": "chassisdef_penetrator_PTR-4D",
+        "Id": "chassisdef_penetrator_PTR-6M",
         "Name": "Penetrator",
-        "Details": "The designers at Kallon Industries used the Black Hawk Clan OmniMech as the basis for the Penetrator. The Penetrator has an all energy weapons arsenal and uses twelve double heat sinks to handle the massive heat load from its weapons. The 'Mech is lacking in speed though when compared to the Black Hawk.",
+        "Details": "The 6M is a variant of the Penetrator that looks to alleviate the 'Mech's heat build up by removing two of the Medium Pulse Lasers and a ton of armor, replacing them with five additional double.",
         "Icon": "uixTxrIcon_penetrator"
     },
     "MovementCapDefID": "movedef_penetrator_PTR-4D",
@@ -202,11 +202,11 @@
             "z": 0.5
         }
     ],
-    "VariantName": "PTR-4D",
+    "VariantName": "PTR-6M",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The inspiration for the Penetrator comes from the Clan Black Hawk, can't say it looks much like one still but the all energy loadout is comparable."
+    "YangsThoughts": "A needed improvement to the cooling of the Penetrator, giving it the ability to fire all weapons continously without shutting down. A trade-off of smaller alpha strike and weaker armor vs prolonged staying power."
 }

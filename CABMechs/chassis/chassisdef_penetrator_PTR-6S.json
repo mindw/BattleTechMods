@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Penetrator",
-        "Id": "chassisdef_penetrator_PTR-4D",
+        "Id": "chassisdef_penetrator_PTR-6S",
         "Name": "Penetrator",
-        "Details": "The designers at Kallon Industries used the Black Hawk Clan OmniMech as the basis for the Penetrator. The Penetrator has an all energy weapons arsenal and uses twelve double heat sinks to handle the massive heat load from its weapons. The 'Mech is lacking in speed though when compared to the Black Hawk.",
+        "Details": "A simple modification of the Penetrator, the 6S model removes one and a half tons of armor. This frees enough weight to add a Guardian ECM Suite to the 'Mech, protecting the 'Mech from foes' advanced electronics.",
         "Icon": "uixTxrIcon_penetrator"
     },
     "MovementCapDefID": "movedef_penetrator_PTR-4D",
@@ -202,11 +202,11 @@
             "z": 0.5
         }
     ],
-    "VariantName": "PTR-4D",
+    "VariantName": "PTR-6S",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The inspiration for the Penetrator comes from the Clan Black Hawk, can't say it looks much like one still but the all energy loadout is comparable."
+    "YangsThoughts": "Not sure this was a wise move, Boss. All it takes is one ECCM and that ECM is useless and suddenly the removed 1.5 ton of armor will be very missed."
 }

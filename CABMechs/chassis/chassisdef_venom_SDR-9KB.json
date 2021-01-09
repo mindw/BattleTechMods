@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Venom",
-        "Id": "chassisdef_venom_SDR-9KA",
+        "Id": "chassisdef_venom_SDR-9KB",
         "Name": "Venom",
-        "Details": "The 9KA variant of the Venom is a simple modification that intends to increase the 'Mechs protection at the cost of firepower. Introduced in 3056 it does this by removing one of the medium pulse lasers and replacing it with an additional two tons of armor, increasing the total armor protection to five and a half tons.",
+        "Details": "The 9KB is a rare field refit of the 9KA field refit, attempting to improve its anti infantry capabilities by sacrificing armor and a jump jet for a single machine gun with half a tonne of ammo.",
         "Icon": "uixTxrIcon_venom"
     },
     "MovementCapDefID": "movedef_venom_SDR-9K",
@@ -104,6 +104,10 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -184,7 +188,7 @@
             "z": 0.5
         }
     ],
-    "VariantName": "SDR-9KA",
+    "VariantName": "SDR-9KB",
     "ChassisTags": {
         "items": [
             "mr-resize-1.05-1.00-1.00",
@@ -193,7 +197,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "The Venom 9KA makes much more sense to me. A reduction in the firepower to up the armor plus it keeps the great maneuverability. The weaponry is still reasonable up close and is able to be used more before laying off to cool down.",
+    "YangsThoughts": "Boss, the best thing you can do with the 9KA is to undo the refit. XL engines and ammo without CASE nor an ejection system equals a lot of daed pilots. Unelss someone puts freezers on this ones, your're better off with the way cheaper Spider.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",

@@ -122,6 +122,13 @@
 * FF armor
 * 3.0[IS] + 6.0[E] + 6[C/G] = 15.0
 
+# JVN-11B javelin (30t)
+* engine 180 (3 external) 6/9
+* double heatsinks (7/10) TBD
+* FF armor
+* CASE (LT/RT)
+* 3[ESIS] + 7[E] + 5[C/G] + 1[CASE] = 16.0
+
 # SDR-7M Spider (30t)
 * engine 240 (1 external) 8/12
 * single heatsinks (9/10) FIXME
@@ -533,7 +540,7 @@
 * CASE
 * 6.5[IS] + 7.0[E] + 6[C/G] + 1[CASE] = 20.5
 
-# CRD-5S Crusader (65t)
+# CRD-4BR/5S Crusader (65t)
 * engine 260 4/6
 * double heatsinks (10/10)
 * CASE

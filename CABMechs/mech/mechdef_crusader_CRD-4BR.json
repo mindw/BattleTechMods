@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate": "3049-01-01T00:00:00Z",
+    "MinAppearanceDate": "3054-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -12,10 +12,10 @@
             "unit_lance_support",
             "unit_role_sniper",
             "unit_speed_low",
-            "Davion",
+            "NotDavion",
             "NotLiao",
             "NotMarik",
-            "Steiner",
+            "NotSteiner",
             "NotKurita",
             "NotComStar",
             "NotMagistracyOfCanopus",
@@ -25,12 +25,12 @@
             "NotAuriganPirates",
             "AuriganMercenaries",
             "MercenaryReviewBoard",
-            "NotKellHounds",
-            "NotWolfsDragoons",
+            "KellHounds",
+            "WolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_crusader_CRD-5S",
+    "ChassisID": "chassisdef_crusader_CRD-4BR",
     "HeraldryID": null,
     "Description": {
         "Cost": 7840000,
@@ -38,10 +38,10 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Crusader CRD-5S",
-        "Id": "mechdef_crusader_CRD-5S",
+        "UIName": "Crusader CRD-4BR",
+        "Id": "mechdef_crusader_CRD-4BR",
         "Name": "Crusader",
-        "Details": "A production-model upgrade of the Crusader utilizing Star League equipment, the 5S is built by TharHes industries on Tharkad for FedCom forces since 3049. It varies little from the 3R model, instead removing the machine guns to make room for double heat sinks, CASE to protect the missile reloads, and the addition of a Flamer in the right arm.",
+        "Details": "A Star League-tech retrofit of the classic CRD-3R developed by Bander BattleMechs for the mercenary market in 3054, the 4BR switches to double heat sinks and replaces the SRM-6 launchers with a pair of Streak SRM-2s. The weight saved allows an extra ton of LRM reloads for each launcher to be carried, protected by the addition of CASE in each torso.",
         "Icon": "uixTxrIcon_crusader"
     },
     "simGameMechPartCost": 780000,
@@ -132,16 +132,44 @@
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }, 
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
@@ -167,26 +195,26 @@
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
-            "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"

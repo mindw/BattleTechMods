@@ -84,10 +84,10 @@
                     "HardpointCandidates": [
                       "laser",
                       "flamer",
+                      "ppc",
                       "mg",
                       "machinegun",
                       "ac2",
-                      "ppc",
                       "ac",
                       "lbx",
                       "narc",
@@ -402,14 +402,15 @@
                     "PrefabIdentifier": "lrm5",
                     "HardpointCandidates": [
                         "lrm5",
+                        "missile5",
+                        "srm6",
+                        "missile6",
                         "lrm10",
+                        "missile10",
                         "lrm15",
+                        "missile15",
                         "lrm20",
                         "srm20",
-                        "missile5",
-                        "missile6",
-                        "missile10",
-                        "missile15",
                         "missile20"
                     ]
                 },
@@ -417,13 +418,13 @@
                     "PrefabIdentifier": "lrm10",
                     "HardpointCandidates": [
                         "lrm10",
+                        "missile10",
+                        "rl10",
                         "lrm15",
+                        "missile15",
                         "lrm20",
                         "srm20",
                         "lrm5",
-                        "rl10",
-                        "missile10",
-                        "missile15",
                         "missile20"
                     ]
                 },
@@ -431,14 +432,14 @@
                     "PrefabIdentifier": "lrm15",
                     "HardpointCandidates": [
                         "lrm15",
+                        "missile15",
+                        "rl15",
                         "lrm20",
+                        "missile20",
+                        "rl20",
                         "srm20",
                         "lrm10",
                         "lrm5",
-                        "rl20",
-                        "rl15",
-                        "missile15",
-                        "missile20",
                         "missile10"
                     ]
                 },

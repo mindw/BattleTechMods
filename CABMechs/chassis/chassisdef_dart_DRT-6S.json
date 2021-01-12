@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Dart",
-        "Id": "chassisdef_dart_DRT-3S",
+        "Id": "chassisdef_dart_DRT-6S",
         "Name": "Dart",
-        "Details": "Designed and built in response to a Federated Commonwealth request for more light 'Mechs free from ammunition dependency, the 25-ton Dart was little more than an effort by Coventry Metal Works to remain in the limelight as one of the Commonwealth's primary military suppliers. Using a bare minimum of new technology to keep costs down, in handily won a place in the AFFC.",
+        "Details": "The 6S variant of the Dart increases both its firepower and armor protection. The 'Mech carries four and a half tons of Ferro-Fibrous armor. The 'Mech is armed with two Medium Lasers. Even with one less Medium Laser than the 4S model, the 6S brings more overall firepower to the field than the 3S.",
         "Icon": "uixTxrIcon_dart"
     },
     "MovementCapDefID": "movedef_dart_DRT-3S",
@@ -187,14 +187,40 @@
             "z": 0.5
         }
     ],
-    "VariantName": "DRT-3S",
+    "VariantName": "DRT-6S",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.8"
+            "mr-resize-0.8",
+            "chassis_ferro"            
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",
-    "YangsThoughts": "It's a well balanced fast scout, nothing more. Those weapons won't scare anyone unless they are slow and stupid - but they will hit. Yes, it is fast and yes it has paper thin armor, no surprises either.",
-    "FixedEquipment": []
+    "YangsThoughts": "The ultimate revision. Better firepower than the 3S and with lots of upgraded armor. Rugged, no ammo to reload and cheap to build and maintain- What's there not to like?",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_FerroFibrous_6_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_FerroFibrous_6_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

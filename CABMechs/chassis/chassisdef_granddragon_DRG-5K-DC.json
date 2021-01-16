@@ -1,0 +1,244 @@
+{
+    "Description": {
+        "Cost": 15800000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Grand Dragon",
+        "Id": "chassisdef_granddragon_DRG-5K-DC",
+        "Name": "Grand Dragon",
+        "Details": "A 3050 refit, this 5K sub-variant trades the rear-mounted Medium Laser and two double heat sinks for a Command Console. It has the distinction of being the lightest mech to feature one.",
+        "Icon": "uixTxrIcon_dragon"
+    },
+    "MovementCapDefID": "movedef_granddragon_DRG-5K",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_dragon",
+    "PrefabIdentifier": "chrPrfMech_dragonBase-001",
+    "PrefabBase": "dragon",
+    "Tonnage": 60,
+    "InitialTonnage": 31.0,
+    "weightClass": "HEAVY",
+    "Heatsinks": 36,
+    "MaxJumpjets": 6,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 90,
+    "MeleeInstability": 60,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 75,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 75,
+    "DFAInstability": 75,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 13,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 13,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "DRG-5K-DC",
+    "ChassisTags": {
+        "items": [
+            "mech_case_left"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "Adding a command console to the iconic Kurita Grand Dradon kinda makes sense - if your a drac. The 5K one of the fastest heavies there are with good armor and double heatsinks. It also sports an XL engine so the destruction of torso will take out both the commander and the pilot. The loss of a medium laser and heatsinks isn't a big deal here.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_CommandConsole",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

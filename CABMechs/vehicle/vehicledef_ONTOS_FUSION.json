@@ -13,27 +13,28 @@
     "VehicleTags": {
         "items": [
             "mr-resize-1.63",
+            "unit_release",
             "unit_vehicle",
             "unit_assault",
             "unit_tracks",
             "unit_range_medium",
             "unit_indirectFire", 
             "unit_armor_low",
-            "unit_release",
             "Davion",
             "Liao",
             "Marik",
             "Steiner",
             "NotKurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
-            "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

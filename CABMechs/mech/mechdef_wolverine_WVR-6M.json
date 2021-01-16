@@ -11,15 +11,20 @@
             "unit_lance_assassin",
             "unit_role_flanker",
             "NotDavion",
+            "NotLiao",
             "Marik",
+            "NotSteiner",
             "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

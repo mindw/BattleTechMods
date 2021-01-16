@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate": "3049-01-01T00:00:00Z",
+    "MinAppearanceDate": "3052-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "GZ_fake_min_appearance",
@@ -12,20 +12,21 @@
             "unit_lance_assassin",
             "unit_role_flanker",
             "unit_hot",
-            "unit_release",
             "Davion",
             "NotLiao",
             "NotMarik",
             "Steiner",
             "Kurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
-            "NotComStar",
-            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "AuriganMercenaries"
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

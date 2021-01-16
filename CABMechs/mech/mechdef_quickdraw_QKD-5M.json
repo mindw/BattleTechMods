@@ -17,14 +17,16 @@
             "Marik",
             "Steiner",
             "Kurita",
+            "ComStar",
             "MagistracyOfCanopus",
             "TaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
-            "ComStar",
-            "MercenaryReviewBoard",
             "NotAuriganPirates",
-            "AuriganMercenaries"
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "KellHounds",
+            "WolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

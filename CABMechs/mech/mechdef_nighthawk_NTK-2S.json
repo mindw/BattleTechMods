@@ -20,21 +20,12 @@
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
-            "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotSelfEmployed",
             "NotAuriganPirates",
-            "KellHounds",
             "AuriganMercenaries",
-            "GrayDeathLegion",
-            "MajestyMetals",
-            "MasonsMarauders",
             "MercenaryReviewBoard",
-            "PaladinProtectionLLC",
-            "RazorbackMercs",
-            "RedHareRegiment",
-            "SecuritySolutionsInc",
-            "HostileMercenaries"
+            "KellHounds",
+            "WolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

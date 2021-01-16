@@ -1,0 +1,31 @@
+{
+    "MinAppearanceDate": "2486-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_light",
+            "unit_speed_high",
+            "unit_range_medium",
+            "unit_lance_striker",
+            "unit_lance_assassin",
+            "unit_role_scout",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "NotKurita",
+            "NotComStar",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
+            "Locals",
+            "AuriganRestoration",
+            "AuriganPirates",
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "KellHounds",
+            "WolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

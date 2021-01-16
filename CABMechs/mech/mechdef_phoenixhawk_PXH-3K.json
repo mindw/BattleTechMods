@@ -18,15 +18,17 @@
             "NotMarik",
             "NotSteiner",
             "Kurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
-            ],
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
+        ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_phoenixhawk_PXH-3K",

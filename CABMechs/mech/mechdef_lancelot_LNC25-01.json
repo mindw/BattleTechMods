@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate": "3039-01-01T00:00:00Z",
+    "MinAppearanceDate": "3050-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "GZ_fake_min_appearance",
@@ -17,14 +17,16 @@
             "NotMarik",
             "NotSteiner",
             "Kurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

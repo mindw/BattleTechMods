@@ -2,6 +2,7 @@
     "MinAppearanceDate": "2866-01-01T00:00:00Z",
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_assault",
             "unit_range_short",
@@ -10,20 +11,21 @@
             "unit_role_brawler",
             "unit_indirectFire",
             "unit_jumpOK",
-            "unit_release",
             "NotDavion",
             "Liao",
             "NotMarik",
             "Steiner",
             "Kurita",
+            "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     }

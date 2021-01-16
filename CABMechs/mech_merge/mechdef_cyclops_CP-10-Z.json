@@ -2,11 +2,11 @@
     "MinAppearanceDate": "2710-01-01T00:00:00Z",
     "MechTags": {
         "items": [
+            "unit_release",
             "unit_mech",
             "unit_assault",
             "unit_speed_high",
             "unit_indirectFire",
-            "unit_release",
             "unit_dlc",
             "unit_range_short",
             "unit_lance_juggernaut",

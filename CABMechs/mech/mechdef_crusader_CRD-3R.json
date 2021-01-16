@@ -12,21 +12,7 @@
             "unit_lance_support",
             "unit_role_sniper",
             "unit_speed_low",
-            "unit_common",
-            "Davion",
-            "Liao",
-            "Marik",
-            "Steiner",
-            "Kurita",
-            "MagistracyOfCanopus",
-            "TaurianConcordat",
-            "NoFaction",
-            "Locals",
-            "AuriganRestoration",
-            "ComStar",
-            "MercenaryReviewBoard",
-            "AuriganPirates",
-            "AuriganMercenaries"            
+            "unit_common"          
         ],
         "tagSetSourceFile": ""
     },

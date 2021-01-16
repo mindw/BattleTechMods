@@ -13,9 +13,21 @@
             "unit_lance_assassin",
             "unit_role_flanker",
             "unit_common",
+            "Davion",
+            "Liao",
             "Marik",
+            "Steiner",
+            "Kurita",
+            "NotComStar",
             "MagistracyOfCanopus",
-            "NotComStar"
+            "TaurianConcordat",
+            "Locals",
+            "AuriganRestoration",
+            "AuriganPirates",
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "NotKellHounds",
+            "WolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

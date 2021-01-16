@@ -10,3 +10,8 @@ output_log.txt
 CAB-*/
 /BTMechDumper/*.txt
 /BTMechDumper/*.csv
+/MadLabs/MechDefs/
+/CABMechs/vehicleChassis-wip/
+/CABMechs/vehicle-wip/
+/AIToolkit/_Dump*/
+log.txt

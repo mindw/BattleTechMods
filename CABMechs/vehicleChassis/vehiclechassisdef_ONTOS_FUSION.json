@@ -10,7 +10,7 @@
     },
     "MovementCapDefID": "movedef_3-5cv",
     "PathingCapDefID": "pathingdef_assault_tracked",
-    "HardpointDataDefID": "hardpointdatadef_onstos3039",
+    "HardpointDataDefID": "hardpointdatadef_ontos3039",
     "PrefabIdentifier": "chrprfvhcl_ontos3039",
     "PrefabBase": "ontos3039",
     "Tonnage": 95,

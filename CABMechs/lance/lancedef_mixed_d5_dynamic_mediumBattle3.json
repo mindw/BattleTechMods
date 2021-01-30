@@ -1,19 +1,19 @@
 {
     "Description": {
-        "Id": "lancedef_mixed_d4_dynamic_lightBattle",
-        "Name": "Dynamic Dif 4 Light Mixed Battle",
+        "Id": "lancedef_mixed_d5_dynamic_mediumBattle3",
+        "Name": "Dynamic Dif 5 Medium Mixed Battle",
         "Details": "",
         "Icon": "",
         "Cost": 0,
         "Rarity": 0,
         "Purchasable": false
     },
-    "Difficulty": 4,
+    "Difficulty": 5,
     "LanceTags": {
         "items": [
-            "lance_bracket_low",
+            "lance_bracket_med",
             "lance_type_battle",
-            "lance_type_light",
+            "lance_type_medium",
             "lance_type_mixed",
             "lance_type_dynamic",
             "lance_type_notallvehicles"
@@ -34,19 +34,22 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_noncombatant"
+                    "unit_noncombatant",
+                    "unit_lance_vanguard"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d4",
-                    "pilot_npc_gunner"
+                    "pilot_npc_d5"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
             "excludedPilotTagSet": {
-                "items": null,
+                "items": [
+                    "pilot_npc_pilot",
+                    "pilot_npc_tactician"
+                ],
                 "tagSetSourceFile": "Tags/PilotTags"
             }
         },
@@ -73,7 +76,7 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d4"
+                    "pilot_npc_d5"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
@@ -81,39 +84,6 @@
                 "items": [
                     "pilot_npc_pilot",
                     "pilot_npc_tactician"
-                ],
-                "tagSetSourceFile": "Tags/PilotTags"
-            }
-        },
-        {
-            "unitType": "Vehicle",
-            "unitId": "Tagged",
-            "pilotId": "Tagged",
-            "unitTagSet": {
-                "items": [
-                    "unit_medium",
-                    "unit_vehicle"
-                ],
-                "tagSetSourceFile": "Tags/UnitTags"
-            },
-            "excludedUnitTagSet": {
-                "items": [
-                    "unit_noncombatant",
-                    "unit_lance_striker",
-                    "unit_lance_vanguard"
-                ],
-                "tagSetSourceFile": "Tags/UnitTags"
-            },
-            "pilotTagSet": {
-                "items": [
-                    "pilot_npc_d4"
-                ],
-                "tagSetSourceFile": "Tags/PilotTags"
-            },
-            "excludedPilotTagSet": {
-                "items": [
-                    "pilot_npc_pilot",
-                    "pilot_npc_defender"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             }
@@ -124,28 +94,67 @@
             "pilotId": "Tagged",
             "unitTagSet": {
                 "items": [
-                    "unit_light",
-                    "unit_mech"
+                    "unit_mech",
+                    "unit_medium"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {
                 "items": [
+                    "unit_lance_ambusher",
+                    "unit_lance_striker",
+                    "unit_lance_juggernaut",
                     "unit_lance_missile_boat",
-                    "unit_lance_vanguard",
-                    "unit_urbie"
+                    "unit_lance_vanguard"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d4",
-                    "pilot_npc_tactician"
+                    "pilot_npc_d5"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
             "excludedPilotTagSet": {
-                "items": null,
+                "items": [
+                    "pilot_npc_pilot",
+                    "pilot_npc_tactician"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+            }
+        },
+        {
+            "unitType": "Mech",
+            "unitId": "Tagged",
+            "pilotId": "Tagged",
+            "unitTagSet": {
+                "items": [
+                    "unit_mech",
+                    "unit_medium"
+                ],
+                "tagSetSourceFile": "Tags/UnitTags"
+            },
+            "excludedUnitTagSet": {
+                "items": [
+                    "unit_lance_ambusher",
+                    "unit_lance_striker",
+                    "unit_lance_juggernaut",
+                    "unit_lance_missile_boat",
+                    "unit_lance_vanguard"
+                ],
+                "tagSetSourceFile": "Tags/UnitTags"
+            },
+            "pilotTagSet": {
+                "items": [
+                    "pilot_npc_d5"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+            },
+            "excludedPilotTagSet": {
+                "items": [
+                    "pilot_npc_pilot",
+                    "pilot_npc_tactician"
+                ],
                 "tagSetSourceFile": "Tags/PilotTags"
             }
         }

@@ -1,13 +1,14 @@
 {
+    "MinAppearanceDate": "2778-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
             "unit_mech",
             "unit_medium",
+            "unit_range_medium",
             "unit_lance_striker",
             "unit_lance_assassin",
             "unit_role_scout",
-            "unit_range_medium",
             "unit_speed_high",
             "unit_jumpOK",
             "unit_common"

@@ -1,0 +1,20 @@
+{
+    "MinAppearanceDate": "2817-01-01T00:00:00Z",
+    "Description": {
+        "Name": "Swift Wind Scout Car"
+    },
+    "VehicleTags": {
+        "items": [
+            "mr-resize-0.8",
+            "unit_release",
+            "unit_vehicle",
+            "unit_light",
+            "unit_wheels",
+            "unit_weaponless",
+            "unit_noncombatant",
+            "unit_lance_vanguard",
+            "unit_range_short"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

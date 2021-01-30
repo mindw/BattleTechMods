@@ -1,0 +1,24 @@
+{
+    "MinAppearanceDate": "2777-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_medium",
+            "unit_range_short",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_speed_high",
+            "unit_jumpOK",
+            "unit_armor_low",
+            "unit_common",
+            "Kurita",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "MagistracyOfCanopus",
+            "TaurianConcordat"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

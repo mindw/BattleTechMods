@@ -12,6 +12,7 @@
     "ChassisID": "vehiclechassisdef_SCORPION_ML",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.50",
             "unit_vehicle",
             "unit_light",
             "unit_tracks",
@@ -21,7 +22,7 @@
             "unit_speed_low",
             "unit_armor_low",
             "unit_release",
-			"unit_common"
+            "unit_common"
         ],
         "tagSetSourceFile": ""
     },

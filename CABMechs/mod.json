@@ -580,6 +580,7 @@
         { "Type": "MechDef", "Path": "mech_merge", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "PilotDef", "Path": "pilots" },
         { "Type": "Sprite", "Path": "icons" },
+        { "Type": "VehicleDef", "Path": "vehicle_merge", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "VehicleDef", "Path": "vehicle", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "VehicleChassisDef", "Path": "vehicleChassis", "ShouldMergeJSON": false, "AddToDB": true },
         { "Path": "AdvancedMerge", "Type": "AdvancedJSONMerge" },

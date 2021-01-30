@@ -1,0 +1,18 @@
+{
+    "MinAppearanceDate": "2407-01-01T00:00:00Z",
+    "VehicleTags": {
+        "items": [
+            "mr-resize-1.50",
+            "unit_release",
+            "unit_vehicle",
+            "unit_heavy",
+            "unit_tracks",
+            "unit_indirectFire",
+            "unit_range_long",
+            "unit_lance_missile_boat",
+            "unit_lance_support",
+            "unit_vehicle_carrier"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

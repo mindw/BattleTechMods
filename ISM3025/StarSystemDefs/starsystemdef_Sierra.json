@@ -1,0 +1,168 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Sierra",
+    "Name": "Sierra",
+    "Details": "Vast tundras filled with mineral rich rock ensure the population of Sierra is at least well paid amidst the inhospitable environment.",
+    "Icon": ""
+  },
+  "Position": {
+    "x": -411.234,
+    "y": -111.752,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_name_sierra",
+      "planet_size_small",
+      "planet_climate_tropical",
+      "planet_other_megaforest",
+      "planet_other_stonedcaribou",
+      "planet_other_taintedair",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_large",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_research",
+      "planet_industry_chemicals",
+      "planet_other_starleague",
+      "planet_other_alienvegetation",
+      "planet_other_boreholes",
+      "planet_other_prison",
+      "planet_faction_marik"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+        "lowlandsSpring",
+        "desertParched",
+        "badlandsParched",
+    "jungleTropical"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": true,
+  "JumpDistance": 6,
+  "ownerID": "Marik",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "factionID": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "factionID": "Davion",
+      "Influence": 0
+    },
+    {
+      "factionID": "Liao",
+      "Influence": 0
+    },
+    {
+      "factionID": "Kurita",
+      "Influence": 0
+    },
+    {
+      "factionID": "Marik",
+      "Influence": 0
+    },
+    {
+      "factionID": "Steiner",
+      "Influence": 0
+    },
+    {
+      "factionID": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "factionID": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "factionID": "ComStar",
+      "Influence": 0
+    },
+    {
+      "factionID": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "StarPosition": null,
+  "StarType": "K",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [],
+  "factionShopOwnerID": "INVALID_UNSET",
+  "FactionShopItems": null,
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Sierra",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 9,
+  "DifficultyList": [],
+  "DifficultyModes": [],
+  "contractEmployerIDs": [
+    "Marik",
+    "Locals"
+  ],
+  "contractTargetIDs": [
+    "Steiner",
+    "Kurita",
+    "Davion",
+    "Liao",
+    "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Erin(VonStrangsWorld2830+)",
+    "Name": "Erin (Von Strang's World 2830+)",
+    "Details": "Controlled by the lawless Von Strang family, this world is made up of a wealthy aristocracy and vast numbers of feudal workers. If you've got the money, you can buy many things here.",
+    "Icon": ""
+  },
+  "Position": {
+    "x": -160.065,
+    "y": 515.891,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_name_erin(vonstrang'sworld2830+)",
+      "planet_size_medium",
+      "planet_climate_arctic",
+      "planet_other_megaforest",
+      "planet_other_floatingworld",
+      "planet_other_stonedcaribou",
+      "planet_other_taintedair",
+      "planet_feature_comet",
+      "planet_feature_moon03",
+      "planet_other_moon",
+      "planet_pop_small",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_agriculture",
+      "planet_industry_research",
+      "planet_industry_chemicals",
+      "planet_other_comstar",
+      "planet_other_alienvegetation",
+      "planet_other_pirate",
+      "planet_faction_locals"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+        "highlandsSpring",
+        "highlandsFall",
+    "polarFrozen",
+    "tundraFrozen",
+    "urbanHighTech"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 2,
+  "ownerID": "Locals",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "factionID": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "factionID": "Davion",
+      "Influence": 0
+    },
+    {
+      "factionID": "Liao",
+      "Influence": 0
+    },
+    {
+      "factionID": "Kurita",
+      "Influence": 0
+    },
+    {
+      "factionID": "Marik",
+      "Influence": 0
+    },
+    {
+      "factionID": "Steiner",
+      "Influence": 0
+    },
+    {
+      "factionID": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "factionID": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "factionID": "ComStar",
+      "Influence": 0
+    },
+    {
+      "factionID": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "StarPosition": null,
+  "StarType": "M",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [],
+  "factionShopOwnerID": "INVALID_UNSET",
+  "FactionShopItems": null,
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Erin(VonStrangsWorld2830+)",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 8,
+  "DifficultyList": [],
+  "DifficultyModes": [],
+  "contractEmployerIDs": [
+    "Locals"
+  ],
+  "contractTargetIDs": [
+    "Steiner",
+    "Marik",
+    "Kurita",
+    "Davion",
+    "Liao",
+    "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "AuriganDirectorate",
+    "AuriganPirates"
+  ]
+}

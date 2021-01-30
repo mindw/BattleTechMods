@@ -1,0 +1,175 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Nykvarn",
+    "Name": "Nykvarn",
+    "Details": "Annually, a viral plague would break-out on Nykvarn's northern continent, which was also the site of special type of grain that was the only viable cure for it. At the first sign of the plague, the grain was harvested and baked into loaves of bread which the locals ate to survive that year's outbreak.",
+    "Icon": ""
+  },
+  "Position": {
+    "x": 123.295,
+    "y": 388.723,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_name_nykvarn",
+      "planet_size_small",
+      "planet_climate_terran",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
+      "planet_other_fungus",
+      "planet_other_stonedcaribou",
+      "planet_other_storms",
+      "planet_other_taintedair",
+      "planet_pop_large",
+      "planet_civ_primitive",
+      "planet_industry_rich",
+      "planet_industry_recreation",
+      "planet_industry_mining",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
+      "planet_ruins",
+      "planet_faction_kurita"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+        "lowlandsSpring",
+        "lowlandsFall",
+        "highlandsSpring",
+        "highlandsFall",
+        "desertParched",
+        "badlandsParched",
+        "polarFrozen",
+        "tundraFrozen",
+        "jungleTropical"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": true,
+  "JumpDistance": 9,
+  "ownerID": "Kurita",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "factionID": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "factionID": "Davion",
+      "Influence": 0
+    },
+    {
+      "factionID": "Liao",
+      "Influence": 0
+    },
+    {
+      "factionID": "Kurita",
+      "Influence": 0
+    },
+    {
+      "factionID": "Marik",
+      "Influence": 0
+    },
+    {
+      "factionID": "Steiner",
+      "Influence": 0
+    },
+    {
+      "factionID": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "factionID": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "factionID": "ComStar",
+      "Influence": 0
+    },
+    {
+      "factionID": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "StarPosition": null,
+  "StarType": "F",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [],
+  "factionShopOwnerID": "INVALID_UNSET",
+  "FactionShopItems": null,
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Nykvarn",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 7,
+  "DifficultyList": [],
+  "DifficultyModes": [],
+  "contractEmployerIDs": [
+    "Kurita",
+    "Locals"
+  ],
+  "contractTargetIDs": [
+    "Steiner",
+    "Marik",
+    "Davion",
+    "Liao",
+    "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
+  ]
+}

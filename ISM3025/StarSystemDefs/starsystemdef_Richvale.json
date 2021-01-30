@@ -1,0 +1,174 @@
+{
+  "Description": {
+    "Id": "starsystemdef_Richvale",
+    "Name": "Richvale",
+    "Details": "Richvale is a humid and hot world best known for the Quickscell Company plants on the surface",
+    "Icon": ""
+  },
+  "Position": {
+    "x": -275.843,
+    "y": 175.209,
+    "z": 0
+  },
+  "Tags": {
+    "items": [
+      "mod_generate_shops",
+      "planet_name_richvale",
+      "planet_size_large",
+      "planet_climate_tropical",
+      "planet_other_volcanic",
+      "planet_other_mudflats",
+      "planet_other_floatingworld",
+      "planet_other_fungus",
+      "planet_other_taintedair",
+      "planet_feature_gasgiant",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_other_megacity",
+      "planet_civ_primitive",
+      "planet_industry_manufacturing",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_alienvegetation",
+      "planet_other_blackmarket",
+      "planet_other_newcolony",
+      "planet_other_pirate",
+      "planet_other_prison",
+      "planet_faction_steiner"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "SupportedBiomes": [
+        "lowlandsSpring",
+        "desertParched",
+        "badlandsParched",
+        "jungleTropical",
+    "urbanHighTech"
+  ],
+  "MapRequiredTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MapExcludedTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "FuelingStation": false,
+  "JumpDistance": 1,
+  "ownerID": "Steiner",
+  "ShopRefreshRate": 0,
+  "ShopMaxInventory": 0,
+  "ShopMaxSpecials": 9,
+  "SystemInfluence": [
+    {
+      "factionID": "NoFaction",
+      "Influence": 0
+    },
+    {
+      "factionID": "Davion",
+      "Influence": 0
+    },
+    {
+      "factionID": "Liao",
+      "Influence": 0
+    },
+    {
+      "factionID": "Kurita",
+      "Influence": 0
+    },
+    {
+      "factionID": "Marik",
+      "Influence": 0
+    },
+    {
+      "factionID": "Steiner",
+      "Influence": 0
+    },
+    {
+      "factionID": "TaurianConcordat",
+      "Influence": 0
+    },
+    {
+      "factionID": "MagistracyOfCanopus",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganDirectorate",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganRestoration",
+      "Influence": 0
+    },
+    {
+      "factionID": "ComStar",
+      "Influence": 0
+    },
+    {
+      "factionID": "MercenaryReviewBoard",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganPirates",
+      "Influence": 0
+    },
+    {
+      "factionID": "AuriganMercenaries",
+      "Influence": 0
+    }
+  ],
+  "TravelRequirements": [
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+          "map_travel_3"
+        ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": []
+    }
+  ],
+  "StarPosition": null,
+  "StarType": "0",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0,
+  "SystemShopItems": [],
+  "factionShopOwnerID": "INVALID_UNSET",
+  "FactionShopItems": null,
+  "BlackMarketShopItems": null,
+  "CoreSystemID": "starsystemdef_Richvale",
+  "StartingSystemModes": [
+    "KAMEA_CAMPAIGN",
+    "CAREER",
+    "NONE"
+  ],
+  "DefaultDifficulty": 10,
+  "DifficultyList": [],
+  "DifficultyModes": [],
+  "contractEmployerIDs": [
+    "Steiner",
+    "Locals"
+  ],
+  "contractTargetIDs": [
+    "Marik",
+    "Kurita",
+    "Davion",
+    "Liao",
+    "AuriganRestoration",
+    "ComStar",
+    "MagistracyOfCanopus",
+    "TaurianConcordat",
+    "Locals",
+    "AuriganDirectorate",
+    "AuriganPirates"
+  ]
+}

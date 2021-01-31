@@ -22,7 +22,7 @@
     "Heatsinks": 30,
     "MaxJumpjets": 6,
     "Stability": 130,
-    "StabilityDefenses" : [
+    "StabilityDefenses": [
         0,
         0,
         0,
@@ -73,6 +73,10 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -115,6 +119,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -198,8 +206,16 @@
     "YangsThoughts": "The 5M variant is a little more capable in a fight than it's older brothers. Still not an ideal choice against armored opposition, not enough armor itself for the role.",
     "FixedEquipment": [
         {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_5_Slot",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -207,7 +223,15 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_5_Slot",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -215,7 +239,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

@@ -1,8 +1,7 @@
 {
-    "MinAppearanceDate": "3057-01-01T00:00:00Z",
+    "MinAppearanceDate": "2612-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "GZ_fake_min_appearance", 
             "unit_release",
             "unit_mech",
             "unit_assault",
@@ -13,21 +12,21 @@
             "unit_role_brawler",
             "unit_jumpOK",
             "unit_sldf_royal",
-            "Davion",
-            "Liao",
-            "Marik",
-            "Steiner",
-            "Kurita",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
             "ComStar",
-            "MagistracyOfCanopus",
-            "TaurianConcordat",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
             "NotAuriganPirates",
-            "AuriganMercenaries",
-            "MercenaryReviewBoard",
-            "KellHounds",
-            "WolfsDragoons"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

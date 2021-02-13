@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 2600000,
+        "Cost": 4800000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
@@ -212,5 +212,23 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "The Firefly 3A is a slow 'Mech for 30t. It is packing heat though, and has decent armor for a light 'Mech, although I'm not sure of the wisdom of mainly relying on armor when you are this light."
+    "YangsThoughts": "The Firefly 3A is a slow 'Mech for 30t. It is packing heat though, and has decent armor for a light 'Mech, although I'm not sure of the wisdom of mainly relying on armor when you are this light especially with that flimsy XL engine.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]    
 }

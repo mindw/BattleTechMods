@@ -32,7 +32,7 @@
     "ChassisID": "chassisdef_catapult_CPLT-C4C",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6540000,
+        "Cost": 17140000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,
@@ -43,7 +43,7 @@
         "Details": "An upgrade of the C4 model. The standard fusion engine is replaced with an extralight engine. With the extra freed tonnage, a large laser and Beagle Active Probe can be mounted. The two Small Lasers are replaced with a single pulse version. The heat sinks are upgraded to double strength models.",
         "Icon": "uixTxrIcon_catapult"
     },
-    "simGameMechPartCost": 650000,
+    "simGameMechPartCost": 1714000,
     "Version": 1,
     "Locations": [
         {

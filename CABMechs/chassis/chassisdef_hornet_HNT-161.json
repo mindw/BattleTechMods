@@ -192,6 +192,7 @@
     "ChassisTags": {
         "items": [
             "mr-resize-0.85",
+            "chassis_endo",
             "chassis_ferro",
             "mech_case_left"
         ],

@@ -209,6 +209,7 @@
     "ChassisTags": {
         "items": [
             "mr-resize-0.95",
+            "chassis_DHS",
             "mech_case_right",
             "mech_case_left"
         ],
@@ -216,5 +217,5 @@
     },
     "StockRole": "Missile Boat",
     "YangsThoughts": "This is the 5S done right boss. It actually fixes the ammo issues of the 3R by doubling the LRM ammo and switching to streak SRM 2s. This swtitch to streask also fixes the heat problem. Too bad the center torso ammo couldn't be moved to the side torsos.",
-    "FixedEquipment": []    
+    "FixedEquipment": []
 }

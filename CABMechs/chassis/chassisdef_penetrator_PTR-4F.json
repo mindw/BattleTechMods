@@ -204,7 +204,9 @@
     ],
     "VariantName": "PTR-4F",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",

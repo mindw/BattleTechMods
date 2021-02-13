@@ -201,28 +201,28 @@
     "VariantName": "LNX-9Q",
     "ChassisTags": {
         "items": [
-			"chassis_DHS"
-		],
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
     "YangsThoughts": "The Lynx is intended for long term independent operations as well as protracted combat. It will not have ammo issues, and has tremendous firepower capability due to the weight saved by the Extra Light engine and the Double Heat Sinks to make sure it can handle the load.",
-    "FixedEquipment" : [
+    "FixedEquipment": [
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_XL_Engine",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_XL_Engine",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         }
     ]
 }

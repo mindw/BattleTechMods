@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 5800000,
+        "Cost": 12900000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
@@ -18,7 +18,7 @@
     "PrefabBase": "catapult",
     "VariantName": "CPLT-C4C",
     "StockRole": "Missile Boat",
-    "YangsThoughts": "Do you like LRMs? The C4C is focused on doing one thing and doing it well. And that thing is putting a cloud of missiles in the air with two LRM-20 launchers. There's a lot you can do with this 'Mech, as long as what you want to do is shoot a lot of missiles. When it runs out of missiles, it has jump jets and reinforced leg armor…",
+    "YangsThoughts": "Do you like LRMs? The C4C is focused on doing one thing and doing it well. And that thing is putting a cloud of missiles in the air with two LRM-20 launchers. There's a lot you can do with this 'Mech, as long as what you want to do is shoot a lot of missiles. When it runs out of missiles, it has jump jets and reinforced leg armor...",
     "Tonnage": 65,
     "InitialTonnage": 19.5,
     "weightClass": "HEAVY",
@@ -48,6 +48,7 @@
     "DFAInstability": 80,
     "ChassisTags": {
         "items": [
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

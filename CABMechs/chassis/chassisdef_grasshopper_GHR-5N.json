@@ -2,7 +2,7 @@
     "Description": {
         "Cost": 7100000,
         "Rarity": 5,
-        "Purchasable": false,
+        "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Grasshopper",
@@ -21,7 +21,7 @@
     "weightClass": "HEAVY",
     "Heatsinks": 3,
     "MaxJumpjets": 4,
-    "Stability": 100,
+    "Stability": 160,
     "StabilityDefenses": [
         0,
         0,
@@ -82,6 +82,18 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -92,7 +104,12 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 220,
@@ -111,11 +128,11 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],

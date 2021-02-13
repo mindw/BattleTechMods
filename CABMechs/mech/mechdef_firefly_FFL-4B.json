@@ -1,0 +1,197 @@
+{
+    "MinAppearanceDate": "3047-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_light",
+            "unit_speed_high",
+            "unit_range_medium",
+            "unit_lance_striker",
+            "unit_lance_assassin",
+            "unit_role_scout",
+            "unit_jumpOK",
+            "unit_hot",
+            "unit_armor_high",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "WolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_firefly_FFL-4B",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 3960000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Firefly FFL-4B",
+        "Id": "mechdef_firefly_FFL-4B",
+        "Name": "Firefly",
+        "Details": "First appearing as early as 3047 in Wolf's Dragoons ranks, the Firefly 4B is an upgrade of a downgrade. It focused on survivability - all four small lasers are traded for CASE and an Anti Missile System. The 4B retains its role as an anvil on which light mechs are shattered.",
+        "Icon": "uixTxrIcon_firefly"
+    },
+    "simGameMechPartCost": 400000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 55,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 55,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": 25,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 25
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 55,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 55,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 70,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 70,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 70,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 70,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_AMS_Cal-Boeing",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

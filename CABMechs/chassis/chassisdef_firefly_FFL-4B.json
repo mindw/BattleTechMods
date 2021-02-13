@@ -1,0 +1,201 @@
+{
+    "Description": {
+        "Cost": 2600000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Firefly",
+        "Id": "chassisdef_firefly_FFL-4B",
+        "Name": "Firefly",
+        "Details": "First appearing as early as 3047 in Wolf's Dragoons ranks, the Firefly 4B is an upgrade of a downgrade. It focused on survivability - all four small lasers are traded for CASE and an Anti Missile System. The 4B retains its role as an anvil on which light mechs are shattered.",
+        "Icon": "uixTxrIcon_firefly"
+    },
+    "MovementCapDefID": "movedef_firefly_FFL-4A",
+    "PathingCapDefID": "pathingdef_light",
+    "HardpointDataDefID": "hardpointdatadef_firefly",
+    "PrefabIdentifier": "chrprfmech_fireflybase-001",
+    "PrefabBase": "firefly",
+    "Tonnage": 30,
+    "InitialTonnage": 14,
+    "weightClass": "LIGHT",
+    "Heatsinks": 0,
+    "MaxJumpjets": 5,
+    "Stability": 100,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 20,
+    "MeleeInstability": 30,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 40,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 40,
+    "DFAInstability": 40,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 100,
+            "MaxRearArmor": 50,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 70,
+            "MaxRearArmor": 35,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 50,
+            "MaxRearArmor": -1,
+            "InternalStructure": 25
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0
+        },
+        {
+            "x": -2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 10.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "FFL-4B",
+    "ChassisTags": {
+        "items": [
+            "mr-resize-0.65",
+            "mech_case_left"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Striker",
+    "YangsThoughts": "Boss, the Dragoons did good here. The Anti Missile System protects the 4B against the SRMs commonly intalled on light mechs while the CASE protects both the LRM and AMS ammo. Heat management is still an issue though even without the four small lasers. Though, it is less effective against fast lightly armored targets due to the loss of weapons at close range."
+}

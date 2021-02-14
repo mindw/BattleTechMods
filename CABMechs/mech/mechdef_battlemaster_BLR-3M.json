@@ -136,13 +136,6 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -160,6 +153,13 @@
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {

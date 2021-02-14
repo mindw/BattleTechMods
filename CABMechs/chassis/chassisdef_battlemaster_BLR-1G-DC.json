@@ -227,8 +227,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
-            "DamageLevel": "Functional",
-            "prefabName": ""
+            "DamageLevel": "Functional"
         }
     ]
 }

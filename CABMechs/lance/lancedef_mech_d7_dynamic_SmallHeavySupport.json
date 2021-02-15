@@ -1,0 +1,142 @@
+{
+    "Description": {
+        "Id": "lancedef_mech_d7_dynamic_SmallHeavySupport",
+        "Name": "Dynamic Dif 7 Small Heavy Support",
+        "Details": "",
+        "Icon": "",
+        "Cost": 0,
+        "Rarity": 0,
+        "Purchasable": false
+    },
+    "Difficulty": 7,
+    "LanceTags": {
+        "items": [
+            "lance_bracket_high",
+            "lance_type_heavy",
+            "lance_type_support",
+            "lance_type_dynamic",
+            "lance_type_mech",
+            "lance_type_notallvehicles",
+            "lance_type_notfull"
+        ],
+        "tagSetSourceFile": "Tags/LanceTags"
+    },
+    "LanceUnits": [
+        {
+            "unitType": "Mech",
+            "unitId": "Tagged",
+            "pilotId": "Tagged",
+            "unitTagSet": {
+                "items": [
+                    "unit_mech",
+                    "unit_lance_support"
+                ],
+                "tagSetSourceFile": "Tags/UnitTags"
+            },
+            "excludedUnitTagSet": {
+                "items": [
+                    "unit_assault",
+                    "unit_light"
+                ],
+                "tagSetSourceFile": "Tags/UnitTags"
+            },
+            "pilotTagSet": {
+                "items": [
+                    "pilot_npc_d7"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+            },
+            "excludedPilotTagSet": {
+                "items": [
+                    "pilot_npc_brawler",
+                    "pilot_npc_defender",
+                    "pilot_npc_flanker",
+                    "pilot_npc_gunner",
+                    "pilot_npc_outrider",
+                    "pilot_npc_pilot",
+                    "pilot_npc_recon",
+                    "pilot_npc_tactician",
+                    "pilot_npc_sentinel"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+            }
+        },
+        {
+            "unitType": "Mech",
+            "unitId": "Tagged",
+            "pilotId": "Tagged",
+            "unitTagSet": {
+                "items": [
+                    "unit_heavy",
+                    "unit_mech"
+                ],
+                "tagSetSourceFile": "Tags/UnitTags"
+            },
+            "excludedUnitTagSet": {
+                "items": [
+                    "unit_lance_tank",
+                    "unit_lance_vanguard",
+                    "unit_range_short"
+                ],
+                "tagSetSourceFile": "Tags/UnitTags"
+            },
+            "pilotTagSet": {
+                "items": [
+                    "pilot_npc_d7"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+            },
+            "excludedPilotTagSet": {
+                "items": [
+                    "pilot_npc_brawler",
+                    "pilot_npc_defender",
+                    "pilot_npc_flanker",
+                    "pilot_npc_gunner",
+                    "pilot_npc_outrider",
+                    "pilot_npc_pilot",
+                    "pilot_npc_recon",
+                    "pilot_npc_tactician",
+                    "pilot_npc_sentinel"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+            }
+        },
+        {
+            "unitType": "Mech",
+            "unitId": "Tagged",
+            "pilotId": "Tagged",
+            "unitTagSet": {
+                "items": [
+                    "unit_heavy",
+                    "unit_mech",
+                    "unit_lance_support"
+                ],
+                "tagSetSourceFile": "Tags/UnitTags"
+            },
+            "excludedUnitTagSet": {
+                "items": [],
+                "tagSetSourceFile": "Tags/UnitTags"
+            },
+            "pilotTagSet": {
+                "items": [
+                    "pilot_npc_d7"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+            },
+            "excludedPilotTagSet": {
+                "items": [
+                    "pilot_npc_brawler",
+                    "pilot_npc_defender",
+                    "pilot_npc_flanker",
+                    "pilot_npc_gunner",
+                    "pilot_npc_outrider",
+                    "pilot_npc_pilot",
+                    "pilot_npc_recon",
+                    "pilot_npc_tactician",
+                    "pilot_npc_sentinel"
+                ],
+                "tagSetSourceFile": "Tags/PilotTags"
+            }
+        }
+    ]
+}

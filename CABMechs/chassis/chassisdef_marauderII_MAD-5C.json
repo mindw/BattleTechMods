@@ -1,0 +1,238 @@
+{
+    "Description": {
+        "Cost": 10400000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Marauder II",
+        "Id": "chassisdef_marauderII_MAD-5C",
+        "Name": "Marauder II",
+        "Details": "Replacing the 5A, This Marauder II variant corrects the obvious issues with that early model. A lighter Ultra AC/5 replaces the LB-10X, this frees enough tonnage to increase the heatsinks to 32 and move the ammo to the CASE protected right torso.", 
+        "Icon": "uixTxrIcon_marauderii"
+    },
+    "MovementCapDefID": "movedef_marauderII_MAD-4A",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_marauderii",
+    "PrefabIdentifier": "chrprfmech_marauderiibase-001",
+    "PrefabBase": "marauderii",
+    "Tonnage": 100,
+    "InitialTonnage": 28,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 6,
+    "MaxJumpjets": 3,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 125,
+    "MeleeInstability": 100,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 125,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 100,
+    "DFAInstability": 125,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 310,
+            "MaxRearArmor": 155,
+            "InternalStructure": 155
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 18,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 16,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 18,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 0
+        }
+    ],
+    "VariantName": "MAD-5C",
+    "ChassisTags": {
+        "items": [
+            "mech_case_right"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper",
+    "YangsThoughts": "Boss, while still inferior to the 5B at least its no longer stupid. It has enough songle heat sinks to fire its main weapons without over heating and the CASE actually protects the ammo this time. That being said, I'll take the 5B over this one anytime.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_General_Lance_Command_Module",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Hunchback",
-        "Id": "chassisdef_hunchback_HBK-5N",
+        "Id": "chassisdef_hunchback_HBK-6N",
         "Name": "Hunchback",
-        "Details": "A very simple FWLM field upgrade of the lackluster 5M Hunchback introduced in 3057, the 5N model simply downgrades the pulse laser back to a small laser and removes the CASE to carry an extra ton of reloads, retaining the double heat sinks.",
+        "Details": "This variant, produced in 3059, was Kali Yama's response to the complaints about the lack of AC/20 ammunition that spawned the ad hoc -5N field refit. The -6N removes three extra double heat sinks and replaces them with three more tons of reloads.",
         "Icon": "uixTxrIcon_hunchback"
     },
     "MovementCapDefID": "movedef_hunchback_HBK-4G",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_hunchbackBase-001",
     "PrefabBase": "hunchback",
     "Tonnage": 50,
-    "InitialTonnage": 18.5,
+    "InitialTonnage": 19,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 4,
@@ -189,11 +189,13 @@
             "z": 2
         }
     ],
-    "VariantName": "HBK-5N",
+    "VariantName": "HBK-6N",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "While officialy introduced eleven years after the 5M, unofficially the 5N appeared right after the first real engagement. The CASE and the small pulse laser were thrown out and one much needed ton of ammo was put in. What were they thinking?!. The freezers are kept but the three extra ones are still an overkill."
+    "YangsThoughts": "It took 'only' 12 years for Kali Yama to get their act together. Now we finally have a Hunchback with four tons of ammo protected by CASE. All it took is to remove three useless heat sinks."
 }

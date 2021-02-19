@@ -1,6 +1,7 @@
 {
     "Name": "FYLS",
     "Enabled": true,
+    "Hidden": true,
     "Version": "1.4.1",
     "Author": "janxious",
     "Website": "https://github.com/janxious/BT-FYLS",
@@ -22,6 +23,7 @@
             "FYLS [LOG] Trying to load AssetBundle",
             "FYLS [WARNING] Request next called but reporting is disabled"
         ],
-        "preserveFullLog": true
+        "preserveFullLog": true,
+        "skipOriginalLoggers": false
     }
 }

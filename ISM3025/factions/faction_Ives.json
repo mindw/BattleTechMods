@@ -1,0 +1,59 @@
+{
+    "ID" : "faction_Ives",
+    "Name" : "the St. Ives Compact",
+    "ShortName" : "St. Ives",
+    "Description" : "The Compact was formed in 3029 as a direct result of the Fourth Succession War, located rimward of Terra. Duchess Candace Liao, firstborn of Chancellor Maximilian Liao and his heir, fell in love with Justin Xiang Allard, a Federated Suns spy who had infiltrated the Capellan Confederation's spy agency the Maskirovka. Rather than stay in the Capellan Confederation with a double-agent who helped conquer a third of her home nation, she fled and took the St. Ives Commonality with her. In addition, Candace feared the reign of her father, who was descending into insanity. Given the destruction the Capellan Confederation Armed Forces suffered at the hand of the Federated Suns, they were unable to do much about the St. Ives secession, though Capellan loyalists did their part. A full-fledged rebellion took the capital of St. Ives, Tian-tan. Knowing that her family would show no mercy, Candace organized her forces and fought back with the help of Suns intelligence agents. Candace and forces loyal to her won back control of the capital world in less than a month. CCAF attacks on civilian targets served to disrupt the small nation since the Confederation lacked the military might to go to war. To further protect her fledgling nation, Prime Minister Candace allied with the Federated Suns, who provided military protection. For its entire history, the St. Ives Compact was ruled by Prime Minister Duchess Candace Liao. Though it was divided into duchies, the small size of the nation necessitated little delegation of authority.",
+    "Demonym" : "Compact",
+    "Government" : "Confederation",
+    "Allies" : [
+        "ComStar",
+		"Davion"
+    ],
+    "Enemies" : [
+		"Kurita",
+		"Liao",
+		"Marik",
+        "AuriganPirates",
+        "Locals",
+		"Andurien"
+    ],
+    "Presence" : 0.25,
+    "ReputationStatements" : [
+        "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
+        "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
+        "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
+        "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
+        "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
+        "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it.",
+        "We've heard you're a competent mercenary. We've been having some trouble lately, and if you could resolve it for us, we'll ensure you're paid well. If not, so be it."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you.",
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot.",
+    ],
+	"BadFaithFailureStatements" : [ 
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess.",
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_IvesDefaultCommander",
+    "DefaultRepresentativeCastDefId" : "castDef_IvesDefaultCommander",
+    "DataManager" : null,
+    "factionID" : "Ives",
+    "icon" : "uixTxrLogo_Ives",
+    "heraldryDefId" : "heraldrydef_ives",
+    "storePanelImage" : "uixTxrSpot_Store-Ives",
+	"factionStorePlanetTag" : "planet_other_factionhq_ives",
+    "factionStoreColor" : "rgba(30,39,27,1.0)",
+    "factionMapColor" : "rgba(10,128,47,1.0)",
+    "StartingReputationValues" : [
+        -5,
+        -10,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

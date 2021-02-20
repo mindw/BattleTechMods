@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_ghostbear",
+        "Name" : "Clan Ghost Bear",
+        "Details" : "This is the heraldry def for Clan Ghost Bear",
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrLogo_GhostBear",
+    "primaryMechColorID" : "Blue_02",
+    "secondaryMechColorID" : "Blue_02",
+    "tertiaryMechColorID" : "BrightWhite_01"
+}

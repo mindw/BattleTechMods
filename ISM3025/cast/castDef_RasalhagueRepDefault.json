@@ -1,0 +1,22 @@
+{
+    "id" : "castDef_RasalhagueRepDefault",
+    "internalName" : "RasalhagueRepDefault",
+    "firstName" : "Theodor",
+    "lastName" : "Gustaf",
+    "callsign" : null,
+    "rank" : "Free Rasalhague Republic Liaison",
+    "gender" : "Male",
+    "factionID" : "Rasalhague",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_KameaGuard3_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

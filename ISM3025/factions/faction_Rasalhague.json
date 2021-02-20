@@ -1,0 +1,62 @@
+{
+    "ID" : "faction_Rasalhague",
+    "Name" : "the Free Rasalhague Republic",
+    "ShortName" : "Rasalhague",
+    "Description" : "The Free Rasalhague Republic was a nation born in the wake of the Fourth Succession War, located coreward of Terra. The Free Rasalhague Republic is governed using a system unique to the Inner Sphere and is directly descended from the government of the old Principality of Rasalhague. All positions of power and responsibility are either directly or indirectly elected by the people, even to the Nobles and Prince of the realm. The short term goals of the Republic are to simply survive as a nation. The long term goals involve increasing its military and establishing strong interstellar political alliances so that the FRR is no longer seen as an inviting target of conquest and raiding. The culture of the Free Rasalhague Republic is an amalgam of the original settlers from the Scandinavian regions of old Terra and the Japanese dominated culture of the Draconis Combine that conquered them in the early 24th century. The current leader of the Republic is Prince Magnusson.",
+    "Demonym" : "Rasalhagian",
+    "Government" : "Republic",
+    "Allies" : [
+        "ComStar"
+    ],
+    "Enemies" : [
+        "Davion",
+        "Kurita",
+        "AuriganPirates",
+        "Locals",
+		"Wolf",
+		"GhostBear",
+		"JadeFalcon",
+		"SmokeJaguar",
+		"NovaCat",
+		"SteelViper"
+    ],
+    "Presence" : 0.25,
+    "ReputationStatements" : [
+        "Despicable as you are, Rasalhague can still find a use for your services. Attend, Commander: your betters have need of you.",
+        "You work for pay, do you not? Rasalhague has plenty of money for you, mercenary. Simply be quick and efficient about it\u2014we have little time for your kind.",
+        "You are not of our blood, mercenary, but your skills are robust enough. We would grant you money and renown if you aided us.",
+        "Rasalhague respects your martial prowess, mercenary. Aid us, and we will ensure you are well paid for your efforts.",
+        "Once again, the Free Rasalhague Republic requires your assistance, mercenary. You have served us well in the past, so we would like to entrust you with this mission.",
+        "My friend, you know we bring you only the contracts worthy of your talents. So it is that I offer you this\u2014and payment that you will find is more than fair.",
+        "I apologize for disturbing you, my friend, but the Free Rasalhague Republic once again needs your help. Undertake this task for us, and I will see that you are richly rewarded."
+    ],
+    "MissionSuccessStatements" : [ 
+		"The Free Rasalhague Republic is pleased with your fervor, Commander. Your skills in battle are precisely the sort that young cadets could learn from.",
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"While your retreat would be grounds for censure in one of our soldiers, we understand that a mercenary life is more\u2026 complicated. We hope it will not become a habit, however.",
+    ],
+	"BadFaithFailureStatements" : [ 
+		"Your performance was an embarrassment, Commander. The Free Rasalhague Republic expects more of their mercenaries. Keep this up, and we may not offer you any contracts at all!",
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_RasalhagueDefaultCommander",
+    "DefaultRepresentativeCastDefId" : "castDef_RasalhagueRepDefault",
+    "DataManager" : null,
+    "factionID" : "Rasalhague",
+    "icon" : "uixTxrLogo_Rasalhague",
+    "heraldryDefId" : "heraldrydef_rasalhague",
+    "storePanelImage" : "uixTxrSpot_Store-Rasalhague",
+	"factionStorePlanetTag" : "planet_other_factionhq_rasalhague",
+    "factionStoreColor" : "rgba(12,35,39,1.0)",
+    "factionMapColor" : "rgba(0,255,255,1.0)",
+    "StartingReputationValues" : [
+        -5,
+        -10,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+   "id" : "castDef_Contract_TagTeam_Wife",
+   "internalName" : "TagTeam_Leader",
+   "firstName" : "Clytemnestra",
+   "lastName" : null,
+   "callsign" : null,
+   "rank" : null,
+   "showRank" : false,
+   "gender" : "Female",
+   "factionID" : "Faction_Employer",
+   "sgCharType" : "UNSET",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "sprites/Portraits/guiTxrPort_GenericMW_10_utr.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}

@@ -1,0 +1,22 @@
+{
+    "id" : "castDef_SmokeJaguarDefaultCommander",
+    "internalName" : "SmokeJaguarDefaultCommander",
+    "firstName" : "Clan Smoke Jaguar Touman",
+    "lastName" : "Khan",
+    "callsign" : "",
+    "rank" : "saKhan",
+    "gender" : "NonBinary",
+    "factionID" : "SmokeJaguar",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_backerEck_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

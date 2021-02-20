@@ -1,0 +1,19 @@
+{
+   "id" : "castDef_Contract_TagTeam_Rival",
+   "internalName" : "TagTeam_Rival",
+   "firstName" : "Aegisthus",
+   "lastName" : null,
+   "callsign" : null,
+   "rank" : null,
+   "showRank" : false,
+   "gender" : "Male",
+   "factionID" : "Faction_Employer",
+   "sgCharType" : "UNSET",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "sprites/Portraits/guiTxrPort_GenericMW_07_utr.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}

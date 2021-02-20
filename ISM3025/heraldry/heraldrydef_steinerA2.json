@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_steinerA2",
+        "Name" : "Arcturan Guards",
+        "Details" : "This is the heraldry def for Arcturan Guards",
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrLogo_SteinerA2",
+    "primaryMechColorID" : "BrightWhite_01",
+    "secondaryMechColorID" : "BrightWhite_01",
+    "tertiaryMechColorID" : "BrightWhite_01"
+}

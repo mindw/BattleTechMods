@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_novacat",
+        "Name" : "Clan Nova Cat",
+        "Details" : "This is the heraldry def for Clan Nova Cat",
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrLogo_NovaCat",
+    "primaryMechColorID" : "BrightBlue_01",
+    "secondaryMechColorID" : "Blue_04",
+    "tertiaryMechColorID" : "BrightWhite_01"
+}

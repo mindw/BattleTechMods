@@ -1,0 +1,19 @@
+{
+   "id" : "castDef_ComStarRogue",
+   "internalName" : "ComStarRogue",
+   "firstName" : "Rogue",
+   "lastName" : "Precentor",
+   "callsign" : "Phi IV",
+   "rank" : "Precentor",
+   "showRank" : true,
+   "gender" : "None",
+   "factionID" : "ComStar",
+   "sgCharType" : "UNSET",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "sprites/Portraits/guiTxrPort_Comstar_default_utr.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}

@@ -1,0 +1,22 @@
+{
+    "id" : "castDef_SteelViperDefaultCommander",
+    "internalName" : "SteelViperDefaultCommander",
+    "firstName" : "Clan Steel Viper Touman",
+    "lastName" : "Khan",
+    "callsign" : "",
+    "rank" : "saKhan",
+    "gender" : "NonBinary",
+    "factionID" : "SteelViper",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_backerVoyls_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

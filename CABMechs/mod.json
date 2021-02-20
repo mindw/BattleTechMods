@@ -560,7 +560,12 @@
             ]
         }
     },
-    
+    "DataAddendumEntries": [
+        {
+            "name": "BattleTech.WeaponCategoryEnumeration",
+            "path": "WeaponCategory.json"
+        }
+    ],    
     "Manifest": [
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },

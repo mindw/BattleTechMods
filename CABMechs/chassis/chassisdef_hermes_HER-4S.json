@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Hermes",
-        "Id": "chassisdef_hermes_HER-1Sb",
+        "Id": "chassisdef_hermes_HER-4S",
         "Name": "Hermes",
-        "Details": "The Royal Hermes introduced in 2740 has an upgraded weapon suite with four medium lasers and one small laser in addition to the flamer. It also mounts a Beagle Active Probe and MASC motive system. Room for these improvements were made possible by switching to a XL Engine. As usual with Royal 'Mechs, it also uses double heat sinks.",
+        "Details": "The -4S model represents a radical overhaul to the entire line, installing an XL Engine to significantly increase its firepower and armor. Maintaining the MASC and ECM of earlier models, the -4S is armed with three Medium Pulse Lasers and nearly maximizes its armor, making it effective at harassment.",
         "Icon": "uixTxrIcon_hermes"
     },
     "MovementCapDefID": "movedef_hermes_HER-1A",
@@ -46,12 +46,7 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -61,6 +56,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
@@ -74,16 +73,7 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 70,
@@ -92,7 +82,16 @@
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 100,
@@ -116,7 +115,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -189,16 +188,18 @@
             "z": 0.5
         }
     ],
-    "VariantName": "HER-1Sb",
+    "VariantName": "HER-4S",
     "ChassisTags": {
         "items": [
             "mr-resize-0.77",
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_endo",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "Can you believe this Hermes 1Sb is faster than a standard Hermes? It has a MASC system, makes me glad I'm always up here fixing them and not piloting her! The Extra Light engine has also made room for an Active Probe system.",
+    "YangsThoughts": "This is essentially the -1Sb re-invented, not a bad thing mind you. Otherwise it keeps all the good parts of the S1, namely the MASC and Guardian ECM Suite. The extra armor and weoponary compensate for XL engine although the it still any kind of long range.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
@@ -265,7 +266,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_MASC_2",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

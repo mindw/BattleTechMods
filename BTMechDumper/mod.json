@@ -3,8 +3,13 @@
   "Enabled": true,
 
   "Description": "Dumps mech data",
-  "Author": "mcb",
+  "Author": "mcb & mindw",
   "Website": "https://github.com/mcb5637/BTMechDumper",
 
-  "DLL": "BTMechDumper.dll"
+  "DLL": "BTMechDumper.dll",
+  
+  "Settings": {
+    "Debug": true,
+    "DumpMechsSkirmishMechLab": true
+  }
 }

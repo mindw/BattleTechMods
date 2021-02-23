@@ -209,7 +209,8 @@
     "VariantName": "DRG-5K-DC",
     "ChassisTags": {
         "items": [
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

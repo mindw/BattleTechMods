@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_berserker_BRZ-A3",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_hatchetman",
-    "PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
-    "PrefabBase": "hatchetman",
+    "HardpointDataDefID": "hardpointdatadef_berserker",
+    "PrefabIdentifier": "chrprfmech_berserkerbase-001",
+    "PrefabBase": "berserker",
     "Tonnage": 100,
     "InitialTonnage": 44.5,
     "weightClass": "ASSAULT",
@@ -36,6 +36,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
+    "AlwaysPunchIfPossible": true,
     "MeleeDamage": 130,
     "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
@@ -196,7 +197,7 @@
     "VariantName": "BRZ-B3",
     "ChassisTags": {
         "items": [
-            "mr-resize-1.55-1.43-1.5"
+            "mr-resize-0.97"
         ],
         "tagSetSourceFile": ""
     },

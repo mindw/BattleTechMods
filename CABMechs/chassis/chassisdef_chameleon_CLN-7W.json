@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Chameleon",
-        "Id": "chassisdef_chameleon_CLN-7V",
+        "Id": "chassisdef_chameleon_CLN-7W",
         "Name": "Chameleon",
-        "Details": "Since the Terran Hegemony introduced it in 2510, the Chameleon has been the premiere training BattleMech for light- and medium-BattleMech Mechwarriors. Even in 3025, the Chameleon is widely used at academies and training cadres throughout the Inner Sphere.",
+        "Details": "The 7W variant of the Chameleon looked to use the 'Mech in a full time combat role. The 'Mech had upgraded the Large Laser to an ER Large Laser, the Machine Guns and Small Lasers had been removed and replaced with a Medium Pulse Laser. Double heat sinks for superb heat management and additional two tons of armor for protection rounded uyp the package.",
         "Icon": "uixTxrIcon_chameleon"
     },
     "MovementCapDefID": "movedef_chameleon_CLN-7V",
@@ -19,7 +19,7 @@
     "Tonnage": 50,
     "InitialTonnage": 30.0,
     "weightClass": "MEDIUM",
-    "Heatsinks": 0,
+    "Heatsinks": 30,
     "MaxJumpjets": 6,
     "Stability": 130,
     "StabilityDefenses": [
@@ -197,13 +197,14 @@
             "z": 2
         }
     ],
-    "VariantName": "CLN-7V",
+    "VariantName": "CLN-7W",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.9"
+            "mr-resize-0.9",
+            "chassis_DHS"            
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Scout",
-    "YangsThoughts": "Hah, well it's been a while. The Chameleon CLN-7V is not meant to see combat, it's the premiere training 'Mech for the Inner Sphere, and as such is a heat management nightmare.  Can't say I am surprised to see it be used in combat with types who will use whatever they get their hands on though."
+    "StockRole": "Striker",
+    "YangsThoughts": "A combat ready Chameleon? Hell froze over commander, officially. This one will give as nasty surprise to anyone mistaking it for the flimsy and overheating training version. It has the heatsinks for sustained fire, it has way better armor and it has no ammo to cook. Last but not least, it is one of the fastest 50 ton mechs without the fragile XL engine."
 }

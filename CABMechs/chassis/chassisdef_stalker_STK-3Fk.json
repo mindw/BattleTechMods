@@ -215,7 +215,9 @@
     ],
     "VariantName": "STK-3Fk",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",

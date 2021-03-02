@@ -193,7 +193,8 @@
         "items": [
             "mr-resize-0.85-0.85-0.85",
             "chassis_ferro",
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

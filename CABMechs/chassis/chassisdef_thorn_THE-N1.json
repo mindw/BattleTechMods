@@ -188,7 +188,9 @@
     "VariantName": "THE-N1",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.8"
+            "mr-resize-0.8",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

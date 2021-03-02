@@ -198,7 +198,9 @@
     ],
     "VariantName": "HTM-27Y",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",

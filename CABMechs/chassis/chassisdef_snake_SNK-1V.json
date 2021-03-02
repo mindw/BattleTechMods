@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_templarbase-001",
     "PrefabBase": "templar",
     "Tonnage": 45,
-    "InitialTonnage": 16.0,
+    "InitialTonnage": 16,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 5,

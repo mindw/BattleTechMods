@@ -69,7 +69,7 @@
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 130,
@@ -207,36 +207,29 @@
     "VariantName": "GRF-3M",
     "ChassisTags": {
         "items": [
-			"mech_case_left"
-		],
+            "mech_case_left",
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",
     "YangsThoughts": "Griffin 3M long range capability is a step up from the older models. Even though this model has been upgraded to double heat sinks it can still run hot because of the new weaponry.",
-    "FixedEquipment" : [
+    "FixedEquipment": [
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_XL_Engine",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_XL_Engine",
-            "SimGameUID" : "",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true
+            "DamageLevel": "Functional"
         }
     ]
 }

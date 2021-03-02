@@ -201,7 +201,8 @@
     "ChassisTags": {
         "items": [
             "chassis_ferro",
-            "mech_case_right"
+            "mech_case_right",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
@@ -217,7 +218,7 @@
             "DamageLevel": "Functional",
             "prefabName": "",
             "hasPrefabName": false
-        },    
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_FerroFibrous_5_Slot",

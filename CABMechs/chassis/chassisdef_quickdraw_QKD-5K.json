@@ -201,7 +201,8 @@
     "VariantName": "QKD-5K",
     "ChassisTags": {
         "items": [
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

@@ -73,7 +73,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 100,
@@ -118,7 +118,7 @@
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 9,
             "MaxArmor": 60,
@@ -190,7 +190,9 @@
     ],
     "VariantName": "CLNT-2-3U",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

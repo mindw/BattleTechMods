@@ -205,7 +205,8 @@
     "VariantName": "GLT-3N",
     "ChassisTags": {
         "items": [
-            "mech_case_right"
+            "mech_case_right",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

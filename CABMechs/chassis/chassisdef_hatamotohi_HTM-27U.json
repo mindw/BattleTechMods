@@ -207,7 +207,9 @@
     ],
     "VariantName": "HTM-27U",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

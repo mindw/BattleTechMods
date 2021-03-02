@@ -4,7 +4,7 @@
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
-            "Model": "",
+        "Model": "",
         "UIName": "Rifleman",
         "Id": "chassisdef_rifleman_RFL-5D",
         "Name": "Rifleman",
@@ -200,7 +200,9 @@
     ],
     "VariantName": "RFL-5D",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

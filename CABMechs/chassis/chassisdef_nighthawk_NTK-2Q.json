@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_nighthawkbase-001",
     "PrefabBase": "nighthawk",
     "Tonnage": 35,
-    "InitialTonnage": 14.0,
+    "InitialTonnage": 14,
     "weightClass": "LIGHT",
     "Heatsinks": 30,
     "MaxJumpjets": 6,
@@ -216,7 +216,9 @@
     ],
     "VariantName": "NTK-2Q",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

@@ -51,7 +51,7 @@
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -201,8 +201,8 @@
     "VariantName": "FLS-7K",
     "ChassisTags": {
         "items": [
-			"mr-resize-0.85-0.90-0.85"
-		],
+            "mr-resize-0.85-0.90-0.85"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

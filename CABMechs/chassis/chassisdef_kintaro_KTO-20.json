@@ -204,7 +204,8 @@
     "VariantName": "KTO-20",
     "ChassisTags": {
         "items": [
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

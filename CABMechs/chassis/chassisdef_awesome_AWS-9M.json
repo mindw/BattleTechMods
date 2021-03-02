@@ -213,7 +213,9 @@
     ],
     "VariantName": "AWS-9M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

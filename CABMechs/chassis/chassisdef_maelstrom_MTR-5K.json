@@ -214,7 +214,8 @@
     "VariantName": "MTR-5K",
     "ChassisTags": {
         "items": [
-            "mr-resize-1.07-0.97-0.97"
+            "mr-resize-1.07-0.97-0.97",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

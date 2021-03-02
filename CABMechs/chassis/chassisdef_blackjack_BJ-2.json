@@ -199,7 +199,9 @@
     ],
     "VariantName": "BJ-2",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",

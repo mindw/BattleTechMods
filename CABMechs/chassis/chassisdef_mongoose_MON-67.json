@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_mongoosebase-001",
     "PrefabBase": "mongoose",
     "Tonnage": 25,
-    "InitialTonnage": 16.0,
+    "InitialTonnage": 16,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 8,

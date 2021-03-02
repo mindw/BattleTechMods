@@ -187,7 +187,9 @@
     "VariantName": "HER-5S",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.96"
+            "mr-resize-0.96",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

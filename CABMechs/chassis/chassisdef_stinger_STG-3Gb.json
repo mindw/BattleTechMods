@@ -191,7 +191,10 @@
     ],
     "VariantName": "STG-3Gb",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS",
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

@@ -190,7 +190,8 @@
     "VariantName": "PXH-3S",
     "ChassisTags": {
         "items": [
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

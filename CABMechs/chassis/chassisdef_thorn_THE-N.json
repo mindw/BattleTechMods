@@ -189,7 +189,8 @@
     "ChassisTags": {
         "items": [
             "mr-resize-0.8",
-            "mech_case_right"
+            "mech_case_right",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

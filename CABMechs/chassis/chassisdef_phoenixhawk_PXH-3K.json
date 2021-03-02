@@ -199,8 +199,9 @@
     "VariantName": "PXH-3K",
     "ChassisTags": {
         "items": [
-			"chassis_ferro"
-		],
+            "chassis_ferro",
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

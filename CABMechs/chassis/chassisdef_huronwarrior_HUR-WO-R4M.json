@@ -199,7 +199,9 @@
     ],
     "VariantName": "HUR-WO-R4M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

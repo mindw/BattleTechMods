@@ -8,7 +8,7 @@
         "UIName": "Marauder II",
         "Id": "chassisdef_marauderII_MAD-5C",
         "Name": "Marauder II",
-        "Details": "Replacing the 5A, This Marauder II variant corrects the obvious issues with that early model. A lighter Ultra AC/5 replaces the LB-10X, this frees enough tonnage to increase the heatsinks to 32 and move the ammo to the CASE protected right torso.", 
+        "Details": "Replacing the 5A, This Marauder II variant corrects the obvious issues with that early model. A lighter Ultra AC/5 replaces the LB-10X, this frees enough tonnage to increase the heatsinks to 32 and move the ammo to the CASE protected right torso.",
         "Icon": "uixTxrIcon_marauderii"
     },
     "MovementCapDefID": "movedef_marauderII_MAD-4A",

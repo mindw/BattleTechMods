@@ -225,7 +225,9 @@
     "ChassisTags": {
         "items": [
             "mech_case_left",
-            "mech_case_right"
+            "mech_case_right",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

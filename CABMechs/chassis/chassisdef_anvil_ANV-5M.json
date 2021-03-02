@@ -196,8 +196,8 @@
     "VariantName": "ANV-5M",
     "ChassisTags": {
         "items": [
-            "chassis_endo",        
-            "chassis_DHS"        
+            "chassis_endo",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

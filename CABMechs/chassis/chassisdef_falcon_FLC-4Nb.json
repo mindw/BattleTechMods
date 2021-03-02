@@ -188,7 +188,9 @@
     "VariantName": "FLC-4Nb",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.92-0.95-0.92"
+            "mr-resize-0.92-0.95-0.92",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

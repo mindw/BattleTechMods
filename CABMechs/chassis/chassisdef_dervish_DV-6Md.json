@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_dervishbase-001",
     "PrefabBase": "dervish",
     "Tonnage": 55,
-    "InitialTonnage": 21.0,
+    "InitialTonnage": 21,
     "weightClass": "MEDIUM",
     "Heatsinks": 3,
     "MaxJumpjets": 5,

@@ -202,7 +202,8 @@
     "ChassisTags": {
         "items": [
             "mech_case_left",
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

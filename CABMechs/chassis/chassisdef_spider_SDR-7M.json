@@ -199,7 +199,8 @@
     "VariantName": "SDR-7M",
     "ChassisTags": {
         "items": [
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

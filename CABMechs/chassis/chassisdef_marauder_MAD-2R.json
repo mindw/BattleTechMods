@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_marauderBase-001",
     "PrefabBase": "marauder",
     "Tonnage": 75,
-    "InitialTonnage": 35.0,
+    "InitialTonnage": 35,
     "weightClass": "HEAVY",
     "Heatsinks": 42,
     "MaxJumpjets": 4,
@@ -209,7 +209,8 @@
     "ChassisTags": {
         "items": [
             "mech_case_right",
-            "chassis_ferro"            
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

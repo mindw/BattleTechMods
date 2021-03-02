@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
     "PrefabBase": "stalker",
     "Tonnage": 85,
-    "InitialTonnage": 28.0,
+    "InitialTonnage": 28,
     "weightClass": "ASSAULT",
     "Heatsinks": 30,
     "MaxJumpjets": 3,
@@ -208,7 +208,8 @@
     "VariantName": "STK-3Fb",
     "ChassisTags": {
         "items": [
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

@@ -210,7 +210,9 @@
         "items": [
             "mr-resize-0.95",
             "mech_case_right",
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },
@@ -272,6 +274,6 @@
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
-        }        
+        }
     ]
 }

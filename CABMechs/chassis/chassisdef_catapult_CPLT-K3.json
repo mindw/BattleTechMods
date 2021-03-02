@@ -207,7 +207,9 @@
     ],
     "VariantName": "CPLT-K3",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",

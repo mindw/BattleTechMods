@@ -196,7 +196,9 @@
     "VariantName": "MDG-1A",
     "ChassisTags": {
         "items": [
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

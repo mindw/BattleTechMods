@@ -188,7 +188,8 @@
     "ChassisTags": {
         "items": [
             "chassis_ferro",
-            "mech_case_right"
+            "mech_case_right",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },
@@ -211,7 +212,6 @@
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
-
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",

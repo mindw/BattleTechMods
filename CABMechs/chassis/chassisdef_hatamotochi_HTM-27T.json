@@ -199,7 +199,9 @@
     ],
     "VariantName": "HTM-27T",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

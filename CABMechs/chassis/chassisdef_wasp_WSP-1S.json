@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_waspHotD-001",
     "PrefabBase": "wasp",
     "Tonnage": 20,
-    "InitialTonnage": 10.0,
+    "InitialTonnage": 10,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 6,
@@ -203,7 +203,8 @@
     "VariantName": "WSP-1S",
     "ChassisTags": {
         "items": [
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

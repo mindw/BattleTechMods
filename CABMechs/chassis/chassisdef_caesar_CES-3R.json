@@ -201,7 +201,8 @@
     "ChassisTags": {
         "items": [
             "mr-resize-0.93-1.07-1.00",
-            "mech_case_right"
+            "mech_case_right",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

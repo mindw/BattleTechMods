@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_ostrochotd-001",
     "PrefabBase": "ostroc",
     "Tonnage": 60,
-    "InitialTonnage": 33.0,
+    "InitialTonnage": 33,
     "weightClass": "HEAVY",
     "Heatsinks": 42,
     "MaxJumpjets": 5,
@@ -199,7 +199,8 @@
     "VariantName": "OSR-2Cb",
     "ChassisTags": {
         "items": [
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

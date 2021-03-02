@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_chameleonbase-001",
     "PrefabBase": "chameleon",
     "Tonnage": 50,
-    "InitialTonnage": 30.0,
+    "InitialTonnage": 30,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 6,
@@ -201,7 +201,7 @@
     "ChassisTags": {
         "items": [
             "mr-resize-0.9",
-            "chassis_DHS"            
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

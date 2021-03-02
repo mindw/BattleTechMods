@@ -51,7 +51,7 @@
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
-			],
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -192,61 +192,63 @@
     "VariantName": "STY-3C",
     "ChassisTags": {
         "items": [
-			"chassis_ferro",
-			"mech_case_left"
-		],
+            "chassis_ferro",
+            "mech_case_left",
+            "chassis_DHS",
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
     "YangsThoughts": "A fast and hard hitting 50 tonne machine. With Endo, Ferro, Double Heat Sinks and CASE, the Starslayer is truely one of the Inner Sphere's most advanced machines out there right now.",
-    "FixedEquipment" : [
+    "FixedEquipment": [
         {
-            "MountedLocation" : "LeftArm",
-            "ComponentDefID" : "Gear_EndoFerroCombo_8_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_8_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_EndoFerroCombo_3_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_EndoFerroCombo_2_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "RightArm",
-            "ComponentDefID" : "Gear_EndoFerroCombo_5_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoFerroCombo_5_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "LeftLeg",
-            "ComponentDefID" : "Gear_EndoFerroCombo_4_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation" : "RightLeg",
-            "ComponentDefID" : "Gear_EndoFerroCombo_4_Slot",
-            "ComponentDefType" : "Upgrade",
-            "HardpointSlot" : -1,
-            "IsFixed" : true,
-            "DamageLevel" : "Functional"
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
         }
     ]
 }

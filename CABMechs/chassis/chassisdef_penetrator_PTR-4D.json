@@ -204,7 +204,9 @@
     ],
     "VariantName": "PTR-4D",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

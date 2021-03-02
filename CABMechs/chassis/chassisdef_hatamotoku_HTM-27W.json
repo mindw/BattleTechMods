@@ -190,7 +190,9 @@
     ],
     "VariantName": "HTM-27W",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",

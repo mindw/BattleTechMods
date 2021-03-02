@@ -192,7 +192,9 @@
     "VariantName": "FLC-8R",
     "ChassisTags": {
         "items": [
-            "mr-resize-1.10-1.00-0.90"
+            "mr-resize-1.10-1.00-0.90",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

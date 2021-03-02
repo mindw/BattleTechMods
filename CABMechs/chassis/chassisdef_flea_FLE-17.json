@@ -204,7 +204,9 @@
     ],
     "VariantName": "FLE-17",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

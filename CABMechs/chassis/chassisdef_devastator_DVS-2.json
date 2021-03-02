@@ -201,7 +201,9 @@
     ],
     "VariantName": "DVS-2",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",

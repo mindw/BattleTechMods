@@ -186,7 +186,8 @@
     "VariantName": "PNT-10KA",
     "ChassisTags": {
         "items": [
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

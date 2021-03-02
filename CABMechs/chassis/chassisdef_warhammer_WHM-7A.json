@@ -220,7 +220,9 @@
     "VariantName": "WHM-7A",
     "ChassisTags": {
         "items": [
-            "mech_case_right"
+            "mech_case_right",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

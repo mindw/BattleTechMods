@@ -203,7 +203,9 @@
     ],
     "VariantName": "TDR-5Sd",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

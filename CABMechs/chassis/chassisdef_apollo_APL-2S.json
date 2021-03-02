@@ -191,7 +191,8 @@
     "VariantName": "APL-2S",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.80-0.90-0.90"
+            "mr-resize-0.80-0.90-0.90",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

@@ -36,7 +36,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": true,
-    "AlwaysPunchIfPossible": false, 
+    "AlwaysPunchIfPossible": false,
     "MeleeDamage": 80,
     "MeleeInstability": 70,
     "MeleeToHitModifier": 0,
@@ -200,7 +200,9 @@
     ],
     "VariantName": "CTF-3L",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",

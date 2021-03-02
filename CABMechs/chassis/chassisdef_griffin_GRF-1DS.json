@@ -211,8 +211,9 @@
     "VariantName": "GRF-1DS",
     "ChassisTags": {
         "items": [
-			"mech_case_left"
-		],
+            "mech_case_left",
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",

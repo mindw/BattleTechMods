@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
     "PrefabBase": "hatchetman",
     "Tonnage": 65,
-    "InitialTonnage": 20.0,
+    "InitialTonnage": 20,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
     "MaxJumpjets": 4,
@@ -202,7 +202,8 @@
         "items": [
             "mr-resize-1.20-1.05-1.20",
             "chassis_ferro",
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

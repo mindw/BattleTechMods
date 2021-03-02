@@ -203,7 +203,9 @@
     ],
     "VariantName": "WHM-7M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

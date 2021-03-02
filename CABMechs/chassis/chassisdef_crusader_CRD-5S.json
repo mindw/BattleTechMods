@@ -210,7 +210,8 @@
         "items": [
             "mr-resize-0.95",
             "mech_case_right",
-            "mech_case_centre"
+            "mech_case_centre",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

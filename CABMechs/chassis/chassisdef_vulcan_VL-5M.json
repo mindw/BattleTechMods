@@ -199,7 +199,10 @@
     ],
     "VariantName": "VL-5M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS",
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

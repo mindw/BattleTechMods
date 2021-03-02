@@ -217,7 +217,9 @@
     ],
     "VariantName": "IMP-1C",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",

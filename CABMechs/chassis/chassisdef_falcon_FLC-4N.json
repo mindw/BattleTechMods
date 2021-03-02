@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_firebeebase-001",
     "PrefabBase": "firebee",
     "Tonnage": 30,
-    "InitialTonnage": 15.0,
+    "InitialTonnage": 15,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 6,

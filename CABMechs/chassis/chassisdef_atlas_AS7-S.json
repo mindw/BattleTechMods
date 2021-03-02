@@ -212,7 +212,9 @@
     ],
     "VariantName": "AS7-S",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",

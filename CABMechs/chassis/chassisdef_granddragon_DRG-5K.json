@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_dragonBase-001",
     "PrefabBase": "dragon",
     "Tonnage": 60,
-    "InitialTonnage": 33.0,
+    "InitialTonnage": 33,
     "weightClass": "HEAVY",
     "Heatsinks": 48,
     "MaxJumpjets": 6,
@@ -209,7 +209,8 @@
     "VariantName": "DRG-5K",
     "ChassisTags": {
         "items": [
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

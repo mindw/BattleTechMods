@@ -191,7 +191,8 @@
     "VariantName": "VND-3L",
     "ChassisTags": {
         "items": [
-            "mech_case_right"
+            "mech_case_right",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

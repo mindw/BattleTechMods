@@ -205,7 +205,9 @@
     "VariantName": "CRK-5003-1b",
     "ChassisTags": {
         "items": [
-            "mr-resize-1.10"
+            "mr-resize-1.10",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

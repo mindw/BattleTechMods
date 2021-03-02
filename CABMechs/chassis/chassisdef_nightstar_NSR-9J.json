@@ -221,7 +221,9 @@
     ],
     "VariantName": "NSR-9J",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",

@@ -205,7 +205,9 @@
     "VariantName": "EXT-4Db",
     "ChassisTags": {
         "items": [
-            "mr-resize-1.25-1.20-0.95"
+            "mr-resize-1.25-1.20-0.95",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

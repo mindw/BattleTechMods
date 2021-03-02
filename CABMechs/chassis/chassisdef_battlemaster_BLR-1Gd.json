@@ -215,7 +215,9 @@
     ],
     "VariantName": "BLR-1Gd",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

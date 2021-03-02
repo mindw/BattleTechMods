@@ -207,7 +207,9 @@
     ],
     "VariantName": "WLF-2",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",

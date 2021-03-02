@@ -217,7 +217,9 @@
     ],
     "VariantName": "STG-5M",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_endo"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",

@@ -205,6 +205,7 @@
     "VariantName": "CHP-1N2",
     "ChassisTags": {
         "items": [
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

@@ -199,7 +199,9 @@
     ],
     "VariantName": "ZEU-5S",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",

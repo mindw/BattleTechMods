@@ -173,7 +173,8 @@
     "VariantName": "OTT-7Jb",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.6-0.65-0.6"
+            "mr-resize-0.6-0.65-0.6",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

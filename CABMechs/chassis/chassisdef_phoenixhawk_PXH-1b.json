@@ -204,7 +204,9 @@
     "VariantName": "PXH-1b",
     "ChassisTags": {
         "items": [
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

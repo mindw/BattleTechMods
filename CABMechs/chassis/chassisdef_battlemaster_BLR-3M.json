@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_battlemasterBase-001",
     "PrefabBase": "battlemaster",
     "Tonnage": 85,
-    "InitialTonnage": 46.0,
+    "InitialTonnage": 46,
     "weightClass": "ASSAULT",
     "Heatsinks": 48,
     "MaxJumpjets": 4,
@@ -220,7 +220,8 @@
     "VariantName": "BLR-3M",
     "ChassisTags": {
         "items": [
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

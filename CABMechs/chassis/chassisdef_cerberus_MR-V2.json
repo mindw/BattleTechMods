@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_sorcererbase-001",
     "PrefabBase": "sorcerer",
     "Tonnage": 95,
-    "InitialTonnage": 39.0,
+    "InitialTonnage": 39,
     "weightClass": "ASSAULT",
     "Heatsinks": 42,
     "MaxJumpjets": 4,
@@ -209,7 +209,8 @@
     "ChassisTags": {
         "items": [
             "mr-resize-1.05",
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

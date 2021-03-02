@@ -201,7 +201,8 @@
     "ChassisTags": {
         "items": [
             "chassis_ferro",
-            "mr-resize-1.05"
+            "mr-resize-1.05",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

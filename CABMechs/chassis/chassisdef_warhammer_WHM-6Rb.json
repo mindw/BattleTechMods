@@ -208,7 +208,8 @@
     "VariantName": "WHM-6Rb",
     "ChassisTags": {
         "items": [
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },

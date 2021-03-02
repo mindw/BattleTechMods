@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_javelinBase-001",
     "PrefabBase": "javelin",
     "Tonnage": 30,
-    "InitialTonnage": 15.0,
+    "InitialTonnage": 15,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
     "MaxJumpjets": 6,

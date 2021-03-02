@@ -8,7 +8,7 @@
         "UIName": "Archer",
         "Id": "chassisdef_archer_ARC-2Rb",
         "Name": "Archer",
-        "Details": "The \"Royal\" SDLF Archer very much resembles the most common variant seen today—carrying an endo steel frame, Artemis IV FCS-equipped missile launchers and double heatsinks.",
+        "Details": "The \"Royal\" SDLF Archer very much resembles the most common variant seen todayï¿½carrying an endo steel frame, Artemis IV FCS-equipped missile launchers and double heatsinks.",
         "Icon": "uixTxrIcon_archer"
     },
     "MovementCapDefID": "movedef_archer_ARC-2R",
@@ -202,7 +202,9 @@
     "ChassisTags": {
         "items": [
             "mech_case_left",
-            "mech_case_right"
+            "mech_case_right",
+            "chassis_DHS",
+            "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },

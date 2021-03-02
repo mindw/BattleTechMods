@@ -193,7 +193,9 @@
     ],
     "VariantName": "OSR-2D",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",

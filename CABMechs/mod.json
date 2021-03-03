@@ -544,6 +544,19 @@
                     ]
                 },
                 {
+                    "PrefabIdentifier": "LGauss",
+                    "HardpointCandidates": [
+                        "lgauss",
+                        "gauss",
+                        "hgauss",
+                        "ac20",
+                        "ac",
+                        "ppc",
+                        "lbx",
+                        "laser"
+                    ]
+                },
+                {
                     "PrefabIdentifier": "narc",
                     "HardpointCandidates": [
                         "narc",
@@ -561,13 +574,17 @@
         }
     },
     "DataAddendumEntries": [
+        {   "name":"BattleTech.AmmoCategoryEnumeration", 
+            "path":"AmmoCategory.json" 
+        },
         {
             "name": "BattleTech.WeaponCategoryEnumeration",
             "path": "WeaponCategory.json"
         }
     ],    
     "Manifest": [
-        { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
+        { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
         { "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
         { "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
         { "Type": "Sprite", "Path": "portraits" },

@@ -1,8 +1,7 @@
 {
-    "MinAppearanceDate": "3054-01-01T00:00:00Z",
+    "MinAppearanceDate": "3058-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "GZ_fake_min_appearance", 
             "unit_release",
             "unit_mech",
             "unit_assault",
@@ -23,14 +22,14 @@
             "NotLocals",
             "NotAuriganRestoration",
             "NotAuriganPirates",
-            "AuriganMercenaries",
-            "MercenaryReviewBoard",
-            "KellHounds",
-            "WolfsDragoons"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_thunderhawk_TDK-7X",
+    "ChassisID": "chassisdef_thunderhawk_TDK-7Y",
     "HeraldryID": null,
     "Description": {
         "Cost": 30230000,
@@ -38,10 +37,10 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Thunder Hawk TDK-7X",
-        "Id": "mechdef_thunderhawk_TDK-7X",
+        "UIName": "Thunder Hawk TDK-7Y",
+        "Id": "mechdef_thunderhawk_TDK-7Y",
         "Name": "Thunder Hawk",
-        "Details": "The Thunder Hawk was built by Norse-Storm BattleMechs in 2771, during the final six years of the SLDF's drive to retake the Terran Hegemony. The Thunder Hawk epitomizes the doctrine of firepower over maneuverability with its heavy weapons arsenal and low top speed. Taken out of production after the end of the Amaris Civil War, Thunder Hawk production restarted during the mid-3050s.",
+        "Details": "A simple upgrade of the Thunder Hawk, the 7Y removes the four Medium Lasers and replaces them with two Medium Pulse Lasers. This increases the accuracy of the close range firepower while sacrificing some of the sheer brute force that the 'Mech can use at short ranges. This helps when facing much lighter and more maneuverable enemies.",
         "Icon": "uixTxrIcon_thunderhawk"
     },
     "simGameMechPartCost": 3020000,
@@ -122,22 +121,8 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
@@ -207,7 +192,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"

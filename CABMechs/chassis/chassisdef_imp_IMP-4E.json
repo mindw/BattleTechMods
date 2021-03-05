@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Imp",
-        "Id": "chassisdef_imp_IMP-3E",
+        "Id": "chassisdef_imp_IMP-4E",
         "Name": "Imp",
-        "Details": "An upgrade of the downgraded 2E, the 3E stresses armor and firepower over speed and finesse. The 'Mech is a barely humanoid gun platform, packing an arsenal of medium lasers, pulse lasers, and ER PPCs backed up by an LRM-15 rack. As impressive as this weapons array is, however, the IMP-3E suffers from massive heat build-up that inhibits its ability to fire all of its weapons together.",
+        "Details": "A massive upgrade of the Imp, the 4E model carries two ER PPCs for long range direct fire, as well as an LRM-20 launcher with an Artemis IV Fire Control System. The 'Mech carries three ER Medium Lasers for intermediate range combat. The 'Mech also carries two Medium Pulse Lasers and two ER Small Lasers for close combat. Much like the original Clan models, the 21 heat sinks are double-strength and the engine is a standard model.",
         "Icon": "uixTxrIcon_imp"
     },
     "MovementCapDefID": "movedef_imp_IMP-2E",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrprfmech_impbase-001",
     "PrefabBase": "imp",
     "Tonnage": 100,
-    "InitialTonnage": 28,
+    "InitialTonnage": 37.5,
     "weightClass": "ASSAULT",
-    "Heatsinks": 6,
+    "Heatsinks": 42,
     "MaxJumpjets": 3,
     "Stability": 200,
     "StabilityDefenses": [
@@ -46,7 +46,12 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -58,6 +63,14 @@
             "Hardpoints": [
                 {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -73,18 +86,10 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 11,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
@@ -113,18 +118,10 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 11,
             "MaxArmor": 210,
             "MaxRearArmor": 105,
             "InternalStructure": 105
@@ -133,12 +130,16 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 9,
+            "InventorySlots": 10,
             "MaxArmor": 170,
             "MaxRearArmor": -1,
             "InternalStructure": 85
@@ -147,7 +148,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 3,
             "MaxArmor": 210,
             "MaxRearArmor": -1,
             "InternalStructure": 105
@@ -156,7 +157,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 3,
             "MaxArmor": 210,
             "MaxRearArmor": -1,
             "InternalStructure": 105
@@ -206,31 +207,15 @@
             "z": 1
         }
     ],
-    "VariantName": "IMP-3E",
+    "VariantName": "IMP-4E",
     "ChassisTags": {
         "items": [
-            "mech_case_left"
+            "mech_case_left",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "This is one of the eh? upgrades. Take a ball of steel and fire, squeeze an XL engine into it and make the fire twice as high what do you get? a hot watermelon. On the off chance you'll run into it consider yourself lucky it's not the 2E...",
-    "FixedEquipment": [
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_XL_Engine",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_XL_Engine",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        }
-    ]
+    "YangsThoughts": "Really, the 4E variant addresses all complaints of the IMP-3E. Gone is the XL engine, gone are the SHS. It is all good. A minor last note would be to mention that the armour has been increased by .5 tons and the allocation has been completely shuffled during this change - with bringing up the arms armor and re-allocating some from the legs to the side torsos. Clearly, the Imp was finally transformed into a more modern, but also more conventional assault ‘Mech.",
+    "FixedEquipment": []
 }

@@ -1,0 +1,218 @@
+{
+    "Description": {
+        "Cost": 7800000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Awesome",
+        "Id": "chassisdef_awesome_AWS-9Q",
+        "Name": "Awesome",
+        "Details": "A basic upgrade to the original 8Q introduced in 3057, the heat sinks are upgraded to double heat sinks and are reduced to nineteen. The saved weight is used to add a fourth PPC to the 'Mech as well as a Guardian ECM Suite. Although there was some criticism for using basic PPCs and not upgrading to ER models, the 9Q proved itself in actual combat to be quite devastating.",
+        "Icon": "uixTxrIcon_awesome"
+    },
+    "MovementCapDefID": "movedef_awesome_AWS-8Q",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_awesome",
+    "PrefabIdentifier": "chrPrfMech_awesomeBase-001",
+    "PrefabBase": "awesome",
+    "Tonnage": 80,
+    "InitialTonnage": 25.5,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 30,
+    "MaxJumpjets": 3,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 120,
+    "MeleeInstability": 80,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 100,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 100,
+    "DFAInstability": 100,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 130,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 170,
+            "MaxRearArmor": 85,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 250,
+            "MaxRearArmor": 125,
+            "InternalStructure": 125
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 170,
+            "MaxRearArmor": 85,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 130,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "AWS-9Q",
+    "ChassisTags": {
+        "items": [
+            "chassis_DHS"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper",
+    "YangsThoughts": "At last, we come to what many would consider the jewel of the AWS lineup, or, well, peak Awesome as it were. The -9Q applies those Helm Upgrades most intelligently; leaving the fragile XL engine behind to revert to a 3/5 movement profile and eschewing the high-heat ER PPCs for the standard models, carrying not two, not three, but FOUR of the bee-yoo-tiful things. Coupled with enough double heat sinks (19!) to run and gun without immediately suffering adverse consequences, and a Guardian ECM just because, the 9Q is a throwback to the 8Q, with more gun and less heat. Who wouldn't love it?"
+}

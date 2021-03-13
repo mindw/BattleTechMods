@@ -1,0 +1,63 @@
+{
+    "Category": "Ballistic",
+    "Type": "Autocannon",
+    "WeaponSubType": "UAC5",
+    "MinRange": 0,
+    "MaxRange": 450,
+    "RangeSplit": [
+        300,
+        300,
+        450
+    ],
+    "AmmoCategoryID": "AC5",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 24,
+    "Damage": 25,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "StructureDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 3,
+    "ShotsWhenFired": 6,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 2,
+    "Instability": 10,
+    "WeaponEffectID": "WeaponEffect-Weapon_AC5_Ultra",
+    "Description": {
+        "Cost": 1250000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Mydron",
+        "Model": "Model RC",
+        "UIName": "Rotary AC/5",
+        "Id": "Weapon_Autocannon_RAC5_0-STOCK",
+        "Name": "Rotary AC/5",
+        "Details": "The Rotary Autocannon is based only loosely on the Autocannon. While it has the same bore, it is capable of firing up to six times as many rounds as its standard cousin, allowing it to deal three times the damage of even an Ultra Autocannon. At the same time, each extra shot increases the amount of heat the autocannon builds.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "rac5",
+    "InventorySize": 4,
+    "Tonnage": 10,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_very-long",
+            "component_type_lostech"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

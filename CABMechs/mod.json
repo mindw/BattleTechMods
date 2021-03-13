@@ -134,6 +134,26 @@
                     ]
                 },
                 {
+                "PrefabIdentifier": "RAC2",
+                    "HardpointCandidates": [
+                        "rac2",
+                        "rac5",
+                        "ac",
+                        "lbx",
+                        "uac2",
+                        "ac2",
+                        "lbx2",
+                        "uac5",
+                        "ac5",
+                        "lbx5",
+                        "ppc",
+                        "laser",
+                        "mg",
+                        "flamer",
+                        "ams"
+                    ]
+                }, 
+                {
                     "PrefabIdentifier": "AC5",
                     "HardpointCandidates": [
                         "ac5",
@@ -217,6 +237,32 @@
                         "ams"
                     ]
                 },
+                {
+                "PrefabIdentifier": "RAC5",
+                    "HardpointCandidates": [
+                        "rac5",
+                        "rac2",
+                        "uac10",
+                        "ac10",
+                        "lbx10",
+                        "ac",
+                        "lbx",
+                        "uac5",
+                        "ac5",
+                        "lbx5",
+                        "uac20",
+                        "ac20",
+                        "lbx20",
+                        "uac2",
+                        "ac2",
+                        "lbx2",
+                        "ppc",
+                        "laser",
+                        "mg",
+                        "flamer",
+                        "ams"
+                    ]
+                }, 
                 {
                     "PrefabIdentifier": "AC10",
                     "HardpointCandidates": [

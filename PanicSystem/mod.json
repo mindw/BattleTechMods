@@ -79,7 +79,7 @@
         "VehicleGutAndTacticsFactor": 0,
         "BaseEjectionResist": 75,
         "BaseVehicleEjectionResist": 0,
-    "MaxEjectChance": 100,
+        "MaxEjectChance": 100,
         "EjectChanceFactor": 1,
         "QuirksEnabled": true,
         "BraveModifier": 25,

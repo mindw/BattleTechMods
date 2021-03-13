@@ -11,17 +11,20 @@
     "ConflictsWith": [],
     "Settings": {
         "PrefixesToIgnore": [
-            "FYLS [DEBUG] OnApplicationFocus",
-            "FYLS [DEBUG] Waking up Audio Engine",
-            "FYLS [DEBUG] Suspending Audio Engine.",
-            "FYLS [DEBUG] Seed",
+            "AudioEvents [DEBUG] OnApplicationFocus",
+            "AudioEvents [DEBUG] Waking up Audio Engine",
+            "AudioEvents [DEBUG] Suspending Audio Engine.",
+            "NetworkRandomValues [DEBUG] Seed",
+            "NetworkRandomCallstacks [DEBUG] Seed",
             "FYLS [DEBUG] [BattleTechParadoxAPI]",
-            "FYLS [DEBUG] Connection pool",
-            "FYLS [LOG] Applying mood",
-            "FYLS [LOG] Set Logger",
+            "Network.Core [DEBUG] Connection pool",
+            "AudioEvents [LOG] Applying mood",
+            "DebugBridge [LOG] Set Logger",
             "FYLS [LOG] SystemInfo",
-            "FYLS [LOG] Trying to load AssetBundle",
-            "FYLS [WARNING] Request next called but reporting is disabled"
+            "Data.AssetBundleManager [LOG] Trying to load AssetBundle",
+            "Analytics [WARNING] Request next called but reporting is disabled",
+            "BattletechPerformanceFix [LOG] Filter took",
+            "BattletechPerformanceFix [LOG] Sorted in"
         ],
         "preserveFullLog": true,
         "skipOriginalLoggers": false

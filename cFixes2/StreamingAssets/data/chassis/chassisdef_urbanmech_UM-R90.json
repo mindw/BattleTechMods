@@ -1,5 +1,6 @@
 {
     "Description" : {
         "Cost" : 2300000
-    }
+    },
+    "MaxJumpjets" : 3
 }

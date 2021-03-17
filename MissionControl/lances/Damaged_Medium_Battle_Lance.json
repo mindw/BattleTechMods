@@ -25,8 +25,8 @@
     },
     {
       "unitType": "Vehicle",
-      "unitTagSet": {
-        "items": ["unit_vehicle_carrier"]
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
       },
       "spawnEffectTags": {
         "items": ["spawn_poorly_maintained_50"]

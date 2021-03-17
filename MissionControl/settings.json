@@ -1,7 +1,7 @@
 {
     "DebugMode": false,
     "VersionCheck": false,
-    "DebugSkirmishMode": false,
+    "DebugSkirmishMode": true,
     "EnableFlashpointOverrides": false,
     "EnableAdditionalPlayerMechsForFlashpoints": false,
     "RandomSpawns": {
@@ -16,7 +16,7 @@
             "ThreeWayBattle",
             "AmbushConvoy",
             "CaptureEscort",
-            "EscortSingle"            
+            "EscortSingle"
         ]
     },
     "HotDropProtection": {
@@ -79,7 +79,7 @@
         "DisableEnemies": false
     },
     "ExtendedLances": {
-        "Enable": false,
+        "Enable": true,
         "EnableForFlashpoints": false,
         "Autofill": true,
         "ExcludeContractTypes": [
@@ -95,7 +95,12 @@
         ],
         "LanceSizes": {
             "5": [],
-            "6": []
+            "6": [
+                {
+                    "Faction": "ComStar",
+                    "DifficultyMod": -2
+                }
+            ]
         }
     },
     "ExtendedBoundaries": {

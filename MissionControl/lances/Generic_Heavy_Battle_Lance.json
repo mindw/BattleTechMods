@@ -13,14 +13,14 @@
     },
     {
       "unitType": "Vehicle",
-      "unitTagSet": {
-        "items": ["unit_vehicle_carrier"]
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
       }
     },
     {
       "unitType": "Vehicle",
-      "unitTagSet": {
-        "items": ["unit_vehicle_carrier"]
+      "unitExcludedTagSet": {
+        "items": ["unit_noncombatant"]
       }
     }
   ]

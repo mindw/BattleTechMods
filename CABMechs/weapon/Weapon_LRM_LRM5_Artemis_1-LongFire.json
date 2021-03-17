@@ -40,7 +40,7 @@
         "Details": "The smallest rack of Long-Range Missiles, LRM5s are efficient and tend to serve as harassment weapons. Like all LRMs, LRM5s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
         "Icon": "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA": "-2 Acc, +25% Crit",
+    "BonusValueA": "+2 Acc, +25% Crit",
     "BonusValueB": "",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",

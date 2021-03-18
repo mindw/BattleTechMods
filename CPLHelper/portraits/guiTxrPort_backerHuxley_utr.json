@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_backerHuxley_utr",
+        "Name" : "guiTxrPort_backerHuxley_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_backerHuxley_utr"
+    },
+    "ID" : "guiTxrPort_backerHuxley_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 15,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 13,
+    "lightRig" : 1,
+    "cameraPosition" : 4,
+    "complexionTex" : 1,
+    "eyebrowTex" : 2,
+    "tattooTex" : 10,
+    "actualTattooTex" : 1,
+    "weights" : [
+        25.16108,
+        62.49813,
+        4.036092,
+        7.182798,
+        0.8201682,
+        0.3017357
+    ],
+    "browOffsetY" : 0.004225447,
+    "browOffsetZ" : 0.001996784,
+    "noseBridgeScale" : 0.1940947,
+    "noseTipScale" : -0.2962717,
+    "chinScale" : 0.07569227,
+    "cheekOffsetY" : 0.001468046,
+    "eyeWidth" : -0.001077277,
+    "jawWidth" : -0.008738458,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_04",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Medusa_improved_utr",
+        "Name" : "guiTxrPort_Medusa_improved_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Medusa_improved_utr"
+    },
+    "ID" : "guiTxrPort_Medusa_improved_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 5,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 4,
+    "complexionTex" : 0,
+    "eyebrowTex" : 3,
+    "tattooTex" : 11,
+    "actualTattooTex" : 16,
+    "weights" : [
+        27.56565,
+        68.37553,
+        2.903087,
+        0.5861554,
+        0.2193953,
+        0.3501748
+    ],
+    "browOffsetY" : 0.004751532,
+    "browOffsetZ" : 0.006265083,
+    "noseBridgeScale" : -0.02859943,
+    "noseTipScale" : 0.05403103,
+    "chinScale" : -0.1863226,
+    "cheekOffsetY" : 0.002430159,
+    "eyeWidth" : 0.01146664,
+    "jawWidth" : -0.0620374,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_14",
+    "hairTipId" : "Hair_14",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

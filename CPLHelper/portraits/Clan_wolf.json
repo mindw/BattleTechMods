@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Clan_wolf",
+        "Name" : "Clan_wolf",
+        "Details" : "Random",
+        "Icon" : "Clan_wolf"
+    },
+    "ID" : "Clan_wolf",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 0,
+    "complexionTex" : 3,
+    "eyebrowTex" : 5,
+    "tattooTex" : 7,
+    "actualTattooTex" : 0,
+    "weights" : [
+        7.272756,
+        64.42079,
+        27.98805,
+        0.1610165,
+        0.0895695,
+        0.06781158
+    ],
+    "browOffsetY" : 0.004639641,
+    "browOffsetZ" : -0.002737602,
+    "noseBridgeScale" : -0.03717148,
+    "noseTipScale" : 0.2909817,
+    "chinScale" : 0.02348721,
+    "cheekOffsetY" : -0.001795283,
+    "eyeWidth" : 0.03962955,
+    "jawWidth" : 0.02273687,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_12",
+    "hairTipId" : "Hair_12",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

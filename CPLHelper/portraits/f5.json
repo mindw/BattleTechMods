@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "f5",
+        "Name" : "f5",
+        "Details" : "Random",
+        "Icon" : "f5"
+    },
+    "ID" : "f5",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 1,
+    "cameraPosition" : 4,
+    "complexionTex" : 4,
+    "eyebrowTex" : 5,
+    "tattooTex" : 7,
+    "actualTattooTex" : 15,
+    "weights" : [
+        48.03694,
+        28.04087,
+        0.1771333,
+        0.079404,
+        1.010489,
+        22.65518
+    ],
+    "browOffsetY" : -0.006015175,
+    "browOffsetZ" : 0.004874953,
+    "noseBridgeScale" : 0.06034708,
+    "noseTipScale" : -0.191464,
+    "chinScale" : -0.02575691,
+    "cheekOffsetY" : -0.004776591,
+    "eyeWidth" : -0.02876339,
+    "jawWidth" : 0.08925495,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_05",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

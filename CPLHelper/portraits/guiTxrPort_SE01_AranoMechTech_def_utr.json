@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_SE01_AranoMechTech_def_utr",
+        "Name" : "guiTxrPort_SE01_AranoMechTech_def_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_SE01_AranoMechTech_def_utr"
+    },
+    "ID" : "guiTxrPort_SE01_AranoMechTech_def_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 3,
+    "lightRig" : 3,
+    "cameraPosition" : 4,
+    "complexionTex" : 0,
+    "eyebrowTex" : 5,
+    "tattooTex" : 3,
+    "actualTattooTex" : 4,
+    "weights" : [
+        33.82046,
+        13.83957,
+        14.99256,
+        31.58923,
+        4.094801,
+        1.663385
+    ],
+    "browOffsetY" : -0.006331864,
+    "browOffsetZ" : 0.006780502,
+    "noseBridgeScale" : 0.01930864,
+    "noseTipScale" : 0.0431487,
+    "chinScale" : 0.06243638,
+    "cheekOffsetY" : 0.0005826729,
+    "eyeWidth" : -0.0101623,
+    "jawWidth" : -0.001869214,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_02",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

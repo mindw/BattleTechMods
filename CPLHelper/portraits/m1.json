@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "m1",
+        "Name" : "m1",
+        "Details" : "Random",
+        "Icon" : "m1"
+    },
+    "ID" : "m1",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 0,
+    "cameraPosition" : 2,
+    "complexionTex" : 0,
+    "eyebrowTex" : 1,
+    "tattooTex" : 10,
+    "actualTattooTex" : 0,
+    "weights" : [
+        29.80471,
+        36.62997,
+        21.71237,
+        10.15646,
+        1.600589,
+        0.09590259
+    ],
+    "browOffsetY" : 0.00311691,
+    "browOffsetZ" : -0.0007909435,
+    "noseBridgeScale" : -0.1420023,
+    "noseTipScale" : -0.121271,
+    "chinScale" : -0.1447608,
+    "cheekOffsetY" : -0.0006192905,
+    "eyeWidth" : 0.04655457,
+    "jawWidth" : 0.01627415,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_12",
+    "hairTipId" : "Hair_12",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

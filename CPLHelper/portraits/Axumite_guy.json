@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Axumite_guy",
+        "Name" : "Axumite_guy",
+        "Details" : "Random",
+        "Icon" : "Axumite_guy"
+    },
+    "ID" : "Axumite_guy",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 5,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 3,
+    "complexionTex" : 5,
+    "eyebrowTex" : 2,
+    "tattooTex" : 10,
+    "actualTattooTex" : 7,
+    "weights" : [
+        13.82668,
+        50.55576,
+        2.781737,
+        0.7105026,
+        32.09776,
+        0.02755073
+    ],
+    "browOffsetY" : -0.006612194,
+    "browOffsetZ" : 0.0009777652,
+    "noseBridgeScale" : 0.1972648,
+    "noseTipScale" : -0.132076,
+    "chinScale" : -0.0999254,
+    "cheekOffsetY" : -0.0008909029,
+    "eyeWidth" : 0.04921508,
+    "jawWidth" : -0.05214565,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "nova_cat_pilot",
+        "Name" : "nova_cat_pilot",
+        "Details" : "Random",
+        "Icon" : "nova_cat_pilot"
+    },
+    "ID" : "nova_cat_pilot",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 11,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 1,
+    "cameraPosition" : 4,
+    "complexionTex" : 2,
+    "eyebrowTex" : 1,
+    "tattooTex" : 6,
+    "actualTattooTex" : 0,
+    "weights" : [
+        32.45184,
+        38.9569,
+        1.188129,
+        25.47593,
+        1.758204,
+        0.1689962
+    ],
+    "browOffsetY" : -0.002732689,
+    "browOffsetZ" : 0.004397883,
+    "noseBridgeScale" : 0.07733478,
+    "noseTipScale" : -0.002210176,
+    "chinScale" : 0.1270429,
+    "cheekOffsetY" : 0.001494174,
+    "eyeWidth" : -0.005332917,
+    "jawWidth" : 0.04291055,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_04",
+    "hairTipId" : "Hair_04",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

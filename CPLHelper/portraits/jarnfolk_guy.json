@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "jarnfolk_guy",
+        "Name" : "jarnfolk_guy",
+        "Details" : "Random",
+        "Icon" : "jarnfolk_guy"
+    },
+    "ID" : "jarnfolk_guy",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 17,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 9,
+    "lightRig" : 4,
+    "cameraPosition" : 4,
+    "complexionTex" : 1,
+    "eyebrowTex" : 3,
+    "tattooTex" : 10,
+    "actualTattooTex" : 0,
+    "weights" : [
+        32.70399,
+        43.29625,
+        2.429404,
+        0.2790453,
+        0.010067,
+        21.28124
+    ],
+    "browOffsetY" : -0.0001468183,
+    "browOffsetZ" : 0.004002674,
+    "noseBridgeScale" : -0.0286216,
+    "noseTipScale" : 0.1776177,
+    "chinScale" : 0.0260165,
+    "cheekOffsetY" : 0.0004449958,
+    "eyeWidth" : 0.03710243,
+    "jawWidth" : 0.04857209,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_07",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_02",
+    "hairTipId" : "Hair_02",
+    "tattooColorId" : "Tattoo_10",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

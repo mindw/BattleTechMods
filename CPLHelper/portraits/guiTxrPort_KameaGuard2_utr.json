@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_KameaGuard2_utr",
+        "Name" : "guiTxrPort_KameaGuard2_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_KameaGuard2_utr"
+    },
+    "ID" : "guiTxrPort_KameaGuard2_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 17,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 1,
+    "lightRig" : 4,
+    "cameraPosition" : 2,
+    "complexionTex" : 0,
+    "eyebrowTex" : 4,
+    "tattooTex" : 4,
+    "actualTattooTex" : 0,
+    "weights" : [
+        25.51198,
+        10.47424,
+        23.24133,
+        34.06362,
+        6.317547,
+        0.3912826
+    ],
+    "browOffsetY" : -0.004707476,
+    "browOffsetZ" : 0.001290489,
+    "noseBridgeScale" : -0.1902332,
+    "noseTipScale" : 0.07040738,
+    "chinScale" : 0.136772,
+    "cheekOffsetY" : 0.001595814,
+    "eyeWidth" : 0.03125351,
+    "jawWidth" : -0.09910613,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_01",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

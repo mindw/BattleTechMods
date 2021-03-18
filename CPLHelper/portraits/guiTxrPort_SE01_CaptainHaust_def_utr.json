@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_SE01_CaptainHaust_def_utr",
+        "Name" : "guiTxrPort_SE01_CaptainHaust_def_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_SE01_CaptainHaust_def_utr"
+    },
+    "ID" : "guiTxrPort_SE01_CaptainHaust_def_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 10,
+    "lightRig" : 2,
+    "cameraPosition" : 1,
+    "complexionTex" : 3,
+    "eyebrowTex" : 4,
+    "tattooTex" : 4,
+    "actualTattooTex" : 9,
+    "weights" : [
+        26.99603,
+        8.46495,
+        31.16332,
+        6.607204,
+        23.43554,
+        3.332955
+    ],
+    "browOffsetY" : 0.002772188,
+    "browOffsetZ" : -0.006754713,
+    "noseBridgeScale" : 0.1328888,
+    "noseTipScale" : -0.1218241,
+    "chinScale" : 0.1290061,
+    "cheekOffsetY" : 0.001672857,
+    "eyeWidth" : 0.0177121,
+    "jawWidth" : 0.07377183,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_00",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

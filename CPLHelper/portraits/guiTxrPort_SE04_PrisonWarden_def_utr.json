@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_SE04_PrisonWarden_def_utr",
+        "Name" : "guiTxrPort_SE04_PrisonWarden_def_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_SE04_PrisonWarden_def_utr"
+    },
+    "ID" : "guiTxrPort_SE04_PrisonWarden_def_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 17,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 4,
+    "complexionTex" : 0,
+    "eyebrowTex" : 3,
+    "tattooTex" : 6,
+    "actualTattooTex" : 6,
+    "weights" : [
+        64.06422,
+        10.21322,
+        24.67215,
+        0.137888,
+        0.9124844,
+        3.979848E-05
+    ],
+    "browOffsetY" : 0.005043211,
+    "browOffsetZ" : 0.002283275,
+    "noseBridgeScale" : -0.1262408,
+    "noseTipScale" : 0.156699,
+    "chinScale" : 0.1629405,
+    "cheekOffsetY" : 0.00455287,
+    "eyeWidth" : 0.007293695,
+    "jawWidth" : -0.06969323,
+    "animation" : 4,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_07",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

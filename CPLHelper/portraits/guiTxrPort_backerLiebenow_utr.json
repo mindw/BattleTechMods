@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_backerLiebenow_utr",
+        "Name" : "guiTxrPort_backerLiebenow_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_backerLiebenow_utr"
+    },
+    "ID" : "guiTxrPort_backerLiebenow_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 7,
+    "beardMesh" : 0,
+    "suitMesh" : 1,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 2,
+    "complexionTex" : 1,
+    "eyebrowTex" : 3,
+    "tattooTex" : 3,
+    "actualTattooTex" : 13,
+    "weights" : [
+        30.8927,
+        29.42169,
+        29.48054,
+        8.333284,
+        1.402605,
+        0.4691737
+    ],
+    "browOffsetY" : 0.005225245,
+    "browOffsetZ" : 0.003670341,
+    "noseBridgeScale" : -0.1470771,
+    "noseTipScale" : 0.02981368,
+    "chinScale" : 0.1476364,
+    "cheekOffsetY" : 0.001306748,
+    "eyeWidth" : 0.01378642,
+    "jawWidth" : 0.04079039,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_01",
+    "hairRootId" : "Hair_13",
+    "hairTipId" : "Hair_13",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

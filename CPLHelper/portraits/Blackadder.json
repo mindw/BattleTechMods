@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "Blackadder",
+        "Name" : "Blackadder",
+        "Details" : "Random",
+        "Icon" : "Blackadder"
+    },
+    "ID" : "Blackadder",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 3,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 5,
+    "lightRig" : 3,
+    "cameraPosition" : 1,
+    "complexionTex" : 1,
+    "eyebrowTex" : 2,
+    "tattooTex" : 0,
+    "actualTattooTex" : 0,
+    "weights" : [
+        45.5237,
+        1.814351,
+        34.01252,
+        14.29943,
+        1.134224,
+        3.215775
+    ],
+    "browOffsetY" : 0.001295383,
+    "browOffsetZ" : -4.169071E-05,
+    "noseBridgeScale" : -0.1283538,
+    "noseTipScale" : 0.2068981,
+    "chinScale" : 0.085852,
+    "cheekOffsetY" : -0.003087464,
+    "eyeWidth" : -0.02308935,
+    "jawWidth" : 0.07905199,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_01",
+    "hairTipId" : "Hair_01",
+    "tattooColorId" : "Tattoo_08",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

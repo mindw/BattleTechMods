@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Darius_default_utr",
+        "Name" : "guiTxrPort_Darius_default_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Darius_default_utr"
+    },
+    "ID" : "guiTxrPort_Darius_default_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 5,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 13,
+    "lightRig" : 4,
+    "cameraPosition" : 1,
+    "complexionTex" : 5,
+    "eyebrowTex" : 2,
+    "tattooTex" : 0,
+    "actualTattooTex" : 0,
+    "weights" : [
+        37.1297,
+        29.6202,
+        5.686567,
+        24.5743,
+        0.2925892,
+        2.696633
+    ],
+    "browOffsetY" : 0.006383239,
+    "browOffsetZ" : 0.003652983,
+    "noseBridgeScale" : 0.1960988,
+    "noseTipScale" : -0.2288738,
+    "chinScale" : 0.1094959,
+    "cheekOffsetY" : 0.001377082,
+    "eyeWidth" : 0.03618046,
+    "jawWidth" : -0.003875482,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_03",
+    "hairRootId" : "Hair_11",
+    "hairTipId" : "Hair_11",
+    "tattooColorId" : "Tattoo_09",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

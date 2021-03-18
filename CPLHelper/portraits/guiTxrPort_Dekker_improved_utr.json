@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Dekker_improved_utr",
+        "Name" : "guiTxrPort_Dekker_improved_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Dekker_improved_utr"
+    },
+    "ID" : "guiTxrPort_Dekker_improved_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 11,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 2,
+    "lightRig" : 3,
+    "cameraPosition" : 1,
+    "complexionTex" : 3,
+    "eyebrowTex" : 1,
+    "tattooTex" : 2,
+    "actualTattooTex" : 0,
+    "weights" : [
+        27.14976,
+        2.365725,
+        23.92649,
+        10.26071,
+        33.95396,
+        2.343352
+    ],
+    "browOffsetY" : 0.001875709,
+    "browOffsetZ" : -0.006869465,
+    "noseBridgeScale" : 0.05266332,
+    "noseTipScale" : 0.0969047,
+    "chinScale" : -0.18838,
+    "cheekOffsetY" : 0.001618941,
+    "eyeWidth" : -0.01207367,
+    "jawWidth" : -0.08707621,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_03",
+    "eyeColorId" : "Eye_02",
+    "hairRootId" : "Hair_00",
+    "hairTipId" : "Hair_00",
+    "tattooColorId" : "Tattoo_01",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

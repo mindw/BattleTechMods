@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_SE05_ArmsDealerCaptain_def_utr",
+        "Name" : "guiTxrPort_SE05_ArmsDealerCaptain_def_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_SE05_ArmsDealerCaptain_def_utr"
+    },
+    "ID" : "guiTxrPort_SE05_ArmsDealerCaptain_def_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 0,
+    "beardMesh" : 0,
+    "suitMesh" : 0,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 1,
+    "complexionTex" : 4,
+    "eyebrowTex" : 2,
+    "tattooTex" : 7,
+    "actualTattooTex" : 0,
+    "weights" : [
+        53.53076,
+        5.192649,
+        9.268906,
+        29.97603,
+        1.530686,
+        0.5009695
+    ],
+    "browOffsetY" : -0.003912329,
+    "browOffsetZ" : 0.00667265,
+    "noseBridgeScale" : 0.04097993,
+    "noseTipScale" : -0.2751464,
+    "chinScale" : 0.0718491,
+    "cheekOffsetY" : -0.003284479,
+    "eyeWidth" : 0.04790584,
+    "jawWidth" : 0.07699554,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_06",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

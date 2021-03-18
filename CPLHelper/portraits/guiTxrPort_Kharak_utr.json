@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_Kharak_utr",
+        "Name" : "guiTxrPort_Kharak_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_Kharak_utr"
+    },
+    "ID" : "guiTxrPort_Kharak_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 3,
+    "cameraPosition" : 0,
+    "complexionTex" : 5,
+    "eyebrowTex" : 3,
+    "tattooTex" : 0,
+    "actualTattooTex" : 0,
+    "weights" : [
+        62.9619,
+        34.33607,
+        0.3233615,
+        0.03591221,
+        1.926029,
+        0.4167333
+    ],
+    "browOffsetY" : 0.0004429382,
+    "browOffsetZ" : 0.003861217,
+    "noseBridgeScale" : 0.1782379,
+    "noseTipScale" : -0.1144621,
+    "chinScale" : -0.02834332,
+    "cheekOffsetY" : 0.001304334,
+    "eyeWidth" : 0.02885659,
+    "jawWidth" : -0.04351276,
+    "animation" : 3,
+    "isCommander" : true,
+    "skinToneId" : "Skin_06",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_04",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

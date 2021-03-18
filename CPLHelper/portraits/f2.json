@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "f2",
+        "Name" : "f2",
+        "Details" : "Random",
+        "Icon" : "f2"
+    },
+    "ID" : "f2",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 0,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 12,
+    "lightRig" : 2,
+    "cameraPosition" : 0,
+    "complexionTex" : 0,
+    "eyebrowTex" : 2,
+    "tattooTex" : 0,
+    "actualTattooTex" : 0,
+    "weights" : [
+        25.48492,
+        57.30733,
+        4.944424,
+        1.833847,
+        2.094433,
+        8.335048
+    ],
+    "browOffsetY" : 0.00509409,
+    "browOffsetZ" : -0.003013892,
+    "noseBridgeScale" : 0.1911943,
+    "noseTipScale" : -0.05055739,
+    "chinScale" : -0.1988029,
+    "cheekOffsetY" : -0.002219189,
+    "eyeWidth" : 0.04428155,
+    "jawWidth" : -0.05356352,
+    "animation" : 2,
+    "isCommander" : true,
+    "skinToneId" : "Skin_05",
+    "eyeColorId" : "Eye_05",
+    "hairRootId" : "Hair_03",
+    "hairTipId" : "Hair_03",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

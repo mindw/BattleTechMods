@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "guiTxrPort_backerShvartz_utr",
+        "Name" : "guiTxrPort_backerShvartz_utr",
+        "Details" : "Random",
+        "Icon" : "guiTxrPort_backerShvartz_utr"
+    },
+    "ID" : "guiTxrPort_backerShvartz_utr",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 8,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 7,
+    "lightRig" : 2,
+    "cameraPosition" : 2,
+    "complexionTex" : 4,
+    "eyebrowTex" : 3,
+    "tattooTex" : 9,
+    "actualTattooTex" : 4,
+    "weights" : [
+        69.919,
+        3.808712,
+        24.9413,
+        0.8113674,
+        0.4825113,
+        0.03710617
+    ],
+    "browOffsetY" : -0.002748622,
+    "browOffsetZ" : -0.005893141,
+    "noseBridgeScale" : -0.1660377,
+    "noseTipScale" : -0.1655138,
+    "chinScale" : -0.1106541,
+    "cheekOffsetY" : -0.002888693,
+    "eyeWidth" : -0.0338485,
+    "jawWidth" : -0.00241493,
+    "animation" : 0,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_06",
+    "hairRootId" : "Hair_04",
+    "hairTipId" : "Hair_04",
+    "tattooColorId" : "Tattoo_03",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

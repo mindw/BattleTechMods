@@ -1,0 +1,51 @@
+{
+    "Description" : {
+        "Id" : "u2",
+        "Name" : "u2",
+        "Details" : "Random",
+        "Icon" : "u2"
+    },
+    "ID" : "u2",
+    "backgroundColor" : {
+        "r" : 0,
+        "g" : 0,
+        "b" : 0,
+        "a" : 0
+    },
+    "headMesh" : 0.5,
+    "hairMesh" : 13,
+    "beardMesh" : 0,
+    "suitMesh" : 2,
+    "scar" : 0,
+    "lightRig" : 2,
+    "cameraPosition" : 1,
+    "complexionTex" : 0,
+    "eyebrowTex" : 5,
+    "tattooTex" : 3,
+    "actualTattooTex" : 0,
+    "weights" : [
+        66.37192,
+        31.69149,
+        0.6057927,
+        1.148793,
+        0.1412614,
+        0.04074131
+    ],
+    "browOffsetY" : -0.006879751,
+    "browOffsetZ" : -0.004462696,
+    "noseBridgeScale" : -0.1708501,
+    "noseTipScale" : -0.07796821,
+    "chinScale" : -0.09634121,
+    "cheekOffsetY" : 0.003898551,
+    "eyeWidth" : -0.01871182,
+    "jawWidth" : 0.09711688,
+    "animation" : 1,
+    "isCommander" : true,
+    "skinToneId" : "Skin_04",
+    "eyeColorId" : "Eye_00",
+    "hairRootId" : "Hair_17",
+    "hairTipId" : "Hair_17",
+    "tattooColorId" : "Tattoo_02",
+    "lipColorId" : "Lip_01",
+    "customPortraitSaveVersion" : 0
+}

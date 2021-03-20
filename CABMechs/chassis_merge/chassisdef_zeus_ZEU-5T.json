@@ -1,9 +1,11 @@
 {
     "InitialTonnage": 39.5,
     "Heatsinks": 42,
+    "MeleeDamage": 100,
     "ChassisTags": {
         "items": [
-            "chassis_ferro"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
@@ -42,4 +44,4 @@
             "DamageLevel": "Functional"
         }
     ]
- }
+}

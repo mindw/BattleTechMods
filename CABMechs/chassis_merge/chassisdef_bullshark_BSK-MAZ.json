@@ -1,0 +1,22 @@
+{
+    "InitialTonnage": 20.5,
+    "Heatsinks": 36,
+    "MeleeDamage": 90,
+    "ChassisTags": {
+        "items": [
+            "chassis_DHS"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Mortar_Thumper",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

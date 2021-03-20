@@ -1,12 +1,11 @@
 {
     "TargetIDs": [
-        "chassisdef_awesome_AWS-8T",
-        "chassisdef_jagermech_JM6-A",
+        "chassisdef_locust_LCT-1M",
         "chassisdef_catapult_CPLT-C1",
         "chassisdef_catapult_CPLT-C4",
-        "chassisdef_trebuchet_TBT-5N",
+        "chassisdef_jagermech_JM6-A",
         "chassisdef_javelin_JVN-10A",
-        "chassisdef_locust_LCT-1M"
+        "chassisdef_trebuchet_TBT-5N"
     ],
     "Instructions": [
         {

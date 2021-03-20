@@ -1,5 +1,6 @@
 {
     "InitialTonnage": 39.5,
     "Heatsinks": 6,
+    "MeleeDamage": 90,
     "StockRole": "Skirmisher"
 }

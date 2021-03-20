@@ -1,5 +1,6 @@
 {
     "Heatsinks": 30,
+    "MeleeDamage": 115,
     "Locations": [
         {
             "Location": "Head",

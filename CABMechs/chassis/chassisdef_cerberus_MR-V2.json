@@ -36,7 +36,7 @@
     "Signature": 0,
     "Radius": 8,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 130,
+    "MeleeDamage": 105,
     "MeleeInstability": 95,
     "MeleeToHitModifier": 0,
     "DFADamage": 120,
@@ -66,7 +66,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 9,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 80
@@ -137,7 +137,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 8,
+            "InventorySlots": 9,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 80

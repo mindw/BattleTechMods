@@ -1,5 +1,7 @@
 {
     "TargetIDs": [
+        "chassisdef_bullshark_BSK-M3",
+        "chassisdef_bullshark_BSK-MAZ",
         "chassisdef_catapult_CPLT-C1",
         "chassisdef_catapult_CPLT-C4",
         "chassisdef_catapult_CPLT-K2",

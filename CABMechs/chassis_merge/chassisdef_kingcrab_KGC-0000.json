@@ -1,5 +1,6 @@
 {
     "InitialTonnage": 37,
     "Heatsinks": 6,
+    "MeleeDamage": 140,
     "StockRole": "Juggernaut"
 }

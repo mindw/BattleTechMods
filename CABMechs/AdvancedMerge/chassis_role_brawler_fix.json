@@ -1,16 +1,12 @@
 {
     "TargetIDs": [
-        "chassisdef_orion_ON1-V",
-        "chassisdef_orion_ON1-K",
-        "chassisdef_thunderbolt_TDR-5S",
-        "chassisdef_thunderbolt_TDR-5SS",
-        "chassisdef_rifleman_RFL-3C",
+        "chassisdef_blackjack_BJ-1DB",
         "chassisdef_centurion_CN9-A",
         "chassisdef_centurion_CN9-AL",
-        "chassisdef_vindicator_VND-1R",
         "chassisdef_hatchetman_HCT-3F",
-        "chassisdef_blackjack_BJ-1DB",
-        "chassisdef_panther_PNT-9R"
+        "chassisdef_panther_PNT-9R",
+        "chassisdef_rifleman_RFL-3C",
+        "chassisdef_vindicator_VND-1R"
     ],
     "Instructions": [
         {

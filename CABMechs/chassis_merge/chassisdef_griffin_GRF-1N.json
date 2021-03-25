@@ -1,5 +1,6 @@
 {
     "InitialTonnage": 28,
     "Heatsinks": 3,
+    "MeleeDamage": 80,
     "StockRole": "Sniper"
 }

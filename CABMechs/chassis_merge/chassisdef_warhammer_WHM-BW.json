@@ -1,4 +1,6 @@
 {
     "InitialTonnage": 30,
-    "Heatsinks": 36
+    "Heatsinks": 36,
+    "MeleeDamage": 80,
+    "StockRole": "Brawler"
 }

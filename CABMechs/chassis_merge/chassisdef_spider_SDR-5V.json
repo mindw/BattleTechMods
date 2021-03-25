@@ -1,3 +1,4 @@
 {
-    "MeleeDamage": 40
+    "MeleeDamage": 45,
+    "StockRole": "Scout"
 }

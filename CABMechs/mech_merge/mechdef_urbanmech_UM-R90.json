@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate": "3012-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -11,7 +12,22 @@
             "unit_speed_low",
             "unit_urbie",
             "unit_jumpOK",
-            "unit_armor_high"
+            "unit_armor_high",
+            "Davion",
+            "Liao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"            
         ],
         "tagSetSourceFile": ""
     }

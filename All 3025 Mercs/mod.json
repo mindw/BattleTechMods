@@ -1,0 +1,20 @@
+{
+    "Name": "All 3025 Mercs",
+    "Enabled": true,
+    "Version": "1.54",
+    "Description": "Adds all 3025 Merc Emblems",
+    "Author": "Cyttorak001",
+    "Website": "https://www.nexusmods.com/battletech/mods/194",
+    "Manifest": [
+        {
+            "Type": "Texture2D",
+            "Path": "emblems",
+            "AddToAddendum": "PlayerEmblems"
+        },
+        {
+            "Type": "Sprite",
+            "Path": "emblems",
+            "AddToAddendum": "PlayerEmblems"
+        }
+    ]
+}

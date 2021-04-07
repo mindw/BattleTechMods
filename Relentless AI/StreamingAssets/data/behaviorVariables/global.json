@@ -156,7 +156,7 @@
 		"k" : "Float_PreferHigherPositionFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.2
+			"floatVal" : 0.1
         }
 	},
 	{
@@ -173,7 +173,7 @@
 		"k" : "Float_SprintPreferHigherPositionFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.1
         }
 	},
 	{
@@ -184,7 +184,7 @@
 		"k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 2
+			"floatVal" : 3.0
         }
 	},
 	{
@@ -194,7 +194,7 @@
 		"k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 2
+			"floatVal" : 3.0
         }
 	},
 	{
@@ -328,7 +328,7 @@
 		"k" : "Float_SureFootingAbilityWalkBoost",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.1
         }
 	},
 	{
@@ -1798,7 +1798,7 @@
 		"k" : "Float_PreferLOSToFewestHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.2
+			"floatVal" : 0.1
         }
 	},
 	{
@@ -1807,7 +1807,7 @@
 	    "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.2
+			"floatVal" : 0.1
         }
 	},
 	{

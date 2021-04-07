@@ -67,7 +67,7 @@
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.0
+            "floatVal" : 3.0
         }
     },
 	{
@@ -78,7 +78,7 @@
             "k" : "Float_SprintPreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 			"type" : "Float",
-			"floatVal" : 2.0
+			"floatVal" : 3.0
         }
 	},
     {
@@ -113,7 +113,7 @@
          "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -0.4
+            "floatVal" : 0.1
         }
     },
     {
@@ -151,7 +151,7 @@
 		"k" : "Bool_UseBulwarkActions",
 		"v" : {
 			"type" : "Bool",
-			"boolVal" : true
+			"boolVal" : false
         }
 	},
 	{
@@ -160,7 +160,7 @@
 		"k" : "Float_BulwarkThresholdPercentage",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 75
+			"floatVal" : 0
 		}
 	},
 	{
@@ -181,7 +181,7 @@
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.3
+             "floatVal" : 0.2
         }
     },
 	{

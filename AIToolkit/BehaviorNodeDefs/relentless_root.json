@@ -36,28 +36,8 @@
             "Name": "stand_up",
             "TypeName": "NewStandUpNode"
         },
-        {
-            "Name": "block_until_pathfinding_sequence",
-            "TypeName": "SequenceNode",
-            "Children": [
-                {
-                    "Name": "pathfinding_is_movement_available",
-                    "TypeName": "IsMovementAvailableForUnitNode"
-                },
-                {
-                    "Name": "pathfinding_done",
-                    "TypeName": "InverterNode",
-                    "Children": [
-                        {
-                            "Name": "block_until_pathfinding",
-                            "TypeName":"BlockUntilPathfindingReadyNode"
-                        }
-                    ]
-                }
-            ]
-        },
 		{
-			"Name": "if_inspire_available__maybe_inspire",
+			"Name": "maybe_inspire",
 			"TypeName": "SequenceNode",
 			"Children": [
 				{
@@ -274,37 +254,6 @@
 									"TypeName": "SelectorNode",
 									"Children": [
 										{
-											"Name": "if_overheated__maybe_brace",
-											"TypeName": "SequenceNode",
-											"Children": [
-												{
-													"Name": "off_deff_isOverheated",
-													"TypeName": "IsOverheatedNode"
-												},
-												{
-													"Name": "off_deff_randomPercentageLessThanBV",
-													"TypeName": "RandomPercentageLessThanBVNode",
-													"ExtraParameters": {
-													"bvName": "Float_BraceWhenOverheatedPercentage"
-													}
-												},
-												{
-													"Name": "off_deff_inverter",
-													"TypeName": "InverterNode",
-													"Children": [
-														{
-															"Name": "off_deff_anyHostileBehindMe",
-															"TypeName": "AnyHostileBehindMeNode"
-														}
-													]
-												},
-												{
-													"Name": "off_deff_brace",
-													"TypeName": "BraceNode"
-												}
-											]
-										},
-										{
 											"Name": "offensive_Move",
 											"TypeName": "SequenceNode",
 											"Children": [
@@ -496,6 +445,34 @@
 																											"Children": [
 																												{
 																													"Name": "not_simple_LOF_isBVTrue",
+																													"TypeName": "HasIndirectFireWeapons"
+																												}
+																											]
+																										},
+																										{
+																											"Name": "not_simple_has_direct_LOF",
+																											"TypeName": "HasDirectLOFToAnyHostileFromReachableLocationsNode"
+																										},
+																										{
+																											"Name": "not_simple_has_inRange",
+																											"TypeName": "EnemyInWeaponRangePlusMovedistanceNode"
+																										},
+																										{
+																											"Name": "not_simple_has_LOS",
+																											"TypeName": "LanceHasLOSNode"
+																										}
+																									]
+																								},
+																								{
+																									"Name": "second_not_simple_LOF",
+																									"TypeName": "SequenceNode",
+																									"Children": [
+																										{
+																											"Name": "second_not_simple_LOF_inverter",
+																											"TypeName": "InverterNode",
+																											"Children": [
+																												{
+																													"Name": "second_not_simple_LOF_isBVTrue",
 																													"TypeName": "IsBVTrueNode",
 																													"ExtraParameters": {
 																													"bvName": "Bool_SimpleShortRangeLOF"
@@ -504,15 +481,15 @@
 																											]
 																										},
 																										{
-																											"Name": "not_simple_LOF_AnyHostilesInWeaponRange",
+																											"Name": "second_not_simple_has_LOS",
+																											"TypeName": "HasIndirectFireWeapons"
+																										},
+																										{
+																											"Name": "second_not_simple_inRange",
 																											"TypeName": "EnemyInWeaponRangePlusMovedistanceNode"
 																										},
 																										{
-																											"Name": "not_simple_LOF_hasLOFReachableLocations",
-																											"TypeName": "HasLOFToAnyHostileFromReachableLocationsNode"
-																										},
-																										{
-																											"Name": "not_simple_LOF_has_los",
+																											"Name": "second_not_simple_has_LOF",
 																											"TypeName": "LanceHasLOSNode"
 																										}
 																									]
@@ -679,18 +656,18 @@
 																													"TypeName": "ClearMoveCandidatesNode"
 																												},
 																												{
+																													"Name": "generate_sprinting_move",
+																													"TypeName": "GenerateSprintMoveTowardDistantHostileCandidatesNode"
+																												},
+																												{
 																													"Name": "sprinting_sequence_inverter",
 																													"TypeName": "InverterNode",
 																													"Children": [
 																														{
-																															"Name": "sprinting_AnyHostilesInWeaponRange",
-																															"TypeName": "EnemyInWeaponRangePlusMovedistanceNode"
+																															"Name": "not_sprinting_if_stat",
+																															"TypeName": "HighestMoveCandidateIsStationaryNode"
 																														}
 																													]
-																												},
-																												{
-																													"Name": "ganerate_sprinting_move",
-																													"TypeName": "GenerateSprintMoveTowardDistantHostileCandidatesNode"
 																												},
 																												{
 																													"Name": "sprinting_move",
@@ -722,49 +699,8 @@
 																													"TypeName": "ClearMoveCandidatesNode"
 																												},
 																												{
-																													"Name": "nmtc_2nd_selector",
-																													"TypeName": "SelectorNode",
-																													"Children": [
-																														{
-																															"Name": "nmtc_generate",
-																															"TypeName": "GenerateNormalMoveTowardDistantHostileCandidatesNode"
-																														},
-																														{
-																															"Name": "nmtc_2nd_sequence",
-																															"TypeName": "SequenceNode",
-																															"Children": [
-																																{
-																																	"Name": "nmtc_isUrbanBiome",
-																																	"TypeName": "IsUrbanBiomeNode"
-																																},
-																																{
-																																	"Name": "nmtc_isInMinWeaponRange",
-																																	"TypeName": "IsInMinWeaponRange"
-																																},
-																																{
-																																	"Name": "nmtc_setNavigatingNook",
-																																	"TypeName": "SetNavigatingNookNode",
-																																	"ExtraParameters": {
-																																	"isNavigatingNook": true
-																																	}
-																																},
-																																{
-																																	"Name": "nmtc_generateForced",
-																																	"TypeName": "GenerateForcedNormalMoveTowardDistantHostileCandidatesNode"
-																																}
-																															]
-																														}
-																													]
-																												},
-																												{
-																													"Name": "nmtc_stationary",
-																													"TypeName": "InverterNode",
-																													"Children": [
-																														{
-																															"Name": "nmtc_highestMove",
-																															"TypeName": "HighestMoveCandidateIsStationaryNode"
-																														}
-																													]
+																													"Name": "nmtc_generate",
+																													"TypeName": "GenerateNormalMoveTowardDistantHostileCandidatesNode"
 																												},
 																												{
 																													"Name": "no_sprint_normal_move",
@@ -784,8 +720,8 @@
 																													"TypeName": "ClearMoveCandidatesNode"
 																												},
 																												{
-																													"Name": "nmtc_generateNormal",
-																													"TypeName": "GenerateNormalMoveTowardTeammatesCandidatesNode"
+																													"Name": "nmtc_3_generateSprint",
+																													"TypeName": "GenerateSprintMoveTowardTeammatesCandidatesNode"
 																												},
 																												{
 																													"Name": "nmtc_3_inverter",
@@ -793,6 +729,37 @@
 																													"Children": [
 																														{
 																															"Name": "nmtc_3_stationary",
+																															"TypeName": "HighestMoveCandidateIsStationaryNode"
+																														}
+																													]
+																												},
+																												{
+																													"Name": "sprint_to_teammates",
+																													"TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
+																													"ExtraParameters": {
+																													"useSprintJuice": false
+																													}
+																												}
+																											]
+																										},
+																										{
+																											"Name": "nmtc_4th_sequence",
+																											"TypeName": "SequenceNode",
+																											"Children": [
+																												{
+																													"Name": "nmtc_4_clearMoveCandidates",
+																													"TypeName": "ClearMoveCandidatesNode"
+																												},
+																												{
+																													"Name": "nmtc_4_generateNormal",
+																													"TypeName": "GenerateNormalMoveTowardTeammatesCandidatesNode"
+																												},
+																												{
+																													"Name": "nmtc_4_inverter",
+																													"TypeName": "InverterNode",
+																													"Children": [
+																														{
+																															"Name": "nmtc_4_stationary",
 																															"TypeName": "HighestMoveCandidateIsStationaryNode"
 																														}
 																													]
@@ -859,25 +826,29 @@
 																			"TypeName": "SequenceNode",
 																			"Children": [
 																				{
-																					"Name": "sprint_inverter",
+																					"Name": "onw_sprinting_if_available",
+																					"TypeName": "IsSprintAvailableForUnitNode"
+																				},
+																				{
+																					"Name": "onw_sprint_inverter",
 																					"TypeName": "InverterNode",
 																					"Children": [
 																						{
-																							"Name": "offensive_not_melee",
+																							"Name": "onw_has_ranged",
 																							"TypeName": "HasRangedWeaponsNode"
 																						}
 																					]
 																				},
 																				{
-																					"Name": "sprinting_clearMoveCandidates",
+																					"Name": "onw_clearMoveCandidates",
 																					"TypeName": "ClearMoveCandidatesNode"
 																				},
 																				{
-																					"Name": "ganerate_sprinting_move",
+																					"Name": "onw_ganerate_sprint",
 																					"TypeName": "GenerateSprintMoveTowardDistantHostileCandidatesNode"
 																				},
 																				{
-																					"Name": "sprinting_move",
+																					"Name": "onw_sprinting_move",
 																					"TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
 																					"ExtraParameters": {
 																					"useSprintJuice": true
@@ -886,51 +857,37 @@
 																			]	
 																		},
 																		{
+																			"Name": "generate_jump_sequence",
+																			"TypeName": "SequenceNode",
+																			"Children": [
+																				{
+																					"Name": "gms_js_Overheating",
+																					"TypeName": "CanMoveAndShootWithoutOverheatingNode"
+																				},
+																				{
+																					"Name": "gms_js_genrate",
+																					"TypeName": "GenerateJumpMoveCandidatesNode"
+																				},
+																				{
+																					"Name": "gms_js_sort",
+																					"TypeName": "SortMoveCandidatesByInfMapNode"
+																				},
+																				{
+																					"Name": "offensive_jump",
+																					"TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
+																					"ExtraParameters": {
+																					"useSprintJuice": false
+																					}
+																				}
+																			]
+																		},
+																		{
 																			"Name": "generate_moves_sequence",
 																			"TypeName": "SequenceNode",
 																			"Children": [
 																				{
 																					"Name": "generate_clear",
 																					"TypeName": "ClearMoveCandidatesNode"
-																				},
-																				{
-																					"Name": "gms_JumpDecorator",
-																					"TypeName": "SuccessDecoratorNode",
-																					"Children": [
-																						{
-																							"Name": "generate_jump_sequence",
-																							"TypeName": "SequenceNode",
-																							"Children": [
-																								{
-																									"Name": "gms_jump_and_shoot",
-																									"TypeName": "HasWorkingJumpjetsNode"
-																								},
-																								{
-																									"Name": "gms_js_genrate",
-																									"TypeName": "GenerateJumpMoveCandidatesNode"
-																								},
-																								{
-																									"Name": "gms_js_filterMovesForHeat",
-																									"TypeName": "FilterMovesForHeatNode"
-																								},
-																								{
-																									"Name": "gms_js_hasMoveCandidates",
-																									"TypeName": "HasMoveCandidatesNode"
-																								},
-																								{
-																									"Name": "gms_js_sortMoves",
-																									"TypeName": "SortMoveCandidatesByInfMapNode"
-																								},
-																								{
-																									"Name": "gms_js_move",
-																									"TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
-																									"ExtraParameters": {
-																									"useSprintJuice": false
-																									}
-																								}
-																							]
-																						}
-																					]
 																				},
 																				{
 																					"Name": "gms_movement_available",
@@ -991,23 +948,23 @@
 																					]
 																				},
 																				{
-																					"Name": "gms_stationary_moves",
+																					"Name": "gms_stationary",
 																					"TypeName": "GenerateStationaryMoveCandidatesNode"
 																				},
 																				{
-																					"Name": "gms_3rd_successDecorator",
+																					"Name": "gms_4th_successDecorator",
 																					"TypeName": "SuccessDecoratorNode",
 																					"Children": [
 																						{
-																							"Name": "gms_3_sensorlock_sequence",
+																							"Name": "gms_4_sensorlock_sequence",
 																							"TypeName": "SequenceNode",
 																							"Children": [
 																								{
-																									"Name": "gms_3_hasSensorLockTarget",
+																									"Name": "gms_4_hasSensorLockTarget",
 																									"TypeName": "HasRecordedSensorLockTargetNode"
 																								},
 																								{
-																									"Name": "gms_3_filterNonSensorLockMoves",
+																									"Name": "gms_4_filterNonSensorLockMoves",
 																									"TypeName": "FilterNonSensorLockMovesNode"
 																								}
 																							]
@@ -1057,10 +1014,6 @@
 																									"TypeName": "HighestMoveCandidateIsStationaryNode"
 																								},
 																								{
-																									"Name": "melee_clear_moves",
-																									"TypeName": "ClearMoveCandidatesNode"
-																								},
-																								{
 																									"Name": "melee_execute",
 																									"TypeName": "MeleeWithEnemyNode"
 																								}
@@ -1070,6 +1023,10 @@
 																							"Name": "sorting_moves2",
 																							"TypeName": "SequenceNode",
 																							"Children": [
+																								{
+																									"Name": "sort_move2_hasMoves",
+																									"TypeName": "HasMoveCandidatesNode"
+																								},
 																								{
 																									"Name": "sort_moves2_filter",
 																									"TypeName": "ProperlyFilterOutNonLOFMovesNode"
@@ -1103,7 +1060,7 @@
 																									"TypeName": "GenerateSprintMoveTowardDistantHostileCandidatesNode"
 																								},
 																								{
-																									"Name": "sprint_move",
+																									"Name": "sinm_move",
 																									"TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
 																									"ExtraParameters": {
 																									"useSprintJuice": true
@@ -1127,7 +1084,7 @@
 																								},
 																								{
 																									"Name": "winm_generate_walking_move",
-																									"TypeName": "GenerateForcedNormalMoveTowardDistantHostileCandidatesNode"
+																									"TypeName": "GenerateNormalMoveTowardDistantHostileCandidatesNode"
 																								}
 																							]
 																						},
@@ -1199,30 +1156,98 @@
 													"TypeName": "SelectorNode",
 													"Children": [
 														{
-															"Name": "brace_if_at_acceptable_range_to_cool_down",
+															"Name": "deff_no_weapons_DFA",
 															"TypeName": "SequenceNode",
 															"Children": [
 																{
-																	"Name": "defensive_check_isOverheated",
-																	"TypeName": "IsOverheatedNode"
-																},
-																{
-																	"Name": "defensive_isOutsideCoolDownRange",
-																	"TypeName": "IsOutsideCoolDownRangeNode"
-																},
-																{
-																	"Name": "defensive_2nd_inverter",
+																	"Name": "deff_DFA_inverter",
 																	"TypeName": "InverterNode",
 																	"Children": [
 																		{
-																			"Name": "defensive_anyHostileBehindMe",
-																			"TypeName": "AnyHostileBehindMeNode"
+																			"Name": "deff_DFA_inverter",
+																			"TypeName": "HasRangedWeaponsNode"
 																		}
 																	]
 																},
 																{
-																	"Name": "defensive_move_brace",
-																	"TypeName": "BraceNode"
+																	"Name": "deff_DFA_execute",
+																	"TypeName": "DFAWithHighestPriorityEnemyNode"
+																}
+															]
+														},
+														{
+															"Name": "deff_no_weapons_melee",
+															"TypeName": "SequenceNode",
+															"Children": [
+																{
+																	"Name": "deff_melee_inverter",
+																	"TypeName": "InverterNode",
+																	"Children": [
+																		{
+																			"Name": "deff_not_melee",
+																			"TypeName": "HasRangedWeaponsNode"
+																		}
+																	]
+																},
+																{
+																	"Name": "deff_melee_execute",
+																	"TypeName": "MeleeWithEnemyNode"
+																}
+															]	
+														},
+														{
+															"Name": "deff_no_weapons_sprint",
+															"TypeName": "SequenceNode",
+															"Children": [
+																{
+																	"Name": "dnw_sprinting_if_available",
+																	"TypeName": "IsSprintAvailableForUnitNode"
+																},
+																{
+																	"Name": "dnw_sprint_inverter",
+																	"TypeName": "InverterNode",
+																	"Children": [
+																		{
+																			"Name": "dnw_has_ranged",
+																			"TypeName": "HasRangedWeaponsNode"
+																		}
+																	]
+																},
+																{
+																	"Name": "dnw_ganerate_sprint",
+																	"TypeName": "GenerateSprintMoveTowardDistantHostileCandidatesNode"
+																},
+																{
+																	"Name": "dnw_sprinting_move",
+																	"TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
+																	"ExtraParameters": {
+																	"useSprintJuice": true
+																	}
+																}
+															]	
+														},
+														{
+															"Name": "deff_jump_sequence",
+															"TypeName": "SequenceNode",
+															"Children": [
+																{
+																	"Name": "djs_notOverheating",
+																	"TypeName": "CanMoveAndShootWithoutOverheatingNode"
+																},
+																{
+																	"Name": "djs_generate",
+																	"TypeName": "GenerateJumpMoveCandidatesNode"
+																},
+																{
+																	"Name": "djs_sort",
+																	"TypeName": "SortMoveCandidatesByInfMapNode"
+																},
+																{
+																	"Name": "deffensive_jump",
+																	"TypeName": "MoveTowardsHighestPriorityMoveCandidateNode",
+																	"ExtraParameters": {
+																	"useSprintJuice": false
+																	}
 																}
 															]
 														},
@@ -1267,14 +1292,6 @@
 																	]
 																},
 																{
-																	"Name": "mtdp_jump_moves",
-																	"TypeName": "GenerateJumpMoveCandidatesNode"
-																},
-																{
-																	"Name": "mtdp_stationary_moves",
-																	"TypeName": "GenerateStationaryMoveCandidatesNode"
-																},
-																{
 																	"Name": "mtdp_filterMovesForHeat",
 																	"TypeName": "FilterMovesForHeatNode"
 																},
@@ -1287,11 +1304,11 @@
 																	"TypeName": "SuccessDecoratorNode",
 																	"Children": [
 																		{
-																			"Name": "mtdp_dfa_melee_attack",
+																			"Name": "mtdp_dfa_attack",
 																			"TypeName": "SequenceNode",
 																			"Children": [
 																				{
-																					"Name": "mtdp_attackAvailable",
+																					"Name": "mtdp_DFA_available",
 																					"TypeName": "IsAttackAvailableForUnitNode"
 																				},
 																				{
@@ -1299,12 +1316,8 @@
 																					"TypeName": "HighestMoveCandidateIsStationaryNode"
 																				},
 																				{
-																					"Name": "deff_dfa_execute",
+																					"Name": "mtdp_dfa_execute",
 																					"TypeName": "DFAWithHighestPriorityEnemyNode"
-																				},
-																				{
-																					"Name": "mtdp_clear_moves",
-																					"TypeName": "ClearMoveCandidatesNode"
 																				}
 																			]
 																		},
@@ -1325,38 +1338,33 @@
 																					"TypeName": "CanMeleeHostileTargetsNode"
 																				},
 																				{
-																					"Name": "deff_melee_execute",
+																					"Name": "mtdp_melee_execute",
 																					"TypeName": "MeleeWithEnemyNode"
-																				},
-																				{
-																					"Name": "mtdp_melee_clear_moves",
-																					"TypeName": "ClearMoveCandidatesNode"
 																				}
 																			]
 																		}
-																		
 																	]
 																},
 																{
-																	"Name": "mtdp_4th_decorator",
+																	"Name": "mtdp_3rd_decorator",
 																	"TypeName": "SuccessDecoratorNode",
 																	"Children": [
 																		{
-																			"Name": "mtp_4th_sequence",
+																			"Name": "mtp_3rd_sequence",
 																			"TypeName": "SequenceNode",
 																			"Children": [
 																				{
-																					"Name": "mtdp_4th_inverter",
+																					"Name": "mtdp_3rd_inverter",
 																					"TypeName": "InverterNode",
 																					"Children": [
 																						{
-																							"Name": "mtdp_has_moves",
+																							"Name": "mtdp_3rd_has_moves",
 																							"TypeName": "HasMoveCandidatesNode"
 																						}
 																					]
 																				},
 																				{
-																					"Name": "mtdp_sort_moves1_filter",
+																					"Name": "mtdp_3rd_filter",
 																					"TypeName": "ProperlyFilterOutNonLOFMovesNode"
 																				}
 																			]
@@ -1364,29 +1372,29 @@
 																	]
 																},
 																{
-																	"Name": "mtdp_dfa_5th_decorator",
+																	"Name": "mtdp_dfa_4th_decorator",
 																	"TypeName": "SuccessDecoratorNode",
 																	"Children": [
 																		{
-																			"Name": "def_sprint",
+																			"Name": "def_4_sprint",
 																			"TypeName": "SequenceNode",
 																			"Children": [
 																				{
-																					"Name": "def_inverter",
+																					"Name": "def_4_inverter",
 																					"TypeName": "InverterNode",
 																					"Children": [
 																						{
-																							"Name": "def_hasMoveCandidates",
+																							"Name": "def_4_hasMoveCandidates",
 																							"TypeName": "HasMoveCandidatesNode"
 																						}
 																					]
 																				},
 																				{
-																					"Name": "def_sprintAvailable",
+																					"Name": "def_4_sprintAvailable",
 																					"TypeName": "IsSprintAvailableForUnitNode"
 																				},
 																				{
-																					"Name": "def_generate_sprinting_move",
+																					"Name": "def_4_generate_sprin",
 																					"TypeName": "GenerateSprintMoveTowardDistantHostileCandidatesNode"
 																				},
 																				{

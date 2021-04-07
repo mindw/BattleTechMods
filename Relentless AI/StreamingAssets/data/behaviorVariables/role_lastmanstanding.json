@@ -6,7 +6,7 @@
         "k" : "Float_AccuracyNeededForOverheatAttack",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 0.70
+			"floatVal" : 0.75
         }
 	},
 	{

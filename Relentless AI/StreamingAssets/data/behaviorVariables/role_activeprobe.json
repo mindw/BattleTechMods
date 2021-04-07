@@ -133,7 +133,7 @@
             "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.0
+		"floatVal" : 3.0
             }
 	},
 	{
@@ -212,14 +212,14 @@
          "k" : "Float_PreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5
+            "floatVal" : 0.1
          }
     },
 	{
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.5
+             "floatVal" : 0.1
          }
     }
     ]

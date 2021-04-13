@@ -6,7 +6,7 @@
         "LastName": "Bawdekar",
         "Callsign": "Nurse",
         "Gender": "Female",
-        "Faction": "Marik",
+        "factionID": "Marik",
         "Age": "28",
         "Details": "A former nurse from Marik, she learned to fight in a battlemech after helping a wounded mechwarrior in his cockpit by following his commands she destroyed an opposing Locust and loved the thrill of being in control of a Battlemech.",
         "Icon": "aurilla"

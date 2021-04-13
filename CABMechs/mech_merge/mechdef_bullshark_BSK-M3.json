@@ -1,0 +1,30 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_assault",
+            "unit_range_long",
+            "unit_lance_sniper",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_indirectFire",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotKellHounds",
+            "NotWolfsDragoons",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

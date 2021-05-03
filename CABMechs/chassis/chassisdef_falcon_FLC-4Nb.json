@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_falcon_FLC-4N",
     "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_firebee",
-    "PrefabIdentifier": "chrprfmech_firebeebase-001",
-    "PrefabBase": "firebee",
+    "HardpointDataDefID": "hardpointdatadef_falcon",
+    "PrefabIdentifier": "chrprfmech_falconbase-001",
+    "PrefabBase": "falcon",
     "Tonnage": 30,
     "InitialTonnage": 13.5,
     "weightClass": "LIGHT",
@@ -188,7 +188,7 @@
     "VariantName": "FLC-4Nb",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.92-0.95-0.92",
+            "mr-resize-0.75",
             "chassis_DHS",
             "chassis_endo"
         ],

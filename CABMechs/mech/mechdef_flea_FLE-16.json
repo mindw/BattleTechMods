@@ -1,0 +1,143 @@
+{
+    "ChassisID": "chassisdef_flea_FLE-16",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 1860000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Flea FLE-16",
+        "Id": "mechdef_flea_FLE-16",
+        "Name": "Flea",
+        "Details": "Built as part of the Wolf's Dragoons exclusive contract with Earthwerks Incorporated to replenish the Dragoon's losses at the end of the Fourth Succession War, alongside renewed production of original Fleas, the FLE-16 was the first new production model of the extremely rare 'Mech in centuries. The variant remedied the earlier FLE-14's weaknesses by combining incredible speed with additional armor and weaponry on a 20 ton chassis. The engine was upgraded to a GM 180 in order to reach a similar maximum ground speed of nearly 150 km/h. It mounts two Medium Lasers and an Flamer while retaining an armor profile like the earlier FLE-15.",
+        "Icon": "uixTxrIcon_flea"
+    },
+    "simGameMechPartCost": 190000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 25,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 25,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 20,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 20,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 25,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 25,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 25,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 25,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 20,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 20,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 20,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 20,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 20,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 20,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_light",
+            "unit_role_scout",
+            "unit_lance_vanguard",
+            "unit_range_short",
+            "unit_speed_high",
+            "NotDavion",
+            "NotLiao",
+            "Marik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotKellHounds",
+            "WolfsDragoons",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "MinAppearanceDate": "3032-01-01T00:00:00Z"
+}

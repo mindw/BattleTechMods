@@ -20,6 +20,7 @@
         "Debug": true,
         "MechLabSlots": {
             "Enabled": true,
+            "EnabledDescription": "Makes the mech lab adhere to any custom mech slot counts.",
             "MechLabGeneralSlots": 0,
             "HideHelpButton": true,
             "HideECMButton": true
@@ -82,17 +83,17 @@
                 {
                     "PrefabIdentifier": "Laser",
                     "HardpointCandidates": [
-                      "laser",
-                      "flamer",
-                      "ppc",
-                      "mg",
-                      "machinegun",
-                      "ac2",
-                      "ac",
-                      "lbx",
-                      "narc",
-                      "srm2",
-                      "ams"
+                        "laser",
+                        "flamer",
+                        "ppc",
+                        "mg",
+                        "machinegun",
+                        "ac2",
+                        "ac",
+                        "lbx",
+                        "narc",
+                        "srm2",
+                        "ams"
                     ]
                 }, 
                 {
@@ -262,7 +263,7 @@
                         "flamer",
                         "ams"
                     ]
-                }, 
+                },
                 {
                     "PrefabIdentifier": "AC10",
                     "HardpointCandidates": [
@@ -627,7 +628,7 @@
             "name": "BattleTech.WeaponCategoryEnumeration",
             "path": "WeaponCategory.json"
         }
-    ],    
+    ],
     "Manifest": [
         { "Type": "AmmunitionDef", "Path": "ammunition", "AddToDB": true },
         { "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
@@ -652,6 +653,7 @@
         { "Type": "VehicleDef", "Path": "vehicle", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "VehicleChassisDef", "Path": "vehicleChassis", "ShouldMergeJSON": false, "AddToDB": true },
         { "Path": "AdvancedMerge", "Type": "AdvancedJSONMerge" },
-        { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
+        { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
+        { "Type": "WeaponDef", "Path": "weaponClan", "AddToDB": true }
    ]
 }

@@ -39,7 +39,7 @@
     "Signature": 0,
     "Radius": 4,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 25,
+    "MeleeDamage": 30,
     "MeleeInstability": 35,
     "MeleeToHitModifier": 0,
     "DFADamage": 45,

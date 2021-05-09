@@ -1,29 +1,26 @@
 {
     "Description": {
-        "Cost": 5200000,
-        "Rarity": 9,
+        "Cost": 2500000,
+        "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Raven",
-        "Id": "chassisdef_raven_RVN-3M",
+        "Id": "chassisdef_raven_RVN-4Xt",
         "Name": "Raven",
-        "Details": "This 3053 variant, based on the 3L variant, removed the SRM-6 launcher, the medium lasers, and the electronic warfare systems and TAG laser in order to turn the Raven into a long range fire support unit. This fire support is provided by a single 15-tubed Long Range Missile launcher. Additionally, the 'Mech sports two Small lasers and a Small Pulse Laser in the event any enemies get under the minimum range of its missile launcher.",
+        "Details": "A Capellan variant of the original prototype, the 4X was an attempt to turn the chassis into a pure combat unit. It removes the EW equipment and is outfitted with five jump jets and two Machine Guns with a ton of ammunition. The armor was increased to the chassis' limit of seven tons.",
         "Icon": "uixTxrIcon_raven"
     },
-    "MovementCapDefID": "movedef_raven_RVN-3L",
+    "MovementCapDefID": "movedef_raven_RVN-1X",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_raven",
     "PrefabIdentifier": "chrPrfMech_ravenBase-001",
     "PrefabBase": "raven",
-    "VariantName": "RVN-3M",
-    "StockRole": "Missile Boat",
-    "YangsThoughts": "Boss, considering the competition, this is a darn good light missile boat. Faster than the Valkyrie, more ammo than the Javelin 10F and a way better armored than the flimsy Locust missile boats. The backup weapons selection is very odd - a mixture of small lasers; probably to avoid taxing the standard heat sinks.",
     "Tonnage": 35,
-    "InitialTonnage": 14.5,
+    "InitialTonnage": 15.5,
     "weightClass": "LIGHT",
     "Heatsinks": 0,
-    "MaxJumpjets": 6,
+    "MaxJumpjets": 5,
     "Stability": 100,
     "StabilityDefenses": [
         0,
@@ -46,13 +43,6 @@
     "DFAToHitModifier": 0,
     "DFASelfDamage": 45,
     "DFAInstability": 45,
-    "ChassisTags": {
-        "items": [
-            "chassis_ferro",
-            "mech_case_left"
-        ],
-        "tagSetSourceFile": ""
-    },
     "Locations": [
         {
             "Location": "Head",
@@ -67,7 +57,15 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -85,7 +83,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -112,7 +110,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -125,6 +123,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -207,62 +209,43 @@
             "z": -1
         }
     ],
+    "VariantName": "RVN-4Xt",
+    "ChassisTags": {
+        "items": [
+            "chassis_TSM"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Striker",
+    "YangsThoughts": "This is not a bad upgrade. The extra armor really helps to keep the Raven 4X in one piece, while the JumpJets finally let this bird fly!",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Triple_Strength_Myomer_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Triple_Strength_Myomer_1_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_FerroFibrous_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
             "DamageLevel": "Functional"
         }
-    ]
+    ]    
 }

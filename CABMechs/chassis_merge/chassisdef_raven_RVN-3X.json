@@ -1,0 +1,146 @@
+{
+    "StockRole": "Scout",
+    "ChassisTags": {
+        "items": [
+            "chassis_TSM"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "MeleeDamage": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": -1,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        }
+    ],
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Sensor_Prototype_EWE",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

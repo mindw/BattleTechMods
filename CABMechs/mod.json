@@ -8,7 +8,7 @@
         "CAB-Tanks",
         "StreakMissileLaunchers"
     ],
-    "Version": "0.1",
+    "Version": "0.2",
     "OptionallyDependsOn": [
         "cFixes",
         "cFixes2"
@@ -17,7 +17,9 @@
     "Author": "Mind_wanderer, based on the work of Justin Kase and others",
     "DLL": "JK_Components.dll",
     "Settings": {
-        "Debug": true,
+        "Debug": false,
+        "EnableTripleStrengthMyomer": true,
+        "TripleStrengthMyomerActivationThreshold": 27,
         "MechLabSlots": {
             "Enabled": true,
             "EnabledDescription": "Makes the mech lab adhere to any custom mech slot counts.",

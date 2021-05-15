@@ -134,21 +134,14 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
@@ -169,14 +162,21 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
@@ -190,17 +190,17 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         }
     ],

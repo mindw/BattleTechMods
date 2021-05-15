@@ -126,6 +126,7 @@
             "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -133,6 +134,7 @@
             "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -140,6 +142,7 @@
             "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
+            "IsFixed": true,
             "DamageLevel": "Functional"
         }
     ]

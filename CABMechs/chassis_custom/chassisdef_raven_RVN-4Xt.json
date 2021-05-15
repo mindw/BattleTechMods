@@ -221,30 +221,18 @@
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
+            "ComponentDefID": "Gear_Triple_Strength_Myomer_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Triple_Strength_Myomer_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Triple_Strength_Myomer_2_Slot",
+            "ComponentDefID": "Gear_Triple_Strength_Myomer_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Triple_Strength_Myomer_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
+            "IsFixed": true,
             "DamageLevel": "Functional"
         }
     ]    

@@ -22,6 +22,7 @@
     "BattleValue": 0,
     "InventorySize": 1,
     "Tonnage": 0,
+    "CanExplode": false,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
@@ -29,8 +30,7 @@
     "ComponentTags": {
         "items": [
             "NO-CRIT",
-            "BUILT-IN",
-            "BLACKLISTED"
+            "BUILT-IN"
         ],
         "tagSetSourceFile": ""
     }

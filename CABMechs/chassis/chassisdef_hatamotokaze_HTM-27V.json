@@ -200,7 +200,11 @@
     "VariantName": "HTM-27V",
     "ChassisTags": {
         "items": [
-            "chassis_endo"
+            "chassis_endo",
+            "chassis_CrossAssemblyAllowedWith_Hatamoto-Chi",
+            "chassis_CrossAssemblyAllowedWith_Hatamoto-Hi",
+            "chassis_CrossAssemblyAllowedWith_Hatamoto-Ku",
+            "chassis_CrossAssemblyAllowedWith_Hatamoto-Mizo"
         ],
         "tagSetSourceFile": ""
     },

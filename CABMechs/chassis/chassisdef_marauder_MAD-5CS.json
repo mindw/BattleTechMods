@@ -75,7 +75,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 160,
             "MaxRearArmor": 80,
             "InternalStructure": 80
@@ -102,7 +102,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 160,
             "MaxRearArmor": 80,
             "InternalStructure": 80
@@ -129,7 +129,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 2,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 80
@@ -138,7 +138,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 2,
             "MaxArmor": 160,
             "MaxRearArmor": -1,
             "InternalStructure": 80
@@ -215,7 +215,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_General_Lance_Command_Module",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

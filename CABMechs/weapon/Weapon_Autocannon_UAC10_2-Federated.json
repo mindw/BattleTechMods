@@ -46,7 +46,7 @@
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "uac10",
-    "InventorySize": 3,
+    "InventorySize": 5,
     "Tonnage": 10,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",

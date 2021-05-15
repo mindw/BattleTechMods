@@ -227,7 +227,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_General_Lance_Command_Module",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

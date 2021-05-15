@@ -45,7 +45,7 @@
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "lbx5",
-    "InventorySize": 2,
+    "InventorySize": 4,
     "Tonnage": 7.5,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",

@@ -11,7 +11,7 @@
     ],
     "AmmoCategoryID": "AC10",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 24,
+    "HeatGenerated": 18,
     "Damage": 50,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,

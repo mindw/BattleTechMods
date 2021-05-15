@@ -11,7 +11,7 @@
     ],
     "ammoCategoryID" : "AC20",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 48,
+    "HeatGenerated": 42,
     "Damage": 100,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,

@@ -3,7 +3,7 @@
     "Description": {
         "Cost": 930000,
         "Rarity": 5,
-        "Purchasable": false,
+        "Purchasable": true,
         "Manufacturer": "Generic",
         "Model": "Double",
         "UIName": "Clan Heat Sink (D)",
@@ -12,7 +12,7 @@
         "Details": "Clan Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Clan double heat sinks are not as bulky as their Inner Sphere counter parts.",
         "Icon": "uixSvgIcon_equipment_Heatsink"
     },
-    "BonusValueA": "- 6 Heat / Turn",
+    "BonusValueA": "-6 Heat / Turn",
     "BonusValueB": "",
     "ComponentType": "HeatSink",
     "ComponentSubType": "Heatsink",

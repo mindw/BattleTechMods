@@ -8,7 +8,7 @@
         "UIName": "Shadow Hawk",
         "Id": "chassisdef_shadowhawk_SHD-2Ht",
         "Name": "Shadow Hawk",
-        "Details": "The result of ComStar's engineers crash refit program to battle Clan battle armor. Visually identical, the 2Ht has an upgraded engine featuring double heatsinks. Only the medium laster remained of the original weapon lineup, the rest was replaced a large laser, an additional medium laser and a whopping five stream SRM 2s. The ammo is protected by CASE and the jump distance was increased to 150m.",
+        "Details": "The result of ComStar's engineers crash refit program to battle Clan battle armor. Visually identical, the 2Ht has an upgraded engine featuring double heatsinks. Only the medium laster remained of the original weapon lineup, the rest was replaced a large laser, an additional medium laser and a whopping five streak SRM 2s. The ammo is protected by CASE and the jump distance was increased to 150m.",
         "Icon": "uixTxrIcon_shadowhawk"
     },
     "MovementCapDefID": "movedef_shadowhawk_SHD-2H",

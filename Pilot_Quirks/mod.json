@@ -9,7 +9,11 @@
     
     "DLL": "Pilot_Quirks.dll",
     
-    "OptionallyDependsOn": [ "Monthly Tech Adjustment" , "PanicSystem" , "Pilot Fatigue" ],
+    "OptionallyDependsOn": [ 
+        "Monthly Tech Adjustment", 
+        "PanicSystem", 
+        "Pilot Fatigue" 
+    ],
     
     "Settings": {
         "Debug": false,

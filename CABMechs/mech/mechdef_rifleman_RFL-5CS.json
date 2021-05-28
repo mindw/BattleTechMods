@@ -39,7 +39,7 @@
         "UIName": "Rifleman RFL-5CS",
         "Id": "mechdef_rifleman_RFL-5CS",
         "Name": "Rifleman",
-        "Details": "A Clan Buster upgrade, the Rifleman 5CS was a Comstar refit designed with the aim of extending the Rifleman’s battlefield endurance. Replacing the original 240 rated Fusion Core with a larger 300 rated XL Engine increased the Mechs speed and allowed for the installation of additional armour. Double heatsinks replaced the originals, reducing the chronic overheating issues that plagued the Rifleman, while the AC/5’s were upgraded to a pair of UAC/5’s with 2 tons of ammo. The pair of Large Lasers remain, but the 2 Medium Lasers were removed to make space for the auto cannons ammo.",
+        "Details": "A Clan Buster upgrade, the Rifleman 5CS was a Comstar refit designed with the aim of extending the Rifleman’s battlefield endurance. Replacing the original 240 rated Fusion Core with a larger 300 rated XL Engine increased the Mechs speed and allowed for the installation of additional armour. Double heat sinks replaced the originals, reducing the chronic overheating issues that plagued the Rifleman, while the AC/5's were upgraded to a pair of UAC/5's with 2 tons of ammo. The pair of Large Lasers remain, but the 2 Medium Lasers were removed to make space for the auto cannon ammo.",
         "Icon": "uixTxrIcon_rifleman"
     },
     "simGameMechPartCost": 530000,

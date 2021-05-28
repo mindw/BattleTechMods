@@ -4,14 +4,14 @@
     "AbsoluteModifier": 0,
     "Description": {
         "Cost": 2500000,
-        "Rarity": 3,
+        "Rarity": 5,
         "Purchasable": true,
-        "Manufacturer": "Ceres Arms",
-        "Model": "Guardian ECM",
-        "UIName": "Guardian ECM",
-        "Id": "Gear_Sensor_ECM",
+        "Manufacturer": "Clans",
+        "Model": "Guardian ECM Clan",
+        "UIName": "Guardian ECM Clan",
+        "Id": "Gear_Sensor_ECM_Clan",
         "Name": "Electronic Countermeasures",
-        "Details": "This electronic warfare component recreates the capabilities of the Star League era Guardian ECM. Friendly units within its ECM field gain Missile Defense and receive a +4 bonus against missiles plus immunity to Indirect Fire. Friendly units within an ECM field are effectively cloaked and cannot be targeted.",
+        "Details": "This electronic warfare component recreates the capabilities of the Star League era Guardian ECM. Friendly units within its ECM field gain Missile Defense and receive a +4 bonus against missiles plus immunity to Indirect Fire. Friendly units within an ECM field are effectively cloaked and cannot be targeted. The Clan version is lighter and more compact.",
         "Icon": "UixSvgIcon_specialEquip_Sensors"
     },
     "BonusValueA": "+ ECM Field",
@@ -20,8 +20,8 @@
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
     "BattleValue": 0,
-    "InventorySize": 2,
-    "Tonnage": 1.5,
+    "InventorySize": 1,
+    "Tonnage": 1,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
@@ -184,7 +184,9 @@
     ],
     "ComponentTags": {
         "items": [
-            "component_type_stock"
+            "component_type_stock",
+            "component_type_clan",
+            "component_type_lostech"
         ],
         "tagSetSourceFile": ""
     }

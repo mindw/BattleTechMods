@@ -642,6 +642,7 @@
         { "Type": "ChassisDef", "Path": "chassis", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis_custom", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "ChassisDef", "Path": "chassis_merge", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "FlashpointDef", "Path": "flashpoints", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "HardpointDataDef", "Path": "hardpoints" },
         { "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
         { "Type": "TurretDef", "Path": "turret", "AddToDB": true },

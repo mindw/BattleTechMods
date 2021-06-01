@@ -1055,8 +1055,7 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_battle",
-                        "lance_type_dynamic_difficulty"
+                        "lance_type_battle"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -1213,11 +1212,10 @@
                     "EncounterObjectGuid": "61699a08-1ed7-4ac3-b1f3-79b6b671c4ca"
                 },
                 "name": "Lance_Enemy_Wave2Attackers",
-                "lanceDefId" : "Tagged",
+                "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_battle",
-                        "lance_type_dynamic_difficulty"
+                        "lance_type_battle"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -1380,8 +1378,7 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_assault",
-                        "lance_type_dynamic_difficulty"
+                        "lance_type_assault"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },

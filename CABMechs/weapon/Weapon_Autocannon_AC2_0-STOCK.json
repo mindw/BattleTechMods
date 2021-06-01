@@ -22,7 +22,7 @@
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
-    "RefireModifier" : 1,
+    "RefireModifier" : 0,
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
@@ -37,7 +37,7 @@
         "UIName" : "AC/2",
         "Id" : "Weapon_Autocannon_AC2_0-STOCK",
         "Name" : "AC/2",
-        "Details" : "Intended for use as supporting fire at very long range, AC/2s deal moderate damage with low heat and a large ammunition count per ton. Like all Autocannon weaponry, AC/2s suffer from recoil effects from continuous fire.",
+        "Details" : "Intended for use as supporting fire at very long range, AC/2s deal moderate damage with low heat and a large ammunition count per ton.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",

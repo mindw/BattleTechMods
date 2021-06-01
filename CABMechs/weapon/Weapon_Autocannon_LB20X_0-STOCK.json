@@ -22,7 +22,7 @@
     "CriticalChanceMultiplier": 1,
     "AOECapable": false,
     "IndirectFireCapable": false,
-    "RefireModifier": 2,
+    "RefireModifier": 0,
     "ShotsWhenFired": 20,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 4,
@@ -37,7 +37,7 @@
         "UIName": "LB 20-X",
         "Id": "Weapon_Autocannon_LB20X_0-STOCK",
         "Name": "LB 20-X",
-        "Details": "Delivering massive cluster rounds of stability damage with each volley, the LB 20-X smashes its opponents into the ground at short range and strips armor away in hunks. Like all LB-X Autocannons, the LB 20-X fires cluster munitions and suffers recoil from continuous fire.",
+        "Details": "Delivering massive cluster rounds of stability damage with each volley, the LB 20-X smashes its opponents into the ground at short range and strips armor away in hunks. Like all LB-X Autocannons, the LB 20-X fires cluster munitions which have additional accuracy.",
         "Icon": "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA": "+1 Acc",

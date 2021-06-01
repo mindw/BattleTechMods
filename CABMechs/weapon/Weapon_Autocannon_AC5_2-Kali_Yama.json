@@ -22,7 +22,7 @@
     "CriticalChanceMultiplier": 1,
     "AOECapable": false,
     "IndirectFireCapable": false,
-    "RefireModifier": 1,
+    "RefireModifier": 0,
     "ShotsWhenFired": 1,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 2,
@@ -37,7 +37,7 @@
         "UIName": "AC/5 + +",
         "Id": "Weapon_Autocannon_AC5_2-Kali_Yama",
         "Name": "AC/5 + +",
-        "Details": "A flexible weapon, AC/5s strike a balance between long range, power, and performance. These weapons are commonly found on medium 'Mechs as their primary source of reliable damage. Like all Autocannon weaponry, AC/5s suffer from recoil effects from continuous fire.",
+        "Details": "A flexible weapon, AC/5s strike a balance between long range, power, and performance. These weapons are commonly found on medium 'Mechs as their primary source of reliable damage.",
         "Icon": "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA": "+10 Dmg",

@@ -23,11 +23,11 @@
     "CriticalChanceMultiplier": 1,
     "AOECapable": false,
     "IndirectFireCapable": false,
-    "RefireModifier": 3,
+    "RefireModifier": 1,
     "ShotsWhenFired": 2,
     "ProjectilesPerShot": 2,
     "AttackRecoil": 2,
-    "Instability": 10,
+    "Instability": 15,
     "WeaponEffectID": "WeaponEffect-Weapon_AC5_Ultra",
     "Description": {
         "Cost": 320000,
@@ -41,7 +41,7 @@
         "Details": "Retaining the perfomance niche of the standard model, Ultra AC/5s are a serious force to be reckoned with. Like all Ultra Autocannon weaponry, UAC/5s suffer from substantial recoil effects from firing and consume two ammo per attack.",
         "Icon": "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA": "-1 Recoil",
+    "BonusValueA": "+5 Stb.Dmg",
     "BonusValueB": "-1 Ton",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",

@@ -6,13 +6,12 @@
         "CAB-IS Mech",
         "CAB-Misc",
         "CAB-Tanks",
-        "StreakMissileLaunchers"
+        "cFixes2",
+        "StreakMissileLaunchers",
+        "Timeline"
     ],
     "Version": "0.2",
-    "OptionallyDependsOn": [
-        "cFixes",
-        "cFixes2"
-    ],
+    "OptionallyDependsOn": [],
     "Description": "Variants from many places.",
     "Author": "Mind_wanderer, based on the work of Justin Kase and others",
     "DLL": "JK_Components.dll",

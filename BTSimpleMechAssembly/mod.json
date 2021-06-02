@@ -49,7 +49,7 @@
     "StructurePointBasedSalvageMechPartSalvageRedirect": {
       /*campagn*/
       "mechdef_kingcrab_KGC-V-0000": "mechdef_kingcrab_KGC-0000",
-
+      
       /*flashpoints*/
       "mechdef_Catapult_fp_justinAllard": "mechdef_catapult_CPLT-C1",
       "mechdef_Centurion_fp_justinAllard": "mechdef_centurion_CN9-A",

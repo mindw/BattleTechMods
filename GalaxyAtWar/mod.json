@@ -13,8 +13,8 @@
     "Settings": 
     {
         "StartingPirateActivity" : 40.0,
-		"BonusPirateResources" : 500.0,
-		"PirateSystemFlagValue" : 10.0,
+        "BonusPirateResources" : 500.0,
+        "PirateSystemFlagValue" : 10.0,
         "FractionPirateResources" : 1,
         
         "ResourceScale" : 0.5,
@@ -52,26 +52,26 @@
         "DeploymentReward_05" : "itemCollection_loot_FP_generic_SLDF",
         "DeploymentReward_06" : "itemCollection_loot_FP_generic_SLDF_double",
         
-		//***Attacking Resources
-		"planet_industry_poor" : 5,
-		"planet_industry_mining" : 10,
-		"planet_industry_rich" : 15,
-		"planet_industry_manufacturing" : 20,
-		"planet_industry_research" : 25,
-		"planet_other_starleague" : 30,
-		
-		//***Defending Resources
-		"planet_industry_agriculture" : 10,
-		"planet_industry_aquaculture" : 10,
-		"planet_other_hub" : 15,
-		"planet_other_capital" : 20,
-		"planet_pop_none" : 0,
-		"planet_pop_small" : 4,
-		"planet_pop_medium" : 6,
-		"planet_pop_large" : 8,
-		"planet_other_megacity" : 10,
-		"planet_other_comstar" : 0,
-		
+        //***Attacking Resources
+        "planet_industry_poor" : 5,
+        "planet_industry_mining" : 10,
+        "planet_industry_rich" : 15,
+        "planet_industry_manufacturing" : 20,
+        "planet_industry_research" : 25,
+        "planet_other_starleague" : 30,
+        
+        //***Defending Resources
+        "planet_industry_agriculture" : 10,
+        "planet_industry_aquaculture" : 10,
+        "planet_other_hub" : 15,
+        "planet_other_capital" : 20,
+        "planet_pop_none" : 0,
+        "planet_pop_small" : 4,
+        "planet_pop_medium" : 6,
+        "planet_pop_large" : 8,
+        "planet_other_megacity" : 10,
+        "planet_other_comstar" : 0,
+        
         "IncludedFactions": [
             "Davion",
             "Marik",
@@ -259,6 +259,8 @@
             "TaurianConcordat",
             "MagistracyOfCanopus",
             "AuriganRestoration",
+            "Kurita",
+            "Steiner",
             "AuriganPirates",
             "NoFaction",
             "Locals",

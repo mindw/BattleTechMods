@@ -210,6 +210,7 @@
     "VariantName": "IMP-4E",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.05",
             "mech_case_left",
             "chassis_DHS"
         ],

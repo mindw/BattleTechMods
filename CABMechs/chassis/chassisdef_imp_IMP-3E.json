@@ -209,6 +209,7 @@
     "VariantName": "IMP-3E",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.05",
             "mech_case_left"
         ],
         "tagSetSourceFile": ""

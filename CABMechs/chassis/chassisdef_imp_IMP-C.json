@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Imp",
-        "Id": "chassisdef_imp_IMP-1B",
+        "Id": "chassisdef_imp_IMP-C",
         "Name": "Imp",
-        "Details": "A Wolf Clan variant from 2821 re-shufles the short range weapon suite to incroporate a Guardian ECM suite. The medium pulse lasers were downgraded to plain medium lasers and the small laser upgraded to medium pulse laser. An additional heat sink is added as well.",
+        "Details": "The Imp C is almost-direct upgrade of the -1A, with twenty-five double heat sinks providing much-easier heat management at only the loss of the small laser.",
         "Icon": "uixTxrIcon_imp"
     },
     "MovementCapDefID": "movedef_imp_IMP-2E",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_impbase-001",
     "PrefabBase": "imp",
     "Tonnage": 100,
-    "InitialTonnage": 37.5,
+    "InitialTonnage": 37,
     "weightClass": "ASSAULT",
     "Heatsinks": 42,
     "MaxJumpjets": 3,
@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -211,7 +211,7 @@
             "z": 1
         }
     ],
-    "VariantName": "IMP-1B",
+    "VariantName": "IMP-C",
     "ChassisTags": {
         "items": [
             "mr-resize-1.05",
@@ -221,5 +221,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "Just to prove having field variants a good thing. The ECM suite is a no-brainer in a desiganted command mech - especially if looks like a giant lightbulb. The extra heat sink is a welcome addition - especially when combined with the better range of the medium lasers. Or so i've heard."
+    "YangsThoughts": "The Imp C is almost-direct upgrade of the -1A, with twenty-five double heat sinks providing much-easier heat management at only the loss of the small laser.",
 }

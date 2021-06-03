@@ -1,0 +1,215 @@
+{
+    "ChassisID": "chassisdef_marauder_MAD-C",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 8760000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Marauder C",
+        "Id": "mechdef_marauder_MAD-C",
+        "Name": "Marauder",
+        "Details": "A Clan-tech retrofit of the classic MAD-3R Marauder, designed for use by second-line garrison and solahma forces, the Marauder C replaced some of the Inner Spheroid weaponry with Clan equivalents. The Marauder C swapped the PPCs for a pair of Clan-tech Large Pulse Lasers and the standard autocannon for a Ultra AC/5 model, but retained the IS medium lasers. The munitions for the autocannon were also protected with CASE.",
+        "Icon": "uixTxrIcon_marauder"
+    },
+    "simGameMechPartCost": 880000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 85,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 85,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 175,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 115,
+            "AssignedArmor": 175,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 85,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 85,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Autocannon_CUAC5_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_heavy",
+            "unit_range_long",
+            "unit_lance_sniper",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_hot",
+            "unit_speed_low",
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "Kurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "MinAppearanceDate": "3050-01-01T00:00:00Z"
+}

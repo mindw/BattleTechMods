@@ -1,0 +1,144 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_light",
+            "unit_range_short",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_speed_high",
+            "unit_armor_high",
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "Kurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_locust_LCT-C",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 1890000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Locust C",
+        "Id": "mechdef_locust_LCT-C",
+        "Name": "Locust",
+        "Details": "A Clan-tech retrofit of the classic Locust and intended for second-line and solahma troops, the Locust C replaced each of the arm-mounted Machine Guns with a Clan ER Small Laser which frees up the weight to replace the center Medium Laser with a Clan-grade Medium Pulse Laser.",
+        "Icon": "uixTxrIcon_locust"
+    },
+    "simGameMechPartCost": 190000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 20,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 20,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 20,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 20,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_CSmallLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_CSmallLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "3050-01-01T00:00:00Z"
+}

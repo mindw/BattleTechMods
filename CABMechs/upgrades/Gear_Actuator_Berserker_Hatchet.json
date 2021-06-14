@@ -14,8 +14,8 @@
         "Details": "The Assault Hatchet is a melee weapon equipped to the Berserker to apply force multiplication benefits in close combat. The Defience Type 4 model is affixed permanently to the 'Mech's right arm. It may be damaged and disabled, but it can be repaired.",
         "Icon": "UixSvgIcon_specialEquip_Melee"
     },
-    "BonusValueA": "+ 140 Melee Dmg.",
-    "BonusValueB": "",
+    "BonusValueA": "+140 Melee Dmg.",
+    "BonusValueB": "+1 to hit",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -76,6 +76,38 @@
             "vfxData": null,
             "instantModData": null,
             "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Hatchet-Attack_ToHitMelee-T1",
+                "Name": "HATCHET MELEE HIT CHANCE IMPROVED",
+                "Details": "Melee attacks attempted have their hit improved by [AMT].",
+                "Icon": "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "AccuracyModifier",
+                "operation": "Float_Add",
+                "modValue": "-1.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "Melee"
+            }
         }
     ],
     "ComponentTags": {

@@ -7,10 +7,11 @@
             "unit_heavy",
             "unit_range_medium",
             "unit_speed_high",
-            "unit_hot",
             "unit_lance_skirmisher",
             "unit_lance_assassin",
             "unit_role_flanker",
+            "unit_hot",
+            "unit_armor_high",
             "NotDavion",
             "NotLiao",
             "NotMarik",
@@ -125,8 +126,10 @@
             "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        }, 
+            "DamageLevel": "Functional",
+            "prefabName": "chrprfweap_lancelot_leftarm_gauss_bh1",
+            "hasPrefabName": true
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
@@ -153,7 +156,9 @@
             "ComponentDefID": "Weapon_Autocannon_AC5_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "DamageLevel": "Functional"
+            "DamageLevel": "Functional",
+            "prefabName": "chrprfweap_lancelot_rightarm_gauss_bh1",
+            "hasPrefabName": true
         }
     ]
 }

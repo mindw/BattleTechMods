@@ -428,10 +428,6 @@
 																										{
 																											"Name": "simple_LOF_hasLOFToAnyHostileFromReachableLocations",
 																											"TypeName": "HasLOFToAnyHostileFromReachableLocationsNode"
-																										},
-																										{
-																											"Name": "simple_lance_has_los",
-																											"TypeName": "LanceHasLOSNode"
 																										}
 																									]
 																								},
@@ -456,10 +452,6 @@
 																										{
 																											"Name": "not_simple_has_inRange",
 																											"TypeName": "EnemyInWeaponRangePlusMovedistanceNode"
-																										},
-																										{
-																											"Name": "not_simple_has_LOS",
-																											"TypeName": "LanceHasLOSNode"
 																										}
 																									]
 																								},
@@ -487,10 +479,6 @@
 																										{
 																											"Name": "second_not_simple_inRange",
 																											"TypeName": "EnemyInWeaponRangePlusMovedistanceNode"
-																										},
-																										{
-																											"Name": "second_not_simple_has_LOF",
-																											"TypeName": "LanceHasLOSNode"
 																										}
 																									]
 																								}

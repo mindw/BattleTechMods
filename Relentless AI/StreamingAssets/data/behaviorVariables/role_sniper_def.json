@@ -105,7 +105,7 @@
             "k" : "Float_MeleeVsUnsteadyTargetDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1
+		"floatVal" : 1.5
             }
 	},
 	{
@@ -115,7 +115,7 @@
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1
+		"floatVal" : 2
             }
 	},
 	{
@@ -160,7 +160,7 @@
 	    "k" : "Float_AppetitivePreferApproachingRearArcOfHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.3
 	    }
 	},
 	{
@@ -169,7 +169,7 @@
 	    "k" : "Float_SprintAppetitivePreferApproachingRearArcOfHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.4
+		"floatVal" : 0.3
 	    }
 	},
 	{

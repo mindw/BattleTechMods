@@ -675,6 +675,7 @@
         { "Type": "VehicleChassisDef", "Path": "vehicleChassis", "ShouldMergeJSON": false, "AddToDB": true },
         { "Path": "AdvancedMerge", "Type": "AdvancedJSONMerge" },
         { "Type": "WeaponDef", "Path": "weapon", "AddToDB": true },
-        { "Type": "WeaponDef", "Path": "weaponClan", "AddToDB": true }
+        { "Type": "WeaponDef", "Path": "weaponClan", "AddToDB": true },
+        { "Type": "GameTip", "Path": "GameTips", "ShouldAppendText": false }        
    ]
 }

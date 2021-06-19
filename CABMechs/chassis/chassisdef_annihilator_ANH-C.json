@@ -1,0 +1,272 @@
+{
+    "Description": {
+        "Cost": 10800000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Annihilator",
+        "Id": "chassisdef_annihilator_ANH-C",
+        "Name": "Annihilator",
+        "Details": "The most common Clan version, known simply as the Annihilator C, sports an Endo Steel frame, though with three less tons of armor protection, to mount a more powerful engine while upgrading the LB-X autocannon to ultra-autocannon variants, and swapping the standard medium lasers with ER models; this variant loses the pulse lasers and the head-mounted laser, however.",
+        "Icon": "uixTxrIcon_annihilator"
+    },
+    "MovementCapDefID": "movedef_annihilator_ANH-C",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_annihilator",
+    "PrefabIdentifier": "chrPrfMech_annihilatorBase-001",
+    "PrefabBase": "annihilator",
+    "Tonnage": 100,
+    "InitialTonnage": 32,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 42,
+    "MaxJumpjets": 3,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 115,
+    "MeleeInstability": 100,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 125,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 125,
+    "DFAInstability": 125,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 310,
+            "MaxRearArmor": 155,
+            "InternalStructure": 155
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 19,
+            "z": 0
+        },
+        {
+            "x": 4.5,
+            "y": 16,
+            "z": -0.5
+        },
+        {
+            "x": -4.5,
+            "y": 16,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 19,
+            "z": 0
+        },
+        {
+            "x": 4.5,
+            "y": 16,
+            "z": -0.5
+        },
+        {
+            "x": -4.5,
+            "y": 16,
+            "z": -0.5
+        },
+        {
+            "x": 3,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "ANH-C",
+    "ChassisTags": {
+        "items": [
+            "mech_case_left",
+            "mech_case_right",
+            "chassis_endo",
+            "chassis_DHS",
+            "chassis_clan"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper",
+    "YangsThoughts": "The most common Clan version, known simply as the Annihilator C, sports an Endo Steel frame, though with three less tons of armor protection, to mount a more powerful engine while upgrading the LB-X autocannon to ultra-autocannon variants, and swapping the standard medium lasers with ER models; this variant loses the pulse lasers and the head-mounted laser, however.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_General_GM_Ballistic_Siege_Compensators",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_EndoSteel_1_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

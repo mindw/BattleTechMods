@@ -12,7 +12,7 @@
             "unit_hot",
             "unit_armor_high",
             "unit_speed_high",
-            "unit_command", 
+            "unit_command",
             "NotDavion",
             "NotLiao",
             "NotMarik",
@@ -171,7 +171,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
-        }, 
+        },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",

@@ -2,7 +2,7 @@
     "Name": "Galaxy at War",
     "Enabled": true,
 
-    "Version": "4.5.2",
+    "Version": "4.6.3",
     "Author": "don Zappo and gnivler",
     
     "DLL": "GalaxyatWar.dll",
@@ -26,7 +26,7 @@
         "DResourceAdjustmentPerCycle" : 1,
 
         "InternalHotSpots" : 4,
-        "ExternalHotSpots" : 8,
+        "ExternalHotSpots" : 4,
         
         "ChangeDifficulty" : false,
         "ExpandedMap" : true,
@@ -39,8 +39,8 @@
         "ComstarDRBonus" : 500,
         "ComstarSupportTime" : 3,
         
-        "DeploymentMinDays" : 1,
-        "DeploymentMaxDays" : 3,
+        "DeploymentMinDays" : 2,
+        "DeploymentMaxDays" : 5,
         "DeploymentContracts" : 3.0,
         "DeploymentEscalationFactor" : 1.1,
         "InfluenceDivisor" : 1.25,
@@ -65,7 +65,7 @@
         "planet_industry_aquaculture" : 10,
         "planet_other_hub" : 15,
         "planet_other_capital" : 20,
-        "planet_pop_none" : 0,
+        "planet_pop_none" : 2,
         "planet_pop_small" : 4,
         "planet_pop_medium" : 6,
         "planet_pop_large" : 8,
@@ -100,8 +100,8 @@
             "Marik" : 250,
             "AuriganRestoration" : 250,
             "TaurianConcordat" : 250,
-            "Locals" : 250,
-            "NoFaction" : 250,
+            "Locals" : 300,
+            "NoFaction" : 300,
             "ComStar" : 0,
             "AuriganPirates" : 0
             },
@@ -156,7 +156,6 @@
             "Steiner" : "itemCollection_faction_Steiner",
             "NoFaction" : "itemCollection_minor_Locals",
             "Locals" : "itemCollection_minor_Locals",
-            "AuriganDirectorate" : "itemCollection_minor_Locals",
             "AuriganPirates" : "itemCollection_minor_Locals"
             },
         "FactionShops": {
@@ -184,7 +183,6 @@
             "ComStar" : "planet_faction_comstar",
             "Locals" : "planet_faction_independent",
             "NoFaction" : "planet_faction_nofaction",
-            "AuriganDirectorate" : "planet_faction_directorate",
             "AuriganPirates" : "planet_faction_auriganpirates"
             },
         //*** SimpleBattle: 3, DestroyBase: 6, CaptureBase: 7, CaptureEscort: 8, Rescue: 9, Assassinate: 10,
@@ -234,15 +232,6 @@
         
         //** Limit MaxContract on a system. Dictionary<string, int> of Systems. Formatted: "System Name" : 0    
         "LimitSystemContracts": { "" : 0 }, 
-        
-        //** Hyades Rim compatibility specific settings.
-        "HyadesRimCompatible" : false,
-        "HyadesPirates": [],
-        "HyadesFlashpointSystems": [],
-        "HyadesAppearingPirates": [],
-        "HyadesEmployersOnly": [],
-        "HyadesTargetsOnly": [],
-        "HyadesNeverControl": [],
             
         // ** ISM Compatibility specific section.   
         "ISMCompatibility" : false,

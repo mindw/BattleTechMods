@@ -1,0 +1,249 @@
+{
+    "Description": {
+        "Cost": 9590000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Orion IIC",
+        "Id": "chassisdef_orion_IIC",
+        "Name": "Orion IIC",
+        "Details": "Since it was the chosen BattleMech of the Great Father, the venerable Orion has always held a special place in the mystique of the Clans. Debuting early during the Golden Century, the Orion IIC was quickly overshadowed as the OmniMech fast became the standard front-line 'Mechs of all the Clans. Despite this the Wolves jealously guarded their rights to the design, refusing all trade offers and successfully defeating any Trial of Possessions attempting to acquire it as they would for the Kerensky Blood heritages, seeing the Orion IIC as tied to their honor as the guardians of Kerensky's legacy.",
+        "Icon": "uixTxrIcon_orioniic"
+    },
+    "MovementCapDefID": "movedef_orion_ON1-K",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_orioniic",
+    "PrefabIdentifier": "chrprfmech_orioniicbase-001",
+    "PrefabBase": "orioniic",
+    "Tonnage": 75,
+    "InitialTonnage": 31.0,
+    "weightClass": "HEAVY",
+    "Heatsinks": 42,
+    "MaxJumpjets": 4,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 85,
+    "MeleeInstability": 75,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 95,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0.0,
+            "y": 18.0,
+            "z": 18.0
+        },
+        {
+            "x": 4.0,
+            "y": 16.0,
+            "z": 16.0
+        },
+        {
+            "x": -4.0,
+            "y": 16.0,
+            "z": 16.0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0.0,
+            "y": 18.0,
+            "z": 18.0
+        },
+        {
+            "x": 4.0,
+            "y": 16.0,
+            "z": 16.0
+        },
+        {
+            "x": -4.0,
+            "y": 16.0,
+            "z": 16.0
+        },
+        {
+            "x": 3.0,
+            "y": 6.0,
+            "z": 6.0
+        },
+        {
+            "x": -3.0,
+            "y": 6.0,
+            "z": 6.0
+        }
+    ],
+    "VariantName": "ON1-IIC",
+    "ChassisTags": {
+        "items": [
+            "mech_case_left",
+            "mech_case_right",
+            "chassis_DHS",
+            "chassis_endo",
+            "chassis_ferro",
+            "chassis_clan"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper",
+    "YangsThoughts": " Orion IIC replaces much of the innards and weapons of the original, while preserving its mass and aesthetics. This IIC upgrade utilizes an Endo Steel chassis and twelve tons of Ferro-Fibrous armor, while also making use of twelve double heat sinks, freeing up weight for heavier weapons loadout.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

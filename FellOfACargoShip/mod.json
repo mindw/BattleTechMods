@@ -9,6 +9,7 @@
     "DLL": "FellOffACargoShip.dll",
 
     "Settings": {
-        "AddMechsSilently": false
+        "AddMechsSilently": false,
+        "UserDefinedMechsToAdd": []
     }
 }

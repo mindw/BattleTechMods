@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -197,5 +197,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The Ostroc is a pretty good heavy scout, but isn't really meant to tangle with your opponent's heavies.  But it isn't a bad harasser or anchor for a medium class scout lance."
+    "YangsThoughts": "The Ostroc is a pretty good heavy scout, but isn't really meant to tangle with your opponent's heavies.  But it isn't a bad harasser or anchor for a medium class scout lance.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]    
 }

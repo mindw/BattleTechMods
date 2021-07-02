@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -193,5 +193,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",
-    "YangsThoughts": "I call this one the facehugger. The Falcon is exceptional at ripping apart lighter mechs than itself, getting close enough to use those weapons on anything bigger is a quick trip to the salvage heap though."
+    "YangsThoughts": "I call this one the facehugger. The Falcon is exceptional at ripping apart lighter mechs than itself, getting close enough to use those weapons on anything bigger is a quick trip to the salvage heap though.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

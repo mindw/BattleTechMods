@@ -49,7 +49,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -191,5 +191,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "For a light 'Mech, the COM-3A can dish out a lot of damage in a single volley.  Though it is bound to chew up that ammo faster than my techs could go through a case of Triple-F Burgers."
+    "YangsThoughts": "For a light 'Mech, the COM-3A can dish out a lot of damage in a single volley.  Though it is bound to chew up that ammo faster than my techs could go through a case of Triple-F Burgers.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

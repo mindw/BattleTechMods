@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -189,5 +189,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "I have mixed feelings on this, the 1C tries to be a direct fire support 'Mech, but doesn't really pack enough of a punch with its AC2, on top of that, they removed the JumpJets that would allow it to get the angle on the shots it needs.  I suppose in an open environment it could harass an incoming unit."
+    "YangsThoughts": "I have mixed feelings on this, the 1C tries to be a direct fire support 'Mech, but doesn't really pack enough of a punch with its AC2, on top of that, they removed the JumpJets that would allow it to get the angle on the shots it needs. I suppose in an open environment it could harass an incoming unit.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]    
 }

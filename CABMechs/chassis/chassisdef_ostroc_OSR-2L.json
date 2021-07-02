@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -197,5 +197,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "I could have made this modification to the 2C model myself Commander, but here is the ready made long range variant of the Ostroc.  Not that an LRM-5 makes the 2L all that formidable as fire support."
+    "YangsThoughts": "I could have made this modification to the 2C model myself Commander, but here is the ready made long range variant of the Ostroc.  Not that an LRM-5 makes the 2L all that formidable as fire support.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

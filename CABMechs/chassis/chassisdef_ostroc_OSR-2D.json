@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -199,5 +199,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The Ostroc 2D makes a nice upgrade for very little change. The two Large Lasers got the ER treatment, but this is more than compensated by the switch to double heat sinks."
+    "YangsThoughts": "The Ostroc 2D makes a nice upgrade for very little change. The two Large Lasers got the ER treatment, but this is more than compensated by the switch to double heat sinks.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

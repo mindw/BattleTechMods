@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -201,5 +201,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "Boss, despite only having two weapons, the OTL-4F's twin PPCs are going to overheat it in any sort of sustained firefight - unless you're lucky enough to be on an ice word, in a river of liquid nitrogen, while eating a snowcone... hmmm, I wonder if we have any of that syrup stuff in the galley."
+    "YangsThoughts": "Boss, despite only having two weapons, the OTL-4F's twin PPCs are going to overheat it in any sort of sustained firefight - unless you're lucky enough to be on an ice word, in a river of liquid nitrogen, while eating a snowcone... hmmm, I wonder if we have any of that syrup stuff in the galley.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

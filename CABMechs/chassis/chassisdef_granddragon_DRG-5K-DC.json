@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -217,6 +217,14 @@
     "StockRole": "Skirmisher",
     "YangsThoughts": "Adding a command console to the iconic Kurita Grand Dradon kinda makes sense - if your a drac. The 5K one of the fastest heavies there are with good armor and double heatsinks. It also sports an XL engine so the destruction of torso will take out both the commander and the pilot. The loss of a medium laser and heatsinks isn't a big deal here.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

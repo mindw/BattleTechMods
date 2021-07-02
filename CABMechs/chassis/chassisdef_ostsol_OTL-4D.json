@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -206,5 +206,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The Ostsol 4D is a great 'Mech for a merc outfit like ours Commander as it doesn't rely on ammo, so no need to worry about resupply costs.  It also has an impressive array of firepower.  But the pilot is going to have to watch their heat.  We could probably swap out a Medium Laser or two for extra Heat Sinks."
+    "YangsThoughts": "The Ostsol 4D is a great 'Mech for a merc outfit like ours Commander as it doesn't rely on ammo, so no need to worry about resupply costs.  It also has an impressive array of firepower.  But the pilot is going to have to watch their heat.  We could probably swap out a Medium Laser or two for extra Heat Sinks.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

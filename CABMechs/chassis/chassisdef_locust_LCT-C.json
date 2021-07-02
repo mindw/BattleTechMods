@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -194,5 +194,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout",
-    "YangsThoughts": "A Clan-tech retrofit of the classic Locust and intended for second-line and solahma troops, the Locust C replaced each of the arm-mounted Machine Guns with a Clan ER Small Laser which frees up the weight to replace the center Medium Laser with a Clan-grade Medium Pulse Laser."
+    "YangsThoughts": "A Clan-tech retrofit of the classic Locust and intended for second-line and solahma troops, the Locust C replaced each of the arm-mounted Machine Guns with a Clan ER Small Laser which frees up the weight to replace the center Medium Laser with a Clan-grade Medium Pulse Laser.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -203,5 +203,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "I always had a soft spot for the Dragon 1C, it was one of the 'Mechs I first trained on.  Though it is a little bittersweet, as a hiccup in the controls caused me to lose my right foot."
+    "YangsThoughts": "I always had a soft spot for the Dragon 1C, it was one of the 'Mechs I first trained on.  Though it is a little bittersweet, as a hiccup in the controls caused me to lose my right foot.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

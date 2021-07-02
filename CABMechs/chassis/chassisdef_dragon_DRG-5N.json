@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -210,5 +210,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The Dragon 5N trades close range for long-range fire-power. Playing the same role as the 1N, it is a beefy machine that can take a serious beating but tends to be a bit light on weaponry. It moves fast for a heavy 'Mech, though, which makes it well suited to closing for Melee attacks against slower targets."
+    "YangsThoughts": "The Dragon 5N trades close range for long-range fire-power. Playing the same role as the 1N, it is a beefy machine that can take a serious beating but tends to be a bit light on weaponry. It moves fast for a heavy 'Mech, though, which makes it well suited to closing for Melee attacks against slower targets.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -200,10 +200,20 @@
     "VariantName": "LNC25-02",
     "ChassisTags": {
         "items": [
-            "mr-resize-1.05-1.05-1.05"
+            "mr-resize-1.05"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
-    "YangsThoughts": "The Lancelot is an awesome star league platform that has suffered from the loss of the double heat sinks and smaller engine. As the 'Mech comes stock it is thinly armored and can't make use of all it's weapons consistently because of low heat dissipation. On the bright side, it has no ammo dependency, but still has massive potential fire power."
+    "YangsThoughts": "The Lancelot is an awesome star league platform that has suffered from the loss of the double heat sinks and smaller engine. As the 'Mech comes stock it is thinly armored and can't make use of all it's weapons consistently because of low heat dissipation. On the bright side, it has no ammo dependency, but still has massive potential fire power.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

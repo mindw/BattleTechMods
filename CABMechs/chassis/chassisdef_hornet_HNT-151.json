@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -187,10 +187,20 @@
     "VariantName": "HNT-151",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.85-0.85-0.85"
+            "mr-resize-0.85"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "The Hornet is designed around the concept of being able to swiftly move through an urban environment with relatively heavy armor. Overall, because of its eclectic mix of weapons and relatively slow speed, the Hornet is only somewhat effective when inside of a city. When caught outside an urban environment the 'Mech is hard pressed to defend itself."
+    "YangsThoughts": "The Hornet is designed around the concept of being able to swiftly move through an urban environment with relatively heavy armor. Overall, because of its eclectic mix of weapons and relatively slow speed, the Hornet is only somewhat effective when inside of a city. When caught outside an urban environment the 'Mech is hard pressed to defend itself.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

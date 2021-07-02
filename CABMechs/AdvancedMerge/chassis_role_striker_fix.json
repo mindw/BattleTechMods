@@ -1,8 +1,6 @@
 {
     "TargetIDs": [
         "chassisdef_javelin_JVN-10F",
-        "chassisdef_commando_COM-1B",
-        "chassisdef_commando_COM-2D",
         "chassisdef_jenner_JR7-D"
     ],
     "Instructions": [

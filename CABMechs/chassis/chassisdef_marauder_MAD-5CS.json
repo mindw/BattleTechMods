@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -198,6 +198,14 @@
     "StockRole": "Sniper",
     "YangsThoughts": "A Clan Buster upgrade, the Marauder 7CS was developed specifically for Tukayyid. More or less an upgrade package for the Marauder 3R, the 5CS used Star League era technology to improve it’s effectiveness against the Clans, while being designed to be for new pilots to use. Powered by a 300 rated XL Engine with DHS, the Marauder 5CS is armed with a pair of ER PPC’s, a pair of Medium Pulse Lasers and an LB-10X.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

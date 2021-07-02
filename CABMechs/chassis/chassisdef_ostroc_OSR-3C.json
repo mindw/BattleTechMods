@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -197,5 +197,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The OSR-3C is a variant that really could have benefitted from the 'ol Star League coolers, but without those double capacity heat sinks, the 3C makes a great punishment duty 'Mech on a Martian biome...  Why are you looking at me like that?"
+    "YangsThoughts": "The OSR-3C is a variant that really could have benefitted from the 'ol Star League coolers, but without those double capacity heat sinks, the 3C makes a great punishment duty 'Mech on a Martian biome...  Why are you looking at me like that?",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

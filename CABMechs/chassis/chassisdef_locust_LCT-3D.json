@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -209,11 +209,19 @@
     "YangsThoughts": "The Locust's 3D model is interesting in that it can churn out a decent volley of LRMs for such a small 'Mech. It's a great harasser, especially if you can use its speed to lob missiles into the weaker rear armor of targets. They at least managed to make this variant be able to stand a stiff wind with the Ferro-Fibrous armor.",
     "FixedEquipment": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -221,7 +229,7 @@
             "ComponentDefID": "Gear_EndoFerroCombo_7_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -229,7 +237,7 @@
             "ComponentDefID": "Gear_EndoFerroCombo_7_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -237,7 +245,7 @@
             "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -245,7 +253,7 @@
             "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -253,7 +261,7 @@
             "ComponentDefID": "Gear_EndoFerroCombo_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         }
     ]

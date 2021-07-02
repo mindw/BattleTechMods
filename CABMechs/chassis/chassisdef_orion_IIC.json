@@ -211,7 +211,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",
-    "YangsThoughts": " Orion IIC replaces much of the innards and weapons of the original, while preserving its mass and aesthetics. This IIC upgrade utilizes an Endo Steel chassis and twelve tons of Ferro-Fibrous armor, while also making use of twelve double heat sinks, freeing up weight for heavier weapons loadout.",
+    "YangsThoughts": "Orion IIC replaces much of the innards and weapons of the original, while preserving its mass and aesthetics. This IIC upgrade utilizes an Endo Steel chassis and twelve tons of Ferro-Fibrous armor, while also making use of twelve double heat sinks, freeing up weight for heavier weapons loadout.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",

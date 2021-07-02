@@ -1,5 +1,4 @@
 {
-    "MeleeDamage": 70,
     "Locations": [
         {
             "Location": "Head",
@@ -23,14 +22,50 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 9,
-            "MaxArmor": 100,
+            "InventorySlots": 8,
+            "MaxArmor": 40,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 20
         },
         {
             "Location": "LeftTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "CenterTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 60,
+            "MaxRearArmor": 30,
+            "InternalStructure": 30
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -41,76 +76,31 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 140,
-            "MaxRearArmor": 70,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 200,
-            "MaxRearArmor": 100,
-            "InternalStructure": 100
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 140,
-            "MaxRearArmor": 70,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 9,
-            "MaxArmor": 100,
+            "InventorySlots": 8,
+            "MaxArmor": 40,
             "MaxRearArmor": -1,
-            "InternalStructure": 50
+            "InternalStructure": 20
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 140,
+            "MaxArmor": 60,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 30
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 140,
+            "MaxArmor": 60,
             "MaxRearArmor": -1,
-            "InternalStructure": 70
+            "InternalStructure": 30
         }
     ],
-    "StockRole": "Skirmisher",
+    "StockRole": "Striker",
     "FixedEquipment": [
         {
             "MountedLocation": "Head",

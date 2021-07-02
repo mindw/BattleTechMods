@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -199,6 +199,14 @@
     "StockRole": "Skirmisher",
     "YangsThoughts": "The Free Worlds League Marauder 5M changes the role of the Marauder substantially. The Star League era weaponry fitted is much more suited to close range and the addition of Jump Jets isn't the first time it's been done on a MAD, but with the kind of work this mech will be doing, it really works.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

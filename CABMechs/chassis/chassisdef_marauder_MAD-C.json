@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -210,6 +210,14 @@
     "StockRole": "Sniper",
     "YangsThoughts": "A Clan-tech retrofit of the classic MAD-3R Marauder, designed for use by second-line garrison and solahma forces, the Marauder C replaced some of the Inner Spheroid weaponry with Clan equivalents. The Marauder C swapped the PPCs for a pair of Clan-tech Large Pulse Lasers and the standard autocannon for a Ultra AC/5 model, but retained the IS medium lasers. The munitions for the autocannon were also protected with CASE.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_General_Lance_Command_Module",

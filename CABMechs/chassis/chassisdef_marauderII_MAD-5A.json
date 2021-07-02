@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -210,6 +210,14 @@
     "StockRole": "Sniper",
     "YangsThoughts": "Who looks at a Marauder and says to themselves 'that could be bigger and slap on some JumpJets while you're at it'.  Those Dragoons are insane.  But, I gotta say, this is an improvement on the standard Marauder in just about every way - aside from still having heat issues.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

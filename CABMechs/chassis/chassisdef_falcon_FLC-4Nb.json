@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -197,6 +197,14 @@
     "StockRole": "Striker",
     "YangsThoughts": "The ultimate Falcon, that Snub-nose PPC will give a hell of a surprise to 'Mechs twice it size, not to mention being even better at ripping apart scout mechs. It is vulnerable to any kind of infatry though. Shame this one is no loger with us.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoSteel_3_Slot",

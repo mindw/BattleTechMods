@@ -1,15 +1,15 @@
 {
     "DissipationCapacity": 6,
     "Description": {
-        "Cost": 240000,
-        "Rarity": 5,
+        "Cost": 120000,
+        "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Generic",
         "Model": "Double",
-        "UIName": "Clan Heat Sink (D)",
-        "Id": "Gear_HeatSink_Clan_Double",
-        "Name": "Clan Double Heat Sink (D)",
-        "Details": "Clan Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Clan double heat sinks are not as bulky as their Inner Sphere counter parts.",
+        "UIName": "Heat Sink (D)",
+        "Id": "Gear_HeatSink_Generic_Double",
+        "Name": "Double Heat Sink (D)",
+        "Details": "Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
         "Icon": "uixSvgIcon_equipment_Heatsink"
     },
     "BonusValueA": "-6 Heat / Turn",
@@ -18,7 +18,7 @@
     "ComponentSubType": "Heatsink",
     "PrefabIdentifier": "",
     "BattleValue": 0,
-    "InventorySize": 2,
+    "InventorySize": 3,
     "Tonnage": 1,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
@@ -27,8 +27,7 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "component_type_lostech",
-            "component_type_clan"
+            "component_type_lostech"
         ],
         "tagSetSourceFile": ""
     }

@@ -92,7 +92,9 @@
         "Autofill": true,
         "ExcludeContractTypes": [
             "SoloDuel",
-            "DuoDuel"
+            "DuoDuel",
+            "DefendBase",
+            "FireMission"
         ],
         "SkipWhenTaggedWithAny": [
             "lance_type_solo"

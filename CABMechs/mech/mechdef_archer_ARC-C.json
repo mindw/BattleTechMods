@@ -236,6 +236,7 @@
             "unit_speed_low",
             "unit_armor_high",
             "unit_indirectFire",
+            "unit_clan",
             "Davion",
             "NotLiao",
             "NotMarik",

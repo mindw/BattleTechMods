@@ -12,12 +12,13 @@
     "ChassisID": "vehiclechassisdef_PARTISAN",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.4",
+            "unit_release",
             "unit_vehicle",
             "unit_assault",
             "unit_tracks",
             "unit_range_long",
             "unit_armor_low",
-            "unit_release",
             "unit_common"
         ],
         "tagSetSourceFile": ""

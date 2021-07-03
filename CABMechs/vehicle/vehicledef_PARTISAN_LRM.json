@@ -12,6 +12,8 @@
     "ChassisID": "vehiclechassisdef_PARTISAN_LRM",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.4",
+            "unit_release",
             "unit_vehicle",
             "unit_assault",
             "unit_tracks",
@@ -19,7 +21,6 @@
             "unit_armor_low",
             "unit_lance_support",
             "unit_indirectFire", 
-            "unit_release",
             "Davion",
             "Liao",
             "Marik",

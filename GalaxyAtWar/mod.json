@@ -12,8 +12,8 @@
     ], 
     "Settings": 
     {
-        "StartingPirateActivity" : 40.0,
-        "BonusPirateResources" : 500.0,
+        "StartingPirateActivity" : 5.0,
+        "BonusPirateResources" : 100.0,
         "PirateSystemFlagValue" : 10.0,
         "FractionPirateResources" : 1,
         
@@ -71,6 +71,9 @@
         "planet_pop_large" : 8,
         "planet_other_megacity" : 10,
         "planet_other_comstar" : 0,
+        
+        "MaxContracts": 4,
+        "SetMaxContracts": true,
         
         "IncludedFactions": [
             "Davion",

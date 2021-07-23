@@ -41,7 +41,6 @@
             "weapons": [
                 [
                     "chrPrfWeap_dervish_lefttorso_laser_eh1",
-                    "chrPrfWeap_dervish_lefttorso_ac20_bh1",
                     "chrPrfWeap_dervish_lefttorso_ppc_eh1",
                     "chrPrfWeap_dervish_lefttorso_flamer_eh1",
                     "chrPrfWeap_dervish_lefttorso_srm20_mh1",
@@ -63,7 +62,6 @@
                 [
                     "chrPrfWeap_dervish_rightarm_laser_eh1",
                     "chrPrfWeap_dervish_rightarm_ppc_eh1",
-                    "chrPrfWeap_dervish_rightarm_ac20_bh1",
                     "chrPrfWeap_dervish_rightarm_flamer_eh1"
                 ],
                 [

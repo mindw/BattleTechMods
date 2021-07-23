@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -213,6 +213,14 @@
     "StockRole": "Skirmisher",
     "YangsThoughts": "Designed to get in close and deliver a brutal payload, the Thunder is one of the newest heavies for the Capellans. The high rated extra light engine allows the 'Mech to get in close faster with it's shorter range weaponry, but at a cost of longevity.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Cowl",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

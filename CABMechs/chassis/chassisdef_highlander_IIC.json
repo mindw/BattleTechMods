@@ -48,7 +48,7 @@
             "Location": "Head",
             "HardPoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -200,13 +200,21 @@
             "mech_case_left",
             "mech_case_right",
             "chassis_ferro",
-            "chassis_clan",
+            "chassis_clan"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
     "YangsThoughts": "Boss, that IIC is misleading. Weapon wise, the load out is almost the same - with some obvious clan twists. It has a much better heat curve and can stay in the field longer thanks to generous ammo bins. Be wary of this beast commander.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Cowl",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_FerroFibrous_2_Slot",

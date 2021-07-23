@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -207,5 +207,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "The Highlander 733C sacrifices some of the 733's long range ability to give it a more specialized close assault load-out.  Though I am kind of surprised they didn't add in some Machine Guns or Small Lasers to really give it that extra punch in melee."
+    "YangsThoughts": "The Highlander 733C sacrifices some of the 733's long range ability to give it a more specialized close assault load-out.  Though I am kind of surprised they didn't add in some Machine Guns or Small Lasers to really give it that extra punch in melee.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Cowl",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

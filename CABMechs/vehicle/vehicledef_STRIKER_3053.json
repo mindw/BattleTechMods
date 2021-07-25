@@ -1,0 +1,118 @@
+{
+    "Version": 1,
+    "Description": {
+        "Id": "vehicledef_STRIKER_3053",
+        "Name": "Striker Light Tank 3053",
+        "Details": "",
+        "Icon": "",
+        "Cost": 564,
+        "Rarity": 0,
+        "Purchasable": false
+    },
+    "ChassisID": "vehiclechassisdef_STRIKER_3053",
+    "VehicleTags": {
+        "items": [
+            "mr-resize-1.50",
+            "unit_release",
+            "unit_vehicle",
+            "unit_light",
+            "unit_wheels",
+            "unit_speed_low",
+            "unit_indirectFire",
+            "unit_range_long",
+            "unit_lance_missile_boat",
+            "unit_lance_support",
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "Steiner",
+            "Kurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Locations": [
+        {
+            "Location": "Front",
+            "CurrentArmor": 130,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 130,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Left",
+            "CurrentArmor": 115,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 115,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Right",
+            "CurrentArmor": 115,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 115,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Rear",
+            "CurrentArmor": 100,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 100,
+            "DamageLevel": "Functional"
+        },
+        {
+            "Location": "Turret",
+            "CurrentArmor": 120,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 120,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "inventory": [
+        {
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_Streak_SRM_SRM2_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_LRM_LRM15_Artemis_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "MountedLocation": "Turret",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRMStreak",
+            "ComponentDefType": "AmmunitionBox",
+            "MountedLocation": "Front",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "MountedLocation": "Front",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "3053-01-01T00:00:00Z"
+}

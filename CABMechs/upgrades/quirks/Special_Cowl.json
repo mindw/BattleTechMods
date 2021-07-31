@@ -1,10 +1,7 @@
 {
-    "StatName": null,
-    "RelativeModifier": 0,
-    "AbsoluteModifier": 0,
     "Description": {
         "Cost": 0,
-        "Rarity": 3,
+        "Rarity": 99,
         "Purchasable": false,
         "Manufacturer": "Ceres Metals",
         "Model": "Aegis Mk V",
@@ -19,7 +16,6 @@
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
-    "BattleValue": 0,
     "InventorySize": 1,
     "Tonnage": 0.0,
     "AllowedLocations": "Head,CenterTorso",
@@ -34,8 +30,8 @@
             "targetingData": {
                 "effectTriggerType": "Passive",
                 "effectTargetType": "Creator",
-                "showInTargetPreview": false,
-                "showInStatusPanel": false
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
@@ -60,8 +56,8 @@
             "targetingData": {
                 "effectTriggerType": "Passive",
                 "effectTargetType": "Creator",
-                "showInTargetPreview": false,
-                "showInStatusPanel": false
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
@@ -83,8 +79,7 @@
     "ComponentTags": {
         "items": [
             "NO-CRIT",
-            "BUILT-IN",
-            "BLACKLISTED"
+            "BUILT-IN"
         ],
         "tagSetSourceFile": ""
     }

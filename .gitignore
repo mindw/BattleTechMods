@@ -14,5 +14,7 @@ CAB-*/
 /CABMechs/vehicleChassis-wip/
 /CABMechs/vehicle-wip/
 /AIToolkit/_Dump*/
-log.txt
+log*.txt
 /CPLHelper/portraits/
+/GalaxyAtWar/dump_extra.json
+/GalaxyAtWar/tag.json

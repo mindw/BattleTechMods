@@ -14,8 +14,8 @@
         "items": [
             "mr-resize-1.40",
             "unit_vehicle",
+            "unit_hover",
             "unit_light",
-            "unit_wheels",
             "unit_range_medium",
             "unit_speed_high",
             "unit_armor_high",

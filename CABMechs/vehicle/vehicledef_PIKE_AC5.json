@@ -26,15 +26,16 @@
             "NotMarik",
             "NotSteiner",
             "NotKurita",
+            "NotComStar",
             "MagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
-            "NotAuriganDirectorate",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotMercenaryReviewBoard",
             "NotAuriganPirates",
-            "NotAuriganMercenaries"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

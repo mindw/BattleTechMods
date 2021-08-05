@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -206,6 +206,14 @@
     "YangsThoughts": "A Clan-tech retrofit of the standard Star League Defense Force ARC-2R Archer and intended for second-line and solahma troops, the Archer C replaced all Inner Sphere weaponry with their Clan counterparts without modifying any structural components. The Archer C mounted a pair of LRM-20s and a quartet of ER Medium Lasers.",
     "StockRole": "Missile Boat",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_General_Enhanced_Missilery_System",

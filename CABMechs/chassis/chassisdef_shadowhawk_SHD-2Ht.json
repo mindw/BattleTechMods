@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -221,4 +221,14 @@
     },
     "StockRole": "Skirmisher",
     "YangsThoughts": "This is no 'rush' job boss. This refit package is easy to install in the field and turns a lackluster classic into a dangerous close range skirmisher. To top things up the jump range maxed out and the the armor got a nice boost. Be careful when engaging ComStar Shadow Hawks, you'll know which variant it is only after if fired ...",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

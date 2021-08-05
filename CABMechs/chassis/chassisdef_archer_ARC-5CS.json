@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -209,6 +209,14 @@
     "StockRole": "Missile Boat",
     "YangsThoughts": "Between robustness and fire power, ComStar's 5CS picks the latter. Four Artemis IV powered long range missile racks deliver 60 missiles per salvo, just don't expect it to punch its way out once running dry.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

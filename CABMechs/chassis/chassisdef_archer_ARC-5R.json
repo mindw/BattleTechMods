@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -211,6 +211,14 @@
     "StockRole": "Missile Boat",
     "YangsThoughts": "Well boss, you don't really need to worry about running out of missiles - those extended range lasers pack a nasty punch. Just don't fire both unless you want to cook yourelf - freezers and all. The LRMs as smaller and the armor is weaker too - so be sure to stay at long range. All in all - a worthwhile improvement over the 2K.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoSteel_2_Slot",

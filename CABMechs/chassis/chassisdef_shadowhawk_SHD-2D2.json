@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -209,5 +209,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
-    "YangsThoughts": "The Shadow Hawk 2D2 is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge."
+    "YangsThoughts": "The Shadow Hawk 2D2 is an interesting model. Its default payload sacrifices a lot of armor to mount a bit more firepower, though some argue the tradeoff isn't worth it. Its Alpha Strikes <i>are</i> better, though, so… I guess you can be the judge.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]    
 }

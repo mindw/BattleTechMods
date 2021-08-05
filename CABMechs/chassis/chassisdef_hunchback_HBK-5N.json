@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -197,5 +197,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "While officialy introduced eleven years after the 5M, unofficially the 5N appeared right after the first real engagement. The CASE and the small pulse laser were thrown out and one much needed ton of ammo was put in. What were they thinking?!. The freezers are kept but the three extra ones are still an overkill."
+    "YangsThoughts": "While officialy introduced eleven years after the 5M, unofficially the 5N appeared right after the first real engagement. The CASE and the small pulse laser were thrown out and one much needed ton of ammo was put in. What were they thinking?!. The freezers are kept but the three extra ones are still an overkill.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

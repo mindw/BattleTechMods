@@ -1,0 +1,31 @@
+{
+    "TargetIDs": [
+        "chassisdef_griffin_GRF-1N",
+        "chassisdef_griffin_GRF-1S",
+        "chassisdef_awesome_AWS-8Q",
+        "chassisdef_awesome_AWS-8T"        
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.Locations[?(@.Location=='Head')].InventorySlots",
+            "Action": "Replace",
+            "Value": 2
+        },
+        {
+            "JSONPath": "$",
+            "Action": "ObjectMerge",
+            "Value": {
+                "FixedEquipment": [
+                    {
+                        "MountedLocation": "Head",
+                        "ComponentDefID": "Special_Battle_Fists",
+                        "ComponentDefType": "Upgrade",
+                        "HardpointSlot": -1,
+                        "IsFixed": true,
+                        "DamageLevel": "Functional"
+                    }
+                ]
+            }
+        }
+    ]
+}

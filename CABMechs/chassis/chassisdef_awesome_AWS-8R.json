@@ -57,7 +57,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -220,5 +220,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "The main benefit of this variant is its ability to lob indirect fire.  Otherwise this is a case where I prefer the original recipe."
+    "YangsThoughts": "The main benefit of this variant is its ability to lob indirect fire.  Otherwise this is a case where I prefer the original recipe.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

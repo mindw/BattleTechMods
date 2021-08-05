@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -219,5 +219,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "While the Atlas AS7-A lacks the solid punch of the AC20, getting peppered by thirty SRMs in one volley is terrifying.  Strange that they swapped the torsos for the load-outs from the AS7-D though, seems like more trouble than its worth."
+    "YangsThoughts": "While the Atlas AS7-A lacks the solid punch of the AC20, getting peppered by thirty SRMs in one volley is terrifying.  Strange that they swapped the torsos for the load-outs from the AS7-D though, seems like more trouble than its worth.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

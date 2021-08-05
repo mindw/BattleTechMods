@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -223,6 +223,14 @@
     "StockRole": "Skirmisher",
     "YangsThoughts": "The SLDF Royal upgrade of the Shadow Hawk shifts the role of the 'Mech towards a close-range brawler. Introduced in 2752 its weapon systems are replaced with an LB 10-X AC, two Streak SRM2s and two Medium Lasers, cooled by double-strength heatsinks.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",

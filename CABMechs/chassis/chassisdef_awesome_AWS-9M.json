@@ -57,7 +57,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -221,6 +221,14 @@
     "StockRole": "Brawler",
     "YangsThoughts": "I think someone got a double heat sink spray paint and went in heavy on the The Awesome 9M. It's needed though, the 9M mounts an insane trio of ER PPCs that can destroy, knock down, or debilitate any target in no time. It's ungainly, but it can shrug off huge amounts of incoming fire.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

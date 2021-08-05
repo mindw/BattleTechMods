@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -221,6 +221,14 @@
     "StockRole": "Sniper",
     "YangsThoughts": "The Atlas K is the hotter and more formidable at range brother to the Atlas D. The firepower has been taken up a notch, although the heat asks too much of the single heat sinks installed as stock.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

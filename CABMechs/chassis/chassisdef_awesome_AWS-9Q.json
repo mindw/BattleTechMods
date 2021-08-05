@@ -57,7 +57,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -214,5 +214,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",
-    "YangsThoughts": "At last, we come to what many would consider the jewel of the AWS lineup, or, well, peak Awesome as it were. The -9Q applies those Helm Upgrades most intelligently; leaving the fragile XL engine behind to revert to a 3/5 movement profile and eschewing the high-heat ER PPCs for the standard models, carrying not two, not three, but FOUR of the bee-yoo-tiful things. Coupled with enough double heat sinks (19!) to run and gun without immediately suffering adverse consequences, and a Guardian ECM just because, the 9Q is a throwback to the 8Q, with more gun and less heat. Who wouldn't love it?"
+    "YangsThoughts": "At last, we come to what many would consider the jewel of the AWS lineup, or, well, peak Awesome as it were. The -9Q applies those Helm Upgrades most intelligently; leaving the fragile XL engine behind to revert to a 3/5 movement profile and eschewing the high-heat ER PPCs for the standard models, carrying not two, not three, but FOUR of the bee-yoo-tiful things. Coupled with enough double heat sinks (19!) to run and gun without immediately suffering adverse consequences, and a Guardian ECM just because, the 9Q is a throwback to the 8Q, with more gun and less heat. Who wouldn't love it?",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

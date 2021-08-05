@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -198,5 +198,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "It took 'only' 12 years for Kali Yama to get their act together. Now we finally have a Hunchback with four tons of ammo protected by CASE. All it took is to remove three useless heat sinks."
+    "YangsThoughts": "It took 'only' 12 years for Kali Yama to get their act together. Now we finally have a Hunchback with four tons of ammo protected by CASE. All it took is to remove three useless heat sinks.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

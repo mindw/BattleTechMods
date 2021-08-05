@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -198,5 +198,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "The Hunchback 5M is a basic upgrade of the tried and tested 4G model. Now using double heat sinks and CASE to protect the ammo, it's not revolutionary, but it's pilots are going to enjoy the extra room to fire more under heat, until that 1 tonne of ammo runs out of course."
+    "YangsThoughts": "The Hunchback 5M is a basic upgrade of the tried and tested 4G model. Now using double heat sinks and CASE to protect the ammo, it's not revolutionary, but it's pilots are going to enjoy the extra room to fire more under heat, until that 1 tonne of ammo runs out of course.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

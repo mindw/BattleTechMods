@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -215,6 +215,14 @@
     "StockRole": "Sniper",
     "YangsThoughts": "Griffin 3M long range capability is a step up from the older models. Even though this model has been upgraded to double heat sinks it can still run hot because of the new weaponry.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -211,6 +211,14 @@
     "StockRole": "Missile Boat",
     "YangsThoughts": "The ARC-4M Archer is a straight upgrade from the common 2R model in all respects. The extra weight freed up by the superior Endo Steel frame allows for Artemis IV systems, CASE to protect limit ammo explosion issues, and a bit more armor.  If the sight of Archers in the Op For wasn't terrifying enough already...",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoSteel_6_Slot",

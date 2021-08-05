@@ -19,10 +19,7 @@
     "Tonnage": 55,
     "InitialTonnage": 28,
     "weightClass": "MEDIUM",
-    "BattleValue": 5171000,
     "Heatsinks": 3,
-    "TopSpeed": 80,
-    "TurnRadius": 90,
     "MaxJumpjets": 5,
     "Stability": 130,
     "StabilityDefenses": [
@@ -56,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -206,5 +203,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "A Clan-tech retrofit of the classic Shadow Hawk intended for second-line and solahma troops. This field modification removed all Inner Sphere weaponry, instead carrying a LB 5-X AC, a LRM-5, a Streak SRM-2 and an ER Medium Laser. Two jump jets and a heatsink use up the remaining tonnage."
+    "YangsThoughts": "A Clan-tech retrofit of the classic Shadow Hawk intended for second-line and solahma troops. This field modification removed all Inner Sphere weaponry, instead carrying a LB 5-X AC, a LRM-5, a Streak SRM-2 and an ER Medium Laser. Two jump jets and a heatsink use up the remaining tonnage.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

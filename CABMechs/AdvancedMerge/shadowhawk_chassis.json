@@ -1,0 +1,29 @@
+{
+    "TargetIDs": [
+        "chassisdef_shadowhawk_SHD-2D",
+        "chassisdef_shadowhawk_SHD-2H"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.Locations[?(@.Location=='Head')].InventorySlots",
+            "Action": "Replace",
+            "Value": 2
+        },
+        {
+            "JSONPath": "$",
+            "Action": "ObjectMerge",
+            "Value": {
+                "FixedEquipment": [
+                    {
+                        "MountedLocation": "Head",
+                        "ComponentDefID": "Special_Battle_Fists",
+                        "ComponentDefType": "Upgrade",
+                        "HardpointSlot": -1,
+                        "IsFixed": true,
+                        "DamageLevel": "Functional"
+                    }
+                ]
+            }
+        }
+    ]
+}

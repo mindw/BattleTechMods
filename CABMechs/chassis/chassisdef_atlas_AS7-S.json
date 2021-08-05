@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -218,5 +218,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "The Atlas S is a subtle but effective upgrade to the king. This monster has even better cooling efficiency and streak missile technology to help deal with any fast moving opposition."
+    "YangsThoughts": "The Atlas S is a subtle but effective upgrade to the king. This monster has even better cooling efficiency and streak missile technology to help deal with any fast moving opposition.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]        
 }

@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -211,6 +211,14 @@
     "StockRole": "Missile Boat",
     "YangsThoughts": "With both heat and ammmo issues solved the Royal SLDF Archer is the king of \"missile boats\". It is capable hurling deadly swarms of LRMs at targets while dishing out pain to anyone getting closer-range.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoSteel_6_Slot",

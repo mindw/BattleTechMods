@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -211,5 +211,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "Modified to aid with indirect fire support as well as being able to act as a guardian for fire support lances, the HBK-4J succeeds at both roles.  With its twin LRM-10s it can contribute to the barrage, whilest its five Medium Lasers allow it to fend off the Light 'Mechs that tend to harass fire support teams."
+    "YangsThoughts": "Modified to aid with indirect fire support as well as being able to act as a guardian for fire support lances, the HBK-4J succeeds at both roles.  With its twin LRM-10s it can contribute to the barrage, whilest its five Medium Lasers allow it to fend off the Light 'Mechs that tend to harass fire support teams.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

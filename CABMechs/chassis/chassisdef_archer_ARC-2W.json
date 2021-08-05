@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -214,6 +214,14 @@
     "StockRole": "Missile Boat",
     "YangsThoughts": "Normally I'm impressed by the dragoons, but the Archer 2W just doesn't do it for me. Damned thing runs a bit too hot for my tastes, unless you have some Star League Double HeatSinks laying around...",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_General_Enhanced_Missilery_System",

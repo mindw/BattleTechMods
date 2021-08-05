@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -211,5 +211,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "Considering this is made with all currently available tech, the -RS is still a beast of a 'Mech boss. Though I'd possibly drop one of the missile launchers and add in some more heat sinks."
+    "YangsThoughts": "Considering this is made with all currently available tech, the -RS is still a beast of a 'Mech boss. Though I'd possibly drop one of the missile launchers and add in some more heat sinks.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -218,6 +218,14 @@
     "StockRole": "Missile Boat",
     "YangsThoughts": "The 5S is unusually deadly up close for an Archer. The downgrade of the LRM-20 launchers to LRM-15s has meant a reduction in danger at range though. The 'Mech is not meant to fire all weapons together though as it will overheat even with the double heat sink upgrade.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

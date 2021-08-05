@@ -1,0 +1,27 @@
+{
+    "TargetIDs": [
+        "chassisdef_archer_ARC-2R",
+        "chassisdef_archer_ARC-2S",
+        "chassisdef_archer_ARC-LS",
+        "chassisdef_archer_ARC-XO"
+    ],
+    "Instructions": [
+        {
+            "JSONPath": "$.Locations[?(@.Location=='Head')].InventorySlots",
+            "Action": "Replace",
+            "Value": 2
+        },
+        {
+            "JSONPath": "$.FixedEquipment[0]",
+            "Action": "ArrayAddBefore",
+            "Value": {
+                "MountedLocation": "Head",
+                "ComponentDefID": "Special_Battle_Fists",
+                "ComponentDefType": "Upgrade",
+                "HardpointSlot": -1,
+                "IsFixed": true,
+                "DamageLevel": "Functional"
+            }
+        }
+    ]
+}

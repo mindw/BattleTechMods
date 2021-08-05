@@ -1,0 +1,59 @@
+{
+    "Description": {
+        "Cost": 0,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "Kallon Industries",
+        "Model": "MRFSTR-1A",
+        "UIName": "Battle Fists",
+        "Id": "Special_Battle_Fists",
+        "Name": "Battle Fists",
+        "Details": "This BattleMech's hand actuators have been specifically designed to for close combat.",
+        "Icon": "uixSvgIcon_special_Equipment"
+    },
+    "BonusValueA": "+1 Melee Hit",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "InventorySize": 1,
+    "Tonnage": 0.0,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Attack_ToHitMelee-T1",
+                "Name": "MELEE HIT CHANCE IMPROVED",
+                "Details": "Melee attacks attempted have their hit improved by [AMT].",
+                "Icon": "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "AccuracyModifier",
+                "operation": "Float_Add",
+                "modValue": "-1.0",
+                "modType": "System.Single"
+            }
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "NO-CRIT",
+            "BUILT-IN"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -235,6 +235,14 @@
     "StockRole": "Juggernaut",
     "YangsThoughts": "Produced in very limited numbers before the fall of the First Star League, the AS7-D-H2 replaces both large lasers with a Kinslaughter ER PPC and a Gauss rifle replaces the LB 10-X autocannon. One heat sink is removed.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Battle_Fists",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_FerroFibrous_2_Slot",

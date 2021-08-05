@@ -3,16 +3,16 @@
         "Cost": 0,
         "Rarity": 99,
         "Purchasable": false,
-        "Manufacturer": "Ceres Metals",
-        "Model": "Aegis Mk V",
-        "UIName": "Cowl",
-        "Id": "Special_Cowl",
-        "Name": "Cowl",
-        "Details": "This BattleMech has reinforced armor, protective baffles, or other improved defenses around the cockpit of the BattleMech",
-        "Icon": "uixSvgIcon_equipment_Cockpit"
+        "Manufacturer": "General",
+        "Model": "Standard",
+        "UIName": "Command Mech",
+        "Id": "Special_Command_Mech",
+        "Name": "Command Mech",
+        "Details": "This BattleMech is specially designed with an enhanced cockpit equipment to enable the pilot to easily command and control a battleforce.",
+        "Icon": "uixSvgIcon_special_Equipment"
     },
-    "BonusValueA": "+5 Head Armor",
-    "BonusValueB": "+1 Injury Resist",
+    "BonusValueA": "+1 Initiative for all Lance units",
+    "BonusValueB": "+1 Resolve Gain",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -25,27 +25,27 @@
         {
             "durationData": {
                 "duration": -1,
-                "stackLimit": -1
+                "stackLimit": 1
             },
             "targetingData": {
                 "effectTriggerType": "Passive",
-                "effectTargetType": "Creator",
-                "showInTargetPreview": true,
+                "effectTargetType": "AllLanceMates",
+                "showInTargetPreview": false,
                 "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id": "Status-ArmorCowlArmor-Head",
-                "Name": "Armoured Cowl",
-                "Details": "Improved Head Armor",
-                "Icon": "uixSvgIcon_equipment_Cockpit"
+                "Id": "StatusEffect-Initiative-Gain",
+                "Name": "LANCE INITIATIVE INCREASE",
+                "Details": "Provides a [INVERSE_AMT] bonus to Lance Initiative.",
+                "Icon": "uixSvgIcon_special_Equipment"
             },
             "nature": "Buff",
             "statisticData": {
-                "statName": "Head.Armor",
-                "operation": "Float_Add",
-                "modValue": "5",
-                "modType": "System.Single"
+                "statName": "BaseInitiative",
+                "operation": "Int_Add",
+                "modValue": "-1",
+                "modType": "System.Int32"
             }
         },
         {
@@ -56,23 +56,22 @@
             "targetingData": {
                 "effectTriggerType": "Passive",
                 "effectTargetType": "Creator",
-                "showInTargetPreview": true,
+                "showInTargetPreview": false,
                 "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id": "StatusEffect-Pilot_HealthAdd-T1",
-                "Name": "MAX INJURIES INCREASED",
-                "Details": "Prevents [AMT] Injuries against a MechWarrior.",
+                "Id": "StatusEffect-Morale_Gain-T1",
+                "Name": "MORALE GENERATION INCREASED",
+                "Details": "Provides a [AMT] bonus to actions that generate Resolve.",
                 "Icon": "uixSvgIcon_equipment_Cockpit"
             },
             "nature": "Buff",
             "statisticData": {
-                "statName": "BonusHealth",
+                "statName": "MoraleBonusGain",
                 "operation": "Int_Add",
                 "modValue": "1",
-                "modType": "System.Int32",
-                "targetCollection": "Pilot"
+                "modType": "System.Int32"
             }
         }
     ],

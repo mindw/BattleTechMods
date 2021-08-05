@@ -1,11 +1,8 @@
 {
-    "StatName": null,
-    "RelativeModifier": 0,
-    "AbsoluteModifier": 0,
     "Description": {
         "Cost": 0,
-        "Rarity": 3,
-        "Purchasable": true,
+        "Rarity": 99,
+        "Purchasable": false,
         "Manufacturer": "General",
         "Model": "Standard",
         "UIName": "Narrow/Low Profile",
@@ -19,10 +16,9 @@
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
-    "BattleValue": 0,
     "InventorySize": 1,
     "Tonnage": 0.0,
-    "AllowedLocations": "CenterTorso,Head",
+    "AllowedLocations": "Head",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "statusEffects": [
@@ -34,8 +30,8 @@
             "targetingData": {
                 "effectTriggerType": "Passive",
                 "effectTargetType": "Creator",
-                "showInTargetPreview": false,
-                "showInStatusPanel": false
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
             },
             "effectType": "StatisticEffect",
             "Description": {
@@ -56,8 +52,7 @@
     "ComponentTags": {
         "items": [
             "NO-CRIT",
-            "BUILT-IN",
-            "BLACKLISTED"
+            "BUILT-IN"
         ],
         "tagSetSourceFile": ""
     }

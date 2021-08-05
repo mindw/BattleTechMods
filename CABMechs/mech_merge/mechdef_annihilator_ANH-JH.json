@@ -103,7 +103,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -138,7 +138,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

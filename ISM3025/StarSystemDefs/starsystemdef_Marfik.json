@@ -34,7 +34,7 @@
       "planet_other_hub",
       "planet_other_alienvegetation",
       "planet_other_prison",
-      "planet_faction_locals"
+      "planet_faction_kurita"
     ],
     "tagSetSourceFile": ""
   },
@@ -55,7 +55,7 @@
   },
   "FuelingStation": true,
   "JumpDistance": 15,
-  "ownerID": "Locals",
+  "ownerID": "Kurita",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,

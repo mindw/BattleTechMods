@@ -1,0 +1,10 @@
+{
+    "TargetID": "starsystemdef_Decatur",
+    "Instructions": [
+        {
+            "JSONPath": "Tags.items",
+            "Action": "ArrayAdd",
+            "Value": "planet_other_hiringhub"
+        }
+    ]
+}

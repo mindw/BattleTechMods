@@ -21,7 +21,7 @@
       "planet_industry_poor",
       "planet_other_pirate",
       "planet_ruins",
-      "planet_faction_nofaction",
+      "planet_faction_steiner",
       "planet_other_empty"
     ],
     "tagSetSourceFile": ""
@@ -43,7 +43,7 @@
   },
   "FuelingStation": false,
   "JumpDistance": 7,
-  "ownerID": "NoFaction",
+  "ownerID": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
   "ShopMaxSpecials": 9,
@@ -141,19 +141,14 @@
   "DefaultDifficulty": 5,
   "DifficultyList": [],
   "DifficultyModes": [],
-  "contractEmployerIDs": [],
+  "contractEmployerIDs": [
+    "Steiner",
+    "Locals",
+    "AuriganPirates"
+  ],
   "contractTargetIDs": [
     "Steiner",
-    "Marik",
-    "Kurita",
-    "Davion",
-    "Liao",
-    "AuriganRestoration",
-    "ComStar",
-    "MagistracyOfCanopus",
-    "TaurianConcordat",
     "Locals",
-    "AuriganDirectorate",
     "AuriganPirates"
   ]
 }

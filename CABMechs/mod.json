@@ -16,7 +16,7 @@
     "Author": "Mind_wanderer, based on the work of Justin Kase and others",
     "DLL": "JK_Components.dll",
     "Settings": {
-        "Debug": false,
+        "Debug": true,
         "EnableTripleStrengthMyomer": true,
         "TripleStrengthMyomerActivationThreshold": 27,
         "MechLabSlots": {
@@ -669,7 +669,7 @@
         { "Type": "MechDef", "Path": "mech_merge", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "PilotDef", "Path": "pilots" },
         { "Type": "Sprite", "Path": "pilot_portraits" },
-        { "Type": "SVGAsset", "Path": "icons", "ShouldMergeJSON" : false },        
+        { "Type": "SVGAsset", "Path": "icons", "ShouldMergeJSON" : false },
         { "Type": "VehicleDef", "Path": "vehicle_merge", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "VehicleDef", "Path": "vehicle", "ShouldMergeJSON": false, "AddToDB": true },
         { "Type": "VehicleChassisDef", "Path": "vehicleChassis", "ShouldMergeJSON": false, "AddToDB": true },

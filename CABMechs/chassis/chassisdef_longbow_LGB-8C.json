@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Longbow",
-        "Id": "chassisdef_longbow_LGB-7Q",
+        "Id": "chassisdef_longbow_LGB-8C",
         "Name": "Longbow",
-        "Details": "The Longbow is one of the most well-known fire support 'Mechs in existence.  It has long been a trusted and reliable machine that can be counted on to carry out the mission it is designed for. Combined, the LRM launchers can put a devastating barrage of up to fifty missiles down range, while its two Medium Lasers help to protect it from light scouts that venture too close.",
+        "Details": "Appearing five yearsafter the -7Q, the -8C is the official designation of a common field refit. Two heat sinks are traded for two rear mounted medium lasers a significant deterrant for any light units trying to flank it.",
         "Icon": "uixTxrIcon_longbow"
     },
     "MovementCapDefID": "movedef_longbow_LGB-7Q",
@@ -75,11 +75,15 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -102,11 +106,15 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -197,11 +205,11 @@
             "z": 1
         }
     ],
-    "VariantName": "LGB-7Q",
+    "VariantName": "LGB-8C",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "With the number of LRMs the LGB-7Q can toss into the sky, our enemies are going to be fighting in the shade. Yeah, I couldn't resist a good Spartan joke... or is that more an Archer joke?"
+    "YangsThoughts": "Pretty obvious tradeoff commander. Few lights can sustain more than one or two hits with both lasers so the -8C can continue lobbing its 50 LRM missiles without worriers."
 }

@@ -1,26 +1,26 @@
 {
     "Description": {
-        "Cost": 7700000,
+        "Cost": 8600000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Longbow",
-        "Id": "chassisdef_longbow_LGB-7Q",
+        "Id": "chassisdef_longbow_LGB-0W2",
         "Name": "Longbow",
-        "Details": "The Longbow is one of the most well-known fire support 'Mechs in existence.  It has long been a trusted and reliable machine that can be counted on to carry out the mission it is designed for. Combined, the LRM launchers can put a devastating barrage of up to fifty missiles down range, while its two Medium Lasers help to protect it from light scouts that venture too close.",
+        "Details": "It took only two years for the OW2 to appear. It mitigates the most common complaint for the OW - weak armor. The useless small laser and one ton of LRM 5 reloads is dropped in favour of one and a half ton of armor.",
         "Icon": "uixTxrIcon_longbow"
     },
-    "MovementCapDefID": "movedef_longbow_LGB-7Q",
+    "MovementCapDefID": "movedef_longbow_LGB-0W",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_longbow",
     "PrefabIdentifier": "chrprfmech_longbowbase-001",
     "PrefabBase": "longbow",
     "Tonnage": 85,
-    "InitialTonnage": 27.5,
+    "InitialTonnage": 45.5,
     "weightClass": "ASSAULT",
-    "Heatsinks": 0,
-    "MaxJumpjets": 3,
+    "Heatsinks": 9,
+    "MaxJumpjets": 4,
     "Stability": 200,
     "StabilityDefenses": [
         0,
@@ -46,7 +46,12 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -56,6 +61,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -75,11 +84,11 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -102,11 +111,11 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -119,6 +128,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -197,11 +210,11 @@
             "z": 1
         }
     ],
-    "VariantName": "LGB-7Q",
+    "VariantName": "LGB-0W2",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "With the number of LRMs the LGB-7Q can toss into the sky, our enemies are going to be fighting in the shade. Yeah, I couldn't resist a good Spartan joke... or is that more an Archer joke?"
+    "YangsThoughts": "A pretty obvious upgrade boss. Anyone with more than half a brain will want to increase the weak armor of the 0W. Thankfully there are enough no-brain pilots out there!"
 }

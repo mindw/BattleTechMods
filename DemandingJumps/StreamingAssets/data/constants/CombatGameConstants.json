@@ -1,10 +1,6 @@
 {
 	"ResolutionConstants": {
-		"StabilityDumpJumping": -1
-	},
-    "CombatUIConstants": {
-        "JumpDescription": {
-            "Details": "Execute a jump move, gaining EVASIVE charges based on distance (+2 Difficulty to hit this unit with ranged attacks per EVASIVE charge). You may also use Jump to initiate a 'Death from Above' attack on nearby enemies.\nCANNOT take Called Shots after jumping."
-        }
-    }
+		"StabilityDumpJumping": -1,
+        "StabilityDumpDFA": -2
+	}
 }

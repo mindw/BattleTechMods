@@ -99,7 +99,7 @@
 	    "k" : "Float_AppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.05
 	    }
 	},
 	{
@@ -108,7 +108,7 @@
 	    "k" : "Float_SprintAppetitivePreferIdealWeaponRangeToHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.05
 	    }
 	},
 	{
@@ -117,7 +117,7 @@
             "k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.1
             }
 	},
 	{
@@ -126,7 +126,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 0.1
         }
 	},
 	{
@@ -213,7 +213,7 @@
 		"v" : 
 		{
 			"type" : "Int",
-			"IntVal" : "999"
+			"IntVal" : "99"
 		}
 	},
 	{

@@ -27,7 +27,7 @@
          "k" : "Float_ShootingDamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.0
+            "floatVal" : 1.0
          }
       },
       {
@@ -41,7 +41,7 @@
          "k" : "Float_PreferInsideMeleeRangeFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -1.5
+            "floatVal" : -0.25
          }
       },
 	  	{
@@ -80,7 +80,7 @@
 		"v" : 
 		{
 			"type" : "Float",
-			"floatVal" : 1
+			"floatVal" : 0.0
 		}
 	},
 	{
@@ -90,7 +90,7 @@
 		"v" : 
 		{
 			"type" : "Float",
-			"floatVal" : -0.5
+			"floatVal" : 0.0
 		}
 	},
 		{
@@ -120,7 +120,7 @@
             "k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0
+		"floatVal" : 1
          }
 	},
 	{
@@ -153,14 +153,14 @@
          "k" : "Float_PreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.15
+            "floatVal" : 0.05
          }
     },
 	{
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.15
+             "floatVal" : 0.05
          }
     },
 		{
@@ -176,14 +176,14 @@
          "k" : "Float_OptimalAllyDistance",
          "v" : {
             "type" : "Float",
-            "floatVal" : 80
+            "floatVal" : 100
          }
       },
       {
          "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.0
+            "floatVal" : 1.0
          }
       },
 	  	{

@@ -20,6 +20,16 @@
 		"floatVal" : 10
             }
 	},
+		{
+	    /* When considering different kinds of attacks, multiply
+	       the shooting damage by this value to decide which
+	       attack to use. */
+		"k" : "Float_ShootingDamageMultiplier",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 1.0
+        }
+	},
 	{
 	    /* How much a location must be damaged before a DFA attack
 	       will be considered , as a fraction from 0.0 (undamaged)
@@ -75,7 +85,7 @@
             "k" : "Float_PreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2
+		"floatVal" : 5
             }
 	},
 	{
@@ -85,7 +95,7 @@
             "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2
+		"floatVal" : 5
             }
 	},
 	{
@@ -93,7 +103,7 @@
 	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -105,7 +115,7 @@
 	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 0.5
+		"floatVal" : 0
 	    }
 	},
 	{
@@ -163,7 +173,7 @@
         "k" : "Bool_AlwaysOffensiveMood",
         "v" : {
 			"type" : "Bool",
-			"boolVal" : true
+			"boolVal" : false
         }
 	}
    ]

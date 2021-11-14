@@ -36,7 +36,7 @@
         "k" : "Float_OwnMaxLegDamageForDFAAttack",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 0.85
+			"floatVal" : 1
         }
 	},
 	{
@@ -45,7 +45,7 @@
         "k" : "Float_LancePatrolRadius",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 20
+			"floatVal" : 30
         }
 	},
 	{
@@ -54,7 +54,7 @@
         "k" : "Float_LanceMoveRadius",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 10
+			"floatVal" : 20
         }
 	},
 	{
@@ -92,7 +92,7 @@
 		"k" : "Float_RouteWaypointRadius",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 40
+			"floatVal" : 30
         }
 	},
 	{
@@ -138,7 +138,7 @@
 		"k" : "Float_PreferLowerMovementFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -0.3
+			"floatVal" : -0.45
         }
 	},
 	{
@@ -147,7 +147,7 @@
 		"k" : "Float_SprintPreferLowerMovementFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -0.3
+			"floatVal" : -0.45
         }
 	},
 	{
@@ -158,14 +158,6 @@
 			"type" : "Float",
 			"floatVal" : 0.1
         }
-	},
-	{
-		/* DEPRECATED */
-		"k": "Float_ThreatBattleValueRoot",
-		"v": {
-			"type": "Float",
-			"floatVal": 0.0
-		}
 	},
 	{
 	    /* Influence Factor Weight for preferring higher
@@ -203,7 +195,7 @@
 		"k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.6
+			"floatVal" : 1
         }
 	},
 	{
@@ -212,7 +204,7 @@
 		"k" : "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.6
+			"floatVal" : 1
         }
 	},
 	{
@@ -240,7 +232,7 @@
 		"k" : "Float_OptimalAllyDistance",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 100.0
+			"floatVal" : 150.0
         }
 	},
 	{
@@ -249,7 +241,7 @@
 		"k" : "Float_OptimalHostileDistance",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 240
+			"floatVal" : 200
         }
 	},
 	{
@@ -258,7 +250,7 @@
 		"k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.1
         }
 	},
 	{
@@ -267,7 +259,7 @@
 		"k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.1
+			"floatVal" : 0.2
         }
 	},
 	{
@@ -276,7 +268,7 @@
 		"k" : "Float_SprintPreferOptimalDistanceToAllyFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.1
         }
 	},
 	{
@@ -285,7 +277,7 @@
 		"k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.1
+			"floatVal" : 0.2
         }
 	},
 	{
@@ -297,7 +289,7 @@
 		"k" : "Float_AcceptableHeatLevel",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 2
+			"floatVal" : 1.99
         }
 	},
 	{
@@ -348,7 +340,7 @@
 		"k" : "Float_MeleeDamageMultiplier",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 2
+			"floatVal" : 2.5
         }
 	},
 	{
@@ -359,7 +351,7 @@
 		"k" : "Float_MeleeVsUnsteadyTargetDamageMultiplier",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 2
+			"floatVal" : 1.6
         }
 	},
 	{
@@ -369,7 +361,7 @@
 		"k" : "Float_DFADamageMultiplier",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 2
+			"floatVal" : 3
         }
 	},
 	{
@@ -378,7 +370,7 @@
 		"k" : "Float_CoolDownRange",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 120.0
+			"floatVal" : 150.0
         }
 	},
 	{
@@ -405,7 +397,7 @@
 		"k" : "Float_PreferHigherHeatSinkLocationsFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.1
         }
 	},
 	{
@@ -414,7 +406,7 @@
 		"k" : "Float_SprintPreferHigherHeatSinkLocationsFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.1
         }
 	},
 	{
@@ -423,7 +415,7 @@
 		"k" : "Float_PreferHigherHeatPerTurnLocationsFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -2
+			"floatVal" : -5
         }
 	},
 	{
@@ -432,7 +424,7 @@
 		"k" : "Float_SprintPreferHigherHeatPerTurnLocationsFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -2
+			"floatVal" : -5
         }
 	},
 	{
@@ -441,7 +433,7 @@
 	    "k" : "Float_PreferHigherMovementBonusLocationsFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.0
+			"floatVal" : 0.05
 	    }
 	},
 	{
@@ -450,7 +442,7 @@
 	    "k" : "Float_SprintPreferHigherMovementBonusLocationsFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.0
+			"floatVal" : 0.05
 	    }
 	},
 	{
@@ -468,7 +460,7 @@
 		"k" : "Float_SprintPreferAttackingLowerArmorHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.5
         }
 	},
 	{
@@ -649,7 +641,7 @@
 		"k" : "Float_MeleeBonusMultiplierWhenAttackingBracedTargets",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 2
+			"floatVal" : 1.5
 		}
 	},
 	{
@@ -659,7 +651,7 @@
 		"k" : "Float_UnsteadinessToVirtualDamageConversionRatio",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 0.75
 		}
 	},
 	{
@@ -742,7 +734,7 @@
 	    "k" : "Float_ReserveHostileOffset",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -751,7 +743,7 @@
 	    "k" : "Float_MultiTargetOverkillThreshold",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 150.0
+			"floatVal" : 125.0
 	    }
 	},
 	{
@@ -789,7 +781,7 @@
 	    "k" : "Float_OverkillThresholdHighForLethalPositionFactor",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 250
+			"floatVal" : 100
 	    }
 	},
 	{
@@ -809,7 +801,7 @@
 	    "k" : "Float_OverkillThresholdHighForRearArcPositionFactor",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 120
+			"floatVal" : 100
 	    }
 	},
 	{
@@ -819,7 +811,7 @@
 	    "k" : "Float_OverkillFactorForReserve",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 1.0
+			"floatVal" : 1
 	    }
 	},
 	{
@@ -877,7 +869,7 @@
 	    "k" : "Float_MaxThinkSeconds",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 60.0
+			"floatVal" : 90.0
 	    }
 	},
 	{
@@ -891,7 +883,7 @@
 		"k" : "Float_PreferLethalDamageToRearArcFromHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : -0.5
             }
 	},
 	{
@@ -905,7 +897,7 @@
 		"k" : "Float_SprintPreferLethalDamageToRearArcFromHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : -0.5
             }
 	},
 	{
@@ -951,7 +943,7 @@
 	    "k" : "Float_SprintExclusionRadius",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 150.0
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -959,7 +951,7 @@
 	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : -0.3
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -970,7 +962,7 @@
 	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : -0.3
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -979,7 +971,7 @@
 	    "k" : "Float_AppetitiveBehindMaximumRadius",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 125.0
+			"floatVal" : 100.0
 	    }
 	},
 	{
@@ -1034,7 +1026,7 @@
 	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0.7
 	    }
 	},
 	{
@@ -1043,7 +1035,7 @@
 	    "k" : "Float_SprintPreferNotSurroundedByHostileUnitsFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0.7
 	    }
 	},
 	{
@@ -1055,7 +1047,7 @@
 	    "k" : "Float_SprintHysteresisMultiplier",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0.7
 	    }
 	},
 	{
@@ -1110,7 +1102,7 @@
 	    "k" : "Float_PreferStayInsideFenceNegativeLogicFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : -1.5
+			"floatVal" : -0.5
 	    }
 	},
 	{
@@ -1123,7 +1115,7 @@
 	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : -1.5
+			"floatVal" : -0.5
 	    }
 	},
 	{
@@ -1132,7 +1124,7 @@
 	    "k" : "Float_FenceRadius",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 300.0
+			"floatVal" : 120.0
 	    }
 	},
 	{
@@ -1155,7 +1147,7 @@
 	    "k" : "Float_MinimumSensorLockQuality",
 	    "v" : {
 			"type": "Float",
-			"floatVal" : 45
+			"floatVal" : 50
 	    }
 	},
 	{
@@ -1164,7 +1156,7 @@
 	    "k" : "Float_HeadArmorMultiplier",
 	    "v" : {
 			"type": "Float",
-			"floatVal" : 1000.0
+			"floatVal" : 100.0
 	    }
 	},
 	{
@@ -1182,7 +1174,7 @@
 	    "k" : "Float_CenterTorsoRearArmorMultiplier",
 	    "v" : {
 			"type": "Float",
-			"floatVal" : 15
+			"floatVal" : 1.0
 	    }
 	},
 	{
@@ -1291,7 +1283,7 @@
 		"k" : "Float_HeatFracForHeatFilter",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 1
         }
 	},
 	{
@@ -1333,7 +1325,7 @@
 		"k" : "Float_UseRecklessSkillPercentageChance",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 50
         }
 	},
 	{
@@ -1342,7 +1334,7 @@
 		"k" : "Float_AlonePreferenceWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -1
+			"floatVal" : -2
         }
 	},
 	{
@@ -1351,7 +1343,7 @@
 		"k" : "Float_SprintAlonePreferenceWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -1
+			"floatVal" : -2
         }
 	},
 	{
@@ -1377,7 +1369,7 @@
 		"k" : "Float_BuddyAloneFiringSolutionPreferenceWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -2
+			"floatVal" : -5
         }
 	},
 	{
@@ -1387,7 +1379,7 @@
 		"k" : "Float_SprintBuddyAloneFiringSolutionPreferenceWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -2
+			"floatVal" : -5
         }
 	},
 	{
@@ -1400,7 +1392,7 @@
 		"k" : "Float_BuddyAloneMoveNearbyPreferenceWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : -1.0
         }
 	},
 	{
@@ -1413,7 +1405,7 @@
 		"k" : "Float_SprintBuddyAloneMoveNearbyPreferenceWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : -1.0
         }
 	},
 	{
@@ -1446,7 +1438,7 @@
 	    "k" : "Float_PatrolRouteThrottlePercentage",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 80.0
+			"floatVal" : 90.0
 		}
 	},
 	{
@@ -1588,7 +1580,7 @@
 		"k" : "Float_PreferFriendlyECMFields",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 1
+			"floatVal" : 2
 		}
 	},
 	{
@@ -1597,7 +1589,7 @@
 		"k" : "Float_SprintPreferFriendlyECMFields",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 1
+			"floatVal" : 2
 		}
 	},
 	{
@@ -1686,7 +1678,7 @@
 		"k" : "Float_WeaponDamageSpreadLerpValue",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.3
+			"floatVal" : 0.4
 		}
 	},
 	{
@@ -1762,7 +1754,7 @@
 		"k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0.65
         }
 	},
 	{
@@ -1771,7 +1763,7 @@
 		"k" : "Float_SprintPreferPresentingHigherArmorToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.5
+			"floatVal" : 0.65
         }
 	},
 	{
@@ -1909,7 +1901,7 @@
         "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 1
+			"floatVal" : 3
         }
 	},
 	{
@@ -1918,7 +1910,7 @@
         "k" : "Float_SprintPreferNoCloserThanMinDistToHostileFactorWeight",
         "v" : {
 			"type" : "Float",
-			"floatVal" : 1
+			"floatVal" : 3
         }
 	},
 	{

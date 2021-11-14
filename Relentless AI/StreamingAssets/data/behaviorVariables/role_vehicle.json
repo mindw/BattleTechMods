@@ -155,7 +155,7 @@
 		"k" : "Float_PreferOptimalDistanceToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.1
+			"floatVal" : 0.2
         }
 	},
 	{
@@ -164,7 +164,7 @@
 		"k" : "Float_SprintPreferOptimalDistanceToHostileFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0.1
+			"floatVal" : 0.2
 		}
 	},
 	{
@@ -199,7 +199,7 @@
 		"k" : "Float_PreferLowerMovementFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -0.6
+			"floatVal" : -0.3
 		}
 	},
 	{
@@ -208,7 +208,7 @@
 		"k" : "Float_SprintPreferLowerMovementFactorWeight",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : -0.6
+			"floatVal" : -0.3
 		}
 	},
 		{
@@ -216,7 +216,7 @@
 	    "k" : "Float_SprintExclusionRadius",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : 140.0
+			"floatVal" : 100.0
 	    }
 	},
 	{
@@ -224,7 +224,7 @@
 	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : -1.0
+			"floatVal" : 0
 	    }
 	},
 	{
@@ -235,7 +235,7 @@
 	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
 	    "v" : {
 			"type" : "Float",
-			"floatVal" : -1.0
+			"floatVal" : 0
 	    }
 	},
 	{

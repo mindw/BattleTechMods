@@ -30,7 +30,7 @@
          "k" : "Float_OwnMaxLegDamageForDFAAttack",
          "v" : {
             "type" : "Float",
-			"floatVal" : 0.9
+			"floatVal" : 1
         }
     },
     {
@@ -44,7 +44,7 @@
          "k" : "Float_PreferLowerMovementFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : -0.6
+            "floatVal" : -0.4
         }
     },
 	{
@@ -53,17 +53,10 @@
             "k" : "Float_SprintPreferLowerMovementFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : -0.6
+		"floatVal" : -0.4
         }
 	},
     {
-         "k" : "Float_PreferHigherPositionFactorWeight",
-         "v" : {
-            "type" : "Float",
-            "floatVal" : 0.4
-        }
-    },
-	    {
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
@@ -96,13 +89,6 @@
         }
     },
     {
-         "k" : "Float_PreferNoCloserThanPersonalSpaceToAllyFactorWeight",
-         "v" : {
-            "type" : "Float",
-            "floatVal" : 10.0
-        }
-    },
-    {
          "k" : "Float_PreferFacingHostileFactorWeight",
          "v" : {
             "type" : "Float",
@@ -113,7 +99,7 @@
          "k" : "Float_PreferHigherDistanceFromClosestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.2
+            "floatVal" : 0.1
         }
     },
     {
@@ -129,7 +115,7 @@
 	    "k" : "Float_FenceRadius",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 100.0
+		"floatVal" : 200.0
 	    }
 	},
     {
@@ -151,7 +137,7 @@
 		"k" : "Bool_UseBulwarkActions",
 		"v" : {
 			"type" : "Bool",
-			"boolVal" : false
+			"boolVal" : true
         }
 	},
 	{
@@ -160,14 +146,14 @@
 		"k" : "Float_BulwarkThresholdPercentage",
 		"v" : {
 			"type" : "Float",
-			"floatVal" : 0
+			"floatVal" : 75
 		}
 	},
 	{
          "k" : "Float_BraceWhenOverheatedPercentage",
          "v" : {
             "type" : "Float",
-            "floatVal" : 33
+            "floatVal" : 30
         }
     },
 	{
@@ -181,7 +167,7 @@
          "k" : "Float_SprintPreferLOSToFewestHostileFactorWeight",
          "v" : {
             "type" : "Float",
-             "floatVal" : 0.2
+             "floatVal" : 0.1
         }
     },
 	{

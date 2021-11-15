@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -220,6 +220,14 @@
     "StockRole": "Juggernaut",
     "YangsThoughts": "The Stalker has always had too much firepower for the heat build up, but the Stalker 5S is on another level of heat inefficient. It has more weight free because of the XL engine so maybe something can be done with it, let me know if you have any ideas.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_HeatSink_Combat_Computer",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

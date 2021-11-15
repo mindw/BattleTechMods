@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -221,5 +221,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "Commander, it's a good thing these beasts are almost non-existant. A straightforward upgrade solves the heat issues of the Stalker and greatly improves accurracy. No wonder it went to the elite!"
+    "YangsThoughts": "Commander, it's a good thing these beasts are almost non-existant. A straightforward upgrade solves the heat issues of the Stalker and greatly improves accurracy. No wonder it went to the elite!",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_HeatSink_Combat_Computer",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

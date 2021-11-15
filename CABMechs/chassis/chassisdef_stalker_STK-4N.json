@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -227,5 +227,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "The extra heat sinks help the STK-4N to maintain a more consistent rate of fire, though it still runs hot if you get into the thick of it.  Maybe removing one of the SRMs and adding in even more heat sink, then there wouldn't be as much fear of cooking off the ammo... or the pilot."
+    "YangsThoughts": "The extra heat sinks help the STK-4N to maintain a more consistent rate of fire, though it still runs hot if you get into the thick of it.  Maybe removing one of the SRMs and adding in even more heat sink, then there wouldn't be as much fear of cooking off the ammo... or the pilot.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_HeatSink_Combat_Computer",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

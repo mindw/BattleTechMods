@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity": 12,
+    "Description": {
+        "Cost": 300000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "Double",
+        "UIName": "Combat Computer",
+        "Id": "Gear_HeatSink_Combat_Computer",
+        "Name": "Combat Computer",
+        "Details": "The BattleMech possesses an advanced combat computer aiding the MechWarrior in managing heat levels.",
+        "Icon": "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA": "-12 Heat / Turn",
+    "BonusValueB": "",
+    "ComponentType": "HeatSink",
+    "ComponentSubType": "Heatsink",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": null,
+    "ComponentTags": {
+        "items": [
+            "BUILT-IN"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

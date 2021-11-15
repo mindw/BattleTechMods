@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -223,5 +223,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "Even removing 10 tons of weight the Stalker 4P isn't really that much of a downgrade.  It manages to maintain the same armor, heat dissipation and almost the same weapon load-out.  About the only real loss is in its melee capabilities with the downgraded actuators, but you don't pilot a Stalker to throw down anyway."
+    "YangsThoughts": "Even removing 10 tons of weight the Stalker 4P isn't really that much of a downgrade.  It manages to maintain the same armor, heat dissipation and almost the same weapon load-out.  About the only real loss is in its melee capabilities with the downgraded actuators, but you don't pilot a Stalker to throw down anyway.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_HeatSink_Combat_Computer",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

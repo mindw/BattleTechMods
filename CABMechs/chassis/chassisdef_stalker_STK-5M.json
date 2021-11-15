@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -214,5 +214,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "The Stalker 5M still has a ridiculous amount of weaponry—even for an assault 'Mech. The heat management is somewhat better because of the double heat sinks. This variant also carriest a Narc Missile Beacon and an ER Large Laser."
+    "YangsThoughts": "The Stalker 5M still has a ridiculous amount of weaponry—even for an assault 'Mech. The heat management is somewhat better because of the double heat sinks. This variant also carriest a Narc Missile Beacon and an ER Large Laser.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_HeatSink_Combat_Computer",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

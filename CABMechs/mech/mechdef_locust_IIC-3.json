@@ -1,0 +1,145 @@
+{
+    "MinAppearanceDate": "2853-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_light",
+            "unit_speed_high",
+            "unit_range_medium",
+            "unit_lance_striker",
+            "unit_lance_assassin",
+            "unit_role_scout",
+            "unit_clan",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_locust_IIC-3",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 2840000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Locust IIC-3",
+        "Id": "mechdef_locust_IIC-3",
+        "Name": "Locust IIC",
+        "Details": "This Clan Smoke Jaguar version is set up to sport an Extended Range Large Laser in its center torso, with a Small Pulse Laser in each arm, making this variant a quite capable infantry killer in addition to its role as a fast striker.",
+        "Icon": "uixTxrIcon_locustiic"
+    },
+    "simGameMechPartCost": 280000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_CSmallLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        }
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_CSmallLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

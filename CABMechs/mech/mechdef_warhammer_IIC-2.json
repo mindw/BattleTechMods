@@ -1,6 +1,6 @@
 {
     "MinAppearanceDate": "2920-01-01T00:00:00Z",
-    "ChassisID": "chassisdef_warhammer_IIC-2",
+    "ChassisID": "chassisdef_warhammer_IIC",
     "MechTags": {
         "items": [
             "unit_release",

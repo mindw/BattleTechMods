@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -208,6 +208,14 @@
     "StockRole": "Striker",
     "YangsThoughts": "The 5M variant is a little more capable in a fight than it's older brothers. Still not an ideal choice against armored opposition, not enough armor itself for the role.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoSteel_3_Slot",

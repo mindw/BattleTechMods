@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -208,6 +208,14 @@
     "StockRole": "Striker",
     "YangsThoughts": "The 'Scarecrow' has seen an upgrade to Ferro-Fibrous armor. The 5S model switches the AC2 to an Ultra AC5 which is a big step up in it's capability to take down other mechs. The MASC system also allows the Vulcan some real speed when it needs it.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_XL_Engine",

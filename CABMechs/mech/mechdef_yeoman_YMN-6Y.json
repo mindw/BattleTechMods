@@ -1,0 +1,193 @@
+{
+    "MinAppearanceDate": "3060-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_heavy",
+            "unit_range_long",
+            "unit_lance_sniper",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_speed_low",
+            "NotDavion",
+            "NotLiao",
+            "Marik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "KellHounds",
+            "WolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_yeoman_YMN-6Y",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6670000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Yeoman YMN-6Y",
+        "Id": "mechdef_yeoman_YMN-6Y",
+        "Name": "Yeoman",
+        "Details": "In an attempt to quickly follow up on the successful Wraith BattleMech, Curtiss Militech released the Yeoman. The Yeoman has an awkward physical appearance when compared to most other BattleMechs as it is dominated by its massive missile ports. The Yeoman is powered by a 240 fusion engine that gives the Yeoman a top speed of 64.8 km/h. To save weight, the 'Mech has an Endo Steel chassis and is armored with eight and a half tons of Ferro-Fibrous armor that provides a respectable amount of armor protection. The Yeoman carries two LRM-15 launchers and LRM-10 launchers. Since that is the only armament on the 'Mech, any MechWarrior that pilots a Yeoman has to be wary of letting enemies get close, as it has no secondary weapons to deal with such foes.",
+        "Icon": "uixTxrIcon_yeoman"
+    },
+    "simGameMechPartCost": 670000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 115,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 115,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

@@ -32,10 +32,12 @@
     "PilotTags": {
         "items": [
             "BLACKLISTED",
+            "name_Foxtrot",
+            "pilot_marik",
             "pilot_military",
             "pilot_mechwarrior",
-            "pilot_athletic",
-            "pilot_lucky"
+            "pilot_cautious",
+            "pilot_spacer"            
         ],
         "tagSetSourceFile": ""
     },

@@ -32,10 +32,12 @@
     "PilotTags": {
         "items": [
             "BLACKLISTED",
+            "name_Nurse",
+            "pilot_marik",
             "pilot_military",
             "pilot_mechwarrior",
-            "pilot_athletic",
-            "pilot_lucky"
+            "pilot_bookish",
+            "pilot_dependable"
         ],
         "tagSetSourceFile": ""
     },

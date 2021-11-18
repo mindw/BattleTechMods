@@ -32,9 +32,13 @@
     "PilotTags": {
         "items": [
             "BLACKLISTED",
+            "name_Eager",
+            "pilot_davion",
             "pilot_military",
             "pilot_mechwarrior",
-            "pilot_athletic",
+            "pilot_disgraced",
+            "pilot_brave",
+            "pilot_rebellious",
             "pilot_lucky"
         ],
         "tagSetSourceFile": ""

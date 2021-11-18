@@ -32,10 +32,12 @@
     "PilotTags": {
         "items": [
             "BLACKLISTED",
+            "pilot_liao",
             "pilot_military",
             "pilot_mechwarrior",
-            "pilot_athletic",
-            "pilot_lucky"
+            "pilot_dependable",
+            "pilot_unstable",
+            "name_Dragon"
         ],
         "tagSetSourceFile": ""
     },

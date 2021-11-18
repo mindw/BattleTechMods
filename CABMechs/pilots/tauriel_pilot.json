@@ -32,6 +32,7 @@
     "PilotTags": {
         "items": [
             "BLACKLISTED",
+            "pilot_aurigan",
             "pilot_military",
             "pilot_mechwarrior",
             "pilot_athletic",

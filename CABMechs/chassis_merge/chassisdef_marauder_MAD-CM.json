@@ -130,6 +130,14 @@
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
-        }
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_General_Lance_Command_Module",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }        
     ]
 }

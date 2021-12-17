@@ -14,7 +14,7 @@
     {
         "StartingPirateActivity" : 5.0,
         "BonusPirateResources" : 100.0,
-        "PirateSystemFlagValue" : 10.0,
+        "PirateSystemFlagValue" : 25.0,
         "FractionPirateResources" : 1,
         
         "ResourceScale" : 0.5,

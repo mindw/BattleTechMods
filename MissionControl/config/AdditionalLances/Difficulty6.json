@@ -2,7 +2,7 @@
   "IncludeContractTypes": [],
   "ExcludeContractTypes": [],
   "LancePool": {
-    "ALL": ["Generic_Medium_Battle_Lance", "Damaged_Medium_Battle_Lance"]
+    "ALL": ["Damaged_Medium_Battle_Lance"]
   },
   "Enemy": {
     "Max": 1,
@@ -17,7 +17,7 @@
     },
     "LancePool": {
       "ALL": [
-        "Generic_Light_Battle_Lance", "Generic_Medium_Battle_Lance"
+        "Generic_Light_Battle_Lance"
       ]
     }
   },
@@ -33,7 +33,6 @@
     },
     "LancePool": {
       "ALL": [
-        "Generic_Medium_Battle_Lance"
       ]
     }
   }

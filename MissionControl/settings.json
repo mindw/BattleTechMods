@@ -32,7 +32,7 @@
             "SoloDuel",
             "DuoDuel"
         ],
-        "GuardOnHotDrop": true,
+        "GuardOnHotDrop": false,
         "EvasionPipsOnHotDrop": 6,
         "IncludeEnemies": true,
         "IncludeAllyTurrets": false,
@@ -48,12 +48,12 @@
             "AttackDefend",
             "DefendBase",
             "FireMission",
-            "ThreeWayBattle"
-        ],
-        "IsPrimaryObjectiveIn": [
+            "ThreeWayBattle",
             "AmbushConvoy",
             "CaptureEscort",
-            "EscortSingle",
+            "EscortSingle"
+        ],
+        "IsPrimaryObjectiveIn": [
             "SimpleBattle",
             "CaptureBase"
         ],
@@ -77,6 +77,8 @@
         "MatchAllyLanceCountToEnemy": false,
         "DropWeightInfluence": {
             "Enable": true,
+            "EnemySpawnInfluenceMax": 0.9,
+            "AllySpawnInfluenceMax": 0.9,
             "EnemySpawnInfluencePerHalfSkullAbove": 0.1,
             "AllySpawnInfluencePerHalfSkullAbove": -0.1,
             "EnemySpawnInfluencePerHalfSkullBelow": -0.1,
@@ -94,7 +96,9 @@
             "SoloDuel",
             "DuoDuel",
             "DefendBase",
-            "FireMission"
+            "FireMission",
+            "AttackDefend",
+            "ThreeWayBattle"
         ],
         "SkipWhenTaggedWithAny": [
             "lance_type_solo"
@@ -161,7 +165,7 @@
             "DuoDuel"
         ],
         "MinDistanceForZone": 50,
-        "MaxDistanceForZone": 240,
+        "MaxDistanceForZone": 288,
         "DisorderlyWithdrawalCompatibility": false
     },
     "AI": {
@@ -169,8 +173,8 @@
             "Pathfinding": "Alternative",
             "Target": "LanceOrder",
             "StopWhen": "OnEnemyVisible",
-            "MaxDistanceFromTargetBeforeSprinting": 150,
-            "TargetZoneRadius": 150,
+            "MaxDistanceFromTargetBeforeSprinting": 120,
+            "TargetZoneRadius": 120,
             "TimeToWaitForPathfinding": 60,
             "TicksToWaitForPathfinding": 20
         }

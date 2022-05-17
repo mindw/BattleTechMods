@@ -1,0 +1,36 @@
+{
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "Varied",
+        "Model": "Cargo",
+        "UIName": "Cargo",
+        "Id": "Gear_Cargo_HalfTon",
+        "Name": "Space for half ton of Cargo",
+        "Details": "Space for half ton of Cargo, typically used to store supplies for prolonged deployments",
+        "Icon": "uixSvgIcon_special_Equipment"
+    },
+    "BonusValueA": "Cargo - takes space and weight",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0.5,
+    "CanExplode": false,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "BUILT-IN"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

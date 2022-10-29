@@ -91,7 +91,14 @@
         "Enable": true,
         "EnableForFlashpoints": false,
         "EnableForStory": false,
+        "EnableForTargetAlly": true,
+        "EnableForEmployerAlly": true,
+        "EnableForHostileToAll": true,
+        "EnableForNeutralToAll": true,
         "Autofill": true,
+        "AutofillType": "RespectEmpty",
+        "AutofillUnitCopyType": "RandomInLance",
+        "AutofillStartingFromContractDifficulty": 3,
         "ExcludeContractTypes": [
             "SoloDuel",
             "DuoDuel",
@@ -105,8 +112,11 @@
         ],
         "SkipWhenTaggedWithAll": [],
         "SkipWhenExcludeTagsContain": [
+            "mc_no_extended_lance",
             "no_extended_lance"
         ],
+        "ForceLanceOverrideSizeWithTag": "mc_force_extended_lance",
+        "ForceLanceDefSizeWithTag": "mc_force_extended_lance",
         "LanceSizes": {
             "5": [],
             "6": [
@@ -122,9 +132,6 @@
         "EnableForFlashpoints": false,
         "EnableForStory": false,
         "ExcludeContractTypes": [
-            "AmbushConvoy",
-            "CaptureEscort",
-            "EscortSingle",
             "SoloDuel",
             "DuoDuel"
         ],
@@ -153,6 +160,10 @@
                 "MapId": "mapGeneral_desertDam_aDes",
                 "ContractTypeName": "SimpleBattle",
                 "IncreaseBoundarySizeByPercentage": 0.55
+            },
+            {
+                "ContractTypeName": "AmbushConvoy",
+                "IncreaseBoundarySizeByPercentage": 0.2
             }
         ]
     },
@@ -187,8 +198,9 @@
     },
     "Misc": {
         "LanceSelectionDivergenceOverride": {
-            "Enable": false,
+            "Enable": true,
             "Divergence": 20
-        }
+        },
+        "ContractOverrideDataCleanupMethod": "RestoreFromCopy"
     }
 }

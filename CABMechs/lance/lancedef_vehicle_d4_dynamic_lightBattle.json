@@ -1,7 +1,7 @@
 {
     "Description": {
-        "Id": "lancedef_mixed_d4_dynamic_lightBattle",
-        "Name": "Dynamic Dif 4 Light Mixed Battle",
+        "Id": "lancedef_vehicle_d4_dynamic_lightBattle",
+        "Name": "Dynamic Dif 4 Light Vehicle Battle",
         "Details": "",
         "Icon": "",
         "Cost": 0,
@@ -14,9 +14,8 @@
             "lance_bracket_low",
             "lance_type_battle",
             "lance_type_light",
-            "lance_type_mixed",
-            "lance_type_dynamic",
-            "lance_type_notallvehicles"
+            "lance_type_vehicle",
+            "lance_type_dynamic"
         ],
         "tagSetSourceFile": "Tags/LanceTags"
     },
@@ -24,7 +23,9 @@
         {
             "unitType": "Vehicle",
             "unitId": "Tagged",
+            "unitSimGameID": null,
             "pilotId": "Tagged",
+            "pilotSimGameID": null,
             "unitTagSet": {
                 "items": [
                     "unit_heavy",
@@ -51,43 +52,42 @@
             }
         },
         {
-            "unitType": "Mech",
+            "unitType": "Vehicle",
             "unitId": "Tagged",
+            "unitSimGameID": null,
             "pilotId": "Tagged",
+            "pilotSimGameID": null,
             "unitTagSet": {
                 "items": [
-                    "unit_mech",
-                    "unit_medium"
+                    "unit_heavy",
+                    "unit_vehicle"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_lance_striker",
-                    "unit_lance_juggernaut",
-                    "unit_lance_missile_boat",
-                    "unit_lance_scout"
+                    "unit_noncombatant"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d4"
+                    "pilot_npc_d4",
+                    "pilot_npc_gunner"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
             "excludedPilotTagSet": {
-                "items": [
-                    "pilot_npc_pilot",
-                    "pilot_npc_tactician"
-                ],
+                "items": null,
                 "tagSetSourceFile": "Tags/PilotTags"
             }
         },
         {
             "unitType": "Vehicle",
             "unitId": "Tagged",
+            "unitSimGameID": null,
             "pilotId": "Tagged",
+            "pilotSimGameID": null,
             "unitTagSet": {
                 "items": [
                     "unit_medium",
@@ -97,9 +97,7 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_noncombatant",
-                    "unit_lance_striker",
-                    "unit_lance_vanguard"
+                    "unit_noncombatant"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -118,33 +116,35 @@
             }
         },
         {
-            "unitType": "Mech",
+            "unitType": "Vehicle",
             "unitId": "Tagged",
+            "unitSimGameID": null,
             "pilotId": "Tagged",
+            "pilotSimGameID": null,
             "unitTagSet": {
                 "items": [
-                    "unit_light",
-                    "unit_mech"
+                    "unit_medium",
+                    "unit_vehicle"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {
                 "items": [
-                    "unit_lance_missile_boat",
-                    "unit_lance_scout",
-                    "unit_urbie"
+                    "unit_noncombatant"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d4",
-                    "pilot_npc_tactician"
+                    "pilot_npc_d4"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
             "excludedPilotTagSet": {
-                "items": null,
+                "items": [
+                    "pilot_npc_pilot",
+                    "pilot_npc_defender"
+                ],
                 "tagSetSourceFile": "Tags/PilotTags"
             }
         }

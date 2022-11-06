@@ -35,8 +35,7 @@
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {
-                "items": [
-                ],
+                "items": [],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "pilotTagSet": {

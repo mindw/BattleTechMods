@@ -1,9 +1,6 @@
 {
     "TargetIDs": [
         "Ammo_AmmunitionBox_Generic_GAUSS",
-        "Weapon_TAG_Standard_0-STOCK",
-        "Weapon_TAG_Standard_1-Mendham",
-        "Weapon_TAG_Standard_2-Ceres_Arms",
         "Weapon_COIL_COIL-L_0-STOCK",
         "Weapon_COIL_COIL-M_0-STOCK",
         "Weapon_COIL_COIL-S_0-STOCK"

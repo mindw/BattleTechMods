@@ -1,9 +1,8 @@
 {
   "logLevel": "info",
   "features": {
-    "HarmonyPatches": true,
     "LocalizationPatches": false,
-    "MechlabFix": true,
+    "MechLabFixFeature": true,
     "LoadFixes": true,
     "NoSalvageSoftlock": false,
     "DataLoaderGetEntryCheck": true,
@@ -16,8 +15,6 @@
     "RemovedFlashpointFix": false,
     "DisableSimAnimations": false,
     "RemovedContractsFix": false,
-    "VersionManifestPatches": true,
-    "MemoryLeakFix": true,
     "EnableConsole": false
   },
   "WantContractsLagFixVerify": false

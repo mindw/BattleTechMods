@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Id": "lancedef_mech_d4_dynamic_solo",
-        "Name": "Dynamic Dif 4 Solo",
+        "Id": "lancedef_mech_d7_dynamic_solo",
+        "Name": "Dynamic Dif 7 Solo",
         "Details": "",
         "Icon": "",
         "Cost": 0,
         "Rarity": 0,
         "Purchasable": false
     },
-    "Difficulty": 4,
+    "Difficulty": 7,
     "LanceTags": {
         "items": [
             "lance_type_dynamic",
@@ -25,7 +25,7 @@
             "unitTagSet": {
                 "items": [
                     "unit_mech",
-                    "unit_heavy"
+                    "unit_assault"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -37,16 +37,20 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d7"
+                    "pilot_npc_d8"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
             "excludedPilotTagSet": {
                 "items": [
-                    "pilot_npc_tactician",
+                    "pilot_npc_skirmisher",
                     "pilot_npc_sharpshooter",
+                    "pilot_npc_flanker",
+                    "pilot_npc_outrider",
                     "pilot_npc_recon",
-                    "pilot_npc_sentinel"
+                    "pilot_npc_sentinel",
+                    "pilot_npc_striker",
+                    "pilot_npc_scout"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             }
@@ -70,14 +74,18 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d4"
+                    "pilot_npc_d7"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
             "excludedPilotTagSet": {
                 "items": [
-                    "pilot_npc_gunner",
-                    "pilot_npc_defender"
+                    "pilot_npc_lancer",
+                    "pilot_npc_sharpshooter",
+                    "pilot_npc_gladiator",
+                    "pilot_npc_sentinel",
+                    "pilot_npc_striker",
+                    "pilot_npc_vanguard"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             }

@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Id": "lancedef_mech_d4_dynamic_solo",
-        "Name": "Dynamic Dif 4 Solo",
+        "Id": "lancedef_mech_d2_dynamic_solo",
+        "Name": "Dynamic Dif 2 Solo",
         "Details": "",
         "Icon": "",
         "Cost": 0,
         "Rarity": 0,
         "Purchasable": false
     },
-    "Difficulty": 4,
+    "Difficulty": 2,
     "LanceTags": {
         "items": [
             "lance_type_dynamic",
@@ -25,7 +25,7 @@
             "unitTagSet": {
                 "items": [
                     "unit_mech",
-                    "unit_heavy"
+                    "unit_medium"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -37,17 +37,13 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d7"
+                    "pilot_npc_d6",
+                    "pilot_npc_defender"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
             "excludedPilotTagSet": {
-                "items": [
-                    "pilot_npc_tactician",
-                    "pilot_npc_sharpshooter",
-                    "pilot_npc_recon",
-                    "pilot_npc_sentinel"
-                ],
+                "items": null,
                 "tagSetSourceFile": "Tags/PilotTags"
             }
         },
@@ -70,7 +66,7 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d4"
+                    "pilot_npc_d2"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },

@@ -8,7 +8,7 @@
         "UIName": "Longbow",
         "Id": "chassisdef_longbow_LGB-8C",
         "Name": "Longbow",
-        "Details": "Appearing five yearsafter the -7Q, the -8C is the official designation of a common field refit. Two heat sinks are traded for two rear mounted medium lasers a significant deterrant for any light units trying to flank it.",
+        "Details": "Appearing five years after the -7Q, the -8C is the official designation of a common field refit. Two heat sinks are traded for two rear mounted medium lasers a significant deterrant for any light units trying to flank it.",
         "Icon": "uixTxrIcon_longbow"
     },
     "MovementCapDefID": "movedef_longbow_LGB-7Q",

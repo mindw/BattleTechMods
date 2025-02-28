@@ -21,7 +21,21 @@
             "unit_speed_high",
             "unit_armor_high",
             "unit_release",
-            "unit_common"
+            "Davion",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "Kurita",
+            "ComStar",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
+            "Locals",
+            "AuriganRestoration",
+            "AuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

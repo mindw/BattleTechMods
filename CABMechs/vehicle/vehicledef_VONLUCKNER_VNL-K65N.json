@@ -12,6 +12,7 @@
     "ChassisID": "vehiclechassisdef_VONLUCKNER_VNL-K65N",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.50",
             "unit_vehicle",
             "unit_heavy",
             "unit_tracks",

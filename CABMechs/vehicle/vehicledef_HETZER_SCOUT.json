@@ -23,10 +23,21 @@
             "unit_speed_low",
             "unit_armor_low",
             "unit_common",
+            "Davion",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "Kurita",
+            "NotComStar",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
-            "NotComStar",
-            "NotAuriganPirates"
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

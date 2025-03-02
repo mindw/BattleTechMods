@@ -1,0 +1,192 @@
+{
+  "MinAppearanceDate": "3048-06-28T00:00:00Z",
+  "RequiredToSpawnCompanyTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "MechTags": {
+    "items": [
+      "unit_release",
+      "unit_mech",
+      "unit_medium",
+      "unit_range_medium",
+      "unit_lance_brawler",
+      "unit_lance_tank",
+      "unit_role_brawler",
+      "unit_jumpOK",
+      "unit_speed_low",
+      "unit_hatchetman",
+      "Davion",
+      "NotLiao",
+      "NotMarik",
+      "Steiner",
+      "NotKurita",
+      "NotComStar",
+      "NotMagistracyOfCanopus",
+      "NotTaurianConcordat",
+      "NotLocals",
+      "NotAuriganRestoration",
+      "NotAuriganPirates",
+      "AuriganMercenaries",
+      "MercenaryReviewBoard",
+      "KellHounds",
+      "WolfsDragoons"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_hatchetman_HCT-3Fr",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 5075000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Hatchetman HCT-3Fr",
+    "Id": "mechdef_hatchetman_HCT-3Fr",
+    "Name": "Hatchetman",
+    "Details": "A field refit of the Hatchetman 3F to improve survivability. Heatsinks were upgraded to double, the armor to ferro-fibrous, CASE for the ammmo and all saved tonnage went into even more armor. The autocannon was upgraded to LB-10X and the medium lasers were moved to the torse allowing them to be fired when punching and cleaving.",
+    "Icon": "uixTxrIcon_hatchetman"
+  },
+  "simGameMechPartCost": 510000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 65,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 65,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 110,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 70,
+      "AssignedArmor": 110,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 65,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 65,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
+}

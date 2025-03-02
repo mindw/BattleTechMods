@@ -1,0 +1,262 @@
+{
+    "Description": {
+        "Cost": 3800000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Hatchetman",
+        "Id": "chassisdef_hatchetman_HCT-3Fr",
+        "Name": "Hatchetman",
+        "Details": "A field refit of the Hatchetman 3F to improve survivability. Heatsinks were upgraded to double, the armor to ferro-fibrous, CASE for the ammmo and all saved tonnage went into even more armor. The autocannon was upgraded to LB-10X and the medium lasers were moved to the torse allowing them to be fired when punching and cleaving.",
+        "Icon": "uixTxrIcon_hatchetman"
+    },
+    "MovementCapDefID": "movedef_hatchetman_HCT-3F",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_hatchetman",
+    "PrefabIdentifier": "chrPrfMech_hatchetmanBase-001",
+    "PrefabBase": "hatchetman",
+    "VariantName": "HCT-3Fr",
+    "StockRole": "Brawler",
+    "YangsThoughts": "Lessons learned and applied. This little bastard will give a very rude surprise to anyone expecting the 3F. With 37% armor increase, CASE for the ammo, heat natural alpha strike this refit is a lot harder to kill and even deadlier than before. I'll take it over the official modern version any time.",
+    "Tonnage": 45,
+    "InitialTonnage": 17.0,
+    "weightClass": "MEDIUM",
+    "Heatsinks": 12,
+    "MaxJumpjets": 4,
+    "Stability": 130,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "AlwaysPunchIfPossible": true,
+    "MeleeDamage": 70,
+    "MeleeInstability": 45,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 55,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 55,
+    "DFAInstability": 55,
+    "ChassisTags": {
+        "items": [
+            "chassis_DHS",
+            "chassis_ferro",
+            "mech_case_left"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 110,
+            "MaxRearArmor": 55,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 70,
+            "MaxRearArmor": -1,
+            "InternalStructure": 35
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 110,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 110,
+            "MaxRearArmor": -1,
+            "InternalStructure": 55
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 2.5,
+            "y": 6,
+            "z": 2.5
+        },
+        {
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
+        }
+    ],
+    "FixedEquipment": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_Actuator_Prototype_Hatchet",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_5_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_5_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

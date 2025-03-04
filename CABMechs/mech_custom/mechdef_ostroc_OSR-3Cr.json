@@ -1,0 +1,151 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_heavy",
+            "unit_speed_high",
+            "unit_range_medium",
+            "unit_lance_brawler",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "Davion",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "Kurita",
+            "ComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "KellHounds",
+            "WolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_ostroc_OSR-3Cr",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6800000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Ostroc OSR-3Cr",
+        "Id": "mechdef_ostroc_OSR-3Cr",
+        "Name": "Ostroc",
+        "Details": "The much needed double heatsink upgrade solved the obvious issue of heat buildup, it also freed enough tonnage to solve all Star Leage era Ostsol's - poor armor. The 3Cr refit is typically used as a fast brawler due to its increased toughness coupled the already present speed.",
+        "Icon": "uixTxrIcon_ostroc"
+    },
+    "simGameMechPartCost": 680000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "3042-01-01T00:00:00Z"
+}

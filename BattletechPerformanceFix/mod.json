@@ -1,7 +1,7 @@
 {
 	"Name": "BattletechPerformanceFix",
 	"Author": "m22spencer",
-	"Hidden": false,
+	"Hidden": true,
 	"Website": "https://github.com/m22spencer/BattletechPerformanceFix",
 
 	"DependsOn": [],

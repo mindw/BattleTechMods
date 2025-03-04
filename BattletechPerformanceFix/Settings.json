@@ -2,9 +2,9 @@
   "logLevel": "info",
   "features": {
     "LocalizationPatches": false,
-    "MechLabFixFeature": true,
+    "MechLabFixFeature": false,
     "LoadFixes": true,
-    "NoSalvageSoftlock": false,
+    "NoSalvageSoftlock": true,
     "DataLoaderGetEntryCheck": true,
     "ShopTabLagFix": true,
     "ContractLagFix": true,
@@ -12,9 +12,9 @@
     "ExtraLogging": false,
     "ShaderDependencyOverride": true,
     "DisableDeployAudio": false,
-    "RemovedFlashpointFix": false,
+    "RemovedFlashpointFix": true,
     "DisableSimAnimations": false,
-    "RemovedContractsFix": false,
+    "RemovedContractsFix": true,
     "EnableConsole": false
   },
   "WantContractsLagFixVerify": false

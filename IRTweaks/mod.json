@@ -1,7 +1,7 @@
 {
     "Name": "IRTweaks",
     "Enabled": true,
-    "Version": "0.8.6",
+    "Version": "0.8.7.1",
     "Description": "Miscellaneous Tweaks and Fixes",
     "Author": "IceRaptor",
     "Website": "https://github.com/IceRaptor/IRTweaks",
@@ -18,22 +18,23 @@
             "BuildingDamageColorChange": true,
             "BraceOnMeleeWithJuggernaut": false,
             "BulkPurchasing": true,
-            "BulkScrapping" : true,
+            "BulkScrapping": true,
             "CalledShotTweaks": true,
             "CombatLog": false,
             "DisableCampaign": true,
-            "DisableCombatRestarts": true,
             "DisableCombatSaves": true,
+            "DisableCombatRestarts": true,
             "DisableMPHashCalculation": true,
             "ExtendedStats": true,
             "FlexibleSensorLock": true,
-            "MechbayLayout": false,
+            "MechbayLayout": true,
+            "MechbayLayoutDisableStore": true,
             "MultiTargetStat": false,
             "PainTolerance": true,
             "PathfinderTeamFix": true,
             "RandomStartByDifficulty": false,
             "ReduceSaveCompression": true,
-            "ScaleObjectiveBuildingStructure" : false,
+            "ScaleObjectiveBuildingStructure": false,
             "ShowAllArgoUpgrades": true,
             "SimGameDifficultyLabelsReplacer": false,
             "SkirmishAlwaysUnlimited": false,
@@ -51,10 +52,10 @@
         },
         "Combat": {
             "CalledShot": {
-				"DisableAllLocations": false,
-				"DisableHeadshots": true,
-				"EnableTacticsModifier": true,
-				"BaseModifier": 10,
+                "DisableAllLocations": false,
+                "DisableHeadshots": true,
+                "EnableTacticsModifier": true,
+                "BaseModifier": -4,
                 "PilotTags": {
                     "pilot_drunk": -1,
                     "pilot_military" : -1,
@@ -65,17 +66,17 @@
                 "FreeActionWithAbility": false
             },
             "PainTolerance": {
-				"ResistPerGuts": 15,
-				"HeadDamageResistPenaltyPerArmorPoint": 3,
-				"HeadHitArmorOnlyResistPenaltyMulti": 0.35,
-				"AmmoExplosionResistPenaltyPerCapacityPercentile": 1,
-				"OverheatResistPenaltyPerHeatPercentile": 1,
-				"KnockdownResistPenalty": 6,
-				"SideLocationDestroyedResistPenalty": 10
-			},
-            "ScaledStructure" : {
+                "ResistPerGuts": 15,
+                "HeadDamageResistPenaltyPerArmorPoint": 2,
+                "HeadHitArmorOnlyResistPenaltyMulti": 0.3,
+                "AmmoExplosionResistPenaltyPerCapacityPercentile": 1,
+                "OverheatResistPenaltyPerHeatPercentile": 1,
+                "KnockdownResistPenalty": 6,
+                "SideLocationDestroyedResistPenalty": 10
+            },
+            "ScaledStructure": {
                 "DefaultScale" : { "Mod" : 0, "Multi" : 1.0 },
-                "DifficultyScaling" : {
+                "DifficultyScaling": {
                     "1" : { "Mod" : 5, "Multi" : 1.0 },
                     "2" : { "Mod" : 10, "Multi" : 1.25 },
                     "3" : { "Mod" : 15, "Multi" : 1.5 },

@@ -1,0 +1,241 @@
+{
+    "Description": {
+        "Cost": 5700000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Quickdraw",
+        "Id": "chassisdef_quickdraw_QKD-4Gr",
+        "Name": "Quickdraw",
+        "Details": "A strighforward refit orignating from Marik space. Survivability is greatly improved by protecting all ammmo with CASE, upgrading the armor to ferro fibrous and adding 1.5 tons of it. Two heatsinks were removed while the rest were upgraded to double. Firepower was improved by pointing all medium lasers forward and having enough heat dispensing capacity to alpha strike and run without extra heat.",
+        "Icon": "uixTxrIcon_quickdraw"
+    },
+    "MovementCapDefID": "movedef_quickdraw_QKD-4G",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_quickdraw",
+    "PrefabIdentifier": "chrPrfMech_quickdrawBase-001",
+    "PrefabBase": "quickdraw",
+    "Tonnage": 60,
+    "InitialTonnage": 32.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 6922000,
+    "Heatsinks": 36,
+    "TopSpeed": 150,
+    "TurnRadius": 90,
+    "MaxJumpjets": 5,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 85,
+    "MeleeInstability": 60,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 75,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 75,
+    "DFAInstability": 75,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "QKD-4Gr",
+    "ChassisTags": {
+        "items": [
+            "mech_case_left",
+            "chassis_ferro",
+            "chassis_DHS"          
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "Throw caution to the winds (at least heat wise) - gun and run with impunity as the new heatsinks can take it! Tougher armor will make it stay in the field longer but it's still not as thick as it can be, so beware. It is suprerior to both official 5M & 5K, so much that I'll convert them to it without pause.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }        
+    ]    
+}

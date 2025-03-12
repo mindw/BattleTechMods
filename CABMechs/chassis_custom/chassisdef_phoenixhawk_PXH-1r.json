@@ -233,7 +233,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

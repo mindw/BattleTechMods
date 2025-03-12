@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -229,7 +229,7 @@
     "YangsThoughts": "The most common Clan version, known simply as the Annihilator C, sports an Endo Steel frame, though with three less tons of armor protection, to mount a more powerful engine while upgrading the LB-X autocannon to ultra-autocannon variants, and swapping the standard medium lasers with ER models; this variant loses the pulse lasers and the head-mounted laser, however.",
     "FixedEquipment": [
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "Head",
             "ComponentDefID": "Gear_General_GM_Ballistic_Siege_Compensators",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

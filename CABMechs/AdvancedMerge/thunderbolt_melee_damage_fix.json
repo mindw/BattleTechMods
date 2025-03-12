@@ -1,8 +1,8 @@
 {
     "TargetIDs": [
-        "mechdef_thunderbolt_TDR-5S",
-        "mechdef_thunderbolt_TDR-5SE",
-        "mechdef_thunderbolt_TDR-5SS"
+        "chassisdef_thunderbolt_TDR-5S",
+        "chassisdef_thunderbolt_TDR-5SE",
+        "chassisdef_thunderbolt_TDR-5SS"
     ],
     "Instructions": [
         {

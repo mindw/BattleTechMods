@@ -8,7 +8,7 @@
         "UIName": "Dervish",
         "Id": "chassisdef_dervish_DV-6Mg",
         "Name": "Dervish",
-        "Details": "An easy and obvious field refit, The Dervish DV-6Mg improves on heat managements the survivability of veneragble design. The heatsinks are upgraded to double, a CASE was added to the right torso to protect all ammo of which a ton of SRM ammo was dropped. The left over tonnnage went to improve the upgraded ferro-fibrous armor.",
+        "Details": "An easy and obvious field refit, The Dervish DV-6Mg improves on heat managements the survivability of the veneragble design. The heatsinks are upgraded to double, a CASE was added to the right torso to protect all ammo of which a ton of SRM ammo was dropped. The left over tonnnage went to increase the upgraded ferro-fibrous armor improving the armor coverage.",
         "Icon": "uixTxrIcon_dervish"
     },
     "MovementCapDefID": "movedef_dervish_DV-6M",
@@ -199,7 +199,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "Well, it might not have a lot of armor Commander, but the DV-6M is pretty damn nimble for its size thanks to those JumpJets. It also packs a fair punch for its weight class. Just make sure that whoever you choose to pilot her keeps an eye on heat, as it can get hot in a hurry. Reminds me of a astrotech I used to know...",
+    "YangsThoughts": "Better armored and less suseptible to explode from a single guass rifle hit to an arm. Those freezers make the 6Mg as effective as it can be as it can fire all weapons with little worry. Arguably better than the 7D factory upgrade in my eyes.",
     "FixedEquipment": [
         {
             "MountedLocation": "RightArm",

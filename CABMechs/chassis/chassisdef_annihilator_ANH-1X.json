@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -232,7 +232,7 @@
     "YangsThoughts": "The Annihilator-1X is a rare variant of the mech from the end of the Amaris Civil War. It looks a lot like the later -2A, carrying quad LB-10X Autocannons and a bevy of Medium, Small, and Small Pulse Lasers for backup. Unlike the later -2A though, the -1X is equipped with double heat sinks to let the autocannons sing far longer without heat issues.",
     "FixedEquipment": [
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "Head",
             "ComponentDefID": "Gear_General_GM_Ballistic_Siege_Compensators",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

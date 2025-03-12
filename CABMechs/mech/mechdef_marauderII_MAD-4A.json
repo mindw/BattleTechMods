@@ -191,13 +191,6 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Assault",
             "ComponentDefType": "JumpJet",
@@ -253,7 +246,14 @@
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         },
-        {
+         {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+       {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
             "ComponentDefType": "Weapon",

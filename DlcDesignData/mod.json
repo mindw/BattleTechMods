@@ -1,6 +1,6 @@
 {
     "Name": "DlcDesignData",
-    "Enabled": true,
+    "Enabled": false,
     
     "Version": "1.0.0",
     "Description": "DLC Design data unmodified, to allow merge",

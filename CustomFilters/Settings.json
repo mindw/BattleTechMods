@@ -1,0 +1,39 @@
+{
+	"Logging" : {
+		"DefaultLogLevel" : "Debug",
+		"TraceEnabled" : false
+	},
+	"MechLab" : {
+		"TabsConfigFile" : "VanillaTabs.json"
+	},
+	"MechBay" : {
+		"DefaultSortOrder" : [
+			"!ChassisTonnage",
+			"ChassisName",
+			"MechName"
+		]
+	},
+	"TagManager" : {
+		"disabled_SimGameItemsMinCount": 20,
+		"LostechStockWeaponVariantFix": true,
+		"SkirmishDefault" : {
+			"Components" : {
+				"ContainsAny" : [
+					"component_type_stock",
+					"component_type_variant",
+					"component_type_lostech"
+				],
+                "NotContainsAny": null
+			},
+            "Mechs" : {
+                "ContainsAny" : [
+                    "unit_release"
+                ],
+                "NotContainsAny" : [
+                    "unit_unlocked"
+                ]
+            }
+		},
+		"disabled_SkirmishOptionsShow": true
+	}
+}

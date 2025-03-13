@@ -1,0 +1,17 @@
+{
+	"Name": "CustomFilters",
+	"Author": "Denadan",
+	"Website": "https://github.com/BattletechModders/CustomFilters",
+
+	"Enabled": true,
+	"DLL": "CustomFilters.dll",
+	"DLLEntryPoint": "CustomFilters.Control.Init",
+	
+	"Manifest": [
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "advancedjsonmerge",
+			"ShouldMergeJSON": false
+		}
+	]
+}

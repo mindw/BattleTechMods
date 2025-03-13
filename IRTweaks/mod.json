@@ -28,7 +28,7 @@
             "ExtendedStats": true,
             "FlexibleSensorLock": true,
             "MechbayLayout": true,
-            "MechbayLayoutDisableStore": true,
+            "MechbayLayoutDisableStore": false,
             "MultiTargetStat": false,
             "PainTolerance": true,
             "PathfinderTeamFix": true,

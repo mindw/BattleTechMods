@@ -1,0 +1,76 @@
+{
+	"name": "Training Duty",
+	"requirementList": [
+        {
+            "Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+            "ExclusionTags": {
+                "items": [ "planet_other_empty" ],
+                "tagSetSourceFile": ""
+            }
+        }
+    ],
+	"weight": 1,
+	"spawnLocation": "OwnSystem",
+	"employer": ["Any"],
+	"target": ["Employer"],
+	"hireContract": "wiic_training_duty",
+	"availableFor": [20, 35],
+	"travelContracts": true,
+	"blockOtherContracts": true,
+	"schedule": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"TrainingContract",
+		"",
+		"",
+		"",
+		"",
+		"TrainingContract",
+		"",
+		"",
+		"",
+		"",
+		"TrainingContract",
+		"",
+		"",
+		"",
+		"",
+		"TrainingContract",
+		"",
+		"",
+		"",
+		"",
+		"TrainingContract",
+		"",
+		"",
+		"",
+		"",
+		"TrainingContract",
+		"TrainingReward"
+	],
+	"entries": {
+		"TrainingContract": {
+			"workOrder": "Time to Train the Troops",
+			"contractChance": 1,
+			"randomContract": ["ThreeWayBattle_TrainingDay", "ThreeWayBattle_TrainingDay_Alt", "ThreeWayBattle_TrainingDay_Alt_2", "CaptureBase_TheBTeam", "CaptureBase_TheBTeam_Alt"],
+			"declinePenalty": "BreakContract",
+			"contractPayoutMultiplier": 0.75,
+			"contractBonusSalvage": -60,
+			"contractMessage": "Time for another mock battle, Commander. Let's show these trainees how its done!"
+		},
+		"TrainingReward": {
+			"popupTitle": "Package From the Recruits",
+			"popupMessage": "Those recruits we trained up got together and sent us a thank-you card (they misspelled your name). Oh, and {TEAM_EMP.FactionDef.ShortName} sent our actual payment, so that's good at least.",
+			"rewardByDifficulty": {
+				"2": "BTA_standard_Minor_Loot_EC",
+				"5": "BTA_standard_Major_Loot_EC",
+				"8": "BTA_standard_Superior_Loot_EC"
+			}
+		}
+	}
+}

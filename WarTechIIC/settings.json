@@ -1,0 +1,127 @@
+{
+  "setActiveFactionsForAllSystems": false,
+  "ignoreFactions": [
+    "SolarisVII",
+    "NoFaction",
+    "DarkCaste",
+    "331stDivision",
+    "AuriganPirates",
+    "SelfEmployed",
+    "MasonsMarauders",
+    "LocalsBrockwayRefugees",
+    "MercenaryReviewBoard",
+    "betrayers",
+    "FlakJackals",
+    "SteelBeast",
+    "KellHounds",
+    "RazorbackMercs",
+    "HostileMercenaries",
+    "EmeraldDawn",
+    "SianTriumphant",
+    "ProfHorvat",
+    "RedHareRegiment",
+    "EdCorbu",
+    "DuchyOfAndurien",
+    "BlackCalderaDefense",
+    "HouseNakano",
+    "GrayDeathLegion",
+    "BlackCalderaDefense_Hidden",
+    "SelfEmployed_Farah",
+    "SelfEmployed_Yang",
+    "SecuritySolutionsInc",
+    "PaladinProtectionLLC",
+    "HouseKhulan",
+    "Wolfs_Dragoons",
+    "LoneStarRegiment",
+    "KnightsOfCaerbannog",
+    "GraysGhosts",
+    "BroadswordLegion",
+    "Moderbjorn",
+    "BountyHunterAssociates",
+    "BaumannGroup",
+    "BlackWidowCompany",
+    "ClanDiamondShark",
+    "Delphi",
+    "ComStar",
+    "ClanWolfInExile",
+    "Wolfs_Dragoons"
+  ],
+  "maxAttackRaidDistance": 300,
+  "dailyAttackChance": 0.15,
+  "dailyRaidChance": 0.15,
+  "dailyExtConChanceIfNoneAvailable": 0.75,
+  "dailyExtConChanceIfSomeAvailable": 0.75,
+  "maxAvailableExtendedContracts": 3,
+  "maxExtendedContractDistance": 150,
+  "distanceFactor": 75,
+  "aggression": {
+  },
+  "hatred": {
+  },
+  "reputationMultiplier": {
+    "LOATHED": 5.0,
+    "HATED": 3.0,
+    "DISLIKED": 2.0,
+    "INDIFFERENT": 1.0,
+    "LIKED": 2.0,
+    "FRIENDLY": 3.0,
+    "HONORED": 7.0,
+    "ALLIED": 10.0
+  },
+  "cantBeAttacked": [
+    "ComStar"
+  ],
+  "systemAggressionByTag": {
+    "WIICDoNotAttack": 0,
+    "planet_factory": 2
+  },
+  "limitTargetsToFactionEnemies": true,
+  "defaultAttackStrength": 20,
+  "defaultDefenseStrength": 15,
+  "strengthVariation": 6,
+  "attackStrength": {
+  },
+  "defenseStrength": {
+
+  },
+  "addStrengthTags": {
+    "planet_factory": 10
+  },
+  "raidStrengthMultiplier": 0.75,
+  "minReputationToHelpAttack": "DISLIKED",
+  "wontHirePlayer": [
+    "AuriganDirectorate"
+  ],
+  "neverBlockContractsOfferedBy": [
+    "SelfEmployed"
+  ],
+  "combatForceLossMin": 2,
+  "combatForceLossMax": 5,
+  "attackBonusPerHalfSkull": 30000,
+  "attackBonusSalvage": 0,
+  "raidBonusPerHalfSkull": 5000,
+  "raidBonusSalvage": 1,
+  "raidResultDuration": 720,
+  "factionActivityTags": {
+    "AuriganPirates": [
+      "planet_other_pirate",
+      "planet_pirate_lord",
+      "planet_other_prison",
+      "planet_other_blackmarket"
+    ],
+    "ComStar": [
+      "planet_other_comstar"
+    ],
+    "Davion": [
+      "planet_davion_raids"
+    ],
+  },
+  "factionInvasionTags": {
+  },
+  "defaultAttackReward": "itemCollection_SLDF",
+  "defaultRaidReward": "itemCollection_SLDF",
+  "customContractEnums": [
+    10002
+  ],
+  "saveFolder": "../../BTASaves"
+}

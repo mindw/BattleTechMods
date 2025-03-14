@@ -1,0 +1,76 @@
+{
+	"name": "Garrison Duty",
+	"requirementList": [
+        {
+            "Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+            "ExclusionTags": {
+                "items": [ "planet_other_empty" ],
+                "tagSetSourceFile": ""
+            }
+        }
+    ],
+	"weight": 1,
+	"spawnLocation": "OwnSystem",
+	"employer": [ "Any" ],
+	"target": [ "NearbyEnemy" ],
+	"hireContract": "wiic_garrison_duty",
+	"availableFor": [20, 35],
+	"travelContracts": true,
+	"blockOtherContracts": true,
+	"schedule": [
+		"",
+		"",
+		"DefenseMission1",
+		"",
+		"",
+		"DefenseMission2",
+		"",
+		"",
+		"DefenseMission3",
+		"",
+		"",
+		"CounterAttack",
+		"PaymentDelivered"
+	],
+	"entries": {
+		"DefenseMission1": {
+			"workOrder": "First Attack Incoming",
+			"contractChance": 1,
+			"allowedContractTypes": [ 11 ],
+			"declinePenalty": "BadFaith",
+			"contractMessage": "We have a mission from {TEAM_EMP.FactionDef.ShortName}, Commander. Details will be provided en-route, but it looks like we need to defend one of their local outposts. Better get to it."
+		},
+		"DefenseMission2": {
+			"workOrder": "Second Attack Incoming",
+			"contractChance": 1,
+			"allowedContractTypes": [ 11 ],
+			"declinePenalty": "BreakContract",
+			"contractMessage": "{TEAM_EMP.FactionDef.ShortName} has another task for us, Commander. Looks like a second outpost is under attack and we need to protect it. Time to earn our paycheck."
+		},
+		"DefenseMission3": {
+			"workOrder": "Third Attack Incoming",
+			"contractChance": 1,
+			"allowedContractTypes": [ 11 ],
+			"declinePenalty": "BreakContract",
+			"contractMessage": "We have a mission from {TEAM_EMP.FactionDef.ShortName}, Commander. This is the third outpost to come under attack and our employer is frantically looking for the source of these attacks. Until they find it, we need to stay on defense."
+		},
+		"CounterAttack": {
+			"workOrder": "Time to Go On the Offensive",
+			"contractChance": 1,
+			"allowedContractTypes": [ 6 ],
+			"declinePenalty": "BreakContract",
+			"contractMessage": "Commander, it looks like {TEAM_EMP.FactionDef.ShortName} finally found the source of these repeated attacks and we're being ordered to take them out. Let's put an end to these raids at last."
+		},
+		"PaymentDelivered": {
+			"popupTitle": "The Local Garrison Sends Their Thanks",
+			"popupMessage": "Our payment was just delivered, Commander. The local garrison sends their thanks, saying they're grateful we were here to help cover their defenses. Oh, and they sent a couple bottles of the local flavor for us to enjoy, I'm sure it's \"wonderful\".",
+			"rewardByDifficulty": {
+				"2": "BTA_standard_Minor_Loot_EC",
+				"5": "BTA_standard_Major_Loot_EC",
+				"8": "BTA_standard_Superior_Loot_EC"
+			}
+		}
+  }
+}

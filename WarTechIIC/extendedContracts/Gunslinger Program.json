@@ -1,0 +1,56 @@
+{
+	"name": "Gunslinger Program",
+	"requirementList": [
+        {
+            "Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+            "ExclusionTags": {
+                "items": [ "planet_other_empty" ],
+                "tagSetSourceFile": ""
+            }
+        }
+    ],
+	"weight": 1,
+	"spawnLocation": "OwnSystem",
+"employer": ["ComStar"],
+	"target": ["2ndArmyVMu"],
+	"hireContract": "wiic_gunslingers",
+	"availableFor": [20, 35],
+	"travelContracts": true,
+	"blockOtherContracts": true,
+	"schedule": [
+		"",
+		"",
+		"GunslingerDuel",
+		"",
+		"GunslingerDuel",
+		"",
+		"GunslingerDuel",
+		"",
+		"GunslingerDuel",
+		"",
+		"GunslingerDuel",
+		"PaymentDelivered"
+	],
+	"entries": {
+		"GunslingerDuel": {
+			"contractChance": 1,
+			"workOrder": "Gunslinger Duel",
+			"contract": [ "SoloDuel_GunslingerProgram" ],
+			"declinePenalty": "BreakContract",
+			"contractPayoutMultiplier": 0.85,
+			"contractBonusSalvage": -60,
+			"contractMessage": "Alright, Commander, time to get out there and train up these ComGuard MechWarriors. They're taking things seriously, so we should too."
+		},
+		"PaymentDelivered": {
+			"popupTitle": "Our Payment Has Arrived",
+			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} has delivered our payment, Commander {COMMANDER.LastName}, along with a report from the ComStar adepts who are pouring over the combat recordings. Apparently, the data is pretty good and the adepts are pleased with our results. We did good here today, boss.",
+			"rewardByDifficulty": {
+					"2": "BTA_standard_Minor_Loot_EC",
+					"5": "BTA_standard_Major_Loot_EC",
+					"8": "BTA_standard_ComStar_Loot"
+			}
+		}
+	}
+}

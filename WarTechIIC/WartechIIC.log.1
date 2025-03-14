@@ -1,0 +1,54 @@
+ModTek v4.4.10+Branch.tags-v4.4.10.Sha.c57b3cbb59986c5c713defb58c170be3e8cc4371 (2025-03-09) ; HarmonyX 2.14.0.0
+Microsoft Windows NT 10.0.19045.0 ; BattleTech 1.9.1-686R ; Unity 2018.4.2f1 ; CLR 4.0.30319.42000 ; Mono 5.11.0 (Visual Studio built mono)"
+2025-03-14T10:41:19.9598262+02:00 ; Startup 00:00:04.9970000 ; Ticks 132486588 ; Timestamp Overhead 30.9ns ; FastMemCpy Threshold 16
+--------------------------------------------------------------------------------
+08:41:28.5205962 WartechIIC [ERROR] System.TypeLoadException: Could not load type of field 'WarTechIIC.CampaignSettings:mapMarker' (0) due to: Could not load file or assembly 'ColourfulFlashPoints, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:ColourfulFlashPoints, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+  at (wrapper managed-to-native) System.RuntimeType.GetConstructors_native(System.RuntimeType,System.Reflection.BindingFlags)
+  at System.RuntimeType.GetConstructors_internal (System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.RuntimeType.GetConstructorCandidates (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.CallingConventions callConv, System.Type[] types, System.Boolean allowPrefixLookup) [0x00034] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.RuntimeType.GetConstructors (System.Reflection.BindingFlags bindingAttr) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at Newtonsoft.Json.Utilities.ReflectionUtils.GetDefaultConstructor (System.Type t, System.Boolean nonPublic) [0x0000b] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ReflectionUtils.HasDefaultConstructor (System.Type t, System.Boolean nonPublic) [0x00015] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.DefaultContractResolver.InitializeContract (Newtonsoft.Json.Serialization.JsonContract contract) [0x00076] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract (System.Type objectType) [0x00007] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract (System.Type objectType) [0x000e1] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContract (System.Type type) [0x00023] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.GetContractSafe (System.Type type) [0x00005] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x0000e] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at WarTechIIC.WIIC.Init (System.String modDirectory, System.String settingsJSON) [0x00052] in <6bb5804b4c81468788f79f81f0aedd89>:0 
+System.TypeLoadException: Could not load type of field 'WarTechIIC.CampaignSettings:mapMarker' (0) due to: Could not load file or assembly 'ColourfulFlashPoints, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:ColourfulFlashPoints, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+  at (wrapper managed-to-native) System.RuntimeType.GetConstructors_native(System.RuntimeType,System.Reflection.BindingFlags)
+  at System.RuntimeType.GetConstructors_internal (System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType) [0x00008] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.RuntimeType.GetConstructorCandidates (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.CallingConventions callConv, System.Type[] types, System.Boolean allowPrefixLookup) [0x00034] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.RuntimeType.GetConstructors (System.Reflection.BindingFlags bindingAttr) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at Newtonsoft.Json.Utilities.ReflectionUtils.GetDefaultConstructor (System.Type t, System.Boolean nonPublic) [0x0000b] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Utilities.ReflectionUtils.HasDefaultConstructor (System.Type t, System.Boolean nonPublic) [0x00015] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.DefaultContractResolver.InitializeContract (Newtonsoft.Json.Serialization.JsonContract contract) [0x00076] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract (System.Type objectType) [0x00007] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract (System.Type objectType) [0x000e1] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContract (System.Type type) [0x00023] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.GetContractSafe (System.Type type) [0x00005] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x0000e] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value) [0x00000] in <bcfe3779d9974effb214d2a48329f488>:0 
+  at WarTechIIC.WIIC.Init (System.String modDirectory, System.String settingsJSON) [0x00052] in <6bb5804b4c81468788f79f81f0aedd89>:0 
+Location Trace
+  at HBS.Logging.Logger+LogImpl.LogException (System.Exception exception) [0x00000] in <4184af8dbeb44635831353f4d349631c>:0 
+  at WarTechIIC.WIIC.Init (System.String modDirectory, System.String settingsJSON) [0x00000] in <6bb5804b4c81468788f79f81f0aedd89>:0 
+  at System.Reflection.MonoMethod.InternalInvoke (System.Object obj, System.Object[] parameters, System.Exception& exc) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d7ac571ca2d04b2f981d0d886fa067cf>:0 
+  at ModTek.Util.AssemblyUtil.InvokeMethodByParameterNames (System.Reflection.MethodInfo method, System.Collections.Generic.Dictionary`2[TKey,TValue] paramsDictionary) [0x00000] in <c5470ad8fce04fc6adb2d84aabf73216>:0 
+  at ModTek.Features.Manifest.Mods.ModDefExLoading.LoadAssemblyAndCallInit (ModTek.ModDefEx modDef) [0x00000] in <c5470ad8fce04fc6adb2d84aabf73216>:0 
+  at ModTek.Features.Manifest.Mods.ModDefExLoading.LoadMod (ModTek.ModDefEx modDef, System.String& reason) [0x00000] in <c5470ad8fce04fc6adb2d84aabf73216>:0 
+  at ModTek.Features.Manifest.Mods.ModDefsDatabase+<InitModsLoop>d__8.MoveNext () [0x00000] in <c5470ad8fce04fc6adb2d84aabf73216>:0 
+  at ModTek.UI.ProgressPanel+ProgressBarLoadingBehavior+<RunWorkList>d__20.MoveNext () [0x00000] in <c5470ad8fce04fc6adb2d84aabf73216>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00000] in <9a6ceb7f013a4a599806f492fc789483>:0 

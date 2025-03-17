@@ -53,9 +53,9 @@
 			"popupTitle": "Our Share Of The Loot Has Arrived",
 			"popupMessage": "The pirates have sent over our \"payment\". Yang's already tearing through it looking for useful components. Oh, and the local pirate lord sends their thanks, saying we're welcome to work for him any time we happen back by this way.",
 			"rewardByDifficulty": {
-				"2": "BTA_standard_Minor_Loot_EC",
-				"5": "BTA_standard_Major_Loot_EC",
-				"8": "BTA_standard_Superior_Loot_EC"
+				"2": "itemCollection_SLDF",
+				"5": "itemCollection_SLDF",
+				"8": "itemCollection_SLDF"
 			}
 		}
 	}

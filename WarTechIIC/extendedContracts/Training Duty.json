@@ -67,9 +67,9 @@
 			"popupTitle": "Package From the Recruits",
 			"popupMessage": "Those recruits we trained up got together and sent us a thank-you card (they misspelled your name). Oh, and {TEAM_EMP.FactionDef.ShortName} sent our actual payment, so that's good at least.",
 			"rewardByDifficulty": {
-				"2": "BTA_standard_Minor_Loot_EC",
-				"5": "BTA_standard_Major_Loot_EC",
-				"8": "BTA_standard_Superior_Loot_EC"
+				"2": "itemCollection_SLDF",
+				"5": "itemCollection_SLDF",
+				"8": "itemCollection_SLDF"
 			}
 		}
 	}

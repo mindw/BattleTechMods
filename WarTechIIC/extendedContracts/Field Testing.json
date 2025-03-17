@@ -51,9 +51,9 @@
 			"popupTitle": "Package for Commander {COMMANDER.LastName}",
 			"popupMessage": "Looks like {TEAM_EMP.FactionDef.ShortName} has delivered our payment, Commander {COMMANDER.LastName}. Yang's busily unpacking the supply crates, you'll have a full report shortly.",
 			"rewardByDifficulty": {
-				"2": "BTA_standard_Minor_Loot_EC",
-				"5": "BTA_standard_Major_Loot_EC",
-				"8": "BTA_standard_Superior_Loot_EC"
+				"2": "itemCollection_SLDF",
+				"5": "itemCollection_SLDF",
+				"8": "itemCollection_SLDF"
 			}
 		}
   }

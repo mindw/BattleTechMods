@@ -13,6 +13,20 @@
             "FallbackUIColor": null,
             "Icon": "BallisticHardpointIcon",
             "OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
+        },
+        {
+            "ID": 19,
+            "Name": "MRM",
+            "FriendlyName": "MRM",
+            "IsBallistic": false,
+            "IsMissile": true,
+            "IsEnergy": false,
+            "IsSupport": false,
+            "UsesInternalAmmo": false,
+            "UIColorRef": "Missile",
+            "FallbackUIColor": null,
+            "Icon": "MissileHardpointIcon",
+            "OutOfAmmoAudioVOEvent": "AmmoDepleted_SRM"
         }
     ]
 }

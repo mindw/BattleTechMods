@@ -8,7 +8,7 @@
         "UIName": "Phoenix Hawk",
         "Id": "chassisdef_phoenixhawk_PXH-1r",
         "Name": "Phoenix Hawk",
-        "Details": "A very popular field refit, first prioneered by the Federated Commonwealth in the early 3040s but spreading very quickly across the inner sphere and merceneries. The heatsinks are upgraded to double strenght ones allowing a hear natural alpha strike and jump. The survivabiliy is boosted by upgrading the armor to ferror-fibrous and installing CASE to protect a smaller amount of MG rounds.",
+        "Details": "A very popular field refit, first prioneered by the Capellan Confederation in the early 3040s but spread very quickly to Marik and Rimward periphery. The heatsinks are upgraded to double strength ones allowing a hear natural alpha strike and jump. The survivabiliy is boosted by upgrading the armor to ferror-fibrous and installing CASE to protect a smaller amount of MG rounds.",
         "Icon": "uixTxrIcon_phoenixhawk"
     },
     "MovementCapDefID": "movedef_phoenixhawk_PXH-1",
@@ -197,7 +197,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "A Phoenix Hawk that will not cook it's pilot or allow a PPC to kill it. So simple, so elagant. A heat natural alpha strike, extra armor, CASE for the MG ammo. All at a reasonabe cost east to install.",
+    "YangsThoughts": "A Phoenix Hawk that will not cook it's pilot or allow a PPC to kill it. So simple, so elagant. A heat natural alpha strike, extra armor, CASE for the MG ammo. All at a reasonabe cost to install.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",

@@ -23,8 +23,8 @@
             "NotAuriganPirates",
             "AuriganMercenaries",
             "MercenaryReviewBoard",
-            "KellHounds",
-            "WolfsDragoons"
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

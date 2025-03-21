@@ -1,0 +1,234 @@
+{
+    "Description": {
+        "Cost": 4300000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Centurion",
+        "Id": "chassisdef_centurion_CN9-ALr",
+        "Name": "Centurion",
+        "Details": "The -ALr field refit originated in Liao warrior houses and spread quickly through the Capelan and Marik spaces where original was used. Upgrading the heat sinks to double strength, freed mass for upgrading the weaponry. The LRM-10 was upgraded to a 15 version with advanced Artemis IV targeting system. The large laser was upgraded to an extended range one. The increased heat dissipation capacity allowed to point all medium lasers forward. Last but not least, CASE was installed to protect the LRM ammo.",
+        "Icon": "uixTxrIcon_centurion"
+    },
+    "MovementCapDefID": "movedef_centurion_CN9-A",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_centurion",
+    "PrefabIdentifier": "chrPrfMech_centurionBase-001",
+    "PrefabBase": "centurion",
+    "Tonnage": 50,
+    "InitialTonnage": 19.0,
+    "weightClass": "MEDIUM",
+    "BattleValue": 4124000,
+    "Heatsinks": 18,
+    "TopSpeed": 65,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 130,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 5,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 70,
+    "MeleeInstability": 50,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 65,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 65,
+    "DFAInstability": 65,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2
+        }
+    ],
+    "VariantName": "CN9-ALr",
+    "ChassisTags": {
+        "items": [
+            "mech_case_left",
+            "chassis_DHS"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Brawler",
+    "YangsThoughts": "A good Liao refit just got better!, safer and very heat it has a hefty punch! The LRM rack with enchanced targeting, the LB10X oh my. Armor is as thick as it was and the CASE ensures the pilot survives ammo explosions. efficient I'll be taking this one to a ride. Nothing can be done about its speed though . The AL variant of the Centurion tends to trade the larger burst damage of an Autocannon for more Energy weaponry and heavier armor.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]        
+}

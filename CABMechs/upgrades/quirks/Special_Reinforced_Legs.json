@@ -1,0 +1,67 @@
+{
+    "Description": {
+        "Cost": 0,
+        "Rarity": 99,
+        "Purchasable": false,
+        "Manufacturer": "General",
+        "Model": "",
+        "UIName": "Reinforced Legs",
+        "Id": "Special_Reinforced_Legs",
+        "Name": "Reinforced Legs",
+        "Details": "Designed for executing the dreaded 'Death From Above' attack, suffer half the normal damage to the legs when performing Death From Above.",
+        "Icon": "uixSvgIcon_equipment_ActuatorLeg"
+    },
+    "BonusValueA": "-50% DFA Self Dmg.",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Attack_SelfDamageDFA-ReinforcedLegs",
+                "Name": "DFA SELF-INFLICTED DAMAGE DECREASED",
+                "Details": "DFA attacks deal [AMT] less damage to the attacker.",
+                "Icon": "uixSvgIcon_equipment_ActuatorLeg"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "DFASelfDamage",
+                "operation": "Float_Multiply",
+                "modValue": "0.5",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "DFA"
+            }
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "NO-CRIT",
+            "BUILT-IN"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

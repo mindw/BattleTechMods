@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -187,6 +187,14 @@
     "StockRole": "Sniper",
     "YangsThoughts": "This Hollander F3 is a totally unconventional mech, but what it is designed for it does well. The Gauss cannon allows the mech to stay at extreme ranges and support with firepower that can kill some light mechs in a single shot.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Reinforced_Legs",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",

@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -201,11 +201,19 @@
     "YangsThoughts": "This Hollander variant, the G1 is a more close range support mech. Instead of the Gauss it has an LB10-X and 2 medium lasers. Still high firepower for it's size, they didn't make it any prettier though.",
     "FixedEquipment": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Reinforced_Legs",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -213,7 +221,7 @@
             "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -221,7 +229,7 @@
             "ComponentDefID": "Gear_EndoFerroCombo_6_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -229,7 +237,7 @@
             "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
@@ -237,7 +245,7 @@
             "ComponentDefID": "Gear_EndoFerroCombo_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "IsFixed": true
+            "IsFixed": true,
             "DamageLevel": "Functional"
         }
     ]

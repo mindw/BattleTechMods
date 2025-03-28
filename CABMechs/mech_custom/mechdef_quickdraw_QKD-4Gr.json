@@ -18,14 +18,14 @@
             "NotKurita",
             "ComStar",
             "MagistracyOfCanopus",
-            "NotTaurianConcordat",
+            "TaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
-            "NotAuriganPirates",
+            "AuriganPirates",
             "AuriganMercenaries",
             "MercenaryReviewBoard",
-            "KellHounds",
-            "WolfsDragoons"
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

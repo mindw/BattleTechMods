@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Flashman",
-        "Id": "chassisdef_flashman_FLS-8K",
+        "Id": "chassisdef_flashman_FLS-8Kr",
         "Name": "Flashman",
-        "Details": "The Flashman, which was first introduced in 2701, is a 'Mech that is capable of engaging an enemy for extended periods of time with little re-supply. Armed with a purely energy configuration and often called a 'flashbulb', the Flashman was a prized unit in the SLDF. After the fall of the Star League, the base model FLS-8K fell out of production as its advanced technology stopped being produced. However, with the Helm Core's discovery the mech was put back into production. The FLS-8K carries a battery of Large and Medium Lasers, a Flamer, and an AMS. It moves at a speedy 81 kph at max throttle. 15 DHS do their best but can't manage the mech's incredible heat.",
+        "Details": "A field refit showing up in Steiner, Kurita and even Comstar units, The -8Kr improves the heat sinking consideraby. Three additional heat sinks are installed at the cost of the unpopular anti missle system and upgrading the armor to ferro-fibrous.",
         "Icon": "uixTxrIcon_flashman"
     },
     "MovementCapDefID": "movedef_flashman_FLS-8K",
@@ -207,16 +207,17 @@
             "z": 0
         }
     ],
-    "VariantName": "FLS-8K",
+    "VariantName": "FLS-8Kr",
     "ChassisTags": {
         "items": [
             "mr-resize-0.85-0.90-0.85",
+            "chassis_ferro",
             "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The Flashman, which was first introduced in 2701, is a 'Mech that is capable of engaging an enemy for extended periods of time with little re-supply. Armed with a purely energy configuration and often called a 'flashbulb', the Flashman was a prized unit in the SLDF. After the fall of the Star League, the base model FLS-8K fell out of production as its advanced technology stopped being produced. However, with the Helm Core's discovery the mech was put back into production. The FLS-8K carries a battery of Large and Medium Lasers, a Flamer, and an AMS. It moves at a speedy 81 kph at max throttle. 15 DHS do their best but can't manage the mech's incredible heat.",
+    "YangsThoughts": "No one should underestimate the Flashman, much less this barell of pain. The AMS with its ammo are gone, so no more easy kills blowing it up, extra heatsinks allowing for an almost heat natural alpha strike. This one isn't boring anymore.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
@@ -229,6 +230,38 @@
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

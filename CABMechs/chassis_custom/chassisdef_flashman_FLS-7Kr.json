@@ -1,26 +1,26 @@
 {
     "Description": {
-        "Cost": 20800000,
+        "Cost": 7400000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Flashman",
-        "Id": "chassisdef_flashman_FLS-8K",
+        "Id": "chassisdef_flashman_FLS-7Kr",
         "Name": "Flashman",
-        "Details": "The Flashman, which was first introduced in 2701, is a 'Mech that is capable of engaging an enemy for extended periods of time with little re-supply. Armed with a purely energy configuration and often called a 'flashbulb', the Flashman was a prized unit in the SLDF. After the fall of the Star League, the base model FLS-8K fell out of production as its advanced technology stopped being produced. However, with the Helm Core's discovery the mech was put back into production. The FLS-8K carries a battery of Large and Medium Lasers, a Flamer, and an AMS. It moves at a speedy 81 kph at max throttle. 15 DHS do their best but can't manage the mech's incredible heat.",
+        "Details": "A field refit common in Steiner and Kurita spaces, the -7Kr return the Flashman to form. Puttinh back double heatsinks allowed restoring the Star League erra fire power with the addition of a large laser. Armor was upgraded to ferro-fibrous and increased thanks to leftover tonnage.",
         "Icon": "uixTxrIcon_flashman"
     },
-    "MovementCapDefID": "movedef_flashman_FLS-8K",
+    "MovementCapDefID": "movedef_flashman_FLS-7K",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_imp",
     "PrefabIdentifier": "chrprfmech_impbase-001",
     "PrefabBase": "imp",
     "Tonnage": 75,
-    "InitialTonnage": 39,
+    "InitialTonnage": 34.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 60,
-    "MaxJumpjets": 5,
+    "Heatsinks": 42,
+    "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
         0,
@@ -114,10 +114,6 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -207,28 +203,45 @@
             "z": 0
         }
     ],
-    "VariantName": "FLS-8K",
+    "VariantName": "FLS-7Kr",
     "ChassisTags": {
         "items": [
             "mr-resize-0.85-0.90-0.85",
+            "chassis_ferro",
             "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Skirmisher",
-    "YangsThoughts": "The Flashman, which was first introduced in 2701, is a 'Mech that is capable of engaging an enemy for extended periods of time with little re-supply. Armed with a purely energy configuration and often called a 'flashbulb', the Flashman was a prized unit in the SLDF. After the fall of the Star League, the base model FLS-8K fell out of production as its advanced technology stopped being produced. However, with the Helm Core's discovery the mech was put back into production. The FLS-8K carries a battery of Large and Medium Lasers, a Flamer, and an AMS. It moves at a speedy 81 kph at max throttle. 15 DHS do their best but can't manage the mech's incredible heat.",
+    "StockRole": "Brawler",
+    "YangsThoughts": "The original was boring and hot, this is just boring. Well, boring and tough. This barrel of a much will lumber into a kill zone and brutalize anything there within range. Don't mess around with this one.",
     "FixedEquipment": [
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_XL_Engine",
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_XL_Engine",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

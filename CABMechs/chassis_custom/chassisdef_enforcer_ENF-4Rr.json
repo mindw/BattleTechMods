@@ -8,7 +8,7 @@
         "UIName": "Enforcer",
         "Id": "chassisdef_enforcer_ENF-4Rr",
         "Name": "Enforcer",
-        "Details": "A popular Davion field refit of their signature mech. The -4Rr frees tonnage by installing double heatsinks and replacing the autocannon with an advanced and lighter LB-10X one. The tonnage is well spent on additional protection - maxing out the armor and adding a case. There was some left for adding one more ton of LB10X ammo. Finally, the large laser was upgraded to an ER one.",
+        "Details": "A popular Davion field refit of their signature mech. The -4Rr frees tonnage by installing double heatsinks and replacing the autocannon with an advanced and lighter LB-10X one. The tonnage is well spent on additional protection - maxing out the armor and adding a CASE. There was some left for adding one more ton of LB10X ammo. Finally, the large laser was upgraded to an ER one.",
         "Icon": "uixTxrIcon_enforcer"
     },
     "MovementCapDefID": "movedef_enforcer_ENF-4R",
@@ -204,7 +204,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "You only know something is wrong when either it fires at you or you hit it. Heat natural alpha strikes while jumpingm, max protection - what's there not to like? oh the speed. Davions pulled off one more great upgrade.",
+    "YangsThoughts": "You only know something is wrong when either it fires at you or you hit it. Heat natural alpha strikes while jumping, max protection - what's there not to like? oh the speed. Davions pulled off one more great upgrade.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",

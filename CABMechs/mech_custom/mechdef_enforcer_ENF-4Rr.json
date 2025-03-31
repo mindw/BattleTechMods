@@ -40,7 +40,7 @@
         "UIName": "Enforcer ENF-4Rr",
         "Id": "mechdef_enforcer_ENF-4Rr",
         "Name": "Enforcer",
-        "Details": "A popular Davion field refit of their signature mech. The -4Rr frees tonnage by installing double heatsinks and replacing the autocannon with an advanced and lighter LB-10X one. The tonnage is well spent on additional protection - maxing out the armor and adding a case. There was some left for adding one more ton of LB10X ammo. Finally, the large laser was upgraded to an ER one.",
+        "Details": "A popular Davion field refit of their signature mech. The -4Rr frees tonnage by installing double heatsinks and replacing the autocannon with an advanced and lighter LB-10X one. The tonnage is well spent on additional protection - maxing out the armor and adding a CASE. There was some left for adding one more ton of LB10X ammo. Finally, the large laser was upgraded to an ER one.",
         "Icon": "uixTxrIcon_enforcer"
     },
     "simGameMechPartCost": 520000,

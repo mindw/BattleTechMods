@@ -8,7 +8,7 @@
         "UIName": "Vindicator",
         "Id": "chassisdef_vindicator_VND-1AAr",
         "Name": "Vindicator",
-        "Details": "A simple yet siginificant refit of the ridiculed VND-1AA, the -1AAr fixes all of its issues. Double heat sinks free both mass and allow for upgrading the PPC to an externded range one. Armor protection is doubled with upgraded ferror-fibrous armor and added tonage. The added case for the LRM ammo is just icing on the cake.",
+        "Details": "A simple yet siginificant refit of the ridiculed VND-1AA, the -1AAr fixes all of its issues. Double heat sinks free both mass and allow for upgrading the PPC to an externded range one. Armor protection is doubled with upgraded ferror-fibrous armor and added tonage. The added CASE for the LRM ammo is just icing on the cake.",
         "Icon": "uixTxrIcon_vindicator"
     },
     "MovementCapDefID": "movedef_vindicator_VND-1AA",

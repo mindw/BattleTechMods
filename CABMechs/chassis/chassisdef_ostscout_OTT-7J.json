@@ -64,15 +64,6 @@
         },
         {
             "Location": "LeftTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 80,
-            "MaxRearArmor": 40,
-            "InternalStructure": 40
-        },
-        {
-            "Location": "CenterTorso",
             "Hardpoints": [
                 {
                     "WeaponMount": "Energy",
@@ -83,6 +74,15 @@
                     "Omni": false
                 }
             ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 80,
+            "MaxRearArmor": 40,
+            "InternalStructure": 40
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
             "MaxArmor": 110,

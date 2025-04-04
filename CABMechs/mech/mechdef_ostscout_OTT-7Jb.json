@@ -151,7 +151,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -186,7 +186,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Beagle_Probe_0-STOCK",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

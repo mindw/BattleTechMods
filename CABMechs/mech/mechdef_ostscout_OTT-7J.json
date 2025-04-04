@@ -135,7 +135,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

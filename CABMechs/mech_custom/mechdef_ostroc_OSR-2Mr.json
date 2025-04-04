@@ -1,0 +1,188 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_heavy",
+            "unit_jumpOK",
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_lance_skirmisher",
+            "unit_lance_assassin",
+            "unit_role_flanker",
+            "unit_armor_high",
+            "NotDavion",
+            "NotLiao",
+            "Marik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_ostroc_OSR-2Mr",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6900000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Ostroc OSR-2Mr",
+        "Id": "mechdef_ostroc_OSR-2Mr",
+        "Name": "Ostroc",
+        "Details": "A refit of a refit common in Marik space, the -2Mr upgrade the heat sinks to double and the armor to ferro-fibrous. Even with the brand new extended range large lasers it can jump and fire without any over heating worriers. Armor coverage was increased to a generous 89%.",
+        "Icon": "uixTxrIcon_ostroc"
+    },
+    "simGameMechPartCost": 690000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 115,
+            "CurrentRearArmor": 25,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 115,
+            "AssignedRearArmor": 25
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 115,
+            "CurrentRearArmor": 25,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 115,
+            "AssignedRearArmor": 25
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "3049-01-01T00:00:00Z"
+}

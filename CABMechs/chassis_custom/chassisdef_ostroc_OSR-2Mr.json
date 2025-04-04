@@ -1,0 +1,226 @@
+{
+    "Description": {
+        "Cost": 5700000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Ostroc",
+        "Id": "chassisdef_ostroc_OSR-2Mr",
+        "Name": "Ostroc",
+        "Details": "A refit of a refit common in Marik space, the -2Mr upgrade the heat sinks to double and the armor to ferro-fibrous. Even with the brand new extended range large lasers it can jump and fire without any over heating worriers. All extra tonnage went into increasing the armor coverage to a generous 89%.",
+        "Icon": "uixTxrIcon_ostroc"
+    },
+    "MovementCapDefID": "movedef_ostroc_OSR-2C",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_ostroc",
+    "PrefabIdentifier": "chrprfmech_ostrochotd-001",
+    "PrefabBase": "ostroc",
+    "Tonnage": 60,
+    "InitialTonnage": 33,
+    "weightClass": "HEAVY",
+    "Heatsinks": 42,
+    "MaxJumpjets": 5,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 85,
+    "MeleeInstability": 60,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 90,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 60,
+    "DFAInstability": 60,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 2,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 140,
+            "MaxRearArmor": 70,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 140,
+            "MaxRearArmor": -1,
+            "InternalStructure": 70
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 13,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 13,
+            "z": 1
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": 0
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "OSR-2Mr",
+    "ChassisTags": {
+        "items": [
+            "chassis_ferro",
+            "chassis_DHS"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "A refit of a refit common in Marik space, the -2Mr upgrade the heat sinks to double and the armor to ferro-fibrous. Even with the brand new extended range large lasers it can jump and fire without any over heating worriers. All extra tonnage went into increasing the armor coverage to a generous 89%.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_6_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_7_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

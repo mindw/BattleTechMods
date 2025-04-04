@@ -1,0 +1,173 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_heavy",
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_lance_skirmisher",
+            "unit_lance_assassin",
+            "unit_role_flanker",
+            "unit_armor_high",
+            "NotDavion",
+            "Liao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "KellHounds",
+            "WolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_ostroc_OSR-2Lr",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 7000000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Ostroc OSR-2Lr",
+        "Id": "mechdef_ostroc_OSR-2Lr",
+        "Name": "Ostroc",
+        "Details": "A field refit of the 2L variant made official in 3051. Upgrading the heat sinks to double ones to solved the heating problem and freed some mass for protection. The armor was upgraded to ferro-fibrous, incrased to 93% coverage and added CASE for the LRM ammo.",
+        "Icon": "uixTxrIcon_ostroc"
+    },
+    "simGameMechPartCost": 700000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 20
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 165,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 165,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 20
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "3051-01-01T00:00:00Z"
+}

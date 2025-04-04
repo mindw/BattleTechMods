@@ -15,7 +15,7 @@
         "items": [
             "unit_vehicle",
             "unit_heavy",
-            "unit_indirectFire", 
+            "unit_indirectFire",
             "unit_wheels",
             "unit_release"
         ],
@@ -88,21 +88,21 @@
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_Autocannon_AC10_2-Mydron",
+            "ComponentDefID": "Weapon_Autocannon_AC10_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Turret",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_SRM_SRM2_2-Irian",
+            "ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Turret",
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Weapon_LRM_LRM10_2-Delta",
+            "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
             "ComponentDefType": "Weapon",
             "MountedLocation": "Front",
             "HardpointSlot": 0,

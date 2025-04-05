@@ -9,13 +9,13 @@
         "Id": "chassisdef_striker_STC-2S",
         "Name": "Striker",
         "Details": "In order to make the Striker more heat-efficient, the Striker 2S variant removed the Large Laser and autocannon to incorporate an Autocannon/10 with a two-ton magazine. The result is a 'Mech that has less damage potential, but easier heat management.",
-        "Icon": "uixTxrIcon_striker"
+        "Icon": "uixTxrIcon_striker_mech"
     },
     "MovementCapDefID": "movedef_striker_STC-2C",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_striker_mech",
-    "PrefabIdentifier": "chrprfmech_gargoylebase-001",
-    "PrefabBase": "gargoyle",
+    "HardpointDataDefID": "hardpointdatadef_strikermech",
+    "PrefabIdentifier": "chrprfmech_strikermechbase-001",
+    "PrefabBase": "strikermech",
     "Tonnage": 80,
     "InitialTonnage": 39.5,
     "weightClass": "ASSAULT",
@@ -39,10 +39,10 @@
     "MeleeDamage": 100,
     "MeleeInstability": 80,
     "MeleeToHitModifier": 0,
-    "DFADamage": 100,
+    "DFADamage": 120,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 100,
-    "DFAInstability": 100,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
     "Locations": [
         {
             "Location": "Head",
@@ -160,52 +160,50 @@
     "LOSSourcePositions": [
         {
             "x": 0,
+            "y": 15,
+            "z": 1
+        },
+        {
+            "x": 4,
             "y": 14,
             "z": 0
         },
         {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
             "x": -4,
-            "y": 15,
-            "z": -1
+            "y": 14,
+            "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
+            "y": 15,
+            "z": 1
+        },
+        {
+            "x": 4,
             "y": 14,
             "z": 0
         },
         {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
             "x": -4,
-            "y": 15,
-            "z": -1
+            "y": 14,
+            "z": 0
         },
         {
-            "x": 3.5,
-            "y": 5.5,
-            "z": 1
+            "x": 3,
+            "y": 5,
+            "z": 0
         },
         {
-            "x": -3.5,
-            "y": 5.5,
-            "z": 1
+            "x": -3,
+            "y": 5,
+            "z": 0
         }
     ],
     "VariantName": "STC-2S",
     "ChassisTags": {
-        "items": [
-            "mr-resize-1.10-0.90-1.10"
-        ],
+        "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

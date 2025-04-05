@@ -9,13 +9,13 @@
         "Id": "chassisdef_striker_STC-2C",
         "Name": "Striker",
         "Details": "The Striker has an arsenal that is capable of engaging an enemy at a variety of ranges. At maximum range, the Striker brings its PPC and Class-5 Autocannon to bear. As the enemy closes, it can also make use of its Large Laser, though the unit's pilot will need to monitor their heat generation carefully. Finally, for close range defense, the Striker has three Medium Lasers.",
-        "Icon": "uixTxrIcon_striker"
+        "Icon": "uixTxrIcon_striker_mech"
     },
     "MovementCapDefID": "movedef_striker_STC-2C",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_striker_mech",
-    "PrefabIdentifier": "chrprfmech_gargoylebase-001",
-    "PrefabBase": "gargoyle",
+    "HardpointDataDefID": "hardpointdatadef_strikermech",
+    "PrefabIdentifier": "chrprfmech_strikermechbase-001",
+    "PrefabBase": "strikermech",
     "Tonnage": 80,
     "InitialTonnage": 39.5,
     "weightClass": "ASSAULT",
@@ -42,10 +42,10 @@
     "MeleeDamage": 100,
     "MeleeInstability": 80,
     "MeleeToHitModifier": 0,
-    "DFADamage": 100,
+    "DFADamage": 120,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 100,
-    "DFAInstability": 100,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
     "Locations": [
         {
             "Location": "Head",
@@ -156,52 +156,50 @@
     "LOSSourcePositions": [
         {
             "x": 0,
+            "y": 15,
+            "z": 1
+        },
+        {
+            "x": 4,
             "y": 14,
             "z": 0
         },
         {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
             "x": -4,
-            "y": 15,
-            "z": -1
+            "y": 14,
+            "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
+            "y": 15,
+            "z": 1
+        },
+        {
+            "x": 4,
             "y": 14,
             "z": 0
         },
         {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
             "x": -4,
-            "y": 15,
-            "z": -1
+            "y": 14,
+            "z": 0
         },
         {
-            "x": 3.5,
-            "y": 5.5,
-            "z": 1
+            "x": 3,
+            "y": 5,
+            "z": 0
         },
         {
-            "x": -3.5,
-            "y": 5.5,
-            "z": 1
+            "x": -3,
+            "y": 5,
+            "z": 0
         }
     ],
     "VariantName": "STC-2C",
     "ChassisTags": {
-        "items": [
-            "mr-resize-1.10-0.90-1.10"
-        ],
+        "items": [],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",

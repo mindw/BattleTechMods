@@ -11,7 +11,7 @@
         "Details": "The Striker has an arsenal that is capable of engaging an enemy at a variety of ranges. At maximum range, the Striker brings its PPC and Class-5 Autocannon to bear. As the enemy closes, it can also make use of its Large Laser, though the unit's pilot will need to monitor their heat generation carefully. Finally, for close range defense, the Striker has three Medium Lasers.",
         "Icon": "uixTxrIcon_striker_mech"
     },
-    "MovementCapDefID": "movedef_striker_STC-2C",
+    "MovementCapDefID": "movedef_mech_assault_4",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_strikermech",
     "PrefabIdentifier": "chrprfmech_strikermechbase-001",

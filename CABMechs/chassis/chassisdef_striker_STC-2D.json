@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 8100000,
+        "Cost": 8200000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Striker",
-        "Id": "chassisdef_striker_STC-2S",
+        "Id": "chassisdef_striker_STC-2D",
         "Name": "Striker",
-        "Details": "In order to make the Striker more heat-efficient, the Striker 2S variant removed the Large Laser and autocannon to incorporate an Autocannon/10 with a two-ton magazine. The result is a 'Mech that has less damage potential, but easier heat management.",
+        "Details": "The 2D variant of the Striker is a very basic upgrade of the design used by the Capellan Confederation Armed Forces. The PPC has been upgraded to an ER PPC, the three medium lasers have been replaced with a pair of medium pulse lasers, and the Mech has had three heat sinks removed. The remaining heat sinks have been upgraded to double heat sinks. The remaining available space has been used to add two tons of armor to the Mech.",
         "Icon": "uixTxrIcon_striker_mech"
     },
     "MovementCapDefID": "movedef_mech_assault_4",
@@ -19,7 +19,10 @@
     "Tonnage": 80,
     "InitialTonnage": 39.5,
     "weightClass": "ASSAULT",
-    "Heatsinks": 6,
+    "BattleValue": 7718000,
+    "Heatsinks": 42,
+    "TopSpeed": 105,
+    "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 200,
     "StabilityDefenses": [
@@ -64,7 +67,12 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 9,
             "MaxArmor": 130,
@@ -75,19 +83,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -201,11 +197,13 @@
             "z": 0
         }
     ],
-    "VariantName": "STC-2S",
+    "VariantName": "STC-2D",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"        
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
-    "YangsThoughts": "The Striker 2S, built for House Steiner, biases the weaponry to it's Ballistic in order to improve perceived heat issues. It is still the Jack of all trades except indirect fire, but with a lot more of it's impact at closer ranges."
+    "YangsThoughts": "The 2D variant of the Striker is a very basic upgrade of the design used by the Capellan Confederation Armed Forces. The PPC has been upgraded to an ER PPC, the three medium lasers have been replaced with a pair of medium pulse lasers, and the Mech has had three heat sinks removed. The remaining heat sinks have been upgraded to double heat sinks. The remaining available space has been used to add two tons of armor to the Mech."
 }

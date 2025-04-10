@@ -1,15 +1,15 @@
 {
     "Description": {
-        "Id": "movedef_axman_AXM-1N",
-        "Name": "MovementCapabilitiesDef for Axman AXM-1N",
+        "Id": "movedef_mech_heavy_4",
+        "Name": "MovementCapabilitiesDef for a movement 4 heavy 'Mech",
         "Details": "",
         "Icon": ""
     },
     "MaxWalkDistance": 120.0,
     "MaxSprintDistance": 200.0,
     "WalkVelocity": 16.0,
-    "RunVelocity" : 24.0,
-    "SprintVelocity" : 32.0,
+    "RunVelocity": 24.0,
+    "SprintVelocity": 32.0,
     "LimpVelocity": 8.0,
     "WalkAcceleration": 15.0,
     "SprintAcceleration": 20.0,

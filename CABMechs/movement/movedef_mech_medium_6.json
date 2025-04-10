@@ -1,7 +1,7 @@
 {
     "Description": {
-        "Id": "movedef_shadowhawk_SHD-5S",
-        "Name": "MovementCapabilitiesDef for Shadow Hawk SHD-5S",
+        "Id": "movedef_mech_medium_6",
+        "Name": "MovementCapabilitiesDef for a movement 6 medium 'Mech",
         "Details": "",
         "Icon": ""
     },

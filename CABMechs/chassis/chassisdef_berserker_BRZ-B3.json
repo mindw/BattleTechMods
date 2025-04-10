@@ -11,7 +11,7 @@
         "Details": "The B3 variant is a modification of the Berserker that changes the 'Mech from a powerful brawler to a well armed fire support 'Mech. The twin Large Pulse Lasers have been replaced with a pair of LRM-10 launchers which allow the 'Mech to sit at long ranges and bombard the enemy. If a 'Mech closes to short range, the Berserker can act as its own bodyguard by using its Hatchet.",
         "Icon": "uixTxrIcon_berserker"
     },
-    "MovementCapDefID": "movedef_berserker_BRZ-A3",
+    "MovementCapDefID": "movedef_mech_assault_4",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_berserker",
     "PrefabIdentifier": "chrprfmech_berserkerbase-001",
@@ -40,10 +40,10 @@
     "MeleeDamage": 130,
     "MeleeInstability": 100,
     "MeleeToHitModifier": 0,
-    "DFADamage": 125,
+    "DFADamage": 150,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 125,
-    "DFAInstability": 125,
+    "DFASelfDamage": 100,
+    "DFAInstability": 100,
     "Locations": [
         {
             "Location": "Head",

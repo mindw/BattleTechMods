@@ -1,12 +1,12 @@
 {
     "Description": {
-        "Id": "movedef_shadowhawk_SHD-5S",
-        "Name": "MovementCapabilitiesDef for Shadow Hawk SHD-5S",
+        "Id": "movedef_mech_medium_7",
+        "Name": "MovementCapabilitiesDef for a movement 7 medium 'Mech",
         "Details": "",
         "Icon": ""
     },
-    "MaxWalkDistance": 165.0,
-    "MaxSprintDistance": 275.0,
+    "MaxWalkDistance": 190.0,
+    "MaxSprintDistance": 315.0,
     "WalkVelocity": 16.0,
     "RunVelocity": 28.0,
     "SprintVelocity": 32.0,

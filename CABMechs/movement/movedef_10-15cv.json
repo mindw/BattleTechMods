@@ -6,7 +6,7 @@
       "Icon" : ""
    },
    "MaxWalkDistance" : 260.0,
-   "MaxSprintDistance" : 430.0,
+   "MaxSprintDistance" : 425.0,
    "WalkVelocity" : 20.0,
    "RunVelocity" : 28.0,
    "SprintVelocity" : 31.0,

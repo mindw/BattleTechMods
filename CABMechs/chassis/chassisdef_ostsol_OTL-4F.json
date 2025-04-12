@@ -11,7 +11,7 @@
         "Details": "The Ostsol 4F is considered a poor man's Marauder or Warhammer, the PPC array can quickly overload the sixteen heat sinks. Though, on its own merits, the variant is a good long-range direct fire support 'Mech which uses its top speed of 86.4 kph to dictate combat ranges against most heavier 'Mechs.",
         "Icon": "uixTxrIcon_ostsol"
     },
-    "MovementCapDefID": "movedef_ostsol_OTL-4D",
+    "MovementCapDefID": "movedef_mech_heavy_5",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_ostsol",
     "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
@@ -39,16 +39,16 @@
     "MeleeDamage": 85,
     "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 75,
+    "DFADamage": 90,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 75,
-    "DFAInstability": 75,
+    "DFASelfDamage": 60,
+    "DFAInstability": 60,
     "Locations": [
         {
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 2,
+            "InventorySlots": 3,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -203,6 +203,14 @@
     "StockRole": "Skirmisher",
     "YangsThoughts": "Boss, despite only having two weapons, the OTL-4F's twin PPCs are going to overheat it in any sort of sustained firefight - unless you're lucky enough to be on an ice word, in a river of liquid nitrogen, while eating a snowcone... hmmm, I wonder if we have any of that syrup stuff in the galley.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Improved_Sensors",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Special_Narrow_Low_Profile",

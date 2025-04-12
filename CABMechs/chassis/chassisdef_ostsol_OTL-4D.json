@@ -11,7 +11,7 @@
         "Details": "The Ostsol 4D uses an all-laser weapons array which is particularly geared to close-quarters fighting. A versatile 'Mech, the Ostsol can operate as part of heavy lances in order to provide close-range firepower or lead recon and raiding lances thanks to its fast speed for a heavy 'Mech.",
         "Icon": "uixTxrIcon_ostsol"
     },
-    "MovementCapDefID": "movedef_ostsol_OTL-4D",
+    "MovementCapDefID": "movedef_mech_heavy_5",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_ostsol",
     "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
@@ -39,16 +39,16 @@
     "MeleeDamage": 85,
     "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 75,
+    "DFADamage": 90,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 75,
-    "DFAInstability": 75,
+    "DFASelfDamage": 60,
+    "DFAInstability": 60,
     "Locations": [
         {
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 2,
+            "InventorySlots": 3,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -208,6 +208,14 @@
     "StockRole": "Skirmisher",
     "YangsThoughts": "The Ostsol 4D is a great 'Mech for a merc outfit like ours Commander as it doesn't rely on ammo, so no need to worry about resupply costs.  It also has an impressive array of firepower.  But the pilot is going to have to watch their heat.  We could probably swap out a Medium Laser or two for extra Heat Sinks.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Improved_Sensors",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Special_Narrow_Low_Profile",

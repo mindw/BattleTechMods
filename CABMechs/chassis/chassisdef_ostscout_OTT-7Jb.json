@@ -11,7 +11,7 @@
         "Details": "The Ostscout was designed as a pure recon BattleMech by Ostmann Industries. To that end, it was built entirely around gathering data and getting out of trouble, tasks for which it is exceptional. Introduced at the same time as the original model and used by the SLDF Royal units, the 7Jb uses Endo Steel to free up enough mass to add a Beagle Active Probe.",
         "Icon": "uixTxrIcon_ostscout"
     },
-    "MovementCapDefID": "movedef_ostscout_OTT-7Jb",
+    "MovementCapDefID": "movedef_mech_light_8",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_vossieostscout",
     "PrefabIdentifier": "chrprfmech_vossieostscoutbase-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 45,
     "MeleeInstability": 35,
     "MeleeToHitModifier": 0,
-    "DFADamage": 45,
+    "DFADamage": 53,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 45,
-    "DFAInstability": 45,
+    "DFASelfDamage": 35,
+    "DFAInstability": 35,
     "Locations": [
         {
             "Location": "Head",

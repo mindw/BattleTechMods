@@ -50,7 +50,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Sensor_Gain-150m",
+                "Id" : "StatusEffect-Sensor_Gain-120m",
                 "Name" : "INCREASED SENSOR RANGE",
                 "Details" : "Sensor Range increased by [AMT]m.",
                 "Icon" : "uixSvgIcon_equipment_Rangefinder"

@@ -1,7 +1,7 @@
 {
     "Description": {
         "Cost": 5020000,
-        "Rarity": 0,
+        "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
@@ -11,11 +11,11 @@
         "Details": "Developed by the Solaris VII based Vining Engineering and Salvage Team, the Jackal was designed to give as equal of a performance as possible to a Clan 'Mech of equal weight. While intended for the battlefield rather than the arenas, the prototype's stellar run on Solaris attracted the attention of number of 'Mech manufacturers, most notably Earthwerks Incorporated of Keystone.",
         "Icon": "uixTxrIcon_jackal"
     },
-    "MovementCapDefID": "movedef_jackal_JA-KL-1532",
+    "MovementCapDefID": "movedef_mech_light_7",
     "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_ostroc",
-    "PrefabIdentifier": "chrprfmech_ostrochotd-001",
-    "PrefabBase": "ostroc",
+    "HardpointDataDefID": "hardpointdatadef_hauptmann",
+    "PrefabIdentifier": "chrPrfMech_hauptmannbase-001",
+    "PrefabBase": "hauptmann",
     "Tonnage": 30,
     "InitialTonnage": 12,
     "weightClass": "LIGHT",
@@ -39,10 +39,10 @@
     "MeleeDamage": 45,
     "MeleeInstability": 30,
     "MeleeToHitModifier": 0,
-    "DFADamage": 40,
+    "DFADamage": 45,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 40,
-    "DFAInstability": 40,
+    "DFASelfDamage": 30,
+    "DFAInstability": 30,
     "Locations": [
         {
             "Location": "Head",
@@ -134,51 +134,51 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 9.5,
-            "z": 0.5
+            "y": 15,
+            "z": 1
         },
         {
-            "x": -2.5,
-            "y": 8.5,
-            "z": -0.5
+            "x": 4,
+            "y": 14,
+            "z": 0
         },
         {
-            "x": 2.5,
-            "y": 8.5,
-            "z": -0.5
+            "x": -4,
+            "y": 14,
+            "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 9.5,
-            "z": 0.5
+            "y": 15,
+            "z": 1
         },
         {
-            "x": -2.5,
-            "y": 8.5,
-            "z": -0.5
+            "x": 4,
+            "y": 14,
+            "z": 0
         },
         {
-            "x": 2.5,
-            "y": 8.5,
-            "z": -0.5
+            "x": -4,
+            "y": 14,
+            "z": 0
         },
         {
-            "x": -1.5,
-            "y": 3,
-            "z": 0.5
+            "x": 3,
+            "y": 5,
+            "z": 0
         },
         {
-            "x": 1.5,
-            "y": 3,
-            "z": 0.5
+            "x": -3,
+            "y": 5,
+            "z": 0
         }
     ],
     "VariantName": "JA-KL-1532",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.65-0.70-0.65",
+            "mr-resize-0.6",
             "chassis_endo"
         ],
         "tagSetSourceFile": ""

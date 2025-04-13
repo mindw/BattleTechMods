@@ -1,7 +1,7 @@
 {
     "Name": "AIToolkit",
     "DLL": "AIToolkit.dll",
-    "Enabled": true,
+    "Enabled": false,
 
     "CustomResourceTypes": [ "UnitAIOverrideDef", "TeamAIOverrideDef", "BehaviorNodeDef" ],
 

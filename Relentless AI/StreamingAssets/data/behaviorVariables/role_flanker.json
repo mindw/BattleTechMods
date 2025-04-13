@@ -1,0 +1,273 @@
+{
+   "behaviorVariables" : [
+	{
+	    /* How much of expected melee damage to add in again as
+	       bonus damage when attacking evasive targets (0 - none,
+	       1 - 100% bonus damage) */
+            "k" : "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1
+            }
+	},
+	{
+	    /* How much of expected melee damage to add in again as
+	       bonus damage when attacking braced targets (0 - none,
+	       1 - 100% bonus damage) */
+            "k" : "Float_MeleeBonusMultiplierWhenAttackingBracedTargets",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.4
+            }
+	},
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the melee damage by this value to decide which attack
+	       to use. */
+            "k" : "Float_MeleeDamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1
+            }
+	},
+	{
+	    /* Influence Factor Weight to maximize expected damage to
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat
+	    */
+            "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 3.0
+            }
+	},
+	{
+	    /* When considering different kinds of attacks, multiply
+	       the DFA damage by this value to decide which attack to
+	       use. */
+            "k" : "Float_DFADamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2
+            }
+	},
+	{
+	    /* Influence Factor Weight to be inside SprintExclusionRadius. */
+	    "k" : "Float_PreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -1
+	    }
+	},
+	{
+	    /* Influence Factor Weight to be inside
+	       SprintExclusionRadius WHEN SPRINTING.  N.B. this should
+	       have NEGATIVE weights to discourage sprinting close to
+	       hostiles. */
+	    "k" : "Float_SprintPreferInsideSprintExclusionRadiusHostileFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : -1
+	    }
+	},
+	{
+	    /* Percent chance (0-100) of actually using the "Reckless" skill. */
+		"k" : "Float_UseRecklessSkillPercentageChance",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0
+        }
+	},
+	{
+	    /* Influence Factor to prefer not to be surrounded by hostile units.*/
+	    "k" : "Float_PreferNotSurroundedByHostileUnitsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.6
+	    }
+	},
+	{
+	    /* Influence Factor to prefer this lance to surround hostile units.*/
+	    "k" : "Float_PreferSurroundingHostileUnitsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.5
+	    }
+	},
+	{
+	    /* Influence Factor to prefer this lance to surround
+	       hostile units WHEN SPRINTING.*/
+	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.4
+	    }
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind
+	       hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+		"k" : "Float_PreferAttackFromBehindHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.7
+        }
+	},
+	{
+	    /* Influence Factor Weight to prefer being behind hostiles
+	       WHEN SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+		"k" : "Float_SprintPreferAttackFromBehindHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.7
+        }
+	},
+		{
+	    /* A weight for an influence factor to prefer to get
+	       inside melee range. Negative values will encourage
+	       units to get out of melee range. */
+		"k" : "Float_PreferInsideMeleeRangeFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : -0.2
+        }
+	},
+	{
+	    /* Influence Factor Weight for preferring higher
+	       elevations. */
+            "k" : "Float_PreferHigherPositionFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring higher
+	       elevations WHEN SPRINTING. */
+            "k" : "Float_SprintPreferHigherPositionFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0
+            }
+	},
+	{
+	    /* Influence Factor Weight to minimize expected damage
+	       from hostiles. */
+		"k" : "Float_PreferLowerExpectedDamageFromHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.6
+        }
+	},
+	{
+	    /* Influence Factor Weight to minimize expected damage
+	       from hostiles WHEN SPRINTING. */
+		"k" : "Float_SprintPreferLowerExpectedDamageFromHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.6
+        }
+	},
+	{
+	    /* Influence Factor Weight to prefer facing hostiles.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+		"k" : "Float_PreferFacingHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.5
+        }
+	},
+	{
+	    /* Influence Factor Weight to prefer facing hostiles WHEN
+	       SPRINTING.
+	       Hostile Factor: 1.0 / 0.5 / 0.25 based on threat */
+		"k" : "Float_SprintPreferFacingHostileFactorWeight",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0.5
+        }
+	},
+	{
+	    /* Influence Factor Weight for preferring moving less. */
+            "k" : "Float_PreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -0.9
+            }
+	},
+	{
+	    /* Influence Factor Weight for preferring moving less WHEN
+	       SPRINTING. */
+            "k" : "Float_SprintPreferLowerMovementFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -0.9
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside forests or other locations that grant guard. */
+            "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.1
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside forests or other locations that grant guard WHEN
+	       SPRINTING. */
+            "k" : "Float_SprintPreferLocationsThatGrantGuardFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.1
+            }
+	},
+	{
+	    /* Percentage (0-100) of best available move that will be
+	       accepted for bulwark skill moves. */
+		"k" : "Float_BulwarkThresholdPercentage",
+		"v" : {
+			"type" : "Float",
+			"floatVal" : 0
+		}
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with movement bonus. */
+	    "k" : "Float_PreferHigherMovementBonusLocationsFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 0.5
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be in
+	       locations with movement bonus WHEN SPRINTING. */
+	    "k" : "Float_SprintPreferHigherMovementBonusLocationsFactorWeight",
+	    "v" : {
+			"type" : "Float",
+			"floatVal" : 0.5
+	    }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside e.g. forests. */
+            "k" : "Float_PreferLessTargetableLocationFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -0.2
+            }
+	},
+	{
+	    /* Influence Factor Weight to control the desire to be
+	       inside e.g. forests WHEN SPRINTING. */
+            "k" : "Float_SprintPreferLessTargetableLocationFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : -0.2
+            }
+	}
+    ]
+}

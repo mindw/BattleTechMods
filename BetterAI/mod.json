@@ -9,8 +9,7 @@
 
     "OptionallyDependsOn": [
         "cFixes",
-        "cFixes2",
-        "Z_Sab_JK_RarityTables"
+        "cFixes2"
     ],
 
     "Manifest": [

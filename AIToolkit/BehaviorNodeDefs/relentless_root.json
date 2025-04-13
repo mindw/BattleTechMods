@@ -651,6 +651,10 @@
 														{
 															"Name": "second_not_simple_inRange",
 															"TypeName": "HasLOFToAnyHostileFromReachableLocationsNode"
+														},
+														{
+															"Name": "hasLOSToAnyHostile0002",
+															"TypeName": "HasLOSToAnyHostileNode"
 														}
 													]
 												}

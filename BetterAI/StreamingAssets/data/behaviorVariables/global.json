@@ -817,7 +817,7 @@
       "k": "Float_OverkillFactorForReserve",
       "v": {
         "type": "Float",
-        "floatVal": 60
+        "floatVal": 20
       }
     },
     {

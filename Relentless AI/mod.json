@@ -1,6 +1,6 @@
 {
     "Name": "Relentless AI",
-    "Enabled": true,
+    "Enabled": false,
     
     "Version": "0.9.6",
     "Description": "More aggressive take on AI behavior with customized and optimized AI tree",

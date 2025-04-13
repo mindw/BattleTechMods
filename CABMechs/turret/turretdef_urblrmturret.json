@@ -1,0 +1,44 @@
+{
+    "Version": 1,
+    "Description": {
+        "Id": "turretdef_urblrmturret",
+        "Name": "Urbie LRM Turret",
+        "Details": "",
+        "Icon": "",
+        "Cost": 993,
+        "Rarity": 0,
+        "Purchasable": false
+    },
+    "ChassisID": "turretchassisdef_urblrmturret",
+    "TurretTags": {
+        "items": [
+            "unit_turret",
+            "unit_medium"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "CurrentArmor": 200,
+    "CurrentInternalStructure": 10,
+    "AssignedArmor": 200,
+    "DamageLevel": "Functional",
+    "inventory": [
+        {
+            "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

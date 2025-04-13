@@ -8,7 +8,7 @@
         "UIName": "Battle Fists",
         "Id": "Special_Battle_Fists",
         "Name": "Battle Fists",
-        "Details": "This BattleMech's hand actuators have been specifically designed to for close combat.",
+        "Details": "This BattleMech's hand actuators have been specifically designed for close combat.",
         "Icon": "uixSvgIcon_special_Equipment"
     },
     "BonusValueA": "+1 Melee Hit",

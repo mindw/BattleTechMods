@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate": "3052-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -9,158 +10,184 @@
             "unit_lance_skirmisher",
             "unit_lance_assassin",
             "unit_role_flanker",
-            "unit_hot",
-            "Davion",
+            "NotDavion",
             "NotLiao",
-            "NotMarik",
+            "Marik",
             "NotSteiner",
             "NotKurita",
-            "NotComStar",
+            "ComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
             "NotAuriganPirates",
-            "NotAuriganMercenaries",
-            "NotMercenaryReviewBoard",
-            "NotKellHounds",
-            "NotWolfsDragoons"
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "KellHounds",
+            "WolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_ostsol_OTL-4F",
+    "ChassisID": "chassisdef_ostsol_OTL-5Mr",
     "HeraldryID": null,
     "Description": {
-        "Cost": 6900000,
+        "Cost": 16440000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Ostsol OTL-4F",
-        "Id": "mechdef_ostsol_OTL-4F",
+        "UIName": "Ostsol OTL-5Mr",
+        "Id": "mechdef_ostsol_OTL-5Mr",
         "Name": "Ostsol",
-        "Details": "The Ostsol 4F is considered a poor man's Marauder or Warhammer, the PPC array can quickly overload the sixteen heat sinks. Though, on its own merits, the variant is a good long-range direct fire support 'Mech which uses its top speed of 86.4 kph to dictate combat ranges against most heavier 'Mechs.",
+        "Details": "Appearing a mere 2 years after the factory refit, the -5Mr is a direct resposonce to the very high losses of the original compared to unmodified 4D. Droppping the volatile, upgrotected ammo and downgrading the rear firing pulse lasers to standard ones diverts enough tonnnage to increase armor coverage over 90%.",
         "Icon": "uixTxrIcon_ostsol"
     },
-    "simGameMechPartCost": 690000,
+    "simGameMechPartCost": 1640000,
     "Version": 1,
     "Locations": [
         {
             "DamageLevel": "Functional",
             "Location": "Head",
-            "CurrentArmor": 40,
+            "CurrentArmor": 45,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 16,
-            "AssignedArmor": 40,
+            "AssignedArmor": 45,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 100,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 50,
-            "AssignedArmor": 40,
+            "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
             "CurrentArmor": 110,
-            "CurrentRearArmor": 20,
-            "CurrentInternalStructure": 70,
-            "AssignedArmor": 110,
-            "AssignedRearArmor": 20
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "CenterTorso",
-            "CurrentArmor": 110,
             "CurrentRearArmor": 30,
-            "CurrentInternalStructure": 100,
+            "CurrentInternalStructure": 70,
             "AssignedArmor": 110,
             "AssignedRearArmor": 30
         },
         {
             "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 45
+        },
+        {
+            "DamageLevel": "Functional",
             "Location": "RightTorso",
             "CurrentArmor": 110,
-            "CurrentRearArmor": 20,
+            "CurrentRearArmor": 30,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 110,
-            "AssignedRearArmor": 20
+            "AssignedRearArmor": 30
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 40,
+            "CurrentArmor": 100,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 50,
-            "AssignedArmor": 40,
+            "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 100,
+            "CurrentArmor": 140,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 70,
-            "AssignedArmor": 100,
+            "AssignedArmor": 140,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 100,
+            "CurrentArmor": 140,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 70,
-            "AssignedArmor": 100,
+            "AssignedArmor": 140,
             "AssignedRearArmor": -1
         }
     ],
     "inventory": [
         {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
-    ],
-    "MinAppearanceDate": "2871-01-01T00:00:00Z"
+    ]
 }

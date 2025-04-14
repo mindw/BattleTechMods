@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 6000000,
+        "Cost": 13700000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Ostsol",
-        "Id": "chassisdef_ostsol_OTL-4D",
+        "Id": "chassisdef_ostsol_OTL-5Mr",
         "Name": "Ostsol",
-        "Details": "The Ostsol 4D uses an all-laser weapons array which is particularly geared to close-quarters fighting. A versatile 'Mech, the Ostsol can operate as part of heavy lances in order to provide close-range firepower or lead recon and raiding lances thanks to its fast speed for a heavy 'Mech.",
+        "Details": "Appearing a mere 2 years after the factory refit, the -5Mr is a direct resposonce to the very high losses of the original compared to unmodified 4D. Droppping the volatile, upgrotected ammo and downgrading the rear firing pulse lasers to standard ones diverts enough tonnnage to increase armor coverage over 90%.",
         "Icon": "uixTxrIcon_ostsol"
     },
     "MovementCapDefID": "movedef_mech_heavy_5",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrprfmech_ostsolhotd-001",
     "PrefabBase": "ostsol",
     "Tonnage": 60,
-    "InitialTonnage": 33,
+    "InitialTonnage": 23.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 6,
+    "Heatsinks": 42,
     "MaxJumpjets": 5,
     "Stability": 160,
     "StabilityDefenses": [
@@ -200,13 +200,15 @@
             "z": 0
         }
     ],
-    "VariantName": "OTL-4D",
+    "VariantName": "OTL-5Mr",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "The Ostsol 4D is a great 'Mech for a merc outfit like ours Commander as it doesn't rely on ammo, so no need to worry about resupply costs.  It also has an impressive array of firepower.  But the pilot is going to have to watch their heat.  We could probably swap out a Medium Laser or two for extra Heat Sinks.",
+    "YangsThoughts": "Appearing a mere 2 years after the factory refit, the -5Mr is a direct resposonce to the very high losses of the original compared to unmodified 4D. Droppping the volatile, upgrotected ammo and downgrading the rear firing pulse lasers to standard ones diverts enough tonnnage to increase armor coverage over 90%.",
     "FixedEquipment": [
         {
             "MountedLocation": "Head",
@@ -219,6 +221,22 @@
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_XL_Engine",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_XL_Engine",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

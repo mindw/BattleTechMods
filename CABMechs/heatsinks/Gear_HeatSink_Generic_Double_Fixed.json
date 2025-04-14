@@ -26,7 +26,8 @@
     "statusEffects": null,
     "ComponentTags": {
         "items": [
-            "BUILT-IN"        
+            "BUILT-IN",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     }

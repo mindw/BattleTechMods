@@ -1,0 +1,159 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_assault",
+            "unit_speed_high",
+            "unit_range_medium",
+            "unit_lance_brawler",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_LosTech",
+            "Davion",
+            "Liao",
+            "NotMarik",
+            "NotSteiner",
+            "Kurita",
+            "ComStar",
+            "NotMagistracyOfCanopus",
+            "TaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "AuriganPirates",
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_banshee_BNC-3Er",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 11650000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Banshee BNC-3Er",
+        "Id": "mechdef_banshee_BNC-3Er",
+        "Name": "Banshee",
+        "Details": "A refit of the under appreciated stock Banshee. The heat sinks are upgraded to double freeing conbsiderable amount of tonnage. While the base weapons remain the same, all were upgraded - the Autocannon to an Ultra AC/5, the PPC to an extended range one and even the small laser to a medium one. Protection was greatly improved by the inclusion of CASE for the auto cannon ammo and coverage increased to over 98%.",
+        "Icon": "uixTxrIcon_banshee"
+    },
+    "simGameMechPartCost": 1170000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 210,
+            "CurrentRearArmor": 85,
+            "CurrentInternalStructure": 150,
+            "AssignedArmor": 210,
+            "AssignedRearArmor": 85
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 190,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 190,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 190,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 190,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Autocannon_UAC5_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "3048-01-01T00:00:00Z"
+}

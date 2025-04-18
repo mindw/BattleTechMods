@@ -8,7 +8,7 @@
         "UIName": "Ostsol",
         "Id": "chassisdef_ostsol_OTL-4Dr",
         "Name": "Ostsol",
-        "Details": With so many Ostsols surviving over the years it the -4Dr field refit was inevitable. Upgrading the heat sinks to double ones freed plenty of tonnage while keeping the unchanged weaponary very cool. ALl that extra tonnage went into raising armor coverage to over 95%. Enough tonnage was left to install a TAG in the head to have opponents think twice before engaging.",
+        "Details": "With so many Ostsols surviving over the years it the -4Dr field refit was inevitable. Upgrading the heat sinks to double ones freed plenty of tonnage while keeping the unchanged weaponary very cool. ALl that extra tonnage went into raising armor coverage to over 95%. Enough tonnage was left to install a TAG in the head to have opponents think twice before engaging.",
         "Icon": "uixTxrIcon_ostsol"
     },
     "MovementCapDefID": "movedef_mech_heavy_5",
@@ -213,7 +213,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": With so many Ostsols surviving over the years it the -4Dr field refit was inevitable. Upgrading the heat sinks to double ones freed plenty of tonnage while keeping the unchanged weaponary very cool. ALl that extra tonnage went into raising armor coverage to over 95%. Enough tonnage was left to install a TAG in the head to have opponents think twice before engaging.",
+    "YangsThoughts": "With so many Ostsols surviving over the years it the -4Dr field refit was inevitable. Upgrading the heat sinks to double ones freed plenty of tonnage while keeping the unchanged weaponary very cool. ALl that extra tonnage went into raising armor coverage to over 95%. Enough tonnage was left to install a TAG in the head to have opponents think twice before engaging.",
     "FixedEquipment": [
         {
             "MountedLocation": "Head",

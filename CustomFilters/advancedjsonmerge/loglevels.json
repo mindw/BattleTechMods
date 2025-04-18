@@ -6,7 +6,7 @@
             "Action": "ArrayConcat",
             "Value":
             [
-                { "k" : "CustomFilters", "v" : "200" }
+                { "k" : "CustomFilters", "v" : "Log" }
             ]
         }
     ]

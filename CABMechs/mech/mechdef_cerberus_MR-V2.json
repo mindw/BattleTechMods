@@ -9,6 +9,7 @@
             "unit_lance_brawler",
             "unit_lance_tank",
             "unit_role_brawler",
+            "unit_LosTech",
             "Davion",
             "Liao",
             "Marik",
@@ -20,11 +21,10 @@
             "NotLocals",
             "NotAuriganRestoration",
             "NotAuriganPirates",
-            "SteelBeast",
-            "NotKellHounds",
-            "WolfsDragoons",
             "AuriganMercenaries",
-            "MercenaryReviewBoard"
+            "MercenaryReviewBoard",
+            "NotKellHounds",
+            "WolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },

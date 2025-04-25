@@ -13,7 +13,7 @@
   "goodFaithStatementOverride": null,
   "shortDescription": "Commander, we need you in the {TGT_SYSTEM.name} system immediately. We lost contact with one of the minor royals of the region - Henriette Bosh. They frequently bombard us with a constant stream of requests yet, since some time, we haven't heard from them.\n\nPlease check on them and report back to us.",
   "longDescription": "Typical hire-a-merc baby sitting job. A royal going silent is unusual though. Usually we'd hope for them to shut up. Let's hope it's just some faulty communications but expect trouble.",
-  "salvagePotential": 20,
+  "salvagePotential": 24,
   "requirementList": [
     {
       "Scope": "StarSystem",

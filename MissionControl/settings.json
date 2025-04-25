@@ -5,7 +5,7 @@
     "DebugSkirmishMode": false,
     "EnableFlashpointOverrides": false,
     "EnableAdditionalPlayerMechsForFlashpoints": false,
-    "NeverFailSimGameInFlashpoints": false,
+    "NeverFailSimGameInFlashpoints": true,
     "EnableStoryOverrides": false,
     "EnableAdditionalPlayerMechsForStory": false,
     "RandomSpawns": {
@@ -32,7 +32,7 @@
             "SoloDuel",
             "DuoDuel"
         ],
-        "GuardOnHotDrop": false,
+        "GuardOnHotDrop": true,
         "EvasionPipsOnHotDrop": 6,
         "IncludeEnemies": true,
         "IncludeAllyTurrets": false,
@@ -40,7 +40,7 @@
     },
     "AdditionalLances": {
         "Enable": true,
-        "EnableForFlashpoints": false,
+        "EnableForFlashpoints": true,
         "EnableForStory": false,
         "ExcludeContractTypes": [
             "SoloDuel",
@@ -183,7 +183,7 @@
         "FollowPlayer": {
             "Pathfinding": "Alternative",
             "Target": "LanceOrder",
-            "StopWhen": "OnEnemyVisible",
+            "StopWhen": "OnEnemyDetected",
             "MaxDistanceFromTargetBeforeSprinting": 120,
             "TargetZoneRadius": 120,
             "TimeToWaitForPathfinding": 60,
@@ -192,8 +192,8 @@
     },
     "Spawners": {
         "SpawnLanceAtEdgeBoundary": {
-            "MinBuffer": 150,
-            "MaxBuffer": 240
+            "MinBuffer": 100,
+            "MaxBuffer": 200
         }
     },
     "Misc": {

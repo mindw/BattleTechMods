@@ -1,0 +1,3 @@
+[17:01:12.598]Initing... H:\SteamLibrary\steamapps\common\BATTLETECH\Mods\CustomLocalSettings version: 1.0.0.3
+[17:01:26.840]FinishedLoading
+[17:01:27.881]SaveManager:C:/Users/Gabi Davar/AppData/LocalLow/Harebrained Schemes/BATTLETECH\S0

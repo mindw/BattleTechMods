@@ -20,7 +20,7 @@
     "DamageVariance": 0,
     "HeatDamage": 0,
     "AccuracyModifier": -1,
-    "CriticalChanceMultiplier": 1.50,
+    "CriticalChanceMultiplier": 1.5,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 0,

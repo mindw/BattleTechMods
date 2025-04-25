@@ -1,7 +1,7 @@
 {
     "Name": "IRTweaks",
     "Enabled": true,
-    "Version": "0.8.7.1",
+    "Version": "0.9.8.7",
     "Description": "Miscellaneous Tweaks and Fixes",
     "Author": "IceRaptor",
     "Website": "https://github.com/IceRaptor/IRTweaks",
@@ -21,17 +21,22 @@
             "BulkScrapping": true,
             "CalledShotTweaks": true,
             "CombatLog": false,
+            "CombatLogNameModifiers": false,
             "DisableCampaign": true,
             "DisableCombatSaves": true,
             "DisableCombatRestarts": true,
+            "DisableLowFundsNotification": true,
             "DisableMPHashCalculation": true,
             "ExtendedStats": true,
             "FlexibleSensorLock": true,
+            "MaxArmorMaxesArmor": false,
+            "MechbayAdvancedStripping": false,
             "MechbayLayout": true,
-            "MechbayLayoutDisableStore": false,
+            "MechbayLayoutDisableStore": true,
             "MultiTargetStat": false,
             "PainTolerance": true,
             "PathfinderTeamFix": true,
+            "PreventHeadShots": false,
             "RandomStartByDifficulty": false,
             "ReduceSaveCompression": true,
             "ScaleObjectiveBuildingStructure": false,
@@ -42,8 +47,12 @@
             "SkipDeleteSavePopup": true,
             "SpawnProtection": true,
             "StreamlinedMainMenu": true,
+            "TurnDirectorStartFirstRoundFix": true,
             "UrbanExplosionsFix": true,
-            "WeaponTooltip": false
+            "WeakAgainstMeleeFix": true,
+            "WeaponTooltip": false,
+            "DamageReductionInCombatHud": false,
+            "DeathChanceStat": true
         },
         "Abilities": {
             "FlexibleSensorLockId": "AbilityDefT8A",
@@ -55,20 +64,67 @@
                 "DisableAllLocations": false,
                 "DisableHeadshots": true,
                 "EnableTacticsModifier": true,
-                "BaseModifier": -4,
+                "BaseModifier": -1,
                 "PilotTags": {
                     "pilot_drunk": -1,
-                    "pilot_military" : -1,
-                    "pilot_assassin" : -3
+                    "pilot_military": -1,
+                    "pilot_assassin": -3
                 }
             },
+            "DamageModsBySkill": {
+                "StabilityMods": [
+                    {
+                        "StatName": "GunneryStabBonus1",
+                        "Probability": 0.15,
+                        "Multiplier": 1.15
+                    }
+                ],
+                "HeatMods": [
+                    {
+                        "StatName": "GunneryHeatBonus1",
+                        "Probability": 0.15,
+                        "Multiplier": 1.15
+                    }
+                ],
+                "APDmgMods": [],
+                "StdDmgMods": [
+                    {
+                        "StatName": "GunnderyDmgBonus1",
+                        "Probability": 0.15,
+                        "Multiplier": 1.15
+                    }
+                ]
+            },
             "FlexibleSensorLock": {
-                "FreeActionWithAbility": false
+                "FreeActionWithAbility": false,
+                "FreeActionWithStat": false,
+                "FreeActionStatName": "IR_FreeSensorLock",
+                "AlsoAppliesToActiveProbe": false
+            },
+            "ObstructionTweaks": {
+                "DRMechLocs": [
+                    "LeftLeg",
+                    "RightLeg"
+                ],
+                "DRVehicleLocs": [
+                    "Front",
+                    "Rear",
+                    "Left",
+                    "Right"
+                ],
+                "QuadTags": [
+                    "unit_quad"
+                ],
+                "ObstructionDRByTags": {
+                    "unit_mech": 0.5,
+                    "unit_vehicle": 0.5,
+                    "unit_quad": 0.25
+                }
             },
             "PainTolerance": {
-                "ResistPerGuts": 15,
-                "HeadDamageResistPenaltyPerArmorPoint": 2,
-                "HeadHitArmorOnlyResistPenaltyMulti": 0.3,
+                "ResistPerGuts": 10,
+                "HeadDamageResistPenaltyPerArmorPoint": 5,
+                "HeadHitArmorOnlyResistPenaltyMulti": 0.5,
                 "AmmoExplosionResistPenaltyPerCapacityPercentile": 1,
                 "OverheatResistPenaltyPerHeatPercentile": 1,
                 "KnockdownResistPenalty": 6,
@@ -76,6 +132,8 @@
             },
             "ScaledStructure": {
                 "DefaultScale" : { "Mod" : 0, "Multi" : 1.0 },
+                "StoryScale": { "Mod": 0, "Multi": 1.0 },
+                "UseStoryScale": false,
                 "DifficultyScaling": {
                     "1" : { "Mod" : 5, "Multi" : 1.0 },
                     "2" : { "Mod" : 10, "Multi" : 1.25 },
@@ -98,6 +156,10 @@
                 "ApplyToAllies": true,
                 "ApplyToNeutrals": true,
                 "ApplyToReinforcements": true
+            },
+            "TurretArmorAndStructure": {
+                "StructureMultiplierTurret": 0,
+                "ArmorMultiplierTurret": 0
             }
         },
         "Store": {

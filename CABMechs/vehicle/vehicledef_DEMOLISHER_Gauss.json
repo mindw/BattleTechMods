@@ -2,7 +2,7 @@
     "MinAppearanceDate": "3053-01-01T00:00:00Z",
     "Version": 1,
     "Description": {
-        "Id": "vehicledef_DEMOLISHER_Guass",
+        "Id": "vehicledef_DEMOLISHER_Gauss",
         "Name": "Demolisher Heavy Tank Gauss",
         "Details": "",
         "Icon": "",
@@ -10,7 +10,7 @@
         "Rarity": 0,
         "Purchasable": false
     },
-    "ChassisID": "vehiclechassisdef_DEMOLISHER_Guass",
+    "ChassisID": "vehiclechassisdef_DEMOLISHER_Gauss",
     "VehicleTags": {
         "items": [
             "mr-resize-1.50",

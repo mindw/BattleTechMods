@@ -29,7 +29,8 @@
             "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
-    }    "ChassisID": "chassisdef_warhammer_WHM-7A",
+    },
+    "ChassisID": "chassisdef_warhammer_WHM-7A",
     "HeraldryID": null,
     "Description": {
         "Cost": 19960000,

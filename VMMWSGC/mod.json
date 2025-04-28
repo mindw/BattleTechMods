@@ -19,7 +19,7 @@
       "DisableAll": false,
       "ArrivedAtPlanet": false,
       "ContractAccepted": false,
-      "ContractCompleted": false,
+      "ContractCompleted": true,
       "EventResolved": false,
       "FinancialReport": false
     },

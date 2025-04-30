@@ -1,8 +1,7 @@
 {
-    "MinAppearanceDate": "3052-01-01T00:00:00Z",
+    "MinAppearanceDate": "2688-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "GZ_fake_min_appearance", 
             "unit_release",
             "unit_mech",
             "unit_heavy",
@@ -13,21 +12,21 @@
             "unit_role_sniper",
             "unit_jumpOK",
             "unit_sldf_royal",
-            "Davion",
-            "Liao",
-            "Marik",
-            "Steiner",
-            "Kurita",
-            "NotComStar",
+            "NotDavion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "ComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
             "NotLocals",
             "NotAuriganRestoration",
             "NotAuriganPirates",
-            "AuriganMercenaries",
-            "MercenaryReviewBoard",
-            "KellHounds",
-            "WolfsDragoons"
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },
@@ -40,7 +39,7 @@
         "Manufacturer": null,
         "Model": null,
         "UIName": "Catapult CPLT-C1b",
-        "Id": "mechdef_catapult_CPLT-C1b",
+        "Id": "mechdef_catapult_CPLT-C1b_comstar",
         "Name": "Royal Catapult",
         "Details": "An SLDF Royal unit upgrade kit of the standard C1 Catapults to the C1b variant. The weapon array stays the same, but the ammunition has been doubled. For improved protection and Ferro-Fibrous armor is used. Finally, twelve double strength heat sinks replace the old singles.",
         "Icon": "uixTxrIcon_catapult"

@@ -1,0 +1,182 @@
+{
+    "MinAppearanceDate": "3051-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_heavy",
+            "unit_indirectFire",
+            "unit_range_medium",
+            "unit_armor_high",
+            "unit_lance_brawler",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_speed_low",
+            "unit_LosTech",
+            "Davion",
+            "NotLiao",
+            "NotMarik",
+            "NotSteiner",
+            "NotKurita",
+            "NotComStar",
+            "NotMagistracyOfCanopus",
+            "NotTaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "NotAuriganPirates",
+            "NotAuriganMercenaries",
+            "NotMercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_thunderbolt_TDR-5Dr",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6900000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Thunderbolt TDR-5Dr",
+        "Id": "mechdef_thunderbolt_TDR-5Dr",
+        "Name": "Thunderbolt",
+        "Details": "A lost tech upgrade of a Davion unique refit of the Thunderbolt. The heat sinks were upgraded to double dropping three and the armor was upgraded to ferro fibrous - freeing a total of four and half tons. All that tonnage allowed for upgrading firepower - the LRM rack was upgraded to 15 tubes with extra ammo and two medium lasers restored to the left torso. The -5Dr is heat natural with all ammo proteted by a CASE.",
+        "Icon": "uixTxrIcon_thunderbolt"
+    },
+    "simGameMechPartCost": 690000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 55,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 55
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "DamageLevel": "Functional"
+        },        
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

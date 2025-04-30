@@ -7,6 +7,9 @@ output_log.txt
 *.log
 /GalaxyAtWar/Galaxy-at-War.txt
 *.pdb
+/__candidates/
+/CustomLocalSettings/main_log.txt
+*.log.1
 CAB-*/
 /BTMechDumper/*.txt
 /BTMechDumper/*.csv
@@ -18,3 +21,6 @@ log*.txt
 /CPLHelper/portraits/
 /GalaxyAtWar/dump_extra.json
 /GalaxyAtWar/tag.json
+CAB-CU/modstate.json
+CAB-CU/CustomRepresentationHelper.dll
+InnerSphereMap/

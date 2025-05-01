@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate": "3048-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -39,7 +40,7 @@
         "UIName": "Warhammer WHM-6Lr",
         "Id": "mechdef_warhammer_WHM-6Lr",
         "Name": "Warhammer",
-        "Details": "A lost tech upgrade of the unpopular CCAF 'Hot Hammer" considerably raising it's popularity. Upgrading the heat sinks to cools the mech enough to fire most of its weapons without overheating. A single heat sink was dropped to free up space and mass for a modest increase in protection - CASE was installed to protect the SRM ammo and ferro fibrous armor used up the remaining space to increase armor coverage to 87%.",
+        "Details": "A lost tech upgrade of the unpopular CCAF 'Hot Hammer' considerably raising it's popularity. Upgrading the heat sinks to cools the mech enough to fire most of its weapons without overheating. A single heat sink was dropped to free up space and mass for a modest increase in protection - CASE was installed to protect the SRM ammo and ferro fibrous armor used up the remaining space to increase armor coverage to 87%.",
         "Icon": "uixTxrIcon_warhammer"
     },
     "simGameMechPartCost": 790000,
@@ -231,6 +232,5 @@
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         }
-    ],
-    "MinAppearanceDate": "3048-01-01T00:00:00Z"
+    ]
 }

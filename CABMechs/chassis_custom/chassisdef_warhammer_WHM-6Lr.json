@@ -8,7 +8,7 @@
         "UIName": "Warhammer",
         "Id": "chassisdef_warhammer_WHM-6Lr",
         "Name": "Warhammer",
-        "Details": "A lost tech upgrade of the unpopular CCAF 'Hot Hammer" considerably raising it's popularity. Upgrading the heat sinks to cools the mech enough to fire most of its weapons without overheating. A single heat sink was dropped to free up space and mass for a modest increase in protection - CASE was installed to protect the SRM ammo and ferro fibrous armor used up the remaining space to increase armor coverage to 87%.",
+        "Details": "A lost tech upgrade of the unpopular CCAF 'Hot Hammer' considerably raising it's popularity. Upgrading the heat sinks to cools the mech enough to fire most of its weapons without overheating. A single heat sink was dropped to free up space and mass for a modest increase in protection - CASE was installed to protect the SRM ammo and ferro fibrous armor used up the remaining space to increase armor coverage to 87%.",
         "Icon": "uixTxrIcon_warhammer"
     },
     "MovementCapDefID": "movedef_warhammer_WHM-6R",
@@ -215,7 +215,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
-    "YangsThoughts": "A lost tech upgrade of the unpopular CCAF 'Hot Hammer" considerably raising it's popularity. Upgrading the heat sinks to cools the mech enough to fire most of its weapons without overheating. A single heat sink was dropped to free up space and mass for a modest increase in protection - CASE was installed to protect the SRM ammo and ferro fibrous armor used up the remaining space to increase armor coverage to 87%.",
+    "YangsThoughts": "A lost tech upgrade of the unpopular CCAF 'Hot Hammer' considerably raising it's popularity. Upgrading the heat sinks to cools the mech enough to fire most of its weapons without overheating. A single heat sink was dropped to free up space and mass for a modest increase in protection - CASE was installed to protect the SRM ammo and ferro fibrous armor used up the remaining space to increase armor coverage to 87%.",
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso",

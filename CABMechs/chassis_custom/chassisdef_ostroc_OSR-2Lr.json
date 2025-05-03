@@ -11,7 +11,7 @@
         "Details": "A field refit of the 2L variant made official in 3051. Upgrading the heat sinks to double ones to solved the heating problem and freed some mass for protection. The armor was upgraded to ferro-fibrous, incrased to 93% coverage and added CASE for the LRM ammo.",
         "Icon": "uixTxrIcon_ostroc"
     },
-    "MovementCapDefID": "movedef_ostroc_OSR-2C",
+    "MovementCapDefID": "movedef_mech_heavy_5",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_ostroc",
     "PrefabIdentifier": "chrprfmech_ostrochotd-001",
@@ -150,16 +150,16 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 13,
-            "z": 1
+            "y": 15,
+            "z": 0
         },
         {
-            "x": 3,
+            "x": 3.5,
             "y": 13,
             "z": 0
         },
         {
-            "x": -3,
+            "x": -3.5,
             "y": 13,
             "z": 0
         }
@@ -167,26 +167,26 @@
     "LOSTargetPositions": [
         {
             "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
             "y": 13,
-            "z": 1
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": 0
         },
         {
             "x": 3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": 2,
             "y": 5,
             "z": 0
         },
         {
-            "x": -2,
+            "x": -3,
             "y": 5,
             "z": 0
         }

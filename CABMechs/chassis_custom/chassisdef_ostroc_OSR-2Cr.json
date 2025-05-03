@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 5800000,
+        "Cost": 5900000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Ostroc",
-        "Id": "chassisdef_ostroc_OSR-3Cr",
+        "Id": "chassisdef_ostroc_OSR-2Cr",
         "Name": "Ostroc",
-        "Details": "The much needed double heatsink upgrade solved the obvious issue of heat buildup, it also freed enough tonnage to solve all Star Leage era Ostsol's - poor armor. The 3Cr refit is typically used as a fast brawler due to its increased toughness coupled the already present speed.",
+        "Details": "A field refit of the 2C variant made official in 3046. Upgrading the heat sinks to double ones to solved the heating problem and freed some mass for protection. The armor was upgraded to ferro-fibrous, incrased to 93% coverage and added CASE for the SRM ammo.",
         "Icon": "uixTxrIcon_ostroc"
     },
     "MovementCapDefID": "movedef_mech_heavy_5",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_ostrochotd-001",
     "PrefabBase": "ostroc",
     "Tonnage": 60,
-    "InitialTonnage": 33,
+    "InitialTonnage": 33.5,
     "weightClass": "HEAVY",
     "Heatsinks": 42,
     "MaxJumpjets": 5,
@@ -39,10 +39,10 @@
     "MeleeDamage": 85,
     "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 75,
+    "DFADamage": 90,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 75,
-    "DFAInstability": 75,
+    "DFASelfDamage": 60,
+    "DFAInstability": 60,
     "Locations": [
         {
             "Location": "Head",
@@ -74,7 +74,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -97,7 +97,7 @@
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -191,20 +191,29 @@
             "z": 0
         }
     ],
-    "VariantName": "OSR-3Cr",
+    "VariantName": "OSR-2Cr",
     "ChassisTags": {
         "items": [
+            "mech_case_right",
             "chassis_ferro",
             "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler",
-    "YangsThoughts": "Good! someone listened and did the right thing the walking oven into something cool and useful. The nearly full armor coverage is just the icing on the very cool cake.",
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "A field refit of the 2C variant made official in 3046. Upgrading the heat sinks to double ones to solved the heating problem and freed some mass for protection. The armor was upgraded to ferro-fibrous, incrased to 93% coverage and added CASE for the SRM ammo.",
     "FixedEquipment": [
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_6_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -219,8 +228,8 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_FerroFibrous_7_Slot",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_FerroFibrous_1_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

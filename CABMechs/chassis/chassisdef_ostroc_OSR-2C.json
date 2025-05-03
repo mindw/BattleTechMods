@@ -11,7 +11,7 @@
         "Details": "The Ostroc is a heavy 'Mech, weighing in at the lower end of its weight class, originally designed to act as an urban combatant. Fast for its size, well-armored and boasting good medium- and short-range firepower, the Ostroc was capable as a heavy scout/raider.",
         "Icon": "uixTxrIcon_ostroc"
     },
-    "MovementCapDefID": "movedef_ostroc_OSR-2C",
+    "MovementCapDefID": "movedef_mech_heavy_5",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_ostroc",
     "PrefabIdentifier": "chrprfmech_ostrochotd-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 85,
     "MeleeInstability": 60,
     "MeleeToHitModifier": 0,
-    "DFADamage": 75,
+    "DFADamage": 90,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 75,
-    "DFAInstability": 75,
+    "DFASelfDamage": 60,
+    "DFAInstability": 60,
     "Locations": [
         {
             "Location": "Head",
@@ -150,16 +150,16 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 13,
-            "z": 1
+            "y": 15,
+            "z": 0
         },
         {
-            "x": 3,
+            "x": 3.5,
             "y": 13,
             "z": 0
         },
         {
-            "x": -3,
+            "x": -3.5,
             "y": 13,
             "z": 0
         }
@@ -167,26 +167,26 @@
     "LOSTargetPositions": [
         {
             "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
             "y": 13,
-            "z": 1
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": 0
         },
         {
             "x": 3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": 2,
             "y": 5,
             "z": 0
         },
         {
-            "x": -2,
+            "x": -3,
             "y": 5,
             "z": 0
         }

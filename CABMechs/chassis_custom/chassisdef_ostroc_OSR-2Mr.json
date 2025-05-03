@@ -11,7 +11,7 @@
         "Details": "A refit of a refit common in Marik space, the -2Mr upgrade the heat sinks to double and the armor to ferro-fibrous. Even with the brand new extended range large lasers it can jump and fire without any over heating worriers. All extra tonnage went into increasing the armor coverage to a generous 89%.",
         "Icon": "uixTxrIcon_ostroc"
     },
-    "MovementCapDefID": "movedef_ostroc_OSR-2C",
+    "MovementCapDefID": "movedef_mech_heavy_5",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_ostroc",
     "PrefabIdentifier": "chrprfmech_ostrochotd-001",
@@ -146,16 +146,16 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 13,
-            "z": 1
+            "y": 15,
+            "z": 0
         },
         {
-            "x": 3,
+            "x": 3.5,
             "y": 13,
             "z": 0
         },
         {
-            "x": -3,
+            "x": -3.5,
             "y": 13,
             "z": 0
         }
@@ -163,26 +163,26 @@
     "LOSTargetPositions": [
         {
             "x": 0,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3.5,
             "y": 13,
-            "z": 1
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 13,
+            "z": 0
         },
         {
             "x": 3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": 2,
             "y": 5,
             "z": 0
         },
         {
-            "x": -2,
+            "x": -3,
             "y": 5,
             "z": 0
         }

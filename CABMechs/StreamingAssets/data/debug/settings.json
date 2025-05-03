@@ -1,7 +1,7 @@
 {
     "disableSplashScreens": true,
     "disableIntroMovie": true,
-    "testToolsEnabled": true,
+    "testToolsEnabled": false,
     "enforceMinAppearnceDateForUnits": true,
     "enforceRequiredCompanyTagsForUnits": true,
     "addDynamicFactionTagForUnits": false,

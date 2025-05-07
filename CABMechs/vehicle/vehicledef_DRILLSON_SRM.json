@@ -12,6 +12,7 @@
     "ChassisID": "vehiclechassisdef_DRILLSON_SRM",
     "VehicleTags": {
         "items": [
+            "mr-resize-1.15",
             "unit_release",
             "unit_vehicle",
             "unit_medium",

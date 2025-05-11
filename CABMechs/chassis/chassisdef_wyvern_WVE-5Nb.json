@@ -11,7 +11,7 @@
         "Details": "This upgrade, introduced concurrently with the original and utilized by the SLDF Royal brigades, uses an XL Engine for power. That change enabled an upgrade of the large laser to a pulse laser version and one of the small lasers to a Medium Laser, while an additional heat sink helps keep down the extra heat created by these weapons.",
         "Icon": "uixTxrIcon_wyvern"
     },
-    "MovementCapDefID": "movedef_wyvern_WVE-6N",
+    "MovementCapDefID": "movedef_mech_medium_4",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_wyvern",
     "PrefabIdentifier": "chrprfmech_wyvernbase-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 55,
     "MeleeInstability": 45,
     "MeleeToHitModifier": 0,
-    "DFADamage": 55,
+    "DFADamage": 68,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 55,
-    "DFAInstability": 55,
+    "DFASelfDamage": 45,
+    "DFAInstability": 45,
     "Locations": [
         {
             "Location": "Head",
@@ -143,45 +143,45 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 13,
+            "y": 14,
             "z": 0
         },
         {
-            "x": -3.5,
-            "y": 12,
+            "x": 4,
+            "y": 14,
             "z": 0
         },
         {
-            "x": 3.5,
-            "y": 12,
+            "x": -4,
+            "y": 14,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 13,
+            "y": 14,
             "z": 0
         },
         {
-            "x": -3.5,
-            "y": 12,
+            "x": 4,
+            "y": 14,
             "z": 0
         },
         {
-            "x": 3.5,
-            "y": 12,
+            "x": -4,
+            "y": 14,
             "z": 0
         },
         {
-            "x": -2,
-            "y": 4,
-            "z": 0.5
+            "x": 2.5,
+            "y": 6,
+            "z": 2.5
         },
         {
-            "x": 2,
-            "y": 4,
-            "z": 0.5
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
         }
     ],
     "VariantName": "WVE-5Nb",

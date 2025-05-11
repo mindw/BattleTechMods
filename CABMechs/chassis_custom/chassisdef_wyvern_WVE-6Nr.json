@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Wyvern",
-        "Id": "chassisdef_wyvern_WVE-5Nsl",
+        "Id": "chassisdef_wyvern_WVE-6Nr",
         "Name": "Wyvern",
-        "Details": "A Wyvern variant used by the Star League reserved for the elite and commanders. Heat sinks are upgraded to Double Heat Sinks, dropping to extra ones. The Large Laser is upgraded to an ER Large Laser. An extra Small Laser is installed in the Head. The SRM-6 is replaced by three Streak SRM-2's with a single ton of ammo.",
+        "Details": "A lost tech upgrade of the downgraded post Star League Wyvern. The heat sinks are upgraded to double - freeing two tons while ensuring the mech runs cool during even the most intense fire fights. The freed tonnage went into improving protection by installing CASE for the ammo, adding an anti missile system and the armor was upgraded to ferro fibrous restoring protection to 99%.",
         "Icon": "uixTxrIcon_wyvern"
     },
     "MovementCapDefID": "movedef_mech_medium_4",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrprfmech_wyvernbase-001",
     "PrefabBase": "wyvern",
     "Tonnage": 45,
-    "InitialTonnage": 15.5,
+    "InitialTonnage": 17.0,
     "weightClass": "MEDIUM",
-    "Heatsinks": 30,
+    "Heatsinks": 12,
     "MaxJumpjets": 4,
     "Stability": 130,
     "StabilityDefenses": [
@@ -46,12 +46,7 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -93,14 +88,6 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -197,46 +184,62 @@
             "z": 2.5
         }
     ],
-    "VariantName": "WVE-5Nsl",
+    "VariantName": "WVE-6Nr",
     "ChassisTags": {
         "items": [
             "mr-resize-0.8",
-            "mech_case_left",
             "mech_case_right",
-            "chassis_endo"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Brawler",
-    "YangsThoughts": "A Wyvern variant used by the Star League reserved for the elite and commanders. Heat sinks are upgraded to Double Heat Sinks, dropping to extra ones. The Large Laser is upgraded to an ER Large Laser. An extra Small Laser is installed in the Head. The SRM-6 is replaced by three Streak SRM-2's with a single ton of ammo.",
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "A lost tech upgrade of the downgraded post Star League Wyvern. The heat sinks are upgraded to double - freeing two tons while ensuring the mech runs cool during even the most intense fire fights. The freed tonnage went into improving protection by installing CASE for the ammo, adding an anti missile system and the armor was upgraded to ferro fibrous restoring protection to 99%.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_4_Slot",
-            "ComponentDefType": "Upgrade",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_8_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

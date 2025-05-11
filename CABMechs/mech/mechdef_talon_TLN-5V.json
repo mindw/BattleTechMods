@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate": "3056-01-01T00:00:00Z",
+    "MinAppearanceDate": "2670-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "GZ_fake_min_appearance",
@@ -12,6 +12,7 @@
             "unit_lance_assassin",
             "unit_role_scout",
             "unit_armor_high",
+            "unit_LosTech",
             "unit_sldf",
             "unit_sldf_royal",
             "NotDavion",

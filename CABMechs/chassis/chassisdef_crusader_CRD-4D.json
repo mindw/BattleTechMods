@@ -11,7 +11,7 @@
         "Details": "The 4D variant of the Crusader was a common field modification kit, utilizing Star League technology recovered from the Helm Memory Core, used by both Davion and Liao forces starting in 3049. This variant has had the medium lasers and the SRM-6 launchers removed and in their place has two Streak SRM-2 launchers and two Medium Pulse Lasers mounted, along with three additional heat sinks.",
         "Icon": "uixTxrIcon_crusader"
     },
-    "MovementCapDefID": "movedef_crusader_CRD-3R",
+    "MovementCapDefID": "movedef_mech_heavy_4",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_crusader",
     "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 90,
     "MeleeInstability": 65,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 98,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 65,
+    "DFAInstability": 65,
     "Locations": [
         {
             "Location": "Head",
@@ -195,12 +195,12 @@
             "z": 0
         },
         {
-            "x": 2,
+            "x": 3,
             "y": 5,
             "z": 0
         },
         {
-            "x": -2,
+            "x": -3,
             "y": 5,
             "z": 0
         }

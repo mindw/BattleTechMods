@@ -11,7 +11,7 @@
         "Details": "A Star League-tech retrofit of the classic CRD-3R developed by Bander BattleMechs for the mercenary market in 3054, the 4BR switches to double heat sinks and replaces the SRM-6 launchers with a pair of Streak SRM-2s. The weight saved allows an extra ton of LRM reloads for each launcher to be carried, protected by the addition of CASE in each torso.",
         "Icon": "uixTxrIcon_crusader"
     },
-    "MovementCapDefID": "movedef_crusader_CRD-3R",
+    "MovementCapDefID": "movedef_mech_heavy_4",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_crusader",
     "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 90,
     "MeleeInstability": 65,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 98,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 65,
+    "DFAInstability": 65,
     "Locations": [
         {
             "Location": "Head",
@@ -195,12 +195,12 @@
             "z": 0
         },
         {
-            "x": 2,
+            "x": 3,
             "y": 5,
             "z": 0
         },
         {
-            "x": -2,
+            "x": -3,
             "y": 5,
             "z": 0
         }

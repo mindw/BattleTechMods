@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 8388000,
-        "Rarity": 5,
+        "Cost": 6100000,
+        "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Crusader",
-        "Id": "chassisdef_crusader_CRD-2R",
+        "Id": "chassisdef_crusader_CRD-3Rr",
         "Name": "Crusader",
-        "Details": "This lostech variant was used by the SLDF's Royal units. It upgraded the heat sinks to double heat sinks and utilized an Endo Steel internal structure to save mass. This enabled the addition of Artemis IV Fire Control Systems to the LRM launchers. The SRMs were replaced with four Hawk Streak SRM-2s. All of the ammunition was moved to the side torsos and protected by CASE.",
+        "Details": "A lost tech refit of the very common stock Crusader. The armor was upgrade to ferro fibrous maintaining the same coverage but using less tonnate. The heat sinks were upgraded to double with one more being added - effectively eliminiating the severe heat buildup problem suffered by the -3R. The machine gun ammo was reduced by a half to allow installing CASE in the right torso - where all ammo was moved, solving the other major problem of being lost to ammo explosions.",
         "Icon": "uixTxrIcon_crusader"
     },
     "MovementCapDefID": "movedef_mech_heavy_4",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
     "PrefabBase": "crusader",
     "Tonnage": 65,
-    "InitialTonnage": 24,
+    "InitialTonnage": 26.5,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
     "MaxJumpjets": 4,
@@ -57,7 +57,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -65,7 +65,11 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -106,7 +110,7 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
@@ -114,7 +118,11 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -130,10 +138,6 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -145,10 +149,6 @@
         {
             "Location": "RightLeg",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -205,23 +205,30 @@
             "z": 0
         }
     ],
-    "VariantName": "CRD-2R",
+    "VariantName": "CRD-3Rr",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.95",
+            "mr-resize-0.95-0.95-0.95",
             "mech_case_right",
-            "mech_case_left",
-            "chassis_DHS",
-            "chassis_endo"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "This lostech variant was used by the SLDF's Royal units. It upgraded the heat sinks to double heat sinks and utilized an Endo Steel internal structure to save mass. This enabled the addition of Artemis IV Fire Control Systems to the LRM launchers. The SRMs were replaced with four Hawk Streak SRM-2s. All of the ammunition was moved to the side torsos and protected by CASE.",
+    "YangsThoughts": "A lost tech refit of the very common stock Crusader. The armor was upgrade to ferro fibrous maintaining the same coverage but using less tonnate. The heat sinks were upgraded to double with one more being added - effectively eliminiating the severe heat buildup problem suffered by the -3R. The machine gun ammo was reduced by a half to allow installing CASE in the right torso - where all ammo was moved, solving the other major problem of being lost to ammo explosions.",
     "FixedEquipment": [
         {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -229,47 +236,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_7_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

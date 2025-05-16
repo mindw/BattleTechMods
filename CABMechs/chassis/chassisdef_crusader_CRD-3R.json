@@ -11,7 +11,7 @@
         "Details": "The Crusader was initially designed as a close combat BattleMech but soon proved itself to be a very adaptable, multi-role design. Its versatility and large number of manufactures ensured the Crusader its place as one of the most common heavy 'Mechs in the Inner Sphere.",
         "Icon": "uixTxrIcon_crusader"
     },
-    "MovementCapDefID": "movedef_crusader_CRD-3R",
+    "MovementCapDefID": "movedef_mech_heavy_4",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_crusader",
     "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 90,
     "MeleeInstability": 65,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 98,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 65,
+    "DFAInstability": 65,
     "Locations": [
         {
             "Location": "Head",
@@ -195,12 +195,12 @@
             "z": 0
         },
         {
-            "x": 2,
+            "x": 3,
             "y": 5,
             "z": 0
         },
         {
-            "x": -2,
+            "x": -3,
             "y": 5,
             "z": 0
         }

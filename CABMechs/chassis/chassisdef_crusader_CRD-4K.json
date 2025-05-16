@@ -11,7 +11,7 @@
         "Details": "A field modification kit based on the 3K variant and introduced for Kuritan forces in 3049, the 4K removes two heat sinks and replaces the two medium lasers of the 3K with medium pulse models.",
         "Icon": "uixTxrIcon_crusader"
     },
-    "MovementCapDefID": "movedef_crusader_CRD-3R",
+    "MovementCapDefID": "movedef_mech_heavy_4",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_crusader",
     "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 90,
     "MeleeInstability": 65,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 98,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 65,
+    "DFAInstability": 65,
     "Locations": [
         {
             "Location": "Head",
@@ -191,12 +191,12 @@
             "z": 0
         },
         {
-            "x": 2,
+            "x": 3,
             "y": 5,
             "z": 0
         },
         {
-            "x": -2,
+            "x": -3,
             "y": 5,
             "z": 0
         }

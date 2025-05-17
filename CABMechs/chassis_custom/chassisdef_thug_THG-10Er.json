@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Thug",
-        "Id": "chassisdef_thug_THG-11Eb",
+        "Id": "chassisdef_thug_THG-10Er",
         "Name": "Thug",
-        "Details": "The Thug was designed by Maltex Corporation as a direct competitor to the popular Warhammer BattleMech. First seeing production in 2572, the Thug sought to directly address some of the challenges which faced the Warhammer, chief of which was to increase armor protection without sacrificing firepower.",
+        "Details": "A lost tech refit of a Star League downgraded model. The heat sinks are upgraded to double and while four were dropped what remains is more than enough to keep things cool. The freed tonnage is used to bring the offensive back to -11E levels with both SRM racks restored to 6 tubes each. Protection was also restored with additional armor coverage and CASE in each side torso for the SRM ammo.",
         "Icon": "uixTxrIcon_thug"
     },
     "MovementCapDefID": "movedef_mech_assault_4",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_thugBase-001",
     "PrefabBase": "thug",
     "Tonnage": 80,
-    "InitialTonnage": 36.5,
+    "InitialTonnage": 40.5,
     "weightClass": "ASSAULT",
     "Heatsinks": 42,
     "MaxJumpjets": 4,
@@ -63,6 +63,10 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
@@ -79,7 +83,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -106,7 +110,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -125,6 +129,10 @@
                 },
                 {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -197,58 +205,15 @@
             "z": 0
         }
     ],
-    "VariantName": "THG-11Eb",
+    "VariantName": "THG-10Er",
     "ChassisTags": {
         "items": [
             "mech_case_left",
             "mech_case_right",
-            "chassis_DHS",
-            "chassis_endo"
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
-    "YangsThoughts": "This is one of those 'Doh' moments. If you have the heat sinks, better use them, otherwise its just a waste of space. So the 11Eb is still the same solid, durable but with a much longer reach. Not much Royality here - just plain good engineering.",
-    "FixedEquipment": [
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_EndoSteel_1_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_4_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_4_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        }
-    ]
+    "YangsThoughts": "A lost tech refit of a Star League downgraded model. The heat sinks are upgraded to double and while four were dropped what remains is more than enough to keep things cool. The freed tonnage is used to bring the offensive back to -11E levels with both SRM racks restored to 6 tubes each. Protection was also restored with additional armor coverage and CASE in each side torso for the SRM ammo."
 }

@@ -11,7 +11,7 @@
         "Details": "The Thug was designed by Maltex Corporation as a direct competitor to the popular Warhammer BattleMech. First seeing production in 2572, the Thug sought to directly address some of the challenges which faced the Warhammer, chief of which was to increase armor protection without sacrificing firepower.",
         "Icon": "uixTxrIcon_thug"
     },
-    "MovementCapDefID": "movedef_thug_THG-10E",
+    "MovementCapDefID": "movedef_mech_assault_4",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_thug",
     "PrefabIdentifier": "chrPrfMech_thugBase-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 90,
     "MeleeInstability": 80,
     "MeleeToHitModifier": 0,
-    "DFADamage": 100,
+    "DFADamage": 120,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 100,
-    "DFAInstability": 100,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
     "Locations": [
         {
             "Location": "Head",
@@ -156,45 +156,45 @@
     "LOSSourcePositions": [
         {
             "x": 0,
+            "y": 15,
+            "z": 1
+        },
+        {
+            "x": 4,
             "y": 14,
             "z": 0
         },
         {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
             "x": -4,
-            "y": 15,
-            "z": -1
+            "y": 14,
+            "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
+            "y": 15,
+            "z": 1
+        },
+        {
+            "x": 4,
             "y": 14,
             "z": 0
         },
         {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
             "x": -4,
-            "y": 15,
-            "z": -1
+            "y": 14,
+            "z": 0
         },
         {
-            "x": 3.5,
-            "y": 5.5,
-            "z": 1
+            "x": 3,
+            "y": 5,
+            "z": 0
         },
         {
-            "x": -3.5,
-            "y": 5.5,
-            "z": 1
+            "x": -3,
+            "y": 5,
+            "z": 0
         }
     ],
     "VariantName": "THG-11E",

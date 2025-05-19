@@ -6,12 +6,12 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Bombardier",
-        "Id": "chassisdef_bombardier_BMB-10D",
+        "Id": "chassisdef_bombardier_BMB-10Dr",
         "Name": "Bombardier",
         "Details": "Continuing the trend toward specialized BattleMechs, the Bombardier was proposed to the Star League in 2735 by Wakazashi Enterprises as an artillery 'Mech. The Bombardier proved itself extremely effective at fulfilling the long-range fire support role, but while it has an excellent reach only two tons of ammunition means ammo runs dry after only twelve salvos.",
         "Icon": "uixTxrIcon_bombardier"
     },
-    "MovementCapDefID": "movedef_bombardier_BMB-10D",
+    "MovementCapDefID": "movedef_mech_heavy_4",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_bombardier",
     "PrefabIdentifier": "chrprfmech_bombardierbase-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 90,
     "MeleeInstability": 65,
     "MeleeToHitModifier": 0,
-    "DFADamage": 80,
+    "DFADamage": 98,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 80,
-    "DFAInstability": 80,
+    "DFASelfDamage": 65,
+    "DFAInstability": 65,
     "Locations": [
         {
             "Location": "Head",
@@ -152,34 +152,34 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 12,
-            "z": 1
+            "y": 18,
+            "z": 0
         },
         {
             "x": 4,
-            "y": 12,
+            "y": 17,
             "z": 0
         },
         {
             "x": -4,
-            "y": 12,
+            "y": 17,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 12,
-            "z": 1
+            "y": 18,
+            "z": 0
         },
         {
             "x": 4,
-            "y": 12,
+            "y": 17,
             "z": 0
         },
         {
             "x": -4,
-            "y": 12,
+            "y": 17,
             "z": 0
         },
         {

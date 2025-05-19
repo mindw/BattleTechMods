@@ -1,17 +1,17 @@
 {
     "Description": {
-        "Cost": 15270000,
+        "Cost": 5900000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Bombardier",
-        "Id": "chassisdef_bombardier_BMB-12D",
+        "Id": "chassisdef_bombardier_BMB-10Dr",
         "Name": "Bombardier",
-        "Details": "Continuing the trend toward specialized BattleMechs, the Bombardier was proposed to the Star League in 2735 by Wakazashi Enterprises as an artillery 'Mech. The Bombardier proved itself extremely effective at fulfilling the long-range fire support role, but while it has an excellent reach only two tons of ammunition means ammo runs dry after only twelve salvos.",
+        "Details": "A refit of the Star League unpopular -10D downgrade. The heat sinks were upgraded to double, more than enough keep it cool in any scenario. Half a ton of machine gun ammo was removed in favour of installing CASE in the right torso where all ammo was relocated to. The armor was upgraded to ferro fibrous and while coverage was increased, the saved tonnage went into increasing the LRM ammo by 50%.",
         "Icon": "uixTxrIcon_bombardier"
     },
-    "MovementCapDefID": "movedef_mech_heavy_5",
+    "MovementCapDefID": "movedef_mech_heavy_4",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_bombardier",
     "PrefabIdentifier": "chrprfmech_bombardierbase-001",
@@ -20,7 +20,7 @@
     "InitialTonnage": 26,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
-    "MaxJumpjets": 5,
+    "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
         0,
@@ -193,29 +193,38 @@
             "z": 0
         }
     ],
-    "VariantName": "BMB-12D",
+    "VariantName": "BMB-10Dr",
     "ChassisTags": {
         "items": [
             "mr-resize-1.02",
             "mech_case_right",
+            "chassis_ferro",
             "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "A Star League mech thought to be lost in recent times, we may be the only Mercenary unit with the 12D in their mech bay.",
+    "YangsThoughts": "A refit of the Star League unpopular -10D downgrade. The heat sinks were upgraded to double, more than enough keep it cool in any scenario. Half a ton of machine gun ammo was removed in favour of installing CASE in the right torso where all ammo was relocated to. The armor was upgraded to ferro fibrous and while coverage was increased, the saved tonnage went into increasing the LRM ammo by 50%.",
     "FixedEquipment": [
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_XL_Engine",
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_6_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_XL_Engine",
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

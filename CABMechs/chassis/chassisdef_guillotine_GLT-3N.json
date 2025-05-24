@@ -11,7 +11,7 @@
         "Details": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transition from the front-line shock role to that of a heavy raider.",
         "Icon": "uixTxrIcon_guillotine"
     },
-    "MovementCapDefID": "movedef_guillotine_GLT-4L",
+    "MovementCapDefID": "movedef_mech_heavy_4",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_glt",
     "PrefabIdentifier": "chrprfmech_gltbase-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 70,
     "MeleeInstability": 70,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 105,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
     "Locations": [
         {
             "Location": "Head",
@@ -161,34 +161,51 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 18,
-            "z": 0
+            "y": 15,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 17,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 17,
+            "y": 14,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 18,
-            "z": 0
+            "y": 15,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 17,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 17,
+            "y": 14,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 15,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 14,
             "z": 0
         },
         {

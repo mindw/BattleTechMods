@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Guillotine",
-        "Id": "chassisdef_guillotine_GLT-4L",
+        "Id": "chassisdef_guillotine_GLT-4Lr",
         "Name": "Guillotine",
-        "Details": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transition from the front-line shock role to that of a heavy raider.",
+        "Details": "A lost tech refit of the downgraded Star League -4L. Upgrading the heat sinks to double freed 6 tons which were used to surprass the original in every way while remaining cool. The fire power was upgraded with an additional large laser. Armor coverage was increase to 100% and CASE was re-installed in the right torso to protect the SRM ammo.",
         "Icon": "uixTxrIcon_guillotine"
     },
     "MovementCapDefID": "movedef_mech_heavy_4",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrprfmech_gltbase-001",
     "PrefabBase": "glt",
     "Tonnage": 70,
-    "InitialTonnage": 30,
+    "InitialTonnage": 30.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 3,
+    "Heatsinks": 36,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -59,7 +59,11 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }                
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -202,11 +206,14 @@
             "z": 0
         }
     ],
-    "VariantName": "GLT-4L",
+    "VariantName": "GLT-4Lr",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_right",
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "While they have built heavier and better armed 'Mechs since the Guillotine it remains formidable at hunting down light and medium 'Mechs. Its superb jump ability and good armor allow it to get behind foes easily to bring its respectable firepower to bare."
+    "YangsThoughts": "A lost tech refit of the downgraded Star League -4L. Upgrading the heat sinks to double freed 6 tons which were used to surprass the original in every way while remaining cool. The fire power was upgraded with an additional large laser. Armor coverage was increase to 100% and CASE was re-installed in the right torso to protect the SRM ammo."
 }

@@ -11,7 +11,7 @@
         "Details": "The 5M model is a redesign performed during the technological renaissance that started in the late 3040s. Introduced in 3049 the 5M is a 'Mech that is nearly identical to the original 3N. With the sole exception of the primary weapon being upgraded to an ER Large Laser model for extended reach, the 5M has an almost identical weaponry configuration, speed profile, and armor coverage as the 3N.",
         "Icon": "uixTxrIcon_guillotine"
     },
-    "MovementCapDefID": "movedef_guillotine_GLT-4L",
+    "MovementCapDefID": "movedef_mech_heavy_4",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_glt",
     "PrefabIdentifier": "chrprfmech_gltbase-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 70,
     "MeleeInstability": 70,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 105,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
     "Locations": [
         {
             "Location": "Head",
@@ -161,34 +161,34 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 18,
-            "z": 0
+            "y": 15,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 17,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 17,
+            "y": 14,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 18,
-            "z": 0
+            "y": 15,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 17,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 17,
+            "y": 14,
             "z": 0
         },
         {

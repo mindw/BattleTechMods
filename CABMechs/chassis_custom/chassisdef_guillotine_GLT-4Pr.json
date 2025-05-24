@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Guillotine",
-        "Id": "chassisdef_guillotine_GLT-4L",
+        "Id": "chassisdef_guillotine_GLT-4Pr",
         "Name": "Guillotine",
-        "Details": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transition from the front-line shock role to that of a heavy raider.",
+        "Details": "This late lost tech upgrade of the unpopular 4P refit, solves all of the later problem. Upgrading the heat sinks to double allows firing all of its weapons without any significant heat buildup. The lack luster armor coverage was raised to maximum while CASE was installed to protect the SRM ammo. The weapon loadout is improved by replacing the PPC with an ER version and a TAG was added to increase damage against the target even more.",
         "Icon": "uixTxrIcon_guillotine"
     },
     "MovementCapDefID": "movedef_mech_heavy_4",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrprfmech_gltbase-001",
     "PrefabBase": "glt",
     "Tonnage": 70,
-    "InitialTonnage": 30,
+    "InitialTonnage": 30.5,
     "weightClass": "HEAVY",
-    "Heatsinks": 3,
+    "Heatsinks": 36,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -46,7 +46,12 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -202,11 +207,14 @@
             "z": 0
         }
     ],
-    "VariantName": "GLT-4L",
+    "VariantName": "GLT-4Pr",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_right",
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher",
-    "YangsThoughts": "While they have built heavier and better armed 'Mechs since the Guillotine it remains formidable at hunting down light and medium 'Mechs. Its superb jump ability and good armor allow it to get behind foes easily to bring its respectable firepower to bare."
+    "YangsThoughts": "This late lost tech upgrade of the unpopular 4P refit, solves all of the later problem. Upgrading the heat sinks to double allows firing all of its weapons without any significant heat buildup. The lack luster armor coverage was raised to maximum while CASE was installed to protect the SRM ammo. The weapon loadout is improved by replacing the PPC with an ER version and a TAG was added to increase damage against the target even more."
 }

@@ -11,7 +11,7 @@
         "Details": "This variant of the Guillotine 4L model was introduced in 2833. While few pilots were willing to tamper with the original design, this refit replaces the Large Laser with a PPC at the expense of two tons of armor. Results with this variant have been mixed.",
         "Icon": "uixTxrIcon_guillotine"
     },
-    "MovementCapDefID": "movedef_guillotine_GLT-4L",
+    "MovementCapDefID": "movedef_mech_heavy_4",
     "PathingCapDefID": "pathingdef_heavy",
     "HardpointDataDefID": "hardpointdatadef_glt",
     "PrefabIdentifier": "chrprfmech_gltbase-001",
@@ -39,10 +39,10 @@
     "MeleeDamage": 70,
     "MeleeInstability": 70,
     "MeleeToHitModifier": 0,
-    "DFADamage": 90,
+    "DFADamage": 105,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 90,
-    "DFAInstability": 90,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
     "Locations": [
         {
             "Location": "Head",
@@ -161,34 +161,34 @@
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 18,
-            "z": 0
+            "y": 15,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 17,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 17,
+            "y": 14,
             "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 18,
-            "z": 0
+            "y": 15,
+            "z": 1
         },
         {
             "x": 4,
-            "y": 17,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 17,
+            "y": 14,
             "z": 0
         },
         {

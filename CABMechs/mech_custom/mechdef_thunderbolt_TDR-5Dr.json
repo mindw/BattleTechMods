@@ -32,13 +32,10 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_thunderbolt_TDR-5Dr",
-    "HeraldryID": null,
     "Description": {
         "Cost": 6900000,
         "Rarity": 3,
         "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
         "UIName": "Thunderbolt TDR-5Dr",
         "Id": "mechdef_thunderbolt_TDR-5Dr",
         "Name": "Thunderbolt",
@@ -46,7 +43,6 @@
         "Icon": "uixTxrIcon_thunderbolt"
     },
     "simGameMechPartCost": 690000,
-    "Version": 1,
     "Locations": [
         {
             "DamageLevel": "Functional",
@@ -142,7 +138,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
             "DamageLevel": "Functional"
-        },        
+        },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",

@@ -19,10 +19,7 @@
     "Tonnage": 50,
     "InitialTonnage": 19.0,
     "weightClass": "MEDIUM",
-    "BattleValue": 4124000,
     "Heatsinks": 18,
-    "TopSpeed": 65,
-    "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 130,
     "StabilityDefenses": [

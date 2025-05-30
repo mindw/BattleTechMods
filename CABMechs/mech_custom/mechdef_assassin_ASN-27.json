@@ -32,13 +32,10 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_assassin_ASN-27",
-    "HeraldryID": null,
     "Description": {
         "Cost": 4620000,
         "Rarity": 0,
         "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
         "UIName": "Assassin ASN-27",
         "Id": "mechdef_assassin_ASN-27",
         "Name": "Assassin",
@@ -46,7 +43,6 @@
         "Icon": "uixTxrIcon_assassin"
     },
     "simGameMechPartCost": 460000,
-    "Version": 1,
     "Locations": [
         {
             "DamageLevel": "Functional",

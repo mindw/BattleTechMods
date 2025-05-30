@@ -19,10 +19,7 @@
     "Tonnage": 60,
     "InitialTonnage": 32.5,
     "weightClass": "HEAVY",
-    "BattleValue": 6922000,
     "Heatsinks": 36,
-    "TopSpeed": 150,
-    "TurnRadius": 90,
     "MaxJumpjets": 5,
     "Stability": 160,
     "StabilityDefenses": [

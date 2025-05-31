@@ -1,0 +1,206 @@
+{
+    "Description": {
+        "Cost": 7500000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Orion",
+        "Id": "chassisdef_orion_ON1-Kr",
+        "Name": "Orion",
+        "Details": "A lost tech upgrade of the venerable K, inspired by the Star Leage Royal -Kb of old. The heat sinks are upgraded to double solving the severe over heating issues of the original. Fire power wise, The auto cannon was upgraded to the more versatile and lighter LB-10X, allowing for installing CASE to protect the ammo and a small laser in the left arm. Internally, ammo was moved around to the right torso to be protected by the new CASE.",
+        "Icon": "uixTxrIcon_orion"
+    },
+    "MovementCapDefID": "movedef_orion_ON1-K",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_orion",
+    "PrefabIdentifier": "chrPrfMech_orionBase-001",
+    "PrefabBase": "orion",
+    "Tonnage": 75,
+    "InitialTonnage": 33.0,
+    "weightClass": "HEAVY",
+    "Heatsinks": 30,
+    "MaxJumpjets": 4,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 85,
+    "MeleeInstability": 75,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 113,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 75,
+    "DFAInstability": 75,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 9,
+            "MaxArmor": 120,
+            "MaxRearArmor": -1,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 15,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0
+        },
+        {
+            "x": 3.5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -3.5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "ON1-Kr",
+    "ChassisTags": {
+        "items": [
+            "mech_case_right",
+            "chassis_DHS"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Brawler",
+    "YangsThoughts": "A lost tech upgrade of the venerable K, inspired by the Star Leage Royal -Kb of old. The heat sinks are upgraded to double solving the severe over heating issues of the original. Fire power wise, The auto cannon was upgraded to the more versatile and lighter LB-10X, allowing for installing CASE to protect the ammo and a small laser in the left arm. Internally, ammo was moved around to the right torso to be protected by the new CASE."
+}

@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_bombardierbase-001",
     "PrefabBase": "bombardier",
     "Tonnage": 65,
-    "InitialTonnage": 26,
+    "InitialTonnage": 26.5,
     "weightClass": "HEAVY",
     "Heatsinks": 30,
     "MaxJumpjets": 4,

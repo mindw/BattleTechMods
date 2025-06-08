@@ -7,4 +7,11 @@
     "Author": "Mpstark",
 
     "DLL": "LanceSpawnerDebugTool.dll",
+	"Manifest": [
+		{
+			"Type": "AdvancedJSONMerge",
+			"Path": "advancedjsonmerge",
+			"ShouldMergeJSON": false
+		}
+	]    
 }

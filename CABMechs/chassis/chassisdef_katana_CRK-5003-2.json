@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -205,5 +205,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "It looks like the oddball Crockett because it more or less is.  But the Katana has significantly less armor, in return it has a recovered star league based LB10X and better heat efficiency. Primarily effective at close range, it also has jump capability to get there."
+    "YangsThoughts": "It looks like the oddball Crockett because it more or less is.  But the Katana has significantly less armor, in return it has a recovered star league based LB10X and better heat efficiency. Primarily effective at close range, it also has jump capability to get there.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_EasyToPilot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

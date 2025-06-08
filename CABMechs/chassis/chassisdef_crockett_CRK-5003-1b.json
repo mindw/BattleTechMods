@@ -53,7 +53,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -214,6 +214,14 @@
     "StockRole": "Juggernaut",
     "YangsThoughts": "The Crockett 5003-1b makes some heavy changes to the Crockett we are all familiar with. The Endo Steel chassis has allowed for a complete change up of the weaponry, an entirely energy weapon array backing up the Gauss rifle in the left torso.",
     "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_EasyToPilot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_EndoSteel_1_Slot",

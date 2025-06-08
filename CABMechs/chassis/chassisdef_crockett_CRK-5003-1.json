@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -206,5 +206,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",
-    "YangsThoughts": "The Crockett 5003-1 mounts a wide array of weaponry, even for an assault 'Mech. Primarily effective at close range, it also has jump capability to get there."
+    "YangsThoughts": "The Crockett 5003-1 mounts a wide array of weaponry, even for an assault 'Mech. Primarily effective at close range, it also has jump capability to get there.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_EasyToPilot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

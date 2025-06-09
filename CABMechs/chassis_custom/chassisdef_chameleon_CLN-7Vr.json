@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Chameleon",
-        "Id": "chassisdef_chameleon_CLN-7W",
+        "Id": "chassisdef_chameleon_CLN-7Vr",
         "Name": "Chameleon",
-        "Details": "The 7W variant of the Chameleon looked to use the 'Mech in a full time combat role. The 'Mech had upgraded the Large Laser to an ER Large Laser, the Machine Guns and Small Lasers had been removed and replaced with a Medium Pulse Laser. Double heat sinks for superb heat management and additional two tons of armor for protection rounded uyp the package.",
+        "Details": "A very popular lost tech upgrade of the venerable training mech. The heat sinks are upgraded to double allowing it to run cool in all but the closest of ranges. The armor was upgraded to ferro-fibrous but was reduced by half a ton to free space for CASE to protect the machine gun ammo. Still the overall protection is slightly increased.",
         "Icon": "uixTxrIcon_chameleon"
     },
     "MovementCapDefID": "movedef_mech_medium_6",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrprfmech_chameleonbase-001",
     "PrefabBase": "chameleon",
     "Tonnage": 50,
-    "InitialTonnage": 30,
+    "InitialTonnage": 30.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 6,
@@ -197,20 +197,54 @@
             "z": 1
         }
     ],
-    "VariantName": "CLN-7W",
+    "VariantName": "CLN-7Vr",
     "ChassisTags": {
         "items": [
             "mr-resize-0.9",
+            "mech_case_left",
+            "chassis_ferro",
             "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Striker",
-    "YangsThoughts": "A combat ready Chameleon? Hell froze over commander, officially. This one will give as nasty surprise to anyone mistaking it for the flimsy and overheating training version. It has the heatsinks for sustained fire, it has way better armor and it has no ammo to cook. Last but not least, it is one of the fastest 50 ton mechs without the fragile XL engine.",
+    "StockRole": "Scout",
+    "YangsThoughts": "A very popular lost tech upgrade of the venerable training mech. The heat sinks are upgraded to double allowing it to run cool in all but the closest of ranges. The armor was upgraded to ferro-fibrous but was reduced by half a ton to free space for CASE to protect the machine gun ammo. Still the overall protection is slightly increased.",
     "FixedEquipment": [
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Special_EasyToPilot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

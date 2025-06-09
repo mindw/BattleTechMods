@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate": "2510-01-01T00:00:00Z",
+    "MinAppearanceDate": "3051-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -10,20 +10,34 @@
             "unit_role_scout",
             "unit_jumpOK",
             "unit_speed_high",
-            "unit_hot",
-            "unit_common"
+            "unit_LosTech",
+            "Davion",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "Kurita",
+            "ComStar",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
+            "NotLocals",
+            "NotAuriganRestoration",
+            "AuriganPirates",
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "KellHounds",
+            "WolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_chameleon_CLN-7V",
+    "ChassisID": "chassisdef_chameleon_CLN-7Vr",
     "Description": {
         "Cost": 5600000,
         "Rarity": 2,
         "Purchasable": true,
-        "UIName": "Chameleon CLN-7V",
-        "Id": "mechdef_chameleon_CLN-7V",
+        "UIName": "Chameleon CLN-7Vr",
+        "Id": "mechdef_chameleon_CLN-7Vr",
         "Name": "Chameleon",
-        "Details": "Since the Terran Hegemony introduced it in 2510, the Chameleon has been the premiere training BattleMech for light- and medium-BattleMech Mechwarriors. Even in 3025, the Chameleon is widely used at academies and training cadres throughout the Inner Sphere.",
+        "Details": "A very popular lost tech upgrade of the venerable training mech. The heat sinks are upgraded to double allowing it to run cool in all but the closest of ranges. The armor was upgraded to ferro-fibrous but was reduced by half a ton to free space for CASE to protect the machine gun ammo. Still the overall protection is slightly increased.",
         "Icon": "uixTxrIcon_chameleon"
     },
     "simGameMechPartCost": 560000,
@@ -49,10 +63,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 60,
+            "CurrentArmor": 70,
             "CurrentRearArmor": 20,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 60,
+            "AssignedArmor": 70,
             "AssignedRearArmor": 20
         },
         {
@@ -67,10 +81,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 60,
+            "CurrentArmor": 70,
             "CurrentRearArmor": 20,
             "CurrentInternalStructure": 60,
-            "AssignedArmor": 60,
+            "AssignedArmor": 70,
             "AssignedRearArmor": 20
         },
         {

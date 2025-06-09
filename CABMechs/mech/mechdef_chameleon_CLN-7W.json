@@ -30,13 +30,10 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_chameleon_CLN-7W",
-    "HeraldryID": null,
     "Description": {
         "Cost": 5600000,
         "Rarity": 2,
         "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
         "UIName": "Chameleon CLN-7W",
         "Id": "mechdef_chameleon_CLN-7W",
         "Name": "Chameleon",
@@ -44,7 +41,6 @@
         "Icon": "uixTxrIcon_chameleon"
     },
     "simGameMechPartCost": 560000,
-    "Version": 1,
     "Locations": [
         {
             "DamageLevel": "Functional",

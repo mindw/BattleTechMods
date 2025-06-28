@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 7700000,
-        "Rarity": 5,
+        "Cost": 7100000,
+        "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Marauder",
-        "Id": "chassisdef_marauder_MAD-1R",
+        "Id": "chassisdef_marauder_MAD-3Mr",
         "Name": "Marauder",
-        "Details": "The earliest version of the Marauder, used by the Royal brigades of the SLDF, the 1R utilized CASE to protect the autocannon ammunition and carried eleven tons of Ferro-Fibrous armor. It was introduced in 2612.",
+        "Details": "A lost tech upgrade of the Marik -3M refit. The heat sinks were upgraded to double, dropping three - leaving more than enough to keep things cool. The weapon loadout was revamped by upgrading the large lasers to extended range ones and the autocannon to a more powerful ultra version with additional ammo. Protection wasn't neglected with the armor upgraded to ferro fibrous increasing coverage to 93%, while the autocannon ammo is protected by CASE the right torso.",
         "Icon": "uixTxrIcon_marauder"
     },
     "MovementCapDefID": "movedef_marauder_MAD-3R",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrPrfMech_marauderBase-001",
     "PrefabBase": "marauder",
     "Tonnage": 75,
-    "InitialTonnage": 35,
+    "InitialTonnage": 35.0,
     "weightClass": "HEAVY",
-    "Heatsinks": 6,
+    "Heatsinks": 42,
     "MaxJumpjets": 4,
     "Stability": 160,
     "StabilityDefenses": [
@@ -200,16 +200,17 @@
             "z": -2.5
         }
     ],
-    "VariantName": "MAD-1R",
+    "VariantName": "MAD-3Mr",
     "ChassisTags": {
         "items": [
+            "mech_case_right",
             "chassis_ferro",
-            "mech_case_right"
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Sniper",
-    "YangsThoughts": "A Star League mech thought to be lost in recent times, we may be the only Mercenary unit with the 1R in their mech bay.",
+    "StockRole": "Brawler",
+    "YangsThoughts": "A lost tech upgrade of the Marik -3M refit. The heat sinks were upgraded to double, dropping three - leaving more than enough to keep things cool. The weapon loadout was revamped by upgrading the large lasers to extended range ones and the autocannon to a more powerful ultra version with additional ammo. Protection wasn't neglected with the armor upgraded to ferro fibrous increasing coverage to 93%, while the autocannon ammo is protected by CASE the right torso.",
     "FixedEquipment": [
         {
             "MountedLocation": "Head",
@@ -220,24 +221,16 @@
             "DamageLevel": "Functional"
         },
         {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_General_Lance_Command_Module",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_5_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -245,6 +238,14 @@
         },
         {
             "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_5_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
             "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

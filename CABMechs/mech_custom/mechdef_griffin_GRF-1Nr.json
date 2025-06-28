@@ -1,0 +1,178 @@
+{
+    "MinAppearanceDate": "3047-01-01T00:00:00Z",
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_medium",
+            "unit_range_long",
+            "unit_lance_sniper",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_indirectFire",
+            "unit_jumpOK",
+            "unit_LosTech",
+            "unit_common",
+            "Davion",
+            "Liao",
+            "Marik",
+            "Steiner",
+            "Kurita",
+            "ComStar",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
+            "Locals",
+            "AuriganRestoration",
+            "AuriganPirates",
+            "AuriganMercenaries",
+            "MercenaryReviewBoard",
+            "NotKellHounds",
+            "NotWolfsDragoons"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_griffin_GRF-1Nr",
+    "Description": {
+        "Cost": 6260000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "UIName": "Griffin GRF-1Nr",
+        "Id": "mechdef_griffin_GRF-1Nr",
+        "Name": "Griffin",
+        "Details": "A stright forward lost tech upgrade of the popular and venerable -1N. The heat sinks were upgrade to double dropping two while still allowing for heat free operation under normal conditions. The armor is increased by a ton and a half raising the coverage to 95%. CASE is installed into the right torso to protect the volatile LRM ammo. A ton of the previousy mentioned LRM ammo is dropped for increasing the LRM rach accuracy by installing an Artemis IV fire control system.",
+        "Icon": "uixTxrIcon_griffin"
+    },
+    "simGameMechPartCost": 630000,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 85,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 85,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 90,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 85,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 85,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 115,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 115,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 115,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 115,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_LRM_LRM10_Artemis_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

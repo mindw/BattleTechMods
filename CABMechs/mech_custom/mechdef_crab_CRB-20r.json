@@ -39,7 +39,7 @@
         "UIName": "Crab CRB-20r",
         "Id": "mechdef_crab_CRB-20r",
         "Name": "Crab",
-        "Details": "A refit which surpressed the -27 upgrade in popularity in Davion and Liao space. The heat sinks were upgraded to double freeing enough mass for significant upgrades. First, tehe armor was restored to -27 levels and second, two additional medium lasers were installed in the arms.",
+        "Details": "A lost tech upgrade which surpressed the -27 upgrade in popularity in Davion and Liao space. The heat sinks were upgraded to double dropping three while keeping the -20r cooler than ever. First, the armor was restored to -27 levels and second, two additional medium lasers were installed in the arms.",
         "Icon": "uixTxrIcon_crab"
     },
     "simGameMechPartCost": 550000,

@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Firebee",
-        "Id": "chassisdef_firebee_FRB-2E",
+        "Id": "chassisdef_firebee_FRB-2Er",
         "Name": "Firebee",
-        "Details": "The 2E Firebee mounts a Large Laser, giving it respectable firepower. Up close, four SRM-2 launcher can unleash eight missiles. Whether it is using Inferno rounds or not, something that its two tons of ammunition allows MechWarriors to utilize on a regular basis, the Firebee is a potent anti-vehicle platform.",
+        "Details": "A lost tech upgrade of Liao's oldest 'mech design. The heat sinks where upgraded to double eliminating all over heating problems. Protection was increased by switching to ferro-fibrous armor and CASE for the ammo. One ton of SRM ammo was dropped allowing armor coverage increase to 97%.",
         "Icon": "uixTxrIcon_firebee"
     },
     "MovementCapDefID": "movedef_mech_light_5",
@@ -17,9 +17,9 @@
     "PrefabIdentifier": "chrprfmech_firebeebase-001",
     "PrefabBase": "firebee",
     "Tonnage": 35,
-    "InitialTonnage": 15.5,
+    "InitialTonnage": 16.0,
     "weightClass": "LIGHT",
-    "Heatsinks": 0,
+    "Heatsinks": 12,
     "MaxJumpjets": 5,
     "Stability": 100,
     "StabilityDefenses": [
@@ -186,11 +186,73 @@
             "z": 0.5
         }
     ],
-    "VariantName": "FRB-2E",
+    "VariantName": "FRB-2Er",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mech_case_left",
+            "chassis_ferro",
+            "chassis_DHS"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler",
-    "YangsThoughts": "The Firebee is a dangerous 'Mech that isn't seen much these days. When you could get hold of them the Firebee would often mount Inferno SRMs but these days it doesn't make sense with how rare they are."
+    "YangsThoughts": "A lost tech upgrade of Liao's oldest 'mech design. The heat sinks where upgraded to double eliminating all over heating problems. Protection was increased by switching to ferro-fibrous armor and CASE for the ammo. One ton of SRM ammo was dropped allowing armor coverage increase to 97%.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_2_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Fixed",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

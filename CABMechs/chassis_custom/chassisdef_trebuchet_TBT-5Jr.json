@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 4600000,
-        "Rarity": 2,
+        "Cost": 4400000,
+        "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Trebuchet",
-        "Id": "chassisdef_trebuchet_TBT-7M",
+        "Id": "chassisdef_trebuchet_TBT-5Jr",
         "Name": "Trebuchet",
-        "Details": "Upgraded with Star League technology, the 7M variant is built with on an Endo Steel chassis and uses a 250 XL engine, giving it the same performance but allowing the design to mount ten double heat sinks and five jump jets for a jumping distance of one hundred and fifty meters. It also allows for the LRM-15s' ammo to be protected by CASE and for a Narc Missile Beacon with two tons of ammo, improving not only the Trebuchet's accuracy but allowing it to share targeting information with other similarly-equipped 'Mechs.",
+        "Details": "A lost tech upgrade of the Marik exclusive close assault Trebuchet variant. The heat sinks were upgraded to double, dropping all except for the engine builtin ones. Offensivly, the LRM 15 gained additional accuracy from an Artemis IV fire control and saw the ammo doubled. An additional medium later was added in the left torso. Extra care was given to the protection - the armor was upgraded to ferro-fibous and increased to 100%, and CASE was installed to to protect the ammo.",
         "Icon": "uixTxrIcon_trebuchet"
     },
     "MovementCapDefID": "movedef_trebuchet_TBT-5N",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_trebuchetBase-001",
     "PrefabBase": "trebuchet",
     "Tonnage": 50,
-    "InitialTonnage": 16,
+    "InitialTonnage": 24.0,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 5,
@@ -39,10 +39,10 @@
     "MeleeDamage": 65,
     "MeleeInstability": 50,
     "MeleeToHitModifier": 0,
-    "DFADamage": 65,
+    "DFADamage": 75,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 65,
-    "DFAInstability": 65,
+    "DFASelfDamage": 50,
+    "DFAInstability": 50,
     "Locations": [
         {
             "Location": "Head",
@@ -57,17 +57,13 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
-                }                
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -79,7 +75,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -129,15 +125,15 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },                
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
                     "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -210,46 +206,21 @@
             "z": 2.5
         }
     ],
-    "VariantName": "TBT-7M",
+    "VariantName": "TBT-5Jr",
     "ChassisTags": {
-        "items": [
-            "mech_case_left",
+         "items": [
             "mech_case_right",
-            "chassis_DHS",
-            "chassis_endo"
+            "chassis_ferro",
+            "chassis_DHS"
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Missile Boat",
-    "YangsThoughts": "One of the lightest dedicated fire support 'Mechs to be found, the Trebuchet 7M can mount enough missiles to give even heavy units pause. However, 'Trenchbuckets' are known for running hot and don't have much in the way of protection.",
+    "StockRole": "Skirmisher",
+    "YangsThoughts": "A lost tech upgrade of the Marik exclusive close assault Trebuchet variant. The heat sinks were upgraded to double, dropping all except for the engine builtin ones. Offensivly, the LRM 15 gained additional accuracy from an Artemis IV fire control and saw the ammo doubled. An additional medium later was added in the left torso. Extra care was given to the protection - the armor was upgraded to ferro-fibous and increased to 100%, and CASE was installed to to protect the ammo.",
     "FixedEquipment": [
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_XL_Engine",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_XL_Engine",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
@@ -257,27 +228,27 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_5_Slot",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_FerroFibrous_4_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_EndoSteel_2_Slot",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,
             "DamageLevel": "Functional"
         }
-    ]
+    ]    
 }

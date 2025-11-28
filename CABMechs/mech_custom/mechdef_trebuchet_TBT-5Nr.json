@@ -1,0 +1,156 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_medium",
+            "unit_indirectFire",
+            "unit_range_long",
+            "unit_lance_missile_boat",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_hot",
+            "unit_LosTech",            
+            "unit_common"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_trebuchet_TBT-5Nr",
+    "Description": {
+        "Cost": 5640000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "UIName": "Trebuchet TBT-5Nr",
+        "Id": "mechdef_trebuchet_TBT-5Nr",
+        "Name": "Trebuchet",
+        "Details": "A simple, strightforward losTech refit of the venerable Trebuchet. The heat sinks were upgraded to double enabling alpha striking with no worry of overheating. The armor was upgraded to ferro-fibrous increasing coverage to 80%. The simplicity of this refit and the early introduction date ensured wide spread avialability.",
+        "Icon": "uixTxrIcon_trebuchet"
+    },
+    "simGameMechPartCost": 560000,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 60,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 60,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 85,
+            "CurrentRearArmor": 25,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 85,
+            "AssignedRearArmor": 25
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 85,
+            "CurrentRearArmor": 25,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 85,
+            "AssignedRearArmor": 25
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 60,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 60,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "3041-01-01T00:00:00Z"
+}

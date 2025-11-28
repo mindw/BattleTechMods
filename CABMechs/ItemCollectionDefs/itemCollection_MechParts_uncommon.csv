@@ -24,7 +24,10 @@ mechdef_centurion_CN9-ALr,MechPart,1,1
 mechdef_centurion_CN9-D,MechPart,1,1
 mechdef_hunchback_HBK-4Gr,MechPart,1,1
 mechdef_hunchback_HBK-5M,MechPart,1,1
+mechdef_trebuchet_TBT-5Jr,MechPart,1,1
+mechdef_trebuchet_TBT-5Nr,MechPart,1,1
 mechdef_trebuchet_TBT-7M,MechPart,1,1
+mechdef_trebuchet_TBT-7Mr,MechPart,1,1
 mechdef_griffin_GRF-1Nr,MechPart,1,1
 mechdef_griffin_GRF-3M,MechPart,1,1
 mechdef_shadowhawk_SHD-5M,MechPart,1,1
@@ -65,5 +68,4 @@ mechdef_stalker_STK-3Fb,MechPart,1,1
 mechdef_stalker_STK-5M,MechPart,1,1
 mechdef_banshee_BNC-3Er,MechPart,1,1
 mechdef_atlas_AS7-K,MechPart,1,1
-mechdef_atlas_AS7-RS,MechPart,1,1
 mechdef_atlas_AS7-S,MechPart,1,1

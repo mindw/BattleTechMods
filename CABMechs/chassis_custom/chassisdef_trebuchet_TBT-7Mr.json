@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Trebuchet",
-        "Id": "chassisdef_trebuchet_TBT-7M",
+        "Id": "chassisdef_trebuchet_TBT-7Mr",
         "Name": "Trebuchet",
-        "Details": "Upgraded with Star League technology, the 7M variant is built with on an Endo Steel chassis and uses a 250 XL engine, giving it the same performance but allowing the design to mount ten double heat sinks and five jump jets for a jumping distance of one hundred and fifty meters. It also allows for the LRM-15s' ammo to be protected by CASE and for a Narc Missile Beacon with two tons of ammo, improving not only the Trebuchet's accuracy but allowing it to share targeting information with other similarly-equipped 'Mechs.",
+        "Details": "A field refit of the underwhelming -7M, the 7Mr reworks the weapon layout to deter pilots from moving to very close range. The NARC missle beacon and ammo was dropped in favour of Artemis IV FCS for the LRM15s. The right torso CASE was as well. All remaining tonnage was used to increase the armor coverage to 95%.",
         "Icon": "uixTxrIcon_trebuchet"
     },
     "MovementCapDefID": "movedef_trebuchet_TBT-5N",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_trebuchetBase-001",
     "PrefabBase": "trebuchet",
     "Tonnage": 50,
-    "InitialTonnage": 16,
+    "InitialTonnage": 15.5,
     "weightClass": "MEDIUM",
     "Heatsinks": 30,
     "MaxJumpjets": 5,
@@ -39,10 +39,10 @@
     "MeleeDamage": 65,
     "MeleeInstability": 50,
     "MeleeToHitModifier": 0,
-    "DFADamage": 65,
+    "DFADamage": 75,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 65,
-    "DFAInstability": 65,
+    "DFASelfDamage": 50,
+    "DFAInstability": 50,
     "Locations": [
         {
             "Location": "Head",
@@ -67,7 +67,7 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }                
+                }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -131,7 +131,7 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                },                
+                },
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
@@ -210,18 +210,17 @@
             "z": 2.5
         }
     ],
-    "VariantName": "TBT-7M",
+    "VariantName": "TBT-7Mr",
     "ChassisTags": {
         "items": [
             "mech_case_left",
-            "mech_case_right",
             "chassis_DHS",
             "chassis_endo"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Missile Boat",
-    "YangsThoughts": "One of the lightest dedicated fire support 'Mechs to be found, the Trebuchet 7M can mount enough missiles to give even heavy units pause. However, 'Trenchbuckets' are known for running hot and don't have much in the way of protection.",
+    "YangsThoughts": "A field refit of the underwhelming -7M, the 7Mr reworks the weapon layout to deter pilots from moving to very close range. The NARC missle beacon and ammo was dropped in favour of Artemis IV FCS for the LRM15s. The right torso CASE was as well. All remaining tonnage was used to increase the armor coverage to 95%.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",
@@ -248,7 +247,7 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_EndoSteel_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -256,8 +255,16 @@
             "DamageLevel": "Functional"
         },
         {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EndoSteel_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_EndoSteel_5_Slot",
+            "ComponentDefID": "Gear_EndoSteel_2_Slot",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": true,

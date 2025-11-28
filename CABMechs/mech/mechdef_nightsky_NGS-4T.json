@@ -1,5 +1,5 @@
 {
-    "MinAppearanceDate": "3053-01-01T00:00:00Z",
+    "MinAppearanceDate": "3056-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -12,6 +12,7 @@
             "unit_role_scout",
             "unit_armor_high",
             "unit_jumpOK",
+            "unit_hot",
             "unit_LosTech",
             "Davion",
             "NotLiao",
@@ -26,20 +27,20 @@
             "NotAuriganPirates",
             "AuriganMercenaries",
             "MercenaryReviewBoard",
-            "KellHounds",
-            "WolfsDragoons"
+            "NotKellHounds",
+            "NotWolfsDragoons"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_nightsky_NGS-4S",
+    "ChassisID": "chassisdef_nightsky_NGS-4T",
     "Description": {
         "Cost": 15360000,
         "Rarity": 2,
         "Purchasable": true,
-        "UIName": "Nightsky NGS-4S",
-        "Id": "mechdef_nightsky_NGS-4S",
+        "UIName": "Nightsky NGS-4T",
+        "Id": "mechdef_nightsky_NGS-4T",
         "Name": "Nightsky",
-        "Details": "The original variant of the Nightsky is built around a massive 300 XL engine, propelling the 'Mech up to speeds of 97.2 km/h. Superb ground speed and the added maneuverability provided by six jump jets allows the Nightsky to jump up to 180 meters. The 'Mech is protected with nine and a half tons of armor, considered good protection for its size. Besides the massive hatchet, the Nightsky carries two Medium and one Large Pules Laser, with a single Small Pulse Lasers as backup.",
+        "Details": "The 4T is a variant of the Nightsky that looks to make the 'Mech more powerful in both long and close range combat. This is done by swapping the Large Pulse Laser for an ER Large Laser and an Anti-Missile System, for added defense against enemy missiles. The 'Mech also adds an additional Small Laser for added close range firepower.",
         "Icon": "uixTxrIcon_nightsky"
     },
     "simGameMechPartCost": 1536000,
@@ -127,7 +128,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
@@ -140,10 +141,24 @@
             "DamageLevel": "Functional"
         },
         {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_AMS_Cal-Boeing",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {

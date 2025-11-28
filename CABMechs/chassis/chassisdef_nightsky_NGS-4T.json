@@ -6,9 +6,9 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Nightsky",
-        "Id": "chassisdef_nightsky_NGS-4S",
+        "Id": "chassisdef_nightsky_NGS-4T",
         "Name": "Nightsky",
-        "Details": "The original variant of the Nightsky is built around a massive 300 XL engine, propelling the 'Mech up to speeds of 97.2 km/h. Superb ground speed and the added maneuverability provided by six jump jets allows the Nightsky to jump up to 180 meters. The 'Mech is protected with nine and a half tons of armor, considered good protection for its size. Besides the massive hatchet, the Nightsky carries two Medium and one Large Pules Laser, with a single Small Pulse Lasers as backup.",
+        "Details": "The 4T is a variant of the Nightsky that looks to make the 'Mech more powerful in both long and close range combat. This is done by swapping the Large Pulse Laser for an ER Large Laser and an Anti-Missile System, for added defense against enemy missiles. The 'Mech also adds an additional Small Laser for added close range firepower.",
         "Icon": "uixTxrIcon_nightsky"
     },
     "MovementCapDefID": "movedef_mech_medium_6",
@@ -110,7 +110,11 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }                
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -190,7 +194,7 @@
             "z": 2.5
         }
     ],
-    "VariantName": "NGS-4S",
+    "VariantName": "NGS-4T",
     "ChassisTags": {
         "items": [
             "mr-resize-1.05",
@@ -199,7 +203,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "The Nightsky is the successor to the Hatchetman and Axeman developed by Defiance Industries. As with its predecessors, the centerpiece of the Nightsky is a massive four-ton hatchet that is built into its right arm, which allows the 'Mech to cut through another 'Mech's armor.",
+    "YangsThoughts": "The 4T is a variant of the Nightsky that looks to make the 'Mech more powerful in both long and close range combat. This is done by swapping the Large Pulse Laser for an ER Large Laser and an Anti-Missile System, for added defense against enemy missiles. The 'Mech also adds an additional Small Laser for added close range firepower.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",

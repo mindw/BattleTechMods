@@ -6,21 +6,21 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Nightstar",
-        "Id": "chassisdef_nightstar_NSR-9J",
+        "Id": "chassisdef_nightstar_NSR-9FC",
         "Name": "Nightstar",
-        "Details": "The genesis of the Nightstar lies in the Amaris Civil War. The 'Mech itself was only produced until the the First Succession War, when both of the factories and engineers capable of producing the Nightstar were destroyed or killed. The Nightstar is armed to keep an enemy at standoff ranges. The primary weapons carried are a pair of Gauss Rifles, each of which can strip almost a ton of armor off an enemy unit. These are backed up by a ER PPC that is capable of hitting a target at six hundred and ninety meters. For defense at short ranges, the 'Mech has two Medium Pulse Lasers and an Small Laser.",
+        "Details": "Reconfigured for greater speed, the 9FC variant of the Nightstar replaces the two Gauss Rifles with a pair of LB-X Autocannon/10s that are not as destructive as the weapons they replace, but can use both standard and cluster ammunition, making them effective in a variety of roles. The Small Laser has also been upgraded and the Medium Pulse Lasers downgraded, giving the Nightstar a total of three medium lasers. To make the 'Mech fit better into the mobile warfare doctrine of the Federated Suns and Federated Commonwealth, the 9FC model has used the saved weight to upgrade its engine, giving it a top speed of 64.8 km/h.",
         "Icon": "uixTxrIcon_nightstar"
     },
-    "MovementCapDefID": "movedef_nightstar_NSR-9J",
+    "MovementCapDefID": "movedef_mech_assault_4",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_nightstar",
     "PrefabIdentifier": "chrprfmech_nightstarbase-001",
     "PrefabBase": "nightstar",
     "Tonnage": 95,
-    "InitialTonnage": 25,
+    "InitialTonnage": 40.5,
     "weightClass": "ASSAULT",
-    "Heatsinks": 36,
-    "MaxJumpjets": 3,
+    "Heatsinks": 48,
+    "MaxJumpjets": 4,
     "Stability": 200,
     "StabilityDefenses": [
         0,
@@ -48,7 +48,7 @@
             "Location": "Head",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -219,15 +219,16 @@
             "z": 1
         }
     ],
-    "VariantName": "NSR-9J",
+    "VariantName": "NSR-9FC",
     "ChassisTags": {
         "items": [
-            "chassis_DHS"
+            "chassis_DHS",
+            "mech_case_left"
         ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut",
-    "YangsThoughts": "The genesis of the Nightstar lies in the Amaris Civil War. The 'Mech itself was only produced until the the First Succession War, when both of the factories and engineers capable of producing the Nightstar were destroyed or killed. The Nightstar is armed to keep an enemy at standoff ranges. The primary weapons carried are a pair of Gauss Rifles, each of which can strip almost a ton of armor off an enemy unit. These are backed up by a ER PPC that is capable of hitting a target at six hundred and ninety meters. For defense at short ranges, the 'Mech has two Medium Pulse Lasers and an Small Laser.",
+    "YangsThoughts": "Reconfigured for greater speed, the 9FC variant of the Nightstar replaces the two Gauss Rifles with a pair of LB-X Autocannon/10s that are not as destructive as the weapons they replace, but can use both standard and cluster ammunition, making them effective in a variety of roles. The Small Laser has also been upgraded and the Medium Pulse Lasers downgraded, giving the Nightstar a total of three medium lasers. To make the 'Mech fit better into the mobile warfare doctrine of the Federated Suns and Federated Commonwealth, the 9FC model has used the saved weight to upgrade its engine, giving it a top speed of 64.8 km/h.",
     "FixedEquipment": [
         {
             "MountedLocation": "LeftTorso",

@@ -13,9 +13,9 @@
     },
     "MovementCapDefID": "movedef_caesar_CES-3R",
     "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_cataphract",
-    "PrefabIdentifier": "chrPrfMech_cataphractBase-001",
-    "PrefabBase": "cataphract",
+    "HardpointDataDefID": "hardpointdatadef_caesar",
+    "PrefabIdentifier": "chrprfmech_caesarbase-001",
+    "PrefabBase": "caesar",
     "Tonnage": 70,
     "InitialTonnage": 22.5,
     "weightClass": "HEAVY",
@@ -200,7 +200,7 @@
     "VariantName": "CES-3R",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.93-1.07-1.00",
+            "mr-resize-0.94",
             "mech_case_right",
             "chassis_DHS"
         ],

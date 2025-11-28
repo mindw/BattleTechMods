@@ -30,13 +30,10 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_shadowhawk_SHD-5S",
-    "HeraldryID": null,
     "Description": {
         "Cost": 6240000,
         "Rarity": 2,
         "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
         "UIName": "Shadow Hawk SHD-5S",
         "Id": "mechdef_shadowhawk_SHD-5S",
         "Name": "Shadow Hawk",
@@ -44,7 +41,6 @@
         "Icon": "uixTxrIcon_shadowhawk"
     },
     "simGameMechPartCost": 620000,
-    "Version": 1,
     "Locations": [
         {
             "DamageLevel": "Functional",
@@ -164,11 +160,11 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Sensor_ECM",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
             "DamageLevel": "Functional"
-        },
+        },        
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
@@ -192,21 +188,14 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_Beagle_Probe_0-STOCK",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Sensor_ECM",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "DamageLevel": "Functional"
@@ -216,6 +205,13 @@
             "ComponentDefID": "Weapon_Laser_LargeLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         }
     ]

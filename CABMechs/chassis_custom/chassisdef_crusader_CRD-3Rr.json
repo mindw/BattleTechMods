@@ -208,7 +208,6 @@
     "VariantName": "CRD-3Rr",
     "ChassisTags": {
         "items": [
-            "mr-resize-0.95-0.95-0.95",
             "mech_case_right",
             "chassis_ferro",
             "chassis_DHS"

@@ -2,7 +2,7 @@
     "MinAppearanceDate": "3057-01-01T00:00:00Z",
     "MechTags": {
         "items": [
-            "GZ_fake_min_appearance", 
+            "GZ_fake_min_appearance",
             "unit_release",
             "unit_mech",
             "unit_assault",
@@ -31,13 +31,10 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_emperor_EMP-6A",
-    "HeraldryID": null,
     "Description": {
         "Cost": 19160000,
         "Rarity": 4,
         "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
         "UIName": "Emperor EMP-6A",
         "Id": "mechdef_emperor_EMP-6A",
         "Name": "Emperor",
@@ -45,7 +42,6 @@
         "Icon": "uixTxrIcon_emperor"
     },
     "simGameMechPartCost": 1916000,
-    "Version": 1,
     "Locations": [
         {
             "DamageLevel": "Functional",

@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate": "3050-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -29,13 +30,10 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_banshee_BNC-3Mg",
-    "HeraldryID": null,
     "Description": {
         "Cost": 12730000,
         "Rarity": 5,
         "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
         "UIName": "Banshee BNC-3Mg",
         "Id": "mechdef_banshee_BNC-3Mg",
         "Name": "Banshee",
@@ -43,7 +41,6 @@
         "Icon": "uixTxrIcon_banshee"
     },
     "simGameMechPartCost": 1270000,
-    "Version": 1,
     "Locations": [
         {
             "DamageLevel": "Functional",
@@ -154,6 +151,5 @@
             "HardpointSlot": 1,
             "DamageLevel": "Functional"
         }
-    ],
-    "MinAppearanceDate": "3050-01-01T00:00:00Z"
+    ]
 }

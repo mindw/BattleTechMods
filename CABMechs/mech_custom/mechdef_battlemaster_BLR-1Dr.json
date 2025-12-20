@@ -31,9 +31,8 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_battlemaster_BLR-1Dr",
-    "HeraldryID": null,
     "Description": {
-        "Cost": 11100000,
+        "Cost": 12720000,
         "Rarity": 4,
         "Purchasable": true,
         "UIName": "BattleMaster BLR-1Dr",
@@ -42,7 +41,7 @@
         "Details": "An early lost tech refit of the Davion Battlemaster variant. The heatsinks were upgraded to double ones, dropping seven while retaining the ability to fire all forward weapons without building any heat. Offensivly, an additional PPC was added to the right arm and a rear firing medium laser was added to the right torso - restoring flankers detterrant somewhat. While already well armored, the switch to ferro fibrous armor allowed increasing coverage to 97% and to installing CASE to protect the reduved machines gun ammo.",
         "Icon": "uixTxrIcon_battlemaster"
     },
-    "simGameMechPartCost": 1110000,
+    "simGameMechPartCost": 1272000,
     "Locations": [
         {
             "DamageLevel": "Functional",

@@ -32,7 +32,7 @@
     },
     "ChassisID": "chassisdef_assassin_ASN-26",
     "Description": {
-        "Cost": 4620000,
+        "Cost": 5820000,
         "Rarity": 0,
         "Purchasable": true,
         "UIName": "Assassin ASN-26",
@@ -41,7 +41,7 @@
         "Details": "A 3050's tech version of the -30, the -26 also uses an Endo Steel chassis but mounts an XL engine, the extra weight saved allowing the 'Mech to carry an Ultra AC/5 and a pair of Medium Pulse Lasers for offensive armament. Though clad in six and half tons of armor, a single ton of autocannon reloads and ten double heat sinks provide limited field endurance.",
         "Icon": "uixTxrIcon_assassin"
     },
-    "simGameMechPartCost": 460000,
+    "simGameMechPartCost": 582000,
     "Locations": [
         {
             "DamageLevel": "Functional",

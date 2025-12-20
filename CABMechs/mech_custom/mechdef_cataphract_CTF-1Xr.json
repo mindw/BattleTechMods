@@ -31,7 +31,7 @@
     },
     "ChassisID": "chassisdef_cataphract_CTF-1Xr",
     "Description": {
-        "Cost": 8020000,
+        "Cost": 8400000,
         "Rarity": 5,
         "Purchasable": true,
         "UIName": "Cataphract CTF-1Xr",
@@ -40,7 +40,7 @@
         "Details": "A lost tech upgrade of the first non experimental Cataphract. The heat sinks are upgraded to double and while three were removed enough to keep it heat natural. Protection improved by increasing armor coverage to 99% and installig CASE in the right torse to protect the autocannon ammo. Weaponary wasn't neglected with the improved LB10X replaces the autocannon.",
         "Icon": "uixTxrIcon_cataphract"
     },
-    "simGameMechPartCost": 800000,
+    "simGameMechPartCost": 840000,
     "Locations": [
         {
             "DamageLevel": "Functional",

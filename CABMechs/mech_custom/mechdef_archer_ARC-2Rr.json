@@ -2,7 +2,7 @@
     "MinAppearanceDate": "3049-01-01T00:00:00Z",
     "ChassisID": "chassisdef_archer_ARC-2Rr",
     "Description": {
-        "Cost": 8350000,
+        "Cost": 9550000,
         "Rarity": 0,
         "Purchasable": true,
         "UIName": "Archer ARC-2Rr",
@@ -11,7 +11,7 @@
         "Details": "A lost tech refit of the venerable -2R, first appearing in Marik space and switfly spreading to Liao and Davion spaces. As is common in such refits the heat sinks were upgraded to double, the armor to ferro-fibrous and CASE was installed to both torsos. While the weapon load is unchanged, all forward facing can be fired without any heating concerns. The CASE protects the LRM ammo bins ensures the mech will survive ammo explosion to fight another day.",
         "Icon": "uixTxrIcon_archer"
     },
-    "simGameMechPartCost": 840000,
+    "simGameMechPartCost": 955000,
     "Locations": [
         {
             "DamageLevel": "Functional",

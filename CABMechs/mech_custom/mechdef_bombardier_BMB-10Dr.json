@@ -32,21 +32,17 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_bombardier_BMB-10Dr",
-    "HeraldryID": null,
     "Description": {
-        "Cost": 7200000,
+        "Cost": 8400000,
         "Rarity": 3,
         "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
         "UIName": "Bombardier BMB-10Dr",
         "Id": "mechdef_bombardier_BMB-10Dr",
         "Name": "Bombardier",
         "Details": "A refit of the Star League unpopular -10D downgrade. The heat sinks were upgraded to double, more than enough keep it cool in any scenario. Half a ton of machine gun ammo was removed in favour of installing CASE in the right torso where all ammo was relocated to. The armor was upgraded to ferro fibrous and while coverage was increased, the saved tonnage went into increasing the LRM ammo by 50%.",
         "Icon": "uixTxrIcon_bombardier"
     },
-    "simGameMechPartCost": 720000,
-    "Version": 1,
+    "simGameMechPartCost": 840000,
     "Locations": [
         {
             "DamageLevel": "Functional",

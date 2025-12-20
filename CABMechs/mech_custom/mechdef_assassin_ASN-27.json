@@ -33,7 +33,7 @@
     },
     "ChassisID": "chassisdef_assassin_ASN-27",
     "Description": {
-        "Cost": 4620000,
+        "Cost": 5820000,
         "Rarity": 0,
         "Purchasable": true,
         "UIName": "Assassin ASN-27",
@@ -42,7 +42,7 @@
         "Details": "A 3050 era take on -99, the -27 drops the TAG and sword to upgrade the Light PPC for a full size PPC thanks to the use of Endo Steel, retaining the Guardian ECM but replacing the Stealth armor with an equal volume of standard plating.",
         "Icon": "uixTxrIcon_assassin"
     },
-    "simGameMechPartCost": 460000,
+    "simGameMechPartCost": 582000,
     "Locations": [
         {
             "DamageLevel": "Functional",

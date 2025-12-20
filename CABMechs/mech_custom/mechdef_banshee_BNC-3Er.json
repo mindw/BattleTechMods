@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate": "3048-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -29,21 +30,17 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_banshee_BNC-3Er",
-    "HeraldryID": null,
     "Description": {
-        "Cost": 11650000,
+        "Cost": 12670000,
         "Rarity": 4,
         "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
         "UIName": "Banshee BNC-3Er",
         "Id": "mechdef_banshee_BNC-3Er",
         "Name": "Banshee",
         "Details": "A refit of the under appreciated stock Banshee. The heat sinks are upgraded to double freeing conbsiderable amount of tonnage. While the base weapons remain the same, all were upgraded - the Autocannon to an Ultra AC/5, the PPC to an extended range one and even the small laser to a medium one. Protection was greatly improved by the inclusion of CASE for the auto cannon ammo and coverage increased to over 98%.",
         "Icon": "uixTxrIcon_banshee"
     },
-    "simGameMechPartCost": 1170000,
-    "Version": 1,
+    "simGameMechPartCost": 1267000,
     "Locations": [
         {
             "DamageLevel": "Functional",
@@ -154,6 +151,5 @@
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         }
-    ],
-    "MinAppearanceDate": "3048-01-01T00:00:00Z"
+    ]
 }

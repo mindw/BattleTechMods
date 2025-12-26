@@ -20,8 +20,6 @@
     "InitialTonnage": 61.5,
     "weightClass": "ASSAULT",
     "Heatsinks": 54,
-    "TopSpeed": 120,
-    "TurnRadius": 90,
     "MaxJumpjets": 4,
     "Stability": 200,
     "StabilityDefenses": [
@@ -66,7 +64,16 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }                
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 160,
@@ -152,7 +159,16 @@
         },
         {
             "Location": "RightArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }                
+            ],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 160,

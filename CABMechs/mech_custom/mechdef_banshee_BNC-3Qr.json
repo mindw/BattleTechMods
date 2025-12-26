@@ -1,4 +1,5 @@
 {
+    "MinAppearanceDate": "3048-01-01T00:00:00Z",
     "MechTags": {
         "items": [
             "unit_release",
@@ -9,16 +10,17 @@
             "unit_lance_assassin",
             "unit_role_brawler",
             "unit_speed_high",
+            "unit_LosTech",            
             "NotDavion",
             "NotLiao",
-            "NotMarik",
+            "Marik",
             "NotSteiner",
             "NotKurita",
             "NotComStar",
             "NotMagistracyOfCanopus",
             "NotTaurianConcordat",
-            "Locals",
-            "AuriganRestoration",
+            "NotLocals",
+            "NotAuriganRestoration",
             "NotAuriganPirates",
             "NotAuriganMercenaries",
             "NotMercenaryReviewBoard",
@@ -27,18 +29,18 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_banshee_BNC-3Q",
+    "ChassisID": "chassisdef_banshee_BNC-3Qr",
     "Description": {
-        "Cost": 11600000,
+        "Cost": 12740000,
         "Rarity": 4,
         "Purchasable": true,
-        "UIName": "Banshee BNC-3Q",
-        "Id": "mechdef_banshee_BNC-3Q",
+        "UIName": "Banshee BNC-3Qr",
+        "Id": "mechdef_banshee_BNC-3Qr",
         "Name": "Banshee",
-        "Details": "The Banshee 3Q variant lacks the long distance capabilities of its predecessor, replacing its AC10 and PPC with an AC20 and enough ammo to last in a sustained fight.",
+        "Details": "A lost tech refit of the Marik exclusive -3Q variant. The heat sinks were upgraded to double, dropping two - enough to handle the increased heat load. Three tons of AC/20 ammo and the small laser were replaced by 4 medium lasers effectivly doubling the potential damage output. Protection was enhanced by installing CASE for proteection the remaining ammo and increasing the armor coverage from 82 percent to 91. The refit was so popular that the original was either upgraded or sold to planetary militias.",
         "Icon": "uixTxrIcon_banshee"
     },
-    "simGameMechPartCost": 1160000,
+    "simGameMechPartCost": 1274000,
     "Locations": [
         {
             "DamageLevel": "Functional",
@@ -52,10 +54,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftArm",
-            "CurrentArmor": 105,
+            "CurrentArmor": 160,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 105,
+            "AssignedArmor": 160,
             "AssignedRearArmor": -1
         },
         {
@@ -70,11 +72,11 @@
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
-            "CurrentArmor": 200,
-            "CurrentRearArmor": 85,
+            "CurrentArmor": 230,
+            "CurrentRearArmor": 55,
             "CurrentInternalStructure": 150,
-            "AssignedArmor": 200,
-            "AssignedRearArmor": 85
+            "AssignedArmor": 230,
+            "AssignedRearArmor": 55
         },
         {
             "DamageLevel": "Functional",
@@ -88,76 +90,69 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightArm",
-            "CurrentArmor": 105,
+            "CurrentArmor": 160,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 105,
+            "AssignedArmor": 160,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 130,
+            "CurrentArmor": 190,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 100,
-            "AssignedArmor": 130,
+            "AssignedArmor": 190,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 130,
+            "CurrentArmor": 190,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 100,
-            "AssignedArmor": 130,
+            "AssignedArmor": 190,
             "AssignedRearArmor": -1
         }
     ],
     "inventory": [
         {
             "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
+            "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -165,11 +160,17 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
             "DamageLevel": "Functional"
         }
-    ],
-    "MinAppearanceDate": "2915-01-01T00:00:00Z"
+    ]
 }

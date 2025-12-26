@@ -29,13 +29,10 @@
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_banshee_BNC-3MC",
-    "HeraldryID": null,
     "Description": {
         "Cost": 11650000,
         "Rarity": 4,
         "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
         "UIName": "Banshee BNC-3MC",
         "Id": "mechdef_banshee_BNC-3MC",
         "Name": "Banshee",
@@ -43,7 +40,6 @@
         "Icon": "uixTxrIcon_banshee"
     },
     "simGameMechPartCost": 1170000,
-    "Version": 1,
     "Locations": [
         {
             "DamageLevel": "Functional",

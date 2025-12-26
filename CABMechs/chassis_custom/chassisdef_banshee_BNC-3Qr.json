@@ -1,0 +1,275 @@
+{
+    "Description": {
+        "Cost": 10300000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Banshee",
+        "Id": "chassisdef_banshee_BNC-3Qr",
+        "Name": "Banshee",
+        "Details": "A lost tech refit of the Marik exclusive -3Q variant. The heat sinks were upgraded to double, dropping two - enough to handle the increased heat load. Three tons of AC/20 ammo and the small laser were replaced by 4 medium lasers effectivly doubling the potential damage output. Protection was enhanced by installing CASE for proteection the remaining ammo and increasing the armor coverage from 82 percent to 91. The refit was so popular that the original was either upgraded or sold to planetary militias.",
+        "Icon": "uixTxrIcon_banshee"
+    },
+    "MovementCapDefID": "movedef_banshee_BNC-3E",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_banshee",
+    "PrefabIdentifier": "chrPrfMech_bansheeBase-001",
+    "PrefabBase": "banshee",
+    "Tonnage": 95,
+    "InitialTonnage": 58,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 30,
+    "MaxJumpjets": 4,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 130,
+    "MeleeInstability": 95,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 143,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 95,
+    "DFAInstability": 95,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 300,
+            "MaxRearArmor": 150,
+            "InternalStructure": 150
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 200,
+            "MaxRearArmor": 100,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 160,
+            "MaxRearArmor": -1,
+            "InternalStructure": 80
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 200,
+            "MaxRearArmor": -1,
+            "InternalStructure": 100
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "BNC-3Qr",
+    "ChassisTags": {
+        "items": [
+            "mech_case_right",
+            "chassis_ferro",
+            "chassis_DHS"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Juggernaut",
+    "YangsThoughts": "A lost tech refit of the Marik exclusive -3Q variant. The heat sinks were upgraded to double, dropping two - enough to handle the increased heat load. Three tons of AC/20 ammo and the small laser were replaced by 4 medium lasers effectivly doubling the potential damage output. Protection was enhanced by installing CASE for proteection the remaining ammo and increasing the armor coverage from 82 percent to 91. The refit was so popular that the original was either upgraded or sold to planetary militias.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_FerroFibrous_5_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_FerroFibrous_3_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_FerroFibrous_5_Slot",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -209,5 +209,15 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper",
-    "YangsThoughts": "If the Urbie R63 can get within the range it wants the LBX-10 upgrade is a bit punchier....If. The Urbanmech isn't exactly known for it's superior battlefield positioning."
+    "YangsThoughts": "If the Urbie R63 can get within the range it wants the LBX-10 upgrade is a bit punchier....If. The Urbanmech isn't exactly known for it's superior battlefield positioning.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Special_Narrow_Low_Profile",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

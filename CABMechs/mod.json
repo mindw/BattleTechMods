@@ -562,7 +562,8 @@
                         "srm6",
                         "missile6",
                         "srm2",
-                        "missile2"
+                        "missile2",
+                        "lrm10"
                     ]
                 },
                 {
@@ -576,6 +577,7 @@
                         "missile5",
                         "missile4",
                         "missile2",
+                        "lrm10",
                         "ams"
                     ]
                 },
